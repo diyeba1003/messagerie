@@ -22,6 +22,8 @@ import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  *
@@ -42,23 +44,44 @@ public class Message implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)
     @Column(name = "id_message", nullable = false)
+    @Getter
+    @Setter
     private Integer idMessage;
     @Basic(optional = false)
     @Column(name = "date", nullable = false)
     @Temporal(TemporalType.TIMESTAMP)
+    @Getter
+    @Setter
     private Date date;
     @Column(name = "object", length = 200)
+    
+    @Getter
+    @Setter
     private String object;
     @Column(name = "body", length = 2000)
+    @Getter
+    @Setter
     private String body;
-    @ManyToMany(mappedBy = "messageList", fetch = FetchType.LAZY)
-    private List<Adresse> adresseList;
-    @ManyToMany(mappedBy = "messageList1", fetch = FetchType.LAZY)
-    private List<Adresse> adresseList1;
-    @ManyToMany(mappedBy = "messageList2", fetch = FetchType.LAZY)
-    private List<Adresse> adresseList2;
+    
+    @ManyToMany(mappedBy = "messagesTranfertList", fetch = FetchType.LAZY)
+    @Getter
+    @Setter
+    private List<Adresse> adrTransfertList;
+    
+    @ManyToMany(mappedBy = "messagesDestinataire", fetch = FetchType.LAZY)
+    @Getter
+    @Setter
+    private List<Adresse> adrDestinataireList;
+    
+    @ManyToMany(mappedBy = "messagesDestinataireCopie", fetch = FetchType.LAZY)
+    @Getter
+    @Setter
+    private List<Adresse> adrDestinataireCopieList;
+    
     @JoinColumn(name = "expediteur", referencedColumnName = "id_adresse", nullable = false)
     @ManyToOne(optional = false, fetch = FetchType.LAZY)
+    @Getter
+    @Setter
     private Adresse expediteur;
 
     public Message() {
@@ -73,69 +96,7 @@ public class Message implements Serializable {
         this.date = date;
     }
 
-    public Integer getIdMessage() {
-        return idMessage;
-    }
-
-    public void setIdMessage(Integer idMessage) {
-        this.idMessage = idMessage;
-    }
-
-    public Date getDate() {
-        return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
-
-    public String getObject() {
-        return object;
-    }
-
-    public void setObject(String object) {
-        this.object = object;
-    }
-
-    public String getBody() {
-        return body;
-    }
-
-    public void setBody(String body) {
-        this.body = body;
-    }
-
-    public List<Adresse> getAdresseList() {
-        return adresseList;
-    }
-
-    public void setAdresseList(List<Adresse> adresseList) {
-        this.adresseList = adresseList;
-    }
-
-    public List<Adresse> getAdresseList1() {
-        return adresseList1;
-    }
-
-    public void setAdresseList1(List<Adresse> adresseList1) {
-        this.adresseList1 = adresseList1;
-    }
-
-    public List<Adresse> getAdresseList2() {
-        return adresseList2;
-    }
-
-    public void setAdresseList2(List<Adresse> adresseList2) {
-        this.adresseList2 = adresseList2;
-    }
-
-    public Adresse getExpediteur() {
-        return expediteur;
-    }
-
-    public void setExpediteur(Adresse expediteur) {
-        this.expediteur = expediteur;
-    }
+    
 
     @Override
     public int hashCode() {

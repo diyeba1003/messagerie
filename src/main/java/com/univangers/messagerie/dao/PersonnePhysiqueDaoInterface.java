@@ -4,18 +4,14 @@
  */
 package com.univangers.messagerie.dao;
 
-import com.univangers.messagerie.model.Adresse;
-import java.util.List;
+import com.univangers.messagerie.model.PersonnePhysique;
 
 /**
  *
  * @author etud
- */  
-public interface AdresseDaoInterface  {
+ */
+public interface PersonnePhysiqueDaoInterface {
     
-    public void insertAdresse(Adresse adresse);
-    public Adresse findAdresseById(String idAdresse);
-    public List<Adresse> findAllAdresse();
-
-    
+    public void insertPersonnePhysique(PersonnePhysique personne);
+    public PersonnePhysique findPersonnePhysiqueById(String idpers);
 }

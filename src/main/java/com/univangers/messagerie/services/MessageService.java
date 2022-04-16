@@ -6,9 +6,11 @@ package com.univangers.messagerie.services;
 
 import com.univangers.messagerie.dao.MessageDaoInterface;
 import com.univangers.messagerie.dto.MessageDto;
+import com.univangers.messagerie.model.Adresse;
 import com.univangers.messagerie.model.Message;
 import java.util.ArrayList;
 import java.util.List;
+import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,6 +19,7 @@ import org.springframework.stereotype.Service;
  * @author etud
  */
 @Service
+@Transactional
 public class MessageService  implements MessageServiceInterface{
     
     @Autowired
@@ -69,8 +72,14 @@ public class MessageService  implements MessageServiceInterface{
         message.setDate(messageDto.getDate());
         message.setObject(messageDto.getObject());
         message.setBody(messageDto.getBody());
+        if(messageDto.getExpediteurDto()!= null){
+            Adresse adr= new Adresse();
+            adr.setIdAdresse(messageDto.getExpediteurDto().getId());
+            message.setExpediteur(adr);
+       
+        }
+         return message;
         
-        return message;
     }
     
     /**

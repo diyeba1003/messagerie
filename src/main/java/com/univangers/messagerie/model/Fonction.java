@@ -14,6 +14,8 @@ import javax.persistence.Id;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  *
@@ -32,8 +34,14 @@ public class Fonction implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)
     @Column(name = "id_fonction", nullable = false)
+    
+    @Getter
+    @Setter
     private Integer idFonction;
     @Column(name = "titre", length = 75)
+    
+    @Getter
+    @Setter
     private String titre;
 
     public Fonction() {
@@ -43,21 +51,7 @@ public class Fonction implements Serializable {
         this.idFonction = idFonction;
     }
 
-    public Integer getIdFonction() {
-        return idFonction;
-    }
-
-    public void setIdFonction(Integer idFonction) {
-        this.idFonction = idFonction;
-    }
-
-    public String getTitre() {
-        return titre;
-    }
-
-    public void setTitre(String titre) {
-        this.titre = titre;
-    }
+    
 
     @Override
     public int hashCode() {

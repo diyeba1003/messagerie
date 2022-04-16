@@ -9,5 +9,5 @@ package com.univangers.messagerie.dao;
  * @author etud
  */
 public class AdresseDao {
-    
+
 }

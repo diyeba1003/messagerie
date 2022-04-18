@@ -26,7 +26,7 @@ public class AdresseService implements AdresseServiceInterface {
 
     private Adresse convertToEntity(AdresseDto adresseDto) {
         Adresse adresse = new Adresse();
-        adresse.setIdAdresse(adresseDto.getId());
+        adresse.setIdADRESSE(adresseDto.getId());
         return adresse;
     }
 
@@ -45,7 +45,7 @@ public class AdresseService implements AdresseServiceInterface {
     private AdresseDto convertToDto(Adresse adresse) {
 
         AdresseDto adresseDto = new AdresseDto();
-        adresseDto.setId(adresse.getIdAdresse());
+        adresseDto.setId(adresse.getIdADRESSE());
         return adresseDto;
     }
 

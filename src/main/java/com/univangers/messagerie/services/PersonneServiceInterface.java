@@ -4,13 +4,14 @@
  */
 package com.univangers.messagerie.services;
 
-import com.univangers.messagerie.dto.PersonnePhysiqueDto;
+import com.univangers.messagerie.dto.PersonneDto;
+
 
 /**
  *
  * @author etud
  */
-public interface PersonnePhysiqueServiceInterface {
-    public void insertPersonnePhysiqueDto(PersonnePhysiqueDto personneDto);
-    public PersonnePhysiqueDto findPersonnePhysiqueDtoById(String id);
+public interface PersonneServiceInterface {
+    public void insertPersonnePhysiqueDto(PersonneDto  personneDto);
+    public PersonneDto findPersonnePhysiqueDtoById(String id);
 }

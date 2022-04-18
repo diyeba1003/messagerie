@@ -24,11 +24,4 @@ public class AdresseController {
     @Autowired
     private AdresseServiceInterface adresseService;
 
-    @PostMapping("/test-insert")
-    public void testInsert() {
-       AdresseDto aDto = new AdresseDto();
-       aDto.setId("diya1003@gmail.com");
-        
-        adresseService.insertAdresseDto(aDto);
-    }
 }

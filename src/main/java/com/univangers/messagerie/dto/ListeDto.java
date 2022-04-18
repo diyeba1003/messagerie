@@ -16,14 +16,16 @@ public class ListeDto {
    
     @Getter
     @Setter
-    private String idAdresse;
+    private String id;
+    
+    @Getter
+    @Setter
+    private String libelle;
     
     public ListeDto() {
     }
     
-     public ListeDto(String idAdresse) {
-        this.idAdresse = idAdresse;
-    }
+     
 
     
     

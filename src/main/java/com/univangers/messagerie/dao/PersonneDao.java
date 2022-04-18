@@ -4,26 +4,26 @@
  */
 package com.univangers.messagerie.dao;
 
-import com.univangers.messagerie.model.PersonnePhysique;
+import com.univangers.messagerie.model.Personne;
 import javax.persistence.EntityManager;
 
 /**
  *
  * @author etud
  */
-public class PersonnePhysiqueDao  implements PersonnePhysiqueDaoInterface{
+public class PersonneDao  implements PersonneDaoInterface{
     
      private transient EntityManager em;
 
     @Override
-    public void insertPersonnePhysique(PersonnePhysique personne) {
+    public void insertPersonnePhysique(Personne personne) {
        em.persist(personne); // Fait le INSERT
         em.flush();
     }
 
     @Override
-    public PersonnePhysique findPersonnePhysiqueById(String idpers) {
-       PersonnePhysique personne = em.find(PersonnePhysique.class, idpers);
+    public Personne findPersonnePhysiqueById(String idpers) {
+       Personne personne = em.find(Personne.class, idpers);
         return personne;
     }
 

@@ -4,6 +4,7 @@
  */
 package com.univangers.messagerie.dto;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import lombok.Getter;
@@ -37,18 +38,25 @@ public class MessageDto {
 
     @Getter
     @Setter
-    private List<AdresseDto> destinataires;
+    private List<AdresseDto> destinataireDtoList;
+
+    @Getter
+    @Setter
+    private List<AdresseDto> destinataireCopieDtoList;
+
+    @Getter
+    @Setter
+    private List<AdresseDto> transfertDtoList;
+
+    @Getter
+    @Setter
+    private List<FichierDto> fichierDtoList;
 
     public MessageDto() {
-    }
-
-    public MessageDto(Integer id, Date date, String object, String body, AdresseDto expediteurDto, List<AdresseDto> destinataires) {
-        this.id = id;
-        this.date = date;
-        this.object = object;
-        this.body = body;
-        this.expediteurDto = expediteurDto;
-        this.destinataires = destinataires;
+        this.destinataireDtoList = new ArrayList<>();
+        this.destinataireCopieDtoList = new ArrayList<>();
+        this.transfertDtoList = new ArrayList<>();
+        this.fichierDtoList = new ArrayList<>();
     }
 
 }

@@ -12,13 +12,14 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.Id;
-import javax.persistence.Inheritance;
-import javax.persistence.InheritanceType;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
+import javax.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -27,58 +28,61 @@ import lombok.Setter;
  * @author etud
  */
 @Entity
-@Inheritance(strategy=InheritanceType.SINGLE_TABLE)
+@Table(name = "ADRESSE")
+@NamedQueries({
+    @NamedQuery(name = "Adresse.findAll", query = "SELECT a FROM Adresse a"),
+    @NamedQuery(name = "Adresse.findByIdADRESSE", query = "SELECT a FROM Adresse a WHERE a.idADRESSE = :idADRESSE")})
 public class Adresse implements Serializable {
 
     private static final long serialVersionUID = 1L;
-    
     @Id
     @Basic(optional = false)
-    @Column(name = "id_adresse", nullable = false, length = 80)
+    @Column(nullable = false, length = 80)
     @Getter
     @Setter
-    private String idAdresse;
+    private String idADRESSE;
 
-    @JoinTable(name = "transfert", joinColumns = {
-        @JoinColumn(name = "id_adresse", referencedColumnName = "id_adresse", nullable = false)}, inverseJoinColumns = {
-        @JoinColumn(name = "id_message", referencedColumnName = "id_message", nullable = false)})
-    @ManyToMany(fetch = FetchType.LAZY)
+    @ManyToMany(mappedBy = "adresseTransfertList", fetch = FetchType.LAZY)
     @Getter
     @Setter
-    private List<Message> messagesTranfertList;
+    private List<Message> messageTransfertList;
 
-    @JoinTable(name = "destinataire", joinColumns = {
-        @JoinColumn(name = "id_adresse", referencedColumnName = "id_adresse", nullable = false)}, inverseJoinColumns = {
-        @JoinColumn(name = "id_message", referencedColumnName = "id_message", nullable = false)})
-    @ManyToMany(fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "sender", fetch = FetchType.LAZY)
     @Getter
     @Setter
-    private List<Message> messagesDestinataire;
+    private List<Message> messageList;
 
-    @JoinTable(name = "destinataire_copie", joinColumns = {
-        @JoinColumn(name = "id_adresse_copie", referencedColumnName = "id_adresse", nullable = false)}, inverseJoinColumns = {
-        @JoinColumn(name = "id_message_copie", referencedColumnName = "id_message", nullable = false)})
-    @ManyToMany(fetch = FetchType.LAZY)
+    @OneToOne(cascade = CascadeType.ALL, mappedBy = "adresse", fetch = FetchType.LAZY)
     @Getter
     @Setter
-    private List<Message> messagesDestinataireCopie;
+    private Liste liste;
 
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "expediteur", fetch = FetchType.LAZY)
+    @ManyToMany(mappedBy = "destinataires", fetch = FetchType.LAZY)
     @Getter
     @Setter
-    private List<Message> messageExpediteurList;
+    private List<Message> destinataireMessageList;
+
+    @ManyToMany(mappedBy = "destinatairesCopie", fetch = FetchType.LAZY)
+    @Getter
+    @Setter
+    private List<Message> destinatairesCopieMessageList;
+
+    @OneToOne(cascade = CascadeType.ALL, mappedBy = "adresse", fetch = FetchType.LAZY)
+    @Getter
+    @Setter
+    private Personne personne;
 
     public Adresse() {
     }
 
-    public Adresse(String idAdresse) {
-        this.idAdresse = idAdresse;
+    public Adresse(String idADRESSE) {
+        this.idADRESSE = idADRESSE;
     }
 
     @Override
     public int hashCode() {
         int hash = 0;
-        hash += (idAdresse != null ? idAdresse.hashCode() : 0);
+        hash += (idADRESSE != null ? idADRESSE.hashCode() : 0);
         return hash;
     }
 
@@ -89,7 +93,7 @@ public class Adresse implements Serializable {
             return false;
         }
         Adresse other = (Adresse) object;
-        if ((this.idAdresse == null && other.idAdresse != null) || (this.idAdresse != null && !this.idAdresse.equals(other.idAdresse))) {
+        if ((this.idADRESSE == null && other.idADRESSE != null) || (this.idADRESSE != null && !this.idADRESSE.equals(other.idADRESSE))) {
             return false;
         }
         return true;
@@ -97,7 +101,7 @@ public class Adresse implements Serializable {
 
     @Override
     public String toString() {
-        return "com.univangers.messagerie.model.Adresse[ idAdresse=" + idAdresse + " ]";
+        return "com.univangers.messagerie.model.Adresse[ idADRESSE=" + idADRESSE + " ]";
     }
 
 }

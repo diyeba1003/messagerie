@@ -6,7 +6,6 @@ package com.univangers.messagerie.services;
 
 import com.univangers.messagerie.dao.ListeDaoInterface;
 import com.univangers.messagerie.dto.ListeDto;
-import com.univangers.messagerie.model.Adresse;
 import com.univangers.messagerie.model.Liste;
 
 /**
@@ -23,12 +22,15 @@ public class ListeService {
      
       private Liste convertToEntity(ListeDto listeDto) {
         Liste liste = new Liste();
+       liste.setIdLISTE(listeDto.getId());
+       liste.setLibelle(listeDto.getLibelle());
        
         return liste;
       }
     private ListeDto convertToDto(Liste liste) {
        ListeDto listeDto= new ListeDto();
-        listeDto.setIdAdresse(liste.getIdAdresse());
+        listeDto.setId(liste.getIdLISTE());
+        liste.setLibelle(liste.getLibelle());
         return listeDto;
 }
 }

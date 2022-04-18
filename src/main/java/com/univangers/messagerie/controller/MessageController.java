@@ -4,14 +4,16 @@
  */
 package com.univangers.messagerie.controller;
 
+import com.univangers.messagerie.dto.AdresseDto;
+import com.univangers.messagerie.dto.MessageDto;
 import com.univangers.messagerie.fileReader.MailObject;
 import com.univangers.messagerie.fileReader.MimeMessageReader;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import javax.mail.MessagingException;
 import org.springframework.web.bind.annotation.PathVariable;
-import com.univangers.messagerie.services.AdresseServiceInterface;
 import com.univangers.messagerie.services.MessageServiceInterface;
+import java.util.Date;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -30,9 +32,6 @@ public class MessageController {
 
     @Autowired
     private MessageServiceInterface messageService;
-    
-    @Autowired
-    private AdresseServiceInterface adresseService;
 
     @GetMapping("/hello")
     public String helloWorld() {
@@ -46,16 +45,32 @@ public class MessageController {
 
         return mailObject;
     }
+
     @PostMapping("/test-insert")
     public void testInsert() {
-     /*   MessageDto mDto = new MessageDto();
-        AdresseDto aDto = new AdresseDto();
+
+        AdresseDto expediteurDto = new AdresseDto();
+        expediteurDto.setId("matylayesouare@gmail.com");
+
+        AdresseDto destinataireDto = new AdresseDto();
+        destinataireDto.setId("hamidou@gmail.com");
+
+        MessageDto mDto = new MessageDto();
         mDto.setObject("test");
         mDto.setDate(new Date());
         mDto.setBody("Test insertion Data");
-        aDto = adresseService.findAdresseById("diya1003@gmail.com");
-        mDto.setExpediteurDto(aDto);
+        mDto.setExpediteurDto(expediteurDto);
 
-        messageService.insertMessageDto(mDto);*/
+        mDto.getDestinataireDtoList().add(destinataireDto);
+
+        messageService.insertMessageDto(mDto);
     }
+
+    @GetMapping("/get-message")
+    public MessageDto getMessage() {
+        MessageDto mDto = new MessageDto();
+        mDto = messageService.findMessageDtoById(1);
+        return mDto;
+    }
+
 }

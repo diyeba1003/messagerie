@@ -7,6 +7,9 @@
     <class>com.univangers.messagerie.model.Liste</class>
     <class>com.univangers.messagerie.model.Message</class>
     <class>com.univangers.messagerie.model.Adresse</class>
+    <class>com.univangers.messagerie.model.PersonneFonction</class>
+    <class>com.univangers.messagerie.model.Personne</class>
+    <class>com.univangers.messagerie.model.Fichier</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/messagerie?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
       <property name="javax.persistence.jdbc.user" value="root"/>

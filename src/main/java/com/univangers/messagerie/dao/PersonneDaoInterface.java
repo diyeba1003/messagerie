@@ -4,14 +4,14 @@
  */
 package com.univangers.messagerie.dao;
 
-import com.univangers.messagerie.model.PersonnePhysique;
+import com.univangers.messagerie.model.Personne;
 
 /**
  *
  * @author etud
  */
-public interface PersonnePhysiqueDaoInterface {
+public interface PersonneDaoInterface {
     
-    public void insertPersonnePhysique(PersonnePhysique personne);
-    public PersonnePhysique findPersonnePhysiqueById(String idpers);
+    public void insertPersonnePhysique(Personne personne);
+    public Personne findPersonnePhysiqueById(String idpers);
 }

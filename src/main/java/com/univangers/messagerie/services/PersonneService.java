@@ -4,35 +4,35 @@
  */
 package com.univangers.messagerie.services;
 
-import com.univangers.messagerie.dao.PersonnePhysiqueDaoInterface;
-import com.univangers.messagerie.dto.PersonnePhysiqueDto;
+import com.univangers.messagerie.dao.PersonneDaoInterface;
+import com.univangers.messagerie.dto.PersonneDto;
 import com.univangers.messagerie.model.Adresse;
-import com.univangers.messagerie.model.PersonnePhysique;
+import com.univangers.messagerie.model.Personne;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  *
  * @author etud
  */
-public class PersonnePhysiqueService implements PersonnePhysiqueServiceInterface {
+public class PersonneService implements PersonneServiceInterface {
 
     @Autowired
-    private PersonnePhysiqueDaoInterface personneDao;
+    private PersonneDaoInterface personneDao;
 
     @Override
-    public void insertPersonnePhysiqueDto(PersonnePhysiqueDto personneDto) {
-        PersonnePhysique personne = convertToEntity(personneDto);
+    public void insertPersonnePhysiqueDto(PersonneDto personneDto) {
+        Personne personne = convertToEntity(personneDto);
         personneDao.insertPersonnePhysique(personne);
     }
 
     @Override
-    public PersonnePhysiqueDto findPersonnePhysiqueDtoById(String id) {
-        PersonnePhysique personne = personneDao.findPersonnePhysiqueById(id);
+    public PersonneDto findPersonnePhysiqueDtoById(String id) {
+        Personne personne = personneDao.findPersonnePhysiqueById(id);
         return convertToDto(personne);
     }
 
-    private PersonnePhysique convertToEntity(PersonnePhysiqueDto personneDto) {
-        PersonnePhysique personneP = new PersonnePhysique();
+    private Personne convertToEntity(PersonneDto personneDto) {
+        Personne personneP = new Personne();
         
         /*
         Adresse adr= new Adresse();
@@ -45,9 +45,9 @@ public class PersonnePhysiqueService implements PersonnePhysiqueServiceInterface
         return personneP;
     }
 
-    private PersonnePhysiqueDto convertToDto(PersonnePhysique personne) {
-        PersonnePhysiqueDto personneDto= new PersonnePhysiqueDto();
-        personneDto.setIdAdresse(personne.getIdAdresse());
+    private PersonneDto convertToDto(Personne personne) {
+        PersonneDto personneDto= new PersonneDto();
+        personneDto.setIdAdresse(personne.getIdPERSONNE());
         personneDto.setNom(personne.getNom());
         personneDto.setPrenom(personne.getPrenom());
         return personneDto;

@@ -5,15 +5,20 @@
 package com.univangers.messagerie.model;
 
 import java.io.Serializable;
+import java.util.List;
 import javax.persistence.Basic;
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import javax.persistence.UniqueConstraint;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -22,41 +27,47 @@ import lombok.Setter;
  * @author etud
  */
 @Entity
-@Table(name = "fonction", catalog = "messagerie", schema = "")
+@Table(name="FONCTION", uniqueConstraints = {
+    @UniqueConstraint(columnNames = {"title"})})
 @NamedQueries({
     @NamedQuery(name = "Fonction.findAll", query = "SELECT f FROM Fonction f"),
-    @NamedQuery(name = "Fonction.findByIdFonction", query = "SELECT f FROM Fonction f WHERE f.idFonction = :idFonction"),
-    @NamedQuery(name = "Fonction.findByTitre", query = "SELECT f FROM Fonction f WHERE f.titre = :titre")})
+    @NamedQuery(name = "Fonction.findByIdFONCTION", query = "SELECT f FROM Fonction f WHERE f.idFONCTION = :idFONCTION"),
+    @NamedQuery(name = "Fonction.findByTitle", query = "SELECT f FROM Fonction f WHERE f.title = :title")})
 public class Fonction implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)
-    @Column(name = "id_fonction", nullable = false)
+    @Column(nullable = false)
+     @Getter @Setter
+    private Integer idFONCTION;
     
-    @Getter
-    @Setter
-    private Integer idFonction;
-    @Column(name = "titre", length = 75)
+    @Basic(optional = false)
+    @Column(nullable = false, length = 120)
+     @Getter @Setter
+    private String title;
     
-    @Getter
-    @Setter
-    private String titre;
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "fonction", fetch = FetchType.LAZY)
+     @Getter @Setter
+    private List<PersonneFonction> personneFonctionList;
 
     public Fonction() {
     }
 
-    public Fonction(Integer idFonction) {
-        this.idFonction = idFonction;
+    public Fonction(Integer idFONCTION) {
+        this.idFONCTION = idFONCTION;
     }
 
-    
+    public Fonction(Integer idFONCTION, String title) {
+        this.idFONCTION = idFONCTION;
+        this.title = title;
+    }
 
     @Override
     public int hashCode() {
         int hash = 0;
-        hash += (idFonction != null ? idFonction.hashCode() : 0);
+        hash += (idFONCTION != null ? idFONCTION.hashCode() : 0);
         return hash;
     }
 
@@ -67,7 +78,7 @@ public class Fonction implements Serializable {
             return false;
         }
         Fonction other = (Fonction) object;
-        if ((this.idFonction == null && other.idFonction != null) || (this.idFonction != null && !this.idFonction.equals(other.idFonction))) {
+        if ((this.idFONCTION == null && other.idFONCTION != null) || (this.idFONCTION != null && !this.idFONCTION.equals(other.idFONCTION))) {
             return false;
         }
         return true;
@@ -75,7 +86,7 @@ public class Fonction implements Serializable {
 
     @Override
     public String toString() {
-        return "com.univangers.messagerie.model.Fonction[ idFonction=" + idFonction + " ]";
+        return "com.univangers.messagerie.model.Fonction[ idFONCTION=" + idFONCTION + " ]";
     }
     
 }

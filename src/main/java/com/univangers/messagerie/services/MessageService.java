@@ -4,7 +4,9 @@
  */
 package com.univangers.messagerie.services;
 
+import com.univangers.messagerie.dao.AdresseDaoInterface;
 import com.univangers.messagerie.dao.MessageDaoInterface;
+import com.univangers.messagerie.dto.AdresseDto;
 import com.univangers.messagerie.dto.MessageDto;
 import com.univangers.messagerie.model.Adresse;
 import com.univangers.messagerie.model.Message;
@@ -20,10 +22,13 @@ import org.springframework.stereotype.Service;
  */
 @Service
 @Transactional
-public class MessageService  implements MessageServiceInterface{
-    
+public class MessageService implements MessageServiceInterface {
+
     @Autowired
     private MessageDaoInterface messageDao;
+
+    @Autowired
+    private AdresseDaoInterface adresseDao;
 
     @Override
     public void insertMessageDto(MessageDto messageDto) {
@@ -39,11 +44,11 @@ public class MessageService  implements MessageServiceInterface{
 
     @Override
     public List<MessageDto> findAllMessageDto() {
-       List<Message> messageList = new ArrayList<>();
-       List<MessageDto> messageDtoList = new ArrayList<>();
+        List<Message> messageList = new ArrayList<>();
+        List<MessageDto> messageDtoList = new ArrayList<>();
         messageList = messageDao.findAllMessage();
-        if(!messageList.isEmpty()){
-            for(Message m: messageList){
+        if (!messageList.isEmpty()) {
+            for (Message m : messageList) {
                 messageDtoList.add(convertToDto(m));
             }
         }
@@ -59,44 +64,65 @@ public class MessageService  implements MessageServiceInterface{
     public void deleteMessageDto(Integer id) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
-    
+
     /**
      * Convertir un DTO en entity
-     * 
+     *
      * @param messageDto
-     * @return 
+     * @return
      */
-    private Message convertToEntity(MessageDto messageDto){
+    private Message convertToEntity(MessageDto messageDto) {
         Message message = new Message();
-        message.setIdMessage(messageDto.getId());
-        message.setDate(messageDto.getDate());
-        message.setObject(messageDto.getObject());
+        message.setIdMESSAGE(messageDto.getId());
+        message.setSentdate(messageDto.getDate());
+        message.setSubject(messageDto.getObject());
         message.setBody(messageDto.getBody());
-        if(messageDto.getExpediteurDto()!= null){
-            Adresse adr= new Adresse();
-            adr.setIdAdresse(messageDto.getExpediteurDto().getId());
-            message.setExpediteur(adr);
-       
+        if (messageDto.getExpediteurDto() != null) {
+            Adresse adr = adresseDao.findAdresseById(messageDto.getExpediteurDto().getId());
+            if (adr == null) {
+                adr = new Adresse();
+                adr.setIdADRESSE(messageDto.getExpediteurDto().getId());
+            }
+            message.setSender(adr);
         }
-         return message;
-        
+
+        if (messageDto.getDestinataireDtoList() != null) {
+            List<Adresse> destList = new ArrayList<>();
+            for (AdresseDto destDto : messageDto.getDestinataireDtoList()) {
+                Adresse adrDto = adresseDao.findAdresseById(destDto.getId());
+                if (adrDto == null) {
+                    adrDto = new Adresse();
+                    adrDto.setIdADRESSE(destDto.getId());
+                }
+                destList.add(adrDto);
+            }
+            message.setDestinataires(destList);
+        }
+
+        return message;
+
     }
-    
+
     /**
      * Convertir un DTO en entity
-     * 
+     *
      * @param message
-     * @return 
+     * @return
      */
-    private MessageDto convertToDto(Message message){
-        
+    private MessageDto convertToDto(Message message) {
+
         MessageDto messageDto = new MessageDto();
-        messageDto.setId(message.getIdMessage());
-        messageDto.setDate(message.getDate());
-        messageDto.setObject(message.getObject());
+        messageDto.setId(message.getIdMESSAGE());
+        messageDto.setDate(message.getSentdate());
+        messageDto.setObject(message.getSubject());
         messageDto.setBody(message.getBody());
-        
+        if (message.getSender() != null) {
+            AdresseDto adrDto = new AdresseDto();
+            adrDto.setId(message.getSender().getIdADRESSE());
+            messageDto.setExpediteurDto(adrDto);
+        }
+
         return messageDto;
     }
-    
+
 }

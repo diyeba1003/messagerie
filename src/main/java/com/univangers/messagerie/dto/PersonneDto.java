@@ -11,7 +11,7 @@ import lombok.Setter;
  *
  * @author etud
  */
-public class PersonnePhysiqueDto {
+public class PersonneDto {
     @Getter
     @Setter
     private String idAdresse;
@@ -22,10 +22,10 @@ public class PersonnePhysiqueDto {
     @Setter
     private String prenom;
 
-    public PersonnePhysiqueDto() {
+    public PersonneDto() {
     }
 
-    public PersonnePhysiqueDto(String idAdresse, String nom, String prenom) {
+    public PersonneDto(String idAdresse, String nom, String prenom) {
         this.idAdresse = idAdresse;
         this.nom = nom;
         this.prenom = prenom;

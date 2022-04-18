@@ -12,12 +12,6 @@ import lombok.Setter;
  */
 public class MailObject {
 
-    public MailObject() {
-        this.to = new ArrayList<>();
-        this.cc = new ArrayList<>();
-        this.bcc = new ArrayList<>();
-    }
-
     @Getter @Setter
     private String from;;
 
@@ -44,4 +38,14 @@ public class MailObject {
 
     @Getter @Setter
     private List<String> bcc;
+    
+     @Getter @Setter
+    private List<String> fileList;
+     
+     public MailObject() {
+        this.to = new ArrayList<>();
+        this.cc = new ArrayList<>();
+        this.bcc = new ArrayList<>();
+        this.fileList= new ArrayList<>();
+    }
 }

@@ -14,6 +14,7 @@ import javax.persistence.EntityManager;
 public class ListeDao implements ListeDaoInterface {
     private transient EntityManager em;
     
+    @Override
     public Liste findListeById(String idlist) {
       Liste liste = em.find(Liste.class, idlist);
         return liste;

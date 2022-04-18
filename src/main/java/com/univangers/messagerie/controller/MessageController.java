@@ -43,7 +43,7 @@ public class MessageController {
     public MailObject afficheMessage(@PathVariable String nomFichier) throws FileNotFoundException, MessagingException, IOException {
 
         MailObject mailObject = MimeMessageReader.readMessageFile("/home/etud/NetBeansProjects/messagerie/president_2010-06/" + nomFichier);
-
+       
         return mailObject;
     }
     @PostMapping("/test-insert")

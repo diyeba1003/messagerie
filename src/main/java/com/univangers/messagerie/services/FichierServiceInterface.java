@@ -11,7 +11,8 @@ import com.univangers.messagerie.dto.FichierDto;
  * @author etud
  */
 public interface FichierServiceInterface {
-    
-    public void insertFichierDto(FichierDto fichierdto);
-   public FichierDto findFichierById(Integer id);
+
+    public void insertFichierDto(FichierDto fichierDto);
+
+    public FichierDto findFichierById(Integer id);
 }

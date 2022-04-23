@@ -4,10 +4,15 @@
  */
 package com.univangers.messagerie.services;
 
+import com.univangers.messagerie.dto.FonctionDto;
+
 /**
  *
  * @author etud
  */
 public interface FonctionServiceInterface {
-    
+
+    public void insertFonctionDto(FonctionDto fonctionDto);
+
+    public FonctionDto findFonctionById(Integer id);
 }

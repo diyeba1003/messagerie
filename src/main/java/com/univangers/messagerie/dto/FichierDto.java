@@ -12,39 +12,23 @@ import lombok.Setter;
  * @author etud
  */
 public class FichierDto {
-    
-      @Getter @Setter
+
+    @Getter
+    @Setter
     private Integer id;
-      
-        @Getter @Setter
+
+    @Getter
+    @Setter
     private String filetype;
-        
-          @Getter @Setter
+
+    @Getter
+    @Setter
     private String filename;
-       
-          
-            @Getter @Setter
+
+    @Getter
+    @Setter
     private String filepath;
-            
-            
-              @Getter @Setter
-    private MessageDto  messageDto;
-
-    public FichierDto() {
-    }
-
-    public FichierDto(Integer id, String filetype, String filename, String filepath, MessageDto messageDto) {
-        this.id = id;
-        this.filetype = filetype;
-        this.filename = filename;
-        this.filepath = filepath;
-        this.messageDto = messageDto;
-    }
-
-   
-       
-       
-       
     
     
+
 }

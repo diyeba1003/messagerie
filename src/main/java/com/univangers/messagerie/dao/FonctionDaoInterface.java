@@ -4,10 +4,15 @@
  */
 package com.univangers.messagerie.dao;
 
+import com.univangers.messagerie.model.Fonction;
+import java.util.List;
+
 /**
  *
  * @author etud
  */
 public interface FonctionDaoInterface {
-    
+    public void insertFonction(Fonction fonction);
+    public Fonction findFonctionById(Integer fonction);
+    public List<Fonction> findAllFonction();
 }

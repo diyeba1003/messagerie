@@ -4,14 +4,18 @@
  */
 package com.univangers.messagerie.dao;
 
-import com.univangers.messagerie.model.Personne;
+import com.univangers.messagerie.model.Fichier;
+import java.util.List;
 
 /**
  *
  * @author etud
  */
-public interface PersonneDaoInterface {
-    
-    public void insertPersonne(Personne personne);
-    public Personne findPersonneById(String idpers);
+public interface FichierDaoInterface {
+
+    public void insertFichier(Fichier fichier);
+
+    public Fichier findFichierById(Integer idFichier);
+
+    public List<Fichier> findAllFichier();
 }

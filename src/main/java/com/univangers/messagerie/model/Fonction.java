@@ -27,7 +27,7 @@ import lombok.Setter;
  * @author etud
  */
 @Entity
-@Table(name="FONCTION", uniqueConstraints = {
+@Table(name = "FONCTION", uniqueConstraints = {
     @UniqueConstraint(columnNames = {"title"})})
 @NamedQueries({
     @NamedQuery(name = "Fonction.findAll", query = "SELECT f FROM Fonction f"),
@@ -40,16 +40,19 @@ public class Fonction implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)
     @Column(nullable = false)
-     @Getter @Setter
+    @Getter
+    @Setter
     private Integer idFONCTION;
-    
+
     @Basic(optional = false)
     @Column(nullable = false, length = 120)
-     @Getter @Setter
+    @Getter
+    @Setter
     private String title;
-    
+
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "fonction", fetch = FetchType.LAZY)
-     @Getter @Setter
+    @Getter
+    @Setter
     private List<PersonneFonction> personneFonctionList;
 
     public Fonction() {
@@ -88,5 +91,5 @@ public class Fonction implements Serializable {
     public String toString() {
         return "com.univangers.messagerie.model.Fonction[ idFONCTION=" + idFONCTION + " ]";
     }
-    
+
 }

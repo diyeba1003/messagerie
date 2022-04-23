@@ -26,7 +26,8 @@ public class AdresseDao implements AdresseDaoInterface {
     @Override
     public void insertAdresse(Adresse adresse) {
         em.persist(adresse); // Fait le INSERT
-        em.flush();; }
+        em.flush();
+    }
     public Adresse findAdresseById(String idAdresse) {
          Adresse a = em.find(Adresse.class, idAdresse);
         return a;

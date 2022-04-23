@@ -41,30 +41,47 @@ public class MimeMessageReader {
         MimeMessage message = new MimeMessage(mailSession, inputStream);
 
         MailObject mailObject = new MailObject();
-        
-        InternetAddress sender = (InternetAddress) message.getFrom()[0];
-        mailObject.setFrom(sender.getAddress());
-        mailObject.setNom(sender.getPersonal());
+
+        InternetAddress senderAddress = (InternetAddress) message.getFrom()[0];
+        InfoPersonne infoSender = new InfoPersonne(senderAddress.getAddress());
+        if (senderAddress.getPersonal() != null) {
+            String[] info = senderAddress.getPersonal().split(" ");
+            infoSender.setLastName(info[0]);
+            infoSender.setFirstName(info[1]);
+        }
+        mailObject.setFrom(infoSender);
         mailObject.setSentDate(message.getSentDate());
         mailObject.setReceivedDate(message.getReceivedDate());
         mailObject.setSubject(message.getSubject());
-        //mailObject.setContent(getTextFromMessage(message));
+        mailObject.setContent(getTextFromMessage(message));
+
+        //FONCTION
+        String fonction = getFonctionFromString(message.getSubject());
+        mailObject.setFonction(fonction);
 
         //DESTINATAIRES
-        Address[] toList = message.getRecipients(Message.RecipientType.TO);
+        InternetAddress[] toList = (InternetAddress[]) message.getRecipients(Message.RecipientType.TO);
         if (toList != null) {
-            for (Address adr : message.getRecipients(Message.RecipientType.TO)) {
-                String mailAdr = getMailFromString(adr.toString());
-                mailObject.getTo().add(mailAdr);
+            for (InternetAddress adr : toList) {
+                InfoPersonne infoDestTo = new InfoPersonne(adr.getAddress());
+                if (adr.getPersonal() != null) {
+                    String[] info = adr.getPersonal().split(" ");
+                    infoDestTo.setLastName(info[0]);
+                    infoDestTo.setFirstName(info[1]);
+                    //String mailAdr = getMailFromString(nfoDestTo.toString());
+
+                }
+                mailObject.getTo().add(infoDestTo);
+
             }
         }
 
         //DESTINATAIRES CC
-        Address[] ccList = message.getRecipients(Message.RecipientType.CC);
+        /* Address[] ccList = message.getRecipients(Message.RecipientType.CC);
         if (ccList != null) {
             for (Address adr : message.getRecipients(Message.RecipientType.CC)) {
                 String mailAdr = getMailFromString(adr.toString());
-                //mailObject.getCc().add(mailAdr);
+                mailObject.getCc().add(mailAdr);
             }
         }
         //DESTINATAIRES BCC
@@ -72,14 +89,13 @@ public class MimeMessageReader {
         if (bccList != null) {
             for (Address adr : message.getRecipients(Message.RecipientType.BCC)) {
                 String mailAdr = getMailFromString(adr.toString());
-                //mailObject.getBcc().add(mailAdr);
+                mailObject.getBcc().add(mailAdr);
             }
-        }
-
+        }*/
         //FICHIER
-        List<String> fileList = extractAttachements(message);
+        List<AttachFile> fileList = extractAttachements(message);
         if (fileList != null) {
-            mailObject.getFileList().addAll(fileList);
+            mailObject.setFileList(fileList);
         }
 
         return mailObject;
@@ -125,6 +141,17 @@ public class MimeMessageReader {
         return mail;
     }
 
+    private static String getFonctionFromString(String str) {
+        Matcher m = Pattern.compile("[\\[\\w*]+]").matcher(str);
+        String fonction = null;
+        if (m.find()) {
+            fonction = m.group();
+            fonction = fonction.replace("[", "");
+            fonction = fonction.replace("]", "");
+        }
+        return fonction;
+    }
+
     /**
      *
      * @param message
@@ -132,10 +159,10 @@ public class MimeMessageReader {
      * @throws IOException
      * @throws MessagingException
      */
-    private static List<String> extractAttachements(Message message) throws IOException, MessagingException {
+    private static List<AttachFile> extractAttachements(Message message) throws IOException, MessagingException {
 
-        List<String> fileList = new ArrayList<>();
-        List<File> attachments = new ArrayList<>();
+        List<AttachFile> fileList = new ArrayList<>();
+        //List<File> attachments = new ArrayList<>();
 
         if (message.isMimeType("multipart/*")) {
             Multipart multipart = (Multipart) message.getContent();
@@ -154,8 +181,11 @@ public class MimeMessageReader {
                 while ((bytesRead = is.read(buf)) != -1) {
                     fos.write(buf, 0, bytesRead);
                 }
-                attachments.add(f);
-                fileList.add(f.getAbsolutePath());
+                // attachments.add(f);
+                AttachFile attachFile = new AttachFile();
+                attachFile.setFilename(f.getName());
+                attachFile.setFilepath(f.getAbsolutePath());
+                fileList.add(attachFile);
                 fos.close();
 
             }

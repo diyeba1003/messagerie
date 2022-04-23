@@ -7,7 +7,7 @@ package com.univangers.messagerie.model;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.Objects;
-import javax.persistence.EmbeddedId;
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.Id;
@@ -34,27 +34,30 @@ import lombok.Setter;
 public class PersonneFonction implements Serializable {
 
     private static final long serialVersionUID = 1L;
-    
+
     @Id
     @JoinColumn(name = "FONCTION_ID", referencedColumnName = "idFONCTION", nullable = false, insertable = false, updatable = false)
-    @ManyToOne(optional = false, fetch = FetchType.LAZY)
-    @Getter @Setter
+    @ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE}, optional = false, fetch = FetchType.LAZY)
+    @Getter
+    @Setter
     private Fonction fonction;
-    
+
     @Id
     @JoinColumn(name = "PERSONNE_ID", referencedColumnName = "idPERSONNE", nullable = false, insertable = false, updatable = false)
     @ManyToOne(optional = false, fetch = FetchType.LAZY)
-    @Getter @Setter
+    @Getter
+    @Setter
     private Personne personne;
-    
+
     @Temporal(TemporalType.DATE)
-    @Getter @Setter
+    @Getter
+    @Setter
     private Date startdate;
-    
+
     @Temporal(TemporalType.DATE)
-    @Getter @Setter
+    @Getter
+    @Setter
     private Date enddate;
-    
 
     public PersonneFonction() {
     }
@@ -85,10 +88,9 @@ public class PersonneFonction implements Serializable {
         return Objects.equals(this.personne, other.personne);
     }
 
-  
     @Override
     public String toString() {
-        return "PersonneFonction[ personne=" + this.getPersonne().getIdPERSONNE() + "fonction="+this.getFonction().getIdFONCTION()+"]";
+        return "PersonneFonction[ personne=" + this.getPersonne().getIdPERSONNE() + "fonction=" + this.getFonction().getIdFONCTION() + "]";
     }
-    
+
 }

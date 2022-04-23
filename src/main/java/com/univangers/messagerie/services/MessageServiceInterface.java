@@ -12,11 +12,17 @@ import java.util.List;
  * @author etud
  */
 public interface MessageServiceInterface {
-    
+
     public void insertMessageDto(MessageDto messageDto);
+
     public MessageDto findMessageDtoById(Integer id);
+
     public List<MessageDto> findAllMessageDto();
+
+    public Integer countMessageDto();
+
     public void updateMessageDto(MessageDto messageDto);
+
     public void deleteMessageDto(Integer id);
-    
+
 }

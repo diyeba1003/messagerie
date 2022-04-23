@@ -37,4 +37,15 @@ public class AdresseDao implements AdresseDaoInterface {
     public List<Adresse> findAllAdresse() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }    
+
+    @Override
+    public Integer countAdresse() {
+         Integer count=0;
+       Object object = em.createQuery("SELECT COUNT(a) FROM Adresse a ").getSingleResult();
+       if(object!=null)
+       {
+           count=(int) (long) object;
+       }
+       return count;
+    }
 }

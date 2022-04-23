@@ -6,9 +6,7 @@ package com.univangers.messagerie.services;
 
 import com.univangers.messagerie.dao.AdresseDaoInterface;
 import com.univangers.messagerie.dto.AdresseDto;
-import com.univangers.messagerie.dto.MessageDto;
 import com.univangers.messagerie.model.Adresse;
-import com.univangers.messagerie.model.Message;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -47,6 +45,12 @@ public class AdresseService implements AdresseServiceInterface {
         AdresseDto adresseDto = new AdresseDto();
         adresseDto.setId(adresse.getIdADRESSE());
         return adresseDto;
+    }
+
+    @Override
+    public Integer countAdresseDto() {
+        Integer count = adresseDao.countAdresse();
+        return count;
     }
 
 }

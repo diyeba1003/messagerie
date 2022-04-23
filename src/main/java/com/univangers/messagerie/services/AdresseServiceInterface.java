@@ -14,5 +14,6 @@ public interface AdresseServiceInterface {
     
     public void insertAdresseDto(AdresseDto adresseDto);
     public AdresseDto findAdresseById(String id);
+    public Integer countAdresseDto();
     
 }

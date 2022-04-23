@@ -46,7 +46,7 @@ public class FichierService implements FichierServiceInterface {
         fichier.setFiletype(fichierDto.getFiletype());
         fichier.setFilename(fichierDto.getFilename());
         fichier.setFilepath(fichierDto.getFilepath());
-   
+
         return fichier;
     }
 
@@ -63,7 +63,7 @@ public class FichierService implements FichierServiceInterface {
         fichierDto.setFiletype(fichier.getFiletype());
         fichierDto.setFilename(fichier.getFilename());
         fichierDto.setFilepath(fichier.getFilepath());
-       
+
         return fichierDto;
     }
 }

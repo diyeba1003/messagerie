@@ -13,6 +13,6 @@ import com.univangers.messagerie.model.Liste;
 public interface ListeDaoInterface {
 
     public Liste findListeById(String idlist);
-    
+    public Integer countListe();
     
 }

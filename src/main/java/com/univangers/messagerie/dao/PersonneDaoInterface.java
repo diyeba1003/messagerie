@@ -14,4 +14,5 @@ public interface PersonneDaoInterface {
     
     public void insertPersonne(Personne personne);
     public Personne findPersonneById(String idpers);
+    public Integer countPersonne();
 }

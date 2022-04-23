@@ -15,6 +15,7 @@ public interface AdresseDaoInterface  {
     
     public void insertAdresse(Adresse adresse);
     public Adresse findAdresseById(String idFonction);
+    public Integer countAdresse();
     public List<Adresse> findAllAdresse();
 
     

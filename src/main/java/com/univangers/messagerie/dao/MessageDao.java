@@ -58,4 +58,15 @@ public class MessageDao implements MessageDaoInterface {
         }
     }
 
+    @Override
+    public Integer countMessage() {
+        Integer count=0;
+       Object object = em.createQuery("SELECT COUNT(m)  FROM Message m ").getSingleResult();
+       if(object!=null)
+       {
+           count=(int) (long) object;
+       }
+       return count;
+    }
+
 }

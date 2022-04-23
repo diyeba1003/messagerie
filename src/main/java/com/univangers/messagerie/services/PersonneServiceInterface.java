@@ -6,12 +6,15 @@ package com.univangers.messagerie.services;
 
 import com.univangers.messagerie.dto.PersonneDto;
 
-
 /**
  *
  * @author etud
  */
 public interface PersonneServiceInterface {
-    public void insertPersonneDto(PersonneDto  personneDto);
+
+    public void insertPersonneDto(PersonneDto personneDto);
+
     public PersonneDto findPersonneDtoById(String id);
+
+    public Integer countPersonneDto();
 }

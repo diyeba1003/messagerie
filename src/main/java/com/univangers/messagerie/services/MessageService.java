@@ -12,10 +12,8 @@ import com.univangers.messagerie.dto.MessageDto;
 import com.univangers.messagerie.dto.PersonneDto;
 import com.univangers.messagerie.model.Adresse;
 import com.univangers.messagerie.model.Fichier;
-import com.univangers.messagerie.model.Fonction;
 import com.univangers.messagerie.model.Message;
 import com.univangers.messagerie.model.Personne;
-import com.univangers.messagerie.model.PersonneFonction;
 import java.util.ArrayList;
 import java.util.List;
 import javax.transaction.Transactional;
@@ -46,6 +44,13 @@ public class MessageService implements MessageServiceInterface {
     public MessageDto findMessageDtoById(Integer id) {
         Message message = messageDao.findMessageById(id);
         return convertToDto(message);
+    }
+
+    @Override
+    public Integer countMessageDto() {
+
+        Integer count = messageDao.countMessage();
+        return count;
     }
 
     @Override

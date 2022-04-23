@@ -12,5 +12,5 @@ import com.univangers.messagerie.dto.ListeDto;
  */
 public interface ListeServiceInterface {
     public ListeDto findListeDtoById(String idlist);
-
+    public Integer countListe();
 }

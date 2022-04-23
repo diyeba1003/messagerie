@@ -7,12 +7,16 @@ package com.univangers.messagerie.services;
 import com.univangers.messagerie.dao.PersonneDaoInterface;
 import com.univangers.messagerie.dto.PersonneDto;
 import com.univangers.messagerie.model.Personne;
+import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 /**
  *
  * @author etud
  */
+@Service
+@Transactional
 public class PersonneService implements PersonneServiceInterface {
 
     @Autowired
@@ -50,6 +54,12 @@ public class PersonneService implements PersonneServiceInterface {
         personneDto.setNom(personne.getNom());
         personneDto.setPrenom(personne.getPrenom());
         return personneDto;
+    }
+
+    @Override
+    public Integer countPersonneDto() {
+        Integer count = personneDao.countPersonne();
+        return count;
     }
 
 }

@@ -15,6 +15,7 @@ public interface MessageDaoInterface {
     public void insertMessage(Message message);
     public Message findMessageById(Integer idMessage);
     public List<Message> findAllMessage();
+    public Integer countMessage();
     public void updateMessage(Message message);
     public void deleteMessage(Integer idMessage);
     

@@ -12,40 +12,54 @@ import lombok.Setter;
  */
 public class MailObject {
 
-    @Getter @Setter
-    private String from;;
-
-    @Getter @Setter
-    private Date sentDate;
+    @Getter
+    @Setter
+    private InfoPersonne from;
     
-    @Getter @Setter
+
+    @Getter
+    @Setter
+    private Date sentDate;
+
+    @Getter
+    @Setter
     private Date receivedDate;
 
-    @Getter @Setter
+    @Getter
+    @Setter
     private String subject;
 
-   @Getter @Setter
+    @Getter
+    @Setter
     private String content;
 
-    @Getter @Setter
-    private String nom;
 
-    @Getter @Setter
-    private List<String> to;
+    @Getter
+    @Setter
+    private String fonction;
 
-    @Getter @Setter
-    private List<String> cc;
+    @Getter
+    @Setter
+    private List<InfoPersonne> to;
 
-    @Getter @Setter
-    private List<String> bcc;
-    
-     @Getter @Setter
-    private List<String> fileList;
-     
-     public MailObject() {
+    @Getter
+    @Setter
+    private List<InfoPersonne> cc;
+
+    @Getter
+    @Setter
+    private List<InfoPersonne> bcc;
+
+    @Getter
+    @Setter
+    private List<AttachFile> fileList;
+
+    public MailObject() {
         this.to = new ArrayList<>();
         this.cc = new ArrayList<>();
         this.bcc = new ArrayList<>();
-        this.fileList= new ArrayList<>();
+        this.fileList = new ArrayList<>();
     }
+
+    
 }

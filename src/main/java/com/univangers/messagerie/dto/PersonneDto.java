@@ -14,20 +14,25 @@ import lombok.Setter;
 public class PersonneDto {
     @Getter
     @Setter
-    private String idAdresse;
+    private String id;
     @Getter
     @Setter
     private String nom;
     @Getter
     @Setter
     private String prenom;
+    
+    @Getter
+    @Setter
+    private FonctionDto fonctionDto;
 
     public PersonneDto() {
     }
 
-    public PersonneDto(String idAdresse, String nom, String prenom) {
-        this.idAdresse = idAdresse;
+    public PersonneDto(String id, String nom, String prenom) {
+        this.id = id;
         this.nom = nom;
         this.prenom = prenom;
     }
 }
+

@@ -16,13 +16,13 @@ public class PersonneDao  implements PersonneDaoInterface{
      private transient EntityManager em;
 
     @Override
-    public void insertPersonnePhysique(Personne personne) {
+    public void insertPersonne(Personne personne) {
        em.persist(personne); // Fait le INSERT
         em.flush();
     }
 
     @Override
-    public Personne findPersonnePhysiqueById(String idpers) {
+    public Personne findPersonneById(String idpers) {
        Personne personne = em.find(Personne.class, idpers);
         return personne;
     }

@@ -12,6 +12,6 @@ import com.univangers.messagerie.dto.PersonneDto;
  * @author etud
  */
 public interface PersonneServiceInterface {
-    public void insertPersonnePhysiqueDto(PersonneDto  personneDto);
-    public PersonneDto findPersonnePhysiqueDtoById(String id);
+    public void insertPersonneDto(PersonneDto  personneDto);
+    public PersonneDto findPersonneDtoById(String id);
 }

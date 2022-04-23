@@ -23,7 +23,7 @@ import javax.persistence.Table;
  * @author etud
  */
 @Entity
-@Table(catalog = "messagerie", schema = "")
+@Table(name = "FICHIER")
 @NamedQueries({
     @NamedQuery(name = "Fichier.findAll", query = "SELECT f FROM Fichier f"),
     @NamedQuery(name = "Fichier.findByIdFICHIER", query = "SELECT f FROM Fichier f WHERE f.idFICHIER = :idFICHIER"),
@@ -45,6 +45,7 @@ public class Fichier implements Serializable {
     @Basic(optional = false)
     @Column(nullable = false, length = 300)
     private String filepath;
+    
     @JoinColumn(name = "messageID", referencedColumnName = "idMESSAGE", nullable = false)
     @ManyToOne(optional = false, fetch = FetchType.LAZY)
     private Message messageID;
@@ -125,5 +126,5 @@ public class Fichier implements Serializable {
     public String toString() {
         return "com.univangers.messagerie.model.Fichier[ idFICHIER=" + idFICHIER + " ]";
     }
-    
+
 }

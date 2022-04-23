@@ -4,7 +4,7 @@
  */
 package com.univangers.messagerie.dao;
 
-import com.univangers.messagerie.model.Fonction;
+import com.univangers.messagerie.model.Fichier;
 import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -17,26 +17,25 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 @Transactional
-public class FonctionDao implements FonctionDaoInterface {
+public class FichierDao implements FichierDaoInterface {
 
     @PersistenceContext
     private transient EntityManager em;
 
     @Override
-    public void insertFonction(Fonction fonction) {
-        em.persist(fonction); // Fait le INSERT
+    public void insertFichier(Fichier fichier) {
+        em.persist(fichier); // Fait le INSERT
         em.flush();
     }
 
     @Override
-    public Fonction findFonctionById(Integer idFonction) {
-        Fonction f = em.find(Fonction.class, idFonction);
+    public Fichier findFichierById(Integer idFichier) {
+        Fichier f = em.find(Fichier.class, idFichier);
         return f;
     }
 
-    @Override
-    public List<Fonction> findAllFonction() {
-        return null;
+    public List<Fichier> findAllFichier() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
 }

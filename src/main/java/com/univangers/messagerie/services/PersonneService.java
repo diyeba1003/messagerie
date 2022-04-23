@@ -6,7 +6,6 @@ package com.univangers.messagerie.services;
 
 import com.univangers.messagerie.dao.PersonneDaoInterface;
 import com.univangers.messagerie.dto.PersonneDto;
-import com.univangers.messagerie.model.Adresse;
 import com.univangers.messagerie.model.Personne;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -20,34 +19,34 @@ public class PersonneService implements PersonneServiceInterface {
     private PersonneDaoInterface personneDao;
 
     @Override
-    public void insertPersonnePhysiqueDto(PersonneDto personneDto) {
+    public void insertPersonneDto(PersonneDto personneDto) {
         Personne personne = convertToEntity(personneDto);
-        personneDao.insertPersonnePhysique(personne);
+        personneDao.insertPersonne(personne);
     }
 
     @Override
-    public PersonneDto findPersonnePhysiqueDtoById(String id) {
-        Personne personne = personneDao.findPersonnePhysiqueById(id);
+    public PersonneDto findPersonneDtoById(String id) {
+        Personne personne = personneDao.findPersonneById(id);
         return convertToDto(personne);
     }
 
     private Personne convertToEntity(PersonneDto personneDto) {
         Personne personneP = new Personne();
-        
+
         /*
         Adresse adr= new Adresse();
         adr.setIdAdresse(personneDto.getIdAdresse());
         personneP.setAdresse(adr);
-        */
-         personneP.setNom(personneDto.getNom());
+         */
+        personneP.setNom(personneDto.getNom());
         personneP.setPrenom(personneDto.getPrenom());
-      
+
         return personneP;
     }
 
     private PersonneDto convertToDto(Personne personne) {
-        PersonneDto personneDto= new PersonneDto();
-        personneDto.setIdAdresse(personne.getIdPERSONNE());
+        PersonneDto personneDto = new PersonneDto();
+        personneDto.setId(personne.getIdPERSONNE());
         personneDto.setNom(personne.getNom());
         personneDto.setPrenom(personne.getPrenom());
         return personneDto;

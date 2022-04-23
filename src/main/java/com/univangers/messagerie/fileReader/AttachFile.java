@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.univangers.messagerie.dto;
+package com.univangers.messagerie.fileReader;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -11,21 +11,18 @@ import lombok.Setter;
  *
  * @author etud
  */
-public class AdresseDto {
+public class AttachFile {
 
     @Getter
     @Setter
-    private String id;
+    private String filename;
 
     @Getter
     @Setter
-    private PersonneDto personneDto;
+    private String filepath;
 
-    public AdresseDto() {
-    }
-
-    public AdresseDto(String id) {
-        this.id = id;
-    }
+    @Getter
+    @Setter
+    private String filetype;
 
 }

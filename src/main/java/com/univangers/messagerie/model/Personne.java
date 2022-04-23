@@ -26,7 +26,7 @@ import lombok.Setter;
  * @author etud
  */
 @Entity
-@Table(name="PERSONNE")
+@Table(name = "PERSONNE")
 @NamedQueries({
     @NamedQuery(name = "Personne.findAll", query = "SELECT p FROM Personne p"),
     @NamedQuery(name = "Personne.findByIdPERSONNE", query = "SELECT p FROM Personne p WHERE p.idPERSONNE = :idPERSONNE"),
@@ -38,25 +38,29 @@ public class Personne implements Serializable {
     @Id
     @Basic(optional = false)
     @Column(nullable = false, length = 80)
-    @Getter @Setter
+    @Getter
+    @Setter
     private String idPERSONNE;
-    
+
     @Column(length = 45)
-     @Getter @Setter
+    @Getter
+    @Setter
     private String nom;
-    
+
     @Column(length = 45)
-     @Getter @Setter
+    @Getter
+    @Setter
     private String prenom;
-    
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "personne", fetch = FetchType.LAZY)
-     @Getter @Setter
+
+    @OneToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE}, mappedBy = "personne", fetch = FetchType.LAZY)
+    @Getter
+    @Setter
     private List<PersonneFonction> personneFonctionList;
-    
+
     @JoinColumn(name = "idPERSONNE", referencedColumnName = "idADRESSE", nullable = false, insertable = false, updatable = false)
     @OneToOne(optional = false, fetch = FetchType.LAZY)
-     @Getter @Setter
-    
+    @Getter
+    @Setter
     private Adresse adresse;
 
     public Personne() {
@@ -66,7 +70,6 @@ public class Personne implements Serializable {
         this.idPERSONNE = idPERSONNE;
     }
 
-   
     @Override
     public int hashCode() {
         int hash = 0;
@@ -91,5 +94,5 @@ public class Personne implements Serializable {
     public String toString() {
         return "com.univangers.messagerie.model.Personne[ idPERSONNE=" + idPERSONNE + " ]";
     }
-    
+
 }

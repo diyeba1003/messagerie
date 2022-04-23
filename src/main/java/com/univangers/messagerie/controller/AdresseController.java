@@ -4,11 +4,9 @@
  */
 package com.univangers.messagerie.controller;
 
-import com.univangers.messagerie.dto.AdresseDto;
 import com.univangers.messagerie.services.AdresseServiceInterface;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -20,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Transactional
 @RequestMapping("/messagerie/adresse")
 public class AdresseController {
-    
+
     @Autowired
     private AdresseServiceInterface adresseService;
 

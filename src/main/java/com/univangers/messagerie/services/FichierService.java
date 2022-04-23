@@ -4,11 +4,11 @@
  */
 package com.univangers.messagerie.services;
 
+import com.univangers.messagerie.dao.FichierDaoInterface;
 import com.univangers.messagerie.dto.FichierDto;
-import com.univangers.messagerie.dto.MessageDto;
 import com.univangers.messagerie.model.Fichier;
-import com.univangers.messagerie.model.Message;
 import javax.transaction.Transactional;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -17,60 +17,53 @@ import org.springframework.stereotype.Service;
  */
 @Service
 @Transactional
-public class FichierService  implements FichierServiceInterface{
+public class FichierService implements FichierServiceInterface {
+
+    @Autowired
+    private FichierDaoInterface fichierDao;
 
     @Override
-    public void insertFichierDto(FichierDto fichierdto) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void insertFichierDto(FichierDto fichierDto) {
+        Fichier fichier = convertToEntity(fichierDto);
+        fichierDao.insertFichier(fichier);
     }
 
     @Override
     public FichierDto findFichierById(Integer id) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        Fichier fich = fichierDao.findFichierById(id);
+        return convertToDto(fich);
     }
-    
+
     /**
      * Convertir un DTO en entity
-     * 
+     *
      * @param fichierDto
-     * @return 
+     * @return
      */
-    
     private Fichier convertToEntity(FichierDto fichierDto) {
         Fichier fichier = new Fichier();
-       fichier.setIdFICHIER(fichierDto.getId());
-       fichier.setFiletype(fichierDto.getFiletype());
-       fichier.setFilename(fichierDto.getFilename());
-       fichier.setFilepath(fichierDto.getFilepath());
-       if(fichierDto.getMessageDto()!= null){
-            Message message= new Message();
-            message.setIdMESSAGE(fichierDto.getMessageDto().getId());
-            fichier.setMessageID(message);
-       
-        }
-       
+        fichier.setIdFICHIER(fichierDto.getId());
+        fichier.setFiletype(fichierDto.getFiletype());
+        fichier.setFilename(fichierDto.getFilename());
+        fichier.setFilepath(fichierDto.getFilepath());
+   
         return fichier;
     }
+
     /**
      * Convertir un DTO en entity
-     * 
+     *
      * @param fichier
-     * @return 
+     * @return
      */
-    private FichierDto convertToDto(Fichier fichier){
-        
+    private FichierDto convertToDto(Fichier fichier) {
+
         FichierDto fichierDto = new FichierDto();
         fichierDto.setId(fichier.getIdFICHIER());
         fichierDto.setFiletype(fichier.getFiletype());
         fichierDto.setFilename(fichier.getFilename());
         fichierDto.setFilepath(fichier.getFilepath());
-        if(fichier.getMessageID()!=null)
-        {
-            MessageDto messageDto=new MessageDto ();
-            messageDto.setId(fichier.getMessageID().getIdMESSAGE());
-            fichierDto.setMessageDto(messageDto);
-        }
-        
+       
         return fichierDto;
     }
 }

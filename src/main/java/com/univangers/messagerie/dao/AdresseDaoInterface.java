@@ -14,7 +14,7 @@ import java.util.List;
 public interface AdresseDaoInterface  {
     
     public void insertAdresse(Adresse adresse);
-    public Adresse findAdresseById(String idAdresse);
+    public Adresse findAdresseById(String idFonction);
     public List<Adresse> findAllAdresse();
 
     

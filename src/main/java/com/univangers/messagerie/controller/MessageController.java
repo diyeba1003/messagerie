@@ -28,17 +28,18 @@ import java.util.List;
 import java.util.Map;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 /**
  *
  * @author etud
  */
-@RestController
-@RequestMapping("/messagerie/message")
+@Controller
+@RequestMapping("/messagerie/messages")
 @Transactional
 public class MessageController {
     
@@ -87,7 +88,7 @@ public class MessageController {
             personneDto.setId(mailObject.getFrom().getMail());
             personneDto.setNom(mailObject.getFrom().getLastName());
             personneDto.setPrenom(mailObject.getFrom().getFirstName());
-            
+
             if (mailObject.getFonction() != null) {
                 FonctionDto fonctionDto = new FonctionDto();
                 fonctionDto.setTitle(mailObject.getFonction());
@@ -113,7 +114,7 @@ public class MessageController {
             destinatairesDto.add(adresseDto);
             
         }
-        
+
         if (mailObject.getFileList() != null) {
             List<AttachFile> fileList = mailObject.getFileList();
             List<FichierDto> fichierDtoList = new ArrayList<>();
@@ -150,5 +151,20 @@ public class MessageController {
         return counter;
         
     }
-    
+
+
+    @GetMapping("/listeMessage")
+    public String listemessage(Model model) {
+        List<MessageDto> messageDtoList = messageService.findAllMessageDto();
+        model.addAttribute("messages", messageDtoList);
+
+        return "listeMessage";
+    }
+
+    @GetMapping("/home")
+    public String accueil() {
+
+        return "home";
+    }
+
 }

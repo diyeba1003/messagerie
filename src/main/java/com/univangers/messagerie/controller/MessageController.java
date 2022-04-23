@@ -14,19 +14,21 @@ import javax.mail.MessagingException;
 import org.springframework.web.bind.annotation.PathVariable;
 import com.univangers.messagerie.services.MessageServiceInterface;
 import java.util.Date;
+import java.util.List;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 /**
  *
  * @author etud
  */
-@RestController
-@RequestMapping("/messagerie/message")
+@Controller
+@RequestMapping("/messagerie/messages")
 @Transactional
 public class MessageController {
 
@@ -72,5 +74,20 @@ public class MessageController {
         mDto = messageService.findMessageDtoById(1);
         return mDto;
     }
-
+    
+    @GetMapping("/listeMessage")
+    public String listemessage(Model model){
+           List<MessageDto> messageDtoList=messageService.findAllMessageDto();
+       model.addAttribute("messages", messageDtoList);
+     
+        return "listeMessage";
+    }          
+    
+    
+    @GetMapping("/home")
+    public String accueil(){
+       
+        return "home";
+    }          
+    
 }

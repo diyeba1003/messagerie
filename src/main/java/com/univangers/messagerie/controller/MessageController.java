@@ -16,7 +16,6 @@ import com.univangers.messagerie.fileReader.MailObject;
 import com.univangers.messagerie.fileReader.MimeMessageReader;
 import com.univangers.messagerie.services.AdresseServiceInterface;
 import com.univangers.messagerie.services.ListeServiceInterface;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import javax.mail.MessagingException;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -28,6 +27,7 @@ import java.util.List;
 import java.util.Map;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -42,39 +42,26 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/messagerie/messages")
 @Transactional
 public class MessageController {
-    
+
     @Autowired
     private MessageServiceInterface messageService;
-    
+
     @Autowired
     private AdresseServiceInterface adresseService;
-    
+
     @Autowired
     private PersonneServiceInterface personneService;
-    
+
     @Autowired
     private ListeServiceInterface listeService;
-    
-    @GetMapping("/hello")
-    public String helloWorld() {
-        return "Hello world !!!";
-    }
-    
-    @GetMapping("/test-file-read/{nomFichier}")
-    public MailObject afficheMessage(@PathVariable String nomFichier) throws FileNotFoundException, MessagingException, IOException {
-        
-        MailObject mailObject = MimeMessageReader.readMessageFile("/home/etud/NetBeansProjects/messagerie/president_2010-06/" + nomFichier);
-        
-        return mailObject;
-    }
-    
+
     @PostMapping("/test-insert/{nomFichier}")
     public Map testInsert(@PathVariable String nomFichier) throws MessagingException, IOException {
-        
+
         MailObject mailObject = MimeMessageReader.readMessageFile("/home/etud/NetBeansProjects/messagerie/president_2010-06/" + nomFichier);
-        
+
         MessageDto mDto = new MessageDto();
-        
+
         mDto.setObject(mailObject.getSubject());
         mDto.setDate(mailObject.getSentDate());
         mDto.setBody(mailObject.getContent());
@@ -82,7 +69,7 @@ public class MessageController {
         // Expediteur
         AdresseDto expediteurDto = new AdresseDto();
         expediteurDto.setId(mailObject.getFrom().getMail());
-        
+
         if (mailObject.getFrom().getLastName() != null || mailObject.getFrom().getFirstName() != null) {
             PersonneDto personneDto = new PersonneDto();
             personneDto.setId(mailObject.getFrom().getMail());
@@ -96,9 +83,9 @@ public class MessageController {
             }
             expediteurDto.setPersonneDto(personneDto);
         }
-        
+
         mDto.setExpediteurDto(expediteurDto);
-        
+
         List<InfoPersonne> destinataires = mailObject.getTo();
         List<AdresseDto> destinatairesDto = new ArrayList<>();
         for (InfoPersonne info : destinataires) {
@@ -109,10 +96,10 @@ public class MessageController {
                 personneDto.setNom(info.getLastName());
                 personneDto.setPrenom(info.getFirstName());
                 adresseDto.setPersonneDto(personneDto);
-                
+
             }
             destinatairesDto.add(adresseDto);
-            
+
         }
 
         if (mailObject.getFileList() != null) {
@@ -127,16 +114,16 @@ public class MessageController {
             }
             mDto.setFichierDtoList(fichierDtoList);
         }
-        
+
         mDto.setDestinataireDtoList(destinatairesDto);
-        
+
         messageService.insertMessageDto(mDto);
-        
+
         Map<String, String> result = new HashMap<>();
         result.put("result", "success");
         return result;
     }
-    
+
     @GetMapping("/get-message")
     public DataCounter getMessage() {
         DataCounter counter = new DataCounter();
@@ -147,22 +134,43 @@ public class MessageController {
         counter.setNombreMessages(countMessages);
         counter.setNombreAdresses(countAdresses);
         counter.setNombrePersonnes(countPersonnes);
-        counter.setNombrelistes(countlistes);
+        counter.setNombreListes(countlistes);
         return counter;
-        
+
     }
 
-
     @GetMapping("/listeMessage")
-    public String listemessage(Model model) {
+    public String listemessage(Model model, @Param("id") Integer id) {
         List<MessageDto> messageDtoList = messageService.findAllMessageDto();
         model.addAttribute("messages", messageDtoList);
-
+        if (id != null) {
+            MessageDto messageDto = messageService.findMessageDtoById(id);
+            model.addAttribute("selectedMessage", messageDto);
+        }
         return "listeMessage";
     }
 
+    @GetMapping("/listeMessageId")
+    public String listemessageid(Model model, @Param("id") Integer id) {
+
+        //model.addAttribute("test", "Mon test");
+        return "listeMessageId";
+    }
+
     @GetMapping("/home")
-    public String accueil() {
+    public String accueil(Model model) {
+
+        DataCounter counter = new DataCounter();
+        Integer countMessages = messageService.countMessageDto();
+        Integer countAdresses = adresseService.countAdresseDto();
+        Integer countPersonnes = personneService.countPersonneDto();
+        Integer countlistes = listeService.countListe();
+        counter.setNombreMessages(countMessages);
+        counter.setNombreAdresses(countAdresses);
+        counter.setNombrePersonnes(countPersonnes);
+        counter.setNombreListes(countlistes);
+
+        model.addAttribute("counter", counter);
 
         return "home";
     }

@@ -27,6 +27,6 @@ public class DataCounter {
 
     @Getter
     @Setter
-    private Integer nombrelistes;
+    private Integer nombreListes;
 
 }

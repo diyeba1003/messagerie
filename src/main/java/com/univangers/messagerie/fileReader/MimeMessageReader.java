@@ -15,7 +15,6 @@ import java.util.List;
 import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import javax.mail.Address;
 import javax.mail.BodyPart;
 import javax.mail.Message;
 import javax.mail.MessagingException;
@@ -25,14 +24,19 @@ import javax.mail.Session;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
+import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Jsoup;
+import org.springframework.beans.factory.annotation.Value;
 
 /**
  *
  * @author etud
  */
 public class MimeMessageReader {
+
+    @Value("${message.attachs.directory}")
+    private static String attachsFilesDir;
 
     public static MailObject readMessageFile(String filePath) throws FileNotFoundException, MessagingException, IOException {
         Properties props = new Properties();
@@ -46,8 +50,12 @@ public class MimeMessageReader {
         InfoPersonne infoSender = new InfoPersonne(senderAddress.getAddress());
         if (senderAddress.getPersonal() != null) {
             String[] info = senderAddress.getPersonal().split(" ");
-            infoSender.setLastName(info[0]);
-            infoSender.setFirstName(info[1]);
+            if (info.length == 2) {
+                infoSender.setLastName(info[0]);
+                infoSender.setFirstName(info[1]);
+            } else {
+                infoSender.setLastName(senderAddress.getPersonal());
+            }
         }
         mailObject.setFrom(infoSender);
         mailObject.setSentDate(message.getSentDate());
@@ -65,27 +73,45 @@ public class MimeMessageReader {
             for (InternetAddress adr : toList) {
                 InfoPersonne infoDestTo = new InfoPersonne(adr.getAddress());
                 if (adr.getPersonal() != null) {
+                    System.out.println("info: " + adr.getPersonal());
                     String[] info = adr.getPersonal().split(" ");
-                    infoDestTo.setLastName(info[0]);
-                    infoDestTo.setFirstName(info[1]);
-                    //String mailAdr = getMailFromString(nfoDestTo.toString());
+                    if (info.length == 2) {
+                        infoDestTo.setLastName(info[0]);
+                        infoDestTo.setFirstName(info[1]);
+                    } else {
+                        infoDestTo.setLastName(adr.getPersonal());
+                    }
 
                 }
-                mailObject.getTo().add(infoDestTo);
-
+                if(!mailObject.getTo().contains(infoDestTo)){
+                    mailObject.getTo().add(infoDestTo);
+                }
             }
         }
 
         //DESTINATAIRES CC
-        /* Address[] ccList = message.getRecipients(Message.RecipientType.CC);
+        InternetAddress[] ccList = (InternetAddress[]) message.getRecipients(Message.RecipientType.CC);
         if (ccList != null) {
-            for (Address adr : message.getRecipients(Message.RecipientType.CC)) {
-                String mailAdr = getMailFromString(adr.toString());
-                mailObject.getCc().add(mailAdr);
+            for (InternetAddress adr : ccList) {
+                InfoPersonne infoDestCc = new InfoPersonne(adr.getAddress());
+                if (adr.getPersonal() != null) {
+                    String[] info = adr.getPersonal().split(" ");
+                    if (info.length == 2) {
+                        infoDestCc.setLastName(info[0]);
+                        infoDestCc.setFirstName(info[1]);
+                    } else {
+                        infoDestCc.setLastName(adr.getPersonal());
+                    }
+                }
+                
+                if(!mailObject.getCc().contains(infoDestCc)){
+                    mailObject.getCc().add(infoDestCc);
+                }
             }
         }
+
         //DESTINATAIRES BCC
-        Address[] bccList = message.getRecipients(Message.RecipientType.BCC);
+        /* Address[] bccList = message.getRecipients(Message.RecipientType.BCC);
         if (bccList != null) {
             for (Address adr : message.getRecipients(Message.RecipientType.BCC)) {
                 String mailAdr = getMailFromString(adr.toString());
@@ -174,7 +200,7 @@ public class MimeMessageReader {
                     continue; // dealing with attachments only
                 }
                 InputStream is = bodyPart.getInputStream();
-                File f = new File("/home/etud/NetBeansProjects/messagerie/attachements/" + bodyPart.getFileName());
+                File f = new File(attachsFilesDir + File.separator + bodyPart.getFileName());
                 FileOutputStream fos = new FileOutputStream(f);
                 byte[] buf = new byte[4096];
                 int bytesRead;
@@ -183,8 +209,10 @@ public class MimeMessageReader {
                 }
                 // attachments.add(f);
                 AttachFile attachFile = new AttachFile();
+                String ext = FilenameUtils.getExtension(f.getName());
                 attachFile.setFilename(f.getName());
                 attachFile.setFilepath(f.getAbsolutePath());
+                attachFile.setFiletype(ext);
                 fileList.add(attachFile);
                 fos.close();
 

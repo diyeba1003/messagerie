@@ -22,12 +22,14 @@ import javax.mail.MessagingException;
 import org.springframework.web.bind.annotation.PathVariable;
 import com.univangers.messagerie.services.MessageServiceInterface;
 import com.univangers.messagerie.services.PersonneServiceInterface;
+import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -42,39 +44,42 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/messagerie/messages")
 @Transactional
 public class MessageController {
-    
+
     @Autowired
     private MessageServiceInterface messageService;
-    
+
     @Autowired
     private AdresseServiceInterface adresseService;
-    
+
     @Autowired
     private PersonneServiceInterface personneService;
-    
+
     @Autowired
     private ListeServiceInterface listeService;
-    
+
+    @Value("${message.files.directory}")
+    private String messageFilesDir;
+
     @GetMapping("/hello")
     public String helloWorld() {
         return "Hello world !!!";
     }
-    
+
     @GetMapping("/test-file-read/{nomFichier}")
     public MailObject afficheMessage(@PathVariable String nomFichier) throws FileNotFoundException, MessagingException, IOException {
-        
-        MailObject mailObject = MimeMessageReader.readMessageFile("/home/etud/NetBeansProjects/messagerie/president_2010-06/" + nomFichier);
-        
+
+        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir + File.separator + nomFichier);
+
         return mailObject;
     }
-    
+
     @PostMapping("/test-insert/{nomFichier}")
     public Map testInsert(@PathVariable String nomFichier) throws MessagingException, IOException {
-        
-        MailObject mailObject = MimeMessageReader.readMessageFile("/home/etud/NetBeansProjects/messagerie/president_2010-06/" + nomFichier);
-        
+
+        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir + File.separator + nomFichier);
+
         MessageDto mDto = new MessageDto();
-        
+
         mDto.setObject(mailObject.getSubject());
         mDto.setDate(mailObject.getSentDate());
         mDto.setBody(mailObject.getContent());
@@ -82,7 +87,7 @@ public class MessageController {
         // Expediteur
         AdresseDto expediteurDto = new AdresseDto();
         expediteurDto.setId(mailObject.getFrom().getMail());
-        
+
         if (mailObject.getFrom().getLastName() != null || mailObject.getFrom().getFirstName() != null) {
             PersonneDto personneDto = new PersonneDto();
             personneDto.setId(mailObject.getFrom().getMail());
@@ -93,12 +98,14 @@ public class MessageController {
                 FonctionDto fonctionDto = new FonctionDto();
                 fonctionDto.setTitle(mailObject.getFonction());
                 personneDto.setFonctionDto(fonctionDto);
+            } else {
+                // LISTE => A faire !!!
             }
             expediteurDto.setPersonneDto(personneDto);
         }
-        
+
         mDto.setExpediteurDto(expediteurDto);
-        
+
         List<InfoPersonne> destinataires = mailObject.getTo();
         List<AdresseDto> destinatairesDto = new ArrayList<>();
         for (InfoPersonne info : destinataires) {
@@ -109,12 +116,30 @@ public class MessageController {
                 personneDto.setNom(info.getLastName());
                 personneDto.setPrenom(info.getFirstName());
                 adresseDto.setPersonneDto(personneDto);
-                
-            }
-            destinatairesDto.add(adresseDto);
-            
-        }
 
+            } else {
+                //LISTE => A faire !!!
+            }
+            
+            destinatairesDto.add(adresseDto);
+        }     
+        mDto.setDestinataireDtoList(destinatairesDto);
+        
+       List<InfoPersonne> listPers= mailObject.getCc();
+       List<AdresseDto> adrDtoList= new ArrayList<>();
+       for(InfoPersonne infP : listPers){
+           AdresseDto adrDto= new AdresseDto(infP.getMail());
+           if(infP.getFirstName() != null || infP.getLastName() !=null){
+               PersonneDto persDto= new PersonneDto();
+               persDto.setId(infP.getMail());
+               persDto.setNom(infP.getLastName());
+               persDto.setPrenom(infP.getFirstName());
+               adrDto.setPersonneDto(persDto);
+           }
+            adrDtoList.add(adrDto);
+       }       
+        mDto.setDestinataireCopieDtoList(adrDtoList);
+       
         if (mailObject.getFileList() != null) {
             List<AttachFile> fileList = mailObject.getFileList();
             List<FichierDto> fichierDtoList = new ArrayList<>();
@@ -127,16 +152,14 @@ public class MessageController {
             }
             mDto.setFichierDtoList(fichierDtoList);
         }
-        
-        mDto.setDestinataireDtoList(destinatairesDto);
-        
+
         messageService.insertMessageDto(mDto);
-        
+
         Map<String, String> result = new HashMap<>();
         result.put("result", "success");
         return result;
     }
-    
+
     @GetMapping("/get-message")
     public DataCounter getMessage() {
         DataCounter counter = new DataCounter();
@@ -149,9 +172,8 @@ public class MessageController {
         counter.setNombrePersonnes(countPersonnes);
         counter.setNombrelistes(countlistes);
         return counter;
-        
-    }
 
+    }
 
     @GetMapping("/listeMessage")
     public String listemessage(Model model) {

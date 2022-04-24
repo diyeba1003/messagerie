@@ -4,6 +4,7 @@
  */
 package com.univangers.messagerie.dto;
 
+import java.util.Objects;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -26,6 +27,28 @@ public class AdresseDto {
 
     public AdresseDto(String id) {
         this.id = id;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 53 * hash + Objects.hashCode(this.id);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final AdresseDto other = (AdresseDto) obj;
+        return Objects.equals(this.id, other.id);
     }
 
 }

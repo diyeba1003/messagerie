@@ -21,6 +21,8 @@ import javax.mail.MessagingException;
 import org.springframework.web.bind.annotation.PathVariable;
 import com.univangers.messagerie.services.MessageServiceInterface;
 import com.univangers.messagerie.services.PersonneServiceInterface;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -28,6 +30,7 @@ import java.util.Map;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.query.Param;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -55,10 +58,26 @@ public class MessageController {
     @Autowired
     private ListeServiceInterface listeService;
 
+    @Value("${message.files.directory}")
+    private String messageFilesDir;
+
+    @GetMapping("/hello")
+    public String helloWorld() {
+        return "Hello world !!!";
+    }
+
+    @GetMapping("/test-file-read/{nomFichier}")
+    public MailObject afficheMessage(@PathVariable String nomFichier) throws FileNotFoundException, MessagingException, IOException {
+
+        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir + File.separator + nomFichier);
+
+        return mailObject;
+    }
+
     @PostMapping("/test-insert/{nomFichier}")
     public Map testInsert(@PathVariable String nomFichier) throws MessagingException, IOException {
 
-        MailObject mailObject = MimeMessageReader.readMessageFile("/home/etud/NetBeansProjects/messagerie/president_2010-06/" + nomFichier);
+        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir + File.separator + nomFichier);
 
         MessageDto mDto = new MessageDto();
 
@@ -80,6 +99,8 @@ public class MessageController {
                 FonctionDto fonctionDto = new FonctionDto();
                 fonctionDto.setTitle(mailObject.getFonction());
                 personneDto.setFonctionDto(fonctionDto);
+            } else {
+                // LISTE => A faire !!!
             }
             expediteurDto.setPersonneDto(personneDto);
         }
@@ -97,11 +118,29 @@ public class MessageController {
                 personneDto.setPrenom(info.getFirstName());
                 adresseDto.setPersonneDto(personneDto);
 
+            }else {
+                //LISTE => A faire !!!
             }
+            
             destinatairesDto.add(adresseDto);
-
-        }
-
+        }     
+        mDto.setDestinataireDtoList(destinatairesDto);
+        
+       List<InfoPersonne> listPers= mailObject.getCc();
+       List<AdresseDto> adrDtoList= new ArrayList<>();
+       for(InfoPersonne infP : listPers){
+           AdresseDto adrDto= new AdresseDto(infP.getMail());
+           if(infP.getFirstName() != null || infP.getLastName() !=null){
+               PersonneDto persDto= new PersonneDto();
+               persDto.setId(infP.getMail());
+               persDto.setNom(infP.getLastName());
+               persDto.setPrenom(infP.getFirstName());
+               adrDto.setPersonneDto(persDto);
+           }
+            adrDtoList.add(adrDto);
+       }       
+        mDto.setDestinataireCopieDtoList(adrDtoList);
+       
         if (mailObject.getFileList() != null) {
             List<AttachFile> fileList = mailObject.getFileList();
             List<FichierDto> fichierDtoList = new ArrayList<>();
@@ -114,8 +153,6 @@ public class MessageController {
             }
             mDto.setFichierDtoList(fichierDtoList);
         }
-
-        mDto.setDestinataireDtoList(destinatairesDto);
 
         messageService.insertMessageDto(mDto);
 

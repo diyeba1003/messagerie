@@ -123,22 +123,43 @@ public class MessageService implements MessageServiceInterface {
         if (messageDto.getDestinataireDtoList() != null) {
             List<Adresse> destList = new ArrayList<>();
             for (AdresseDto destDto : messageDto.getDestinataireDtoList()) {
-                Adresse adrDto = adresseDao.findAdresseById(destDto.getId());
-                if (adrDto == null) {
-                    adrDto = new Adresse();
-                    adrDto.setIdADRESSE(destDto.getId());
+                Adresse adr = adresseDao.findAdresseById(destDto.getId());
+                if (adr == null) {
+                    adr = new Adresse();
+                    adr.setIdADRESSE(destDto.getId());
                     if (destDto.getPersonneDto() != null) {
                         Personne personne = new Personne();
                         personne.setIdPERSONNE(destDto.getPersonneDto().getId());
                         personne.setNom(destDto.getPersonneDto().getNom());
                         personne.setPrenom(destDto.getPersonneDto().getPrenom());
-                        personne.setAdresse(adrDto);
-                        adrDto.setPersonne(personne);
+                        personne.setAdresse(adr);
+                        adr.setPersonne(personne);
                     }
                 }
-                destList.add(adrDto);
+                destList.add(adr);
             }
             message.setDestinataires(destList);
+        }
+        
+         if (messageDto.getDestinataireCopieDtoList() != null) {
+            List<Adresse> destCCList = new ArrayList<>();
+            for (AdresseDto destCc : messageDto.getDestinataireCopieDtoList()) {
+                Adresse adr = adresseDao.findAdresseById(destCc.getId());
+                if (adr == null) {
+                    adr = new Adresse();
+                    adr.setIdADRESSE(destCc.getId());
+                    if (destCc.getPersonneDto() != null) {
+                        Personne pers = new Personne();
+                        pers.setIdPERSONNE(destCc.getPersonneDto().getId());
+                        pers.setPrenom(destCc.getPersonneDto().getPrenom());
+                        pers.setNom(destCc.getPersonneDto().getNom());
+                        pers.setAdresse(adr);
+                        adr.setPersonne(pers);
+                    }
+                }
+                destCCList.add(adr);
+            }
+            message.setDestinatairesCopie(destCCList);
         }
 
         if (messageDto.getFichierDtoList() != null) {
@@ -153,7 +174,7 @@ public class MessageService implements MessageServiceInterface {
             }
             message.setFichierList(fichierList);
         }
-
+       
         return message;
 
     }

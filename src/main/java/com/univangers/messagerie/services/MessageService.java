@@ -5,15 +5,19 @@
 package com.univangers.messagerie.services;
 
 import com.univangers.messagerie.dao.AdresseDaoInterface;
+import com.univangers.messagerie.dao.FonctionDaoInterface;
 import com.univangers.messagerie.dao.MessageDaoInterface;
 import com.univangers.messagerie.dto.AdresseDto;
 import com.univangers.messagerie.dto.FichierDto;
 import com.univangers.messagerie.dto.MessageDto;
 import com.univangers.messagerie.dto.PersonneDto;
+import com.univangers.messagerie.dto.PersonneFonctionDto;
 import com.univangers.messagerie.model.Adresse;
 import com.univangers.messagerie.model.Fichier;
+import com.univangers.messagerie.model.Fonction;
 import com.univangers.messagerie.model.Message;
 import com.univangers.messagerie.model.Personne;
+import com.univangers.messagerie.model.PersonneFonction;
 import java.util.ArrayList;
 import java.util.List;
 import javax.transaction.Transactional;
@@ -33,6 +37,9 @@ public class MessageService implements MessageServiceInterface {
 
     @Autowired
     private AdresseDaoInterface adresseDao;
+
+    @Autowired
+    private FonctionDaoInterface fonctionDao;
 
     @Override
     public void insertMessageDto(MessageDto messageDto) {
@@ -101,19 +108,23 @@ public class MessageService implements MessageServiceInterface {
                     personne.setPrenom(expediteurDto.getPersonneDto().getPrenom());
                     personne.setAdresse(adr);
 
-                    /* if (expediteurDto.getPersonneDto().getFonctionDto() != null) {
-                        System.err.println(">> Fonction is not null !!!!");
-                        Fonction fonction = new Fonction();
-                        fonction.setTitle(expediteurDto.getPersonneDto().getFonctionDto().getTitle());
-                        PersonneFonction pf = new PersonneFonction();
-                        pf.setPersonne(personne);
-                        pf.setFonction(fonction);
+                    if (expediteurDto.getPersonneDto().getPersonneFonctionDtoList() != null) {
                         List< PersonneFonction> pfList = new ArrayList<>();
-                        pfList.add(pf);
+                        for (PersonneFonctionDto pfDto : expediteurDto.getPersonneDto().getPersonneFonctionDtoList()) {
+                            Fonction fonction = fonctionDao.findFonctionByTitle(pfDto.getFonctionDto().getTitle());
+                            if (fonction == null) {
+                                fonction = new Fonction();
+                                fonction.setTitle(pfDto.getFonctionDto().getTitle());
+                            }
+                            PersonneFonction pf = new PersonneFonction();
+                            pf.setPersonne(personne);
+                            pf.setFonction(fonction);
+                            pfList.add(pf);
+                        }
                         personne.setPersonneFonctionList(pfList);
-                    }*/
-                    adr.setPersonne(personne);
+                    }
 
+                    adr.setPersonne(personne);
                 }
 
             }
@@ -140,8 +151,8 @@ public class MessageService implements MessageServiceInterface {
             }
             message.setDestinataires(destList);
         }
-        
-         if (messageDto.getDestinataireCopieDtoList() != null) {
+
+        if (messageDto.getDestinataireCopieDtoList() != null) {
             List<Adresse> destCCList = new ArrayList<>();
             for (AdresseDto destCc : messageDto.getDestinataireCopieDtoList()) {
                 Adresse adr = adresseDao.findAdresseById(destCc.getId());
@@ -174,7 +185,7 @@ public class MessageService implements MessageServiceInterface {
             }
             message.setFichierList(fichierList);
         }
-       
+
         return message;
 
     }
@@ -205,7 +216,44 @@ public class MessageService implements MessageServiceInterface {
             }
             messageDto.setExpediteurDto(adrDto);
         }
+        if (message.getDestinataires() != null) {
+            List<AdresseDto> destDtoList = new ArrayList<>();
+            for (Adresse dest : message.getDestinataires()) {
+                AdresseDto adrDto = new AdresseDto();
+                adrDto.setId(dest.getIdADRESSE());
+                if (dest.getPersonne() != null) {
+                    PersonneDto persDto = new PersonneDto();
+                    persDto.setId(dest.getPersonne().getIdPERSONNE());
+                    persDto.setNom(dest.getPersonne().getNom());
+                    persDto.setPrenom(dest.getPersonne().getPrenom());
+                    adrDto.setPersonneDto(persDto);
 
+                }
+
+                destDtoList.add(adrDto);
+            }
+            messageDto.setDestinataireDtoList(destDtoList);
+        } 
+        
+        if (message.getDestinatairesCopie() != null) {
+            List<AdresseDto> destDtoList = new ArrayList<>();
+            for (Adresse dest : message.getDestinatairesCopie()) {
+                AdresseDto adrDto = new AdresseDto();
+                adrDto.setId(dest.getIdADRESSE());
+                if (dest.getPersonne() != null) {
+                    PersonneDto persDto = new PersonneDto();
+                    persDto.setId(dest.getPersonne().getIdPERSONNE());
+                    persDto.setNom(dest.getPersonne().getNom());
+                    persDto.setPrenom(dest.getPersonne().getPrenom());
+                    adrDto.setPersonneDto(persDto);
+
+                }
+
+                destDtoList.add(adrDto);
+            }
+            messageDto.setDestinataireDtoList(destDtoList);
+        }
+        
         return messageDto;
     }
 

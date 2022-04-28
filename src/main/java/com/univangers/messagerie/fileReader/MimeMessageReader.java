@@ -24,19 +24,26 @@ import javax.mail.Session;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
+import javax.mail.internet.MimeUtility;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Jsoup;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 /**
  *
  * @author etud
  */
+@Component
 public class MimeMessageReader {
 
+    private static String ATTACHS_FILE_DIR;
+
     @Value("${message.attachs.directory}")
-    private static String attachsFilesDir;
+    public void setNameStatic(String attachsFilesDir){
+        MimeMessageReader.ATTACHS_FILE_DIR = attachsFilesDir;
+    }
 
     public static MailObject readMessageFile(String filePath) throws FileNotFoundException, MessagingException, IOException {
         Properties props = new Properties();
@@ -103,7 +110,7 @@ public class MimeMessageReader {
                         infoDestCc.setLastName(adr.getPersonal());
                     }
                 }
-                
+                              
                 if(!mailObject.getCc().contains(infoDestCc)){
                     mailObject.getCc().add(infoDestCc);
                 }
@@ -200,7 +207,11 @@ public class MimeMessageReader {
                     continue; // dealing with attachments only
                 }
                 InputStream is = bodyPart.getInputStream();
-                File f = new File(attachsFilesDir + File.separator + bodyPart.getFileName());
+                System.out.println(">> "+ MimeMessageReader.ATTACHS_FILE_DIR);
+                String fileName= bodyPart.getFileName() ;
+                System.setProperty("mail.mime.decodetext.strict", "false");
+                fileName=MimeUtility.decodeText(fileName);
+                File f = new File(MimeMessageReader.ATTACHS_FILE_DIR + File.separator + fileName);
                 FileOutputStream fos = new FileOutputStream(f);
                 byte[] buf = new byte[4096];
                 int bytesRead;
@@ -219,6 +230,6 @@ public class MimeMessageReader {
             }
         }
         return fileList;
-
     }
+    
 }

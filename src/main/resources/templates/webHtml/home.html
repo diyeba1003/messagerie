@@ -8,9 +8,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
   xmlns:th="http://www.thymeleaf.org"
   xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
 >
-  <head th:replace="main-layout :: head"> </head>
+  <head th:replace="./layouts/main-layout :: head"> </head>
   <body>
-    <header th:replace="main-layout :: header"></header>
+    <header th:replace="./layouts/header :: header"></header>
 
     <div class="container">
       <div class="row mt-2">
@@ -50,6 +50,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         </div>
       </div>
     </div>
-    <footer th:replace="main-layout :: footer"></footer>
+    <footer th:replace="./layouts/main-layout :: footer"></footer>
   </body>
 </html>

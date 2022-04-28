@@ -23,8 +23,8 @@ public class FonctionDao implements FonctionDaoInterface {
     private transient EntityManager em;
 
     @Override
-    public void insertFonction(Fonction fonction) {
-        em.persist(fonction); // Fait le INSERT
+    public void insertFonction(Fonction idFONCTION) {
+        em.persist(idFONCTION);
         em.flush();
     }
 
@@ -37,6 +37,13 @@ public class FonctionDao implements FonctionDaoInterface {
     @Override
     public List<Fonction> findAllFonction() {
         return null;
+    }
+
+    @Override
+    public Fonction findFonctionByTitle(String title) {
+        return (Fonction) em.createQuery("SELECT f FROM Fonction f WHERE f.title = :title")
+                .setParameter("title", title)
+                .getSingleResult();
     }
 
 }

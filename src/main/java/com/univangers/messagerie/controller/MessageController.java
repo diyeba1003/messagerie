@@ -10,6 +10,7 @@ import com.univangers.messagerie.dto.FichierDto;
 import com.univangers.messagerie.dto.FonctionDto;
 import com.univangers.messagerie.dto.MessageDto;
 import com.univangers.messagerie.dto.PersonneDto;
+import com.univangers.messagerie.dto.PersonneFonctionDto;
 import com.univangers.messagerie.fileReader.AttachFile;
 import com.univangers.messagerie.fileReader.InfoPersonne;
 import com.univangers.messagerie.fileReader.MailObject;
@@ -36,6 +37,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  *
@@ -98,9 +100,13 @@ public class MessageController {
             if (mailObject.getFonction() != null) {
                 FonctionDto fonctionDto = new FonctionDto();
                 fonctionDto.setTitle(mailObject.getFonction());
-                personneDto.setFonctionDto(fonctionDto);
+                PersonneFonctionDto personneFonctionDto = new PersonneFonctionDto();
+                personneFonctionDto.setFonctionDto(fonctionDto);
+                personneFonctionDto.setPersonneDto(personneDto);
+                personneDto.getPersonneFonctionDtoList().add(personneFonctionDto);
             } else {
                 // LISTE => A faire !!!
+               
             }
             expediteurDto.setPersonneDto(personneDto);
         }
@@ -120,7 +126,9 @@ public class MessageController {
 
             }else {
                 //LISTE => A faire !!!
-            }
+                   
+                    
+                 }
             
             destinatairesDto.add(adresseDto);
         }     
@@ -177,14 +185,14 @@ public class MessageController {
     }
 
     @GetMapping("/listeMessage")
-    public String listemessage(Model model, @Param("id") Integer id) {
+    public String listemessage(Model model, @RequestParam("id") Integer id) {
         List<MessageDto> messageDtoList = messageService.findAllMessageDto();
         model.addAttribute("messages", messageDtoList);
-        if (id != null) {
+        if (id != 0) {
             MessageDto messageDto = messageService.findMessageDtoById(id);
             model.addAttribute("selectedMessage", messageDto);
         }
-        return "listeMessage";
+        return "./webHtml/listeMessage";
     }
 
     @GetMapping("/listeMessageId")
@@ -209,7 +217,7 @@ public class MessageController {
 
         model.addAttribute("counter", counter);
 
-        return "home";
+        return "./webHtml/home";
     }
 
 }

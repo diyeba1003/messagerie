@@ -50,7 +50,7 @@ public class Fonction implements Serializable {
     @Setter
     private String title;
 
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "fonction", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "fonction", fetch = FetchType.LAZY)
     @Getter
     @Setter
     private List<PersonneFonction> personneFonctionList;

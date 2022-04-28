@@ -8,6 +8,7 @@ import com.univangers.messagerie.dto.AdresseDto;
 import com.univangers.messagerie.dto.DataCounter;
 import com.univangers.messagerie.dto.FichierDto;
 import com.univangers.messagerie.dto.FonctionDto;
+import com.univangers.messagerie.dto.ListeDto;
 import com.univangers.messagerie.dto.MessageDto;
 import com.univangers.messagerie.dto.PersonneDto;
 import com.univangers.messagerie.dto.PersonneFonctionDto;
@@ -38,12 +39,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  *
  * @author etud
  */
-@Controller
+@RestController
 @RequestMapping("/messagerie/messages")
 @Transactional
 public class MessageController {
@@ -104,12 +106,16 @@ public class MessageController {
                 personneFonctionDto.setFonctionDto(fonctionDto);
                 personneFonctionDto.setPersonneDto(personneDto);
                 personneDto.getPersonneFonctionDtoList().add(personneFonctionDto);
-            } else {
-                // LISTE => A faire !!!
-               
-            }
+            } 
             expediteurDto.setPersonneDto(personneDto);
         }
+        else {
+                // LISTE => A faire !!!
+               ListeDto listDto =new ListeDto();
+               listDto.setId(mailObject.getFrom().getMail());
+               expediteurDto.setListeDto(listDto);
+               
+            }
 
         mDto.setExpediteurDto(expediteurDto);
 
@@ -126,7 +132,10 @@ public class MessageController {
 
             }else {
                 //LISTE => A faire !!!
-                   
+                
+                   ListeDto listDto = new ListeDto();
+                   listDto.setId(info.getMail());
+                   adresseDto.setListeDto(listDto);
                     
                  }
             
@@ -144,6 +153,12 @@ public class MessageController {
                persDto.setNom(infP.getLastName());
                persDto.setPrenom(infP.getFirstName());
                adrDto.setPersonneDto(persDto);
+           }
+           //fait par moi 
+           else{
+               ListeDto listeDto= new ListeDto();
+               listeDto.setId(infP.getMail());
+               adrDto.setListeDto(listeDto);
            }
             adrDtoList.add(adrDto);
        }       

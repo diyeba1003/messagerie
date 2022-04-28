@@ -21,6 +21,10 @@ public class AdresseDto {
     @Getter
     @Setter
     private PersonneDto personneDto;
+    
+    @Getter
+    @Setter
+    private ListeDto listeDto;
 
     public AdresseDto() {
     }

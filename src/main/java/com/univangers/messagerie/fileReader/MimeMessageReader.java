@@ -21,6 +21,7 @@ import javax.mail.MessagingException;
 import javax.mail.Multipart;
 import javax.mail.Part;
 import javax.mail.Session;
+import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
@@ -41,7 +42,7 @@ public class MimeMessageReader {
     private static String ATTACHS_FILE_DIR;
 
     @Value("${message.attachs.directory}")
-    public void setNameStatic(String attachsFilesDir){
+    public void setNameStatic(String attachsFilesDir) {
         MimeMessageReader.ATTACHS_FILE_DIR = attachsFilesDir;
     }
 
@@ -90,7 +91,7 @@ public class MimeMessageReader {
                     }
 
                 }
-                if(!mailObject.getTo().contains(infoDestTo)){
+                if (!mailObject.getTo().contains(infoDestTo)) {
                     mailObject.getTo().add(infoDestTo);
                 }
             }
@@ -110,8 +111,8 @@ public class MimeMessageReader {
                         infoDestCc.setLastName(adr.getPersonal());
                     }
                 }
-                              
-                if(!mailObject.getCc().contains(infoDestCc)){
+
+                if (!mailObject.getCc().contains(infoDestCc)) {
                     mailObject.getCc().add(infoDestCc);
                 }
             }
@@ -207,10 +208,10 @@ public class MimeMessageReader {
                     continue; // dealing with attachments only
                 }
                 InputStream is = bodyPart.getInputStream();
-                System.out.println(">> "+ MimeMessageReader.ATTACHS_FILE_DIR);
-                String fileName= bodyPart.getFileName() ;
+                System.out.println(">> " + MimeMessageReader.ATTACHS_FILE_DIR);
+                String fileName = bodyPart.getFileName();
                 System.setProperty("mail.mime.decodetext.strict", "false");
-                fileName=MimeUtility.decodeText(fileName);
+                fileName = MimeUtility.decodeText(fileName);
                 File f = new File(MimeMessageReader.ATTACHS_FILE_DIR + File.separator + fileName);
                 FileOutputStream fos = new FileOutputStream(f);
                 byte[] buf = new byte[4096];
@@ -231,5 +232,16 @@ public class MimeMessageReader {
         }
         return fileList;
     }
-    
+
+    public static Boolean isValidEmailAddress(String emailStr) {
+        Boolean result = true;
+        try {
+            InternetAddress emailAddr = new InternetAddress(emailStr);
+            emailAddr.validate();
+        } catch (AddressException aex) {
+            result = false;
+        }
+        return result;
+    }
+
 }

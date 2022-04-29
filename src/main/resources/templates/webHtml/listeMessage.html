@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+
+<head th:replace="./layouts/main-layout :: head">
+
+</head>
+
+<body>
+
+  <header th:replace="./layouts/header :: header"> </header>
+  <div class="container-fluid mt-3">
+    <div class="row">
+      
+      <div th:replace="./webHtml/content-layout :: content-menu">
+
+      </div>
+      <div class="col-9 ">
+        <div th:if="${selectedMessage} != null"> 
+        </div>
+        <div > 
+          <label>Date d'envoie: <span th:text="${selectedMessage?.date}" ></span></label>
+        </div>
+        <div> 
+           <label> expediteur: <span th:text="${selectedMessage?.expediteurDto?.id}" ></span></label>
+        </div>
+         
+        <div > 
+           <label> destinataire:  </label>
+           <span th:each="destinataire:${selectedMessage.destinataireDtoList}" th:text="${destinataire.id}"></span>
+           
+         </div>
+          <div class="row mt-4">
+           <label> Message:</label> <span th:text="${selectedMessage?.body}" ></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer th:replace="./layouts/main-layout :: footer"> </footer>
+
+  
+  <script th:inline="javascript">
+      
+  </script>
+</body>
+
+</html>

@@ -3,7 +3,12 @@ h4{
 }
 
 .navbar-nav .nav-item{
-    font-size: 1.5em;
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none !important;
+    
 }
 
 .border-top-info{

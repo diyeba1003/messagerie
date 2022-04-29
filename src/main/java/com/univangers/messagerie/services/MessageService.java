@@ -5,15 +5,21 @@
 package com.univangers.messagerie.services;
 
 import com.univangers.messagerie.dao.AdresseDaoInterface;
+import com.univangers.messagerie.dao.FonctionDaoInterface;
 import com.univangers.messagerie.dao.MessageDaoInterface;
 import com.univangers.messagerie.dto.AdresseDto;
 import com.univangers.messagerie.dto.FichierDto;
+import com.univangers.messagerie.dto.ListeDto;
 import com.univangers.messagerie.dto.MessageDto;
 import com.univangers.messagerie.dto.PersonneDto;
+import com.univangers.messagerie.dto.PersonneFonctionDto;
 import com.univangers.messagerie.model.Adresse;
 import com.univangers.messagerie.model.Fichier;
+import com.univangers.messagerie.model.Fonction;
+import com.univangers.messagerie.model.Liste;
 import com.univangers.messagerie.model.Message;
 import com.univangers.messagerie.model.Personne;
+import com.univangers.messagerie.model.PersonneFonction;
 import java.util.ArrayList;
 import java.util.List;
 import javax.transaction.Transactional;
@@ -33,6 +39,9 @@ public class MessageService implements MessageServiceInterface {
 
     @Autowired
     private AdresseDaoInterface adresseDao;
+
+    @Autowired
+    private FonctionDaoInterface fonctionDao;
 
     @Override
     public void insertMessageDto(MessageDto messageDto) {
@@ -88,76 +97,113 @@ public class MessageService implements MessageServiceInterface {
         message.setSentdate(messageDto.getDate());
         message.setSubject(messageDto.getObject());
         message.setBody(messageDto.getBody());
+        Adresse adrSender = null;
         if (messageDto.getExpediteurDto() != null) {
             AdresseDto expediteurDto = messageDto.getExpediteurDto();
-            Adresse adr = adresseDao.findAdresseById(expediteurDto.getId());
-            if (adr == null) {
-                adr = new Adresse();
-                adr.setIdADRESSE(expediteurDto.getId());
+            adrSender = adresseDao.findAdresseById(expediteurDto.getId());
+            if (adrSender == null) {
+                adrSender = new Adresse();
+                adrSender.setIdADRESSE(expediteurDto.getId());
                 if (expediteurDto.getPersonneDto() != null) {
                     Personne personne = new Personne();
                     personne.setIdPERSONNE(expediteurDto.getPersonneDto().getId());
                     personne.setNom(expediteurDto.getPersonneDto().getNom());
                     personne.setPrenom(expediteurDto.getPersonneDto().getPrenom());
-                    personne.setAdresse(adr);
+                    personne.setAdresse(adrSender);
 
-                    /* if (expediteurDto.getPersonneDto().getFonctionDto() != null) {
-                        System.err.println(">> Fonction is not null !!!!");
-                        Fonction fonction = new Fonction();
-                        fonction.setTitle(expediteurDto.getPersonneDto().getFonctionDto().getTitle());
-                        PersonneFonction pf = new PersonneFonction();
-                        pf.setPersonne(personne);
-                        pf.setFonction(fonction);
+                    if (expediteurDto.getPersonneDto().getPersonneFonctionDtoList() != null) {
                         List< PersonneFonction> pfList = new ArrayList<>();
-                        pfList.add(pf);
+                        for (PersonneFonctionDto pfDto : expediteurDto.getPersonneDto().getPersonneFonctionDtoList()) {
+                            Fonction fonction = fonctionDao.findFonctionByTitle(pfDto.getFonctionDto().getTitle());
+                            if (fonction == null) {
+                                fonction = new Fonction();
+                                fonction.setTitle(pfDto.getFonctionDto().getTitle());
+                            }
+                            PersonneFonction pf = new PersonneFonction();
+                            pf.setPersonne(personne);
+                            pf.setFonction(fonction);
+                            pfList.add(pf);
+                        }
                         personne.setPersonneFonctionList(pfList);
-                    }*/
-                    adr.setPersonne(personne);
+                    }
+
+                    adrSender.setPersonne(personne);
+                } //fait par moi
+                else {
+                    Liste liste = new Liste();
+                    liste.setIdLISTE(expediteurDto.getListeDto().getId());
+                    liste.setLibelle(expediteurDto.getListeDto().getLibelle());
+                    liste.setAdresse(adrSender);
 
                 }
 
             }
-            message.setSender(adr);
+            message.setSender(adrSender);
         }
 
         if (messageDto.getDestinataireDtoList() != null) {
             List<Adresse> destList = new ArrayList<>();
             for (AdresseDto destDto : messageDto.getDestinataireDtoList()) {
-                Adresse adr = adresseDao.findAdresseById(destDto.getId());
-                if (adr == null) {
-                    adr = new Adresse();
-                    adr.setIdADRESSE(destDto.getId());
-                    if (destDto.getPersonneDto() != null) {
-                        Personne personne = new Personne();
-                        personne.setIdPERSONNE(destDto.getPersonneDto().getId());
-                        personne.setNom(destDto.getPersonneDto().getNom());
-                        personne.setPrenom(destDto.getPersonneDto().getPrenom());
-                        personne.setAdresse(adr);
-                        adr.setPersonne(personne);
+                if (destDto.getId().equals(adrSender.getIdADRESSE())) {
+                    destList.add(adrSender);
+                } else {
+                    Adresse adr = adresseDao.findAdresseById(destDto.getId());
+                    if (adr == null) {
+                        adr = new Adresse();
+                        adr.setIdADRESSE(destDto.getId());
+                        if (destDto.getPersonneDto() != null) {
+                            Personne personne = new Personne();
+                            personne.setIdPERSONNE(destDto.getPersonneDto().getId());
+                            personne.setNom(destDto.getPersonneDto().getNom());
+                            personne.setPrenom(destDto.getPersonneDto().getPrenom());
+                            personne.setAdresse(adr);
+                            adr.setPersonne(personne);
+                        } //fait par moi
+                        else {
+                            Liste liste = new Liste();
+                            liste.setIdLISTE(destDto.getListeDto().getId());
+                            liste.setLibelle(destDto.getListeDto().getLibelle());
+                            liste.setAdresse(adr);
+                            adr.setListe(liste);
+                        }
                     }
+                    destList.add(adr);
                 }
-                destList.add(adr);
+
             }
+
             message.setDestinataires(destList);
         }
-        
-         if (messageDto.getDestinataireCopieDtoList() != null) {
+
+        if (messageDto.getDestinataireCopieDtoList() != null) {
             List<Adresse> destCCList = new ArrayList<>();
             for (AdresseDto destCc : messageDto.getDestinataireCopieDtoList()) {
-                Adresse adr = adresseDao.findAdresseById(destCc.getId());
-                if (adr == null) {
-                    adr = new Adresse();
-                    adr.setIdADRESSE(destCc.getId());
-                    if (destCc.getPersonneDto() != null) {
-                        Personne pers = new Personne();
-                        pers.setIdPERSONNE(destCc.getPersonneDto().getId());
-                        pers.setPrenom(destCc.getPersonneDto().getPrenom());
-                        pers.setNom(destCc.getPersonneDto().getNom());
-                        pers.setAdresse(adr);
-                        adr.setPersonne(pers);
+                if (destCc.getId().equals(adrSender.getIdADRESSE())) {
+                    destCCList.add(adrSender);
+                } else {
+                    Adresse adr = adresseDao.findAdresseById(destCc.getId());
+                    if (adr == null) {
+                        adr = new Adresse();
+                        adr.setIdADRESSE(destCc.getId());
+                        if (destCc.getPersonneDto() != null) {
+                            Personne pers = new Personne();
+                            pers.setIdPERSONNE(destCc.getPersonneDto().getId());
+                            pers.setPrenom(destCc.getPersonneDto().getPrenom());
+                            pers.setNom(destCc.getPersonneDto().getNom());
+                            pers.setAdresse(adr);
+                            adr.setPersonne(pers);
+                        } //fait par moi
+                        else {
+                            Liste liste = new Liste();
+                            liste.setIdLISTE(destCc.getListeDto().getId());
+                            liste.setLibelle(destCc.getListeDto().getLibelle());
+                            liste.setAdresse(adr);
+                            adr.setListe(liste);
+                        }
                     }
+                    destCCList.add(adr);
                 }
-                destCCList.add(adr);
+
             }
             message.setDestinatairesCopie(destCCList);
         }
@@ -174,7 +220,7 @@ public class MessageService implements MessageServiceInterface {
             }
             message.setFichierList(fichierList);
         }
-       
+
         return message;
 
     }
@@ -202,8 +248,63 @@ public class MessageService implements MessageServiceInterface {
                 persDto.setId(adr.getPersonne().getIdPERSONNE());
                 persDto.setNom(adr.getPersonne().getNom());
                 adrDto.setPersonneDto(persDto);
+            } //fait par moi
+            else {
+                ListeDto listeDto = new ListeDto();
+                listeDto.setId(adr.getListe().getIdLISTE());
+                listeDto.setLibelle(adr.getListe().getLibelle());
+                adrDto.setListeDto(listeDto);
             }
             messageDto.setExpediteurDto(adrDto);
+        }
+        if (message.getDestinataires() != null) {
+            List<AdresseDto> destDtoList = new ArrayList<>();
+            for (Adresse dest : message.getDestinataires()) {
+                AdresseDto adrDto = new AdresseDto();
+                adrDto.setId(dest.getIdADRESSE());
+                if (dest.getPersonne() != null) {
+                    PersonneDto persDto = new PersonneDto();
+                    persDto.setId(dest.getPersonne().getIdPERSONNE());
+                    persDto.setNom(dest.getPersonne().getNom());
+                    persDto.setPrenom(dest.getPersonne().getPrenom());
+                    adrDto.setPersonneDto(persDto);
+
+                } //fait par moi
+                else {
+                    ListeDto listeDto = new ListeDto();
+                    listeDto.setId(dest.getListe().getIdLISTE());
+                    listeDto.setLibelle(dest.getListe().getLibelle());
+                    adrDto.setListeDto(listeDto);
+                }
+
+                destDtoList.add(adrDto);
+            }
+            messageDto.setDestinataireDtoList(destDtoList);
+        }
+
+        if (message.getDestinatairesCopie() != null) {
+            List<AdresseDto> destDtoList = new ArrayList<>();
+            for (Adresse dest : message.getDestinatairesCopie()) {
+                AdresseDto adrDto = new AdresseDto();
+                adrDto.setId(dest.getIdADRESSE());
+                if (dest.getPersonne() != null) {
+                    PersonneDto persDto = new PersonneDto();
+                    persDto.setId(dest.getPersonne().getIdPERSONNE());
+                    persDto.setNom(dest.getPersonne().getNom());
+                    persDto.setPrenom(dest.getPersonne().getPrenom());
+                    adrDto.setPersonneDto(persDto);
+
+                } //fait par moi
+                else {
+                    ListeDto listeDto = new ListeDto();
+                    listeDto.setId(dest.getListe().getIdLISTE());
+                    listeDto.setLibelle(dest.getListe().getLibelle());
+                    adrDto.setListeDto(listeDto);
+                }
+
+                destDtoList.add(adrDto);
+            }
+            messageDto.setDestinataireDtoList(destDtoList);
         }
 
         return messageDto;

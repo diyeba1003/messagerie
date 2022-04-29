@@ -4,6 +4,8 @@
  */
 package com.univangers.messagerie.dto;
 
+import java.util.ArrayList;
+import java.util.List;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -24,7 +26,7 @@ public class PersonneDto {
     
     @Getter
     @Setter
-    private FonctionDto fonctionDto;
+    private List<PersonneFonctionDto> personneFonctionDtoList = new ArrayList<>();
 
     public PersonneDto() {
     }

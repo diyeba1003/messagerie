@@ -7,9 +7,13 @@ package com.univangers.messagerie.model;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.Objects;
+import javax.persistence.Basic;
 import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
@@ -36,14 +40,20 @@ public class PersonneFonction implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
-    @JoinColumn(name = "FONCTION_ID", referencedColumnName = "idFONCTION", nullable = false, insertable = false, updatable = false)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Basic(optional = false)
+    @Column(name="idPERSONNE_FONCTION",nullable = false)
+    @Getter
+    @Setter
+    private Integer idPERSONNEFONCTION;
+    
+    @JoinColumn(name = "FONCTION_ID", referencedColumnName = "idFONCTION", nullable = false)
     @ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE}, optional = false, fetch = FetchType.LAZY)
     @Getter
     @Setter
     private Fonction fonction;
-
-    @Id
-    @JoinColumn(name = "PERSONNE_ID", referencedColumnName = "idPERSONNE", nullable = false, insertable = false, updatable = false)
+    
+    @JoinColumn(name = "PERSONNE_ID", referencedColumnName = "idPERSONNE", nullable = false)
     @ManyToOne(optional = false, fetch = FetchType.LAZY)
     @Getter
     @Setter
@@ -72,7 +82,7 @@ public class PersonneFonction implements Serializable {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) {
+        if (this == obj) { 
             return true;
         }
         if (obj == null) {

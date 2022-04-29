@@ -52,11 +52,16 @@ public class MessageDto {
     @Setter
     private List<FichierDto> fichierDtoList;
 
+    @Getter
+    @Setter
+    private List<MessageDto> messageDtoReplyList;
+
     public MessageDto() {
         this.destinataireDtoList = new ArrayList<>();
         this.destinataireCopieDtoList = new ArrayList<>();
         this.transfertDtoList = new ArrayList<>();
         this.fichierDtoList = new ArrayList<>();
+        this.messageDtoReplyList = new ArrayList<>();
     }
 
 }

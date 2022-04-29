@@ -104,6 +104,14 @@ public class Message implements Serializable {
     @Setter
     private List<Fichier> fichierList;
 
+    @JoinTable(name = "MESSAGE_REPLY", joinColumns = {
+        @JoinColumn(name = "MESSAGE_ID_REPLY", referencedColumnName = "idMESSAGE", nullable = false)}, inverseJoinColumns = {
+        @JoinColumn(name = "MESSAGE_ID", referencedColumnName = "idMESSAGE", nullable = false)})
+    @ManyToMany(fetch = FetchType.LAZY)
+    @Getter
+    @Setter
+    private List<Message> messageReplyList;
+
     public Message() {
     }
 

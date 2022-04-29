@@ -45,6 +45,7 @@ public class FonctionService implements FonctionServiceInterface {
 
         FonctionDto fonctionDto = new FonctionDto();
         fonctionDto.setIdFonction(fonction.getIdFONCTION());
+        fonctionDto.setTitle(fonction.getTitle());
         return fonctionDto;
     }
 

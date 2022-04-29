@@ -1,0 +1,230 @@
+Return-Path: <bounce+12078949.1727.3126.10426@vertical-mail.com>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 50CF422827
+	for <president@listes.univ-angers.fr>; Wed, 22 Sep 2010 12:53:59 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 450AC1145AF; Wed, 22 Sep 2010 12:53:59 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.vertical-mail.com (smtp1.vertical-mail.com [217.174.198.78])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 2B7CF1145AD
+	for <president@univ-angers.fr>; Wed, 22 Sep 2010 12:53:59 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=vertical-mail.com;
+ h=To:Subject:Message-Id:List-Unsubscribe:From:Reply-to:Content-Transfer-Encoding:MIME-Version:Content-Type:Date; i=infomediation@vertical-mail.com;
+ bh=v4y3gKSpHqrKpq/NzUJkG1ueuv8=;
+ b=dEqoQ2XHE+12SYw9xsLR7ePSncy7nnME18418i6nW9YFi/Do8zdKZcrHQBbZ4Xv/1tAOW54qnTwU
+   b/oL0DuYUp5O4MW0katq1WhHh1uOQuJ9eWDkZL9abkusLeqLjhKCKPqGoUGWbT/qUoskhR4rpKMd
+   YWM/iuVfSvSixmUxoTE=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=default; d=vertical-mail.com;
+ b=lll8tLiSCQD0o89qT1GGVbdqHgakpPz6/vL4QVE4H7MsXfrNo8QBuD5lQ8NAeQuRAqHjADSayE8R
+   9A+j6mNmWXoy3A4Qa2XXGxuI9nTXjOkN5pX/BCdF2s8YB89MCmEfQM4YW1M+Pmzih4jZZlcjROmv
+   pBxGxjSG+x+MSsXKPoo=;
+Received: from localhost (217.174.198.64) by smtp1.vertical-mail.com (PowerMTA(TM) v3.5r11) id hj7g4e0ovfof for <president@univ-angers.fr>; Wed, 22 Sep 2010 12:53:29 +0200 (envelope-from <bounce+12078949.1727.3126.10426@vertical-mail.com>)
+To: president@univ-angers.fr
+Message-Id: <20100922125329.12078949-10426-3126@vertical-mail.com>
+Errors-To: bounce+12078949.1727.3126.10426@vertical-mail.com
+List-Unsubscribe: <mailto:opposition@vertical-mail.com?suject=opposition>
+From: "Le Figaro" <infomediation@vertical-mail.com>
+Reply-to: infomediation@vertical-mail.com
+X-Sender: infomediation@vertical-mail.com
+Content-Transfer-Encoding: 8bit
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="00-8036fe11316a6f6349f480876c0371f5"
+Date: Wed, 22 Sep 2010 12:53:29 +0200
+Subject: [president] A devorer chez vous ou au bureau
+
+This is a multi-part message in MIME format .
+
+--00-8036fe11316a6f6349f480876c0371f5
+Content-Type: text/plain; charset=ISO-8859-15
+
+Monsieur MARTINA, 
+Découvrez la Formule Club du Figaro pendant 2 mois... 
+.. et recevez du lundi au samedi : Le Figaro, ses suppléments et ses magazines .	
+Exclusif Business : 50% de réduction 
+2 mois 45€ seulement ! 
+
+> Plus d’infos : 
+http://www.restworx.com/page,1701,12078949,1727,3126,10426,x4956knc.html 
+
+
+-------------------------------------- 
+VOTRE ABONNEMENT VERTICAL-MAIL BUSINESS : Vous pouvez gérer votre abonnement ou modifier votre profil et vos coordonnées. Vous pouvez également annuler votre abonnement gratuit à notre service d'infomédiation en vous désabonnant de la base Vertical-Mail ou de la base d'envois sélectionnée pour notre partenaire Le+Figaro. Merci d'aller http://www.vminfos.com/opposition/index2.php4?dest=Le+Figaro&email=president@univ-angers.fr&member=&contact_id=12078949&base_id=1727&campaign_id=3126&sending_id=10426. 
+
+Vertical-Mail® - Tous droits réservés©
+
+--00-8036fe11316a6f6349f480876c0371f5
+Content-Type: text/html; charset=ISO-8859-15
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<style type="text/css">
+<!--
+
+formstyle
+{
+	FONT-SIZE: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	COLOR: #000000;
+	BACKGROUND-COLOR: #FFFFFF;
+	BORDER-BOTTOM: #000000 1px solid;
+	BORDER-LEFT: #000000 1px solid;
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-TOP: #000000 1px solid;
+	margin:0px;
+}
+
+formstyle2
+{
+	FONT-SIZE: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	COLOR: #000000;
+	BACKGROUND-COLOR: #ffdede;
+	BORDER-BOTTOM: #000000 1px solid;
+	BORDER-LEFT: #000000 1px solid;
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-TOP: #000000 1px solid;
+	margin:0px;
+}
+
+a:hover {text-decoration: none}
+BODY {font-size: 11px; font-family: Arial, Helvetica, sans-serif;}
+td {font-size: 11px; font-family: Arial, Helvetica, sans-serif;}
+BIG {font-size: 13px; font-family: Arial, Helvetica, sans-serif;}
+SMALL {font-size: 9px; font-family: Arial, Helvetica, sans-serif;}
+H1 {font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+H2 {font-family: Arial, Helvetica, sans-serif; font-size: 18px;}
+H3 {font-family: Arial, Helvetica, sans-serif; font-size: 20px;}
+H4 {font-family: Arial, Helvetica, sans-serif; font-size: 22px;}
+H5 {font-family: Arial, Helvetica, sans-serif; font-size: 24px;}
+H6 {font-family: Arial, Helvetica, sans-serif; font-size: 28px;}
+
+lien {font-family: Arial, Helvetica, sans-serif; text-decoration: none}
+lien:hover {font-family: Arial, Helvetica, sans-serif; text-decoration: underline}
+lienmention {font-family: Arial, Helvetica, sans-serif; color: #494949}
+
+//-->
+</style></head>
+
+<body leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0" bgcolor="#FFFFFF" text="#000000">
+
+<center>
+
+<table cellspacing="0" cellpadding="0" width="100%" border="0">
+<tr><td align="center" bgcolor="#FFFFFF">
+
+
+	<TABLE WIDTH=600 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD HEIGHT=30 ALIGN=CENTER><B><font face="Arial, Helvetica, sans-serif" color=#494949 style="font-size:11px">
+		Monsieur MARTINA, pour visualiser les images, <A href="http://www.restworx.com/page,3134,12078949,1727,3126,10426,x4956knc.html"><FONT COLOR=#494949>suivez ce lien</FONT></A>
+		</font></B></TD>
+	</TR>
+	</TABLE><table width="820" border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td colspan="5" height="60"><img src="http://www.vminfos.com/solofiga1009ent/visuals/mail_im01.jpg" width="820" height="60" alt="LE FIGARO" style="display:block"></td>
+</tr>
+<tr>
+	<td rowspan="2" width="60"><img src="http://www.vminfos.com/solofiga1009ent/visuals/mail_im02.jpg" width="60" height="317" alt="" style="display:block"></td>
+	<td height="87" colspan="3" align="left" style="padding-left:20px"><A href="http://www.restworx.com/page,3134,12078949,1727,3126,10426,x4956knc.html" style="text-decoration:none"><font
+	color="#000000" face="Arial, Helvetica, sans-serif" style="font-size:12px">
+	Monsieur MARTINA,<br>
+	<font size="1" style="font-size:3px"> &nbsp;</font><br>
+	<b><font size="5" style="font-size:24px">Recevez Le Figaro pendant 2 mois, du lundi au samedi...</font></b>
+	</font></a></td>
+	<td rowspan="2" width="60"><img src="http://www.vminfos.com/solofiga1009ent/visuals/mail_im03.jpg" width="60" height="317" alt="" style="display:block"></td>
+</tr>
+<tr>
+	<td valign="top">
+	
+	<table width="425" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="425" height="177"><A href="http://www.restworx.com/page,3134,12078949,1727,3126,10426,x4956knc.html"><img
+		src="http://www.vminfos.com/solofiga1009ent/visuals/mail_im04.jpg" alt="" width="425" height="177" border="0" style="display:block"></a></td>
+	</tr>
+<!--	<tr>
+		<td height="53" align="left" valign="top" style="padding-left:20px"><A href="http://www.restworx.com/page,3134,12078949,1727,3126,10426,x4956knc.html" style="text-decoration:none"><font
+		color="#000000" size="2" face="Arial, Helvetica, sans-serif" style="font-size:14px">... et recevez du lundi au samedi :<br>
+		Le Figaro, ses suppl&eacute;ments et ses magazines.</font></a></td>
+	</tr>-->
+	</table>
+	
+	</td>
+	<td valign="top">
+	
+	<table width="255" border="0" cellpadding="0" cellspacing="0" bgcolor="#af9871">
+	<tr>
+		<td colspan="3"><img src="http://www.vminfos.com/solofiga1009ent/visuals/mail_im05.jpg" width="255" height="4" alt="" style="display:block"></td>
+	</tr>
+	<tr>
+		<td height="52" colspan="3" align="left" bgcolor="#dfd6c6" style="padding-left:20px"><A href="http://www.restworx.com/page,3134,12078949,1727,3126,10426,x4956knc.html" style="text-decoration:none"><font
+		color="#000000" size="4" face="Arial, Helvetica, sans-serif" style="font-size:18px">Exclusif Business :<br>
+		<b>50% de r&eacute;duction</b></font></a></td>
+	</tr>
+	<tr>
+		<td height="110" colspan="3" align="left" style="padding-left:18px"><b><A href="http://www.restworx.com/page,3134,12078949,1727,3126,10426,x4956knc.html" style="text-decoration:none"><font
+		color="#FFFFFF" size="5" face="Arial, Helvetica, sans-serif" style="font-size:28px">
+		<span style="font-size:24px">FORMULE CLUB</span><br />
+		2 mois<br>
+		45&euro; seulement !</font></a></b><br>
+		<font size="1" style="font-size:8px">&nbsp; &nbsp;</font></td>
+	</tr>
+	<tr>
+		<td width="89">&nbsp;</td>
+		<td width="154" height="38" align="center" bgcolor="#19417c"><b><A href="http://www.restworx.com/page,3134,12078949,1727,3126,10426,x4956knc.html"><font
+		color="#FFFFFF" size="4" face="Arial, Helvetica, sans-serif" style="font-size:20px"><img src="http://www.vminfos.com/solofiga1009ent/visuals/mail_im01.gif" alt="" width="10" height="9" border="0">Plus d&rsquo;infos</font></a></b></td>
+		<td width="12">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="3" height="10"><img src="http://www.vminfos.com/solofiga1009ent/visuals/blank.gif" width="1" height="10" alt="" style="display:block"></td>
+	</tr>
+	<tr>
+		<td colspan="3" height="4"><img src="http://www.vminfos.com/solofiga1009ent/visuals/mail_im06.jpg" width="255" height="4" alt="" style="display:block"></td>
+	</tr>
+	</table>
+	
+	</td>
+	<td width="20"><img src="http://www.vminfos.com/solofiga1009ent/visuals/blank.gif" width="20" height="1" alt="" style="display:block"></td>
+</tr>
+<tr>
+	<td colspan="5" height="15"><img src="http://www.vminfos.com/solofiga1009ent/visuals/mail_im07.jpg" width="820" height="15" alt="" style="display:block"></td>
+</tr>
+</table>
+<br>
+<table cellspacing="0" cellpadding="0" width="700" border="0">
+<tr>
+	<td height="25" align="CENTER"><img alt="" src="http://www.vminfos.com/visuals/solo_foot_im01.gif" width="24" height="13" align="ABSMIDDLE"><A href="http://www.restworx.com/page,3135,12078949,1727,3126,10426,x4956knc.html" style="text-decoration:none"><font
+	face="Arial, Helvetica, sans-serif" color="#494949" style="font-size:11px">Partagez cette offre avec vos amis et collaborateurs</font></A></td>
+</tr>
+</table>
+
+<br>
+
+	<!-- SNIP -->
+	<TABLE WIDTH=700 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD align=left><FONT face="Arial, Helvetica, sans-serif" SIZE=1 CLASS=SMALL color=#494949>Vous recevez ce mail via VERTICAL-MAIL BUSINESS :<BR> Vous pouvez gérer votre abonnement ou modifier votre profil et vos coordonnées. Vous pouvez également annuler votre abonnement gratuit à notre service d'infomédiation en vous désabonnant de la base Vertical-Mail ou de la base d'envois sélectionnée pour notre partenaire Le Figaro. Merci de <A HREF="http://www.vminfos.com/opposition/index2.php4?dest=Le Figaro&email=president@univ-angers.fr&member=&contact_id=12078949&base_id=1727&campaign_id=3126&sending_id=10426" CLASS=lienmention>suivre ce lien</A>.</FONT></TD>
+	</TR>
+	</TABLE>
+	<!-- END SNIP -->
+	
+<table cellpadding="0" cellspacing="0" border="0" width="700">
+<tr>
+	<td align="RIGHT"><br><b><a href="http://www.restworx.com/page,4,12078949,1727,3126,10426,x4956knc.html" target="_blank"><font face="Arial, Helvetica, sans-serif" color="#494949" style="font-size:11px">Vertical-Mail&reg; - Tous droits r&eacute;serv&eacute;s&copy;</font></a><br><br></b></td>
+</tr>
+</table>
+
+</td></tr>
+</table>
+
+</center>
+
+<img src="http://www.restworx.com/front/push/image,12078949,1727,3126,10426.gif" border="0" alt="" /></body>
+
+</html>
+
+--00-8036fe11316a6f6349f480876c0371f5--
+
+

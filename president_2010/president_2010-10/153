@@ -1,0 +1,154 @@
+Return-Path: <andrerebel@orange.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 5718922823
+	for <president@listes.univ-angers.fr>; Tue, 12 Oct 2010 12:11:58 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 4BBAC114427; Tue, 12 Oct 2010 12:11:58 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp2f.orange.fr (smtp2f.orange.fr [80.12.242.152])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 0B5D0114420;
+	Tue, 12 Oct 2010 12:11:57 +0200 (CEST)
+Received: from me-wanadoo.net (localhost [127.0.0.1])
+	by mwinf2f23.orange.fr (SMTP Server) with ESMTP id B53E8800024C;
+	Tue, 12 Oct 2010 12:11:57 +0200 (CEST)
+Received: from me-wanadoo.net (localhost [127.0.0.1])
+	by mwinf2f23.orange.fr (SMTP Server) with ESMTP id 9857E8000AE1;
+	Tue, 12 Oct 2010 12:11:57 +0200 (CEST)
+Received: from [127.0.0.1] (ANantes-258-1-84-235.w90-49.abo.wanadoo.fr [90.49.187.235])
+	by mwinf2f23.orange.fr (SMTP Server) with ESMTP id 7C7EE800024C;
+	Tue, 12 Oct 2010 12:11:53 +0200 (CEST)
+X-ME-UUID: 20101012101153510.7C7EE800024C@mwinf2f23.orange.fr
+Message-ID: <4CB43464.4050102@orange.fr>
+Date: Tue, 12 Oct 2010 12:11:48 +0200
+From: =?ISO-8859-1?Q?Andr=E9_Rebel?= <andrerebel@orange.fr>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; fr; rv:1.9.2.9) Gecko/20100915 Thunderbird/3.1.4
+MIME-Version: 1.0
+To: AMV <angers.musees.vivants@wanadoo.fr>,
+	Angers Habitat Patricia <Patricia.DUVEAU@angers-habitat.fr>,
+	Angers-Habitat com <communication@angers-habitat.fr>,
+	=?ISO-8859-1?Q?Anjou_soins_services_M=E9lanie?= <m.coeuru@anjousoinsservices.fr>,
+	=?ISO-8859-1?Q?Basl=E9_Michel?= <michel.basle@univ-angers.fr>,
+	Bourgeois Bernard <bernard.bourgeois315@orange.fr>,
+	"Bournazel Vincent." <vbcoeur@club-internet.fr>,
+	=?ISO-8859-1?Q?Champane?= =?ISO-8859-1?Q?y_Andr=E9?= <andre.champaney@wanadoo.fr>,
+	Chappard Daniel <daniel.chappard@univ-angers.fr>,
+	Colson Daniel <danielcolson.electromenager@wanadoo.fr>,
+	Cotonea Assad <cotonea@assad-afa.fr>,
+	Courcoul Dominique Pro <COURCODO@cmanjou.creditmutuel.fr>,
+	=?ISO-8859-1?Q?Courcoul_Dominique_priv=E9?= <dominique.courcoul@numericable.fr>,
+	Coyard Christa <coyard@unimedia.fr>,
+	Croiset Christine <christine.croiset49@orange.fr>,
+	Decarli Claude <claudedecarli@orange.fr>,
+	Dennys Museum <Vincent.dennys@ville.angers>,
+	Dubin Jacques <jadubin@chu-angers.fr>,
+	Rebel Philippe <Tropi.garden@domaccess.com>,
+	Rebel Xavier <rebel.xavier@wanadoo.fr>,
+	Rebel vincent <vincent.rebel@mpsa.com>,
+	=?ISO-8859-1?Q?Richard_B=E9n=E9dicte?= <benedicte.rebel@giffard.com>,
+	Pomalaza Isabelle <pomalaza@ca.ibm.com>,
+	Pomalaza Isabelle Perso <Isabelle@pomalaza.com>,
+	=?ISO-8859-1?Q?=22Richa?= =?ISO-8859-1?Q?rd_B=E9n=E9dicte_dom=2E=22?= <benedicte.richard200@orange.fr>,
+	Fabre michel <michelfabre@noos.fr>,
+	=?ISO-8859-1?Q?=22Fac=2E_M=E9d_-_Secr=2E=22?= <Patricia.lecoq@univ-angers.fr>,
+	Fernbach Diane <denys.fernbach@orange.fr>,
+	Francke Jean-Paul conf Doyens <jean-paul.francke@univ-lille2.fr>,
+	=?ISO-8859-1?Q?Fran=E7ois_Henri?= <shfrancois@laposte.net>,
+	Girard Sylvie perso <scotbie@yahoo.fr>,
+	"Girard Sylvie Prof." <toitetbois@domaccess.com>,
+	Gossi-Royer <amisdegossi@wanadoo.fr>,
+	=?ISO-8859-1?Q?Goutard_V=E9ronique?= <veroniquegoutard@hotmail.fr>,
+	=?ISO-8859-1?Q?Gu=E9rin_Herv=E9?= <herve.guerin@angers-habitat.fr>,
+	Iogna-Prat Paul <paul.iogna-prat@wanadoo.fr>,
+	Jacqueline aux Augustines <sr.jacqueline@augustines-angers.fr>,
+	Jallet Ghislaine <ophtalmologie@chu-angers.fr>,
+	Jean Meillac <jean.meillac@garagedebretagne.fr>,
+	Jarriod Nicolle <nicolle.jarriod@orange.fr>,
+	Jean-Marie REBEL <jm.rebel@gmail.com>,
+	Jeanneteau Teisseire <jeanneteau.genevieve@sfr.fr>,
+	Lafont Claire <cjplafont@gmail.com>,
+	Lutz immo <contact@cabinet-Lutz.fr>,
+	"MACSF ass. vie" <marketing@macsf.fr>, MAIF <angers@maif.fr>,
+	Maillard Jacques <bjmaillar@numericable.fr>,
+	=?ISO-8859-1?Q?Marchal_Fran=E7oise?= <marchalchristophe31@yahoo.fr>,
+	=?ISO-8859-1?Q?Marie-Fran=E7oise_Moreau?= <marie-francoise.moreau@univ-angers.fr>,
+	Mercedes-Meillac <jean.meillac@garagedebretagne.fr>,
+	"monique.pierre3@wanadoo.fr" <monique.pierre3@wanadoo.fr>,
+	Morin Claire-Alix <dca.morin@free.fr>,
+	Nourisson Michel <michel.nourisson@wanadoo.fr>,
+	=?ISO-8859-1?Q?ordre_m?= =?ISO-8859-1?Q?=E9decins_49?= <maine-et-loire@49.medecin.fr>,
+	Panterne Marie Paule <mariepaule.panterne@sfr.fr>,
+	Paroisse saint Joseph <stjoseph49@modulonet.fr>,
+	Pomalaza Giuliano 2 <giuliano@pomalaza.com>,
+	Pomalaza Guillaume2 <guillaume@pomalaza.com>,
+	Rebel Benjamin <benji26@orange.fr>,
+	Pierre Rebel Monique <monique.pierre3@wanadoo.fr>,
+	Pomalaza Isabelle <pomalaza@ca.ibm.com>,
+	Pomalaza Isabelle Perso <Isabelle@pomalaza.com>,
+	Pomalaza Jorge <jorge@pomalaza.com>,
+	=?ISO-8859-1?Q?Pr=E9sidence_Universit=E9?= <president@univ-angers.fr>,
+	Raquet St Martin <raquet.stmartin@orange.fr>,
+	Rebel Alexandre <alexandre.rebel@orange.fr>,
+	Rebel Anne Marie <anne-marie.rebel@wanadoo.fr>,
+	=?ISO-8859-1?Q?Rebel_B=E9atrice?= <brebel@wanadoo.fr>,
+	Rebel Dominique <rebel.dominique@orange.fr>,
+	Rebel Jean Marie <jm.rebel@wanadoo.fr>,
+	Rebel Jean-claude <rebeljc@orange.fr>,
+	Rebel Olivier <rebelolivier@aol.com>,
+	Rebel Yves <taxyves57@wanadoo.fr>,
+	=?ISO-8859-1?Q?R=E9seau_Sainte_Marie?= <reseaustemarie@laposte.net>,
+	=?ISO-8859-1?Q?Retourn=E9_Fran=E7oise?= <francoise.retourne@orange.fr>,
+	Ribrault Annie SUIO <annie.ribrault@univ-angers.fr>,
+	Ropiteau Meursault <caves@ropiteau.fr>,
+	=?ISO-8859-1?Q?Roussineau_Agn=E9?= =?ISO-8859-1?Q?s?= <agnes.roussineau@dbmail.com>,
+	Saint Martin maison de retraite <maison.retraite.stmartin@wanadoo.fr>,
+	=?ISO-8859-1?Q?Saint-Andr=E9_Jean-Paul?= <jean-paul.saint-andre@univ-angers.fr>,
+	Saulnier Alain <alain.saulnier@wanadoo.fr>,
+	SAV pyramide <sav.pyramide@wanadoo.fr>,
+	Savoy Jean-Marc <jmarcsavoy@tele2.fr>,
+	Serafimov Marie <0661471421@imode.fr>,
+	=?ISO-8859-1?Q?Subrei_Mich=E8le?= =?ISO-8859-1?Q?_AMV?= <michelesubrei@wanadoo.fr>,
+	Teisseire Norbert <norbert.teisseire@sfr.fr>,
+	Tuchais Edmond orange <e.tuchais@orange.fr>,
+	UCO Rectorat <rectorat@uco.fr>,
+	Villalonga immobilier <villalonga.immo@wanadoo.fr>,
+	Vin - La Cune <jlmcune@wanadoo.fr>,
+	Wilfart Angela <angelwi@wanadoo.fr>
+Content-Type: multipart/alternative;
+ boundary="------------000106090401090208000709"
+X-Antivirus: avast! (VPS 101011-1, 11/10/2010), Outbound message
+X-Antivirus-Status: Clean
+Subject: [president] Changement d'adresse
+
+This is a multi-part message in MIME format.
+--------------000106090401090208000709
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+
+Josette et André Rebel vous prient de noter leur nouvelle adresse à 
+compter du 15 octobre 2010 :
+*/16 rue Proust 49100 Angers/* Tél : 02 41 86 08 47 (sans changement) 
+andrerebel@orange.fr (sans changement)
+
+--------------000106090401090208000709
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+  </head>
+  <body bgcolor="#ffffff" text="#000000">
+    <div align="justify">Josette et Andr&eacute; Rebel vous prient de noter
+      leur nouvelle adresse &agrave; compter du 15 octobre 2010 :<br>
+      <b><i>16 rue Proust 49100 Angers</i></b> T&eacute;l : 02 41 86 08 47
+      (sans changement) <a class="moz-txt-link-abbreviated" href="mailto:andrerebel@orange.fr">andrerebel@orange.fr</a> (sans changement)<br>
+    </div>
+  </body>
+</html>
+
+--------------000106090401090208000709--
+
+

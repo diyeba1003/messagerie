@@ -1,0 +1,83 @@
+Return-Path: <prvs=942145d2e=Marie-Francoise.Pichot@insa-rennes.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 12B072281F
+	for <president@listes.univ-angers.fr>; Mon, 29 Nov 2010 17:20:40 +0100 (CET)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 041C011415F; Mon, 29 Nov 2010 17:20:40 +0100 (CET)
+Delivered-To: president@univ-angers.fr
+Received: from smtp2-out.insa-rennes.fr (smtp2-out.insa-rennes.fr [193.52.94.25])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id D62CD11413D
+	for <president@univ-angers.fr>; Mon, 29 Nov 2010 17:20:39 +0100 (CET)
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: ApwEAH5h80wKBQEH/2dsb2JhbACDUKAksjqQUYRUcwSNcA
+X-IronPort-AV: E=Sophos;i="4.59,276,1288566000"; 
+   d="vcf'?scan'208";a="3137523"
+Received: from hermes.insa-rennes.fr ([10.5.1.7])
+  by smtp2-out.insa-rennes.fr with ESMTP; 29 Nov 2010 17:20:39 +0100
+Received: from localhost (hermes.insa-rennes.fr [127.0.0.1])
+	by hermes.insa-rennes.fr (Postfix) with ESMTP id 48C6C12D35E;
+	Mon, 29 Nov 2010 17:20:39 +0100 (CET)
+X-Virus-Scanned: amavisd-new at insa-rennes.fr
+Received: from hermes.insa-rennes.fr ([127.0.0.1])
+	by localhost (hermes.insa-rennes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id xTPvcNib0pxx; Mon, 29 Nov 2010 17:20:32 +0100 (CET)
+Received: from [127.0.0.1] (coquillage.insa-rennes.fr [194.199.184.211])
+	by hermes.insa-rennes.fr (Postfix) with ESMTP id D26CE12D35F;
+	Mon, 29 Nov 2010 17:20:32 +0100 (CET)
+Message-ID: <4CF3D2CF.5020901@insa-rennes.fr>
+Date: Mon, 29 Nov 2010 17:20:31 +0100
+From: =?ISO-8859-1?Q?Marie-fran=E7oise_Pichot?=
+ <marie-francoise.pichot@insa-rennes.fr>
+User-Agent: Thunderbird 2.0.0.9 (Windows/20071031)
+MIME-Version: 1.0
+To: president@univ-nantes.fr, cabinet@univ-nantes.fr, 
+ guy.cathelineau@univ-rennes1.fr, elisabeth.diouris@univ-rennes1.fr, 
+ nicolas.petit@cemagref.fr, patrick.chedmail@ec-nantes.fr, 
+ Marc Fradin <marc.fradin@enst-bretagne.fr>,
+ president@univ-angers.fr, Pierre.Friedel@telecom-bretagne.eu
+Content-Type: multipart/mixed;
+ boundary="------------050809010900040802060208"
+Subject: [president] CA et AG de l'association Ouest Recherche
+
+This is a multi-part message in MIME format.
+--------------050809010900040802060208
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Bonjour,
+Je propose d'organiser le prochain Conseil d'Administration et la 
+prochaine Assemblée Générale en début 2011 (avant les vacances de février).
+Quelques points de l'ordre du jour :
+élection du trésorier et du second vice-Président
+approbation des comptes 2009
+tarif cotisation au titre de 2011
+
+Afin d'arrêter une date, je vous remercie de bien vouloir me transmettre 
+vos disponibilités entre le 24 janvier et le 25 février 2011
+(prévoir par demi-journée).
+
+Merci d'avance et bonne soirée
+Marie-Françoise Pichot
+
+--------------050809010900040802060208
+Content-Type: text/x-vcard; charset=utf-8;
+ name="marie-francoise_pichot.vcf"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment;
+ filename="marie-francoise_pichot.vcf"
+
+begin:vcard
+fn;quoted-printable:Marie-Fran=C3=A7oise Pichot
+n;quoted-printable:Pichot;Marie-Fran=C3=A7oise
+org:INSA  de Rennes -  02 23 23 86 76
+adr:;;20, avenue des buttes de Coesmes;Rennes;;35708;France
+email;internet:marie-francoise.pichot@insa-rennes.fr
+title:Asistante du laboratoire informatique
+tel;work:02 23 23 86 76
+tel;fax:02 23 23 84 53
+version:2.1
+end:vcard
+
+
+--------------050809010900040802060208--
+

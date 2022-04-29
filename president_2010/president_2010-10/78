@@ -1,0 +1,215 @@
+Return-Path: <isabelle.nicolaus@lunam.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 4D7D022854
+	for <president@listes.univ-angers.fr>; Thu,  7 Oct 2010 14:01:52 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 4308011415E; Thu,  7 Oct 2010 14:01:52 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp2.univ-nantes.fr [193.52.82.19])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 3ABE9114152
+	for <president@univ-angers.fr>; Thu,  7 Oct 2010 14:01:52 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 07C8E1C0C917
+	for <president@univ-angers.fr>; Thu,  7 Oct 2010 14:01:52 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp2.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id XJakYYUxWkXa for <president@univ-angers.fr>;
+	Thu,  7 Oct 2010 14:01:51 +0200 (CEST)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 6310F1C0C7ED
+	for <president@univ-angers.fr>; Thu,  7 Oct 2010 14:01:51 +0200 (CEST)
+Received: from mx1.d101.univ-nantes.fr (MX1.univ-nantes.fr [193.52.101.135])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id 6DEB5A2A
+	for <daniel.martina@lunam.fr>; Thu,  7 Oct 2010 14:01:51 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mx1.d101.univ-nantes.fr (Postfix) with ESMTP id 6677212F13A0
+	for <daniel.martina@lunam.fr>; Thu,  7 Oct 2010 14:01:51 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from mx1.d101.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id P-0A95+fX450 for <daniel.martina@lunam.fr>;
+	Thu,  7 Oct 2010 14:01:51 +0200 (CEST)
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+Received: from smtp-tls.univ-nantes.fr (smtp-tls2.univ-nantes.fr [193.52.101.146])
+	by mx1.d101.univ-nantes.fr (Postfix) with ESMTP id 2439E12F13A4
+	for <daniel.martina@lunam.fr>; Thu,  7 Oct 2010 14:01:51 +0200 (CEST)
+Received: from localhost (debian [127.0.0.1])
+	by smtp-tls.univ-nantes.fr (Postfix) with ESMTP id B71AD400644;
+	Thu,  7 Oct 2010 14:04:30 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from smtp-tls.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp-tls2.d101.univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id 4LDXIIu+J-pm; Thu,  7 Oct 2010 14:04:30 +0200 (CEST)
+Received: from PCPRES03 (unknown [172.20.38.110])
+	(using TLSv1 with cipher RC4-MD5 (128/128 bits))
+	(No client certificate requested)
+	by smtp-tls.univ-nantes.fr (Postfix) with ESMTPSA id 9BECD4002ED;
+	Thu,  7 Oct 2010 14:04:30 +0200 (CEST)
+From: "Isabelle NICOLAUS" <isabelle.nicolaus@lunam.fr>
+To: <francis.yguel@univ-nantes.fr>,
+	<daniel.martina@lunam.fr>
+Cc: <evelyne.puglia@univ-angers.fr>
+Date: Thu, 7 Oct 2010 14:01:59 +0200
+Message-ID: <00f001cb6617$72352e80$569f8b80$@nicolaus@lunam.fr>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_00F1_01CB6628.35BDFE80"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: ActmF3IYwHSYZx1KTwK2qAD3Y5PxeA==
+Content-Language: fr
+Subject: [president] ENSAM
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_00F1_01CB6628.35BDFE80
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Bonjour,=20
+
+=20
+
+Pour information, le nouveau directeur de l=92ENSAM a =E9t=E9 nomm=E9 vendr=
+edi
+dernier ; il s=92agit de M. Laurent GUILLAUMAT
+(laurent.guillaumat@angers.ensam.fr).
+
+=20
+
+Bien cordialement
+
+Isabelle
+
+=20
+
+=20
+
+=20
+
+=20
+
+
+------=_NextPart_000_00F1_01CB6628.35BDFE80
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"Texte de bulles Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Arial","sans-serif";
+	color:windowtext;
+	font-weight:normal;
+	font-style:normal;}
+span.TextedebullesCar
+	{mso-style-name:"Texte de bulles Car";
+	mso-style-priority:99;
+	mso-style-link:"Texte de bulles";
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DFR link=3Dblue vlink=3Dpurple>
+
+<div class=3DWordSection1>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Arial","s=
+ans-serif"'>Bonjour,
+<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Arial","s=
+ans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Arial","s=
+ans-serif"'>Pour
+information, le nouveau directeur de l&#8217;ENSAM a =E9t=E9 nomm=E9 vendre=
+di dernier&nbsp;;
+il s&#8217;agit de M. Laurent GUILLAUMAT (<a
+href=3D"mailto:laurent.guillaumat@angers.ensam.fr">laurent.guillaumat@anger=
+s.ensam.fr</a>).<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Arial","s=
+ans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Arial","s=
+ans-serif"'>Bien
+cordialement<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Arial","s=
+ans-serif"'>Isabelle<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Arial","s=
+ans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Arial","s=
+ans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_00F1_01CB6628.35BDFE80--
+

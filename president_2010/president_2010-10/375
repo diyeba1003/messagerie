@@ -1,0 +1,205 @@
+Return-Path: <marie.morel@astredhor.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id C3A932286B
+	for <president@listes.univ-angers.fr>; Tue, 26 Oct 2010 10:22:58 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id B5B3B11415E; Tue, 26 Oct 2010 10:22:58 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+X-Greylist: delayed 1938 seconds by postgrey-1.32 at smtp.univ-angers.fr; Tue, 26 Oct 2010 10:22:58 CEST
+Received: from corwin.easynet.fr (smarthost167.mail.easynet.fr [212.180.1.167])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id A6F7C1140BB
+	for <president@univ-angers.fr>; Tue, 26 Oct 2010 10:22:58 +0200 (CEST)
+Received: from astredh019937-3-gw.clients.easynet.fr ([212.11.7.225] helo=mail.astredhor.fr)
+	by corwin.easynet.fr with esmtp (Exim 4.63)
+	(envelope-from <marie.morel@astredhor.fr>)
+	id 1PAeI5-0006bv-H6; Tue, 26 Oct 2010 09:49:53 +0200
+In-Reply-To: <4CC54199.5060700@plante-et-cite.fr>
+To: =?ISO-8859-1?Q?Contact_Plante_=26_Cit=E9?= <contact@plante-et-cite.fr>
+Cc: Aurore Micand <aurore.micand@plante-et-cite.fr>,
+	barraud@falienor.com,
+	bernard.dandalet@saint-etienne.fr,
+	bfleury@ville-orleans.fr,
+	bmartin@ville-rennes.fr,
+	bruno.jaloux@agrocampus-ouest.fr,
+	Camille JOUGLET <camille.jouglet@plante-et-cite.fr>,
+	cathy.caldumbide@agrocampus-ouest.fr,
+	cecile.abalain@angerstechnopole.com,
+	christophe.subileau@uapl.fr,
+	cjaneau@edelweiss-sa.fr,
+	cjoveneaux@enm-lille.fr,
+	cnvvf@wanadoo.fr,
+	contact@iftech.fr,
+	c.cholet@unep-fr.org,
+	Damien Provendier <damien.provendier@plante-et-cite.fr>,
+	d.lebrun@bhr-vegetal.com,
+	environnement@agglo-saumur.fr,
+	eric.collin@cemagref.fr,
+	eric.davy@groupe-merceron.com,
+	fanny.maujean@ville.angers.fr,
+	francois.colson@agrocampus-ouest.fr,
+	frederic.moreau@ville.angers.fr,
+	Gaetan DUHAMEL <gaetan.duhamel@plante-et-cite.fr>,
+	=?ISO-8859-1?Q?H=E9l=E8ne_Veillon?= <helene.veillon@plante-et-cite.fr>,
+	herve.daniel@agrocampus-ouest.fr,
+	jac.boutaud@free.fr,
+	jardinjade@wanadoo.fr,
+	jeanfrancois.arthuisbrault@cnfpt.fr,
+	jeanmichel.marchandeau@cnfpt.fr,
+	jean.duchesne@agrocampus-ouest.fr,
+	josiane.lecorff@agrocampus-ouest.fr,
+	jp.ducos@caue49.com,
+	julien.greffier@gnis.fr,
+	laure.beaudet@agrocampus-ouest.fr,
+	lmriviere@rezo.net,
+	Ludovic PROVOST <ludovic.provost@plante-et-cite.fr>,
+	l.vandevelde@bhr-vegetal.com,
+	=?ISO-8859-1?Q?Gu=E9rin_Maxime?= <maxime.guerin@plante-et-cite.fr>,
+	michelpena@penapaysages.com,
+	=?ISO-8859-1?Q?Olivier_DAMAS=2FPlante_=26_Cit=E9?= <olivier.damas@plante-et-cite.fr>,
+	Pauline Laille <pauline.laille@plante-et-cite.fr>,
+	philippe.croze@ville-montpellier.fr,
+	philippe.morel@angers.inra.fr,
+	philippe.nonckelynck@orange.fr,
+	pineau@pepinieres-minier.fr,
+	pinel@andre-briant.fr,
+	president@univ-angers.fr,
+	regis.triollet@educagri.fr,
+	romaric.perrocheau@mairie-nantes.fr,
+	sabine.diwo-allain@angerstechnopole.com,
+	sdurot@biotope.fr,
+	SFG JM Lecourt <sfg.jmlecourt@orange.fr>,
+	Sophie Lemaire <sophie.lemaire@plante-et-cite.fr>,
+	thibaut.beaute@cergypontoise.fr,
+	tresorier@attf.asso.fr,
+	veronique.beaujouan@agrocampus-ouest.fr,
+	veronique.kapusta@angers.inra.fr,
+	Virginie Anquetil <virginie.anquetil@plante-et-cite.fr>,
+	v.vansteene@unep-fr.org,
+	walid.oueslati@agrocampus-ouest.fr,
+	xavier.marie@solpaysage.fr,
+	y-gabory@paysdesmauges.fr
+X-Mailer: Lotus Notes Release 7.0.3 September 26, 2007
+Message-ID: <OF5A7D8CE1.8F6F2193-ONC12577C8.002AC33E-C12577C8.002ACE46@astredhor.fr>
+From: marie.morel@astredhor.fr
+Date: Tue, 26 Oct 2010 09:47:33 +0200
+X-MIMETrack: Serialize by Router on web1/ASTREDHOR(Release 7.0.3|September 26, 2007) at
+ 26/10/2010 09:47:33
+MIME-Version: 1.0
+Content-type: multipart/mixed; 
+	Boundary="0__=4EBBFD5BDFB945AE8f9e8a93df938690918c4EBBFD5BDFB945AE"
+Content-Disposition: inline
+Subject: [president] =?ISO-8859-1?Q?R=E9f_:_Pr=E9paration_comit=E9_de_pil?=
+ =?ISO-8859-1?Q?otage_technique?=
+
+
+--0__=4EBBFD5BDFB945AE8f9e8a93df938690918c4EBBFD5BDFB945AE
+Content-type: text/plain; charset=ISO-8859-1
+Content-transfer-encoding: quoted-printable
+
+
+Bonjour,
+Je serais pr=E9sente =E0 la journ=E9e du 29 octobre
+
+bien cordialement,
+
+Marie Morel
+
+
+"Afin de contribuer au respect de l'environnement, merci de n'imprimer cet
+e-mail que si n=E9cessaire ."
+
+--------------------------------------------------------------------------
+
+ (Embedded     Marie MOREL
+ image moved   Charg=E9e de Mission Technique Serre et
+ to file:      Equipement
+ pic18467.jpg) ASTREDHOR - 44 rue d'Al=E9sia
+ Logo          75682 PARIS CEDEX 14
+ Astredhor     Tel : 01.53.91.45.03 - Fax :
+               01.45.38.56.72
+               Site web : www.astredhor.fr
+
+
+--0__=4EBBFD5BDFB945AE8f9e8a93df938690918c4EBBFD5BDFB945AE
+Content-type: image/jpeg; 
+	name="pic18467.jpg"
+Content-Disposition: attachment; filename="pic18467.jpg"
+Content-transfer-encoding: base64
+
+/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQE
+BQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/
+2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCABDAFADASIAAhEBAxEB/8QA
+HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUF
+BAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkK
+FhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1
+dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEB
+AQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAEC
+AxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRom
+JygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU
+1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9UqQ1FPIU
+UbRkkgV594c+PngHxhriaNovjHRdQ1eS7ubFLGG6Bnaa3/1yCP7xKd+MfWgD
+u72/t9MtZLm7uI7W3jUvJLM4REUdSSeAKqaB4i0zxbo1pq2jahbarpd5GJbe
+8tJBJFMh6MrDgjrzXmf7WHwXX4//AAD8V+DY3MWo3Vr52nSh2QLdx/PFnB5U
+sNpHoxrN/Y4+JemfEz9nzwpd2NhFo9zp1sNH1HSYoxGLC8tx5UsW0AbeV3Ae
+j0Ach+0h+2BdfAjxguj6b4Nl8T2emaOviPxDci9Fu1hpzXS24eFSp86Tcxbb
+xhVr6WsLqK7tI7iFt0MyiRGA6qQCD+RFfA/7TXwruPif+2vong271yPw14Y8
+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
+mUDn60UV9R1PTFwM9KeBRRTGf//Z
+
+--0__=4EBBFD5BDFB945AE8f9e8a93df938690918c4EBBFD5BDFB945AE--
+

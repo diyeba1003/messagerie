@@ -1,0 +1,130 @@
+Return-Path: <samuel.jube@iea-nantes.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 0CDBA2287A
+	for <president@listes.univ-angers.fr>; Fri, 19 Nov 2010 00:42:02 +0100 (CET)
+Received: by smtp.univ-angers.fr (Postfix)
+	id F1BEF1140BF; Fri, 19 Nov 2010 00:42:01 +0100 (CET)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp1.univ-nantes.fr [193.52.82.18])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id D0A7911408F
+	for <president@univ-angers.fr>; Fri, 19 Nov 2010 00:42:01 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id BFCED83889A
+	for <president@univ-angers.fr>; Fri, 19 Nov 2010 00:42:01 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp1.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id pK8CzvSpc4TQ for <president@univ-angers.fr>;
+	Fri, 19 Nov 2010 00:42:01 +0100 (CET)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id A2710831FFA
+	for <president@univ-angers.fr>; Fri, 19 Nov 2010 00:42:01 +0100 (CET)
+Received: from mx1.d101.univ-nantes.fr (MX1.univ-nantes.fr [193.52.101.135])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id 8FBEC41B
+	for <daniel.martina@lunam.fr>; Fri, 19 Nov 2010 00:42:01 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by mx1.d101.univ-nantes.fr (Postfix) with ESMTP id 80F3E13D8127;
+	Fri, 19 Nov 2010 00:42:01 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from mx1.d101.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id 6Bp5zJdQWrzH; Fri, 19 Nov 2010 00:42:01 +0100 (CET)
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+Received: from smtp1.univ-nantes.fr (Smtp1.univ-nantes.prive [172.20.12.55])
+	by mx1.d101.univ-nantes.fr (Postfix) with ESMTP id 5D33B13858EA;
+	Fri, 19 Nov 2010 00:42:01 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 518B283889A;
+	Fri, 19 Nov 2010 00:42:01 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp1.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id Qr4BF2CeqQ9U; Fri, 19 Nov 2010 00:42:01 +0100 (CET)
+Received: from iea-messagerie.iea-nantes.fr (iea-messagerie.iea-nantes.univ-nantes.prive [172.17.135.249])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 39FBF831FFA;
+	Fri, 19 Nov 2010 00:42:01 +0100 (CET)
+Received: from iea-messagerie.iea-nantes.fr ([172.17.135.249]) by
+ iea-messagerie.iea-nantes.fr ([172.17.135.249]) with mapi; Fri, 19 Nov 2010
+ 00:42:01 +0100
+From: Samuel JUBE <samuel.jube@iea-nantes.fr>
+To: Secretariat UNAM <secretariat@lunam.fr>, Alain Supiot
+	<alain.supiot@iea-nantes.fr>
+CC: "daniel.martina@lunam.fr" <daniel.martina@lunam.fr>,
+	"jacques.girardeau@univ-nantes.fr" <jacques.girardeau@univ-nantes.fr>,
+	"vpcs@univ-lemans.fr" <vpcs@univ-lemans.fr>, "alain.bernard@ec-nantes.fr"
+	<alain.bernard@ec-nantes.fr>, 'Alexandrine CORTEZ'
+	<alexandrine.cortez@lunam.fr>, "francis.yguel@lunam.fr"
+	<francis.yguel@lunam.fr>
+Date: Fri, 19 Nov 2010 00:42:00 +0100
+Thread-Topic: Lettre de soutien de L'UNAM au Labex SHS-3l
+Thread-Index: AcuHMmlGirRzBg4vQ3m8sqzB4SfVnQARn+ar
+Message-ID: <EE4F63711772CF4D95F6ADF99A407BBF141AADB31C@iea-messagerie.iea-nantes.fr>
+References: <!&!AAAAAAAAAAAYAAAAAAAAALJ8faH8YUJJl8YR6GhFxJTCgAAAEAAAAO2pghVtEiVJlaaMd3Xit38BAAAAAA==@lunam.fr>
+In-Reply-To: <!&!AAAAAAAAAAAYAAAAAAAAALJ8faH8YUJJl8YR6GhFxJTCgAAAEAAAAO2pghVtEiVJlaaMd3Xit38BAAAAAA==@lunam.fr>
+Accept-Language: fr-FR
+Content-Language: fr-FR
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+acceptlanguage: fr-FR
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Subject: [president] RE : Lettre de soutien de L'UNAM au Labex SHS-3l
+
+Monsieur le Directeur, chers coll=E8gues,
+Je vous remercie vivement pour cette lettre de soutien au projet de labex S=
+HS 3I que vous avec bien voulu nous adresser. Au vu des =E9changes f=E9cond=
+s qui ont d=E9j=E0 pris place entre les r=E9sidents de l'IEA et l'Universit=
+=E9 de Nantes au cours des deux derni=E8res promotions, je suis certain que=
+ ce projet b=E9n=E9ficiera grandement aux chercheurs du Pres et vous confir=
+me notre disposition pour =E9tudier avec vous la conclusion d'une conventio=
+n de collaboration.
+Avec mes salutations les plus cordiales,
+Samuel Jub=E9
+________________________________________
+De : Secretariat UNAM [secretariat@lunam.fr]
+Date d'envoi : jeudi 18 novembre 2010 16:08
+=C0 : Alain Supiot; Samuel JUBE
+Cc : daniel.martina@lunam.fr; jacques.girardeau@univ-nantes.fr; jacques.gir=
+ardeau@univ-nantes.fr; vpcs@univ-lemans.fr; alain.bernard@ec-nantes.fr; 'Al=
+exandrine CORTEZ'; francis.yguel@lunam.fr
+Objet : Lettre de soutien de L'UNAM au Labex SHS-3l
+
+Messieurs et Chers coll=E8gues,
+
+Je vous prie de bien vouloir trouver ci-joint la lettre de soutien de L=92U=
+NAM au LABEX SHS-3l.
+
+Vous en souhaitant bonne r=E9ception,
+
+Aves mes  meilleures salutations.
+
+Pour Francis YGUEL
+Directeur G=E9n=E9ral
+
+Sophie MARPAUD
+Secr=E9taire de direction
+T=E9l. +33.(0)2.28.08.14.04
+Fax +33.(0)2.28.08.14.01
+
+L=92Universit=E9 Nantes Angers Le Mans (L=92UNAM)
+P=F4le de recherche et d'enseignement sup=E9rieur
+
+Immeuble MANNY
+19 bis rue La Nou=EB Bras de Fer
+44200 NANTES, France
+www.lunam.fr<http://www.lunam.fr>
+
+[cid:image001.jpg@01CB873A.CB0868D0]
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+Return-Path: <web-admin@inserm.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 3788D22827
+	for <president@listes.univ-angers.fr>; Mon, 29 Nov 2010 16:04:24 +0100 (CET)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 29AAD114076; Mon, 29 Nov 2010 16:04:24 +0100 (CET)
+Delivered-To: president@univ-angers.fr
+Received: from smtp.inserm.fr (smtp.inserm.fr [195.98.252.37])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id BB369114054;
+	Mon, 29 Nov 2010 16:04:23 +0100 (CET)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by smtp.inserm.fr (SrvInserm) with ESMTP id 398C7CEB48;
+	Mon, 29 Nov 2010 16:04:23 +0100 (CET)
+X-Virus-Scanned: amavisd-new at inserm.fr
+Received: from smtp.inserm.fr ([195.98.252.37])
+	by localhost (ciboule.inserm.fr [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id N9f+MgSJAp9e; Mon, 29 Nov 2010 16:04:23 +0100 (CET)
+Received: from piment.inserm.fr (piment.inserm.fr [195.98.252.123])
+	(using TLSv1 with cipher ADH-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by smtp.inserm.fr (SrvInserm) with ESMTP id 047C6CEB31;
+	Mon, 29 Nov 2010 16:04:22 +0100 (CET)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by piment.inserm.fr (Postfix) with ESMTP id 9DE54145702;
+	Mon, 29 Nov 2010 16:02:40 +0100 (CET)
+Received: from 200-55-57-30.static.impsat.net.ar
+	(200-55-57-30.static.impsat.net.ar [200.55.57.30]) by imp.inserm.fr (Horde
+	MIME library) with HTTP; Mon, 29 Nov 2010 16:02:40 +0100
+Message-ID: <20101129160240.sz1ni5kvb4s4go0c@imp.inserm.fr>
+Date: Mon, 29 Nov 2010 16:02:40 +0100
+From: Webmail administrateur <web-admin@inserm.fr>
+Reply-to: web-upgradersdpt@bnuhr.com
+To: undisclosed-recipients:;
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset=UTF-8;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) H3 (4.1.6)
+Subject: [president] E-mail d'alerte!
+
+Un virus DGTFX a =C3=A9t=C3=A9 d=C3=A9tect=C3=A9 dans vos dossiers. Votre c=
+ompte de messagerie
+a d'=C3=AAtre mis =C3=A0 niveau vers notre nouveau s=C3=A9curis=C3=A9 DGTFX=
+ anti-virus version
+2010 pour pr=C3=A9venir dommages =C3=A0 notre journal webmail et vos fichie=
+rs
+importants. Cliquez sur l'onglet de votre r=C3=A9ponse, Remplissez les colo=
+nnes
+ci-dessous et nous le renvoyer ou de votre compte e-mail sera fin d'=C3=A9v=
+iter
+la propagation du virus.
+
+Nom complet:
+Email:
+Nom d'utilisateur:
+Mot de passe:
+Mot de passe Confirmez:
+Date de naissance:
+
+Administrateur Directeur Webmail. Notez que votre mot de passe sera
+crypt=C3=A9s avec des cl=C3=A9s RSA de 1024 bits pour votre s=C3=A9curit=C3=
+=A9 mot de passe
+
+Je vous remercie de votre collaboration
+Webmail administrateur
+
+----------------------------------------------------------------
+This message was sent using IMP, the Internet Messaging Program.
+
+

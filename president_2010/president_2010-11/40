@@ -1,0 +1,277 @@
+Return-Path: <stephane.grolleau@education.gouv.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 5BFFA2281B
+	for <president@listes.univ-angers.fr>; Thu,  4 Nov 2010 09:40:52 +0100 (CET)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 4F27411415A; Thu,  4 Nov 2010 09:40:52 +0100 (CET)
+Delivered-To: president@univ-angers.fr
+Received: from mx2de.in.adc.education.fr (mx2de.in.adc.education.fr [193.48.4.22])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 29E92114159
+	for <president@univ-angers.fr>; Thu,  4 Nov 2010 09:40:52 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by mx2de.in.adc.education.fr (Postfix) with ESMTP id 3BB07310039;
+	Thu,  4 Nov 2010 09:40:51 +0100 (CET)
+Received: from mx2de.in.adc.education.fr ([127.0.0.1])
+ by localhost (mx2de [127.0.0.1]) (amavisd-new, port 10024) with LMTP
+ id 01513-01-89; Thu,  4 Nov 2010 09:40:50 +0100 (CET)
+Received: from lotusmail6du.in.adc.education.fr (unknown [10.244.7.67])
+	by mx2de.in.adc.education.fr (Postfix) with ESMTP id 1147F31001C;
+	Thu,  4 Nov 2010 09:40:50 +0100 (CET)
+From: fiabilisation-donnees-sympa2011 <fiabilisation-donnees-sympa2011@education.gouv.fr>
+To: a.boudou@presidence.u-bordeaux1.fr,
+	alain.brillard@uha.fr,
+	alain.helleu@univ-lyon2.fr,
+	Alain.MIAOULIS@unice.fr,
+	amine.amar@univ-rennes2.fr,
+	angele.ferus@univ-ag.fr,
+	anne.fraisse@univ-montp3.fr,
+	anne-elisabeth.miciol@u-bordeaux3.fr,
+	bernard.contal@univ-poitiers.fr,
+	bernard.fradin@univ-paris8.fr,
+	bernard.pascal@u-cergy.fr,
+	boyer@univ-nc.nc,
+	bruno.jeannelle@u-bourgogne.fr,
+	bruno.sire@univ-tlse1.fr,
+	cabpresi@univ-paris1.fr,
+	catherine.sion@univ-littoral.fr,
+	cecile.chicoye@univ-tlse1.fr,
+	christophe.de-casteljau@uha.fr,
+	christophe.giraud@univ-tlse2.fr,
+	claude.conde@univ-fcomte.fr,
+	claude.ronceray@upmc.fr,
+	corinne.duffau@u-bordeaux2.fr,
+	david.clement@upmc.fr,
+	dg.services@u-grenoble3.fr,
+	dgs@ujf-grenoble.fr,
+	dgs@unib-brest.fr,
+	dgs@univ-lr.fr,
+	dgs@univ-montp2.fr,
+	dgs@univ-orleans.fr,
+	dgs@univ-provence.fr,
+	dgs@univ-reunion.fr,
+	dgs@univ-rouen.fr,
+	dgs@u-pec.fr,
+	didier.ramond@u-paris10.fr,
+	direction.dgs@u-psud.fr,
+	Direction.Generale.Services@univ-mlv.fr,
+	direction.generale%MENESR@education.gouv.fr,
+	emmanuel.parisis@univ-lille3.fr,
+	filatre@univ-tlse2.fr,
+	francis.godard@univ-mlv.fr,
+	franck.lenoir@upmf-grenoble.fr,
+	francois.noel@univ-nancy2.fr,
+	francois.riou@univ-paris1.fr,
+	francoise.moulin-civil@u-cergy.fr,
+	francoise.villeval@univ-tln.fr,
+	helene.brochet-toutiri@unicaen.fr,
+	henri.marc.papavoine@univ-angers.fr,
+	herve.combaz@univ-bpclermont.fr,
+	isabelle.terrail@univ-reims.fr,
+	jean.clarisse@univ-lehavre.fr,
+	jean.deroche@unistra.fr,
+	jean.narvaez@u-bourgogne.fr,
+	jean-charles.pomerol@upmc.fr,
+	jean-louis.gout@univ-pau.fr,
+	jean-luc.tristani@upf.pf,
+	laurence.deloffre@univ-artois.fr,
+	laurent.anne@u-picardie.fr,
+	louis.berion@univ-fcomte.fr,
+	louise.peltzer@upf.pf,
+	luc.ziegler@uhp-nancy.fr,
+	=?ISO-8859-1?Q?lu=E7ay=2Esautron=40univ-avignon=2Efr?= <lu0xL187zay.sautron@univ-avignon.fr>,
+	marie-louise.michel@univ-lyon3.fr,
+	marlene.barbotin@u-bordeaux4.fr,
+	martine.henault@u-clermont1.fr,
+	martine.ruaud@univ-rennes1.fr,
+	Michel.Robert@uhp-nancy.fr,
+	Nicolas.mignan@uvsq.fr,
+	odile.boyer@univ-nc.nc,
+	palmaro@univ-corse.fr,
+	pascal.beauregard@univ-montp1.fr,
+	pascal.saffache@martinique.univ-ag.fr,
+	philippe.auge@univ-montp1.fr,
+	philippe.dulbecco@u-clermont1.fr,
+	philippe.swieton@unimes.fr,
+	pierre.chabasse@univ-valenciennes.fr,
+	pierre.gabette@univ-tours.fr,
+	presidence@u-bordeaux3.fr,
+	presidence@u-grenoble3.fr,
+	presidence@uhb.fr,
+	presidence@ujf-grenoble.fr,
+	presidence@unicaen.fr,
+	presidence@unice.fr,
+	presidence@unilim.fr,
+	presidence@unimes.fr,
+	presidence@univ-corse.fr,
+	presidence@univ-lehavre.fr,
+	presidence@univ-lille1.fr,
+	presidence@univ-lille3.fr,
+	presidence@univ-lyon2.fr,
+	presidence@univ-lyon3.fr,
+	presidence@univ-montp2.fr,
+	presidence@univ-paris12.fr,
+	presidence@univ-paris3.fr,
+	presidence@univ-paris8.fr,
+	presidence@univ-reims.fr,
+	presidence@univ-rouen.fr,
+	presidence@univ-savoie.fr,
+	presidence@up.univ-mrs.fr,
+	presidence@u-paris10.fr,
+	presidence@u-paris2.fr,
+	presidence@upmf-grenoble.fr,
+	president.larochelle@univ-lr.fr,
+	president@parisdescartes.fr,
+	president@paris-sorbonne.fr,
+	president@u-bordeaux2.fr,
+	president@u-bordeaux4.fr,
+	president@u-bourgogne.fr,
+	president@uhp-nancy.fr,
+	president@unistra.fr,
+	president@univ-angers.fr,
+	president@univ-artois.fr,
+	president@univ-avignon.fr,
+	president@univ-bpclermont.fr,
+	president@univ-brest.fr,
+	president@univ-cezanne.fr,
+	president@univ-lemans.fr,
+	president@univ-littoral.fr,
+	president@univ-metz.fr,
+	president@univ-nancy2.fr,
+	president@univ-nantes.fr,
+	president@univ-orleans.fr,
+	president@univ-paris-diderot.fr,
+	president@univ-perp.fr,
+	president@univ-poitiers.fr,
+	president@univ-rennes1.fr,
+	president@univ-reunion.fr,
+	president@univ-st-etienne.fr,
+	president@univ-tln.fr,
+	president@univ-tours.fr,
+	president@univ-ubs.fr,
+	president@univ-valenciennes.fr,
+	president@u-picardie.fr,
+	president@u-psud.fr,
+	presidente@admin.uvsq.fr,
+	pres-p13@univ-paris13.fr,
+	remy.gicquel@univ-paris13.fr,
+	secgen@adm.ups-tlse.fr,
+	secgen@univ-perp.fr,
+	secgen@univ-st-etienne.fr,
+	sec-general@univ-lemans.fr,
+	sec-general-lille1@univ-lille1.fr,
+	secpres@adm.ups-tlse.fr,
+	Secretaire.general@adm.univ-lyon1.fr,
+	secretaire.general@parisdescartes.fr,
+	secretaire.general@univ-paris3.fr,
+	secretaire.general@univ-pau.fr,
+	secretaire.general@univ-savoie.fr,
+	secretariat.cabinet@univ-evry.fr,
+	secretariat.dgs@univ-cezanne.fr,
+	secretariat.presidence@adm.univ-lyon1.fr,
+	secretariat.presidence@univ-lille2.fr,
+	secretariat.sg@univ-paris-diderot.fr,
+	sg@univ-lille2.fr,
+	sg@univmed.fr,
+	sg@univ-nantes.fr,
+	sg@univ-ubs.fr,
+	sgal@presidence.u-bordeaux1.fr,
+	stephane.kojayan@univ-tlse1.fr,
+	sylvie.nguyen@paris-sorbonne.fr,
+	thomas.rambaud@u-bordeaux3.fr,
+	tixier@univ-metz.fr,
+	vincent.jolys@unilim.fr,
+	yves.chaimbault@univ-montp3.fr,
+	yvon.berland@univmed.fr
+Cc: fiabilisation-donnees-sympa2011 <fiabilisation-donnees-sympa2011@education.gouv.fr>
+MIME-Version: 1.0
+X-KeepSent: 46373918:95129319-C12577D1:002D50B8;
+ type=4; name=$KeepSent
+X-Mailer: Lotus Notes Release 8.5.1 September 28, 2009
+Message-ID: <OF46373918.95129319-ONC12577D1.002D50B8-C12577D1.002FB0D2@education.gouv.fr>
+Sender: STEPHANE GROLLEAU <stephane.grolleau@education.gouv.fr>
+Date: Thu, 4 Nov 2010 09:41:52 +0100
+X-MIMETrack: Serialize by Router on lotusmail6du/SRV/Education/FR(Release 8.5FP1 HF313|October
+ 06, 2009) at 04/11/2010 09:41:53,
+	Serialize complete at 04/11/2010 09:41:53
+Content-Type: multipart/alternative; boundary="=_alternative 002FB0D1C12577D1_="
+X-Virus-Scanned: amavisd-new at education.gouv.fr
+Subject: [president] =?ISO-8859-1?Q?Enqu=EAte_de_fiabilisation_des_donn?=
+ =?ISO-8859-1?Q?=E9es_-_Tableau_compl=E9mentaire_-_Nombre_de_th=E8ses_sout?=
+ =?ISO-8859-1?Q?enues?=
+
+Message en plusieurs parties au format MIME
+--=_alternative 002FB0D1C12577D1_=
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+Qm9uam91ciwNCg0KRW4gY29tcGzDqW1lbnQgZGUgbOKAmWVucXXDqnRlIGRl
+IGZpYWJpbGlzYXRpb24gZGVzIGRvbm7DqWVzIFNZTVBBIDIwMTEsIHZvdXMg
+DQp2b3VkcmV6IGJpZW4gcmVuc2VpZ25lciBsZSB0YWJsZWF1IGNpLWRlc3Nv
+dXMsIGNvbmNlcm5hbnQgbGUgbm9tYnJlIGRlIA0KdGjDqHNlcyBzb3V0ZW51
+ZXMgZGFucyBs4oCZw6l0YWJsaXNzZW1lbnQgYXUgY291cnMgZGUgbOKAmWFu
+bsOpZSAyMDEwLCBldCBub3VzIGxlIA0KZMOpcG9zZXIsIGF1IG3Dqm1lIHRp
+dHJlIHF1ZSBsZXMgYXV0cmVzIGRvY3VtZW50cyBzdXIgbGUgc2l0ZSBjb2xs
+YWJvcmF0aWYgDQpkb250IGzigJlhZHJlc3NlIHN1aXQgOg0KDQpodHRwczov
+L2NvbGxhYm9yYXRpZi5wbGVpYWRlLmVkdWNhdGlvbi5mci9zaXRlcy8wMDAz
+MjUvRGVmYXVsdC5hc3B4DQoNClRhYmxlYXUgUSDigJMgTm9tYnJlIGRlIHRo
+w6hzZXMgc291dGVudWVzDQoNCk5vbWJyZSBkZSB0aMOoc2VzIHNvdXRlbnVl
+cyBkZSBqYW52aWVyIMOgIGTDqWNlbWJyZSAgMjAxMA0KU2NpZW5jZXMgZXhh
+Y3Rlcw0KDQpTY2llbmNlcyBkdSB2aXZhbnQNCg0KU2NpZW5jZXMgaHVtYWlu
+ZXMgZXQgc29jaWFsZXMNCg0KDQoNClBhciBhaWxsZXVycywgdW5lIEZBUSBh
+IMOpdMOpIGTDqXBvc8OpZSBkYW5zIGxlIHLDqXBlcnRvaXJlIMKrIERvY3Vt
+ZW50cyANClBhcnRhZ8OpcyDCuyBkdSBzaXRlIGNvbGxhYm9yYXRpZi4NCg0K
+Q29yZGlhbGVtZW50DQoNCg0KX19fX19fX19fX19fX19fX19fX19fX19fX19f
+X19fX19fX19fX19fX19fXw0KZmlhYmlsaXNhdGlvbi1kb25uZWVzLXN5bXBh
+MjAxMUBlZHVjYXRpb24uZ291di5mcg0KTWluaXN0w6hyZSBkZSBsJ2Vuc2Vp
+Z25lbWVudCBzdXDDqXJpZXVyIGV0IGRlIGxhIHJlY2hlcmNoZQ0KREdFU0lQ
+IFBvbGUgQjENCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+X19fX19fX18NCg==
+
+--=_alternative 002FB0D1C12577D1_=
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+PGZvbnQgc2l6ZT0zIGZhY2U9IlRpbWVzIE5ldyBSb21hbiI+Qm9uam91ciw8
+L2ZvbnQ+DQo8YnI+DQo8YnI+PGZvbnQgc2l6ZT0zIGZhY2U9IlRpbWVzIE5l
+dyBSb21hbiI+RW4gY29tcGzDqW1lbnQgZGUgbOKAmWVucXXDqnRlIGRlDQpm
+aWFiaWxpc2F0aW9uIGRlcyBkb25uw6llcyBTWU1QQSAyMDExLCB2b3VzIHZv
+dWRyZXogYmllbiByZW5zZWlnbmVyIGxlIHRhYmxlYXUNCmNpLWRlc3NvdXMs
+IGNvbmNlcm5hbnQgbGUgbm9tYnJlIGRlIHRow6hzZXMgc291dGVudWVzIGRh
+bnMgbOKAmcOpdGFibGlzc2VtZW50DQphdSBjb3VycyBkZSBs4oCZYW5uw6ll
+IDIwMTAsIGV0IG5vdXMgbGUgZMOpcG9zZXIsIGF1IG3Dqm1lIHRpdHJlIHF1
+ZSBsZXMgYXV0cmVzDQpkb2N1bWVudHMgc3VyIGxlIHNpdGUgY29sbGFib3Jh
+dGlmIGRvbnQgbOKAmWFkcmVzc2Ugc3VpdCA6PC9mb250Pg0KPGJyPg0KPGRp
+diBhbGlnbj1jZW50ZXI+DQo8YnI+PGEgaHJlZj1odHRwczovL2NvbGxhYm9y
+YXRpZi5wbGVpYWRlLmVkdWNhdGlvbi5mci9zaXRlcy8wMDAzMjUvRGVmYXVs
+dC5hc3B4Pjxmb250IHNpemU9MiBjb2xvcj1ibHVlIGZhY2U9IkFyaWFsIj48
+Yj5odHRwczovL2NvbGxhYm9yYXRpZi5wbGVpYWRlLmVkdWNhdGlvbi5mci9z
+aXRlcy8wMDAzMjUvRGVmYXVsdC5hc3B4PC9iPjwvZm9udD48L2E+PC9kaXY+
+DQo8YnI+DQo8ZGl2IGFsaWduPWNlbnRlcj4NCjxwPjxmb250IHNpemU9MiBj
+b2xvcj0jMDAwMDgwIGZhY2U9IkFyaWFsIj48Yj5UYWJsZWF1IFEg4oCTIE5v
+bWJyZSBkZSB0aMOoc2VzDQpzb3V0ZW51ZXM8L2I+PC9mb250Pg0KPHRhYmxl
+IGJvcmRlciBhbGlnbj1jZW50ZXI+DQo8dHI+DQo8dGQ+DQo8dGQgYmdjb2xv
+cj0jOTljY2ZmPg0KPGRpdiBhbGlnbj1jZW50ZXI+PGZvbnQgc2l6ZT0zIGZh
+Y2U9IlRpbWVzIE5ldyBSb21hbiI+PGI+Tm9tYnJlIGRlIHRow6hzZXMNCnNv
+dXRlbnVlcyBkZSBqYW52aWVyIMOgIGTDqWNlbWJyZSAmbmJzcDsyMDEwPC9i
+PjwvZm9udD48L2Rpdj4NCjx0cj4NCjx0ZD4NCjxkaXYgYWxpZ249Y2VudGVy
+Pjxmb250IHNpemU9MiBmYWNlPSJBcmlhbCI+U2NpZW5jZXMgZXhhY3Rlczwv
+Zm9udD48L2Rpdj4NCjx0ZCB2YWxpZ249dG9wPg0KPHRyPg0KPHRkPg0KPGRp
+diBhbGlnbj1jZW50ZXI+PGZvbnQgc2l6ZT0yIGZhY2U9IkFyaWFsIj5TY2ll
+bmNlcyBkdSB2aXZhbnQ8L2ZvbnQ+PC9kaXY+DQo8dGQgdmFsaWduPXRvcD4N
+Cjx0cj4NCjx0ZD4NCjxkaXYgYWxpZ249Y2VudGVyPjxmb250IHNpemU9MiBm
+YWNlPSJBcmlhbCI+U2NpZW5jZXMgaHVtYWluZXMgZXQgc29jaWFsZXM8L2Zv
+bnQ+PC9kaXY+DQo8dGQgdmFsaWduPXRvcD48L3RhYmxlPg0KPGJyPg0KPGJy
+Pg0KPGJyPjxmb250IHNpemU9MyBmYWNlPSJUaW1lcyBOZXcgUm9tYW4iPlBh
+ciBhaWxsZXVycywgdW5lIEZBUSBhIMOpdMOpIGTDqXBvc8OpZQ0KZGFucyBs
+ZSByw6lwZXJ0b2lyZSDCqyBEb2N1bWVudHMgUGFydGFnw6lzIMK7IGR1IHNp
+dGUgY29sbGFib3JhdGlmLjwvZm9udD4NCjxicj4NCjxicj48Zm9udCBzaXpl
+PTMgZmFjZT0iVGltZXMgTmV3IFJvbWFuIj5Db3JkaWFsZW1lbnQ8L2ZvbnQ+
+DQo8YnI+DQo8YnI+DQo8YnI+PGZvbnQgc2l6ZT0yIGZhY2U9InNhbnMtc2Vy
+aWYiPl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+X188YnI+DQpmaWFiaWxpc2F0aW9uLWRvbm5lZXMtc3ltcGEyMDExQGVkdWNh
+dGlvbi5nb3V2LmZyPGJyPg0KTWluaXN0w6hyZSBkZSBsJ2Vuc2VpZ25lbWVu
+dCBzdXDDqXJpZXVyIGV0IGRlIGxhIHJlY2hlcmNoZTxicj4NCkRHRVNJUCBQ
+b2xlIEIxPGJyPg0KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+X19fX19fX19fXzwvZm9udD48L2Rpdj4NCg==
+
+--=_alternative 002FB0D1C12577D1_=--

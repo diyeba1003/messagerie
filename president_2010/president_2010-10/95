@@ -1,0 +1,153 @@
+Return-Path: <bounce+12078949.1727.3126.10606@vertical-mail.com>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 4B4D7228A6
+	for <president@listes.univ-angers.fr>; Fri,  8 Oct 2010 09:23:42 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 468DA114187; Fri,  8 Oct 2010 09:23:42 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.vertical-mail.com (smtp1.vertical-mail.com [217.174.198.78])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id E83D111408A
+	for <president@univ-angers.fr>; Fri,  8 Oct 2010 09:23:41 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=vertical-mail.com;
+ h=To:Subject:Message-Id:List-Unsubscribe:From:Reply-to:Content-Transfer-Encoding:MIME-Version:Content-Type:Date; i=infomediation@vertical-mail.com;
+ bh=BvfygE7iUwPRI07509E7pGGDZ74=;
+ b=UtfYbT10N+/K1LEB+ohq/6VE9bH0K2CkO9iGAs5hTkptRL1VS/zrS8xX8+oEeDfq4d8duDK+EUXd
+   ttcLhMyxyZ5Wh8GlUMlUhX1mnt6OqVcLNGDjFeaGXl7aekjvFeva1zQN9mH31nF+PsPyUT6pNgaS
+   gRauV1OB5dhtI14tKZc=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=default; d=vertical-mail.com;
+ b=ZIZo2TM6Wqu7NGtk0M5Cb1ICzCj01PAsgS4Ht/c4u6J0a3PtWAJ0LCMNv7sXerzSykASif5C5VxO
+   F6mANMZQ06rAn9xH0XYniSP0zoskVUV5TWFIlzoplMsUpjR9Ha1+FdJkHgmyqUCVv11ivi+NJzdY
+   2ZRvQpuiHQvaAq/KNO4=;
+Received: from localhost (217.174.198.64) by smtp1.vertical-mail.com (PowerMTA(TM) v3.5r11) id hlr3fs0ovfov for <president@univ-angers.fr>; Fri, 8 Oct 2010 09:23:41 +0200 (envelope-from <bounce+12078949.1727.3126.10606@vertical-mail.com>)
+To: president@univ-angers.fr
+Message-Id: <20101008092341.12078949-10606-3126@vertical-mail.com>
+Errors-To: bounce+12078949.1727.3126.10606@vertical-mail.com
+List-Unsubscribe: <mailto:opposition@vertical-mail.com?suject=opposition>
+From: "Le Figaro" <infomediation@vertical-mail.com>
+Reply-to: infomediation@vertical-mail.com
+X-Sender: infomediation@vertical-mail.com
+Content-Transfer-Encoding: 8bit
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="00-9fa8bef0c498a622a7137806882807be"
+Date: Fri, 8 Oct 2010 09:23:41 +0200
+Subject: [president] Découvrez l’offre qui vous est réservée.. .
+
+This is a multi-part message in MIME format .
+
+--00-9fa8bef0c498a622a7137806882807be
+Content-Type: text/plain; charset=ISO-8859-15
+
+Monsieur MARTINA,  
+
+Pour recevoir Le Figaro et ses suppléments du Lundi au Samedi, nous vous invitons à découvrir l’offre qui vous est réservée... 
+http://www.restworx.com/page,1701,12078949,1727,3126,10606,x4956knc.html 
+
+Les abonnements dédiés aux entreprises sont livrés chaque matin chez vous ou au bureau ! 
+
+Nous souhaitons vivement vous accueillir prochainement parmi nos abonnés. 
+
+Très sincèrement, 
+
+Nathalie Allard 
+Directeur des abonnements
+
+--00-9fa8bef0c498a622a7137806882807be
+Content-Type: text/html; charset=ISO-8859-15
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<style type="text/css">
+<!--
+
+formstyle
+{
+	FONT-SIZE: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	COLOR: #000000;
+	BACKGROUND-COLOR: #FFFFFF;
+	BORDER-BOTTOM: #000000 1px solid;
+	BORDER-LEFT: #000000 1px solid;
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-TOP: #000000 1px solid;
+	margin:0px;
+}
+
+formstyle2
+{
+	FONT-SIZE: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	COLOR: #000000;
+	BACKGROUND-COLOR: #ffdede;
+	BORDER-BOTTOM: #000000 1px solid;
+	BORDER-LEFT: #000000 1px solid;
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-TOP: #000000 1px solid;
+	margin:0px;
+}
+
+a:hover {text-decoration: none}
+BODY {font-size: 11px; font-family: Arial, Helvetica, sans-serif;}
+td {font-size: 11px; font-family: Arial, Helvetica, sans-serif;}
+BIG {font-size: 13px; font-family: Arial, Helvetica, sans-serif;}
+SMALL {font-size: 9px; font-family: Arial, Helvetica, sans-serif;}
+H1 {font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+H2 {font-family: Arial, Helvetica, sans-serif; font-size: 18px;}
+H3 {font-family: Arial, Helvetica, sans-serif; font-size: 20px;}
+H4 {font-family: Arial, Helvetica, sans-serif; font-size: 22px;}
+H5 {font-family: Arial, Helvetica, sans-serif; font-size: 24px;}
+H6 {font-family: Arial, Helvetica, sans-serif; font-size: 28px;}
+
+lien {font-family: Arial, Helvetica, sans-serif; text-decoration: none}
+lien:hover {font-family: Arial, Helvetica, sans-serif; text-decoration: underline}
+lienmention {font-family: Arial, Helvetica, sans-serif; color: #494949}
+
+//-->
+</style></head>
+
+<body bgcolor="#1B6BB0" text="#000000">
+
+<center>
+
+<br>
+<table cellpadding="0" cellspacing="0" border="0" width="652">
+<tr>
+	<td bgcolor="#a19d9e" height="61"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF" size="5" style="font-size:28px"><b><img src="http://www.vminfos.com/solofiga1009ent/visuals/rel_im01.gif" width="652" height="61" alt="LE FIGARO"></b></font></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" style="border-left:#c6bdbe solid 1px; border-right:#c6bdbe solid 1px; padding:15px"><A href="http://www.restworx.com/page,4183,12078949,1727,3126,10606,x4956knc.html" style="text-decoration:none"><font
+	face="Arial, Helvetica, sans-serif" color="#000000" size="2" style="font-size:13px">
+	
+	Monsieur MARTINA,	<br /><br />
+	Pour recevoir Le Figaro et ses suppl&eacute;ments du Lundi au Samedi, <u><b><font color="#0000FF">nous vous invitons &agrave; d&eacute;couvrir l&rsquo;offre qui vous est r&eacute;serv&eacute;e&hellip;</font></b></u><br>
+	<br>
+	Les abonnements d&eacute;di&eacute;s aux entreprises sont livr&eacute;s chaque matin chez vous ou au bureau !<br>
+	<br />
+	
+	Nous souhaitons vivement vous accueillir  prochainement parmi nos abonn&eacute;s.<br>
+	<br>
+	Très sinc&egrave;rement,<br>
+	<br>
+	Nathalie Allard<br>
+	Directeur des abonnements
+	
+	</font></a></td>
+</tr>
+<tr>
+	<td bgcolor="#c6bdbe" height="1"><img src="http://www.vminfos.com/solofiga1009ent/visuals/blank.gif" height="1" width="1" alt="" style="display:block"></td>
+</tr>
+</table>
+
+<!--Vous recevez ce mail via VERTICAL-MAIL BUSINESS :<BR> Vous pouvez gérer votre abonnement ou modifier votre profil et vos coordonnées. Vous pouvez également annuler votre abonnement gratuit à notre service d'infomédiation en vous désabonnant de la base Vertical-Mail ou de la base d'envois sélectionnée pour notre partenaire Le Figaro. Merci de <A HREF="http://www.vminfos.com/opposition/index2.php4?dest=Le Figaro&email=president@univ-angers.fr&member=&contact_id=12078949&base_id=1727&campaign_id=3126&sending_id=10606" CLASS=lienmention>suivre ce lien</A>.-->
+
+</center>
+
+<img src="http://www.restworx.com/front/push/image,12078949,1727,3126,10606.gif" border="0" alt="" /></body>
+
+</html>
+
+--00-9fa8bef0c498a622a7137806882807be--
+
+

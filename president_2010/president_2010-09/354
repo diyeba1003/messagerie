@@ -1,0 +1,567 @@
+Return-Path: <isabelle.penot@lunam.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id DD01022827
+	for <president@listes.univ-angers.fr>; Tue, 21 Sep 2010 14:56:56 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id C90FD1143B5; Tue, 21 Sep 2010 14:56:56 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp1.univ-nantes.fr [193.52.82.18])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id BF737114344
+	for <president@univ-angers.fr>; Tue, 21 Sep 2010 14:56:56 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id A3C8E81854C
+	for <president@univ-angers.fr>; Tue, 21 Sep 2010 14:56:56 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp1.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id LGW2urfd2LkZ for <president@univ-angers.fr>;
+	Tue, 21 Sep 2010 14:56:56 +0200 (CEST)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 8514B818514
+	for <president@univ-angers.fr>; Tue, 21 Sep 2010 14:56:56 +0200 (CEST)
+Received: from mx1.univ-nantes.fr (MX1.univ-nantes.fr [193.52.101.135])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id 782D162A
+	for <daniel.martina@lunam.fr>; Tue, 21 Sep 2010 14:56:56 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mx1.univ-nantes.fr (Postfix) with ESMTP id 6B3EE12E9965;
+	Tue, 21 Sep 2010 14:56:56 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from mx1.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id 48Q-5lIZ5yBM; Tue, 21 Sep 2010 14:56:56 +0200 (CEST)
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+Received: from smtp-tls.univ-nantes.fr (smtp-tls1.univ-nantes.fr [193.52.101.145])
+	by mx1.univ-nantes.fr (Postfix) with ESMTP id C1137131C5AD;
+	Tue, 21 Sep 2010 14:56:54 +0200 (CEST)
+Received: from localhost (debian [127.0.0.1])
+	by smtp-tls.univ-nantes.fr (Postfix) with ESMTP id B7B639540E;
+	Tue, 21 Sep 2010 14:56:54 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from smtp-tls.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp-tls1.univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id qOE5DVy4VdVa; Tue, 21 Sep 2010 14:56:54 +0200 (CEST)
+Received: from PCPRES13 (unknown [172.20.38.90])
+	(using TLSv1 with cipher RC4-MD5 (128/128 bits))
+	(No client certificate requested)
+	by smtp-tls.univ-nantes.fr (Postfix) with ESMTPSA id 9824C9540D;
+	Tue, 21 Sep 2010 14:56:54 +0200 (CEST)
+From: "Isabelle PENOT" <isabelle.penot@lunam.fr>
+To: <daniel.martina@lunam.fr>
+Cc: <francis.yguel@lunam.fr>
+Date: Tue, 21 Sep 2010 14:59:09 +0200
+Message-ID: <001e01cb598c$c7c94120$575bc360$@penot@lunam.fr>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_001F_01CB599D.8B521120"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: ActPUxDEKej9zhSST8KtlyI8Q5ThQwKORBmg
+Content-Language: fr
+Subject: [president] TR: Invitation
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_001F_01CB599D.8B521120
+Content-Type: multipart/related;
+	boundary="----=_NextPart_001_0020_01CB599D.8B521120"
+
+
+------=_NextPart_001_0020_01CB599D.8B521120
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_002_0021_01CB599D.8B521120"
+
+
+------=_NextPart_002_0021_01CB599D.8B521120
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Bonjour,
+
+Ce mail pour vous tenir inform=E9 de ma venue demain =E0 Angers au si=E8ge =
+de la
+Caisse des D=E9p=F4ts , dans la suite du contact initi=E9 le 22/09 avec M.
+Doysonville et afin de mettre en place une coop=E9ration autour du montage =
+du
+dossier Ouest Valorisation.
+
+Cordialement,
+
+Isabelle PENOT
+
+=20
+
+De : Voyer, Bruno [mailto:bruno.voyer@caissedesdepots.fr]=20
+Envoy=E9 : mercredi 8 septembre 2010 14:41
+=C0 : isabelle.penot@lunam.fr
+Objet : Invitation
+
+=20
+
+Bonjour,
+
+=20
+
+Nous nous sommes rencontr=E9s, la semaine derni=E8re, =E0 l=92Unam =E0 Nant=
+es.
+
+=20
+
+Je vous contacte parce que le 22/9 =E0 Angers, nous organisons, en interne,
+une r=E9union de travail interr=E9gionale Ouest sur le th=E8me du d=E9velop=
+pement
+=E9conomique. A cette occasion, nous convions, comme =E0 chaque fois l=92ap=
+r=E8s
+midi (14h-16h00) un intervenant ext=E9rieur pour pr=E9sentation de son orga=
+nisme
+et =E9changes-d=E9bats. J=92avais convi=E9 E.Lagente et V.Lamande, de BV, q=
+ui ont
+donn=E9 leur accord pour intervenir l=92apr=E8s midi afin de pr=E9sentation=
+ BV et le
+projet OV. Ils viendront nous rejoindre pour le d=E9jeuner =E0 partir de 12=
+h30.
+
+=20
+
+Je pensais qu=92il serait bien que vous puissiez vous joindre =E0 nous afin=
+ de
+repr=E9senter les Pays de la Loire, l=92Unam=85.et donc, si vous en =EAtes =
+d=92accord
+et si vous =EAtes disponible, ce serait avec plaisir que nous vous
+accueillerions =E0 partir de 12h30 puis de 14h =E0 16h00 =E0 la CDC Pays de=
+ la
+Loire-26 all=E9e F.Mitterand =E0 ANGERS.
+
+=20
+
+Je vous remercie pour votre compr=E9hension et pour votre r=E9ponse.
+
+=20
+
+A votre enti=E8re disposition.
+
+=20
+
+Cordialement.
+
+=20
+
+=20
+
+
+=20=20=20=20=20
+
+
+
+Bruno VOYER
+
+Expert D=E9veloppement =E9conomique et social
+
+Direction Interr=E9gionale OUEST
+
+=20
+
+Ligne directe : 02 23 35 55 03
+T=E9l=E9copie : 02 23 35 55 35
+
+Portable : 06 85 41 15 19
+courriel : bruno.voyer@caissedesdepots.fr
+
+=20
+
+=20
+
+
+Afin de pr=E9server l'environnement, merci de n'imprimer ce courriel qu'en =
+cas
+de n=E9cessit=E9.
+
+Please consider the environment before printing this mail.
+
+
+------=_NextPart_002_0021_01CB599D.8B521120
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-=
+1">
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" xmlns:p=3D"urn:schemas-m=
+icrosoft-com:office:powerpoint" xmlns:a=3D"urn:schemas-microsoft-com:office=
+:access" xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:s=3D"=
+uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:rs=3D"urn:schemas-microsof=
+t-com:rowset" xmlns:z=3D"#RowsetSchema" xmlns:b=3D"urn:schemas-microsoft-co=
+m:office:publisher" xmlns:ss=3D"urn:schemas-microsoft-com:office:spreadshee=
+t" xmlns:c=3D"urn:schemas-microsoft-com:office:component:spreadsheet" xmlns=
+:odc=3D"urn:schemas-microsoft-com:office:odc" xmlns:oa=3D"urn:schemas-micro=
+soft-com:office:activation" xmlns:html=3D"http://www.w3.org/TR/REC-html40" =
+xmlns:q=3D"http://schemas.xmlsoap.org/soap/envelope/" xmlns:rtc=3D"http://m=
+icrosoft.com/officenet/conferencing" xmlns:D=3D"DAV:" xmlns:Repl=3D"http://=
+schemas.microsoft.com/repl/" xmlns:mt=3D"http://schemas.microsoft.com/share=
+point/soap/meetings/" xmlns:x2=3D"http://schemas.microsoft.com/office/excel=
+/2003/xml" xmlns:ppda=3D"http://www.passport.com/NameSpace.xsd" xmlns:ois=
+=3D"http://schemas.microsoft.com/sharepoint/soap/ois/" xmlns:dir=3D"http://=
+schemas.microsoft.com/sharepoint/soap/directory/" xmlns:ds=3D"http://www.w3=
+.org/2000/09/xmldsig#" xmlns:dsp=3D"http://schemas.microsoft.com/sharepoint=
+/dsp" xmlns:udc=3D"http://schemas.microsoft.com/data/udc" xmlns:xsd=3D"http=
+://www.w3.org/2001/XMLSchema" xmlns:sub=3D"http://schemas.microsoft.com/sha=
+repoint/soap/2002/1/alerts/" xmlns:ec=3D"http://www.w3.org/2001/04/xmlenc#"=
+ xmlns:sp=3D"http://schemas.microsoft.com/sharepoint/" xmlns:sps=3D"http://=
+schemas.microsoft.com/sharepoint/soap/" xmlns:xsi=3D"http://www.w3.org/2001=
+/XMLSchema-instance" xmlns:udcs=3D"http://schemas.microsoft.com/data/udc/so=
+ap" xmlns:udcxf=3D"http://schemas.microsoft.com/data/udc/xmlfile" xmlns:udc=
+p2p=3D"http://schemas.microsoft.com/data/udc/parttopart" xmlns:wf=3D"http:/=
+/schemas.microsoft.com/sharepoint/soap/workflow/" xmlns:dsss=3D"http://sche=
+mas.microsoft.com/office/2006/digsig-setup" xmlns:dssi=3D"http://schemas.mi=
+crosoft.com/office/2006/digsig" xmlns:mdssi=3D"http://schemas.openxmlformat=
+s.org/package/2006/digital-signature" xmlns:mver=3D"http://schemas.openxmlf=
+ormats.org/markup-compatibility/2006" xmlns:m=3D"http://schemas.microsoft.c=
+om/office/2004/12/omml" xmlns:mrels=3D"http://schemas.openxmlformats.org/pa=
+ckage/2006/relationships" xmlns:spwp=3D"http://microsoft.com/sharepoint/web=
+partpages" xmlns:ex12t=3D"http://schemas.microsoft.com/exchange/services/20=
+06/types" xmlns:ex12m=3D"http://schemas.microsoft.com/exchange/services/200=
+6/messages" xmlns:pptsl=3D"http://schemas.microsoft.com/sharepoint/soap/Sli=
+deLibrary/" xmlns:spsl=3D"http://microsoft.com/webservices/SharePointPortal=
+Server/PublishedLinksService" xmlns:Z=3D"urn:schemas-microsoft-com:" xmlns:=
+st=3D"&#1;" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#606420;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.EmailStyle17
+	{mso-style-type:personal;
+	font-family:"Arial","sans-serif";
+	color:windowtext;}
+span.EmailStyle20
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DFR link=3Dblue vlink=3D"#606420">
+
+<div class=3DWordSection1>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Bonjour,<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Ce mail pour vous tenir inform=E9 de ma venue demain =E0 Ang=
+ers au
+si=E8ge de la Caisse des D=E9p=F4ts , dans la suite du contact initi=E9 le =
+22/09 avec
+M. Doysonville et afin de mettre en place une coop=E9ration autour du monta=
+ge du
+dossier Ouest Valorisation.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Cordialement,<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Isabelle PENOT<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+
+<div>
+
+<div style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'>
+
+<p class=3DMsoNormal><b><span style=3D'font-family:"Tahoma","sans-serif"'>D=
+e&nbsp;:</span></b><span
+style=3D'font-family:"Tahoma","sans-serif"'> Voyer, Bruno
+[mailto:bruno.voyer@caissedesdepots.fr] <br>
+<b>Envoy=E9&nbsp;:</b> mercredi 8 septembre 2010 14:41<br>
+<b>=C0&nbsp;:</b> isabelle.penot@lunam.fr<br>
+<b>Objet&nbsp;:</b> Invitation<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Bonjour,<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Nous nous sommes rencontr=E9s, la semaine derni=E8re, =
+=E0 l&#8217;Unam =E0
+Nantes.<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Je vous contacte parce que le 22/9 =E0 Angers, nous
+organisons, en interne, une r=E9union de travail interr=E9gionale Ouest sur=
+ le
+th=E8me du d=E9veloppement =E9conomique. A cette occasion, nous convions, c=
+omme =E0
+chaque fois l&#8217;apr=E8s midi (14h-16h00) un intervenant ext=E9rieur pou=
+r pr=E9sentation
+de son organisme et =E9changes-d=E9bats. J&#8217;avais convi=E9 E.Lagente e=
+t V.Lamande, de
+BV, qui ont donn=E9 leur accord pour intervenir l&#8217;apr=E8s midi afin d=
+e pr=E9sentation
+BV et le projet OV. Ils viendront nous rejoindre pour le d=E9jeuner =E0 par=
+tir de
+12h30.<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Je pensais qu&#8217;il serait bien que vous puissiez v=
+ous joindre
+=E0 nous afin de repr=E9senter les Pays de la Loire, l&#8217;Unam&#8230;.et=
+ donc, si vous en
+=EAtes d&#8217;accord et si vous =EAtes disponible, ce serait avec plaisir =
+que nous vous
+accueillerions =E0 partir de 12h30 puis de 14h =E0 16h00 =E0 la CDC Pays de=
+ la
+Loire-26 all=E9e F.Mitterand =E0 ANGERS.<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Je vous remercie pour votre compr=E9hension et pour vo=
+tre
+r=E9ponse.<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>A votre enti=E8re disposition.<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Cordialement.<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<table class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0
+ style=3D'border-collapse:collapse'>
+ <tr>
+  <td valign=3Dtop style=3D'padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=3DMsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=3D'font-si=
+ze:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=3Dtop style=3D'padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=3DMsoNormal style=3D'margin-top:2.0pt'><span style=3D'color:navy=
+'><img
+  width=3D45 height=3D45 id=3D"_x0000_i1025" src=3D"cid:image001.gif@01CB4F=
+63.D448F9A0"></span><span
+  style=3D'font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=3Dtop style=3D'padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=3DMsoNormal><em><span style=3D'font-size:9.0pt;font-family:"Aria=
+l","sans-serif";
+  color:red'>Bruno VOYER<o:p></o:p></span></em></p>
+  <p class=3DMsoNormal><em><span style=3D'font-size:9.0pt;font-family:"Aria=
+l","sans-serif"'>Expert
+  D=E9veloppement =E9conomique et social</span></em><span style=3D'font-siz=
+e:12.0pt;
+  font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+  <p class=3DMsoNormal style=3D'margin-bottom:12.0pt'><em><span style=3D'fo=
+nt-size:
+  9.0pt;font-family:"Arial","sans-serif"'>Direction Interr=E9gionale OUEST<=
+/span></em><span
+  style=3D'font-size:9.0pt'><o:p></o:p></span></p>
+  <p class=3DMsoNormal><span style=3D'font-size:9.0pt'><o:p>&nbsp;</o:p></s=
+pan></p>
+  <p class=3DMsoNormal><em><span style=3D'font-size:9.0pt;font-family:"Aria=
+l","sans-serif"'>Ligne
+  directe&nbsp;: 02 23 35 55 03</span></em><i><span style=3D'font-size:9.0p=
+t'><br>
+  <em><span style=3D'font-family:"Arial","sans-serif"'>T=E9l=E9copie&nbsp;:=
+ 02 23 35
+  55 35</span></em></span><em><span style=3D'font-family:"Arial","sans-seri=
+f"'><o:p></o:p></span></em></i></p>
+  <p class=3DMsoNormal><em><span style=3D'font-size:9.0pt;font-family:"Aria=
+l","sans-serif"'>Portable&nbsp;:
+  06 85 41 15 19</span></em><span style=3D'font-size:9.0pt'><br>
+  courriel&nbsp;: bruno.voyer@caissedesdepots.fr</span><span style=3D'font-=
+size:
+  12.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p><b><i><span style=3D'font-size:7.5pt;font-family:"Arial","sans-serif";
+color:blue'><br>
+Afin de pr=E9server l'environnement, merci de n'imprimer ce courriel qu'en =
+cas de
+n=E9cessit=E9.<br>
+<br>
+Please consider the environment before printing this mail.</span></i></b><o=
+:p></o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_002_0021_01CB599D.8B521120--
+
+------=_NextPart_001_0020_01CB599D.8B521120
+Content-Type: image/gif;
+	name="image001.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.gif@01CB4F63.D448F9A0>
+Content-Location: image001.gif
+
+R0lGODlhLQAtAHcAACH/C01TT0ZGSUNFOS4wDQAAAAFzUkdCAK7OHOkAIf8L
+TVNPRkZJQ0U5LjAXAAAAC21zT1BNU09GRklDRTkuMEI8pPUALAAAAAAtAC0A
+h8GRlOarrc1DR8yHitHT1dna3NVydtSusOLFxtReYsRrb9J5fMNNUcubnN6Z
+nMmipejAwtzd3+u5u93e4NVpbO7HyMO7vcnLzdrR0s/Q0ruztebIyc1rb9W5
+u8u5u+Di49+Gid6tr9jZ29XW2MzNz8lcYMg+Q+Hj5NfExvLU1bO0ttfY2tFa
+Xvrw8PLp6unq6+fo6dFQVMnAwtd+gunCxOa/wcBKTung4NzU1dKho7y+wL6i
+pN3Lzb7AwefAwuW+v9WHistpbM2xs9yho/j4+fb39/T19dSZnO7v7+Pk5d/g
+4ePb3NjP0dLJy87Gx8DCxNu0ttiys8m3udStr7xucdKrrtalp8eqrM6nqb9d
+YcWeodWQk8g0OMtBRc9scLxPU+OUlu28vco1Ovvy8vjk5fTX2OqusOaho7q8
+vtCBhdhrb9GMj9t5fL0pLsczOMBydspJTt/h4sxgZMUxNsk1OstVWezt7sJE
+SMt9gNOipdKXmtXCw/X29tmKjb+FiOjp6urh4urr7N/MzfLy88SytOvs7eTl
+5t+Qk8U7P+/w8MdRVe3u776OkdyXmuK7vPTW17u8v/7+/ufLzMl6fd3AwcPE
+x+SfodS3udKNkPXr7Mqtr+vOz+vY2bFPU/Dd3uvO0Omtr9l3etm7vMuvscag
+osOmqe7a2+Kxs7tARNvd3vDn6NKEhsd4e892eei3ue/R09amqO/m57p/gtG/
+wahQU/f4+Ny1tuCvsdFlaOrX2Orr67c2O+PQ0vnv78eXmdBPVPn6+tSjpcpn
+a7aQkrWYmrmdn9TBxLe5uvfj5PTr6/bt7eHOz8Boa9vIydzKy7dzdsJWWtyr
+rdmoqsXHydXMzs5OUreHiriIi+zt7ejo6ebn5+bn6NCpq9/W19LKzNTLzLSO
+kOO9vtCztdG0ttexsvn5+ryqrPv7++/Iyd6PksVjZ+/c3cR/gtiTlcA2O8Ff
+Ytugot6jpr55fcN0d/Dw8fHx8rdfYvz8/Me0t+Ta2+Xc3dnb3eXm5/HJy///
+/8YoLQj/AP8JHEiwoMGDCBMqXMiwocOFuPqc8kGDxiEKdB5qFMgFyJIXdgRR
+RFDuXC9QAjY2lIPjRAcoISRUCJBCwgJ0kcaAUKmQw74m4jIFeCDBF5UQC+Dl
+aNfPnxmeB4WNIPRJyRQBbf7RyfhP0ZAKlh45hUpQUQYPrRDYy9rFgSlPAX4J
+TJDC0aNIO8n+k2IByhYKAmd8EKHKhRJgAQTG2FABWQt3ZNVduKJvy0ADgHJp
+c6HrhoKB71KIugePbCl80rRk/beAVyEknCDwqXUjVMp/jhZJULZ6I6In1xwE
+EWjiBBOQiQYZ4ZOsXAmBApoNIAJYJbQeVfKt9vLBEAwcPUjs/8n2osiqgVNY
+8UnH840OSnsGHsGxgt+fQovoDYJhBMXAHAhsYkt7kDRQA3oYzCKFE8SA840k
+9cSyzEAcvFLDgSq9gQYsGP5TRQETxJHENhMEYsciiQjC1SGuhBNOe2gwg8VA
+A5CwT4hJ5APDC4FgQ85A0Vxygy88MYAGOz/sIhAeBNioQhwnHJMBDBMQqRUC
+3PyBB09zoLGDFV8IVAIhTYxQQCpKxLFCAZds+Y8A6wRjCANQMaLBHAYMlEUG
+BIwgwj4RhDjJQCwIwIMzZBn5DCprDGRDMQR4Q40ITtjghkBBMODFBFToxQga
+wwAyz0AmeDBNDxfYMBAFEJDDhAe9cf+pgQZHaNBIFwOVwAxBBvhghTGp6iXQ
+HbM+0IczjbBAUBeYVMOCJkJkIIywA91hDhqkACHEB93MEIUkDsggizwyPJEF
+tQTN4QcaaABwBRa3xDPOKDtYUIkWqKBrECJ+aMDuv5CoYE2Y+iZ0RydvvEHL
+HbEqxEY//eRFEBi3FTwQGP6cccYYT01cscX/jHGGQCD0wwYZ/vQjRj9qlOEP
+GTGY4Y9OMTSlskox+JMAQWeAkXMCKY+hhhlNgQFGP2GEkUAZHWskhj9sCPQw
+GC7r7A8IKJPBRhj+ZNx11/3w1E8ZAohRBtcgPK2GU2aIEcYYKoMw88hgjIxz
+1TBXDbc/YIz/0fUZVbPs9xg7QxVD4f8kIIYYFSuu2G1iIE5WGmkg1NTLbf8j
+BhlNE2SGTolHnRAcdVD+Tx1wCIT6P2MnwMYYYfyjRhhiCBR5SmKYUfc/R2ue
+QAwFrZHHGkyk0YEeB6yR/PAQk+zP2mQQ3jXKamAc/Rlg++MyGAT594/yegjU
+AQpyuMFB84lrr3QZRf8TRlM7vX+03CCAIfo/cBwgUBoHHEB5GiZYw/HQh7GX
+QQx7OzuaznjXj6OJQYGxGwgKLnWAPOjPDSiYoBsK0A8y1C1jYSjD0ri2vjCQ
+QWmco9rnEmAGMhBEDgfowBo4wL8DyIEDHTgAB84AsQa+yYS0SxkZF/oRg5rB
+TgxqiNjbWGaxBYKsIRTbSEAAADs=
+
+------=_NextPart_001_0020_01CB599D.8B521120--
+
+------=_NextPart_000_001F_01CB599D.8B521120
+Content-Type: text/plain;
+	name="disclaimer.txt"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: attachment;
+	filename="disclaimer.txt"
+
+Ce message et toutes les pi=E8ces jointes (ci-apr=E8s le =AB=A0message=A0=
+=BB) sont confidentiels et =E9tablis =E0 l=92intention exclusive
+de ses destinataires. Toute utilisation de ce message non conforme =E0 sa d=
+estination, toute diffusion ou toute publication,
+totale ou partielle, est interdite, sauf autorisation expresse. Si vous rec=
+evez ce message par erreur, merci de le
+d=E9truire sans en conserver de copie et d=92en avertir imm=E9diatement l=
+=92exp=E9diteur. Internet ne permettant pas de garantir=20
+l=92int=E9grit=E9 de ce message, la Caisse des D=E9p=F4ts et Consignations =
+d=E9cline toute responsabilit=E9 au titre de ce message s=92il=20
+a =E9t=E9 modifi=E9, alt=E9r=E9, d=E9form=E9 ou falsifi=E9. Par ailleurs et=
+ malgr=E9 toutes les pr=E9cautions prises pour =E9viter la pr=E9sence=20
+de virus dans nos envois, nous vous recommandons de prendre, de votre c=F4t=
+=E9, les mesures permettant d'assurer la non-introduction=20
+de virus dans votre syst=E8me informatique.=20
+
+
+This email message and any attachments (=93the email=94) are confidential a=
+nd intended only for the recipient(s) indicated.=20
+If you are not an intented recipient, please be advised that any use, disse=
+mination, forwarding or copying of this email=20
+whatsoever is prohibited without Caisse des Depots et Consignations's prior=
+ written consent. If you have received this=20
+email in error, please delete it without saving a copy and notify the sende=
+r immediately. Internet emails are not=20
+necessarily secured, and  declines responsibility for any changes that may =
+have been made to this email after it was=20
+sent. While we take all reasonable precautions to ensure that viruses are n=
+ot transmitted via emails, we recommend that=20
+you take your own measures to prevent viruses from entering your computer s=
+ystem.
+
+------=_NextPart_000_001F_01CB599D.8B521120--
+

@@ -1,0 +1,158 @@
+Return-Path: <Laurent.Lescaudron@univ-nantes.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id DFAE02283E
+	for <president@listes.univ-angers.fr>; Wed,  3 Nov 2010 10:04:32 +0100 (CET)
+Received: by smtp.univ-angers.fr (Postfix)
+	id D24491140A1; Wed,  3 Nov 2010 10:04:32 +0100 (CET)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp1.univ-nantes.fr [193.52.82.18])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id B0876114088
+	for <president@univ-angers.fr>; Wed,  3 Nov 2010 10:04:32 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id A3E04816069
+	for <president@univ-angers.fr>; Wed,  3 Nov 2010 10:04:32 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp1.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id swFOxV5amqGF for <president@univ-angers.fr>;
+	Wed,  3 Nov 2010 10:04:32 +0100 (CET)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 8331681605D
+	for <president@univ-angers.fr>; Wed,  3 Nov 2010 10:04:32 +0100 (CET)
+Received: from mx1.d101.univ-nantes.fr (MX1.univ-nantes.fr [193.52.101.135])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id 7243C2DF;
+	Wed,  3 Nov 2010 10:04:32 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by mx1.d101.univ-nantes.fr (Postfix) with ESMTP id 4FC7A13BF619;
+	Wed,  3 Nov 2010 10:04:32 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from mx1.d101.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id C0p9gbmbHoHg; Wed,  3 Nov 2010 10:04:32 +0100 (CET)
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+Received: from smtp1.univ-nantes.fr (Smtp1.univ-nantes.prive [172.20.12.55])
+	by mx1.d101.univ-nantes.fr (Postfix) with ESMTP id D7F0313BF618;
+	Wed,  3 Nov 2010 10:04:31 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id C9A33816069;
+	Wed,  3 Nov 2010 10:04:31 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp1.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id kIUg21YvtbCC; Wed,  3 Nov 2010 10:04:31 +0100 (CET)
+Received: from webmail.univ-nantes.fr (webmail-1.U10.univ-nantes.prive [172.20.10.107])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 9F31B81605D;
+	Wed,  3 Nov 2010 10:04:31 +0100 (CET)
+Received: from 172.20.10.63
+        (SquirrelMail authenticated user lescaudron-l)
+        by webmail.univ-nantes.fr with HTTP;
+        Wed, 3 Nov 2010 10:04:31 +0100 (CET)
+Message-ID: <fccdeec252290c467d5ead7e4240b8de.squirrel@webmail.univ-nantes.fr>
+Date: Wed, 3 Nov 2010 10:04:31 +0100 (CET)
+From: "Laurent LESCAUDRON" <Laurent.Lescaudron@univ-nantes.fr>
+To: "Direction LUNAM" <direction@lunam.fr>
+Cc: "'Michel Basle '" <michel.basle@univ-angers.fr>,
+ "'Marie-Monique Chardonneau'" <marie-monique.chardonneau@lunam.fr>,
+ "'Alexandrine CORTEZ'" <alexandrine.cortez@lunam.fr>,
+ "'Malika Fredj'" <malika.fredj@lunam.fr>,
+ emilie.hamon@lunam.fr,
+ "'Valerie LAPERCHE'" <valerie.laperche@lunam.fr>,
+ "'Geraldine LAVERDAN'" <geraldine.laverdan@lunam.fr>,
+ "'Laurent Lescaudron'" <laurent.lescaudron@lunam.fr>,
+ "'Sophie MARPAUD'" <sophie.marpaud@lunam.fr>,
+ corinne.miral@univ-nantes.fr,
+ "'Isabelle Penot '" <isabelle.penot@lunam.fr>,
+ "'Hannah ROBIN'" <hannah.robin@lunam.fr>,
+ "'Isabelle NICOLAUS'" <isabelle.nicolaus@lunam.fr>,
+ daniel.martina@lunam.fr,
+ evelyne.puglia@univ-angers.fr,
+ sylvie.le-roux@ec-nantes.fr,
+ francis.yguel@lunam.fr
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+Subject: [president] =?ISO-8859-1?Q?Re:_R=E9union_g=E9n=E9rale_du_personn?=
+ =?ISO-8859-1?Q?el?=
+
+Bonjour,
+Du fait du trop court délais, ce ne sera pas possible pour moi. C'est
+dommage.
+Cordialement.
+
+Laurent Lescaudron.
+-- 
+
+Laurent Lescaudron.
+Chargé de Mission Ecoles Doctorales
+L'Université Nantes Angers Le Mans (L'UNAM)
+Pôle de recherche et d'enseignement supérieur
+Tel: 06 84 99 55 57
+Immeuble MANNY
+19 bis rue La Nouë Bras de Fer
+44200 NANTES, France
+
+
+
+> Bonjour,
+>
+>
+>
+> Pour faire suite au conseil d’administration du 22 octobre, je vous convie
+> à
+> une réunion générale ce jour, mercredi 3 novembre de 15h30 à 16h00, en
+> salle
+> de réunion du 6e étage (NB. renvoi téléphonique à faire sur le poste
+> 1409).
+>
+>
+>
+> Comptant sur votre présence,
+>
+>
+>
+> Bien cordialement.
+>
+> Francis YGUEL
+> Directeur général
+> Tél. +33.(0)2.28.08.14.28
+> Fax +33.(0)2.28..08.14.01
+>
+> L’Université Nantes Angers Le Mans (L’UNAM)
+> Pôle de recherche et d'enseignement supérieur
+>
+> Immeuble MANNY
+> 19 bis rue La Nouë Bras de Fer
+> 44200 NANTES, France
+> http://www.lunam.fr <http://www.lunam.fr/>
+>
+> lunam
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+
+

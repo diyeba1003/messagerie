@@ -1,0 +1,215 @@
+Return-Path: <f.boddaert@dev-assos.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 400762281D
+	for <president@listes.univ-angers.fr>; Wed,  1 Dec 2010 15:58:01 +0100 (CET)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 303DB11403F; Wed,  1 Dec 2010 15:58:01 +0100 (CET)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp1.univ-nantes.fr [193.52.82.18])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 2756C114008
+	for <president@univ-angers.fr>; Wed,  1 Dec 2010 15:58:00 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id BCB848083C7
+	for <president@univ-angers.fr>; Wed,  1 Dec 2010 15:57:59 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp1.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id P17IzGncbTiI for <president@univ-angers.fr>;
+	Wed,  1 Dec 2010 15:57:59 +0100 (CET)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id A03C380609D
+	for <president@univ-angers.fr>; Wed,  1 Dec 2010 15:57:59 +0100 (CET)
+Received: from mx3.univ-nantes.fr (MX3.univ-nantes.fr [193.52.101.137])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id 91734A43
+	for <daniel.martina@lunam.fr>; Wed,  1 Dec 2010 15:57:59 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by mx3.univ-nantes.fr (Postfix) with ESMTP id 892BEDA4BC5
+	for <daniel.martina@lunam.fr>; Wed,  1 Dec 2010 15:57:59 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from mx3.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id hW1ZMcKW4-KX for <daniel.martina@lunam.fr>;
+	Wed,  1 Dec 2010 15:57:57 +0100 (CET)
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+Received: from moutng.kundenserver.de (moutng.kundenserver.de [212.227.17.9])
+	by mx3.univ-nantes.fr (Postfix) with ESMTP id 71EE4DD3426
+	for <daniel.martina@lunam.fr>; Wed,  1 Dec 2010 15:57:57 +0100 (CET)
+Received: from [192.168.1.15] (AMontsouris-151-1-10-224.w82-123.abo.wanadoo.fr [82.123.135.224])
+	by mrelayeu.kundenserver.de (node=mrbap1) with ESMTP (Nemesis)
+	id 0Ls7Op-1OP5GS3FWB-013gJP; Wed, 01 Dec 2010 15:52:56 +0100
+Message-ID: <4CF66142.9040107@dev-assos.fr>
+Date: Wed, 01 Dec 2010 15:52:50 +0100
+From: Boddaert Florine <f.boddaert@dev-assos.fr>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; fr; rv:1.9.2.12) Gecko/20101027 Thunderbird/3.1.6
+MIME-Version: 1.0
+To: daniel.martina@lunam.fr
+CC: O'Rorke Philippe <p.ororke@dev-assos.fr>
+Content-Type: multipart/alternative;
+ boundary="------------030101090301090202080309"
+X-Provags-ID: V02:K0:JrPqlzXOOjQFOojm1LTla5e9GcdMQNYoveKLzMWN2kp
+ kLMLaPMgEzi/lxvCz++0iEidpRX3KyP8X5/QIqU0M5I4vbVDes
+ oRKvpFvKMOv8566hecH8L60j+fe+IAd7hfNgMscg5WAbY3B2hr
+ x047idhYJ6RBlkSdzMMR9ZGy0OLGdFCPKicJ0QmYKCUWEcEGlX
+ 2GpISetoaCfCetloIfnW1pYEA0u23/IFDxARIsaU3k=
+Subject: [president] =?ISO-8859-1?Q?Le_m=E9c=E9nat_au_service_du_d=E9velo?=
+ =?ISO-8859-1?Q?ppement_de_l'UNAM?=
+
+This is a multi-part message in MIME format.
+--------------030101090301090202080309
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Monsieur le Président,
+
+Je vous contacte pour vous présenter Dev'Assos, cabinet indépendant créé 
+en 2003, spécialisé dans le conseil en fundraising et qui accompagne 
+régulièrement des écoles de l'enseignement supérieur pour le 
+développement de leurs ressources propres.
+
+- Vous avez besoin de réaliser un bilan des actions menées par les 
+différentes équipes, administratives et pédagogiques, des établissements 
+regroupés au sein de l'UNAM  auprès de leurs partenaires institutionnels 
+ou privés ?
+- Vous souhaitez *impliquer davantage et autrement les entreprises* qui 
+reçoivent les étudiants de votre PRES en stage et qui sont déjà 
+sollicitées pour la taxe d'apprentissage ou pour des partenariats ?
+-*Vous vous interrogez sur l'opportunité de bâtir une stratégie mécénat 
+pour le développement de vos projets d'intérêt général *(bourses, 
+chaires, équipements pédagogiques, etc.) *et de créer une fondation UNAM 
+ou un fonds de dotation ?*
+
+Notre expertise en fundraising (mécénat et partenariat) peut répondre à 
+vos besoins. Nous proposons notamment les services suivants :
+- Stratégie, audit et conseil en collecte de fonds ;
+- Création de fondation, de fonds de dotation ou de club d'entreprises ;
+- Développement d'une stratégie alumni (identification des anciens, 
+sentiment d'appartenance, etc.) ;
+- Recherche, identification et approche de partenaires et mécènes ;
+- Négociation de conventions de mécénat ;
+- Formation en interne à la démarche fundraising.
+
+Nous sommes spécialisés sur le développement des dons majeurs (mécénat 
+des particuliers, mécénat et partenariat des entreprises), legs et 
+donations. Nous intervenons déjà régulièrement  pour les secteurs 
+médical, caritatif, environnemental, culturel  et de plus en plus pour 
+l'enseignement supérieur et la recherche. Par exemple, nous accompagnons 
+actuellement, pour la création de leur fondation, l'Institut national 
+des sciences appliquées (INSA) de Strasbourg, formant des architectes et 
+des ingénieurs.
+
+Notre site Internet étant actuellement en refonte, je vous invite à 
+revenir vers moi si vous souhaitez connaître plus précisément nos 
+références ; plus de cinquante institutions nous ont fait confiance dont 
+une dizaine au sein de l'enseignement supérieur.
+
+Je me tiens à votre disposition pour échanger avec vous sur vos besoins 
+ou pour vous fournir tout complément d'information sur la démarche 
+fundraising.
+
+Je vous prie d'agréer, Monsieur le Président, l'expression de ma 
+considération distinguée.
+Florine BODDAERT
+
+-- 
+Florine BODDAERT
+Consultante en mécénat et partenariat
+Dev'Assos, cabinet conseil en fundraising
+22 rue de Chateaudun, 75009 Paris
+T. + 33 (0)1 49 95 95 56
+
+
+--------------030101090301090202080309
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+  </head>
+  <body bgcolor="#ffffff" text="#000000">
+    <small>Monsieur le Pr&eacute;sident,<br>
+      <br>
+      Je vous contacte pour vous pr&eacute;senter Dev&#8217;Assos, cabinet
+      ind&eacute;pendant cr&eacute;&eacute; en 2003, </small><small>sp&eacute;cialis&eacute; dans le
+      conseil en fundraising et qui accompagne r&eacute;guli&egrave;rement des &eacute;coles
+      de l'enseignement sup&eacute;rieur pour le d&eacute;veloppement de leurs
+      ressources propres.</small><br>
+    <small> <br>
+    </small><small>- </small><small>Vous avez besoin de r&eacute;aliser un
+      bilan des actions men&eacute;es par les diff&eacute;rentes &eacute;quipes,
+      administratives et p&eacute;dagogiques, des &eacute;tablissements regroup&eacute;s au
+      sein de l'UNAM&nbsp; aupr&egrave;s de leurs partenaires institutionnels ou
+      priv&eacute;s ?</small><br>
+    <small> - Vous souhaitez <b>impliquer davantage et autrement les
+        entreprises</b> qui re&ccedil;oivent les &eacute;tudiants de votre PRES en
+      stage et qui sont d&eacute;j&agrave; sollicit&eacute;es pour la taxe d&#8217;apprentissage ou
+      pour des partenariats ?<br>
+      -<b> Vous vous interrogez sur l&#8217;opportunit&eacute; de b&acirc;tir une strat&eacute;gie
+        m&eacute;c&eacute;nat pour le d&eacute;veloppement de vos projets d&#8217;int&eacute;r&ecirc;t g&eacute;n&eacute;ral </b>(bourses,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      chaires, &eacute;quipements p&eacute;dagogiques, etc.) <b>et de cr&eacute;er une
+        fondation UNAM ou un fonds de dotation ?</b></small><small><br>
+      <br>
+      Notre expertise en fundraising (m&eacute;c&eacute;nat et partenariat) peut
+      r&eacute;pondre &agrave; vos besoins. Nous proposons notamment les services
+      suivants :<br>
+      - Strat&eacute;gie, audit et conseil en collecte de fonds ; <br>
+      - Cr&eacute;ation de fondation, de fonds de dotation ou de club
+      d&#8217;entreprises ;<br>
+      - D&eacute;veloppement d&#8217;une strat&eacute;gie alumni (identification des
+      anciens, sentiment d'appartenance, etc.) ;<br>
+      - Recherche, identification et approche de partenaires et m&eacute;c&egrave;nes
+      ;<br>
+      - N&eacute;gociation de conventions de m&eacute;c&eacute;nat ; <br>
+      - Formation en interne &agrave; la d&eacute;marche fundraising.<br>
+      <br>
+      Nous sommes sp&eacute;cialis&eacute;s sur le d&eacute;veloppement des dons majeurs
+      (m&eacute;c&eacute;nat des particuliers, m&eacute;c&eacute;nat et partenariat des
+      entreprises), legs et donations. Nous intervenons d&eacute;j&agrave;
+      r&eacute;guli&egrave;rement&nbsp; pour les secteurs m&eacute;dical, caritatif,
+      environnemental, culturel&nbsp; et de plus en plus pour l&#8217;enseignement
+      sup&eacute;rieur et la recherche. Par exemple, nous accompagnons
+      actuellement, pour la cr&eacute;ation de leur fondation, l&#8217;Institut
+      national des sciences appliqu&eacute;es (INSA) de Strasbourg, formant des
+      architectes et des ing&eacute;nieurs. <br>
+      <br>
+      Notre site Internet &eacute;tant actuellement en refonte, je vous invite
+      &agrave; revenir vers moi si vous souhaitez conna&icirc;tre plus pr&eacute;cis&eacute;ment
+      nos r&eacute;f&eacute;rences ; plus de cinquante institutions nous ont fait
+      confiance dont une dizaine au sein de l'enseignement sup&eacute;rieur.<br>
+      <br>
+      Je me tiens &agrave; votre disposition pour &eacute;changer avec vous sur vos
+      besoins ou pour vous fournir tout compl&eacute;ment d&#8217;information sur la
+      d&eacute;marche fundraising.<br>
+      <br>
+      Je vous prie d&#8217;agr&eacute;er, </small><small>Monsieur </small><small>
+      le Pr&eacute;sident</small><small>, l&#8217;expression de ma consid&eacute;ration
+      distingu&eacute;e.<br>
+      Florine BODDAERT</small>
+    <pre class="moz-signature" cols="72">-- 
+Florine BODDAERT
+Consultante en m&eacute;c&eacute;nat et partenariat
+Dev'Assos, cabinet conseil en fundraising
+22 rue de Chateaudun, 75009 Paris
+T. + 33 (0)1 49 95 95 56</pre>
+  </body>
+</html>
+
+--------------030101090301090202080309--

@@ -1,0 +1,209 @@
+Return-Path: <johnwebbwork@yahoo.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id F1C1222856
+	for <president@listes.univ-angers.fr>; Mon,  4 Oct 2010 22:46:51 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id DCF4A114258; Mon,  4 Oct 2010 22:46:51 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from nm8.bullet.mail.ukl.yahoo.com (nm8.bullet.mail.ukl.yahoo.com [217.146.182.249])
+	by smtp.univ-angers.fr (Postfix) with SMTP id B7E8A11420F
+	for <president@univ-angers.fr>; Mon,  4 Oct 2010 22:46:51 +0200 (CEST)
+Received: from [217.146.183.182] by nm8.bullet.mail.ukl.yahoo.com with NNFMP; 04 Oct 2010 20:46:51 -0000
+Received: from [217.146.183.172] by tm13.bullet.mail.ukl.yahoo.com with NNFMP; 04 Oct 2010 20:46:50 -0000
+Received: from [127.0.0.1] by omp1013.mail.ukl.yahoo.com with NNFMP; 04 Oct 2010 20:46:50 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 437873.75212.bm@omp1013.mail.ukl.yahoo.com
+Received: (qmail 41832 invoked by uid 60001); 4 Oct 2010 20:46:50 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.fr; s=s1024; t=1286225210; bh=woLUtPF9954qZ30I9/UC84hlTAf2jC8il3lC7EdRnsg=; h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:Cc:In-Reply-To:MIME-Version:Content-Type; b=wIf6FukPyk4hY/QkpYOQGPpJB8E51gGFVLy5i1eiNQ/JTFhoDZWQtZNURJjZBouNp+ggQjBJKuEAxT3Yo33tZnz7vSDtoJhpwKTCmCj27R4846mD5/2J6SxwHgqFDxUCTFajpQ2nrkmXDQWTF9cDvwNGqnLaR0z0PCMiec4q6EA=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.fr;
+  h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:Cc:In-Reply-To:MIME-Version:Content-Type;
+  b=czn0qBO592Puk8JOOeG7ddoRypZNQ17lAka/IpOfnIso4/CEKv+BVNnEdN3UDGL0wawQ9a94atkFmCSSvEWt1txEAlSkmxiSbQ2yDMka24TI7GH3FGIVrDt4MDg5vZ39s7Cdnw12vFQhVCreTvBR76dKTQOAH+ggTd61D3RjoUA=;
+Message-ID: <188210.34369.qm@web27001.mail.ukl.yahoo.com>
+X-YMail-OSG: whqCpXcVM1nEoW81uGJxr1WKjyTMdMXqufIqhJ1KIeJYi3v
+ TttHJSa.1UxRkOolulnew5GI_ePzvqwdji5153d0nq9VWsJJ9lOQXizX8rkY
+ hK1KD2daxnQdtNtYAc.dvmViMZzZlHsWZiapf16dBs5EDxqwKFs6Zh79ocPx
+ FfOszET7hHyxthT_Y00Hi2ubCSAEOqquj87K8QJFk4vMhvOkgKfdqKLq0Fod
+ M7JkHdzYHorAf.9qym9Vb.hezQezkhNt2komxFB6MCLPrEMVmHJJVARGgDBT
+ pPfWcy8NjmsbZsPHrrGlpBWyyHwf7b5M-
+Received: from [86.203.46.110] by web27001.mail.ukl.yahoo.com via HTTP; Mon, 04 Oct 2010 21:46:50 BST
+X-Mailer: YahooMailClassic/11.4.9 YahooMailWebService/0.8.106.282862
+Date: Mon, 4 Oct 2010 21:46:50 +0100 (BST)
+From: John Webb <johnwebbwork@yahoo.fr>
+To: =?utf-8?B?6auY5Li+5pWP?= <jimygao@yahoo.cn>,
+  =?utf-8?B?5qyn6Ziz55m+5ZCI?= <direction-fr@confucius-angers.eu>,
+  =?utf-8?B?5qyn6Ziz55m+5ZCI5Yqe?= <bienvenue@confucius-angers.eu>,
+  =?utf-8?B?5ZSQ5YCp?= <oliviatang@paysdelaloire.cn>,
+  =?utf-8?B?5b6Q5b635a69?= <xudekuan@tom.com>,
+  =?utf-8?B?5a2Z5qGC5bu3?= <sunguiting2006@126.com>,
+  David Wu <davidsallywu@163.com>
+Cc: Lydie Jouis <lydie.jouis@univ-angers.fr>,
+  Henri-Marc Papavoine <henri-marc.papavoine@univ-angers.fr>,
+  President Univ Angers <president@univ-angers.fr>,
+  Daniel Martina <daniel.martina@univ-angers.fr>
+In-Reply-To: <84e278.8c13.12b6003b52c.Coremail.sunguiting2006@126.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="0-2103309761-1286225210=:34369"
+Subject: [president] =?UTF-8?B?UmUgOiBGdzpGdzrlm73luoboioLlv6vkuZA=?=
+
+
+--0-2103309761-1286225210=:34369
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+To our friends from Ludong in Yantai and in Angers,
+My warmest greetings to our friends at Ludong University for this holiday p=
+eriod!
+The University of Angers will be present at your 80th anniversary.=20
+The President regrets not being able to attend, and asks you to relay these=
+ regrets to your President. The University of Angers is preparing the next =
+four-year contract for academic programs and financing with the French Mini=
+stry of Higher Education and Research and the President simply cannot leave=
+ France in the near future. He really would like to express his wishes of c=
+ontinued success and future cooperation to our partners at Ludong.=20
+The President invited the Secretary General to replace him, and he has acco=
+rded us the honor of his presence in Yantai for these important ceremonies.=
+ The Secretary General is the central figure for all of our University's ad=
+ministrative workings. He will be accompanied by Ms. Lydie Jouis, Director =
+of International Relations of the University of Angers, a friend of Ludong =
+who visited you in March 2010.
+I sincerely wish I could be personally present with you. Ludong is an impor=
+tant partner for us. I will be in Africa until October 21st, as established=
+ by a longstanding schedule, for the first graduation ceremony for a new Ma=
+ster's degree program that we have with Cameroon.=20
+My sincerest wishes fior a very successful 80th anniversary. Ludong student=
+s have risen to high positions throughout Shandong and all of China, in tea=
+cghing, arts and also many fields.=20
+Best regards to each and every one of you,=20
+John
+
+--- En date de=C2=A0: Jeu 30.9.10, =E5=AD=99=E6=A1=82=E5=BB=B7 <sunguiting2=
+006@126.com> a =C3=A9crit=C2=A0:
+
+De: =E5=AD=99=E6=A1=82=E5=BB=B7 <sunguiting2006@126.com>
+Objet: Fw:Fw:=E5=9B=BD=E5=BA=86=E8=8A=82=E5=BF=AB=E4=B9=90
+=C3=80: "John Webb" <johnwebbwork@yahoo.fr>, "=E9=AB=98=E4=B8=BE=E6=95=8F" =
+<jimygao@yahoo.cn>, "=E6=AC=A7=E9=98=B3=E7=99=BE=E5=90=88" <direction-fr@co=
+nfucius-angers.eu>, "=E6=AC=A7=E9=98=B3=E7=99=BE=E5=90=88=E5=8A=9E" <bienve=
+nue@confucius-angers.eu>, "=E5=94=90=E5=80=A9" <oliviatang@paysdelaloire.cn=
+>, "=E5=BE=90=E5=BE=B7=E5=AE=BD" <xudekuan@tom.com>
+Date: Jeudi 30 septembre 2010, 2h21
+
+=C2=A0
+
+=E4=B8=BB=E9=A2=98=EF=BC=9A Fw:=E5=9B=BD=E5=BA=86=E8=8A=82=E5=BF=AB=E4=B9=
+=90
+
+DEAR=E4=BB=AC=EF=BC=8C
+=C2=A0=C2=A0=C2=A0=C2=A0 =E8=AE=A9=E6=88=91=E4=BB=AC=E5=A4=A7=E5=AE=B6=E4=
+=B8=80=E8=B5=B7=E5=9C=A8=E5=9B=BD=E5=BA=86=E8=8A=82=E8=81=9A=E4=B8=80=E8=81=
+=9A=E6=89=AB=E8=8D=A1=E4=B8=80=E9=A1=BF=E4=B8=AD=E5=9B=BD=E5=A4=A7=E9=A4=90=
+=E5=90=A7=EF=BC=8C=E5=B0=BD=E7=AE=A1=E6=9C=89=E5=8F=AF=E8=83=BD=E7=9C=BC=E9=
+=A5=B1=E8=82=9A=E4=B8=8D=E9=A5=B1=EF=BC=8C=E4=B8=8D=E4=BF=A1=EF=BC=8C=E8=AF=
+=B7=E7=82=B9=E5=87=BB=E5=9B=BD=E5=BA=86=E8=8A=82=E5=BF=AB=E4=B9=90=EF=BC=81
+
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 SHARMS
+
+
+
+
+=E5=85=A8=E5=9B=BD=E6=9C=80=E4=BD=8E=E4=BB=B7=EF=BC=8C=E5=A4=A9=E5=A4=A9=E5=
+=9C=A8=E5=AE=B6=E5=86=B2=E7=85=A7=E7=89=87=EF=BC=8C24=E5=B0=8F=E6=97=B6=E5=
+=8F=91=E8=B4=A7=E4=B8=8A=E9=97=A8=EF=BC=81=20
+
+
+
+=E5=85=A8=E5=9B=BD=E6=9C=80=E4=BD=8E=E4=BB=B7=EF=BC=8C=E5=A4=A9=E5=A4=A9=E5=
+=9C=A8=E5=AE=B6=E5=86=B2=E7=85=A7=E7=89=87=EF=BC=8C24=E5=B0=8F=E6=97=B6=E5=
+=8F=91=E8=B4=A7=E4=B8=8A=E9=97=A8=EF=BC=81=20
+
+
+=E5=85=A8=E5=9B=BD=E6=9C=80=E4=BD=8E=E4=BB=B7=EF=BC=8C=E5=A4=A9=E5=A4=A9=E5=
+=9C=A8=E5=AE=B6=E5=86=B2=E7=85=A7=E7=89=87=EF=BC=8C24=E5=B0=8F=E6=97=B6=E5=
+=8F=91=E8=B4=A7=E4=B8=8A=E9=97=A8=EF=BC=81
+
+
+
+=20=20=20=20=20=20=
+
+--0-2103309761-1286225210=:34369
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" ><tr><td valign=3D"=
+top" style=3D"font: inherit;">To our friends from Ludong in Yantai and in A=
+ngers,<br>My warmest greetings to our friends at Ludong University for this=
+ holiday period!<br>The University of Angers will be present at your 80th a=
+nniversary. <br>The President regrets not being able to attend, and asks yo=
+u to relay these regrets to your President. The University of Angers is pre=
+paring the next four-year contract for academic programs and financing with=
+ the French Ministry of Higher Education and Research and the President sim=
+ply cannot leave France in the near future. He really would like to express=
+ his wishes of continued success and future cooperation to our partners at =
+Ludong. <br>The President invited the Secretary General to replace him, and=
+ he has accorded us the honor of his presence in Yantai for these important=
+ ceremonies. The Secretary General is the central figure for all of our
+ University's administrative workings. He will be accompanied by Ms. Lydie =
+Jouis, Director of International Relations of the University of Angers, a f=
+riend of Ludong who visited you in March 2010.<br>I sincerely wish I could =
+be personally present with you. Ludong is an important partner for us. I wi=
+ll be in Africa until October 21st, as established by a longstanding schedu=
+le, for the first graduation ceremony for a new Master's degree program tha=
+t we have with Cameroon. <br>My sincerest wishes fior a very successful 80t=
+h anniversary. Ludong students have risen to high positions throughout Shan=
+dong and all of China, in teacghing, arts and also many fields. <br>Best re=
+gards to each and every one of you, <br>John<br><br>--- En date de&nbsp;: <=
+b>Jeu 30.9.10, =E5=AD=99=E6=A1=82=E5=BB=B7 <i>&lt;sunguiting2006@126.com&gt=
+;</i></b> a =C3=A9crit&nbsp;:<br><blockquote style=3D"border-left: 2px soli=
+d rgb(16, 16, 255); margin-left: 5px; padding-left: 5px;"><br>De: =E5=AD=99=
+=E6=A1=82=E5=BB=B7
+ &lt;sunguiting2006@126.com&gt;<br>Objet: Fw:Fw:=E5=9B=BD=E5=BA=86=E8=8A=82=
+=E5=BF=AB=E4=B9=90<br>=C3=80: "John Webb" &lt;johnwebbwork@yahoo.fr&gt;, "=
+=E9=AB=98=E4=B8=BE=E6=95=8F" &lt;jimygao@yahoo.cn&gt;, "=E6=AC=A7=E9=98=B3=
+=E7=99=BE=E5=90=88" &lt;direction-fr@confucius-angers.eu&gt;, "=E6=AC=A7=E9=
+=98=B3=E7=99=BE=E5=90=88=E5=8A=9E" &lt;bienvenue@confucius-angers.eu&gt;, "=
+=E5=94=90=E5=80=A9" &lt;oliviatang@paysdelaloire.cn&gt;, "=E5=BE=90=E5=BE=
+=B7=E5=AE=BD" &lt;xudekuan@tom.com&gt;<br>Date: Jeudi 30 septembre 2010, 2h=
+21<br><br><div id=3D"yiv978946683"><div>&nbsp;</div>
+<div><br>=E4=B8=BB=E9=A2=98=EF=BC=9A Fw:=E5=9B=BD=E5=BA=86=E8=8A=82=E5=BF=
+=AB=E4=B9=90<br></div>
+<div>DEAR=E4=BB=AC=EF=BC=8C</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp; =E8=AE=A9=E6=88=91=E4=BB=AC=E5=A4=A7=E5=AE=B6=
+=E4=B8=80=E8=B5=B7=E5=9C=A8=E5=9B=BD=E5=BA=86=E8=8A=82=E8=81=9A=E4=B8=80=E8=
+=81=9A=E6=89=AB=E8=8D=A1=E4=B8=80=E9=A1=BF=E4=B8=AD=E5=9B=BD=E5=A4=A7=E9=A4=
+=90=E5=90=A7=EF=BC=8C=E5=B0=BD=E7=AE=A1=E6=9C=89=E5=8F=AF=E8=83=BD=E7=9C=BC=
+=E9=A5=B1=E8=82=9A=E4=B8=8D=E9=A5=B1=EF=BC=8C=E4=B8=8D=E4=BF=A1=EF=BC=8C=E8=
+=AF=B7=E7=82=B9=E5=87=BB=E5=9B=BD=E5=BA=86=E8=8A=82=E5=BF=AB=E4=B9=90=EF=BC=
+=81</div>
+<div><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SHARMS<br></div><spa=
+n title=3D"neteasefooter"><span id=3D"yiv978946683netease_mail_footer">
+<div>
+<hr>
+</div>
+<div><a rel=3D"nofollow" target=3D"_blank" href=3D"http://yxp.163.com/photo=
+/ep.html?sss=3Dfromyx0911">=E5=85=A8=E5=9B=BD=E6=9C=80=E4=BD=8E=E4=BB=B7=EF=
+=BC=8C=E5=A4=A9=E5=A4=A9=E5=9C=A8=E5=AE=B6=E5=86=B2=E7=85=A7=E7=89=87=EF=BC=
+=8C24=E5=B0=8F=E6=97=B6=E5=8F=91=E8=B4=A7=E4=B8=8A=E9=97=A8=EF=BC=81</a> </=
+div></span></span><br><br><span title=3D"neteasefooter"><span id=3D"yiv9789=
+46683netease_mail_footer">
+<hr>
+<a rel=3D"nofollow" target=3D"_blank" href=3D"http://yxp.163.com/photo/ep.h=
+tml?sss=3Dfromyx0911">=E5=85=A8=E5=9B=BD=E6=9C=80=E4=BD=8E=E4=BB=B7=EF=BC=
+=8C=E5=A4=A9=E5=A4=A9=E5=9C=A8=E5=AE=B6=E5=86=B2=E7=85=A7=E7=89=87=EF=BC=8C=
+24=E5=B0=8F=E6=97=B6=E5=8F=91=E8=B4=A7=E4=B8=8A=E9=97=A8=EF=BC=81</a> </spa=
+n></span><br><br><span title=3D"neteasefooter"><span id=3D"yiv978946683nete=
+ase_mail_footer"><hr>
+<a rel=3D"nofollow" target=3D"_blank" href=3D"http://yxp.163.com/photo/ep.h=
+tml?sss=3Dfromyx0911">=E5=85=A8=E5=9B=BD=E6=9C=80=E4=BD=8E=E4=BB=B7=EF=BC=
+=8C=E5=A4=A9=E5=A4=A9=E5=9C=A8=E5=AE=B6=E5=86=B2=E7=85=A7=E7=89=87=EF=BC=8C=
+24=E5=B0=8F=E6=97=B6=E5=8F=91=E8=B4=A7=E4=B8=8A=E9=97=A8=EF=BC=81</a>
+</span></span></div></blockquote></td></tr></table><br>
+
+
+
+
+=20=20=20=20=20=20=
+
+--0-2103309761-1286225210=:34369--

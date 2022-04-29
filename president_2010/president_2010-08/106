@@ -1,0 +1,592 @@
+Return-Path: <jean-louis.ferrier@univ-angers.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 438B42281D
+	for <president@listes.univ-angers.fr>; Fri, 27 Aug 2010 11:17:54 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 2E71F114265; Fri, 27 Aug 2010 11:17:54 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp2.univ-nantes.fr [193.52.82.19])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 1F8531141F4
+	for <president@univ-angers.fr>; Fri, 27 Aug 2010 11:17:54 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 330B11C15B00
+	for <president@univ-angers.fr>; Fri, 27 Aug 2010 11:10:59 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp2.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id PWx+ICxeXGRe for <president@univ-angers.fr>;
+	Fri, 27 Aug 2010 11:10:59 +0200 (CEST)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 683E61C017F4
+	for <president@univ-angers.fr>; Fri, 27 Aug 2010 11:10:58 +0200 (CEST)
+Received: from mx3.univ-nantes.fr (MX3.univ-nantes.fr [193.52.101.137])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id 72CD82CF
+	for <daniel.martina@lunam.fr>; Fri, 27 Aug 2010 11:10:58 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mx3.univ-nantes.fr (Postfix) with ESMTP id 69E31DE2ADD;
+	Fri, 27 Aug 2010 11:10:58 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from mx3.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id LlfHCBvAjHBP; Fri, 27 Aug 2010 11:10:58 +0200 (CEST)
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by mx3.univ-nantes.fr (Postfix) with ESMTP id E3801DF7886;
+	Fri, 27 Aug 2010 11:10:47 +0200 (CEST)
+Received: from [172.19.16.153] (unknown [172.19.16.153])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 742A811435C;
+	Fri, 27 Aug 2010 10:59:50 +0200 (CEST)
+Message-ID: <4C777DF5.9020507@univ-angers.fr>
+Date: Fri, 27 Aug 2010 10:57:25 +0200
+From: Jean Louis Ferrier <jean-louis.ferrier@univ-angers.fr>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; fr; rv:1.9.2.8) Gecko/20100802 Thunderbird/3.1.2
+MIME-Version: 1.0
+To: =?ISO-8859-1?Q?Le_pr=E9sident_de_l=27universit=E9?=
+ <daniel.martina@univ-angers.fr>, daniel.martina@lunam.fr
+CC: Francis YGUEL <francis.yguel@univ-angers.fr>, francis.yguel@lunam.fr, 
+ Evelyne Diers <evelyne.diers@univ-angers.fr>,
+ Evelyne Puglia <evelyne.puglia@univ-angers.fr>, 
+ Jean-Pierre Benoit <jean-pierre.benoit@univ-angers.fr>
+Content-Type: multipart/alternative;
+ boundary="------------060901090404000503090102"
+Subject: [president] EQUIPEX
+
+This is a multi-part message in MIME format.
+--------------060901090404000503090102
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+  Bonjour Daniel et Francis
+
+A la page 5 de l'Appel à projets Equipements d'excellence, paragraphe 2. 
+Champ de l'appel d'offre, il est mentionné que dans le domaine des 
+sciences de la vie et de la santé, les demandes d'équipement pour des 
+*unités de production de lots cliniques de biomédicaments *sont éligibles.
+Jean-Pierre BENOIT travaille depuis quelque temps déjà sur un projet 
+(Vectoris) qui semble rentrer dans ce cadre-là.
+
+/Ce projet de plate-forme technologique (Vectoris) répond à un besoin de 
+transfert vers la clinique de vecteurs colloïdaux développés en laboratoire.
+La vectorisation de médicaments vers les cellules, tumorales par 
+exemple, est de plus en plus envisagée comme une alternative à la 
+chimiothérapie systémique et à la radiothérapie externe. Cette stratégie 
+permet d'augmenter les doses délivrées à la tumeur tout en préservant 
+les organes environnants de la toxicité intrinsèque des anticancéreux, 
+voire d'autres principes actifs dans des domaines ne relevant pas de la 
+Cancérologie.
+
+/Après entretien téléphonique avec Jean-Pierre BENOIT, celui-ci s'est 
+déclaré potentiellement candidat au dépôt d'un projet EQUIPEX portant 
+sur la plate-forme sus-mentionnée.
+
+Bien cordialement.
+JLF
+
+/
+
+/
+-- 
+
+Prof. Jean-Louis FERRIER
+    Vice-Président du Conseil Scientifique
+    Direction de la Recherche, de la Formation doctorale et de la 
+Valorisation
+recherche@univ-angers.fr <mailto:recherche@univ-angers.fr>
+
+
+	Université d'Angers
+40 rue de Rennes - B.P. 73532
+F - 49035 Angers Cedex 01
+Tel +33 (0)2 41 96 23 48 - Fax +33 (0)2 41 96 23 67
+
+    ---------------------------------
+
+	Professor of Control and Computer Engineering
+  ISTIA - LISA
+<http://www.istia.univ-angers.fr/LISA/>
+<http://www.istia.univ-angers.fr/LISA/> 	
+
+
+--------------060901090404000503090102
+Content-Type: multipart/related;
+ boundary="------------030000080802030203060801"
+
+
+--------------030000080802030203060801
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+  </head>
+  <body bgcolor="#ffffff" text="#3333ff">
+    <font size="-1"><font face="Arial">Bonjour Daniel et Francis<br>
+        <br>
+        A la page 5 de l'Appel &agrave; projets Equipements d'excellence,
+        paragraphe 2. Champ de l'appel d'offre, il est mentionn&eacute; que
+        dans le domaine des sciences de la vie et de la sant&eacute;, les
+        demandes d'&eacute;quipement pour des <b>unit&eacute;s de production de lots
+          cliniques de biom&eacute;dicaments </b>sont &eacute;ligibles.<br>
+        Jean-Pierre BENOIT travaille depuis quelque temps d&eacute;j&agrave; sur un
+        projet (Vectoris) qui semble rentrer dans ce cadre-l&agrave;.<br>
+        <br>
+        <i>Ce projet de plate-forme technologique (Vectoris) r&eacute;pond &agrave; un
+          besoin de transfert vers la clinique de vecteurs collo&iuml;daux
+          d&eacute;velopp&eacute;s en laboratoire.<br>
+          La vectorisation de m&eacute;dicaments vers les cellules, tumorales
+          par exemple, est de plus en plus envisag&eacute;e comme une
+          alternative &agrave; la chimioth&eacute;rapie syst&eacute;mique et &agrave; la
+          radioth&eacute;rapie externe. Cette strat&eacute;gie permet d'augmenter les
+          doses d&eacute;livr&eacute;es &agrave; la tumeur tout en pr&eacute;servant les organes
+          environnants de la toxicit&eacute; intrins&egrave;que des anticanc&eacute;reux,
+          voire d'autres principes actifs dans des domaines ne relevant
+          pas de la Canc&eacute;rologie.<br>
+          <br>
+        </i>Apr&egrave;s entretien t&eacute;l&eacute;phonique avec Jean-Pierre BENOIT,
+        celui-ci s'est d&eacute;clar&eacute; potentiellement candidat au d&eacute;p&ocirc;t d'un
+        projet EQUIPEX portant sur la plate-forme sus-mentionn&eacute;e.<br>
+        <br>
+        Bien cordialement.<br>
+        JLF<br>
+        <br>
+        <i><br>
+          <br>
+        </i></font></font>
+    <div class="moz-signature">-- <br>
+      <meta http-equiv="Content-Language" content="fr">
+      <meta http-equiv="Content-Type" content="text/html;
+        charset=ISO-8859-1">
+      <title>Signature</title>
+      <p> <font color="#ff00ff" face="Arial" size="2"><font
+            color="#666666" size="2">&nbsp;&nbsp;&nbsp;<font color="#999999"><font
+                color="#ff00ff" face="Arial" size="2"><font
+                  color="#666666" size="2"><font color="#999999">Prof.
+                    Jean-Louis FERRIER</font></font></font><font
+                color="#666666"> </font><br>
+              &nbsp;&nbsp;&nbsp;Vice-Pr&eacute;sident du Conseil Scientifique<br>
+              &nbsp;&nbsp;&nbsp;Direction de la Recherche, de la Formation doctorale et
+              de la Valorisation<br>
+              &nbsp;&nbsp;&nbsp;<a href="mailto:recherche@univ-angers.fr">recherche@univ-angers.fr</a><br>
+              <br>
+              <table width="420" border="0" height="57">
+                <tbody>
+                  <tr>
+                    <td height="55">&nbsp;&nbsp;<img
+                        src="cid:part1.04000004.01030002@univ-angers.fr"
+                        width="78" height="73"><br>
+                    </td>
+                    <td><font color="#ff00ff" face="Arial" size="2"><font
+                          color="#666666" size="2"><font color="#999999">Universit&eacute;
+                            d'Angers<br>
+                            40 rue de Rennes - B.P. 73532<br>
+                            F - 49035 Angers Cedex 01<br>
+                            Tel +33 (0)2 41 96 23 48 - Fax +33 (0)2 41
+                            96 23 67<br>
+                          </font></font></font></td>
+                  </tr>
+                </tbody>
+              </table>
+              &nbsp;&nbsp;&nbsp;---------------------------------<br>
+              <table width="420" border="0" height="65">
+                <tbody>
+                  <tr>
+                    <td height="55">&nbsp;&nbsp;<img
+                        src="cid:part2.00060307.05040103@univ-angers.fr"
+                        width="47" height="46"><br>
+                    </td>
+                    <td>&nbsp;<font color="#ff00ff" face="Arial" size="2"><font
+                          color="#666666" size="2"><font color="#999999">Professor
+                            of Control and Computer Engineering<br>
+                            &nbsp;ISTIA - <a
+                              href="http://www.istia.univ-angers.fr/LISA/">LISA<br>
+                            </a></font><a
+                            href="http://www.istia.univ-angers.fr/LISA/"><br>
+                          </a></font></font></td>
+                    <td><img
+                        src="cid:part3.07020806.05040707@univ-angers.fr"
+                        width="69" height="39"><br>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </font>
+          </font></font></p>
+    </div>
+  </body>
+</html>
+
+--------------030000080802030203060801
+Content-Type: image/png;
+ name="logo UA.png"
+Content-Transfer-Encoding: base64
+Content-ID: <part1.04000004.01030002@univ-angers.fr>
+Content-Disposition: inline;
+ filename="logo UA.png"
+
+iVBORw0KGgoAAAANSUhEUgAAAE4AAABJCAIAAAAczYfyAAAACXBIWXMAAA7E
+AAAOxAGVKw4bAAAAB3RJTUUH2QMeBxEqg65BeAAAAAd0RVh0QXV0aG9yAKmu
+zEgAAAAMdEVYdERlc2NyaXB0aW9uABMJISMAAAAKdEVYdENvcHlyaWdodACs
+D8w6AAAADnRFWHRDcmVhdGlvbiB0aW1lADX3DwkAAAAJdEVYdFNvZnR3YXJl
+AF1w/zoAAAALdEVYdERpc2NsYWltZXIAt8C0jwAAAAh0RVh0V2FybmluZwDA
+G+aHAAAAB3RFWHRTb3VyY2UA9f+D6wAAAAh0RVh0Q29tbWVudAD2zJa/AAAA
+BnRFWHRUaXRsZQCo7tInAAAcC0lEQVR4nO17eZxdVZXut9beZ7hDzUllnsgA
+CSFICBJURGQQEEVRAQd8YqO27Xu2TWvb3bZTt/6caKfXLSK2PkdUQETmeY4M
+wRAEQhgSkgqpSmpI1a26955z9t5rvT+qEkiBkT8Cvvd863er7v2dfc7e6ztr
+7bXX+vY5pKr4yxD+cyvw8sn/h/r/ovwFQbV/pnEVCF6sYSVQ857LR7/xHpOk
+Y4bTNLR/cZ3tnAcJBgYKKAJDCKwwAmVHZIIQKZGqWmViESEiItrHkH8uqHtJ
+8EGY1OflkMTGcBEzoErCIiwWShCFMBkwFYgSBUPUAAAUCiUiVf2/ACoTCSuT
+T50JqFIkBJBhACzsNDQ9OeHEUMlywgCBDBNyr2ooBfRPmhT/h0CFh6qnWIpG
+5lqmFablqW3DN2568s6+7Zuz+ubhSJqjKHKk5ThNDqgUS6Z3nzp/wdvnL+ko
+j19PKoI/hZZethRifCAlCIQBUlGJiJSYGnddMnbB2cISSzwYxcevPH9rg8EE
+JjBDBJZBgAAeQAWmgVCH4uzDln7+lSsXtFU8xCiTAgSZwCu8d9B9+SIwgRQI
+GkgDqQKR801iD2AXxQahUrTkrJ0+zzNBuQU2YRtBAWtJmYSJGBEhaoAAW4Wt
+/OSBp1b86LKv3nqvBXstoCGohvHh/GQFXj6oBTwRjBA7JuFAIUlKgugbDz71
+mVt+ZxkwBENgwxNmmXA3Gv+j8d9E2D0xCdRSHiviT97zyBmX3WDYwnjDhYEX
+EXKTnfnlg6oQCZ7VwFgYtmj+ZmPvjPN/ed61t21zzqgKCMwKxZ8KMONCRJrV
+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
+tPyQEKnhAAAAAElFTkSuQmCC
+
+--------------030000080802030203060801
+Content-Type: image/png;
+ name="ISTIA.png"
+Content-Transfer-Encoding: base64
+Content-ID: <part2.00060307.05040103@univ-angers.fr>
+Content-Disposition: inline;
+ filename="ISTIA.png"
+
+iVBORw0KGgoAAAANSUhEUgAAAC8AAAAuCAIAAAA3GddeAAAACXBIWXMAAA7E
+AAAOxAGVKw4bAAAAB3RJTUUH2QMeEQQ0Vr9FzQAAAAd0RVh0QXV0aG9yAKmu
+zEgAAAAMdEVYdERlc2NyaXB0aW9uABMJISMAAAAKdEVYdENvcHlyaWdodACs
+D8w6AAAADnRFWHRDcmVhdGlvbiB0aW1lADX3DwkAAAAJdEVYdFNvZnR3YXJl
+AF1w/zoAAAALdEVYdERpc2NsYWltZXIAt8C0jwAAAAh0RVh0V2FybmluZwDA
+G+aHAAAAB3RFWHRTb3VyY2UA9f+D6wAAAAh0RVh0Q29tbWVudAD2zJa/AAAA
+BnRFWHRUaXRsZQCo7tInAAAOUklEQVRYhc2ZaZBc1XXH/+fc+5ZeZmnNKo0Y
+rSAJgYRBFgIkEyCxMaG8xHbKdlWMy4ldzmKSciVFFn8xDmW74soXLzEuQhKX
+cRI78QI4huAIBBaLBwESWkBYjJbZNPv0THe/5d5z8qFntBlk51N861V1V3W/
+vr/3P+fee86/SVXxazP4/xvgvGGbLyJykS8RQAyAUqevTMszp93zE3J8QU8n
+OpdrJgAhMqiE1FOgdS28rYuv7TIb2thaAFDBr6I/M1MzUhehYQaA4ao8dMw9
+dNy/NO3nPNTAMlkDZhARCErqBU4gAgKWBbi6g9/Vb2/rtz0lAnDR5/0VaJgA
+QjXRbx/K7z+UH54VbxFFFFgiBghgwuKbc24TqMB5TXME0C0V87HL7AfXB4UQ
+qrhIll6MpinJs6f8PXuT3UNeAxRi5hBkaHF6QzAAg5hAAAEAtEmj8IBAnDZy
+NUq3ruC/via6qpuhkDcBelOaJsq/vJDd/VQy1NBSkU1ICEDBEoolGNASEAyd
+EQaiEKhTeMADXr1HraFri3T3teH7NwR4k6i9MQ0zvOBLTyZf3JumjEKBEBJZ
+QkBkz0GxBAtYIgMYgAgARNUBHsgVHuoUDhCFQy2RMvgz2+NPXW0BFQGImaAq
+zfAx84UrnBlQfOmJ5HNPJDlQCAlMRIDBublClhAAAVEExIRo6QqJIqIACJZk
+o8XEKoacivvs3vpXXpCmELXJE6+enPDKtKTseTREAOj+57IvPJ4QURQQGOAm
+wTkJy4ABLFEIBESWiIkIRCBLCAkBUdCUjRZlI8o52sXPfD796Hd37/nWyx4g
+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
+s695AAAAAElFTkSuQmCC
+
+--------------030000080802030203060801
+Content-Type: image/png;
+ name="LISA.png"
+Content-Transfer-Encoding: base64
+Content-ID: <part3.07020806.05040707@univ-angers.fr>
+Content-Disposition: inline;
+ filename="LISA.png"
+
+iVBORw0KGgoAAAANSUhEUgAAAEUAAAAnCAIAAADW0xIvAAAACXBIWXMAAA7E
+AAAOxAGVKw4bAAAAB3RJTUUH2QMeEQUkUhNk6AAAAAd0RVh0QXV0aG9yAKmu
+zEgAAAAMdEVYdERlc2NyaXB0aW9uABMJISMAAAAKdEVYdENvcHlyaWdodACs
+D8w6AAAADnRFWHRDcmVhdGlvbiB0aW1lADX3DwkAAAAJdEVYdFNvZnR3YXJl
+AF1w/zoAAAALdEVYdERpc2NsYWltZXIAt8C0jwAAAAh0RVh0V2FybmluZwDA
+G+aHAAAAB3RFWHRTb3VyY2UA9f+D6wAAAAh0RVh0Q29tbWVudAD2zJa/AAAA
+BnRFWHRUaXRsZQCo7tInAAANtklEQVRYhd2Z+W9dx3XHZ7137vL2x8dHioso
+0qQtWZaXCLVQp9lsNPUPNoKiQIEg+bn5K/yHFCgKFEVatCjaojFqtIUTp4oD
+WLG12SbFnSLf/u67+zpLf6AkS7KS0IIr1/3+eO/MnfOZOXPOzLlQSgn+Hwl9
+1QZ8ySJPcjAFwDCJN0fDIs+WG1OzlSqG8PhVXBR+ljJCSjq79/Ax9ER5oiK7
+ORr86+bG/rC/Uq58e/mpi3OLdcOAAO54kxvDfpnSuVJ5sVKrMuPxhnhyPH6e
+HXiTNE+qjF1O0/cO9i4PB99bGf3J4tJqvfmJM/5wNMyS+JRp/unZC189T8p5
+yguGCaP0kQ2u947e2dmesq08S2POU928GoTr165Gef7mCtjzvYQXO86YKlBm
+7LHN+MI8UimpFIIQ3eflXMpuGFzvdwXnz7Vnl+p1DB+ONBudw7+9/G65VM41
+ts8lpZQAmEq54flXBt1BHCVpGuZ51bKbhvmEeISUR2Fwc9BjCD/fnqmb1vHz
+LXfyfud2L/R3h4PLncM3nj57cXrW1LT7+youQtcZTMay3lJ2BSWhjRBh1iCO
+9jwPQjCJQj/PLMNCTyYeSAD6cXR92PuwezRJks2J882F02uNJkbow9t7f/PR
+B3O1+iBJrh91HCmbzDw31bq/u2aYZq2ZZpmiTBV56gyJkrg1K5UspABSDJN4
+kvN72VABAAD4omRfgGeUJr/odradkaZpe47znzeu7cfRT55/aa5UpgCMXedm
+57BgVqobW0FwEEfnHuzeqjUW5hbD0TAnOshTiFCU5Xae1XWdIjQK/WEQxApm
+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
+
+--------------030000080802030203060801--
+
+--------------060901090404000503090102--

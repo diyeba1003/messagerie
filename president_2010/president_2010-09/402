@@ -1,0 +1,668 @@
+Return-Path: <isabelle.nicolaus@lunam.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id A696B22851
+	for <president@listes.univ-angers.fr>; Fri, 24 Sep 2010 12:08:46 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 9CF561145B1; Fri, 24 Sep 2010 12:08:46 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp2.univ-nantes.fr [193.52.82.19])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 939871145AD
+	for <president@univ-angers.fr>; Fri, 24 Sep 2010 12:08:46 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 79E501C0CD89
+	for <president@univ-angers.fr>; Fri, 24 Sep 2010 12:08:46 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp2.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id z2SwRkBe-7UB for <president@univ-angers.fr>;
+	Fri, 24 Sep 2010 12:08:46 +0200 (CEST)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 5F4991C0BC8E
+	for <president@univ-angers.fr>; Fri, 24 Sep 2010 12:08:46 +0200 (CEST)
+Received: from mx1.univ-nantes.fr (MX1.univ-nantes.fr [193.52.101.135])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id 605A8682
+	for <daniel.martina@lunam.fr>; Fri, 24 Sep 2010 12:08:46 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mx1.univ-nantes.fr (Postfix) with ESMTP id 576D412E995F;
+	Fri, 24 Sep 2010 12:08:46 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from mx1.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id a5lw4aDpHpR4; Fri, 24 Sep 2010 12:08:46 +0200 (CEST)
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+Received: from smtp-tls.univ-nantes.fr (smtp-tls1.univ-nantes.fr [193.52.101.145])
+	by mx1.univ-nantes.fr (Postfix) with ESMTP id 307501308EF2;
+	Fri, 24 Sep 2010 12:08:38 +0200 (CEST)
+Received: from localhost (debian [127.0.0.1])
+	by smtp-tls.univ-nantes.fr (Postfix) with ESMTP id 2389B95432;
+	Fri, 24 Sep 2010 12:08:38 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from smtp-tls.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp-tls1.univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id IUdS-MSpKERT; Fri, 24 Sep 2010 12:08:38 +0200 (CEST)
+Received: from PCPRES03 (unknown [172.20.38.110])
+	(using TLSv1 with cipher RC4-MD5 (128/128 bits))
+	(No client certificate requested)
+	by smtp-tls.univ-nantes.fr (Postfix) with ESMTPSA id F18BA95423;
+	Fri, 24 Sep 2010 12:08:37 +0200 (CEST)
+From: "Isabelle NICOLAUS" <isabelle.nicolaus@lunam.fr>
+To: <francis.yguel@lunam.fr>,
+	<daniel.martina@lunam.fr>
+Cc: <evelyne.puglia@univ-angers.fr>,
+	<hannah.robin@lunam.fr>
+Date: Fri, 24 Sep 2010 12:08:42 +0200
+Message-ID: <013201cb5bd0$77363ec0$65a2bc40$@nicolaus@lunam.fr>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0133_01CB5BE1.3ABF0EC0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: ActbyJ+iGKbv4fxRToG4FxKW+uPAvgAAR0LgAAGRUAA=
+Content-Language: fr
+Subject: [president] =?UTF-8?Q?Accord_pour_mise_en_ligne_des_vid=C3=A9os_?=
+ =?UTF-8?Q?des_discours_du_10_septembre?=
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0133_01CB5BE1.3ABF0EC0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_0134_01CB5BE1.3ABF0EC0"
+
+
+------=_NextPart_001_0134_01CB5BE1.3ABF0EC0
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Monsieur Martina, Monsieur Yguel,=20
+
+Pouvons-nous avoir votre accord sur la mise en ligne des vid=C3=A9os suivan=
+t le format propos=C3=A9 ci-dessous ?=20
+
+Merci par avance,
+Isabelle
+
+=20
+
+De : max bossquito via YouSendIt [mailto:delivery@yousendit.com]=20
+Envoy=C3=A9 : vendredi 24 septembre 2010 11:12
+=C3=80 : hannah.robin@lunam.fr
+Objet : Priority Delivery: Martina_1.mov
+
+=20
+
+
+Image supprim=C3=A9e par l'exp=C3=A9diteur.
+
+ <http://www.yousendit.com> Image supprim=C3=A9e par l'exp=C3=A9diteur.
+
+ <http://www.yousendit.com> youSENDit
+
+Priority Delivery
+
+Image supprim=C3=A9e par l'exp=C3=A9diteur.
+
+=20
+
+
+=20
+
+
+Image supprim=C3=A9e par l'exp=C3=A9diteur.
+
+ <http://rcpt.yousendit.com/954248299/a278816e75ba40f3019eaddc60c91b32> Dow=
+nload File=20
+
+
+...........................................................................=
+...........................................................................=
+.................................................................
+
+
+
+Sent by:
+
+max@dippsite.fr
+
+
+File to pick up:
+
+Martina_1.mov
+
+
+File will remain active for:
+
+14 days
+
+
+=20
+
+
+Link to file:
+
+=20
+
+
+http://rcpt.yousendit.com/954248299/a278816e75ba40f3019eaddc60c91b32=20
+
+=09
+=09
+
+File too big for email? Try YouSendIt at http://www.yousendit.com
+
+
+=20
+
+=20
+
+
+Image supprim=C3=A9e par l'exp=C3=A9diteur.
+
+ <http://www.yousendit.com> YouSendIt Inc. |  <http://www.yousendit.com/cms=
+/termsofservice> Terms of Service |  <http://www.yousendit.com/cms/privacyp=
+olicy> Privacy Policy |  <http://www.yousendit.com/cms/dmca> DMCA Policy | =
+ <http://www.yousendit.com/blocking.php?action=3Doptout&email=3Dhannah.robi=
+n@lunam.fr&key=3Dd7f3469ccd7234e6b5722c2a1db037dc6d861888> Opt Out
+1919 S. Bascom Avenue, 3rd Floor Campbell, CA 95008
+
+ <http://www.yousendit.com> Image supprim=C3=A9e par l'exp=C3=A9diteur.
+
+=20
+
+
+------=_NextPart_001_0134_01CB5BE1.3ABF0EC0
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:q=3D"http://schemas.xmlsoap.org/soap/envelope/" xmlns:rtc=3D"http://m=
+icrosoft.com/officenet/conferencing" xmlns:Repl=3D"http://schemas.microsoft=
+.com/repl/" xmlns:mt=3D"http://schemas.microsoft.com/sharepoint/soap/meetin=
+gs/" xmlns:x2=3D"http://schemas.microsoft.com/office/excel/2003/xml" xmlns:=
+ppda=3D"http://www.passport.com/NameSpace.xsd" xmlns:ois=3D"http://schemas.=
+microsoft.com/sharepoint/soap/ois/" xmlns:dir=3D"http://schemas.microsoft.c=
+om/sharepoint/soap/directory/" xmlns:ds=3D"http://www.w3.org/2000/09/xmldsi=
+g#" xmlns:dsp=3D"http://schemas.microsoft.com/sharepoint/dsp" xmlns:udc=3D"=
+http://schemas.microsoft.com/data/udc" xmlns:xsd=3D"http://www.w3.org/2001/=
+XMLSchema" xmlns:sub=3D"http://schemas.microsoft.com/sharepoint/soap/2002/1=
+/alerts/" xmlns:ec=3D"http://www.w3.org/2001/04/xmlenc#" xmlns:sp=3D"http:/=
+/schemas.microsoft.com/sharepoint/" xmlns:sps=3D"http://schemas.microsoft.c=
+om/sharepoint/soap/" xmlns:xsi=3D"http://www.w3.org/2001/XMLSchema-instance=
+" xmlns:udcs=3D"http://schemas.microsoft.com/data/udc/soap" xmlns:udcxf=3D"=
+http://schemas.microsoft.com/data/udc/xmlfile" xmlns:udcp2p=3D"http://schem=
+as.microsoft.com/data/udc/parttopart" xmlns:wf=3D"http://schemas.microsoft.=
+com/sharepoint/soap/workflow/" xmlns:dsss=3D"http://schemas.microsoft.com/o=
+ffice/2006/digsig-setup" xmlns:dssi=3D"http://schemas.microsoft.com/office/=
+2006/digsig" xmlns:mdssi=3D"http://schemas.openxmlformats.org/package/2006/=
+digital-signature" xmlns:mver=3D"http://schemas.openxmlformats.org/markup-c=
+ompatibility/2006" xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/o=
+mml" xmlns:mrels=3D"http://schemas.openxmlformats.org/package/2006/relation=
+ships" xmlns:spwp=3D"http://microsoft.com/sharepoint/webpartpages" xmlns:ex=
+12t=3D"http://schemas.microsoft.com/exchange/services/2006/types" xmlns:ex1=
+2m=3D"http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:p=
+ptsl=3D"http://schemas.microsoft.com/sharepoint/soap/SlideLibrary/" xmlns:s=
+psl=3D"http://microsoft.com/webservices/SharePointPortalServer/PublishedLin=
+ksService" xmlns:Z=3D"urn:schemas-microsoft-com:" xmlns:st=3D"&#1;" xmlns=
+=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>transactional</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-believe-normal-left:yes;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"Texte de bulles Car";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.TextedebullesCar
+	{mso-style-name:"Texte de bulles Car";
+	mso-style-priority:99;
+	mso-style-link:"Texte de bulles";
+	font-family:"Tahoma","sans-serif";}
+p.ysilogo, li.ysilogo, div.ysilogo
+	{mso-style-name:ysilogo;
+	margin-top:7.5pt;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:22.5pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.footerlink, li.footerlink, div.footerlink
+	{mso-style-name:footerlink;
+	margin-top:15.0pt;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:37.5pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.EmailStyle21
+	{mso-style-type:personal;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+span.EmailStyle22
+	{mso-style-type:personal-reply;
+	font-family:"Arial","sans-serif";
+	color:windowtext;
+	font-weight:normal;
+	font-style:normal;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<![if mso 9]>
+<style>
+p.MsoNormal
+	{margin-left:1.5pt;}
+</style>
+<![endif]><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=3Dwhite lang=3DFR link=3Dblue vlink=3Dpurple style=3D'margin-=
+left:1.5pt;
+margin-top:1.5pt;margin-right:1.5pt;margin-bottom:1.5pt'>
+
+<div class=3DWordSection1>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif"'>Monsieur
+Martina, Monsieur Yguel, <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif"'>Pouvons-nous
+avoir votre accord sur la mise en ligne des vid=C3=A9os suivant le format p=
+ropos=C3=A9
+ci-dessous&nbsp;? <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif"'>Merci
+par avance,<br>
+Isabelle<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<div>
+
+<div style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'>
+
+<p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><b><span
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>De&nbsp;:</spa=
+n></b><span
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> max bossquito=
+ via
+YouSendIt [mailto:delivery@yousendit.com] <br>
+<b>Envoy=C3=A9&nbsp;:</b> vendredi 24 septembre 2010 11:12<br>
+<b>=C3=80&nbsp;:</b> hannah.robin@lunam.fr<br>
+<b>Objet&nbsp;:</b> Priority Delivery: Martina_1.mov<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<table class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 wi=
+dth=3D650
+ style=3D'width:487.5pt'>
+ <tr style=3D'height:51.0pt'>
+  <td width=3D23 valign=3Dtop style=3D'width:17.25pt;background:#4D5EBB;pad=
+ding:0cm 0cm 0cm 0cm;
+  height:51.0pt'>
+  <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+  style=3D'font-size:8.5pt;font-family:"Arial","sans-serif";border:solid wi=
+ndowtext 1.0pt;
+  padding:0cm'><img width=3D100 height=3D100 id=3D"_x0000_i1025" src=3D"cid=
+:~WRD394.jpg"
+  alt=3D"Image supprim=C3=A9e par l'exp=C3=A9diteur."></span><span style=3D=
+'font-size:8.5pt;
+  font-family:"Arial","sans-serif"'><o:p></o:p></span></p>
+  </td>
+  <td style=3D'background:#4D5EBB;padding:0cm 0cm 0cm 0cm;height:51.0pt'>
+  <div style=3D'margin-left:22.5pt;margin-top:7.5pt'>
+  <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+  style=3D'font-size:8.5pt;font-family:"Arial","sans-serif"'><a
+  href=3D"http://www.yousendit.com"><span style=3D'border:solid windowtext =
+1.0pt;
+  padding:0cm;text-decoration:none'><img border=3D0 width=3D100 height=3D100
+  id=3D"_x0000_i1026" src=3D"cid:~WRD394.jpg"
+  alt=3D"Image supprim=C3=A9e par l'exp=C3=A9diteur."></span></a><o:p></o:p=
+></span></p>
+  </div>
+  <div>
+  <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+  style=3D'font-size:13.5pt;font-family:"Arial","sans-serif";color:white'><a
+  href=3D"http://www.yousendit.com"><span style=3D'color:white;text-decorat=
+ion:
+  none'>you</span><b><span style=3D'font-size:10.5pt;color:white;text-decor=
+ation:
+  none'>SEND</span></b><span style=3D'color:white;text-decoration:none'>it<=
+/span></a><o:p></o:p></span></p>
+  </div>
+  </td>
+  <td style=3D'background:#4D5EBB;padding:0cm 0cm 0cm 0cm;height:51.0pt'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:18.75pt;margin-right:0cm;
+  margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt'><b><span
+  style=3D'font-size:16.5pt;font-family:"Arial","sans-serif";color:white'>P=
+riority
+  Delivery<o:p></o:p></span></b></p>
+  </td>
+  <td width=3D23 valign=3Dtop style=3D'width:17.25pt;background:#4D5EBB;pad=
+ding:0cm 0cm 0cm 0cm;
+  height:51.0pt'>
+  <p class=3DMsoNormal align=3Dright style=3D'margin:0cm;margin-bottom:.000=
+1pt;
+  text-align:right'><span style=3D'font-size:8.5pt;font-family:"Arial","san=
+s-serif";
+  border:solid windowtext 1.0pt;padding:0cm'><img border=3D0 width=3D100
+  height=3D100 id=3D"_x0000_i1027" src=3D"cid:~WRD394.jpg"
+  alt=3D"Image supprim=C3=A9e par l'exp=C3=A9diteur."></span><span style=3D=
+'font-size:8.5pt;
+  font-family:"Arial","sans-serif"'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+style=3D'font-size:8.5pt;font-family:"Arial","sans-serif";display:none'><o:=
+p>&nbsp;</o:p></span></p>
+
+<table class=3DMsoNormalTable border=3D1 cellspacing=3D0 cellpadding=3D0 wi=
+dth=3D649
+ style=3D'width:486.75pt;border:solid #C1C1C1 1.0pt'>
+ <tr>
+  <td valign=3Dtop style=3D'border:none;padding:0cm 11.25pt 0cm 11.25pt'>
+  <div style=3D'margin-top:30.0pt;margin-bottom:6.75pt'>
+  <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+  style=3D'font-size:9.0pt;font-family:"Arial","sans-serif"'>&nbsp;<o:p></o=
+:p></span></p>
+  </div>
+  <table class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 =
+width=3D245
+   style=3D'width:183.75pt'>
+   <tr>
+    <td width=3D51 style=3D'width:38.25pt;padding:4.5pt 0cm 0cm 8.25pt'>
+    <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+    style=3D'font-size:8.5pt;font-family:"Arial","sans-serif";border:solid =
+windowtext 1.0pt;
+    padding:0cm'><img border=3D0 width=3D100 height=3D100 id=3D"_x0000_i102=
+8"
+    src=3D"cid:~WRD394.jpg" alt=3D"Image supprim=C3=A9e par l'exp=C3=A9dite=
+ur."></span><span
+    style=3D'font-size:8.5pt;font-family:"Arial","sans-serif"'><o:p></o:p><=
+/span></p>
+    </td>
+    <td width=3D192 style=3D'width:144.0pt;padding:4.5pt 0cm 0cm 0cm'>
+    <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><b><span
+    style=3D'font-size:16.5pt;font-family:"Arial","sans-serif";color:#4F60B=
+C'><a
+    href=3D"http://rcpt.yousendit.com/954248299/a278816e75ba40f3019eaddc60c=
+91b32"><span
+    style=3D'color:#4F60BC;text-decoration:none'>Download File</span></a> <=
+o:p></o:p></span></b></p>
+    </td>
+   </tr>
+  </table>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border:none;padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+  style=3D'font-size:8.5pt;font-family:"Arial","sans-serif";color:#AAB2DF'>=
+...........................................................................=
+...........................................................................=
+.................................................................<o:p></o:p=
+></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border:none;padding:7.5pt 0cm 0cm 11.25pt'>
+  <table class=3DMsoNormalTable border=3D0 cellpadding=3D0 width=3D620
+   style=3D'width:465.0pt'>
+   <tr>
+    <td width=3D200 valign=3Dtop style=3D'width:150.0pt;padding:0cm 0cm 0cm=
+ 0cm'>
+    <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+    style=3D'font-size:9.0pt;font-family:"Arial","sans-serif";color:#FFB24C=
+'>Sent
+    by:<o:p></o:p></span></p>
+    </td>
+    <td style=3D'padding:0cm 0cm 0cm 0cm'>
+    <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+    style=3D'font-size:9.0pt;font-family:"Arial","sans-serif"'>max@dippsite=
+.fr<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr>
+    <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+    <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+    style=3D'font-size:9.0pt;font-family:"Arial","sans-serif";color:#FFB24C=
+'>File
+    to pick up:<o:p></o:p></span></p>
+    </td>
+    <td style=3D'padding:0cm 0cm 0cm 0cm'>
+    <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+    style=3D'font-size:9.0pt;font-family:"Arial","sans-serif"'>Martina_1.mo=
+v<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr>
+    <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+    <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+    style=3D'font-size:9.0pt;font-family:"Arial","sans-serif";color:#FFB24C=
+'>File
+    will remain active for:<o:p></o:p></span></p>
+    </td>
+    <td style=3D'padding:0cm 0cm 0cm 0cm'>
+    <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+    style=3D'font-size:9.0pt;font-family:"Arial","sans-serif"'>14 days<o:p>=
+</o:p></span></p>
+    </td>
+   </tr>
+   <tr>
+    <td colspan=3D2 style=3D'padding:0cm 0cm 0cm 0cm'>
+    <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+    style=3D'font-size:9.0pt;font-family:"Arial","sans-serif"'>&nbsp;<o:p><=
+/o:p></span></p>
+    </td>
+   </tr>
+   <tr>
+    <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+    <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+    style=3D'font-size:9.0pt;font-family:"Arial","sans-serif";color:black'>=
+Link
+    to file:<o:p></o:p></span></p>
+    </td>
+    <td style=3D'padding:0cm 0cm 0cm 0cm'>
+    <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+    style=3D'font-size:9.0pt;font-family:"Arial","sans-serif"'>&nbsp;<o:p><=
+/o:p></span></p>
+    </td>
+   </tr>
+   <tr>
+    <td colspan=3D2 style=3D'padding:0cm 0cm 0cm 0cm'>
+    <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+    style=3D'font-size:9.0pt;font-family:"Arial","sans-serif"'><a
+    href=3D"http://rcpt.yousendit.com/954248299/a278816e75ba40f3019eaddc60c=
+91b32">http://rcpt.yousendit.com/954248299/a278816e75ba40f3019eaddc60c91b32=
+</a>
+    <o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr>
+    <td colspan=3D3 style=3D'padding:0cm 0cm 0cm 0cm'></td>
+   </tr>
+   <tr>
+    <td colspan=3D3 style=3D'padding:0cm 0cm 0cm 0cm'></td>
+   </tr>
+   <tr>
+    <td colspan=3D3 style=3D'padding:0cm 0cm 0cm 0cm'>
+    <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+    style=3D'font-size:9.0pt;font-family:"Arial","sans-serif";color:black'>=
+File
+    too big for email? Try YouSendIt at <a href=3D"http://www.yousendit.com=
+">http://www.yousendit.com</a><o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr>
+    <td colspan=3D3 style=3D'padding:0cm 0cm 0cm 0cm'>
+    <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+    style=3D'font-size:9.0pt;font-family:"Arial","sans-serif";color:black'>=
+&nbsp;<o:p></o:p></span></p>
+    </td>
+   </tr>
+  </table>
+  </td>
+ </tr>
+</table>
+
+<p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+style=3D'font-size:8.5pt;font-family:"Arial","sans-serif";display:none'><o:=
+p>&nbsp;</o:p></span></p>
+
+<table class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 wi=
+dth=3D650
+ style=3D'width:487.5pt'>
+ <tr style=3D'height:44.25pt'>
+  <td valign=3Dbottom style=3D'background:#C1C1C1;padding:0cm 0cm 0cm 0cm;
+  height:44.25pt'>
+  <p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><span
+  style=3D'font-size:8.5pt;font-family:"Arial","sans-serif";border:solid wi=
+ndowtext 1.0pt;
+  padding:0cm'><img border=3D0 width=3D100 height=3D100 id=3D"_x0000_i1029"
+  src=3D"cid:~WRD394.jpg" alt=3D"Image supprim=C3=A9e par l'exp=C3=A9diteur=
+."></span><span
+  style=3D'font-size:8.5pt;font-family:"Arial","sans-serif"'><o:p></o:p></s=
+pan></p>
+  </td>
+  <td style=3D'background:#C1C1C1;padding:0cm 0cm 0cm 0cm;height:44.25pt'>
+  <div style=3D'margin-left:37.5pt;margin-top:15.0pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'margin:0cm;margin-bottom:.00=
+01pt;
+  text-align:center'><span style=3D'font-size:8.5pt;font-family:"Arial","sa=
+ns-serif"'><a
+  href=3D"http://www.yousendit.com"><span style=3D'color:#4F60BC'>YouSendIt=
+ Inc.</span></a>
+  | <a href=3D"http://www.yousendit.com/cms/termsofservice"><span
+  style=3D'color:#4F60BC'>Terms of Service</span></a> | <a
+  href=3D"http://www.yousendit.com/cms/privacypolicy"><span style=3D'color:=
+#4F60BC'>Privacy
+  Policy</span></a> | <a href=3D"http://www.yousendit.com/cms/dmca"><span
+  style=3D'color:#4F60BC'>DMCA Policy</span></a> | <a
+  href=3D"http://www.yousendit.com/blocking.php?action=3Doptout&amp;email=
+=3Dhannah.robin@lunam.fr&amp;key=3Dd7f3469ccd7234e6b5722c2a1db037dc6d861888=
+"><span
+  style=3D'color:#4F60BC'>Opt Out</span></a><br>
+  1919 S. Bascom Avenue, 3rd Floor Campbell, CA 95008<o:p></o:p></span></p>
+  </div>
+  </td>
+  <td valign=3Dbottom style=3D'background:#C1C1C1;padding:0cm 0cm 0cm 0cm;
+  height:44.25pt'>
+  <p class=3DMsoNormal align=3Dright style=3D'margin:0cm;margin-bottom:.000=
+1pt;
+  text-align:right'><span style=3D'font-size:8.5pt;font-family:"Arial","san=
+s-serif"'><a
+  href=3D"http://www.yousendit.com"><span style=3D'border:solid windowtext =
+1.0pt;
+  padding:0cm;text-decoration:none'><img border=3D0 width=3D100 height=3D100
+  id=3D"_x0000_i1030" src=3D"cid:~WRD394.jpg"
+  alt=3D"Image supprim=C3=A9e par l'exp=C3=A9diteur."></span></a><o:p></o:p=
+></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=3DMsoNormal style=3D'margin:0cm;margin-bottom:.0001pt'><o:p>&nbsp;=
+</o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_001_0134_01CB5BE1.3ABF0EC0--
+
+------=_NextPart_000_0133_01CB5BE1.3ABF0EC0
+Content-Type: image/jpeg;
+	name="~WRD394.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <~WRD394.jpg>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsL
+DBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/
+2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCABkAGQDASIAAhEBAxEB/8QA
+HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUF
+BAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkK
+FhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1
+dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEB
+AQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAEC
+AxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRom
+JygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU
+1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigD//2Q==
+
+------=_NextPart_000_0133_01CB5BE1.3ABF0EC0--
+

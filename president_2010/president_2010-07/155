@@ -1,0 +1,584 @@
+Return-Path: <Martine.DUHAMEL@anses.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 64C0322869
+	for <president@listes.univ-angers.fr>; Thu, 15 Jul 2010 15:55:25 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 56B5711420F; Thu, 15 Jul 2010 15:55:25 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from mailhost.afssa.fr (mailhost.afssa.fr [81.255.204.131])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 28CF51141E6;
+	Thu, 15 Jul 2010 15:55:25 +0200 (CEST)
+From: Candidatures Experts <candidatures.experts@anses.fr>
+To: "Doyen.Medecine@univ-rouen.fr" <Doyen.Medecine@univ-rouen.fr>,
+        "a.boudou@presidence.u-bordeaux1.fr" <a.boudou@presidence.u-bordeaux1.fr>,
+        "president@univ-perp.fr" <president@univ-perp.fr>,
+        "secretariat.cabinet@univ-evry.fr" <secretariat.cabinet@univ-evry.fr>,
+        "berche@necker.fr" <berche@necker.fr>,
+        "patrick.berche@univ-paris5.fr"
+	<patrick.berche@univ-paris5.fr>,
+        "presidente@u-psud.fr"
+	<presidente@u-psud.fr>,
+        "pres-p13@upn.univ-paris13.fr"
+	<pres-p13@upn.univ-paris13.fr>,
+        "president@univ-paris12.fr"
+	<president@univ-paris12.fr>,
+        "jean-luc.dumas@avc.aphp.fr"
+	<jean-luc.dumas@avc.aphp.fr>,
+        "mf.clergue@smbh.univ-paris13.fr"
+	<mf.clergue@smbh.univ-paris13.fr>,
+        "jean-luc.dumas@avc.aphp.fr"
+	<jean-luc.dumas@avc.aphp.fr>,
+        "doyenmed@univ-paris12.fr"
+	<doyenmed@univ-paris12.fr>,
+        "jacqueline.kervazo@u-psud.fr"
+	<jacqueline.kervazo@u-psud.fr>,
+        "faculte.medecine@u-psud.fr"
+	<faculte.medecine@u-psud.fr>,
+        "benoit.schlemmer@sls.aphp.fr"
+	<benoit.schlemmer@sls.aphp.fr>,
+        "Isl@univ-paris-diderot.fr"
+	<Isl@univ-paris-diderot.fr>,
+        "sylvaine.brignone-sommiere@upmc.fr"
+	<sylvaine.brignone-sommiere@upmc.fr>,
+        "cabinet.doyen-ps@upmc.fr"
+	<cabinet.doyen-ps@upmc.fr>,
+        "presidence@upmc.fr" <presidence@upmc.fr>,
+        "doyen@med.univ-tours.fr" <doyen@med.univ-tours.fr>,
+        "resrangu@adm.ups-tlse.fr" <resrangu@adm.ups-tlse.fr>,
+        "doypurpa@adm.ups-tlse.fr" <doypurpa@adm.ups-tlse.fr>,
+        "bertrand.ludes@adm-ulp.u-strasbg.fr" <bertrand.ludes@adm-ulp.u-strasbg.fr>,
+        "Bertrand.Ludes@iml-ulp.u-strasbg.fr" <Bertrand.Ludes@iml-ulp.u-strasbg.fr>,
+        "mireille.onave@univ-st-etienne.fr" <mireille.onave@univ-st-etienne.fr>,
+        "christian.alexandre@univ-st-etienne.fr"
+	<christian.alexandre@univ-st-etienne.fr>,
+        "Doyen.Medecine@univ-rouen.fr"
+	<Doyen.Medecine@univ-rouen.fr>,
+        "doyenmed@univ-rennes1.fr"
+	<doyenmed@univ-rennes1.fr>,
+        "bertrand.fortin@univ-rennes1.fr"
+	<bertrand.fortin@univ-rennes1.fr>,
+        "ufr3.medicale@u-bordeaux2.fr"
+	<ufr3.medicale@u-bordeaux2.fr>,
+        "ufr1.medicale@u-bordeaux2.fr"
+	<ufr1.medicale@u-bordeaux2.fr>,
+        "ufr2.medicale@u-bordeaux2.fr"
+	<ufr2.medicale@u-bordeaux2.fr>,
+        "president@u-bordeaux2.fr"
+	<president@u-bordeaux2.fr>,
+        "doyen.laennec@univ-lyon1.fr"
+	<doyen.laennec@univ-lyon1.fr>,
+        "jetienne@univ-lyon1.fr"
+	<jetienne@univ-lyon1.fr>,
+        "xmartin@univ-lyon1.fr" <xmartin@univ-lyon1.fr>,
+        "francogi@lyon-sud.univ-lyon1.fr" <francogi@lyon-sud.univ-lyon1.fr>,
+        "presidence@univ-lyon1.fr" <presidence@univ-lyon1.fr>,
+        "President@univ-bpclermont.fr" <President@univ-bpclermont.fr>,
+        "philippe.dulbecco@u-clermont1.fr" <philippe.dulbecco@u-clermont1.fr>,
+        "claude.conde@univ-fcomte.fr" <claude.conde@univ-fcomte.fr>,
+        "president@univ-metz.fr" <president@univ-metz.fr>,
+        "Jean-louis.gout@univ-pau.fr" <Jean-louis.gout@univ-pau.fr>,
+        "presidence@univ-savoie.fr" <presidence@univ-savoie.fr>,
+        "alain.baglin@uvsq.fr" <alain.baglin@uvsq.fr>,
+        "alain.baglin@apr.aphp.fr"
+	<alain.baglin@apr.aphp.fr>,
+        "presidente@admin.uvsq.fr"
+	<presidente@admin.uvsq.fr>,
+        "president@u-bourgogne.fr"
+	<president@u-bourgogne.fr>,
+        "doyen.medecine@univ-brest.fr"
+	<doyen.medecine@univ-brest.fr>,
+        "president@univ-brest.fr"
+	<president@univ-brest.fr>,
+        "doyen@unicaen.fr" <doyen@unicaen.fr>,
+        "presidence@unicaen.fr" <presidence@unicaen.fr>,
+        "jean-michel.rogez@univ-nantes.fr" <jean-michel.rogez@univ-nantes.fr>,
+        "president@univ-nantes.fr" <president@univ-nantes.fr>,
+        "d.benchimol@unice.fr"
+	<d.benchimol@unice.fr>,
+        "president@unice.fr" <president@unice.fr>,
+        "doyen.medecine@univ-poitiers.fr" <doyen.medecine@univ-poitiers.fr>,
+        "president@univ-poitiers.fr" <president@univ-poitiers.fr>,
+        "doyen@medecine.univ-mrs.fr" <doyen@medecine.univ-mrs.fr>,
+        "presidence@up.univ-mrs.fr" <presidence@up.univ-mrs.fr>,
+        "presidence@univ-rouen.fr" <presidence@univ-rouen.fr>,
+        "president@univ-tln.fr" <president@univ-tln.fr>,
+        "presidence@univ-lille1.fr"
+	<presidence@univ-lille1.fr>,
+        "medecine@u-bourgogne.fr"
+	<medecine@u-bourgogne.fr>,
+        "president@univ-orleans.fr"
+	<president@univ-orleans.fr>,
+        "jpfrancke@univ-lille2.fr"
+	<jpfrancke@univ-lille2.fr>,
+        "president@univ-orleans.fr"
+	<president@univ-orleans.fr>,
+        "presidence@univ-lehavre.fr"
+	<presidence@univ-lehavre.fr>,
+        "president@univ-littoral.fr"
+	<president@univ-littoral.fr>,
+        "presidence@univ-lemans.fr"
+	<presidence@univ-lemans.fr>,
+        "president@univ-tours.fr"
+	<president@univ-tours.fr>,
+        "nathalie.flandrin@medecine.uhp-nancy.fr"
+	<nathalie.flandrin@medecine.uhp-nancy.fr>,
+        "doyen@medecine.uhp-nancy.fr"
+	<doyen@medecine.uhp-nancy.fr>,
+        "president@uhp-nancy.fr"
+	<president@uhp-nancy.fr>,
+        "Doyen.medecine@ujf-grenoble.fr"
+	<Doyen.medecine@ujf-grenoble.fr>,
+        "bernard.sele@ujf-grenoble.fr"
+	<bernard.sele@ujf-grenoble.fr>,
+        "presidence@ujf-grenoble.fr"
+	<presidence@ujf-grenoble.fr>,
+        "presidence@adm-ulp.u-strasbg.fr"
+	<presidence@adm-ulp.u-strasbg.fr>,
+        "president@univ-cezanne.fr"
+	<president@univ-cezanne.fr>,
+        "chefcab@adm.ups-tlse.fr"
+	<chefcab@adm.ups-tlse.fr>,
+        "bernard.nemitz@sa.u-picardie.fr"
+	<bernard.nemitz@sa.u-picardie.fr>,
+        "president@u-picardie.fr"
+	<president@u-picardie.fr>,
+        "president@univ-paris5.fr"
+	<president@univ-paris5.fr>,
+        "presidence@univ-corse.fr"
+	<presidence@univ-corse.fr>,
+        "anne-sophie.barthez@u-cergy.fr"
+	<anne-sophie.barthez@u-cergy.fr>,
+        "yvon.berland@univmed.fr"
+	<yvon.berland@univmed.fr>,
+        "president.larochelle@univ-lr.fr"
+	<president.larochelle@univ-lr.fr>,
+        "president@univ-st-etienne.fr"
+	<president@univ-st-etienne.fr>,
+        "boyer@univ-nc.nc" <boyer@univ-nc.nc>,
+        "presidence@uha.fr" <presidence@uha.fr>,
+        "president@univ-paris-diderot.fr"
+	<president@univ-paris-diderot.fr>,
+        "presidence@univ-montp2.fr"
+	<presidence@univ-montp2.fr>,
+        "doyen.medecine@univ-montpl.fr"
+	<doyen.medecine@univ-montpl.fr>,
+        "presidence@univ-montp1.fr"
+	<presidence@univ-montp1.fr>,
+        "doyen.medecine@u-clermont1.fr"
+	<doyen.medecine@u-clermont1.fr>,
+        "philippe.dulbecco@u-clermont1.fr"
+	<philippe.dulbecco@u-clermont1.fr>,
+        "emmanuel.ethis@univ-avignon.fr"
+	<emmanuel.ethis@univ-avignon.fr>,
+        "doyen.medecine@unilim.fr"
+	<doyen.medecine@unilim.fr>,
+        "presidence@unilim.fr" <presidence@unilim.fr>,
+        "francis.godard@univ-mlv.fr" <francis.godard@univ-mlv.fr>,
+        "marc.gontard@uhb.fr" <marc.gontard@uhb.fr>,
+        "presidence@unimes.fr"
+	<presidence@unimes.fr>,
+        "president@univ-ubs.fr" <president@univ-ubs.fr>,
+        "direction-ufr-smp@univ-fcomte.fr" <direction-ufr-smp@univ-fcomte.fr>,
+        "president@univ-angers.fr" <president@univ-angers.fr>,
+        "jean-paul.saint-andre@univ-angers.fr"
+	<jean-paul.saint-andre@univ-angers.fr>,
+        "pdtumb@umb.u-strasbg.fr"
+	<pdtumb@umb.u-strasbg.fr>,
+        "president@univ-artois.fr"
+	<president@univ-artois.fr>,
+        "presidence@univ-rouen.fr"
+	<presidence@univ-rouen.fr>,
+        "doyen-medecine@univ-reims.fr"
+	<doyen-medecine@univ-reims.fr>,
+        "presidence@univ-reims.fr"
+	<presidence@univ-reims.fr>,
+        "rect@rect.ucl.ac.be" <rect@rect.ucl.ac.be>,
+        "Rectorat@uclouvain.be" <Rectorat@uclouvain.be>,
+        "michel.herin@fundp.ac.be"
+	<michel.herin@fundp.ac.be>,
+        "Paul.VanCauwenberge@UGent.be"
+	<Paul.VanCauwenberge@UGent.be>,
+        "Recteur@ulg.ac.be" <Recteur@ulg.ac.be>,
+        "elennertz@admin.ulb.ac.be" <elennertz@admin.ulb.ac.be>,
+        "sdemaeyer@admin.ulb.ac.be" <sdemaeyer@admin.ulb.ac.be>,
+        "Directeur-IUT@u-picardie.fr" <Directeur-IUT@u-picardie.fr>,
+        "iut@univ-angers.fr" <iut@univ-angers.fr>,
+        "iut-admin@univ-avignon.fr"
+	<iut-admin@univ-avignon.fr>,
+        "philippe.pracht@iut-bm.univ-fcomte.fr"
+	<philippe.pracht@iut-bm.univ-fcomte.fr>,
+        "bjunca@u-bordeaux4.fr"
+	<bjunca@u-bordeaux4.fr>,
+        "patricia.mahieux@u-picardie.fr"
+	<patricia.mahieux@u-picardie.fr>,
+        "joel.pierre-eugene@univ-fcomte.fr"
+	<joel.pierre-eugene@univ-fcomte.fr>,
+        "desramon@univ-artois.fr"
+	<desramon@univ-artois.fr>,
+        "Directeur.IUT@univ-brest.fr"
+	<Directeur.IUT@univ-brest.fr>,
+        "direction@bourges.univ-orleans.fr"
+	<direction@bourges.univ-orleans.fr>,
+        "directeur@iut.u-bordeaux1.fr"
+	<directeur@iut.u-bordeaux1.fr>,
+        "michel.lenir@univ-lyon2.fr"
+	<michel.lenir@univ-lyon2.fr>,
+        "iutcb@univ-littoral.fr"
+	<iutcb@univ-littoral.fr>,
+        "marcel.gindre@u-cergy.fr"
+	<marcel.gindre@u-cergy.fr>,
+        "iut.caen.administration@unicaen.fr"
+	<iut.caen.administration@unicaen.fr>,
+        "leal@iut.u-clermont1.fr"
+	<leal@iut.u-clermont1.fr>,
+        "Christophe.Storai@iut.univ-corse.fr"
+	<Christophe.Storai@iut.univ-corse.fr>,
+        "dir-iutcv@univ-paris12.fr"
+	<dir-iutcv@univ-paris12.fr>,
+        "iut-aisne@u-picardie.fr"
+	<iut-aisne@u-picardie.fr>,
+        "dirdigne@up.univ-mrs.fr"
+	<dirdigne@up.univ-mrs.fr>,
+        "iut-pays-adour@univ-pau.fr"
+	<iut-pays-adour@univ-pau.fr>,
+        "iut-louis-pasteur@iutlpa.u-strasbg.fr"
+	<iut-louis-pasteur@iutlpa.u-strasbg.fr>,
+        "direction@iut.univ-evry.fr"
+	<direction@iut.univ-evry.fr>,
+        "michel.delattre@univ-rouen.fr"
+	<michel.delattre@univ-rouen.fr>,
+        "dir-iut@iut-dijon.u-bourgogne.fr"
+	<dir-iut@iut-dijon.u-bourgogne.fr>,
+        "Administration.Iut@ujf-grenoble.fr"
+	<Administration.Iut@ujf-grenoble.fr>,
+        "claude.benoit@iut2.upmf-grenoble.fr"
+	<claude.benoit@iut2.upmf-grenoble.fr>,
+        "jean-pierre.sceaux@univ-lehavre.fr"
+	<jean-pierre.sceaux@univ-lehavre.fr>,
+        "iutdirection@iut-lr.univ-lr.fr"
+	<iutdirection@iut-lr.univ-lr.fr>,
+        "iut-dir@univ-lemans.fr"
+	<iut-dir@univ-lemans.fr>,
+        "direction.iut@iut-laroche.univ-nantes.fr"
+	<direction.iut@iut-laroche.univ-nantes.fr>,
+        "iut-laval@univ-lemans.fr"
+	<iut-laval@univ-lemans.fr>,
+        "iut@univ-lille1.fr" <iut@univ-lille1.fr>,
+        "dir-iut@unilim.fr" <dir-iut@unilim.fr>,
+        "jean.verger@univ-ubs.fr"
+	<jean.verger@univ-ubs.fr>,
+        "christophe.genin@unilim.fr"
+	<christophe.genin@unilim.fr>,
+        "direction@iuta.univ-lyon1.fr"
+	<direction@iuta.univ-lyon1.fr>,
+        "michel.lenir@univ-lyon2.fr"
+	<michel.lenir@univ-lyon2.fr>,
+        "directeur.iut-marseille@univ.u-3mrs.fr"
+	<directeur.iut-marseille@univ.u-3mrs.fr>,
+        "bernard.guillemet@moniut.univ-bpclermont.fr"
+	<bernard.guillemet@moniut.univ-bpclermont.fr>,
+        "direction@iutmontp.univ-montp2.fr" <direction@iutmontp.univ-montp2.fr>,
+        "Thierry.Zimny@iut.univ-metz.fr" <Thierry.Zimny@iut.univ-metz.fr>,
+        "Jean-Marie.Hornut@iutnb.u-nancy.fr" <Jean-Marie.Hornut@iutnb.u-nancy.fr>,
+        "directeur.iut45@univ-orleans.fr" <directeur.iut45@univ-orleans.fr>,
+        "directeur@iut-orsay.fr" <directeur@iut-orsay.fr>,
+        "giraudel@u-bordeaux4.fr"
+	<giraudel@u-bordeaux4.fr>,
+        "iut-pays-adour@univ-pau.fr"
+	<iut-pays-adour@univ-pau.fr>,
+        "directeur@iutquimp.univ-brest.fr"
+	<directeur@iutquimp.univ-brest.fr>,
+        "directeur@iut-orsay.fr"
+	<directeur@iut-orsay.fr>,
+        "dirdigne@up.univ-mrs.fr"
+	<dirdigne@up.univ-mrs.fr>,
+        "Dir-iut@gestion.univ-perp.fr"
+	<Dir-iut@gestion.univ-perp.fr>,
+        "didier.lentrein@univ-reunion.fr"
+	<didier.lentrein@univ-reunion.fr>,
+        "iutren@univ-rennes1.fr"
+	<iutren@univ-rennes1.fr>,
+        "Mohamed.Ketata@univ-rouen.fr"
+	<Mohamed.Ketata@univ-rouen.fr>,
+        "coudert@univ-tours.fr"
+	<coudert@univ-tours.fr>,
+        "fxroyer@iut.univ-metz.fr"
+	<fxroyer@iut.univ-metz.fr>,
+        "dissard@univ-st-etienne.fr"
+	<dissard@univ-st-etienne.fr>,
+        "rossetto@univ-tln.fr" <rossetto@univ-tln.fr>,
+        "direction@iut-tlse3.fr" <direction@iut-tlse3.fr>,
+        "ronald.guillen@iutsn.univ-nantes.fr" <ronald.guillen@iutsn.univ-nantes.fr>,
+        "iutcolmar@uha.fr" <iutcolmar@uha.fr>,
+        "iut@urs.u-strasbg.fr"
+	<iut@urs.u-strasbg.fr>,
+        "courrier.iutcaen@cgi2.unicaen.fr"
+	<courrier.iutcaen@cgi2.unicaen.fr>,
+        "dir@iutv.univ-paris13.fr"
+	<dir@iutv.univ-paris13.fr>,
+        "direction@iutsd.univ-paris13.fr"
+	<direction@iutsd.univ-paris13.fr>,
+        "Maryline.Kouba@agrocampus-rennes.fr"
+	<Maryline.Kouba@agrocampus-rennes.fr>,
+        "Philippe.Leterme@agrocampus-rennes.fr"
+	<Philippe.Leterme@agrocampus-rennes.fr>,
+        "Claude.Masson@agrocampus-rennes.fr"
+	<Claude.Masson@agrocampus-rennes.fr>,
+        "direction.generale@agrocampus-ouest.fr"
+	<direction.generale@agrocampus-ouest.fr>,
+        "remi.toussain@agroparistech.fr"
+	<remi.toussain@agroparistech.fr>,
+        "asso@ingenieursdelagro.org"
+	<asso@ingenieursdelagro.org>,
+        "meunier@grignon.inra.fr"
+	<meunier@grignon.inra.fr>,
+        "mission.communication@agroparistech.fr"
+	<mission.communication@agroparistech.fr>,
+        "Daniel.Sauvant@agroparistech.fr"
+	<Daniel.Sauvant@agroparistech.fr>,
+        "jullien@versailles.inra.fr"
+	<jullien@versailles.inra.fr>,
+        "bertrand.ney@grignon.inra.fr"
+	<bertrand.ney@grignon.inra.fr>,
+        "roudart@agroparistech.fr"
+	<roudart@agroparistech.fr>,
+        "herve.biausser@ecp.fr" <herve.biausser@ecp.fr>,
+        "amicale@ensam.inra.fr" <amicale@ensam.inra.fr>,
+        "landais@ensam.inra.fr"
+	<landais@ensam.inra.fr>,
+        "lentheric@supagro.inra.fr"
+	<lentheric@supagro.inra.fr>,
+        "sylvia.lhuillier@ensaia.inpl-nancy.fr"
+	<sylvia.lhuillier@ensaia.inpl-nancy.fr>,
+        "francois.laurent@ensaia.inpl-nancy.fr"
+	<francois.laurent@ensaia.inpl-nancy.fr>,
+        "Sylvain.Plantureux@ensaia.inpl-nancy.fr"
+	<Sylvain.Plantureux@ensaia.inpl-nancy.fr>,
+        "francois.laurent@ensaia.inpl-nancy.fr"
+	<francois.laurent@ensaia.inpl-nancy.fr>,
+        "lsga.contact@ensaia.inpl-nancy.fr"
+	<lsga.contact@ensaia.inpl-nancy.fr>,
+        "Michel.Fick@ensaia.inpl-nancy.fr"
+	<Michel.Fick@ensaia.inpl-nancy.fr>,
+        "directeur@ens-lyon.fr"
+	<directeur@ens-lyon.fr>,
+        "claire.dupas@ens-cachan.fr"
+	<claire.dupas@ens-cachan.fr>,
+        "directrice@ens.fr" <directrice@ens.fr>,
+        "info@amicale.polytechnique.org" <info@amicale.polytechnique.org>,
+        "g.bouchot@enesad.fr" <g.bouchot@enesad.fr>,
+        "laurent.rosso@agroparistech.fr"
+	<laurent.rosso@agroparistech.fr>,
+        "direction@enitab.fr"
+	<direction@enitab.fr>,
+        "nogueira@enitac.fr" <nogueira@enitac.fr>,
+        "ancien@enitac.fr" <ancien@enitac.fr>,
+        "communication@ens.fr"
+	<communication@ens.fr>,
+        "babile@ensat.fr" <babile@ensat.fr>,
+        "roustan@ensat.fr" <roustan@ensat.fr>,
+        "bouzayen@ensat.fr"
+	<bouzayen@ensat.fr>,
+        "petitpre@ensat.fr" <petitpre@ensat.fr>,
+        "grieu@ensat.fr" <grieu@ensat.fr>,
+        "lebrihi@ensat.fr" <lebrihi@ensat.fr>,
+        "lacombe@ensat.fr" <lacombe@ensat.fr>,
+        "pinelli@ensat.fr" <pinelli@ensat.fr>,
+        "agrotoulouse@ensat.fr" <agrotoulouse@ensat.fr>,
+        "trystram@agroparistech.fr"
+	<trystram@agroparistech.fr>,
+        "aae.ensia@wanadoo.fr" <aae.ensia@wanadoo.fr>,
+        "collignan@cirad.fr" <collignan@cirad.fr>,
+        "a.milon@envt.fr"
+	<a.milon@envt.fr>,
+        "s.martinot@vet-lyon.fr" <s.martinot@vet-lyon.fr>,
+        "direction@vet-alfort.fr" <direction@vet-alfort.fr>,
+        "sai@vet-nantes.fr"
+	<sai@vet-nantes.fr>,
+        "direction@insa-rouen.fr" <direction@insa-rouen.fr>,
+        "louis.castex@insa-toulouse.fr" <louis.castex@insa-toulouse.fr>,
+        "president@inpl-nancy.fr" <president@inpl-nancy.fr>,
+        "president@inp-toulouse.fr" <president@inp-toulouse.fr>,
+        "etienne.landais@suapgro.inra.fr" <etienne.landais@suapgro.inra.fr>,
+        "iutcolmar@uha.fr" <iutcolmar@uha.fr>,
+        "iut@urs.u-strasbg.fr"
+	<iut@urs.u-strasbg.fr>,
+        "courrier.iutcaen@cgi2.unicaen.fr"
+	<courrier.iutcaen@cgi2.unicaen.fr>,
+        "dir@iutv.univ-paris13.fr"
+	<dir@iutv.univ-paris13.fr>
+Sender: DUHAMEL Martine <Martine.DUHAMEL@anses.fr>
+Date: Thu, 15 Jul 2010 15:47:17 +0200
+Thread-Topic: =?iso-8859-1?Q?[CandExp]_Anses_-_Appel_=E0_candidature_pour_le_CES_"EAUX"?=
+Thread-Index: Acsh179v7b37HRf5QWOLJAc69dv51gAANErQAAAGk8AAAAcn8AAzHZtQAFXv5VAACaLmgA==
+Message-ID: <E29B5B105FEB5F41B70CEAE2D74F39811B293A1B40@SALFEXCHBAL.afssa.fr>
+Accept-Language: fr-FR
+Content-Language: fr-FR
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: fr-FR
+Content-Type: multipart/alternative;
+	boundary="_000_E29B5B105FEB5F41B70CEAE2D74F39811B293A1B40SALFEXCHBALaf_"
+MIME-Version: 1.0
+Subject: [president] =?ISO-8859-1?Q?[CandExp]_Anses_-_Appel_=E0_candidatu?=
+ =?ISO-8859-1?Q?re_pour_le_CES_"EAUX"?=
+
+
+--_000_E29B5B105FEB5F41B70CEAE2D74F39811B293A1B40SALFEXCHBALaf_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+[X]
+
+
+
+
+
+L'Agence nationale de s=E9curit=E9 sanitaire de l'alimentation, de l'enviro=
+nnement et du travail (Anses), op=E9rationnelle depuis 1er juillet 2010, re=
+prend les missions et les moyens de l'Afssa et de l'Afsset.
+
+Elle a pour mission de contribuer =E0 assurer la s=E9curit=E9 sanitaire dan=
+s les domaines de l'alimentation, de l'environnement et du travail, en =E9v=
+aluant les risques qu'ils peuvent comporter. Son champ de comp=E9tence =E9t=
+endu permet d'appr=E9hender les questions de s=E9curit=E9 sanitaire de fa=
+=E7on globale, ind=E9pendante et transparente au service de la sant=E9 publ=
+ique : les activit=E9s d'=E9valuation des risques prennent ainsi en compte =
+l'exposition des personnes dans tous les compartiments de la vie, au travai=
+l, dans l'environnement (transport, domicile, espaces ext=E9rieurs), ou au =
+travers de l'alimentation et de l'eau.
+
+Dans le cadre de la fusion de l'Afssa et de l'Afsset, les comit=E9s d'exper=
+ts sp=E9cialis=E9s "Eaux" propres =E0 chaque agence seront dissous pour cr=
+=E9er le nouveau CES "Eaux" apr=E8s appel =E0 candidatures. Il comprendra u=
+ne trentaine de membres, rassemblant l'ensemble des comp=E9tences n=E9cessa=
+ires au traitement des saisines relatives =E0 l'eau entrant dans le domaine=
+ de comp=E9tences de l'Anses.
+
+Pour recourir =E0 la nomination de rapporteurs externes et constituer les g=
+roupes de travail aupr=E8s de ce comit=E9, des candidats seront retenus en =
+tant que personnalit=E9s comp=E9tentes : ces experts s=E9lectionn=E9s d=E8s=
+ l'appel =E0 candidatures sont essentiels pour apporter les garanties de co=
+mp=E9tences et d'ind=E9pendance =E0 l'=E9gard d'expertises ponctuelles ou a=
+d hoc sur des sujets pointus ou connexes aux comp=E9tences du comit=E9 "Eau=
+x".
+
+Nous vous invitons =E0 diffuser cette information aupr=E8s de vos coll=E8gu=
+es susceptibles d'=EAtre int=E9ress=E9s.
+
+Toutes les candidatures doivent obligatoirement =EAtre d=E9pos=E9es sur le =
+site www.anses.fr<http://www.anses.fr>
+
+Pour plus d'informations et d=E9poser votre dossier, cliquez ici <http://ww=
+w.afsset.fr/index.php?pageid=3D452&newsid=3D584&MDLCODE=3Dnews>
+
+Vous pouvez envoyer toutes vos questions =E0 candidatures.experts@anses.fr<=
+mailto:candidatures.experts@anses.fr> .
+
+
+Veuillez noter que la date limite de candidature est fix=E9e au 13 septembr=
+e 2010.
+
+
+
+
+--_000_E29B5B105FEB5F41B70CEAE2D74F39811B293A1B40SALFEXCHBALaf_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from rtf -->
+<style><!-- .EmailQuote { margin-left: 1pt; padding-left: 4pt; border-left:=
+ #800000 2px solid; } --></style>
+</head>
+<body>
+<font face=3D"Calibri, sans-serif" size=3D"2">
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div><img src=3D"rtfimage://" width=3D"836" height=3D"343"></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div style=3D"text-align: justify; ">&nbsp;</div>
+<div style=3D"text-align: justify; ">&nbsp;</div>
+<div style=3D"text-align: justify; ">&nbsp;</div>
+<div style=3D"text-align: justify; "><font face=3D"Arial, sans-serif">L&#82=
+17;Agence nationale de s=E9curit=E9 sanitaire de l&#8217;alimentation, de l=
+&#8217;environnement et du travail (Anses), op=E9rationnelle depuis 1<font =
+size=3D"1"><sup>er</sup></font> juillet 2010, reprend les missions
+et les moyens de l&#8217;Afssa et de l&#8217;Afsset.</font></div>
+<div style=3D"text-align: justify; ">&nbsp;</div>
+<div style=3D"text-align: justify; "><font face=3D"Arial, sans-serif">Elle =
+a pour mission de contribuer =E0 assurer la s=E9curit=E9 sanitaire dans les=
+ domaines de l'alimentation, de l&#8217;environnement et du travail, en =E9=
+valuant les risques qu&#8217;ils peuvent comporter. Son
+champ de comp=E9tence =E9tendu permet d&#8217;appr=E9hender les questions d=
+e s=E9curit=E9 sanitaire de fa=E7on globale, ind=E9pendante et transparente=
+ au service de la sant=E9 publique&nbsp;: les activit=E9s d&#8217;=E9valuat=
+ion des risques prennent ainsi en compte l&#8217;exposition des personnes d=
+ans
+tous les compartiments de la vie, au travail, dans l&#8217;environnement (t=
+ransport, domicile, espaces ext=E9rieurs), ou au travers de l&#8217;aliment=
+ation et de l&#8217;eau.</font></div>
+<div style=3D"text-align: justify; "><font face=3D"Arial, sans-serif">&nbsp=
+;</font></div>
+<div style=3D"text-align: justify; "><font face=3D"Arial, sans-serif">Dans =
+le cadre de la fusion de l'Afssa et de l'Afsset, les comit=E9s d'experts sp=
+=E9cialis=E9s &quot;Eaux&quot; propres =E0 chaque agence seront dissous pou=
+r cr=E9er le nouveau CES &quot;Eaux&quot; apr=E8s appel =E0 candidatures.
+<u>Il comprendra une trentaine de membres</u>, rassemblant l'ensemble des c=
+omp=E9tences n=E9cessaires au traitement des saisines relatives =E0 l'eau e=
+ntrant dans le domaine de comp=E9tences de l'Anses.</font></div>
+<div style=3D"text-align: justify; "><font face=3D"Arial, sans-serif">&nbsp=
+;</font></div>
+<div style=3D"text-align: justify; "><font face=3D"Arial, sans-serif">Pour =
+recourir =E0 la nomination de rapporteurs externes et constituer les groupe=
+s de travail aupr=E8s de ce comit=E9, des candidats seront retenus en tant =
+que personnalit=E9s comp=E9tentes&nbsp;: ces experts
+s=E9lectionn=E9s d=E8s l&#8217;appel =E0 candidatures sont essentiels pour =
+apporter les garanties de comp=E9tences et d&#8217;ind=E9pendance =E0 l&#82=
+17;=E9gard d&#8217;expertises ponctuelles ou <i>ad hoc</i> sur des sujets p=
+ointus ou connexes aux comp=E9tences du comit=E9 &quot;Eaux&quot;.</font></=
+div>
+<div style=3D"text-align: justify; "><font face=3D"Arial, sans-serif">&nbsp=
+;</font></div>
+<div style=3D"text-align: justify; "><font face=3D"Arial, sans-serif">Nous =
+vous invitons =E0 diffuser cette information aupr=E8s de vos coll=E8gues su=
+sceptibles d&#8217;=EAtre int=E9ress=E9s.</font></div>
+<div style=3D"text-align: justify; "><font face=3D"Arial, sans-serif">&nbsp=
+;</font></div>
+<div style=3D"text-align: justify; "><font face=3D"Arial, sans-serif">Toute=
+s les candidatures doivent obligatoirement =EAtre d=E9pos=E9es sur le site =
+<a href=3D"http://www.anses.fr"><font color=3D"#0000FF"><u>www.anses.fr</u>=
+</font></a> </font></div>
+<div style=3D"text-align: justify; "><font face=3D"Arial, sans-serif">&nbsp=
+;</font></div>
+<div style=3D"text-align: justify; "><font face=3D"Arial, sans-serif">Pour =
+plus d&#8217;informations et d=E9poser votre dossier, cliquez <a href=3D"ht=
+tp://www.afsset.fr/index.php?pageid=3D452&amp;newsid=3D584&amp;MDLCODE=3Dne=
+ws"><font size=3D"4" color=3D"#0000FF"><u><b>ici</b></u></font><font color=
+=3D"#0000FF"><u>&nbsp;</u></font></a></font></div>
+<div style=3D"text-align: justify; ">&nbsp;</div>
+<div style=3D"text-align: justify; "><font face=3D"Arial, sans-serif">Vous =
+pouvez envoyer toutes vos questions =E0&nbsp;<a href=3D"mailto:candidatures=
+.experts@anses.fr"><font color=3D"#0000FF"><u>candidatures.experts@anses.fr=
+</u></font></a> .</font></div>
+<div style=3D"text-align: justify; "><font face=3D"Arial, sans-serif">&nbsp=
+;</font></div>
+<div style=3D"text-align: center; ">&nbsp;</div>
+<div style=3D"text-align: center; "><font face=3D"Arial, sans-serif">Veuill=
+ez noter que <u><b>la date limite de candidature est fix=E9e au 13 septembr=
+e 2010.</b></u></font></div>
+<div style=3D"text-align: justify; ">&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+</font>
+</body>
+</html>
+
+--_000_E29B5B105FEB5F41B70CEAE2D74F39811B293A1B40SALFEXCHBALaf_--

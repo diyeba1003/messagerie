@@ -1,0 +1,1265 @@
+Return-Path: <ibs@mta0.sbr13.net>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id DBB1222827
+	for <president@listes.univ-angers.fr>; Mon, 13 Sep 2010 17:36:40 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id A4B8E1142C8; Mon, 13 Sep 2010 17:36:40 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from mta0.sbr13.net (mta0.sbr13.net [188.165.202.226])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 89879114159
+	for <president@univ-angers.fr>; Mon, 13 Sep 2010 17:36:40 +0200 (CEST)
+Received: from sbr13.net (localhost.localdomain [127.0.0.1])
+	by mta0.sbr13.net (Postfix) with ESMTP id 3A3D514E9402
+	for <president@univ-angers.fr>; Mon, 13 Sep 2010 17:36:28 +0200 (CEST)
+DomainKey-Signature: a=rsa-sha1; s=mta0; d=mta0.sbr13.net; c=simple; q=dns;
+	b=XlMHm5jIXM9r25Kxu151lA8Bmru00WUdGsBleMMzVhCoXXPQIrzPMVz9LC3lrgHmG
+	7Yfr1lQMTnu4WG8gGjEa+uaDO3jNdYh7jKu8oBtoHs13Rxd49su14WAonfPGgwYAw4t
+	PMEsmh0o33LRDi68Mz+26gQonC/ElGXjUqjByS8=
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=mta0.sbr13.net;
+	s=mta0; t=1284392188;
+	bh=VXED/RxD1nbB7p5xlW4aYwDYWuO+fZO4GSC+E587ems=;
+	h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:
+	 Content-Type:list-unsubscribe;
+	b=MYxoFsR65H5VP74bP9EchDrmC2D1h7hcQiTdLnjlgB+ioXk0g+zzrq1/hh+MaeCMy
+	 uro2RGqGilDmNys0uPYVivVVVer+vztf7wjk9WlOsg+jMmdvpCWJZBQaptZp3wc2Tu
+	 LIvgx9vcBN2yAX5qFScVp8lfgxwy5/yq7oJKQip8=
+Date: Mon, 13 Sep 2010 17:27:07 +0200
+From: =?utf-8?Q?IBS_Event?= <ibs@mta0.sbr13.net>
+Reply-To: =?utf-8?Q?IBS_Event?= <ibs@mailing-infoexpo.com>
+To: =?utf-8?Q?president=40univ-angers=2Efr?= <president@univ-angers.fr>
+Message-ID: <150-392-4-0000016826@mta0.sbr13.net>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2798_1419811060.1284392184938"
+list-unsubscribe: <http://www.groupesolutions.fr/suivi/mail2.php?2&150-715&9&4&desinscription@infoexpo.fr&fr&sZyf%2BoFV6GoiBtXTaSVhwQ&president=40univ-angers=2Efr>
+X-virtual-MTA: mta0
+X-Mailer: Professional Routing Service
+Subject: [president] Tout savoir sur les batiments intelligents - 21 et 22
+ septembre - CNIT Paris La Defense
+
+
+------=_Part_2798_1419811060.1284392184938
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+si vous ne parvenez pas =C3=A0 lire ce message, suivez ce lien ( "http://ww=
+w.ibs-event.com/news-2010-2.html" )
+=C2=A0
+INTELLIGENT BUILDING SYSTEMS
+CONF=C3=89RENCES - EXPOSITION
+21 & 22 septembre 2010 - CNIT - Paris La D=C3=A9fense
+
+SYST=C3=88MES INTELLIGENTS POUR LA PERFORMANCE DES B=C3=82TIMENTS ( "http:/=
+/www.ibs-event.com" )
+
+Vous voulez de vraies r=C3=A9ponses =C3=A0 vos interrogations sur les Syst=
+=C3=A8mes Intelligents pour la performance des b=C3=A2timents ?
+Cet =C3=A9v=C3=A9nement est fait pour vous ! Rencontrez 60 experts et parti=
+cipez aux 27 conf=C3=A9rences et ateliers en acc=C3=A8s libre ...
+
+Acc=C3=A8s gratuit =C3=A0 l'exposition, aux conf=C3=A9rences et ateliers r=
+=C3=A9serv=C3=A9s aux professionnels sur simple pr=C3=A9-enregistrement.
+
+Badge visiteur gratuit d=C3=A8s aujourd'hui
+Pr=C3=A9-enregistrez-vous et recevez votre badge gratuitement d=C3=A8s aujo=
+urd'hui. ( "http://www.ibs-event.com/visiter.php" )
+
+60 exposants vous donnent rendez-vous !
+27 conf=C3=A9rences & ateliers gratuits !
+
+Les Conf=C3=A9rences & ateliers
+
+Mardi 21 septembre 2010
+=E2=80=A2=C2=A0 Directives europ=C3=A9ennes, l=C3=A9gislation, normes, cert=
+ifications, services continus, =E2=80=A6
+=E2=80=A2=C2=A0 Programme Homes=C2=A0: La r=C3=A9volution =C3=A9nerg=C3=A9t=
+ique des b=C3=A2timents
+=E2=80=A2=C2=A0 Optimiser le retour sur investissement du ma=C3=AEtre d=E2=
+=80=99ouvrage et les futurs co=C3=BBts d=E2=80=99exploitation
+=E2=80=A2=C2=A0 Gestion et optimisation de la production et du fonctionneme=
+nt d=E2=80=99un b=C3=A2timent =C3=A0 =C3=A9nergie positive
+=E2=80=A2=C2=A0 Maquette num=C3=A9rique (1) : outils et m=C3=A9thodes pour =
+l=E2=80=99exploitation et la performance =C3=A9nerg=C3=A9tique des B=C3=A2t=
+iments
+=E2=80=A2=C2=A0 R=C3=A9seaux et protocoles pour les syst=C3=A8mes de GTB
+=E2=80=A2=C2=A0 KNX , la norme partag=C3=A9e par 200 fabricants
+=E2=80=A2=C2=A0 R=C3=A9ussir son b=C3=A2timent Intelligent
+=E2=80=A2=C2=A0 Smart Grid : une opportunit=C3=A9 pour de nouveaux services
+=E2=80=A2=C2=A0 Quelles infrastructures de communication pour le b=C3=A2tim=
+ent intelligent ?
+=C2=BB  programme d=C3=A9taill=C3=A9 & inscription gratuite ( "http://www.i=
+bs-event.com/tous.php?elt=3Devent#top_centre" )
+
+Mercredi 22 septembre 2010
+=E2=80=A2=C2=A0 Optimisation de la performance =C3=A9nerg=C3=A9tique dans l=
+es b=C3=A2timents publics, PPP, CPE, =E2=80=A6
+=E2=80=A2=C2=A0 Vers une gestion informatis=C3=A9e globale des b=C3=A2timen=
+ts
+=E2=80=A2=C2=A0 La force de LonWorks : ses outils et ses solutions globales=
+ multi m=C3=A9tiers
+=E2=80=A2=C2=A0 Impacts des r=C3=A8glementations et certifications =C3=A9ne=
+rg=C3=A9tiques sur la certification des solutions GTB/GTC
+=E2=80=A2=C2=A0 Interop=C3=A9rabilit=C3=A9 des syst=C3=A8mes de GTB et des =
+applications
+=E2=80=A2=C2=A0 Affichage, contr=C3=B4le, r=C3=A9gulation, contrats de perf=
+ormance =C3=A9nerg=C3=A9tique, garanties de r=C3=A9sultat, =E2=80=A6
+=E2=80=A2=C2=A0 La norme BACnet
+=E2=80=A2=C2=A0 Int=C3=A9gration de la GTB/GTC dans la r=C3=A9novation =C3=
+=A9nerg=C3=A9tique des b=C3=A2timents
+=E2=80=A2=C2=A0 R=C3=A9seaux sans fil pour g=C3=A9rer le b=C3=A2timent : qu=
+elles solutions ?
+=E2=80=A2=C2=A0 Maquette num=C3=A9rique (2) : outils et m=C3=A9thodes pour =
+la conception et l=E2=80=99ing=C3=A9nierie des B=C3=A2timents Intelligents=
+=20
+=C2=BB  programme d=C3=A9taill=C3=A9 & inscription gratuite ( "http://www.i=
+bs-event.com/tous.php?elt=3Devent#top_centre" )
+
+Les intervenants
+=E2=80=A2=C2=A0 Pierre TABARY - Directeur Solutions B=C3=A2timents - SCHNEI=
+DER ELECTRIC
+=E2=80=A2=C2=A0 St=C3=A9phanie TUCOULET - Secr=C3=A9taire G=C3=A9n=C3=A9ral=
+e=C2=A0 SVDI=C2=A0
+=E2=80=A2=C2=A0 Didier PELLEGRIN - Directeur du programme HOMES Schneider E=
+lectric - PROGRAMME HOMES=C2=A0
+=E2=80=A2=C2=A0 Olivier COTTET - Directeur Marketing et Fili=C3=A8res du pr=
+ogramme HOMES - PROGRAMME HOMES=C2=A0
+=E2=80=A2=C2=A0 Herv=C3=A9 FANET - Respondable des partenariats strat=C3=A9=
+giques - CEA LETI=C2=A0
+=E2=80=A2=C2=A0 Michel GAETA - Directeur technique - WATTECO=C2=A0
+=E2=80=A2=C2=A0 Marc ALTASIN - CIAT=C2=A0
+=E2=80=A2=C2=A0 Mireille JANDON - Responsable P=C3=B4le Automatismes et Ges=
+tion de l'=C3=A9nergie - CSTB=C2=A0
+=E2=80=A2=C2=A0 Serge LE MEN - Directeur G=C3=A9n=C3=A9ral - NEWRON SYSTEM=
+=C2=A0
+=E2=80=A2=C2=A0 Benoit VERVANDIER - Directeur G=C3=A9n=C3=A9ral - ACTIVE 3D=
+=C2=A0 -=C2=A0 ARCHIMEN=C2=A0
+=E2=80=A2=C2=A0 Guillaume ANSANAY - CSTB=C2=A0
+=E2=80=A2=C2=A0 Gauthier BELHOMME - Directeur de l'Ing=C3=A9nierie Environn=
+ementale - OGER INTERNATIONAL=C2=A0
+=E2=80=A2=C2=A0 Sylvain FRODE DE LA FORET - SCHNEIDER ELECTRIC=C2=A0
+=E2=80=A2=C2=A0 Thierry ALLARD - Pr=C3=A9sident - POLE S2E2=C2=A0
+=E2=80=A2=C2=A0 Dan NAPAR - Pr=C3=A9sident - BACNET FRANCE=C2=A0
+=E2=80=A2=C2=A0 Didier GIRAUD - Pr=C3=A9sident - KNX FRANCE=C2=A0
+=E2=80=A2=C2=A0 Serge LE MEN - Pr=C3=A9sident - LONMARK FRANCE=C2=A0
+=E2=80=A2=C2=A0 Christophe DELACHAT - Responsable de l'Activit=C3=A9 KNX - =
+ABB
+=E2=80=A2=C2=A0 Jean-Charles BANGRATZ - Directeur des Syst=C3=A8mes d'Infor=
+mation - Charg=C3=A9 de cours =C3=A0 l'ESTP - OGER INTERNATIONAL=C2=A0
+=E2=80=A2=C2=A0 Martin VILLENEUVE - Vice Pr=C3=A9sident Europe - DISTECH CO=
+NTROLS=C2=A0
+=E2=80=A2=C2=A0 Laure VAN DER HAUWAERT - Responsable Offres Conseil, Commun=
+ications Unifi=C3=A9es, Collectivit=C3=A9s & Green IT - SPIE=C2=A0
+=E2=80=A2=C2=A0 Jean-Luc ESCULPAVIT - Responsable Technique France et Afriq=
+ue du Nord - COMMSCOPE=C2=A0
+=E2=80=A2=C2=A0 Fr=C3=A9d=C3=A9ric CAILLET - Directeur technique - ECHELON=
+=C2=A0
+=E2=80=A2=C2=A0 Dominique BRAULT - Responsable Activit=C3=A9 Solutions Tele=
+com - ACOME=C2=A0
+=E2=80=A2=C2=A0 Christophe DUGAS - WAVENIS OPEN STANDARD ALLIANCE=C2=A0
+=E2=80=A2=C2=A0 Laurent SCHMITT - Directeur Innovation - ALSTOM=C2=A0
+=E2=80=A2=C2=A0 Olivier SEZNEC - Directeur de la strat=C3=A9gie technologiq=
+ue - CISCO=C2=A0
+=E2=80=A2=C2=A0 Georges DUFFAU PDG de WIT SA et PDG de DUNE Solutions WIT=
+=C2=A0
+=E2=80=A2=C2=A0 David LE VELY - Responsable Marketing- March=C3=A9 Courants=
+ faibles - LEGRAND=C2=A0
+=E2=80=A2=C2=A0 Patrice CARTON - Chef du Service Syst=C3=A8mes d'Informatio=
+ns du B=C3=A2timent - OGER INTERNATIONAL=C2=A0
+=E2=80=A2=C2=A0 Thierry DJAHEL - SCHNEIDER ELECTRIC=C2=A0
+=E2=80=A2=C2=A0 Alain FAISANT - Directeur Commercial - ARC INFORMATIQUE=C2=
+=A0
+=E2=80=A2=C2=A0 Jean-Yves BLANC - Pr=C3=A9sident - EUBAC=C2=A0
+=E2=80=A2=C2=A0 Pierre BOISSON - CSTB=C2=A0
+=E2=80=A2=C2=A0 Jacques BOURGAIN - BTIB=C2=A0
+=E2=80=A2=C2=A0 Nicolas COUILLAUD - CSTB=C2=A0
+=E2=80=A2=C2=A0 J=C3=A9rome BOISSOU - Responsable communication produits te=
+rtiaire et industrie - LEGRAND=C2=A0
+=E2=80=A2=C2=A0 Dan NAPAR - Pr=C3=A9sident - BACNET FRANCE
+=E2=80=A2=C2=A0 Fabienne GASTAUD - Directrice G=C3=A9n=C3=A9rale - WIT=C2=
+=A0
+=E2=80=A2=C2=A0 Marie-Pierre MACCARIO - Chef du service GIPE - D=C3=A9parte=
+ment A.R.I. - SPIE=C2=A0
+=E2=80=A2=C2=A0 Jean-Marc MOLINA - D=C3=A9l=C3=A9gu=C3=A9 G=C3=A9n=C3=A9ral=
+ adjoint - GIMELEC=C2=A0
+=E2=80=A2=C2=A0 Jean-Fr=C3=A9d=C3=A9ric MARTIN - Pr=C3=A9sident fondateur -=
+ ARVENI=C2=A0
+=E2=80=A2=C2=A0 Pierre MIT - Pr=C3=A9sident - UNTEC=C2=A0
+=E2=80=A2=C2=A0 Laurent ORTAS - Responsable Nouvelles technologies - SAINT =
+GOBAIN=C2=A0
+=E2=80=A2=C2=A0 Patrick PONTHIER - D=C3=A9l=C3=A9gu=C3=A9 G=C3=A9n=C3=A9ral=
+ - AIMCC=C2=A0
+=E2=80=A2=C2=A0 Eduardo LUZZATO GIULIANI - Directeur D=C3=A9veloppement des=
+ Syst=C3=A8mes d'Information du B=C3=A2timent - OGER INTERNATIONAL=C2=A0
+=E2=80=A2=C2=A0 Eric LEBEGUE - CSTB=C2=A0
+=E2=80=A2=C2=A0 Emmanuel FRANCOIS - Consultant France - ENOCEAN=C2=A0
+=E2=80=A2=C2=A0 Jean-Pierre DESBENOIT - Expert Senior Groupe Strategy and I=
+nnovation Department - ZIGBEE ALLIANCE=C2=A0
+=E2=80=A2=C2=A0 Ludivic CALLIER - Key Account Manager OEM, Home & Building =
+- CORONIS=C2=A0
+=E2=80=A2=C2=A0 J=C3=A9r=C3=B4me LAULAN - Membre du bureau - KNX FRANCE
+=C2=BB  liste compl=C3=A8te & d=C3=A9taill=C3=A9e ( "http://www.ibs-event.c=
+om/tous.php?elt=3Dintervenants#top_centre" )
+
+Badge visiteur gratuit d=C3=A8s aujourd'hui
+Pr=C3=A9-enregistrez-vous et recevez votre badge gratuitement d=C3=A8s aujo=
+urd'hui. ( "http://www.ibs-event.com/visiter.php" )
+
+=E2=80=A2=C2=A0  Liste des exposants & partenaires ( "http://www.ibs-event.=
+com/tous.php?elt=3Dsociete#top_centre" )
+=E2=80=A2=C2=A0  Programme complet des conf=C3=A9rences & ateliers ( "http:=
+//www.ibs-event.com/tous.php?elt=3Devent#top_centre" )
+=E2=80=A2=C2=A0  Liste des intervenants ( "http://www.ibs-event.com/tous.ph=
+p?elt=3Dintervenants#top_centre" )
+=E2=80=A2=C2=A0  Informations pratiques ( "http://www.ibs-event.com/infos_p=
+ratiques.php#top_centre" )
+
+Vos clients, prospects, collaborateurs... sont susceptibles d'=C3=AAtre int=
+=C3=A9ress=C3=A9s par ce message ? Transf=C3=A9rez le ! ( "mailto: ?Subject=
+=3DMessage transfere pour information : http://www.ibs-event.com/news-2010-=
+2.html" )
+=C2=A0
+R=C3=A9gulation Performance =C3=89nerg=C3=A9tique LonWorks Immeuble Intelli=
+gent Domotique ZigBee Courant Faible CPL Immotique LonMark Facility Managem=
+ent Maintenance eHOME eu.bac BACnet GTB GTC C=C3=A2blage EnOcean Capteurs A=
+utomatismes EPBD =C3=89clairage RT 2012 BBC THPE Infrastructures & R=C3=A9s=
+eaux B=C3=A2timents KNX=C2=A0LEDs S=C3=A9curit=C3=A9 & Contr=C3=B4le Lifesa=
+fety Systems...
+
+www.ibs-event.com - copyright IBS event 2010 - tous droits r=C3=A9serv=C3=
+=A9s
+=C2=A0
+Conform=C3=A9ment =C3=A0 l'article 34 de la loi Informatique et Libert=C3=
+=A9 du 6 janvier 1978, vous disposez d'un droit d'acc=C3=A8s, de modificati=
+on, de rectification et de suppression des donn=C3=A9es vous concernant. Si=
+ ce message vous a caus=C3=A9 un quelconque d=C3=A9rangement, nous vous pri=
+ons de nous en excuser et vous incitons =C3=A0 vous d=C3=A9sinscrire de not=
+re fichier en =C3=A9crivant =C3=A0 : desinscription@infoexpo.fr
+
+------=_Part_2798_1419811060.1284392184938
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>IBS EVENT - SYST=
+=C3=88MES INTELLIGENTS POUR LA PERFORMANCE DES B=C3=82TIMENTS</TITLE>
+<STYLE type=3Dtext/css>
+<!--
+body,td,th {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+a {
+	font-size: 12px;
+	color: #000000;
+}
+a:link {
+	text-decoration: underline;
+	color: #000000;
+}
+a:visited {
+	text-decoration: underline;
+	color: #000000;
+}
+a:hover {
+	text-decoration: none;
+	color: #666666;
+}
+a:active {
+	text-decoration: underline;
+	color: #000000;
+}
+.font
+{ font-size:11px;
+color:#333333;
+}
+.titrecpetp {
+font-size:12px;
+color:#000000;
+font-weight:bold;
+line-height:14px;
+}
+.titrecpetpdate {
+font-size:11px;
+color:#000000;
+padding-top:1px;
+padding-bottom:1px;
+}
+.textehome2bis {
+padding-right:6px;
+}
+.textehome3bis {
+font-size:22px;
+color:#a0c43a;
+padding-right:6px;
+text-align:left;
+line-height:22px;
+font-weight:bold;
+}
+
+.Style1 {color: #CCCCCC}
+.Style2 {color: #999999}
+.Style3 {color: #EFEFEF}
+
+}
+-->
+</STYLE>
+
+</HEAD>
+<BODY>
+<TABLE style=3D"BORDER-BOTTOM: #cccccc 1px solid" border=3D0 cellSpacing=3D0
+cellPadding=3D0 width=3D600 align=3Dcenter>
+  <TBODY>
+  <TR>
+    <TD style=3D"FONT-SIZE: 10px" align=3Dmiddle>si vous ne parvenez pas =
+=C3=A0 lire ce
+      message, <A href=3D"http://www.groupesolutions.fr/suivi/mail1.php?3&1=
+50-715&0&sZyf%2BoFV6GoiBtXTaSVhwQ" target=3D"_blank"><FONT style=3D"FONT-SI=
+ZE: 10px">suivez ce
+lien</FONT></A></TD></TR>
+  <TR>
+    <TD>&nbsp;</TD></TR>
+  <TR>
+    <TD>
+      <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD style=3D"LINE-HEIGHT: 25px; PADDING-LEFT: 10px"
+            bgColor=3D#000000><STRONG><FONT
+            style=3D"COLOR: #cccccc; FONT-SIZE: 19px">INTELLIGENT BUILDING=
+=20
+            SYSTEMS</FONT></STRONG><BR><FONT
+            style=3D"COLOR: #999999; FONT-SIZE: 14px"><EM>CONF=C3=89RENCES -
+            EXPOSITION</EM></FONT><BR><SPAN
+            style=3D"TEXT-ALIGN: left; LINE-HEIGHT: 22px; PADDING-RIGHT: 6p=
+x; COLOR: #ffffff; FONT-SIZE: 15px"><FONT
+            style=3D"COLOR: #a0c43a">21 &amp; 22 septembre 2010 - CNIT - Pa=
+ris La
+            D=C3=A9fense</FONT></SPAN><BR><SPAN
+            style=3D"TEXT-ALIGN: left; LINE-HEIGHT: 18px; PADDING-RIGHT: 6p=
+x; COLOR: #ffffff; FONT-SIZE: 14px"><STRONG>SYST=C3=88MES
+            INTELLIGENTS <BR>POUR LA PERFORMANCE DES
+B=C3=82TIMENTS</STRONG></SPAN></TD>
+          <TD bgColor=3D#000000 height=3D140 width=3D200><A href=3D"http://=
+www.groupesolutions.fr/suivi/mail1.php?3&150-715&1&sZyf%2BoFV6GoiBtXTaSVhwQ=
+" target=3D"_blank"><IMG border=3D"0" src=3D"http://www.ibs-event.com/logo_=
+hd2.gif"></A></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD colSpan=3D2>
+      <TABLE style=3D"BORDER-BOTTOM: #cccccc 1px solid" border=3D0 cellSpac=
+ing=3D0
+      cellPadding=3D0 width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD
+          style=3D"TEXT-ALIGN: justify; PADDING-BOTTOM: 10px; LINE-HEIGHT: =
+17px; FONT-FAMILY: Tahoma, Geneva, Kalimati, sans-serif; FONT-SIZE: 14px; P=
+ADDING-TOP: 10px"><FONT
+            style=3D"FONT-SIZE: 18px" color=3D#666666><STRONG>Vous voulez d=
+e vraies
+            r=C3=A9ponses =C3=A0 vos interrogations sur les <FONT color=3D#=
+a0c43a>Syst=C3=A8mes
+            Intelligents pour la performance des b=C3=A2timents
+            ?</FONT></STRONG></FONT><BR>
+            <DIV style=3D"LINE-HEIGHT: 15px; PADDING-TOP: 5px">Cet =C3=A9v=
+=C3=A9nement est
+            fait pour vous ! <STRONG>Rencontrez 60 experts</STRONG> et
+            participez aux <STRONG>27 conf=C3=A9rences et ateliers en acc=
+=C3=A8s libre
+            </STRONG>... </DIV>
+            <DIV style=3D"LINE-HEIGHT: 15px; PADDING-TOP: 5px"><STRONG><FONT
+            style=3D"FONT-SIZE: 14px" color=3D#a0c43a>Acc=C3=A8s gratuit</F=
+ONT> =C3=A0
+            l'exposition, aux conf=C3=A9rences et ateliers r=C3=A9serv=C3=
+=A9s aux
+            professionnels sur simple pr=C3=A9-enregistrement.</STRONG></DI=
+V></TD>
+          <TD vAlign=3Dcenter><IMG src=3D"http://www.ibs-event.com/2010/ale=
+rte.png"></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD bgColor=3D#a0c43a colSpan=3D2>
+      <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD
+          style=3D"TEXT-ALIGN: left; LINE-HEIGHT: 22px; PADDING-LEFT: 5px; =
+PADDING-RIGHT: 6px; FONT-FAMILY: Tahoma, Geneva, Kalimati, sans-serif; COLO=
+R: #000000; FONT-SIZE: 22px; FONT-WEIGHT: bold">Badge
+            visiteur<FONT style=3D"FONT-SIZE: 18px" color=3D#ffffff><BR>gra=
+tuit d=C3=A8s
+            aujourd'hui</FONT><BR><FONT
+            style=3D"LINE-HEIGHT: 12px; FONT-SIZE: 12px" color=3D#000000><A=
+ href=3D"http://www.groupesolutions.fr/suivi/mail1.php?3&150-715&2&sZyf%2Bo=
+FV6GoiBtXTaSVhwQ" target=3D"_blank">Pr=C3=A9-enregistrez-vous</A> et receve=
+z votre badge
+            gratuitement d=C3=A8s aujourd'hui.</FONT></TD>
+          <TD><A href=3D"http://www.groupesolutions.fr/suivi/mail1.php?3&15=
+0-715&2&sZyf%2BoFV6GoiBtXTaSVhwQ" target=3D"_blank"><IMG border=3D"0" src=
+=3D"http://www.ibs-event.com/2010/inscription.png" width=3D"100" height=3D"=
+100"></A></TD>
+          <TD width=3D268><A href=3D"http://www.groupesolutions.fr/suivi/ma=
+il1.php?3&150-715&2&sZyf%2BoFV6GoiBtXTaSVhwQ" target=3D"_blank"><IMG border=
+=3D"0" src=3D"http://www.ibs-event.com/2010/visu-news-6.png" width=3D"268" =
+height=3D"117"></A></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD colSpan=3D2>
+      <TABLE style=3D"BORDER-BOTTOM: #cccccc 1px solid" border=3D0 cellSpac=
+ing=3D0
+      cellPadding=3D0 width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD
+          style=3D"TEXT-ALIGN: left; LINE-HEIGHT: 18px; PADDING-RIGHT: 6px;=
+ FONT-FAMILY: Tahoma, Geneva, Kalimati, sans-serif; COLOR: #a0c43a; FONT-SI=
+ZE: 22px; FONT-WEIGHT: bold">60
+            exposants <FONT style=3D"FONT-SIZE: 18px" color=3D#333333><BR>v=
+ous
+            donnent rendez-vous !</FONT><BR>27 conf=C3=A9rences &amp; ateli=
+ers <FONT
+            style=3D"FONT-SIZE: 18px" color=3D#333333><BR>gratuits ! </FONT=
+></TD>
+          <TD width=3D268><A href=3D"http://www.groupesolutions.fr/suivi/ma=
+il1.php?3&150-715&3&sZyf%2BoFV6GoiBtXTaSVhwQ" target=3D"_blank"><IMG border=
+=3D"0" src=3D"http://www.ibs-event.com/2010/visu-news-2.png" width=3D"268" =
+height=3D"121"></A></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD bgColor=3D#efefef colSpan=3D2>
+      <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD
+            style=3D"PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-TOP: 5=
+px"><TABLE
+            border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+              <TBODY>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD vAlign=3Dtop colSpan=3D3><SPAN class=3Dtextehome3=
+bis>Les
+                        Conf=C3=A9rences &amp; ateliers </SPAN></TD></TR>
+                    <TR>
+                      <TD style=3D"PADDING-BOTTOM: 4px; PADDING-TOP: 4px"
+                      vAlign=3Dtop colSpan=3D3><SPAN class=3Dtextehome3bis>=
+<FONT
+                        style=3D"FONT-SIZE: 18px" color=3D#666666>Mardi <FO=
+NT
+                        color=3D#a0c43a>21</FONT> septembre
+                    2010</FONT></SPAN></TD></TR>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" width=3D10>=E2=80=A2&nbs=
+p;</TD>
+                      <TD class=3Dtitrecpetp>Directives europ=C3=A9ennes,
+                        l=C3=A9gislation, normes, certifications, services =
+continus,
+                      =E2=80=A6</TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" width=3D10>=E2=80=A2&nbs=
+p;</TD>
+                      <TD class=3Dtitrecpetp>Programme Homes&nbsp;: La
+                        r=C3=A9volution =C3=A9nerg=C3=A9tique des
+                b=C3=A2timents</TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop
+width=3D10>=E2=80=A2&nbsp;</TD>
+                      <TD class=3Dtitrecpetp>Optimiser le retour sur
+                        investissement du ma=C3=AEtre d=E2=80=99ouvrage et =
+les futurs co=C3=BBts
+                        d=E2=80=99exploitation</TD></TR></TBODY></TABLE></T=
+D></TR>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop
+width=3D10>=E2=80=A2&nbsp;</TD>
+                      <TD class=3Dtitrecpetp>Gestion et optimisation de la=
+=20
+                        production et du fonctionnement d=E2=80=99un b=C3=
+=A2timent =C3=A0 =C3=A9nergie
+                        positive</TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop
+width=3D10>=E2=80=A2&nbsp;</TD>
+                      <TD class=3Dtitrecpetp>Maquette num=C3=A9rique (1) : =
+outils et
+                        m=C3=A9thodes pour l=E2=80=99exploitation et la per=
+formance
+                        =C3=A9nerg=C3=A9tique des B=C3=A2timents</TD></TR><=
+/TBODY></TABLE></TD></TR>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" width=3D10>=E2=80=A2&nbs=
+p;</TD>
+                      <TD class=3Dtitrecpetp>R=C3=A9seaux et protocoles pou=
+r les
+                        syst=C3=A8mes de GTB</TD></TR></TBODY></TABLE></TD>=
+</TR>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" width=3D10>=E2=80=A2&nbs=
+p;</TD>
+                      <TD class=3Dtitrecpetp>KNX , la norme partag=C3=A9e p=
+ar 200
+                        fabricants</TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" width=3D10>=E2=80=A2&nbs=
+p;</TD>
+                      <TD class=3Dtitrecpetp>R=C3=A9ussir son b=C3=A2timent
+                    Intelligent</TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" width=3D10>=E2=80=A2&nbs=
+p;</TD>
+                      <TD class=3Dtitrecpetp>Smart Grid : une opportunit=C3=
+=A9 pour
+                        de nouveaux services</TD></TR></TBODY></TABLE></TD>=
+</TR>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" width=3D10>=E2=80=A2&nbs=
+p;</TD>
+                      <TD class=3Dtitrecpetp>Quelles infrastructures de
+                        communication pour le b=C3=A2timent intelligent ?</=
+TD></TR>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a; PADDING-TOP: 3px">=C2=BB=
+ </TD>
+                      <TD style=3D"PADDING-TOP: 3px" class=3Dtitrecpetp><FO=
+NT
+                        style=3D"COLOR: #000000; FONT-SIZE: 12px; FONT-WEIG=
+HT: normal"><A href=3D"http://www.groupesolutions.fr/suivi/mail1.php?3&150-=
+715&4&sZyf%2BoFV6GoiBtXTaSVhwQ">programme
+                        d=C3=A9taill=C3=A9 &amp; inscription
+                    gratuite</A></FONT></TD></TR></TBODY></TABLE></TD></TR>=
+</TBODY></TABLE>
+            <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%=
+">
+              <TBODY>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"PADDING-BOTTOM: 4px; PADDING-TOP: 4px"
+                      colSpan=3D3><SPAN class=3Dtextehome3bis><FONT
+                        style=3D"FONT-SIZE: 18px" color=3D#666666>Mercredi =
+<FONT
+                        color=3D#a0c43a>22</FONT> septembre
+                    2010</FONT></SPAN></TD></TR>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" width=3D10>=E2=80=A2&nbs=
+p;</TD>
+                      <TD class=3Dtitrecpetp>Optimisation de la performance
+                        =C3=A9nerg=C3=A9tique dans les b=C3=A2timents publi=
+cs, PPP, CPE,
+                    =E2=80=A6</TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" width=3D10>=E2=80=A2&nbs=
+p;</TD>
+                      <TD class=3Dtitrecpetp>Vers une gestion informatis=C3=
+=A9e
+                        globale des b=C3=A2timents</TD></TR></TBODY></TABLE=
+></TD></TR>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" width=3D10>=E2=80=A2&nbs=
+p;</TD>
+                      <TD class=3Dtitrecpetp>La force de LonWorks : ses out=
+ils
+                        et ses solutions globales multi m=C3=A9tiers
+                  </TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop
+width=3D10>=E2=80=A2&nbsp;</TD>
+                      <TD class=3Dtitrecpetp>Impacts des r=C3=A8glementatio=
+ns et
+                        certifications =C3=A9nerg=C3=A9tiques sur la certif=
+ication des
+                        solutions GTB/GTC</TD></TR></TBODY></TABLE></TD></T=
+R>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" width=3D10>=E2=80=A2&nbs=
+p;</TD>
+                      <TD class=3Dtitrecpetp>Interop=C3=A9rabilit=C3=A9 des=
+ syst=C3=A8mes de
+                        GTB et des applications </TD></TR></TBODY></TABLE><=
+/TD></TR>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop
+width=3D10>=E2=80=A2&nbsp;</TD>
+                      <TD class=3Dtitrecpetp>Affichage, contr=C3=B4le, r=C3=
+=A9gulation,
+                        contrats de performance =C3=A9nerg=C3=A9tique, gara=
+nties de
+                        r=C3=A9sultat, =E2=80=A6</TD></TR></TBODY></TABLE><=
+/TD></TR>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" width=3D10>=E2=80=A2&nbs=
+p;</TD>
+                      <TD class=3Dtitrecpetp>La norme
+                BACnet</TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" width=3D10>=E2=80=A2&nbs=
+p;</TD>
+                      <TD class=3Dtitrecpetp>Int=C3=A9gration de la GTB/GTC=
+ dans la
+                        r=C3=A9novation =C3=A9nerg=C3=A9tique des b=C3=A2ti=
+ments
+                </TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" width=3D10>=E2=80=A2&nbs=
+p;</TD>
+                      <TD class=3Dtitrecpetp>R=C3=A9seaux sans fil pour g=
+=C3=A9rer le
+                        b=C3=A2timent : quelles solutions ?</TD></TR></TBOD=
+Y></TABLE></TD></TR>
+              <TR>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop
+width=3D10>=E2=80=A2&nbsp;</TD>
+                      <TD class=3Dtitrecpetp>Maquette num=C3=A9rique (2) : =
+outils et
+                        m=C3=A9thodes pour la conception et l=E2=80=99ing=
+=C3=A9nierie des
+                        B=C3=A2timents Intelligents</TD></TR>
+                    <TR>
+                      <TD style=3D"COLOR: #a0c43a; PADDING-TOP: 3px">=C2=BB=
+ </TD>
+                      <TD style=3D"PADDING-TOP: 3px" class=3Dtitrecpetp><FO=
+NT
+                        style=3D"COLOR: #000000; FONT-SIZE: 12px; FONT-WEIG=
+HT: normal"><A href=3D"http://www.groupesolutions.fr/suivi/mail1.php?3&150-=
+715&4&sZyf%2BoFV6GoiBtXTaSVhwQ">programme
+                        d=C3=A9taill=C3=A9 &amp; inscription
+                    gratuite</A></FONT></TD></TR></TBODY></TABLE></TD></TR>=
+</TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD style=3D"BORDER-TOP: #cccccc 1px solid" bgColor=3D#efefef colSpan=
+=3D2>
+      <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD
+            style=3D"PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-TOP: 5=
+px"><TABLE
+            cellSpacing=3D0 cellPadding=3D0>
+              <TBODY>
+              <TR>
+                <TD style=3D"PADDING-BOTTOM: 7px; COLOR: #a0c43a" vAlign=3D=
+top
+                colSpan=3D2><FONT class=3Dtextehome3bis>Les
+              intervenants</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Pierre TABARY <FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666>- Directeur
+                  Solutions B=C3=A2timents - SCHNEIDER ELECTRIC</FONT></TD>=
+</TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>St=C3=A9phanie TUCOULET<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Secr=C3=
+=A9taire
+                  G=C3=A9n=C3=A9rale&nbsp; SVDI&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Didier PELLEGRIN<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Directeu=
+r du
+                  programme HOMES Schneider Electric - PROGRAMME
+                  HOMES&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Olivier COTTET<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Directeur
+                  Marketing et Fili=C3=A8res du programme HOMES - PROGRAMME
+                  HOMES&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Herv=C3=A9 FANET<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Responda=
+ble des
+                  partenariats strat=C3=A9giques - CEA LETI&nbsp;</FONT></T=
+D></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Michel GAETA<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Directeur
+                  technique - WATTECO&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Marc ALTASIN<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> -
+                CIAT&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Mireille JANDON<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Responsa=
+ble P=C3=B4le
+                  Automatismes et Gestion de l'=C3=A9nergie - CSTB&nbsp;</F=
+ONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Serge LE MEN<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Directeu=
+r G=C3=A9n=C3=A9ral
+                  - NEWRON SYSTEM&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Benoit VERVANDIER<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Directeu=
+r G=C3=A9n=C3=A9ral
+                  - ACTIVE 3D&nbsp; -&nbsp; ARCHIMEN&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Guillaume ANSANAY<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> -
+                CSTB&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Gauthier BELHOMME<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Directeu=
+r de
+                  l'Ing=C3=A9nierie Environnementale - OGER
+                INTERNATIONAL&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Sylvain FRODE DE LA FORET<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - SCHNEIDER
+                  ELECTRIC&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Thierry ALLARD<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Pr=C3=A9=
+sident - POLE
+                  S2E2&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Dan NAPAR<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Pr=C3=A9=
+sident -
+                  BACNET FRANCE&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Didier GIRAUD<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Pr=C3=A9=
+sident - KNX
+                  FRANCE&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Serge LE MEN<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Pr=C3=A9=
+sident -
+                  LONMARK FRANCE&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Christophe DELACHAT<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Responsa=
+ble de
+                  l'Activit=C3=A9 KNX - ABB</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Jean-Charles BANGRATZ<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Directeu=
+r des
+                  Syst=C3=A8mes d'Information - Charg=C3=A9 de cours =C3=A0=
+ l'ESTP - OGER
+                  INTERNATIONAL&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Martin VILLENEUVE<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Vice Pr=
+=C3=A9sident
+                  Europe - DISTECH CONTROLS&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Laure VAN DER HAUWAERT<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Responsa=
+ble
+                  Offres Conseil, Communications Unifi=C3=A9es, Collectivit=
+=C3=A9s &amp;
+                  Green IT - SPIE&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Jean-Luc ESCULPAVIT<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Responsa=
+ble
+                  Technique France et Afrique du Nord -
+              COMMSCOPE&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Fr=C3=A9d=C3=A9ric CAILLET<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Directeur
+                  technique - ECHELON&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Dominique BRAULT<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Responsa=
+ble
+                  Activit=C3=A9 Solutions Telecom - ACOME&nbsp;</FONT></TD>=
+</TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Christophe DUGAS<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - WAVENIS =
+OPEN
+                  STANDARD ALLIANCE&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Laurent SCHMITT<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Directeur
+                  Innovation - ALSTOM&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Olivier SEZNEC<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Directeu=
+r de la
+                  strat=C3=A9gie technologique - CISCO&nbsp;</FONT></TD></T=
+R>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Georges DUFFAU<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> PDG de WIT=
+ SA et
+                  PDG de DUNE Solutions WIT&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>David LE VELY<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Responsa=
+ble
+                  Marketing- March=C3=A9 Courants faibles -
+LEGRAND&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Patrice CARTON<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Chef du =
+Service
+                  Syst=C3=A8mes d'Informations du B=C3=A2timent - OGER
+                  INTERNATIONAL&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Thierry DJAHEL<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - SCHNEIDER
+                  ELECTRIC&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Alain FAISANT<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Directeur
+                  Commercial - ARC INFORMATIQUE&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Jean-Yves BLANC<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Pr=C3=A9=
+sident -
+                  EUBAC&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Pierre BOISSON<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> -
+                CSTB&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Jacques BOURGAIN<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> -
+                BTIB&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Nicolas COUILLAUD<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> -
+                CSTB&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>J=C3=A9rome BOISSOU<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Responsa=
+ble
+                  communication produits tertiaire et industrie -
+                  LEGRAND&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Dan NAPAR<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Pr=C3=A9=
+sident -
+                  BACNET FRANCE</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Fabienne GASTAUD<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Directri=
+ce
+                  G=C3=A9n=C3=A9rale - WIT&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Marie-Pierre MACCARIO<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Chef du =
+service
+                  GIPE - D=C3=A9partement A.R.I. - SPIE&nbsp;</FONT></TD></=
+TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Jean-Marc MOLINA<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - D=C3=A9l=
+=C3=A9gu=C3=A9 G=C3=A9n=C3=A9ral
+                  adjoint - GIMELEC&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Jean-Fr=C3=A9d=C3=A9ric MARTIN<FONT=
+=20
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Pr=C3=A9=
+sident
+                  fondateur - ARVENI&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Pierre MIT<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Pr=C3=A9=
+sident -
+                  UNTEC&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Laurent ORTAS<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Responsa=
+ble
+                  Nouvelles technologies - SAINT GOBAIN&nbsp;</FONT></TD></=
+TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Patrick PONTHIER<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - D=C3=A9l=
+=C3=A9gu=C3=A9 G=C3=A9n=C3=A9ral -
+                  AIMCC&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Eduardo LUZZATO GIULIANI<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Directeur
+                  D=C3=A9veloppement des Syst=C3=A8mes d'Information du B=
+=C3=A2timent - OGER
+                  INTERNATIONAL&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Eric LEBEGUE<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> -
+                CSTB&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Emmanuel FRANCOIS<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Consulta=
+nt France
+                  - ENOCEAN&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Jean-Pierre DESBENOIT<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Expert S=
+enior
+                  Groupe Strategy and Innovation Department - ZIGBEE
+                  ALLIANCE&nbsp;</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>Ludivic CALLIER<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Key Acco=
+unt
+                  Manager OEM, Home &amp; Building - CORONIS&nbsp;</FONT></=
+TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a" vAlign=3Dtop width=3D10>=E2=80=
+=A2&nbsp;</TD>
+                <TD class=3Dtitrecpetp>J=C3=A9r=C3=B4me LAULAN<FONT
+                  style=3D"FONT-WEIGHT: normal" color=3D#666666> - Membre d=
+u bureau
+                  - KNX FRANCE</FONT></TD></TR>
+              <TR>
+                <TD style=3D"COLOR: #a0c43a; PADDING-TOP: 3px">=C2=BB </TD>
+                <TD style=3D"PADDING-TOP: 3px" class=3Dtitrecpetp><FONT
+                  style=3D"COLOR: #000000; FONT-SIZE: 12px; FONT-WEIGHT: no=
+rmal"><A href=3D"http://www.groupesolutions.fr/suivi/mail1.php?3&150-715&5&=
+sZyf%2BoFV6GoiBtXTaSVhwQ">liste
+                  compl=C3=A8te &amp;
+          d=C3=A9taill=C3=A9e</A></FONT></TD></TR></TBODY></TABLE></FONT></=
+TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD bgColor=3D#a0c43a colSpan=3D2>
+      <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD
+          style=3D"TEXT-ALIGN: left; LINE-HEIGHT: 22px; PADDING-LEFT: 5px; =
+PADDING-RIGHT: 6px; FONT-FAMILY: Tahoma, Geneva, Kalimati, sans-serif; COLO=
+R: #000000; FONT-SIZE: 22px; FONT-WEIGHT: bold">Badge
+            visiteur<FONT style=3D"FONT-SIZE: 18px" color=3D#ffffff><BR>gra=
+tuit d=C3=A8s
+            aujourd'hui</FONT><BR><FONT
+            style=3D"LINE-HEIGHT: 12px; FONT-SIZE: 12px" color=3D#000000><A=
+ href=3D"http://www.groupesolutions.fr/suivi/mail1.php?3&150-715&2&sZyf%2Bo=
+FV6GoiBtXTaSVhwQ" target=3D"_blank">Pr=C3=A9-enregistrez-vous</A> et receve=
+z votre badge
+            gratuitement d=C3=A8s aujourd'hui.</FONT></TD>
+          <TD><A href=3D"http://www.groupesolutions.fr/suivi/mail1.php?3&15=
+0-715&2&sZyf%2BoFV6GoiBtXTaSVhwQ" target=3D"_blank"><IMG border=3D"0" src=
+=3D"http://www.ibs-event.com/2010/inscription.png" width=3D"100" height=3D"=
+100"></A></TD>
+          <TD width=3D268><A href=3D"http://www.groupesolutions.fr/suivi/ma=
+il1.php?3&150-715&2&sZyf%2BoFV6GoiBtXTaSVhwQ" target=3D"_blank"><IMG border=
+=3D"0" src=3D"http://www.ibs-event.com/2010/visu-news-6.png" width=3D"268" =
+height=3D"117"></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D600 bgColor=3D#de=
+dede
+align=3Dcenter>
+  <TBODY>
+  <TR>
+    <TD style=3D"PADDING-TOP: 5px" vAlign=3Dtop>
+      <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD style=3D"PADDING-LEFT: 5px" bgColor=3D#dedede vAlign=3Dtop
+            width=3D25><IMG src=3D"http://www.salons-solutions.com/2010/fle=
+che_nb.gif" width=3D"16" height=3D"16"></TD>
+          <TD bgColor=3D#dedede><STRONG><FONT style=3D"FONT-SIZE: 14px"><A =
+href=3D"http://www.groupesolutions.fr/suivi/mail1.php?3&150-715&6&sZyf%2BoF=
+V6GoiBtXTaSVhwQ" target=3D"_blank">Liste des exposants &amp;
+            partenaires</A></FONT></STRONG></TD></TR></TBODY></TABLE></TD><=
+/TR>
+  <TR>
+    <TD vAlign=3Dtop>
+      <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD style=3D"PADDING-LEFT: 5px" bgColor=3D#dedede vAlign=3Dtop
+            width=3D25><IMG src=3D"http://www.salons-solutions.com/2010/fle=
+che_nb.gif" width=3D"16" height=3D"16"></TD>
+          <TD bgColor=3D#dedede><FONT style=3D"FONT-SIZE: 14px"><A href=3D"=
+http://www.groupesolutions.fr/suivi/mail1.php?3&150-715&4&sZyf%2BoFV6GoiBtX=
+TaSVhwQ" target=3D"_blank"><STRONG>Programme complet des conf=C3=A9rences &=
+amp;
+            ateliers</STRONG></A></FONT></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD vAlign=3Dtop>
+      <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD style=3D"PADDING-LEFT: 5px" bgColor=3D#dedede vAlign=3Dtop
+            width=3D25><IMG src=3D"http://www.salons-solutions.com/2010/fle=
+che_nb.gif" width=3D"16" height=3D"16"></TD>
+          <TD bgColor=3D#dedede><A href=3D"http://www.groupesolutions.fr/su=
+ivi/mail1.php?3&150-715&5&sZyf%2BoFV6GoiBtXTaSVhwQ" target=3D"_blank"><STRO=
+NG>Liste des
+        intervenants</STRONG></A></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD style=3D"PADDING-BOTTOM: 5px" vAlign=3Dtop>
+      <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD style=3D"PADDING-LEFT: 5px" bgColor=3D#dedede vAlign=3Dtop
+            width=3D25><IMG src=3D"http://www.salons-solutions.com/2010/fle=
+che_nb.gif" width=3D"16" height=3D"16"></TD>
+          <TD bgColor=3D#dedede><A href=3D"http://www.groupesolutions.fr/su=
+ivi/mail1.php?3&150-715&7&sZyf%2BoFV6GoiBtXTaSVhwQ" target=3D"_blank"><STRO=
+NG>Informations
+        pratiques</STRONG></A></TD></TR></TBODY></TABLE></TD></TR></TBODY><=
+/TABLE>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D600 align=3Dcente=
+r>
+  <TBODY>
+  <TR>
+    <TD>
+      <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D600>
+        <TBODY>
+        <TR>
+          <TD
+          style=3D"PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3=
+px; PADDING-TOP: 3px"
+          bgColor=3D#efefef>Vos clients, prospects, collaborateurs... sont=
+=20
+            susceptibles d'=C3=AAtre int=C3=A9ress=C3=A9s par ce message ? =
+<B><A href=3D"mailto: ?Subject=3DMessage transfere pour information : http:=
+//www.ibs-event.com/news-2010-2.html">Transf=C3=A9rez
+            le !</A></B></TD></TR>
+        <TR>
+          <TD colSpan=3D2>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD
+    style=3D"TEXT-ALIGN: justify; PADDING-BOTTOM: 4px; LINE-HEIGHT: 15px; P=
+ADDING-LEFT: 4px; PADDING-RIGHT: 4px; FONT-SIZE: 15px; PADDING-TOP: 4px"
+    bgColor=3D#666666 width=3D600 colSpan=3D5><SPAN class=3DStyle1>R=C3=A9g=
+ulation</SPAN>
+      <SPAN class=3DStyle2>Performance =C3=89nerg=C3=A9tique</SPAN> <SPAN
+      class=3DStyle3>LonWorks</SPAN> Immeuble Intelligent <SPAN
+      class=3DStyle2>Domotique</SPAN> ZigBee <SPAN class=3DStyle2>Courant
+      Faible</SPAN> CPL <SPAN class=3DStyle1>Immotique</SPAN> <SPAN
+      class=3DStyle1>LonMark</SPAN> Facility Management <SPAN
+      class=3DStyle2>Maintenance</SPAN> <SPAN class=3DStyle1>eHOME</SPAN> <=
+SPAN
+      class=3DStyle1>eu.bac</SPAN> <SPAN class=3DStyle3>BACnet</SPAN> <SPAN
+      class=3DStyle2>GTB</SPAN> <SPAN class=3DStyle1>GTC</SPAN> <SPAN
+      class=3DStyle2>C=C3=A2blage</SPAN> EnOcean <SPAN class=3DStyle3>Capte=
+urs</SPAN>
+      <SPAN class=3DStyle1>Automatismes</SPAN> <SPAN class=3DStyle3>EPBD</S=
+PAN>
+      <SPAN class=3DStyle1>=C3=89clairage</SPAN> RT 2012 <SPAN class=3DStyl=
+e2>BBC</SPAN>
+      THPE <SPAN class=3DStyle1>Infrastructures &amp; R=C3=A9seaux</SPAN> <=
+SPAN
+      class=3DStyle2>B=C3=A2timents</SPAN> <SPAN class=3DStyle3>KNX</SPAN>&=
+nbsp;<SPAN
+      class=3DStyle1>LEDs</SPAN> <SPAN class=3DStyle2>S=C3=A9curit=C3=A9 &a=
+mp; Contr=C3=B4le</SPAN>
+      Lifesafety Systems...</TD></TR>
+  <TR>
+    <TD style=3D"PADDING-RIGHT: 10px; COLOR: #000000; FONT-SIZE: 10px" heig=
+ht=3D25
+    width=3D"100%" align=3Dright><STRONG>www.ibs-event.com - copyright IBS =
+event
+      2010</STRONG> - tous droits r=C3=A9serv=C3=A9s</TD></TR>
+  <TR>
+    <TD>&nbsp;</TD></TR>
+  <TR>
+    <TD style=3D"FONT-SIZE: 10px" colSpan=3D2><FONT size=3D1>Conform=C3=A9m=
+ent =C3=A0
+      l'article 34 de la loi Informatique et Libert=C3=A9 du 6 janvier 1978=
+, vous
+      disposez d'un droit d'acc=C3=A8s, de modification, de rectification e=
+t de
+      suppression des donn=C3=A9es vous concernant. Si ce message vous a ca=
+us=C3=A9 un
+      quelconque d=C3=A9rangement, nous vous prions de nous en excuser et v=
+ous
+      incitons =C3=A0 vous d=C3=A9sinscrire de notre fichier en </FONT><A h=
+ref=3D"http://www.groupesolutions.fr/suivi/mail2.php?2&150-715&9&4&desinscr=
+iption@infoexpo.fr&fr&sZyf%2BoFV6GoiBtXTaSVhwQ&president@univ-angers.fr"><F=
+ONT size=3D1>suivant ce
+      lien</FONT></A><FONT size=3D1>.</FONT></TD></TR></TBODY></TABLE><img =
+src=3D"http://www.groupesolutions.fr/suivi/mail1.php?3&150-715&-1&sZyf%2BoF=
+V6GoiBtXTaSVhwQ" border=3D"0" width=3D"1" height=3D"1">
+</BODY></HTML>
+
+------=_Part_2798_1419811060.1284392184938--

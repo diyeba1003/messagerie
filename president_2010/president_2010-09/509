@@ -1,0 +1,95 @@
+Return-Path: <Stephane.Cassereau@mines-nantes.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id CBC0A22899
+	for <president@listes.univ-angers.fr>; Wed, 29 Sep 2010 19:57:00 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id E2AFF114549; Wed, 29 Sep 2010 19:57:02 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp1.univ-nantes.fr [193.52.82.18])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id D72A5114540
+	for <president@univ-angers.fr>; Wed, 29 Sep 2010 19:57:02 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id CAAC3805884
+	for <president@univ-angers.fr>; Wed, 29 Sep 2010 19:57:02 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp1.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id pgEnE+p1Z4aA for <president@univ-angers.fr>;
+	Wed, 29 Sep 2010 19:57:02 +0200 (CEST)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id B4B17805882
+	for <president@univ-angers.fr>; Wed, 29 Sep 2010 19:57:02 +0200 (CEST)
+Received: from mx1.univ-nantes.fr (MX1.univ-nantes.fr [193.52.101.135])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id AA1AF6A1
+	for <Daniel.Martina@univ-nantes.fr>; Wed, 29 Sep 2010 19:57:02 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mx1.univ-nantes.fr (Postfix) with ESMTP id 9165C1308EF2;
+	Wed, 29 Sep 2010 19:57:02 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+X-Spam-Flag: NO
+X-Spam-Score: 0
+X-Spam-Level: 
+X-Spam-Status: No, score=x tagged_above=-1000 required=5 WHITELISTED tests=[]
+Received: from mx1.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id hkukxiglj6VL; Wed, 29 Sep 2010 19:57:02 +0200 (CEST)
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+Received: from ron.mines-nantes.fr (sicnat4.emn.fr [193.54.76.195])
+	by mx1.univ-nantes.fr (Postfix) with ESMTP id 6C40E1308EF0;
+	Wed, 29 Sep 2010 19:57:02 +0200 (CEST)
+Received: from gev.emn.fr (campus.mines-nantes.fr [193.54.76.50])
+          by ron.mines-nantes.fr (8.14.4/jtpda-5.3.1) with ESMTP id o8THwKcS017220
+          ; Wed, 29 Sep 2010 19:58:20 +0200
+Received: from [127.0.0.1] (dhcp164.rech38.emn.fr [192.168.38.164])
+	(authenticated bits=0)
+	by gev.emn.fr (8.14.4/8.14.3) with ESMTP id o8THv2vV030613
+	(version=TLSv1/SSLv3 cipher=AES256-SHA bits=256 verify=NO);
+	Wed, 29 Sep 2010 19:57:02 +0200
+Message-ID: <4CA37E86.8030504@emn.fr>
+Date: Wed, 29 Sep 2010 19:59:34 +0200
+From: =?ISO-8859-1?Q?St=E9phane_Cassereau?= <Stephane.Cassereau@mines-nantes.fr>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; fr; rv:1.9.2.9) Gecko/20100915 Thunderbird/3.1.4
+MIME-Version: 1.0
+To: Daniel MARTINA <Daniel.Martina@univ-nantes.fr>,
+        Yves LECOINTE <Yves.Lecointe@univ-nantes.fr>
+CC: VPCS <vpcs@univ-nantes.fr>, Francis YGUEL <Francis.Yguel@univ-nantes.fr>
+References: <e552fecf744f097ca66e06be37254c50.squirrel@webmail.univ-nantes.fr>
+In-Reply-To: <e552fecf744f097ca66e06be37254c50.squirrel@webmail.univ-nantes.fr>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+Subject: [president] Re:
+
+  Compte tenu du déroulement il me parait nécessaire de faire un 
+développement, au moins de quelques minutes, sur chacun des projets 
+structurants :
+- IRT Jules Vernes
+- IHU
+et de dire un mot de notre contribution à
+- IRT B Com
+- IEED énergie marines
+- SATT
+
+Il faut qu'on se répartisse ces points.
+
+Pour ce qui me concerne, je peux dire un mot sur l'IRT B Com
+
+Sc
+
+Le 29/09/2010 19:27, VPCS a écrit :
+> Bonsoir
+> Voila le CR de la réunion Starter Bretagne
+> Très beau powerpoint présenté par Guy Cathelineau
+> Ont aussi cause : le responsable de l'IEED, de l'IRT et de la SATT
+> jg
+>
+>
+>
+> Bien cordialement
+> Jacques GIRARDEAU
+> Vice-président de l'Université de Nantes
+> En charge du  du Conseil scientifique et du développement de la recherche,
+> de sa valorisation et de la formation doctorale
+

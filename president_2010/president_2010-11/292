@@ -1,0 +1,135 @@
+Return-Path: <414.67468578.313334323731.b@dii.acc0.com>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 6B76022862
+	for <president@listes.univ-angers.fr>; Wed, 17 Nov 2010 15:58:46 +0100 (CET)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 5B8CC11402A; Wed, 17 Nov 2010 15:58:46 +0100 (CET)
+Delivered-To: president@univ-angers.fr
+X-Greylist: delayed 1200 seconds by postgrey-1.32 at smtp.univ-angers.fr; Wed, 17 Nov 2010 15:58:45 CET
+Received: from tnf-mta01-179-54.dii.pgs01.com (tnf-mta01-179-54.dii.pgs01.com [137.236.179.54])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id EE534114120
+	for <president@univ-angers.fr>; Wed, 17 Nov 2010 15:58:45 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dii; d=development-institute.com;
+ h=Message-ID:Date:From:Reply-To:To:Subject:Mime-Version:Content-Type; i=dm@development-institute.com;
+ bh=APNTUgn/FIYntEZbMl1ZZ1zxcB0=;
+ b=Z66lV5XJxAqFccV8jQa4nVHFI47oNfvBrsUC7mc+V/JoJtOIO9Rs9ERKiC6K/kJkhkM4mRrGqNGh
+   6aWSQo7D103KgTZ2EZrjKvL0Z8pi2k0xZPEIcSSuGFdQg9T4O6JcupT54eGDFIhHenOjjnuwRbM6
+   cIL3bNDYF1RPwuQx34Y=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dii; d=development-institute.com;
+ b=KINiIrOzuddkidTga7BdCSxz71L+d66143F7rEqc/SgWAUI3bpDk+jWvDCcbvTogRO89z1DQmWej
+   qCqVyMulMcveFpCf0hOfKW12PsrDT/yRxD8lQL0+J3/dyigaVQsNlBhZRwvp+5k52bCbUBOsJjZH
+   iixsUwaqr+yeJlwIp/M=;
+Received: from tnf-agent03.pgs01.com (137.236.173.4) by tnf-mta01-179-54.dii.pgs01.com (PowerMTA(TM) v3.5r13) id hsfmqc0i73g4 for <president@univ-angers.fr>; Wed, 17 Nov 2010 09:38:43 -0500 (envelope-from <414.67468578.313334323731.b@dii.acc0.com>)
+Message-ID: <33312706.1290004723260.JavaMail.root@tnf-agent03.pgs01.com>
+Date: Wed, 17 Nov 2010 09:38:43 -0500 (EST)
+From: Dii Conferences <dm@development-institute.com>
+Reply-To: dm@development-institute.com
+To: president@univ-angers.fr
+Mime-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_6149786_27750720.1290004723260"
+X-Mailer-Version: 6.4.0 build 2437
+X-Mailer: Accucast
+X-Accutrak: 414.67468578.313334323731
+Subject: [president] =?UTF-8?Q?R=C3=A9seaux_Sociaux_:_enqu=C3=AAte?=
+
+
+------=_Part_6149786_27750720.1290004723260
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+ 
+------=_Part_6149786_27750720.1290004723260
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<title>Document sans nom</title>
+<meta content=3D"EditLive! for Java 4.0.4.96" name=3D"generator">
+<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type">
+<style type=3D"text/css">
+body {
+  font-family: "Arial,  Helvetica,  sans-serif";
+  font-size: 12px;
+}
+th {
+  font-family: "Arial,  Helvetica,  sans-serif";
+  font-size: 12px;
+}
+td {
+  font-family: "Arial,  Helvetica,  sans-serif";
+  font-size: 12px;
+}
+</style>
+</head>
+<body>
+<p>Madame, Monsieur,</p>
+
+<p>Nous vous proposons de participer =C3=A0 notre enqu=C3=AAte flash sur le=
+s r=C3=A9seaux sociaux sur Internet *.</p>
+
+<p>Nous vous serions tr=C3=A8s reconnaissants de prendre quelques secondes =
+pour r=C3=A9pondre =C3=A0 <strong>deux questions</strong> en <b><a href=3D"=
+http://www.surveymonkey.com/s/VF73LYK"><span style=3D" font-size: x-small;"=
+>cliquant ici</span></a></b></p>
+
+<p>Nous vous garantissons bien s=C3=BBr tout anonymat et confidentialit=C3=
+=A9, et nous vous remercions par avance pour votre participation.</p>
+
+<p>Restant =C3=A0 votre disposition pour toute question, nous vous prions d=
+e bien vouloir agr=C3=A9er, Madame, Monsieur, l'expression de nos salutatio=
+ns distingu=C3=A9es.</p>
+
+<p>Delphine Monard<br>
+Development Institute International - Dii<br>
+Tel : +33 (0)1 43 12 85 55 - Fax : +33 (0)1 40 06 95 26</p>
+
+<p>* <strong>Les r=C3=A9sulats de cette enqu=C3=AAte</strong> seront pr=C3=
+=A9sent=C3=A9s lors de la <strong>8=C3=A8me Conf=C3=A9rence Annuelle &quot;=
+Directeurs Communication Interne 2011&quot;</strong>, le 25 janvier 2011 =
+=C3=A0 Paris : <a href=3D"http://www.development-institute.com/article/9869=
+/Directeurs_Communication_Interne_2011">Programme complet de la conf=C3=A9r=
+ence</a> et sur le site <a href=3D"http://www.development-institute.com/net=
+/xslt.aspx" title=3D"">www.development-institute.com</a> =C3=A0 la fin du m=
+ois de janvier.</p>
+
+<hr>
+<p><b><span style=3D" font-size: x-small;">A propos de Dii :<br>
+</span></b><span style=3D" font-size: x-small;">Development institute inter=
+national est une soci=C3=A9t=C3=A9 ind=C3=A9pendante d=C3=A9di=C3=A9e =C3=
+=A0 la formation et l=E2=80=99information professionnelle pour cadres dirig=
+eants, gr=C3=A2ce =C3=A0 trois p=C3=B4les d=E2=80=99activit=C3=A9s compl=C3=
+=A9mentaires&nbsp;: les conf=C3=A9rences d=E2=80=99actualit=C3=A9, les form=
+ations, et une agence op=C3=A9rateur et conseil en =C3=A9v=C3=A9nement =C2=
+=AB&nbsp;Dii agency&nbsp;=C2=BB.<br>
+Depuis sa cr=C3=A9ation en 1993, Dii n=E2=80=99a cess=C3=A9 d=E2=80=99am=C3=
+=A9liorer la qualit=C3=A9 de son r=C3=A9seau d=E2=80=99experts, de ses m=C3=
+=A9thodologies et de ses pratiques pour s=E2=80=99adapter aux nouvelles exi=
+gences d=E2=80=99un march=C3=A9 en =C3=A9volution permanente, et ainsi perm=
+ettre =C3=A0 ses clients de prendre une longueur d=E2=80=99avance dans leur=
+ parcours professionnel.<br>
+Pour en savoir plus, d=C3=A9couvrez notre site : <a href=3D"http://www.deve=
+lopment-institute.com/net/xslt.aspx">www.development-institute.com</a></spa=
+n></p>
+
+<p>&nbsp;</p>
+
+<p align=3D"center"><span style=3D" font-family: Arial; font-size: xx-small=
+;">Les inf</span><span style=3D" font-family: Arial; font-size: xx-small;">=
+ormations vous concernant sont susceptibles de faire l'objet d'un traitemen=
+t automatis=C3=A9.Elles sont strictement destin=C3=A9es =C3=A0 Dii. Conform=
+=C3=A9ment =C3=A0 la loi informatique et libert=C3=A9s du 06/01/1978 (art. =
+27), vous disposez d'un droit d'acc=C3=A8s, de rectification ou de suppress=
+ion aux donn=C3=A9es personnelles vous concernant. Pour exercer ce droit :<=
+/span> <a href=3D"http://dii.acc0.com/cts/click?q=3D414%3B67468578%3BLEoOoB=
+00wLukhhYLSlcylzEVuEcavbyn&fbl=3D8"><span style=3D" font-size: xx-small;">c=
+liquez ici</span></a></p>
+
+<p>&nbsp;</p>
+<img src=3D"http://dii.acc0.com/cts/click?q=3D414%3B67468578%3BGR70I6dBZUAx=
+FbhHGr28pw%3D%3D"></body>
+</html>=
+
+------=_Part_6149786_27750720.1290004723260--
+

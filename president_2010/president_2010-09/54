@@ -1,0 +1,342 @@
+Return-Path: <JeanLuc.Tijou@codela.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id A37D422840
+	for <president@listes.univ-angers.fr>; Mon,  6 Sep 2010 13:24:26 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 96CD7114366; Mon,  6 Sep 2010 13:24:26 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp1.univ-nantes.fr [193.52.82.18])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 8D7CA11435C
+	for <president@univ-angers.fr>; Mon,  6 Sep 2010 13:24:26 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 7768384A4EB
+	for <president@univ-angers.fr>; Mon,  6 Sep 2010 13:24:26 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp1.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id OkUuNrz5Covj for <president@univ-angers.fr>;
+	Mon,  6 Sep 2010 13:24:26 +0200 (CEST)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 5D81B806024
+	for <president@univ-angers.fr>; Mon,  6 Sep 2010 13:24:26 +0200 (CEST)
+Received: from mx3.univ-nantes.fr (MX3.univ-nantes.fr [193.52.101.137])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id 49E6D3F3;
+	Mon,  6 Sep 2010 13:24:26 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mx3.univ-nantes.fr (Postfix) with ESMTP id 1431FD6BD35;
+	Mon,  6 Sep 2010 13:24:26 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+X-Spam-Flag: NO
+X-Spam-Score: 4.126
+X-Spam-Level: ****
+X-Spam-Status: No, score=4.126 tagged_above=-1000 required=5
+	tests=[AWL=-2.734, CRM114_SPAM=5, EXTRA_MPART_TYPE=1,
+	HTML_MESSAGE=0.001, SARE_GIF_ATTACH=0.75, SPF_HELO_PASS=-0.001,
+	UN_GIF_ATTACH=0.01, UN_PHISHING_4=0.1]
+Received: from mx3.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id KDv58IHQaBAE; Mon,  6 Sep 2010 13:24:25 +0200 (CEST)
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+Received: from moutng.kundenserver.de (moutng.kundenserver.de [212.227.17.9])
+	by mx3.univ-nantes.fr (Postfix) with ESMTP id 3B4CAD6E5A0;
+	Mon,  6 Sep 2010 13:24:24 +0200 (CEST)
+Received: from codela.fr (glo44-5-88-164-17-157.fbx.proxad.net [88.164.17.157])
+	by mrelayeu.kundenserver.de (node=mrbap1) with ESMTP (Nemesis)
+	id 0LjLyR-1OLADZ25y3-00d9pa; Mon, 06 Sep 2010 12:40:25 +0200
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----_=_NextPart_001_01CB4DAE.7246C614";
+	type="multipart/alternative"
+Date: Mon, 6 Sep 2010 12:29:53 +0200
+Message-ID: <747732BA6EA1CE4DBD32B16895831A1E78BB98@zelina.codela.local>
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+Thread-Topic: =?iso-8859-1?Q?Confirmation_conf=E9rence_MOBILITE?=
+thread-index: ActNrnE0n/l/TdNeRdyj8UQ+GNd8Nw==
+X-Priority: 1
+Priority: Urgent
+Importance: high
+Sensitivity: Personal
+From: "Jean-Luc Tijou" <JeanLuc.Tijou@codela.fr>
+To: <cdla@codela.fr>
+Cc: "Jean-Luc Tijou" <JeanLuc.Tijou@codela.fr>
+X-Provags-ID: V02:K0:XJOl9v7F9VsXfzbA84Wp8mU+H3Te2gDQxpmELTTxkQm
+ mwK+10Mu/dRaip9R9fiKBkx0yzD2SZXt3THzHhYJsYsI9SRz9v
+ K0wje0AIMA0ws/MuERxfOpcSyJaCxG9SWauvnRM/IFYO8xQMX/
+ JVdgnbNR5HrqQZbnAvrZe9hilVzCgrHdg4fHHZFZLLc5yMm9or
+ LGftWPEBQdmW3vrqlsSLsr+ffaHt070sCwWVvHgVWM=
+Subject: [president] =?ISO-8859-1?Q?Confirmation_conf=E9rence_MOBILITE?=
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01CB4DAE.7246C614
+Content-Type: multipart/alternative;
+	boundary="----_=_NextPart_002_01CB4DAE.7246C614"
+
+
+------_=_NextPart_002_01CB4DAE.7246C614
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Bonjour =E0 tous,
+=20
+Nous vous confirmons que la conf=E9rence "Quelle mobilit=E9 durable pour le=
+s espaces ruraux et urbains"  est maintenue.
+=20
+Pour rappel :=20
+=20
+Conf=E9rencier : Bruno Marzloff - http://www.groupechronos.org/ <http://www=
+.groupechronos.org/>=20
+=20
+Date et Lieu : Mardi 7 septembre - Salle "horizinc" =E0 Bouvron
+Horaire : Caf=E9 d'accueil =E0 partir de 14h=20
+D=E9but de conf=E9rence : 14h30 - Fin de conf=E9rence 16h30
+=20
+Pour revoir l'invitation et le plan d'acc=E8s : http://www.codela.fr/media/=
+CDLA/Emailing/Invitation%20Marzloff%20allege.pdf
+=20
+A demain.
+=20
+Jean-Luc TIJOU
+=20
+=20
+21 bd Gaston Doumergue - 44 200 Nantes
+T=E9l : 02 40 48 48 00 - Fax : 02 40 48 14 24
+Tramway lignes 2 et 3 - Station Vincent G=E2che
+=20
+=20
+
+------_=_NextPart_002_01CB4DAE.7246C614
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content=3D"text/html; charset=3Diso-8859-1" http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.18943"></HEAD>
+<BODY>
+<DIV><FONT color=3D#000080>
+<DIV><FONT color=3D#0000ff size=3D4 face=3D"Futura Md"><SPAN=20
+class=3D117355909-06092010>Bonjour =E0 tous,</SPAN></FONT></DIV>
+<DIV><FONT color=3D#0000ff size=3D4 face=3D"Futura Md"><SPAN=20
+class=3D117355909-06092010></SPAN></FONT>&nbsp;</DIV>
+<DIV><SPAN class=3D117355909-06092010><FONT face=3D"Futura Md"><FONT size=
+=3D4><FONT=20
+color=3D#0000ff>Nous vous confirmons que la conf=E9rence "<STRONG>Quelle mo=
+bilit=E9=20
+durable pour les espaces ruraux et urbains</STRONG>"&nbsp; <STRONG><U>est=
+=20
+maintenue<SPAN=20
+class=3D327261310-06092010>.</SPAN></U></STRONG></FONT></FONT></FONT></SPAN=
+></DIV>
+<DIV><FONT color=3D#0000ff face=3D"Futura Md"></FONT>&nbsp;</DIV>
+<DIV align=3Dleft><FONT color=3D#0000ff size=3D4 face=3D"Futura Md"><SPAN=
+=20
+class=3D117355909-06092010>Pour rappel : </SPAN></FONT></DIV>
+<DIV align=3Dleft><FONT color=3D#0000ff size=3D4 face=3D"Futura Md"><SPAN=
+=20
+class=3D117355909-06092010></SPAN></FONT>&nbsp;</DIV>
+<DIV align=3Dleft><FONT color=3D#0000ff face=3D"Futura Md"><SPAN=20
+class=3D117355909-06092010><SPAN class=3D327261310-06092010><FONT=20
+size=3D4>Conf=E9rencier : <STRONG>Bruno Marzloff - <A=20
+href=3D"http://www.groupechronos.org/"><FONT=20
+size=3D2>http://www.groupechronos.org/</FONT></A></STRONG></FONT></SPAN></S=
+PAN></FONT></DIV>
+<DIV align=3Dleft><FONT color=3D#0000ff size=3D4 face=3D"Futura Md"><SPAN=
+=20
+class=3D117355909-06092010><SPAN=20
+class=3D327261310-06092010><STRONG></STRONG></SPAN></SPAN></FONT>&nbsp;</DI=
+V>
+<DIV align=3Dleft><SPAN class=3D117355909-06092010><FONT face=3D"Futura Md"=
+><FONT=20
+color=3D#0000ff><FONT size=3D4><SPAN class=3D327261310-06092010>Date et=20
+</SPAN>Lieu&nbsp;:<STRONG>&nbsp;<SPAN class=3D327261310-06092010>Mardi 7 se=
+ptembre=20
+- </SPAN>Salle&nbsp;<SPAN class=3D327261310-06092010>"</SPAN>horizinc<SPAN=
+=20
+class=3D327261310-06092010>"</SPAN> =E0=20
+Bouvron</STRONG></FONT></FONT></FONT></SPAN></DIV>
+<DIV><SPAN class=3D117355909-06092010><FONT face=3D"Futura Md"><FONT=20
+color=3D#0000ff><FONT size=3D4>Horaire : Caf=E9 d'accueil =E0 partir de 14h=
+<SPAN=20
+class=3D327261310-06092010> </SPAN></FONT></FONT></FONT></SPAN></DIV>
+<DIV><SPAN class=3D117355909-06092010><FONT face=3D"Futura Md"><FONT=20
+color=3D#0000ff><FONT size=3D4>D=E9but de conf=E9rence : 14h30 -&nbsp;<SPAN=
+=20
+class=3D327261310-06092010>F</SPAN>in de conf=E9renc<SPAN class=3D327261310=
+-06092010>e=20
+16h30</SPAN></FONT></FONT></FONT></SPAN></DIV>
+<DIV><SPAN class=3D117355909-06092010><FONT face=3D"Futura Md"><FONT color=
+=3D#0000ff=20
+size=3D4><SPAN class=3D327261310-06092010></SPAN></FONT></FONT></SPAN>&nbsp=
+;</DIV>
+<DIV><SPAN class=3D117355909-06092010><FONT face=3D"Futura Md"><FONT=20
+color=3D#0000ff><SPAN class=3D327261310-06092010><FONT size=3D4>Pour revoir=
+=20
+l'invitation et le <STRONG>plan d'acc=E8s</STRONG> :</FONT> <A=20
+href=3D"http://www.codela.fr/media/CDLA/Emailing/Invitation%20Marzloff%20al=
+lege.pdf">http://www.codela.fr/media/CDLA/Emailing/Invitation%20Marzloff%20=
+allege.pdf</A></SPAN></FONT></FONT></SPAN></DIV>
+<DIV><SPAN class=3D117355909-06092010><FONT face=3D"Futura Md"><FONT=20
+color=3D#0000ff><SPAN=20
+class=3D327261310-06092010></SPAN></FONT></FONT></SPAN>&nbsp;</DIV>
+<DIV><SPAN class=3D117355909-06092010><FONT face=3D"Futura Md"><FONT color=
+=3D#0000ff=20
+size=3D4><SPAN class=3D327261310-06092010><STRONG>A=20
+demain.</STRONG></SPAN></FONT></FONT></SPAN></DIV></FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV align=3Dleft><FONT color=3D#3e3a39 size=3D2 face=3D"Futura Md">Jean-Lu=
+c=20
+TIJOU</FONT></DIV>
+<DIV align=3Dleft><FONT color=3D#808080 size=3D2=20
+face=3D"Futura Lt"><EM></EM></FONT>&nbsp;</DIV>
+<DIV align=3Dleft><FONT color=3D#800000 face=3D"Trebuchet MS"><IMG border=
+=3D0 hspace=3D0=20
+alt=3D"" align=3Dbaseline src=3D"cid:327261310@06092010-31D3"></FONT></DIV>
+<DIV align=3Dleft><FONT color=3D#808080 size=3D2 face=3D"Futura Lt">21 bd G=
+aston=20
+Doumergue - 44 200 Nantes</FONT></DIV>
+<DIV align=3Dleft><FONT color=3D#808080 size=3D2 face=3D"Futura Lt">T=E9l :=
+ 02 40 48 48 00=20
+- Fax : 02 40 48 14 24</FONT></DIV>
+<DIV align=3Dleft><FONT color=3D#808080 size=3D2 face=3D"Futura Lt">Tramway=
+ lignes 2 et=20
+3 - Station Vincent G=E2che</FONT></DIV>
+<DIV align=3Dleft><FONT color=3D#800000 face=3D"Trebuchet MS"></FONT>&nbsp;=
+</DIV>
+<DIV>&nbsp;</DIV></BODY></HTML>
+
+------_=_NextPart_002_01CB4DAE.7246C614--
+
+------_=_NextPart_001_01CB4DAE.7246C614
+Content-Type: image/gif;
+	name="att331d8.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <327261310@06092010-31D3>
+Content-Description: att331d8.gif
+Content-Location: att331d8.gif
+
+R0lGODdh8gAzAHcAACH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACwA
+AAAA8gAzAIf///+UtQDv7++lvQDv7861xULm77W95mOtxSm9zmOUlJze5pyt
+5jrm73Otra3m1ua9vb1jlIRjnKUQ71oQrVrmc60QzloQjFrmc4yEa5xja1qt
+pZSM3u+Ma9467946a1o6a96M75Q63q2MKVqMKd46KVo6Kd6MnO86nK2Maxk6
+rd46axk6a5yMKRmMKZw6KRk6KZxC7xlCrRlj3u9j75QQ3q1jnO8QnK1ja5xj
+a94Q794Qa1oQa95jKVpjKd4QKVoQKd5jaxkQrd4QaxkQa5xjKRljKZwQKRkQ
+KZxr7xmMSlqMSpxjSlqMSt46zt46Slo6St6MCFqMCN46CFo6CN6MShk6jN46
+Shk6SpyMCBmMCJw6CBk6CJxCzhlCjBljSpxjSt4Qzt4QSloQSt5jCFpjCN4Q
+CFoQCN5jShkQjN4QShkQSpxjCBljCJwQCBkQCJxrzhmMnIxzrQjmQu/mQmvm
+Qq3mQim1Qu+1Qmu1Qq21QinmEO/mEGvmEK3mECm1EO+1EGu1EK21ECm1c2u1
+cynmc+/mc2vmcym1c+/mQs7mQkrmQozmQgi1Qs61Qkq1Qoy1QgjmEM7mEErm
+EIzmEAi1EM61EEq1EIy1EAi1c0q1cwjmc87mc0rmcwi1c86lvQje1tbOzs5z
+jBBC71pCrVrmpa21e629xXtr71rezoRCzlpCjFrmpYy1e4xrzlqt7+atxRCE
+hISM7xmMzhm1pSnmzrW1pUq95nvmpe/mpWvmpSm177W1pWu1pe/vzhC1pQjm
+pc7mpUrmpQi1pc7OzhDmzmPezpT//++txd6M71qMzlrO5t6UnAhrjGPv70Jr
+rWNrrTqM786MzqU674yMrc46rYxj785jzqUQ74xjrc4QrYy1xZzO70JrjDqM
+zs6MzoQ6zoyMjM46jIxjzs5jzoQQzoxjjM4QjIzOxULv7xAQ7ykQrSkQzikQ
+jCnO7xAQ7wgQrQgQzggQjAi15pyEa2uMjFqMjDqMrTGMrWOt7wjvxUKMa0rO
+xeb/1uatvRCUtRAI/wABCBxIsKDBgwgTKlzIsKHDhxAjSpxIsaJFgccIGFhw
+6laqBQQEXBxJsqTJkyhTSiTAsUABBAhoIfgXAEECUCpz6tzJsyfJYy0TuHT5
+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
+
+------_=_NextPart_001_01CB4DAE.7246C614--

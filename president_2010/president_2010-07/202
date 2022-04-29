@@ -1,0 +1,214 @@
+Return-Path: <delphine.boisdron@univ-angers.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 307C22285A
+	for <president@listes.univ-angers.fr>; Wed, 21 Jul 2010 20:18:12 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 21F8A11412E; Wed, 21 Jul 2010 20:18:12 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from [172.19.16.40] (unknown [172.19.16.40])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id C86ED11405D;
+	Wed, 21 Jul 2010 20:18:11 +0200 (CEST)
+Message-ID: <4C473978.6040706@univ-angers.fr>
+Date: Wed, 21 Jul 2010 20:16:24 +0200
+From: Delphine BOISDRON <delphine.boisdron@univ-angers.fr>
+Reply-To: delphine.boisdron@univ-angers.fr
+Organization: =?ISO-8859-1?Q?Universit=E9_d=27Angers_-_Service_co?=
+ =?ISO-8859-1?Q?mmunication?=
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; fr; rv:1.9.1.4pre) Gecko/20090915 Thunderbird/3.0b4
+MIME-Version: 1.0
+To: ra-servicescommuns@listes.univ-angers.fr, 
+ ra-composantes@listes.univ-angers.fr, 
+ resp-presidence@listes.univ-angers.fr, 
+ dir-composante@listes.univ-angers.fr, 
+ dir-servicescommuns@listes.univ-angers.fr, 
+ John Webb <johnwebbwork@yahoo.fr>,
+ Gerard Moguedet <gerard.moguedet@univ-angers.fr>, 
+ president@univ-angers.fr, antoine fraile <antoine.fraile@univ-angers.fr>, 
+ Eric Delabaere <Eric.Delabaere@univ-angers.fr>,
+ Ferrier Jean-Louis <jean-louis.ferrier@univ-angers.fr>, 
+ vpe@univ-angers.fr, Yves Meignen <Yves.Meignen@univ-angers.fr>, 
+ Evelyne Puglia <evelyne.puglia@univ-angers.fr>,
+ Henri-Marc Papavoine <henri-marc.papavoine@univ-angers.fr>
+CC: copilweb@listes.univ-angers.fr, 
+ Matthieu Borel <matthieu.borel@univ-angers.fr>,
+ Marie-Laure.Picot@univ-angers.fr, Marion.Poissonneau@univ-angers.fr, 
+ Baes <stephanie.baes@univ-angers.fr>
+Content-Type: multipart/alternative;
+ boundary="------------040008090203060000030408"
+Subject: [president] des nouvelles du futur site web
+
+This is a multi-part message in MIME format.
+--------------040008090203060000030408
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+*INFORMATION SITE WEB*
+
+*En cette fin de période, je tenais à vous tenir informés de l'évolution 
+du projet web en cours qui a été mené par le comité de pilotage tout au 
+long de cette année et que chacun attend avec impatience.*
+
+*> Les grandes orientations*
+- refonte complète de site portail et possibilité avec le même outil de 
+créer des sites complémentaires (autonome) sur la base de trois gabarits 
+prévus pour les thématiques suivantes : composantes et services, 
+laboratoires, événementiel (ex : colloque, festival...).
+- la faculté de médecine est pilote pour la création de son site 
+complémentaire et celui de l'IUT est déjà prévu.
+- le site sera orienté web 2.0 et a pour ambition d'être accessible au 
+plus grand nombre (c'est à dire à toutes les personnes en situation de 
+handicap conformément à la loi égalité des chances du 11 février 2005)
+- il a été décidé de repenser complètement le contenu du site et donc de 
+ne pas faire de récupération systématique des données actuellement en 
+ligne. Le site actuel restera disponible même s'il n'est plus public 
+pour pouvoir aller copier/coller ou reprendre des éléments déjà publiés 
+(textes, iconographie, pdf...)
+- il sera disponible en au moins deux langues étrangères conformément à 
+la loi du 4 août 1994.
+
+*> Aspects techniques*
+- la société Anyware services a été choisie comme prestataire suite à 
+appel d'offres. Elle a déjà réalisé, entre autres, le site de l'UPMC et 
+celui de l'université du Maine. Le travail avec leurs équipes a commencé 
+début mai.
+- le CMS (outils de gestion de contenu) se nomme "Amétys". Il permettra 
+de gérer le site et de mettre en forme les pages de façon simple (module 
+type "traitement de texte" avec gestion possible de tableaux...). [Voir 
+la démo] <https://wiki.ametys.org/display/AMETYSV3FR/Editeur+en+ligne>
+- il est prévu différents niveaux de contributeurs avec des droits plus 
+ou moins fins
+
+*> Aspects graphiques*
+- les maquettes et grands principes graphiques ont été validés 
+dernièrement et vous pouvez déjà vous faire une idée du "look" de notre 
+futur site [Voir la présentation 
+<http://www.univ-angers.fr//images/documents/communication/pst_accueil_futur_site_web.pdf> 
+de la page d'accueil 
+<http://www.univ-angers.fr//images/documents/communication/pst_accueil_futur_site_web.pdf>].
+- un cadrage graphique est prévu pour les sites complémentaires.
+
+*> Planning*
+- *à partir de mi-septembre* : réunion dans les composantes, services et 
+à la présidence pour présenter concrètement l'outil aux équipes et 
+prévoir les contenus à renseigner à l'initialisation de la base de 
+données. Des RDV seront pris dès la réouverture.
+- *fin septembre* : livraison de l'outil et formation d'un groupe de 
+personnes référentes.
+- *octobre *: saisie par le service communication et formation au fur et 
+à mesure de nouveaux contributeurs dans les composantes, services, 
+directions...
+- lancement du site en principe *début novembre* dans la mesure ou le 
+contenu sera jugé suffisant.
+
+A la rentrée, nous ne manquerons pas de vous tenir informés des suites 
+de plus en plus concrètes de ce projet.
+
+Bien sincèrement.
+
+-- 
+Toute l'équipe du comité de pilotage web de l'Univeristé d'Angers
+
+Contacts pour plus de détails :
+Delphine BOISDRON
+Responsable communication et chef de projet web
+Tél : 02.41.96.22.56 (12)
+mailto:delphine.boisdron@univ-angers.fr
+
+
+--------------040008090203060000030408
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<font face="Verdana"><font color="#ff6600"><b>INFORMATION SITE WEB</b></font><br>
+<br>
+<b>En cette fin de p&eacute;riode, je tenais &agrave; vous tenir inform&eacute;s de
+l'&eacute;volution du projet web en cours qui a &eacute;t&eacute; men&eacute; par le comit&eacute; de
+pilotage tout au long de cette ann&eacute;e et que chacun attend avec
+impatience.</b><br>
+<br>
+<font color="#339999"><b>&gt; Les grandes orientations</b></font><br>
+- refonte compl&egrave;te de site portail et possibilit&eacute; avec le m&ecirc;me outil de
+cr&eacute;er des sites compl&eacute;mentaires (autonome) sur la base de trois
+gabarits pr&eacute;vus pour les th&eacute;matiques suivantes : composantes et
+services, laboratoires, &eacute;v&eacute;nementiel (ex : colloque, festival...).<br>
+- la facult&eacute; de m&eacute;decine est pilote pour la cr&eacute;ation de son site
+compl&eacute;mentaire et celui de l'IUT est d&eacute;j&agrave; pr&eacute;vu.<br>
+- le site sera orient&eacute; web 2.0 et a pour ambition d'&ecirc;tre accessible au
+plus grand nombre (c'est &agrave; dire &agrave; toutes les personnes en situation de
+handicap conform&eacute;ment &agrave; la loi &eacute;galit&eacute; des chances du 11 f&eacute;vrier 2005)<br>
+</font><font face="Verdana">- il a &eacute;t&eacute; d&eacute;cid&eacute; de repenser compl&egrave;tement
+le
+contenu du site et donc de ne pas faire de r&eacute;cup&eacute;ration syst&eacute;matique
+des donn&eacute;es actuellement en ligne. Le site actuel restera disponible
+m&ecirc;me s'il n'est
+plus public pour pouvoir aller copier/coller ou reprendre des &eacute;l&eacute;ments
+d&eacute;j&agrave; publi&eacute;s (textes,
+iconographie, pdf...)</font><br>
+<font face="Verdana">- il sera disponible en au moins deux langues
+&eacute;trang&egrave;res</font> <font face="Verdana">conform&eacute;ment &agrave; la loi du 4 ao&ucirc;t
+1994.</font><br>
+<font face="Verdana"><br>
+<font color="#339999"><b>&gt; Aspects techniques</b></font><br>
+- la soci&eacute;t&eacute; Anyware services a &eacute;t&eacute; choisie comme prestataire suite &agrave;
+appel d'offres. Elle a d&eacute;j&agrave; r&eacute;alis&eacute;, entre autres, le site de l'UPMC et
+celui de l'universit&eacute; du Maine. Le travail avec leurs &eacute;quipes a
+commenc&eacute; d&eacute;but mai.<br>
+- le CMS (outils de gestion de contenu) se nomme "Am&eacute;tys". Il permettra
+de g&eacute;rer le site et de mettre en forme les pages de fa&ccedil;on simple
+(module type "traitement de texte" avec gestion possible de
+tableaux...). <a
+ href="https://wiki.ametys.org/display/AMETYSV3FR/Editeur+en+ligne">[Voir
+la d&eacute;mo]</a><br>
+- il est pr&eacute;vu diff&eacute;rents niveaux de contributeurs avec des droits plus
+ou moins fins<br>
+<br>
+<font color="#339999"><b>&gt; Aspects graphiques</b></font><br>
+- les maquettes et grands principes graphiques ont &eacute;t&eacute; valid&eacute;s
+derni&egrave;rement et vous pouvez d&eacute;j&agrave; vous faire une id&eacute;e du "look" de notre
+futur site [<a
+ href="http://www.univ-angers.fr//images/documents/communication/pst_accueil_futur_site_web.pdf">Voir
+la pr&eacute;sentation</a><a
+ href="http://www.univ-angers.fr//images/documents/communication/pst_accueil_futur_site_web.pdf">
+de la page d'accueil</a>].<br>
+- un cadrage graphique est pr&eacute;vu pour les sites compl&eacute;mentaires.<br>
+<br>
+<font color="#339999"><b>&gt; Planning</b></font><br>
+- <font color="#999999"><b>&agrave; partir de mi-septembre</b> :</font>
+r&eacute;union dans les composantes, services et &agrave; la pr&eacute;sidence pour
+pr&eacute;senter concr&egrave;tement l'outil aux &eacute;quipes et pr&eacute;voir les contenus &agrave;
+renseigner &agrave; l'initialisation de la base de donn&eacute;es. Des RDV seront
+pris d&egrave;s la r&eacute;ouverture.<br>
+- <font color="#999999"><b>fin septembre</b> : </font></font><font
+ face="Verdana">livraison de l'outil </font><font face="Verdana">et
+formation d'un groupe de personnes r&eacute;f&eacute;rentes.<br>
+- <font color="#999999"><b>octobre </b>:</font> saisie par le service
+communication et formation au fur et &agrave; mesure de nouveaux contributeurs
+dans les composantes, services, directions...<br>
+- lancement du site en principe <font color="#999999"><b>d&eacute;but novembre</b></font>
+dans la mesure ou le contenu sera jug&eacute; suffisant.<br>
+<br>
+A la rentr&eacute;e, nous ne manquerons pas de vous tenir inform&eacute;s des suites
+de plus en plus concr&egrave;tes de ce projet.<br>
+<br>
+Bien sinc&egrave;rement.<br>
+</font>
+<pre class="moz-signature" cols="72">-- 
+Toute l'&eacute;quipe du comit&eacute; de pilotage web de l'Univerist&eacute; d'Angers
+
+Contacts pour plus de d&eacute;tails :
+Delphine BOISDRON
+Responsable communication et chef de projet web
+T&eacute;l : 02.41.96.22.56 (12)
+<a class="moz-txt-link-freetext" href="mailto:delphine.boisdron@univ-angers.fr">mailto:delphine.boisdron@univ-angers.fr</a>
+</pre>
+</body>
+</html>
+
+--------------040008090203060000030408--

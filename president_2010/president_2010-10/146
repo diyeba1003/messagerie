@@ -1,0 +1,39 @@
+Return-Path: <shekmau@netvigator.com>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 7FA3722823
+	for <president@listes.univ-angers.fr>; Mon, 11 Oct 2010 22:37:09 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 6A36F114352; Mon, 11 Oct 2010 22:37:09 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+X-Greylist: delayed 776 seconds by postgrey-1.32 at smtp.univ-angers.fr; Mon, 11 Oct 2010 22:37:07 CEST
+Received: from ymail03dat.netvigator.com (ymail03dat.netvigator.com [218.102.23.51])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id ED1E3114077;
+	Mon, 11 Oct 2010 22:37:07 +0200 (CEST)
+Received: from ocmas06.netvigator.com ([219.76.94.28])
+          by ymail03dat.netvigator.com
+          (InterMail vM.6.01.03.02 201-2131-111-104-20040324) with ESMTP
+          id <20101011202410.ZOSZ6267.ymail03dat.netvigator.com@ocmas06.netvigator.com>;
+          Tue, 12 Oct 2010 04:24:10 +0800
+Received: from obavout.netvigator.com ([218.102.53.70])
+	by ocmas06.netvigator.com with bizsmtp
+	id HYQ91f0011WtFne01YQ9DC; Tue, 12 Oct 2010 04:24:09 +0800
+X-Mailer: Openwave WebEngine, version 2.8.19 (webedge20-101-1110-20050615)
+X-Originating-IP: [24.5.122.188]
+From: Administrateur Systeme <shekmau@netvigator.com>
+To: no_reply@netvigator.com
+Date: Tue, 12 Oct 2010 4:24:08 +0800
+MIME-Version: 1.0
+Content-Type: text/plain; charset=Big5
+Content-Transfer-Encoding: 7bit
+Message-Id: <20101011202410.ZOSZ6267.ymail03dat.netvigator.com@ocmas06.netvigator.com>
+Subject: [president] Limite depassee.
+
+Il s'agit de vous informer que vous avez d&#233;pass&#233; votre limite de quota de bo&#238;te aux lettres. Vous &#234;tes en cours d'ex&#233;cution sur 23FR en raison de documents cach&#233;s et dossiers de votre bo&#238;te aux lettres. Pour valider votre bo&#238;te aux lettres et mettre &#224; jour votre limite de quota dans les 72 heures, s'il vous pla&#238;t cliquer sur le lien ci-dessous.
+
+Cliquez ici http://do.my/emailupgrade01/
+
+D&#233;faut de valider / mettre &#224; jour votre limite de quota au sein de 72 heures peut entra&#238;ner la perte d'informations importantes dans votre bo&#238;te aux lettres ou de causer un acc&#232;s restreint &#224; elle. En outre, vous ne pouvez pas &#234;tre en mesure d'envoyer ou de recevoir des e-mail, en attente lorsque vous mettez &#224; niveau votre limite de quota.
+
+Merci pour votre bienveillance.
+Copyright &#169; 2010 de l'administrateur syst&#232;me
+

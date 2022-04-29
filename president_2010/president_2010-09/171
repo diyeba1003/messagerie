@@ -1,0 +1,107 @@
+Return-Path: <espace.sifac@amue.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 662BA2281F
+	for <president@listes.univ-angers.fr>; Mon, 13 Sep 2010 10:40:41 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 6041E114384; Mon, 13 Sep 2010 10:40:41 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from mx.amue.fr (mx.amue.fr [195.83.191.14])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 38519114376;
+	Mon, 13 Sep 2010 10:40:41 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mx.amue.fr (8.14.3/8.14.3) with ESMTP id o8D8dqux049814;
+	Mon, 13 Sep 2010 10:40:33 +0200 (CEST)
+	(envelope-from espace.sifac@amue.fr)
+Received: from mx.amue.fr ([127.0.0.1])
+	by localhost (mx.amue.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id uZNkt-uKlVJ5; Mon, 13 Sep 2010 10:40:32 +0200 (CEST)
+Received: from espace-sifac.amue.fr (flaps.amue.fr [195.83.191.18])
+	by mx.amue.fr (8.14.3/8.14.3) with ESMTP id o8D86rK0047479;
+	Mon, 13 Sep 2010 10:06:54 +0200 (CEST)
+	(envelope-from espace.sifac@amue.fr)
+Received: from phpmailer ([195.83.191.180]) 
+	by espace-sifac.amue.fr with HTTPS (PHPMailer);
+	Mon, 13 Sep 2010 10:06:53 +0200
+Date: Mon, 13 Sep 2010 10:06:53 +0200
+To: undisclosed-recipients:;
+From: Espace Sifac <espace.sifac@amue.fr>
+Message-ID: <f584d2aeaf05a860cc22ca26a5b4aa81@espace-sifac.amue.fr>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71]
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_f584d2aeaf05a860cc22ca26a5b4aa81"
+Subject: [president] Nouveau fichier
+
+
+--b1_f584d2aeaf05a860cc22ca26a5b4aa81
+Content-Type: text/plain; charset = "iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+
+Espace Sifac <https://espace-sifac.amue.fr/>
+
+Un nouveau fichier a été déposé
+
+Répertoire: Documentation SIFAC
+Fichier: SIFAC_MUT_MAR_Gestion_Correspondance_GM_NAT_V1.0.ppt
+Chemin: 01_Fonctionnel/01_Référentiel_et_Introduction_à_Sifac/02_Documents_Utilisateurs/13_Groupes_de_marchandises
+Date: 13 Septembre 2010 10:06
+
+Portal powered by OVIDENTIA - http://www.ovidentia.org
+Ovidentia is a registered trademark of Cantico - http://www.cantico.fr
+
+
+--b1_f584d2aeaf05a860cc22ca26a5b4aa81
+Content-Type: text/html; charset = "iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Espace Sifac</TITLE>
+
+<META name="Generator" content="Ovidentia">
+<META name="Author" content="CANTICO">
+<META name="Keywords" content="ovidentia,portal,generator,groupware,companies,communities,content management,workflow,file sharing,mail,calendar,forum,gpl,free,gnu,wysiwyg,editor,shareable diaries,cantico,add-on,skin,php,mysql">
+<META name="Description" content="Portal Generator">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="-1">
+
+</HEAD>
+<body bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#0000FF" alink="#0000FF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<BR><BR>
+<table width="50%" border="0" align="center" cellpadding="2" cellspacing="0">
+<tr>
+<td align="center" valign="middle" bgcolor="#003399"><font color="#FFFFFF" size="2" face="Arial, Helvetica, sans-serif"> 
+<a href="https://espace-sifac.amue.fr/" target="_blank" style="color:white;FONT-WEIGHT: bold ">Espace Sifac </a><br>
+Portail documentaire Sifac</font></td>
+</tr>
+<tr>
+<td align="center" valign="middle" style="border:solid 2pt;border-color:#003399">
+
+<font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><br>
+
+      <strong>Un nouveau fichier a été déposé<br>
+        Répertoire&nbsp;:&nbsp;Documentation SIFAC<br>
+      Fichier&nbsp;:&nbsp;SIFAC_MUT_MAR_Gestion_Correspondance_GM_NAT_V1.0.ppt</strong><br>
+      Chemin&nbsp;:&nbsp;01_Fonctionnel/01_Référentiel_et_Introduction_à_Sifac/02_Documents_Utilisateurs/13_Groupes_de_marchandises<br>
+      Date&nbsp;:&nbsp;13 Septembre 2010 10:06<br><br>
+      </font>
+
+</td>
+</tr>
+<tr>
+<td align="center" valign="middle" style="border-right:dashed 1pt;border-left:dashed 1pt;border-bottom:dashed 1pt;border-color:#003399"><font size="1" face="Arial, Helvetica, sans-serif">Powered by <a href="http://www.ovidentia.org" target="_blank">Ovidentia&#8482;</a><br>
+Ovidentia&#8482; is a registered trademark of <a href="http://www.cantico.fr" target="_blank">Cantico</a></font></td>
+</tr>
+</table>
+</BODY>
+</HTML>
+
+
+
+--b1_f584d2aeaf05a860cc22ca26a5b4aa81--
+
+

@@ -1,0 +1,112 @@
+Return-Path: <isabelle.nicolaus@lunam.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 038F02283F
+	for <president@listes.univ-angers.fr>; Mon, 23 Aug 2010 17:40:11 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id E5AEF11413D; Mon, 23 Aug 2010 17:40:10 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp2.univ-nantes.fr [193.52.82.19])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id C5936114106
+	for <president@univ-angers.fr>; Mon, 23 Aug 2010 17:40:10 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 8E7D91C0C849
+	for <president@univ-angers.fr>; Mon, 23 Aug 2010 17:40:10 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp2.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id ujrlVBdxUdDf for <president@univ-angers.fr>;
+	Mon, 23 Aug 2010 17:40:10 +0200 (CEST)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 77ABF1C00D79
+	for <president@univ-angers.fr>; Mon, 23 Aug 2010 17:40:10 +0200 (CEST)
+Received: from mx1.univ-nantes.fr (MX1.univ-nantes.fr [193.52.101.135])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id 80D79225;
+	Mon, 23 Aug 2010 17:40:10 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mx1.univ-nantes.fr (Postfix) with ESMTP id 6D04B12F8383;
+	Mon, 23 Aug 2010 17:40:10 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from mx1.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id uRxkkD4DNigv; Mon, 23 Aug 2010 17:40:09 +0200 (CEST)
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+Received: from smtp-tls.univ-nantes.fr (smtp-tls2.univ-nantes.fr [193.52.101.146])
+	by mx1.univ-nantes.fr (Postfix) with ESMTP id A3E9612ED835;
+	Mon, 23 Aug 2010 17:40:09 +0200 (CEST)
+Received: from localhost (debian [127.0.0.1])
+	by smtp-tls.univ-nantes.fr (Postfix) with ESMTP id 9B3F340AF59;
+	Mon, 23 Aug 2010 17:42:42 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from smtp-tls.univ-nantes.fr ([193.52.101.146])
+	by localhost (smtp-tls2.univ-nantes.fr [193.52.101.146]) (amavisd-new, port 10024)
+	with LMTP id iz2cfDiYbM8v; Mon, 23 Aug 2010 17:42:42 +0200 (CEST)
+Received: from PCPRES03 (unknown [172.20.38.110])
+	(using TLSv1 with cipher RC4-MD5 (128/128 bits))
+	(No client certificate requested)
+	by smtp-tls.univ-nantes.fr (Postfix) with ESMTPSA id 76E5C40AF55;
+	Mon, 23 Aug 2010 17:42:42 +0200 (CEST)
+From: "Isabelle NICOLAUS" <isabelle.nicolaus@lunam.fr>
+To: <michel.basle@lunam.fr>,
+	<marie-monique.chardonneau@lunam.fr>,
+	<alexandrine.cortez@lunam.fr>,
+	"'Malika Fredj'" <malika.fredj@lunam.fr>,
+	<michel.guglielmi@lunam.fr>,
+	<emilie.hamon@lunam.fr>,
+	"'Valerie LAPERCHE'" <valerie.laperche@lunam.fr>,
+	"'Geraldine LAVERDAN'" <geraldine.laverdan@lunam.fr>,
+	"'Sylvie Le Roux'" <sylvie.le-roux@ec-nantes.fr>,
+	<laurent.lescaudron@lunam.fr>,
+	<sophie.marpaud@lunam.fr>,
+	"'Isabelle PENOT'" <isabelle.penot@lunam.fr>,
+	"'Hannah ROBIN'" <hannah.robin@lunam.fr>,
+	<francis.yguel@lunam.fr>,
+	<daniel.martina@lunam.fr>
+References: <018901cb2e61$85f0fe60$91d2fb20$@fr> <c7c9b86dd0432953080014f379f9e9ce.squirrel@webmail.univ-nantes.fr>
+In-Reply-To: <c7c9b86dd0432953080014f379f9e9ce.squirrel@webmail.univ-nantes.fr>
+Date: Mon, 23 Aug 2010 17:40:10 +0200
+Message-ID: <00cd01cb42d9$784deb60$68e9c220$@nicolaus@lunam.fr>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AcswdPhI0w0gU+JVSbeJw0LGqs+pdASZA/xg
+Content-Language: fr
+Subject: [president] =?ISO-8859-1?Q?Adresse_g=E9n=E9rique_contact@lunam.f?=
+ =?ISO-8859-1?Q?r?=
+
+Pour information, l'adresse g=E9n=E9rique contact@lunam.fr a =E9t=E9 cr=E9=
+=E9e ce jour.
+Elle figurera sur les documents imprim=E9s prochainement, ainsi que sur le
+formulaire de contact du site web. Les messages envoy=E9s =E0 cette adresse
+seront relev=E9s par Emilie Hamon.=20
+
+Bien cordialement,
+
+Isabelle NICOLAUS
+Attach=E9e de direction
+T=E9l. +33.(0)2.28.08.14.28
+Fax +33.(0)2.28..08.14.01
+
+L=92Universit=E9 Nantes Angers Le Mans (L=92UNAM)
+P=F4le de recherche et d'enseignement sup=E9rieur=20
+Immeuble MANNY
+19 bis rue La Nou=EB Bras de Fer
+44200 NANTES, France
+
+
+
+

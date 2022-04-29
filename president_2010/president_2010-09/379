@@ -1,0 +1,231 @@
+Return-Path: <Alain.Bernard@irccyn.ec-nantes.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 70F822281B
+	for <president@listes.univ-angers.fr>; Wed, 22 Sep 2010 15:56:40 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 61D3911450C; Wed, 22 Sep 2010 15:56:40 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from m-smtp.irccyn.ec-nantes.fr (m-smtp.irccyn.ec-nantes.fr [130.66.64.22])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 42B11114504;
+	Wed, 22 Sep 2010 15:56:40 +0200 (CEST)
+Received: from m-smtp.irccyn.ec-nantes.fr (localhost [127.0.0.1])
+	by m-smtp.irccyn.ec-nantes.fr (Postfix) with ESMTP id 971281C0EF;
+	Wed, 22 Sep 2010 15:56:39 +0200 (CEST)
+Received: from d-smtp.irccyn.ec-nantes.fr (unknown [130.66.72.32])
+	by m-smtp.irccyn.ec-nantes.fr (Postfix) with ESMTP id 82A0B1C0E7;
+	Wed, 22 Sep 2010 15:56:39 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by d-smtp.irccyn.ec-nantes.fr (Postfix) with ESMTP id 59E908403D;
+	Wed, 22 Sep 2010 15:56:39 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at irccyn.ec-nantes.fr
+Received: from d-smtp.irccyn.ec-nantes.fr ([127.0.0.1])
+	by localhost (d-smtp.irccyn.ec-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id ZMYWwsl6a14D; Wed, 22 Sep 2010 15:56:39 +0200 (CEST)
+Received: from localhost (m-webmail.irccyn.ec-nantes.fr [130.66.64.25])
+	by d-smtp.irccyn.ec-nantes.fr (Postfix) with ESMTP id 1513C84037;
+	Wed, 22 Sep 2010 15:56:38 +0200 (CEST)
+Received: from smd44-1-88-182-81-45.fbx.proxad.net
+	(smd44-1-88-182-81-45.fbx.proxad.net [88.182.81.45]) by
+	webmail.irccyn.ec-nantes.fr (Horde MIME library) with HTTP; Wed, 22 Sep
+	2010 15:56:37 +0200
+Message-ID: <20100922155637.s0ayrjwqo00k8sws@webmail.irccyn.ec-nantes.fr>
+Date: Wed, 22 Sep 2010 15:56:37 +0200
+From: Alain.Bernard@irccyn.ec-nantes.fr
+To: Isabelle NICOLAUS <isabelle.nicolaus@lunam.fr>
+Cc: president@univ-nantes.fr, president@univ-angers.fr,
+	president@univ-lemans.fr, patrick.chedmail@ec-nantes.fr,
+	Gwenaelle.Le-Dreff@univ-nantes.fr, 'Jacques GIRARDEAU'
+	<Jacques.Girardeau@univ-nantes.fr>, myriam.robard@univ-nantes.fr,
+	fabrice.clerfeuille@univ-nantes.fr, frederic.le-blay@univ-nantes.fr,
+	rene.Le-gall@univ-nantes.fr, gerard.moguedet@univ-angers.fr, 'Jean Louis
+	Ferrier' <jean-louis.ferrier@univ-angers.fr>, 'Michel Basle '
+	<michel.basle@univ-angers.fr>, vpca@univ-lemans.fr, vpcs@univ-lemans.fr,
+	alain.bernard@ec-nantes.fr, stephane.cassereau@emn.fr,
+	emmanuelle.chevassus@agrocampus-ouest.fr, pierre.sai@oniris-nantes.fr,
+	direction.generale@chu-nantes.fr, yvmorice@chu-angers.fr, 'PARMENTIER
+	Bruno' <b.parmentier@groupe-esa.com>, jphelfer@audencia.com,
+	BBrunhes@france-initiative.fr, jacques.samarut@ens-lyon.fr,
+	christophe.clergeau@paysdelaloire.fr, philippe.bataille@nantes.archi.fr,
+	laurent.peridy@uco.fr, ftsobnang@ismans.fr, 'Paul
+	=?iso-8859-1?b?UGVpZ27pJw==?= <Paul.Peigne@mines-nantes.fr>,
+	paul.peigne@emn.fr, ce.cabinet@ac-nantes.fr,
+	olivier.menard@recherche.gouv.fr, francis.yguel@lunam.fr,
+	sylvie.le-roux@ec-nantes.fr, cabinet@univ-nantes.fr,
+	evelyne.puglia@univ-angers.fr, sec-president@univ-lemans.fr,
+	claire.aubron@ec-nantes.fr, stephanie.baes@univ-angers.fr,
+	evelyne.diers@univ-angers.fr, direction.recherche@ec-nantes.fr,
+	derwella.cancel-blanchard@emn.fr, direction-angers@agrocampus-ouest.fr,
+	direction@oniris-nantes.fr, m.delugeau@groupe-esa.com, mmevel@audencia.com,
+	veronique.vial@ens-lyon.fr, monique.daubier@paysdelaloire.fr,
+	nadege.guyonvarch@nantes.archi.fr, beatrice.pascou@uco.fr,
+	marie.pelleau@univ-nantes.fr, ce.recte@ac-nantes.fr,
+	nicole.gueho@ac-nantes.fr, sophie.marpaud@lunam.fr
+References: <007b01cb5a5b$5bd94300$138bc900$@nicolaus@lunam.fr>
+In-Reply-To: <007b01cb5a5b$5bd94300$138bc900$@nicolaus@lunam.fr>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) H3 (4.1.4)
+Subject: [president] =?ISO-8859-1?Q?Re:_Conseil_d'administration_exceptio?=
+ =?ISO-8859-1?Q?nnel_de_L'UNAM_-_24_septembre=0A=092010_=E0_14h30_-_NANTES?=
+
+Bonsoir =E0 tous,
+je vous confirme mon absence. Je serai repr=E9sent=E9 par Patrick CHEDMAIL.
+Amicalement,
+Alain BERNARD
+
+Quoting Isabelle NICOLAUS <isabelle.nicolaus@lunam.fr>:
+
+> Monsieur le Recteur,
+>
+> Messieurs les Pr=E9sidents,
+>
+> Mesdames et Messieurs les Directrices et Directeurs, Mesdames, Messieurs,
+>
+>
+>
+> Je vous prie de trouver ci-joint l=92ordre du jour du conseil d=92adminis=
+tration
+> exceptionnel du 24 septembre, accompagn=E9 d=92une annexe =AB Grand Empru=
+nt-Liste
+> de projets =BB.
+>
+>
+>
+> Dans l=92attente de notre prochaine r=E9union, recevez, Monsieur le Recte=
+ur,
+> Messieurs les Pr=E9sidents, Mesdames et Messieurs les Directrices et
+> Directeurs, Mesdames, Messieurs, l=92assurance de mes salutations disting=
+u=E9es.
+>
+> Pour Daniel MARTINA
+> Pr=E9sident de L=92UNAM
+>
+> Isabelle NICOLAUS
+> Attach=E9e de direction
+> T=E9l. +33.(0)2.28.08.14.28
+> Fax +33.(0)2.28..08.14.01
+>
+> L=92Universit=E9 Nantes Angers Le Mans (L=92UNAM)
+> P=F4le de recherche et d'enseignement sup=E9rieur
+>
+> Immeuble MANNY
+> 19 bis rue La Nou=EB Bras de Fer
+> 44200 NANTES, France
+>  <http://www.lunam.fr/> http://www.lunam.fr
+>
+> lunam
+>
+>
+>
+> De : Isabelle NICOLAUS [mailto:isabelle.nicolaus@lunam.fr]
+> Envoy=E9 : mardi 31 ao=FBt 2010 17:20
+> =C0 : 'president@univ-nantes.fr'; 'president@univ-angers.fr';
+> 'president@univ-lemans.fr'; 'patrick.chedmail@ec-nantes.fr';
+> 'gwenaelle.le-dreff@univ-nantes.fr'; 'Jacques GIRARDEAU';
+> 'myriam.robard@univ-nantes.fr'; 'fabrice.clerfeuille@univ-nantes.fr';
+> 'frederic.le-blay@univ-nantes.fr'; 'rene.Le-gall@univ-nantes.fr';
+> 'gerard.moguedet@univ-angers.fr'; 'Jean Louis Ferrier'; 'Michel Basle ';
+> 'vpca@univ-lemans.fr'; 'vpcs@univ-lemans.fr'; 'alain.bernard@ec-nantes.fr=
+';
+> 'stephane.cassereau@emn.fr'; 'pierre.sai@oniris-nantes.fr';
+> 'direction.generale@chu-nantes.fr'; 'yvmorice@chu-angers.fr'; 'PARMENTIER
+> Bruno'; 'jphelfer@audencia.com'; 'BBrunhes@france-initiative.fr';
+> 'jacques.samarut@ens-lyon.fr'; 'christophe.clergeau@paysdelaloire.fr';
+> 'philippe.bataille@nantes.archi.fr'; 'laurent.peridy@uco.fr';
+> 'ftsobnang@ismans.fr'; 'Paul Peign=E9'; 'ce.cabinet@ac-nantes.fr';
+> 'olivier.menard@recherche.gouv.fr'; 'francis.yguel@lunam.fr'; 'Sylvie Le
+> Roux'
+> Cc : 'cabinet@univ-nantes.fr'; 'evelyne.puglia@univ-angers.fr';
+> 'sec-president@univ-lemans.fr'; 'claire.aubron@ec-nantes.fr';
+> 'stephanie.baes@univ-angers.fr'; 'evelyne.diers@univ-angers.fr';
+> 'direction.recherche@ec-nantes.fr'; 'derwella.cancel-blanchard@emn.fr';
+> 'direction-angers@agrocampus-ouest.fr'; 'Secretariat de Direction';
+> 'm.delugeau@groupe-esa.com'; 'V=E9ronique Vial';
+> 'monique.daubier@paysdelaloire.fr'; 'Nad=E8ge Guyonvarch';
+> 'beatrice.pascou@uco.fr'; 'Marie PELLEAU'; 'SECRETARIAT RECTEUR'; 'Nicole
+> Gu=E9ho'; 'Sophie MARPAUD'
+> Objet : Conseil d'administration exceptionnel de L'UNAM - 24 septembre 20=
+10
+> =E0 14h30 - NANTES
+>
+>
+>
+> Monsieur le Recteur,
+>
+> Messieurs les Pr=E9sidents,
+>
+> Mesdames et Messieurs les Directrices et Directeurs, Mesdames, Messieurs,
+>
+>
+>
+> J=92ai le plaisir de vous inviter =E0 participer =E0 un conseil d=92admin=
+istration
+> exceptionnel de L=92UNAM le :
+>
+>
+>
+> -       Vendredi 24 septembre 2010 de 14h30 =E0 17h00
+>
+> -       A la Pr=E9sidence de l=92Universit=E9 de Nantes, 1 quai de Tourvi=
+lle
+> (Salle des conseils) -
+> http://www.univ-nantes.fr/adminsite/photo.jsp?ID_PHOTO=3D72
+>
+>
+>
+>
+>
+> Celui-ci, d=E9cid=E9 lors du dernier bureau du PRES le 27 ao=FBt dernier,=
+ sera
+> consacr=E9 au programme d=92investissements d=92avenir (Grand Emprunt) et
+> notamment =E0 l=92examen des projets r=E9gionaux et interr=E9gionaux susc=
+eptibles
+> d=92=EAtre d=E9pos=E9s dans ce cadre.
+>
+>
+>
+> Je vous remercie de bien vouloir confirmer votre intention de pr=E9sence =
+en
+> cliquant sur le lien suivant : http://www.doodle.com/bipwvz7qr7a4imch .
+>
+> En cas d=92absence, vous trouverez ci-joint le formulaire de procuration =
+=E0
+> nous renvoyer compl=E9t=E9.
+>
+>
+>
+> Dans cette attente, recevez, Monsieur le Recteur, Messieurs les Pr=E9side=
+nts,
+> Mesdames et Messieurs les Directrices et Directeurs, Mesdames, Messieurs,
+> l=92assurance de mes salutations distingu=E9es.
+>
+> Daniel MARTINA
+> Pr=E9sident
+>
+> Isabelle NICOLAUS
+> Attach=E9e de direction
+> T=E9l. +33.(0)2.28.08.14.28
+> Fax +33.(0)2.28..08.14.01
+>
+> L=92Universit=E9 Nantes Angers Le Mans (L=92UNAM)
+> P=F4le de recherche et d'enseignement sup=E9rieur
+>
+> Immeuble MANNY
+> 19 bis rue La Nou=EB Bras de Fer
+> 44200 NANTES, France
+>
+> lunam
+>
+>
+>
+>
+>
+>
+
+
+

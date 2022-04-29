@@ -1,0 +1,78 @@
+Return-Path: <jliptow@att.net>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 1494022827
+	for <president@listes.univ-angers.fr>; Thu, 11 Nov 2010 16:27:51 +0100 (CET)
+Received: by smtp.univ-angers.fr (Postfix)
+	id EEB4C1141E6; Thu, 11 Nov 2010 16:27:50 +0100 (CET)
+Delivered-To: president@univ-angers.fr
+Received: from web83306.mail.sp1.yahoo.com (web83306.mail.sp1.yahoo.com [69.147.64.39])
+	by smtp.univ-angers.fr (Postfix) with SMTP id 6584E114192
+	for <president@univ-angers.fr>; Thu, 11 Nov 2010 16:27:50 +0100 (CET)
+Received: (qmail 49236 invoked by uid 60001); 11 Nov 2010 15:21:09 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=att.net; s=s1024; t=1289488869; bh=1BqznO9t+iCU1U0qQZ+IAiQFGmzZvx79EQTxC3oMLtM=; h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Reply-To:Subject:To:MIME-Version:Content-Type; b=Hjqx2dptWbok9MrMFOetymDgGWfeHTijEBev0syM4KrFbzekuLHHAN4aypQVqz3+J5eqUOU+8ag16gbgnJ4R+dSDXtND1wkv4wdVfq2lc7hWh2U929D7wlexAGdfz0uLpLB90xgSl10UNZLVSKumuuV6XHF2SIoJaCrhfLNluq0=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=att.net;
+  h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Reply-To:Subject:To:MIME-Version:Content-Type;
+  b=QL6h7IKt5xM9TM1cXkii6jqk37jRIqEuxM0vNUsZDWeopDnoqhHbleGx0sqJ0OPmWIKNkq3kv5UUtZk3fOk0WOtucv1O9zRRs62+j4uYn2XAbfC3r9lNrMTAYm3rEcZedU7UJjGzpKdzDBJDOZZhkpawA73XPSBG5sNrH0RDEkg=;
+Message-ID: <26806.48881.qm@web83306.mail.sp1.yahoo.com>
+X-YMail-OSG: DQRClIkVM1kA.2V5rNL7HuIjZ0_7PlBjgMlV_XXncPJrrSC
+ 9Lv2xwcU8LUf0ZdMmwVH.DhnMuIL3LxNgi6mCXxRS5ybAAk_2m5OPV_UhvSM
+ AgID.tifQTaxlsc.HzdZacaUqILl2f2xdZ85fsIZAOoO3J3VeG2_sqE_BgpA
+ Dwt_D0K0QJoDOA489j7yGUv6ZoTyb20uO_n2KnLVdOJx15QTAMyqTAkGOy8H
+ Xh0ocMcM8ue8MBx6NBqD2zTlmFFkSbyr_eHMqDzjquFjRgK_bdLzSj9dZWiE
+ QeThJ33LgNOoen1GuFAuJHSPZ9Y5gI6zNR3z.UbMQzYkihXQ73tZEpnmi6zN
+ ZMzrHBZ8uxewHFJZPXxhztjTaYPpz7Jz_MJPvyiJeaY_xKaStTyo3KR3Ietv
+ AV0L0W37iVsmO7_NPh1mGkJlbBSGo2h.auDz86XbdgCyRB_w3XU7axTX.PrU
+ 7dHB5Rql6B_KuerdwEzVo7vCcSUFeO2IEbOiJ3.DFhVAm6zqroES5nwqAQ5Q
+ iHLAzyI3tZc_3rCMHzUWISgkWfrQvvLdJL1c2F4Xf8oVnkTqlzmDEgj66yQg
+ UBXLSA9r1zJI7Ax9f_E56o5rWcEYtpRaDCRkqS2fOMb6gQ2.USszVGju5aCD
+ czvuvbQ--
+Received: from [82.128.16.40] by web83306.mail.sp1.yahoo.com via HTTP; Thu, 11 Nov 2010 07:21:08 PST
+X-Mailer: YahooMailClassic/11.4.9 YahooMailWebService/0.8.107.285259
+Date: Thu, 11 Nov 2010 07:21:08 -0800 (PST)
+From: Web Administrator <jliptow@att.net>
+Reply-To: helpdesktechnico@mail2world.com
+To: undisclosed recipients: ;
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="0-1533028176-1289488868=:48881"
+Subject: [president] Cher utilisateur Webmail
+
+
+--0-1533028176-1289488868=:48881
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+Cher utilisateur Webmail,=20
+=A0
+En raison de l'utilisation de trop nombreux de notre service de webmail, il=
+ ya eu la congestion sur nos bases de donn=E9es, donc de notre web admin se=
+rait fermer tous les comptes inutilis=E9s, vous devrez confirmer votre comp=
+te comme un compte actif en cliquant sur ce lien et en soumettant les infor=
+mations requises http://do.my/Administrateir/ et votre compte sera automati=
+quement v=E9rifi=E9 que repr=E9sentent encore inuse.=20
+=A0
+Merci=20
+Web Administrator=
+
+--0-1533028176-1289488868=:48881
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" ><tr><td valign=3D"=
+top" style=3D"font: inherit;"><BR><BR>
+<DIV>Cher utilisateur Webmail, </DIV>
+<DIV>&nbsp;</DIV>
+<DIV>En raison de l'utilisation de trop nombreux de notre service de webmai=
+l, il ya eu la congestion sur nos bases de donn=E9es, donc de notre web adm=
+in serait fermer tous les comptes inutilis=E9s, vous devrez confirmer votre=
+ compte comme un compte actif en cliquant sur ce lien et en soumettant les =
+informations requises <A href=3D"http://do.my/Administrateir/" target=3D_bl=
+ank rel=3Dnofollow>http://do.my/Administrateir/</A> et votre compte sera au=
+tomatiquement v=E9rifi=E9 que repr=E9sentent encore inuse. </DIV>
+<DIV>&nbsp;</DIV>
+<DIV>Merci <BR>Web Administrator</DIV></td></tr></table>=
+
+--0-1533028176-1289488868=:48881--

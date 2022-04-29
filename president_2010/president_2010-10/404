@@ -1,0 +1,169 @@
+Return-Path: <Romaric.PERROCHEAU@mairie-nantes.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id EFD042281B
+	for <president@listes.univ-angers.fr>; Wed, 27 Oct 2010 14:03:15 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id D9EA111411E; Wed, 27 Oct 2010 14:03:15 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from mvinct1.mairie-nantes.fr (mvinct1.mairie-nantes.fr [195.101.63.97])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id E498A1140BB
+	for <president@univ-angers.fr>; Wed, 27 Oct 2010 14:03:12 +0200 (CEST)
+Received: from localhost ([127.0.0.1])
+	by mvinct1.mairie-nantes.fr
+	for president@univ-angers.fr;
+	Wed, 27 Oct 2010 14:02:42 +0200
+Received: from mvinct35.ad.nantes.net ([10.2.96.5]) by nantesmetropole.fr with Microsoft SMTPSVC(6.0.3790.3959);
+	 Wed, 27 Oct 2010 13:53:48 +0200
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 27 Oct 2010 14:02:41 +0200
+Message-ID: <B6723368D43C314F8FE06E27AEEBA25F282F03E8@mvinct35.ad.nantes.net>
+In-Reply-To: <OF5A7D8CE1.8F6F2193-ONC12577C8.002AC33E-C12577C8.002ACE46@astredhor.fr>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: =?iso-8859-1?Q?R=E9f_=3A_Pr=E9paration_comit=E9_de_pilotage_technique?=
+Thread-Index: Act04oFWSAwTvOUIRiOrLWG0F8QT7wA7CrOQ
+References: <4CC54199.5060700@plante-et-cite.fr> <OF5A7D8CE1.8F6F2193-ONC12577C8.002AC33E-C12577C8.002ACE46@astredhor.fr>
+From: "PERROCHEAU Romaric" <Romaric.PERROCHEAU@mairie-nantes.fr>
+To: <marie.morel@astredhor.fr>,
+	=?iso-8859-1?Q?Contact_Plante_=26_Cit=E9?= <contact@plante-et-cite.fr>
+Cc: "Aurore Micand" <aurore.micand@plante-et-cite.fr>,
+	<barraud@falienor.com>,
+	<bernard.dandalet@saint-etienne.fr>,
+	<bfleury@ville-orleans.fr>,
+	<bmartin@ville-rennes.fr>,
+	<bruno.jaloux@agrocampus-ouest.fr>,
+	"Camille JOUGLET" <camille.jouglet@plante-et-cite.fr>,
+	<cathy.caldumbide@agrocampus-ouest.fr>,
+	<cecile.abalain@angerstechnopole.com>,
+	<christophe.subileau@uapl.fr>,
+	<cjaneau@edelweiss-sa.fr>,
+	<cjoveneaux@enm-lille.fr>,
+	<cnvvf@wanadoo.fr>,
+	<contact@iftech.fr>,
+	<c.cholet@unep-fr.org>,
+	"Damien Provendier" <damien.provendier@plante-et-cite.fr>,
+	<d.lebrun@bhr-vegetal.com>,
+	<environnement@agglo-saumur.fr>,
+	<eric.collin@cemagref.fr>,
+	<eric.davy@groupe-merceron.com>,
+	<fanny.maujean@ville.angers.fr>,
+	<francois.colson@agrocampus-ouest.fr>,
+	<frederic.moreau@ville.angers.fr>,
+	"Gaetan DUHAMEL" <gaetan.duhamel@plante-et-cite.fr>,
+	=?iso-8859-1?Q?H=E9l=E8ne_Veillon?= <helene.veillon@plante-et-cite.fr>,
+	<herve.daniel@agrocampus-ouest.fr>,
+	<jac.boutaud@free.fr>,
+	<jardinjade@wanadoo.fr>,
+	<jeanfrancois.arthuisbrault@cnfpt.fr>,
+	<jeanmichel.marchandeau@cnfpt.fr>,
+	<jean.duchesne@agrocampus-ouest.fr>,
+	<josiane.lecorff@agrocampus-ouest.fr>,
+	<jp.ducos@caue49.com>,
+	<julien.greffier@gnis.fr>,
+	<laure.beaudet@agrocampus-ouest.fr>,
+	<lmriviere@rezo.net>,
+	"Ludovic PROVOST" <ludovic.provost@plante-et-cite.fr>,
+	<l.vandevelde@bhr-vegetal.com>,
+	=?iso-8859-1?Q?Gu=E9rin_Maxime?= <maxime.guerin@plante-et-cite.fr>,
+	<michelpena@penapaysages.com>,
+	=?iso-8859-1?Q?Olivier_DAMAS/Plante_=26_Cit=E9?= <olivier.damas@plante-et-cite.fr>,
+	"Pauline Laille" <pauline.laille@plante-et-cite.fr>,
+	<philippe.croze@ville-montpellier.fr>,
+	<philippe.morel@angers.inra.fr>,
+	<philippe.nonckelynck@orange.fr>,
+	<pineau@pepinieres-minier.fr>,
+	<pinel@andre-briant.fr>,
+	<president@univ-angers.fr>,
+	<regis.triollet@educagri.fr>,
+	<sabine.diwo-allain@angerstechnopole.com>,
+	<sdurot@biotope.fr>,
+	"SFG JM Lecourt" <sfg.jmlecourt@orange.fr>,
+	"Sophie Lemaire" <sophie.lemaire@plante-et-cite.fr>,
+	<thibaut.beaute@cergypontoise.fr>,
+	<tresorier@attf.asso.fr>,
+	<veronique.beaujouan@agrocampus-ouest.fr>,
+	<veronique.kapusta@angers.inra.fr>,
+	"Virginie Anquetil" <virginie.anquetil@plante-et-cite.fr>,
+	<v.vansteene@unep-fr.org>,
+	<walid.oueslati@agrocampus-ouest.fr>,
+	<xavier.marie@solpaysage.fr>,
+	<y-gabory@paysdesmauges.fr>
+X-OriginalArrivalTime: 27 Oct 2010 11:53:48.0734 (UTC) FILETIME=[9DDB6DE0:01CB75CD]
+Subject: [president] =?ISO-8859-1?Q?RE:_R=E9f_:_Pr=E9paration_comit=E9_de?=
+ =?ISO-8859-1?Q?_pilotage_technique?=
+
+
+Bonjour =E0 tous,=20
+quelqu'un vient-il ou passe-t'il par nantes, car je serai int=E9ress=E9 pou=
+r faire du covoiturage.
+
+Romaric Perrocheau
+06 85 03 99 20
+
+-----Message d'origine-----
+De : marie.morel@astredhor.fr [mailto:marie.morel@astredhor.fr]=20
+Envoy=E9 : mardi 26 octobre 2010 09:48
+=C0 : Contact Plante & Cit=E9
+Cc : Aurore Micand; barraud@falienor.com; bernard.dandalet@saint-etienne.fr=
+; bfleury@ville-orleans.fr; bmartin@ville-rennes.fr; bruno.jaloux@agrocampu=
+s-ouest.fr; Camille JOUGLET; cathy.caldumbide@agrocampus-ouest.fr; cecile.a=
+balain@angerstechnopole.com; christophe.subileau@uapl.fr; cjaneau@edelweiss=
+-sa.fr; cjoveneaux@enm-lille.fr; cnvvf@wanadoo.fr; contact@iftech.fr; c.cho=
+let@unep-fr.org; Damien Provendier; d.lebrun@bhr-vegetal.com; environnement=
+@agglo-saumur.fr; eric.collin@cemagref.fr; eric.davy@groupe-merceron.com; f=
+anny.maujean@ville.angers.fr; francois.colson@agrocampus-ouest.fr; frederic=
+.moreau@ville.angers.fr; Gaetan DUHAMEL; H=E9l=E8ne Veillon; herve.daniel@a=
+grocampus-ouest.fr; jac.boutaud@free.fr; jardinjade@wanadoo.fr; jeanfrancoi=
+s.arthuisbrault@cnfpt.fr; jeanmichel.marchandeau@cnfpt.fr; jean.duchesne@ag=
+rocampus-ouest.fr; josiane.lecorff@agrocampus-ouest.fr; jp.ducos@caue49.com=
+; julien.greffier@gnis.fr; laure.beaudet@agrocampus-ouest.fr; lmriviere@rez=
+o.net; Ludovic PROVOST; l.vandevelde@bhr-vegetal.com; Gu=E9rin Maxime; mich=
+elpena@penapaysages.com; Olivier DAMAS/Plante & Cit=E9; Pauline Laille; phi=
+lippe.croze@ville-montpellier.fr; philippe.morel@angers.inra.fr; philippe.n=
+onckelynck@orange.fr; pineau@pepinieres-minier.fr; pinel@andre-briant.fr; p=
+resident@univ-angers.fr; regis.triollet@educagri.fr; PERROCHEAU Romaric; sa=
+bine.diwo-allain@angerstechnopole.com; sdurot@biotope.fr; SFG JM Lecourt; S=
+ophie Lemaire; thibaut.beaute@cergypontoise.fr; tresorier@attf.asso.fr; ver=
+onique.beaujouan@agrocampus-ouest.fr; veronique.kapusta@angers.inra.fr; Vir=
+ginie Anquetil; v.vansteene@unep-fr.org; walid.oueslati@agrocampus-ouest.fr=
+; xavier.marie@solpaysage.fr; y-gabory@paysdesmauges.fr
+Objet : R=E9f : Pr=E9paration comit=E9 de pilotage technique
+
+
+Bonjour,
+Je serais pr=E9sente =E0 la journ=E9e du 29 octobre
+
+bien cordialement,
+
+Marie Morel
+
+
+"Afin de contribuer au respect de l'environnement, merci de n'imprimer cet =
+e-mail que si n=E9cessaire ."
+
+--------------------------------------------------------------------------
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20
+ (Embedded     Marie MOREL=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20
+ image moved   Charg=E9e de Mission Technique Serre et=20
+ to file:      Equipement=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20
+ pic18467.jpg) ASTREDHOR - 44 rue d'Al=E9sia=20=20=20=20=20=20=20=20=20=20=
+=20
+ Logo          75682 PARIS CEDEX 14=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20
+ Astredhor     Tel : 01.53.91.45.03 - Fax :=20=20=20=20=20=20=20=20=20=20
+               01.45.38.56.72=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20
+               Site web : www.astredhor.fr=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20
+

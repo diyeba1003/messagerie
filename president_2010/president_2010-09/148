@@ -1,0 +1,563 @@
+Return-Path: <contract@anrt.asso.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 2916222854
+	for <president@listes.univ-angers.fr>; Fri, 10 Sep 2010 16:13:10 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 20E7A1141DA; Fri, 10 Sep 2010 16:13:10 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp1.univ-nantes.fr [193.52.82.18])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 184F41141D9
+	for <president@univ-angers.fr>; Fri, 10 Sep 2010 16:13:10 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 047B28399D5
+	for <president@univ-angers.fr>; Fri, 10 Sep 2010 16:13:08 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp1.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id HT-BPKtuT6kK for <president@univ-angers.fr>;
+	Fri, 10 Sep 2010 16:13:07 +0200 (CEST)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id D73918399C4
+	for <president@univ-angers.fr>; Fri, 10 Sep 2010 16:13:07 +0200 (CEST)
+Received: from mx3.univ-nantes.fr (MX3.univ-nantes.fr [193.52.101.137])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id BB3AA4BB
+	for <daniel.Martina@univ-nantes.fr>; Fri, 10 Sep 2010 16:13:07 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mx3.univ-nantes.fr (Postfix) with ESMTP id B2DBBD6E5A1;
+	Fri, 10 Sep 2010 16:13:07 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+X-Spam-Flag: NO
+X-Spam-Score: -4.804
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.804 tagged_above=-1000 required=5
+	tests=[AWL=0.330, CRM114_GOOD=-5, FUZZY_REFINANCE=0.001,
+	HTML_MESSAGE=0.001, NO_RDNS2=0.01, RCVD_IN_DNSWL_LOW=-1,
+	SPF_SOFTFAIL=0.654, UN_PHISHING_3=0.1, UN_PHISHING_4=0.1]
+Received: from mx3.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id 6l1e1H4eKM5s; Fri, 10 Sep 2010 16:13:04 +0200 (CEST)
+X-Greylist: delayed 00:24:01 by SQLgrey-1.6.7
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+Received: from z03.altospam.com (z03.altospam.com [188.165.209.188])
+	by mx3.univ-nantes.fr (Postfix) with ESMTP id 074ACD6BD35;
+	Fri, 10 Sep 2010 16:13:04 +0200 (CEST)
+Received: from mx.anrt.asso.fr ([80.118.182.41])
+	by z03.altospam.com with esmtp (Altospam)
+	id 1Ou3wX-0001Kl-In ; Fri, 10 Sep 2010 15:47:05 +0200
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----_=_NextPart_001_01CB50EE.E3EDB275"
+Date: Fri, 10 Sep 2010 15:48:46 +0200
+Message-ID: <442CB1B12309B84D9ACD8E72846E2DD4017D71AE@srv-exch.anrt.fr>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: =?iso-8859-1?Q?IMPORTANT_Courriel_PCN_L=E9gal_et_Financier_/_Comptes_?=
+	=?iso-8859-1?Q?r=E9mun=E9r=E9s?=
+Thread-Index: ActQtMVDDJS0eOwVRpiSkv0soXOs4wANh0dAAACVnYA=
+References: <20100910085349.10834jhsy0dr1mas@www2.jouy.inra.fr> 
+From: =?iso-8859-1?Q?Contract_-_Fran=E7ois_Brizard?= <contract@anrt.asso.fr>
+To: undisclosed-recipients:;
+Subject: [president] =?ISO-8859-1?Q?IMPORTANT_Courriel_PCN_L=E9gal_et_Fin?=
+ =?ISO-8859-1?Q?ancier_/_Comptes_r=E9mun=E9r=E9s?=
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01CB50EE.E3EDB275
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Chers coll=E8gues,=20
+
+=20
+
+Le Point de Contact National administratif, juridique et financier (CNRS, C=
+EA, Institut Telecom, Armines, CDC coordonn=E9s par l'ANRT), souhaite =E9ta=
+blir une position de synth=E8se commune =E0 l'ensemble des participants fra=
+n=E7ais concernant l'obligation d'ouvrir un compte r=E9mun=E9r=E9 impos=E9e=
+ par la CE aux coordonnateurs de projets du 7=E8me PCRDT.=20
+
+=20
+
+Ce  message est diffus=E9  via divers canaux et par plusieurs de nos parten=
+aires, toutes nos excuses si vous le recevez plusieurs fois.=20
+
+=20
+
+Afin d'=EAtre exempt=E9 d'une telle obligation, la Commission propose aux b=
+=E9n=E9ficiaires-coordonnateurs de remplir une d=E9claration sur l'honneur =
+faisant =E9tat soit d'une disposition l=E9gale nationale interdisant l'ouve=
+rture de comptes r=E9mun=E9r=E9s, soit d'un argumentaire d=E9montrant que l=
+'ouverture de tels comptes est une charge administrative trop lourde.=20
+
+Cette d=E9claration sur l'honneur est alors analys=E9e par la Commission qu=
+i d=E9cide si le participant concern=E9 est autoris=E9 =E0 ne pas ouvrir de=
+ compte r=E9mun=E9r=E9.=20
+
+Cependant, les crit=E8res d'appr=E9ciation de la Commission ne sont pas con=
+nus. Des incertitudes juridiques demeurent.=20
+
+Certains retours d'exp=E9rience font =E9tat de ce que la lourdeur administr=
+ative ne doit porter que sur l'ouverture de comptes et non pas sur la gesti=
+on de tels comptes, point de vue que la Commission vient de confirmer dans =
+la version 3 du guide sur les questions financi=E8res.=20
+
+=20
+
+En outre, de nombreuses questions restent en suspend quant =E0 l'appr=E9cia=
+tion par la CE des dispositions nationales, notamment concernant le D=E9cre=
+t n=B094-39 du 14 janvier 1994 relatif au budget et au r=E9gime financier d=
+es =E9tablissements publics =E0 caract=E8re scientifique, culturel et profe=
+ssionnel dans sa version consolid=E9e du 24 janvier 2009 pr=E9voyant que :
+
+=AB Les fonds de l'=E9tablissement sont d=E9pos=E9s au Tr=E9sor public. Des=
+ fonds peuvent =EAtre d=E9pos=E9s, sur d=E9rogation accord=E9e par le minis=
+tre charg=E9 du budget, aupr=E8s de la Banque de France ou d'un =E9tablisse=
+ment financier agr=E9=E9. =BB (id.  D=E9cret n=B062-1587 du 29 d=E9cembre 1=
+962 portant r=E8glement g=E9n=E9ral sur la comptabilit=E9 publique) ; et co=
+nsid=E9rant l'instruction de la DG Finances Publiques N=B0 10-011-M9 du 15 =
+avril 2010.
+
+=20
+
+Afin de recenser les situations op=E9rationnelles et cas de figure rencontr=
+=E9s par nos =E9tablissements et dans le but de demander des clarifications=
+ =E0 la Commission europ=E9enne, merci de bien vouloir nous faire part de v=
+otre situation dans vos projets en cours ou en n=E9gociation :
+
+=20
+
+- Avez-vous ouvert un compte r=E9mun=E9r=E9 unique d=E9di=E9 aux projets eu=
+rop=E9ens ? Avez-vous ouvert un compte par projet ?
+
+- Avez-vous obtenu une exemption ?  Si oui, quels ont =E9t=E9 vos arguments=
+ et l'appr=E9ciation port=E9e par la Commission europ=E9enne ?
+
+- En attente de d=E9cision de la Commission, vos pr=E9financements sont-il =
+bloqu=E9s ? Quelle solution vous propose la Commission ?
+
+- Pouvez-vous nous communiquer des courriels refl=E9tant vos =E9changes ave=
+c votre project officer (ils seront utilis=E9s en toute confidentialit=E9 e=
+t exclusivement aux fins de r=E9alisation de cette position fran=E7aise)
+
+- Quelle(s) solution(s) transitoire(s) =E0 la fin de l'obligation d'ouvertu=
+re de ces comptes vous semble la plus appropri=E9e ?=20
+
+- Estimation chiffr=E9e de la charge que repr=E9sente pour votre organisme =
+l'obligation d'ouverture des comptes bancaires r=E9mun=E9r=E9s pour les pr=
+=E9financements par rapport au nombre de projet FP7 en coordination dans vo=
+tre organisme ?
+
+=20
+
+Je vous remercie par avance de votre contribution =E0 cet effort de mutuali=
+sation et vous serais gr=E9 de me faire part de vos =E9l=E9ments avant le 3=
+0 septembre 2010.
+
+Me tenant =E0 votre disposition.
+
+=20
+
+Merci.=20
+
+Bien cordialement,=20
+
+=20
+
+--
+
+Fran=E7ois Brizard
+
+Affaires europ=E9ennes
+
+PCN juridique et financier
+
+Association Nationale de la Recherche et de la Technologie
+
+41, Bd des Capucines, 75002 Paris=20
+
+Tel : +33 (0)1.55.35.25.70
+
+Fax : +33 (0)1.55.35.25.55
+
+Mail : contract@anrt.asso.fr=20=20=20=20=20
+
+http://www.anrt.asso.fr=20=20=20
+
+=20
+
+
+------_=_NextPart_001_01CB50EE.E3EDB275
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-=
+1">
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+
+<head>
+
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.imp-signature, li.imp-signature, div.imp-signature
+	{mso-style-name:imp-signature;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.EmailStyle20
+	{mso-style-type:personal;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+span.EmailStyle21
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DFR link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Chers coll=E8gues, <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Le Point de Contact National administratif, juridique et
+financier (CNRS, CEA, Institut Telecom, Armines, CDC coordonn=E9s par l&#82=
+17;ANRT),
+souhaite =E9tablir <b>une position de synth=E8se commune =E0 l&#8217;ensemb=
+le des
+participants fran=E7ais concernant l&#8217;obligation d&#8217;ouvrir un com=
+pte r=E9mun=E9r=E9
+impos=E9e par la CE aux coordonnateurs de projets du 7<sup>=E8me</sup> PCRD=
+T.</b> <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><b><i><span style=3D'font-size:11.0pt;font-family:"Cal=
+ibri","sans-serif";
+color:#1F497D'>Ce &nbsp;message est diffus=E9 &nbsp;via divers canaux et par
+plusieurs de nos partenaires, toutes nos excuses si vous le recevez plusieu=
+rs
+fois. </span></i></b><span style=3D'font-family:"Calibri","sans-serif";
+color:black'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><b><i><span style=3D'font-size:11.0pt;font-family:"Cal=
+ibri","sans-serif";
+color:#1F497D'>&nbsp;</span></i></b><span style=3D'font-family:"Calibri","s=
+ans-serif"'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Afin d&#8217;=EAtre exempt=E9 d&#8217;une telle obligation, =
+la Commission
+propose aux b=E9n=E9ficiaires-coordonnateurs de remplir une d=E9claration s=
+ur
+l&#8217;honneur faisant =E9tat soit d&#8217;une disposition l=E9gale nation=
+ale interdisant
+l&#8217;ouverture de comptes r=E9mun=E9r=E9s, soit d&#8217;un argumentaire =
+d=E9montrant que
+l&#8217;ouverture de tels comptes est une charge administrative trop lourde=
+. </span><span
+style=3D'font-family:"Calibri","sans-serif"'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Cette d=E9claration sur l&#8217;honneur est alors analys=E9e=
+ par la
+Commission qui d=E9cide si le participant concern=E9 est autoris=E9 =E0 ne =
+pas ouvrir
+de compte r=E9mun=E9r=E9. </span><span style=3D'font-family:"Calibri","sans=
+-serif"'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Cependant, les crit=E8res d&#8217;appr=E9ciation de la Commi=
+ssion ne sont
+pas connus. Des incertitudes juridiques demeurent. </span><span
+style=3D'font-family:"Calibri","sans-serif"'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Certains retours d&#8217;exp=E9rience font =E9tat de ce que =
+la lourdeur
+administrative ne doit porter que sur l&#8217;ouverture de comptes et non p=
+as sur la
+gestion de tels comptes, point de vue que la Commission vient de confirmer =
+dans
+la version 3 du guide sur les questions financi=E8res.</span><span
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#7030A0'=
+> <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-family:"Calibri","sans-serif";colo=
+r:black'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>En outre, de nombreuses questions restent en suspend quant =
+=E0
+l&#8217;appr=E9ciation par la CE des dispositions nationales, notamment con=
+cernant le
+D=E9cret n=B094-39 du 14 janvier 1994 relatif au budget et au r=E9gime fina=
+ncier des
+=E9tablissements publics =E0 caract=E8re scientifique, culturel et professi=
+onnel dans
+sa version consolid=E9e du 24 janvier 2009 pr=E9voyant que&nbsp;:</span><sp=
+an
+style=3D'font-family:"Calibri","sans-serif"'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>=AB&nbsp;Les fonds de l'=E9tablissement sont d=E9pos=E9s au =
+Tr=E9sor
+public. Des fonds peuvent =EAtre d=E9pos=E9s, sur d=E9rogation accord=E9e p=
+ar le ministre
+charg=E9 du budget, aupr=E8s de la Banque de France ou d'un =E9tablissement=
+ financier
+agr=E9=E9.&nbsp;=BB (id. &nbsp;D=E9cret n=B062-1587 du 29 d=E9cembre 1962 p=
+ortant r=E8glement
+g=E9n=E9ral sur la comptabilit=E9 publique) ; et consid=E9rant l&#8217;inst=
+ruction de la DG
+Finances Publiques N=B0 10-011-M9 du 15 avril 2010.</span><span style=3D'fo=
+nt-size:
+11.0pt;font-family:"Calibri","sans-serif"'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>&nbsp;</span><span style=3D'font-family:"Calibri","sans-seri=
+f"'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Afin de recenser les situations op=E9rationnelles et cas de =
+figure
+rencontr=E9s par nos =E9tablissements et dans le but de demander des clarif=
+ications
+=E0 la Commission europ=E9enne, merci de bien vouloir nous faire part de vo=
+tre
+situation dans vos projets en cours ou en n=E9gociation :</span><span
+style=3D'font-family:"Calibri","sans-serif"'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>&nbsp;</span><span style=3D'font-family:"Calibri","sans-seri=
+f"'><o:p></o:p></span></p>
+
+<p class=3DMsoListParagraph style=3D'text-indent:-18.0pt'><span style=3D'fo=
+nt-size:
+11.0pt;font-family:"Calibri","sans-serif";color:#1F497D'>- Avez-vous ouvert=
+ un
+compte r=E9mun=E9r=E9&nbsp;unique d=E9di=E9 aux projets europ=E9ens ? Avez-=
+vous ouvert un
+compte par projet&nbsp;?</span><span style=3D'font-family:"Calibri","sans-s=
+erif"'><o:p></o:p></span></p>
+
+<p class=3DMsoListParagraph style=3D'text-indent:-18.0pt'><span style=3D'fo=
+nt-size:
+11.0pt;font-family:"Calibri","sans-serif";color:#1F497D'>- Avez-vous obtenu=
+ une
+exemption&nbsp;? &nbsp;Si oui, quels ont =E9t=E9 vos arguments et l&#8217;a=
+ppr=E9ciation
+port=E9e par la Commission europ=E9enne&nbsp;?</span><span style=3D'font-fa=
+mily:"Calibri","sans-serif"'><o:p></o:p></span></p>
+
+<p class=3DMsoListParagraph style=3D'text-indent:-18.0pt'><span style=3D'fo=
+nt-size:
+11.0pt;font-family:"Calibri","sans-serif";color:#1F497D'>- En attente de
+d=E9cision de la Commission, vos pr=E9financements sont-il bloqu=E9s&nbsp;?=
+ Quelle
+solution vous propose la Commission&nbsp;?</span><span style=3D'font-family=
+:"Calibri","sans-serif"'><o:p></o:p></span></p>
+
+<p class=3DMsoListParagraph style=3D'text-indent:-18.0pt'><span style=3D'fo=
+nt-size:
+11.0pt;font-family:"Calibri","sans-serif";color:#1F497D'>- Pouvez-vous nous
+communiquer des courriels refl=E9tant vos =E9changes avec votre project off=
+icer
+(ils seront utilis=E9s en toute confidentialit=E9 et exclusivement aux fins=
+ de
+r=E9alisation de cette position fran=E7aise)</span><span style=3D'font-fami=
+ly:"Calibri","sans-serif"'><o:p></o:p></span></p>
+
+<p class=3DMsoListParagraph style=3D'text-indent:-18.0pt'><span style=3D'fo=
+nt-size:
+11.0pt;font-family:"Calibri","sans-serif";color:#1F497D'>- Quelle(s)
+solution(s) transitoire(s) =E0 la fin de l'obligation d'ouverture de ces co=
+mptes
+vous semble la plus appropri=E9e&nbsp;? </span><span style=3D'font-family:"=
+Calibri","sans-serif"'><o:p></o:p></span></p>
+
+<p class=3DMsoListParagraph style=3D'text-indent:-18.0pt'><span style=3D'fo=
+nt-size:
+11.0pt;font-family:"Calibri","sans-serif";color:#1F497D'>- Estimation chiff=
+r=E9e
+de la charge que repr=E9sente pour votre organisme l'obligation d'ouverture=
+ des
+comptes bancaires r=E9mun=E9r=E9s pour les pr=E9financements par rapport au=
+ nombre de
+projet FP7 en coordination dans votre organisme ?</span><span style=3D'font=
+-family:
+"Calibri","sans-serif"'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Calibri",=
+"sans-serif";
+color:navy'>&nbsp;</span><span style=3D'font-family:"Calibri","sans-serif"'=
+><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Je vous remercie par avance de votre contribution =E0 cet ef=
+fort
+de mutualisation et vous serais gr=E9 de me faire part de vos =E9l=E9ments =
+<u>avant
+le 30 septembre 2010</u>.</span><span style=3D'font-family:"Calibri","sans-=
+serif"'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Me tenant =E0 votre disposition.</span><span style=3D'font-f=
+amily:
+"Calibri","sans-serif"'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>&nbsp;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Merci. <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Bien cordialement, <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-family:"Calibri","sans-serif";colo=
+r:black'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><b><span style=3D'font-size:10.0pt;font-family:"Calibr=
+i","sans-serif";
+color:#1F497D'>--<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><b><span style=3D'font-size:10.0pt;font-family:"Calibr=
+i","sans-serif";
+color:#1F497D'>Fran=E7ois Brizard<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:9.0pt;font-family:"Calibri","=
+sans-serif";
+color:#1F497D'>Affaires europ=E9ennes<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:9.0pt;font-family:"Calibri","=
+sans-serif";
+color:#1F497D'>PCN juridique et financier<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:9.0pt;font-family:"Calibri","=
+sans-serif";
+color:#1F497D'>Association Nationale de la Recherche et de la Technologie<o=
+:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:9.0pt;font-family:"Calibri","=
+sans-serif";
+color:#1F497D'>41, Bd des Capucines, 75002 Paris <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:9.0pt;font-family:"Calibri","=
+sans-serif";
+color:#1F497D'>Tel : +33 (0)1.55.35.25.70<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:9.0pt;font-family:"Calibri","=
+sans-serif";
+color:#1F497D'>Fax : +33 (0)1.55.35.25.55<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:9.0pt;font-family:"Calibri","=
+sans-serif";
+color:#1F497D'>Mail : <a href=3D"mailto:contract@anrt.asso.fr">contract@anr=
+t.asso.fr</a>
+&nbsp;&nbsp;&nbsp;&nbsp;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:9.0pt;font-family:"Calibri","=
+sans-serif";
+color:#1F497D'><a href=3D"http://www.anrt.asso.fr">http://www.anrt.asso.fr<=
+/a>
+&nbsp;&nbsp;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+
+------_=_NextPart_001_01CB50EE.E3EDB275--

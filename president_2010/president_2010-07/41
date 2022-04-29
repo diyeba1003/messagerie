@@ -1,0 +1,132 @@
+Return-Path: <emmanuel.ethis@univ-avignon.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 3092322850
+	for <president@listes.univ-angers.fr>; Mon,  5 Jul 2010 11:10:06 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 1D21F114067; Mon,  5 Jul 2010 11:10:06 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from mh02c.univ-avignon.fr (mh02c.univ-avignon.fr [195.83.163.184])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id E800011405D
+	for <president@univ-angers.fr>; Mon,  5 Jul 2010 11:10:05 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mh02c.univ-avignon.fr (Postfix) with ESMTP id 5AC442AA201;
+	Mon,  5 Jul 2010 11:10:05 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=univ-avignon.fr;
+	 h=x-mailer:references:date:subject:mime-version
+	:content-transfer-encoding:content-type:in-reply-to:from
+	:message-id:received:received:x-virus-scanned; s=employee; t=
+	1278321005; x=1280913005; bh=c4/tMsS/tIClnb3U/Tcl7dcUikqZjMC+K6W
+	XC6K0tks=; b=wnF94Xli7kYZZql70rbPSla6LRP6NYze3khNmmmhYCWdiC+RSAO
+	UNMRZ4QpxbsUCvN02dOLbLpKDit8tM4eYgGngBcDg1j6Zul4YlksLS00DTE7bzdP
+	HI4WN5zMnmQPvTTYnV8nn+hXWOFnP06zvKtMxjooFMESzajNy2nxYCsI=
+X-Virus-Scanned: mh02c.univ-avignon.fr
+Received: from mh02c.univ-avignon.fr ([127.0.0.1])
+	by localhost (mh02c.univ-avignon.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id vR-W1JPqPHDx; Mon,  5 Jul 2010 11:10:05 +0200 (CEST)
+Received: from a-2w03-presid.univ-avignon.fr (a-2w03-presid.univ-avignon.fr [194.57.177.56])
+	by mh02c.univ-avignon.fr (Postfix) with ESMTP id 1A5532AA1F8;
+	Mon,  5 Jul 2010 11:10:04 +0200 (CEST)
+Cc:  <presidence@univ-provence.fr>,
+  <president@univ-cezanne.fr>,
+  <president@univ-angers.fr>,
+  <claude.conde@univ-fcomte.fr>,
+  <a.boudou@presidence.u-bordeaux1.fr>,
+  <president@u-bordeaux2.fr>,
+  <president@univ-brest.fr>,
+  <president@univ-bpclermont.fr>,
+  <president@u-bourgogne.fr>,
+  <presidence@ujf-grenoble.fr>,
+  <christian.sergheraert@univ-lille2.fr>,
+  <president@univ-littoral.fr>,
+  <president@univ-ubs.fr>,
+  <presid@univ-lyon3.fr>,
+  <president@univ-metz.fr>,
+  <presidence@univ-montp2.fr>,
+  <president@univ-nantes.fr>,
+  <presidence@unice.fr>,
+  <president@u-psud.fr>,
+  <president@univ-paris12.fr>,
+  <pres-p13@upn.univ-paris13.fr>,
+  <presidence@u-paris2.fr>,
+  <Jean-louis.gout@univ-pau.fr>,
+  <president@univ-poitiers.fr>,
+  <guy.cathelineau@univ-rennes1.fr>,
+  <marc.gontard@uhb.fr>,
+  <chefcab@adm.ups-tlse.fr>,
+  <president@univ-tours.fr>,
+  <direction@utbm.fr>,
+  <presidence@utc.fr>,
+  <president@univ-valenciennes.fr>,
+  <presidente@admin.uvsq.fr>,
+  <president@inpl-nancy.fr>,
+  <president@inp-toulouse.fr>,
+  <presidence@grenoble-inp.fr>,
+  <directeur.general@ens-lyon.fr>,
+  <directrice@ens.fr>,
+  <direction@ens-lsh.fr>,
+  <yvon.berland@univmed.fr>,
+  <presidence@univ-corse.fr>,
+  <cabinet.president@univ-tlse1.fr>,
+  <presidence@univ-montp1.fr>,
+  <president@univ-st-etienne.fr>,
+  <presidence@univ-lyon1.fr>,
+  <presidence@unilim.fr>,
+  <president.larochelle@univ-lr.fr>,
+  <president@utt.fr>,
+  <president@uhp-nancy.fr>,
+  <presidence@uha.fr>,
+  <presidence@adm-ulp.u-strasbg.fr>,
+  <francoise.moulin-civil@u-cergy.fr>,
+  <francis.godard@univ-mlv.fr>,
+  <president@univ-paris5.fr>,
+  <presidence@upmc.fr>,
+  <president@univ-paris-diderot.fr>,
+  <Nadine.Houel@u-cergy.fr>,
+  <corinne.pozzoli@univ-st-etienne.fr>,
+ "'Secretariat Presidence'" <secretariat.presidence@adm.univ-lyon1.fr>,
+  <caroline.decker@unistra.fr>,
+  <beatrice.dagorn@univ-mlv.fr>,
+  <chefdecab.president@univ-paris-diderot.fr>,
+ "'Chrystel Moser'" <chrystel.moser@u-clermont1.fr>,
+ "'myriam esquirol'" <myriam.esquirol@u-clermont1.fr>
+Message-Id: <DE760BE9-F6A3-44A8-BFED-AD6A75766422@univ-avignon.fr>
+From: Emmanuel Ethis <emmanuel.ethis@univ-avignon.fr>
+To: "Philippe Dulbecco" <philippedulbecco@free.fr>
+In-Reply-To: <!&!AAAAAAAAAAAYAAAAAAAAAFXypd5rZaRBvMnTV3VZCKXCgAAAEAAAACxuZ5qZ2nxMskRu9cYSgvgBAAAAAA==@free.fr>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (Apple Message framework v936)
+Date: Mon, 5 Jul 2010 11:10:03 +0200
+References: <!&!AAAAAAAAAAAYAAAAAAAAAFXypd5rZaRBvMnTV3VZCKXCgAAAEAAAACxuZ5qZ2nxMskRu9cYSgvgBAAAAAA==@free.fr>
+X-Mailer: Apple Mail (2.936)
+Subject: [president] =?ISO-8859-1?Q?Re:_S=E9minaire_Autonomie_des_Univers?=
+ =?ISO-8859-1?Q?it=E9s_?=
+
+Merci de cette attention tr=E8s utile !
+Emmanuel ETHIS
+Le 3 juil. 10 =E0 16:04, Philippe Dulbecco a =E9crit :
+
+> <Relev=E9 de conclusions du S=E9minaire VD.pdf>
+
+*  *  *  *  *  *  *  *  *  *  *
+Emmanuel ETHIS
+Pr=E9sident de l'Universit=E9 d'Avignon et des Pays de Vaucluse
+Professeur des Universit=E9s
+Universit=E9 d'Avignon
+74, rue Louis Pasteur
+84029 Avignon cedex 1
+
+tel : +33-490-162-525
+fax : +33-490-162-520
+mel : emmanuel.ethis@univ-avignon.fr
+
+"socioblog" : http://ethis-e.blogspot.com/
+
+Universit=E9 d'Avignon et des Pays de Vaucluse
+Ne pas attendre l'avenir, le faire
+The future is ours to build
+
+Avant d'imprimer ce mail, pensez =E0 l'environnement
+Please consider the environment - do you really need to print this=20=20
+mail ?
+

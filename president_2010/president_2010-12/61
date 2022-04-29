@@ -1,0 +1,404 @@
+Return-Path: <isabelle.nicolaus@lunam.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id BE50022851
+	for <president@listes.univ-angers.fr>; Mon,  6 Dec 2010 14:27:34 +0100 (CET)
+Received: by smtp.univ-angers.fr (Postfix)
+	id AB877114100; Mon,  6 Dec 2010 14:27:34 +0100 (CET)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp1.univ-nantes.fr [193.52.82.18])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 7CADD1140F6
+	for <president@univ-angers.fr>; Mon,  6 Dec 2010 14:27:34 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 6FDB0800814
+	for <president@univ-angers.fr>; Mon,  6 Dec 2010 14:27:34 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp1.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id 0uavo2FF5iZ1 for <president@univ-angers.fr>;
+	Mon,  6 Dec 2010 14:27:34 +0100 (CET)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 55696800A24
+	for <president@univ-angers.fr>; Mon,  6 Dec 2010 14:27:34 +0100 (CET)
+Received: from mx1.d101.univ-nantes.fr (MX1.univ-nantes.fr [193.52.101.135])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id 4DB9C7E4
+	for <daniel.martina@lunam.fr>; Mon,  6 Dec 2010 14:27:34 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by mx1.d101.univ-nantes.fr (Postfix) with ESMTP id 4440F13E5BDA;
+	Mon,  6 Dec 2010 14:27:34 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from mx1.d101.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id KnMKTIwoF3jf; Mon,  6 Dec 2010 14:27:34 +0100 (CET)
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+Received: from smtp-tls.univ-nantes.fr (smtp-tls2.univ-nantes.fr [193.52.101.146])
+	by mx1.d101.univ-nantes.fr (Postfix) with ESMTP id 2480313E5BC3;
+	Mon,  6 Dec 2010 14:27:34 +0100 (CET)
+Received: from localhost (debian [127.0.0.1])
+	by smtp-tls.univ-nantes.fr (Postfix) with ESMTP id D7871400655;
+	Mon,  6 Dec 2010 14:30:31 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from smtp-tls.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp-tls2.d101.univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id bEC-lSfHLbpy; Mon,  6 Dec 2010 14:30:31 +0100 (CET)
+Received: from PCPRES03 (unknown [172.20.38.110])
+	(using TLSv1 with cipher RC4-MD5 (128/128 bits))
+	(No client certificate requested)
+	by smtp-tls.univ-nantes.fr (Postfix) with ESMTPSA id B763E400638;
+	Mon,  6 Dec 2010 14:30:31 +0100 (CET)
+From: "Isabelle NICOLAUS" <isabelle.nicolaus@lunam.fr>
+To: <daniel.martina@lunam.fr>,
+	<francis.yguel@univ-nantes.fr>
+Cc: "'Geraldine LAVERDAN'" <Geraldine.Laverdan@lunam.fr>
+Date: Mon, 6 Dec 2010 14:27:49 +0100
+Message-ID: <029001cb9549$605cb230$21161690$@nicolaus@lunam.fr>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0291_01CB9551.C2211A30"
+X-Priority: 1 (Highest)
+X-MSMail-Priority: High
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AcuVRAvkH4JrWSBWTcCoyl75YNWiewABUDqA
+Content-Language: fr
+Importance: High
+Subject: [president] =?ISO-8859-1?Q?TR:_AERES_-_Invitation_=E0_la_pr=E9se?=
+ =?ISO-8859-1?Q?ntation_du_15_d=E9cembre?=
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0291_01CB9551.C2211A30
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Pour information
+
+=20
+
+De : Yves Guillotin [mailto:president@univ-lemans.fr]=20
+Envoy=E9 : lundi 6 d=E9cembre 2010 13:50
+=C0 : Direction LUNAM
+Cc : VPCS -; VPCA -
+Objet : Re: AERES - Invitation =E0 la pr=E9sentation du 15 d=E9cembre
+Importance : Haute
+
+=20
+
+            Chers coll=E8gues,=20
+
+=20
+
+            Retenu de longue date ce jour sur Paris, je ne pourrai
+participer =E0 cette r=E9union, Merci de bien vouloir m'excuser aupr=E8s des
+participants.=20
+
+=20
+
+            Cordialement=20
+
+=20
+
+Le 6 d=E9c. 2010 =E0 09:54, Direction LUNAM a =E9crit :
+
+
+
+
+
+Messieurs les Pr=E9sidents, Messieurs les Directeurs,
+
+=20
+
+L=92expertise AERES se d=E9roule les 15, 16 et 17 d=E9cembre prochain. Les
+programmes des =E9valuations des Ecoles doctorales viennent d=92=EAtre fina=
+lis=E9s
+avec l=92AERES. Vous trouverez ci-joint ces programmes pour chaque comit=E9.
+
+=20
+
+Comme vous le verrez, en pr=E9alable aux visites, l=92ensemble des comit=E9s
+seront r=E9unis au PRES pour une pr=E9sentation de la politique de L=92UNAM=
+ et de
+dispositifs mutualis=E9s en faveur des Ecoles doctorales.
+
+=20
+
+Je suis heureux de vous inviter le mercredi 15 d=E9cembre =E0 9h45 =E0 L=92=
+UNAM pour
+assister =E0 ces =E9changes avec les experts AERES des trois comit=E9s.
+
+=20
+
+Recevez Messieurs les Pr=E9sidents, Messieurs les Directeurs, l=92expressio=
+n de
+mes salutations distingu=E9es.
+
+Daniel MARTINA
+Pr=E9sident
+T=E9l. +33.(0)2.28.08.14.28
+Fax +33.(0)2.28..08.14.01
+
+L=92Universit=E9 Nantes Angers Le Mans (L=92UNAM)
+P=F4le de recherche et d'enseignement sup=E9rieur
+
+Immeuble MANNY
+19 bis rue La Nou=EB Bras de Fer
+44200 NANTES, France
+http://www.lunam.fr <http://www.lunam.fr/>=20
+
+<image001.jpg>
+
+=20
+
+=20
+
+<Visites ED      comit=E9 SSH-DEG.pdf><Visites ED      comit=E9 ST.pdf><Vis=
+ites
+ED      comit=E9 SVSE.pdf>
+
+=20
+
+Yves Guillotin
+
+Pr=E9sident de l'Universit=E9 du Maine
+
+-----------------------------------------------
+
+Courrier =E9lectronique : President@univ-lemans.fr
+
+Tel secr=E9tariat : (33) 02 43 83 30 01
+
+-----------------------------------------------
+
+Universit=E9 du Maine=20
+
+Avenue O. Messiaen
+
+72085 Le Mans Cedex 9
+
+France
+
+-----------------------------------------------
+
+=20
+
+=20
+
+
+
+
+
+=20
+
+
+------=_NextPart_000_0291_01CB9551.C2211A30
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head><meta http-equiv=3DContent-Type content=
+=3D"text/html; charset=3Diso-8859-1"><meta name=3DGenerator content=3D"Micr=
+osoft Word 12 (filtered medium)"><base href=3D"x-msg://186/"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"Texte de bulles Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.apple-tab-span
+	{mso-style-name:apple-tab-span;}
+span.apple-style-span
+	{mso-style-name:apple-style-span;}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;}
+span.EmailStyle20
+	{mso-style-type:personal-reply;
+	font-family:"Arial","sans-serif";
+	color:windowtext;
+	font-weight:normal;
+	font-style:normal;}
+span.TextedebullesCar
+	{mso-style-name:"Texte de bulles Car";
+	mso-style-priority:99;
+	mso-style-link:"Texte de bulles";
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DFR link=3Dblue vlink=
+=3Dpurple style=3D'word-wrap: break-word;-webkit-nbsp-mode: space;-webkit-l=
+ine-break: after-white-space'><div class=3DWordSection1><div><p class=3DMso=
+Normal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span s=
+tyle=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>Pour informati=
+on<o:p></o:p></span></p></div><p class=3DMsoNormal><span style=3D'font-fami=
+ly:"Arial","sans-serif"'><o:p>&nbsp;</o:p></span></p><div><div style=3D'bor=
+der:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=
+=3DMsoNormal><b><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-=
+serif"'>De&nbsp;:</span></b><span style=3D'font-size:10.0pt;font-family:"Ta=
+homa","sans-serif"'> Yves Guillotin [mailto:president@univ-lemans.fr] <br><=
+b>Envoy=E9&nbsp;:</b> lundi 6 d=E9cembre 2010 13:50<br><b>=C0&nbsp;:</b> Di=
+rection LUNAM<br><b>Cc&nbsp;:</b> VPCS -; VPCA -<br><b>Objet&nbsp;:</b> Re:=
+ AERES - Invitation =E0 la pr=E9sentation du 15 d=E9cembre<br><b>Importance=
+&nbsp;:</b> Haute<o:p></o:p></span></p></div></div><p class=3DMsoNormal><o:=
+p>&nbsp;</o:p></p><p class=3DMsoNormal><span class=3Dapple-tab-span>=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span>Chers coll=E8gues,&nbsp;<o:p></o:p></p><=
+div><p class=3DMsoNormal><o:p>&nbsp;</o:p></p></div><div><p class=3DMsoNorm=
+al><span class=3Dapple-tab-span>=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span>Re=
+tenu de longue date ce jour sur Paris, je ne pourrai participer =E0 cette r=
+=E9union, Merci de bien vouloir m'excuser aupr=E8s des participants.&nbsp;<=
+o:p></o:p></p></div><div><p class=3DMsoNormal><o:p>&nbsp;</o:p></p></div><d=
+iv><p class=3DMsoNormal><span class=3Dapple-tab-span>=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0 </span>Cordialement&nbsp;<o:p></o:p></p></div><div><p class=3D=
+MsoNormal><o:p>&nbsp;</o:p></p><div><div><p class=3DMsoNormal>Le 6 d=E9c. 2=
+010 =E0 09:54, Direction LUNAM a =E9crit :<o:p></o:p></p></div><p class=3DM=
+soNormal><br><br><o:p></o:p></p><div><div><p class=3DMsoNormal><span style=
+=3D'font-size:11.0pt;font-family:"Arial","sans-serif"'>Messieurs les Pr=E9s=
+idents, Messieurs les Directeurs,</span><span style=3D'font-size:11.0pt;fon=
+t-family:"Calibri","sans-serif"'><o:p></o:p></span></p></div><div><p class=
+=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Arial","sans-seri=
+f"'>&nbsp;</span><span style=3D'font-size:11.0pt;font-family:"Calibri","san=
+s-serif"'><o:p></o:p></span></p></div><p class=3DMsoNormal style=3D'text-al=
+ign:justify'><span style=3D'font-size:11.0pt;font-family:"Arial","sans-seri=
+f"'>L&#8217;expertise AERES se d=E9roule les 15, 16 et 17 d=E9cembre procha=
+in. Les programmes des =E9valuations des Ecoles doctorales viennent d&#8217=
+;=EAtre finalis=E9s avec l&#8217;AERES. Vous trouverez ci-joint ces program=
+mes pour chaque comit=E9.</span><span style=3D'font-size:11.0pt;font-family=
+:"Calibri","sans-serif"'><o:p></o:p></span></p><p class=3DMsoNormal style=
+=3D'text-align:justify'><span style=3D'font-size:11.0pt;font-family:"Arial"=
+,"sans-serif"'>&nbsp;</span><span style=3D'font-size:11.0pt;font-family:"Ca=
+libri","sans-serif"'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'te=
+xt-align:justify'><span style=3D'font-size:11.0pt;font-family:"Arial","sans=
+-serif"'>Comme vous le verrez, en pr=E9alable aux visites, l&#8217;ensemble=
+ des comit=E9s seront r=E9unis au PRES pour une pr=E9sentation de la politi=
+que de L&#8217;UNAM et de dispositifs mutualis=E9s en faveur des Ecoles doc=
+torales.</span><span style=3D'font-size:11.0pt;font-family:"Calibri","sans-=
+serif"'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:just=
+ify'><span style=3D'font-size:11.0pt;font-family:"Arial","sans-serif"'>&nbs=
+p;</span><span style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"=
+'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify'><=
+span style=3D'font-size:11.0pt;font-family:"Arial","sans-serif"'>Je suis he=
+ureux de vous inviter<span class=3Dapple-converted-space>&nbsp;</span><b>le=
+ mercredi 15 d=E9cembre =E0 9h45</b><span class=3Dapple-converted-space>&nb=
+sp;</span>=E0 L&#8217;UNAM pour assister =E0 ces =E9changes avec les expert=
+s AERES des trois comit=E9s.</span><span style=3D'font-size:11.0pt;font-fam=
+ily:"Calibri","sans-serif"'><o:p></o:p></span></p><p class=3DMsoNormal styl=
+e=3D'text-align:justify'><span style=3D'font-size:11.0pt;font-family:"Arial=
+","sans-serif"'>&nbsp;</span><span style=3D'font-size:11.0pt;font-family:"C=
+alibri","sans-serif"'><o:p></o:p></span></p><p class=3DMsoNormal style=3D't=
+ext-align:justify'><span style=3D'font-size:11.0pt;font-family:"Arial","san=
+s-serif"'>Recevez Messieurs les Pr=E9sidents, Messieurs les Directeurs, l&#=
+8217;expression de mes salutations distingu=E9es.</span><span style=3D'font=
+-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p></o:p></span></p><div=
+><p class=3DMsoNormal><b><span style=3D'font-size:10.0pt;font-family:"Arial=
+","sans-serif";color:#1F497D'>Daniel MARTINA<br>Pr=E9sident<br></span></b><=
+span style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F=
+497D'>T=E9l. +33.(0)2.28.08.14.28<br>Fax +33.(0)2.28..08.14.01<br><br></spa=
+n><b><span style=3D'font-size:10.0pt;font-family:"Arial","sans-serif";color=
+:#1F497D'>L&#8217;Universit=E9 Nantes Angers Le Mans (L&#8217;UNAM)<br></sp=
+an></b><span style=3D'font-size:10.0pt;font-family:"Arial","sans-serif";col=
+or:#1F497D'>P=F4le de recherche et d'enseignement sup=E9rieur</span><span s=
+tyle=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p></o:p></s=
+pan></p></div><div><p class=3DMsoNormal><span style=3D'font-size:11.0pt;fon=
+t-family:"Calibri","sans-serif";color:#1F497D'>Immeuble MANNY<br>19 bis rue=
+ La Nou=EB Bras de Fer<br>44200 NANTES, France<br></span><b><u><span style=
+=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#548DD4'><a h=
+ref=3D"http://www.lunam.fr/">http://www.lunam.fr</a></span></u></b><span st=
+yle=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p></o:p></sp=
+an></p></div><div><p class=3DMsoNormal><span style=3D'font-size:11.0pt;font=
+-family:"Calibri","sans-serif"'>&lt;image001.jpg&gt;<o:p></o:p></span></p><=
+/div><div><p class=3DMsoNormal><span style=3D'font-family:"Arial","sans-ser=
+if"'>&nbsp;</span><span style=3D'font-size:11.0pt;font-family:"Calibri","sa=
+ns-serif"'><o:p></o:p></span></p></div><div><p class=3DMsoNormal><span styl=
+e=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>&nbsp;<o:p></o:p>=
+</span></p></div><p class=3DMsoNormal><span style=3D'font-size:13.5pt'>&lt;=
+Visites ED &nbsp; &nbsp; &nbsp;comit=E9 SSH-DEG.pdf&gt;&lt;Visites ED &nbsp=
+; &nbsp; &nbsp;comit=E9 ST.pdf&gt;&lt;Visites ED &nbsp; &nbsp; &nbsp;comit=
+=E9 SVSE.pdf&gt;<o:p></o:p></span></p></div></div><p class=3DMsoNormal><o:p=
+>&nbsp;</o:p></p><div><div><p class=3DMsoNormal><span class=3Dapple-style-s=
+pan><span style=3D'font-size:9.0pt;font-family:"Helvetica","sans-serif";col=
+or:black'>Yves Guillotin</span></span><span style=3D'font-size:9.0pt;color:=
+black'><o:p></o:p></span></p></div><div><p class=3DMsoNormal><span class=3D=
+apple-style-span><span style=3D'font-size:9.0pt;font-family:"Helvetica","sa=
+ns-serif";color:black'>Pr=E9sident de l'Universit=E9 du Maine</span></span>=
+<span style=3D'font-size:9.0pt;color:black'><o:p></o:p></span></p></div><di=
+v><p class=3DMsoNormal><span class=3Dapple-style-span><span style=3D'font-s=
+ize:9.0pt;font-family:"Helvetica","sans-serif";color:black'>---------------=
+--------------------------------</span></span><span style=3D'font-size:9.0p=
+t;color:black'><o:p></o:p></span></p></div><div><p class=3DMsoNormal><span =
+class=3Dapple-style-span><span style=3D'font-size:9.0pt;font-family:"Helvet=
+ica","sans-serif";color:black'>Courrier =E9lectronique : <a href=3D"mailto:=
+President@univ-lemans.fr">President@univ-lemans.fr</a></span></span><span s=
+tyle=3D'font-size:9.0pt;color:black'><o:p></o:p></span></p></div><div><p cl=
+ass=3DMsoNormal><span class=3Dapple-style-span><span style=3D'font-size:9.0=
+pt;font-family:"Helvetica","sans-serif";color:black'>Tel secr=E9tariat : (3=
+3) 02 43 83 30 01</span></span><span style=3D'font-size:9.0pt;color:black'>=
+<o:p></o:p></span></p></div><div><p class=3DMsoNormal><span class=3Dapple-s=
+tyle-span><span style=3D'font-size:9.0pt;font-family:"Helvetica","sans-seri=
+f";color:black'>-----------------------------------------------</span></spa=
+n><span style=3D'font-size:9.0pt;color:black'><o:p></o:p></span></p></div><=
+div><p class=3DMsoNormal><span class=3Dapple-style-span><span style=3D'font=
+-size:9.0pt;font-family:"Helvetica","sans-serif";color:black'>Universit=E9 =
+du Maine&nbsp;</span></span><span style=3D'font-size:9.0pt;color:black'><o:=
+p></o:p></span></p></div><div><p class=3DMsoNormal><span class=3Dapple-styl=
+e-span><span style=3D'font-size:9.0pt;font-family:"Helvetica","sans-serif";=
+color:black'>Avenue O. Messiaen</span></span><span style=3D'font-size:9.0pt=
+;color:black'><o:p></o:p></span></p></div><div><p class=3DMsoNormal><span c=
+lass=3Dapple-style-span><span style=3D'font-size:9.0pt;font-family:"Helveti=
+ca","sans-serif";color:black'>72085 Le Mans Cedex 9</span></span><span styl=
+e=3D'font-size:9.0pt;color:black'><o:p></o:p></span></p></div><div><p class=
+=3DMsoNormal><span class=3Dapple-style-span><span style=3D'font-size:9.0pt;=
+font-family:"Helvetica","sans-serif";color:black'>France</span></span><span=
+ style=3D'font-size:9.0pt;color:black'><o:p></o:p></span></p></div><div><p =
+class=3DMsoNormal><span class=3Dapple-style-span><span style=3D'font-size:9=
+.0pt;font-family:"Helvetica","sans-serif";color:black'>--------------------=
+---------------------------</span></span><span style=3D'font-size:9.0pt;col=
+or:black'><o:p></o:p></span></p></div><div><p class=3DMsoNormal><span style=
+=3D'font-size:9.0pt;font-family:"Helvetica","sans-serif";color:black'><o:p>=
+&nbsp;</o:p></span></p></div><div><p class=3DMsoNormal><span style=3D'font-=
+size:9.0pt;font-family:"Helvetica","sans-serif";color:black'><o:p>&nbsp;</o=
+:p></span></p></div><p class=3DMsoNormal><span style=3D'font-size:9.0pt;col=
+or:black'><br><br></span><o:p></o:p></p></div><p class=3DMsoNormal><o:p>&nb=
+sp;</o:p></p></div></div></body></html>=
+
+------=_NextPart_000_0291_01CB9551.C2211A30--
+

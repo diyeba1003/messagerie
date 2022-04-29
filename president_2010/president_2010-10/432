@@ -1,0 +1,494 @@
+Return-Path: <lmansour@u-paris10.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 8F1872287B
+	for <president@listes.univ-angers.fr>; Thu, 28 Oct 2010 12:02:23 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 7FDB7114382; Thu, 28 Oct 2010 12:02:23 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from helios.u-paris10.fr (helios.u-paris10.fr [193.50.151.7])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 6802F114358
+	for <president@univ-angers.fr>; Thu, 28 Oct 2010 12:02:23 +0200 (CEST)
+Received: from localhost (hermes.u-paris10.fr [193.50.151.61])
+	by helios.u-paris10.fr (Postfix) with ESMTP id BF3771C0029;
+	Thu, 28 Oct 2010 12:02:22 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at u-paris10.fr
+Received: from helios.u-paris10.fr ([193.50.151.7])
+	by localhost (hermes.u-paris10.fr [193.50.151.61]) (amavisd-new, port 10024)
+	with SMTP id zV5gc-dSSGH3; Thu, 28 Oct 2010 11:49:37 +0200 (CEST)
+Received: from icare.u-paris10.fr (icare.u-paris10.fr [193.50.151.15])
+	by helios.u-paris10.fr (Postfix) with ESMTP id C3A961C003F;
+	Thu, 28 Oct 2010 12:02:14 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by icare.u-paris10.fr (Postfix) with ESMTP id 99CA4457;
+	Thu, 28 Oct 2010 12:02:14 +0200 (CEST)
+Received: from sar018.admc.u-paris10.fr (sar018.admc.u-paris10.fr
+	[10.24.88.10]) by webmail.u-paris10.fr (Horde MIME library) with HTTP; Thu,
+	28 Oct 2010 12:02:13 +0200
+Message-ID: <20101028120213.e20i4bzuo44oco4c@webmail.u-paris10.fr>
+Date: Thu, 28 Oct 2010 12:02:13 +0200
+From: =?iso-8859-1?b?TOlkYQ==?= Mansour <lmansour@u-paris10.fr>
+To: presidence@univ-provence.fr, yvon.berland@univmed.fr,
+	marc.pena@univ-cezanne.fr, president@univ-angers.fr,
+	president@univ-artois.fr, president@univ-avignon.fr,
+	claude.conde@univ-fcomte.fr, a.boudou@presidence.u-bordeaux1.fr,
+	president@u-bordeaux2.fr, patrice.brun@u-bordeaux3.fr,
+	president@u-bordeaux4.fr, president@univ-brest.fr, president@univ-ubs.fr,
+	josette.travert@unicaen.fr, francoise.moulin-civil@u-cergy.fr,
+	philippe.dulbecco@u-clermont1.fr, president@univ-bpclermont.fr,
+	aiello@univ-corse.fr, president@u-bourgogne.fr,
+	richard.messina@univ-evry.fr, farid.ouabdesselam@ujf-grenoble.fr,
+	presidence@upmf-grenoble.fr, presidence@u-grenoble3.fr, presidence@uha.fr,
+	president@univ-st-etienne.fr, president@univ-reunion.fr,
+	president.larochelle@univ-lr.fr, presidence@univ-lehavre.fr,
+	philippe.rollet@univ-lille1.fr, christian.sergheraert@univ-lille2.fr,
+	claude.dupas@univ-lille3.fr, presidence@unilim.fr,
+	president@univ-littoral.fr, lionel.collet@univ-lyon1.fr,
+	president@univ-lyon2.fr, presid@univ-lyon3.fr, president@univ-lemans.fr,
+	president@univ-metz.fr, presidence@univ-montp1.fr,
+	presidence@univ-montp2.fr, presidence@univ-montp3.fr,
+	president@uhp-nancy.fr, president@univ-nantes.fr, Albert.Marouani@unice.fr,
+	presidence@unimes.fr, boyer@univ-nc.nc, president@univ-orleans.fr,
+	Claude.Colliard@univ-paris1.fr, presidence@u-paris2.fr,
+	presidence@univ-paris3.fr, president@paris-sorbonne.fr,
+	president@parisdescartes.fr, presidence@upmc.fr,
+	president@univ-paris-diderot.fr, presidence@univ-paris8.fr,
+	president@dauphine.fr, president@u-paris10.fr, president@u-psud.fr,
+	simone.bonnafous@u-pec.fr, p13@univ-paris13.fr, presidence@univ-mlv.fr,
+	louis.gout@univ-pau.fr, president@univ-perp.fr, president@u-picardie.fr,
+	president@univ-poitiers.fr, courrier@ufp.pf, presidence@univ-reims.fr,
+	president@univ-rennes1.fr, marc.gontard@uhb.fr, presidence@univ-rouen.fr,
+	presidence@univ-savoie.fr, alain.beretz@unistra.fr,
+	philippe.tchamitchian@univ-tln.fr, cabinet.president@univ-tlse.fr,
+	filatre@univ-tlse.fr, secpres@adm.ups-tlse.fr, president@univ-tours.fr,
+	pierre.mairesse@univ-valenciennes.fr, presidente@admin.uvsq.fr,
+	pascal.saffache@univ-ag.fr
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) H3 (4.0.4)
+X-WebMail-Company: Universite Paris 10 Nanterre
+X-Originating-IP: 10.24.88.10
+X-Remote-Browser: Mozilla/5.0 (Windows; U; Windows NT 5.1; fr; rv:1.9.2.11)
+	Gecko/20101012 Firefox/3.6.11 ( .NET CLR 3.5.30729; .NET4.0E)
+Subject: [president] Bonjour de Nanterre
+
+Chers toutes et tous,
+
+J'esp=E8re que vous allez bien.
+
+Je m'adresse =E0 vous pour vous demander de nous aider =E0 diffuser
+l'annonce du colloque SHS (annonce ci-dessous) pour le 40=E8me
+anniversaire de Paris ouest Nanterre aupr=E8s de vos organismes,
+
+merci infiniment de votre soutien
+=E0 bient=F4t =E0 Nanterre
+
+L=E9da Mansour
+Cellule d'Appui =E0 la Recherche
+Universit=E9 Paris Ouest Nanterre La D=E9fense
+200, avenue de la R=E9publique
+92001- Nanterre cedex
+
+          *****************************************
+
+
+Grand Colloque =AB Sciences Humaines & Sociales, 1970-2010 : NANTERRE EN DE=
+BAT =BB
+           ****************************************************
+
+On a longtemps cru =E0 une crise des sciences humaines et sociales. Apr=E8s
+1970, les paradigmes marxiste ou structuraliste se sont effrit=E9s face =E0
+la r=E9alit=E9 du sujet concret qu?ils ne parvenaient pas =E0 expliquer ; et
+on a pens=E9 que d?autres disciplines comme l?=E9conomie ou la biologie
+permettraient de mieux comprendre le fait humain dans ses deux
+dimensions de g=E9n=E9ralit=E9 et de singularit=E9. Toutefois, cette =E9ros=
+ion du
+sens des SHS s?=E9tait accompagn=E9e d?un d=E9veloppement du nombre de
+chaires, de publications et d?=E9tudiants. Celui-ci a =E9t=E9 remis en cause
+r=E9cemment, pour des raisons budg=E9taires, mais =E9galement id=E9ologique=
+s,
+au moment m=EAme o=F9 les paradigmes =E9conomiques classiques montrent leurs
+limites dans leur ambition d?expliquer le monde et que les
+neurosciences, malgr=E9 leurs avanc=E9es, ne parviennent pas =E0 rendre
+compte de la diversit=E9 de l?humain. Les SHS ont donc connu de 1970 =E0
+2010 une =E9volution historique depuis une crise du sens, alli=E9e =E0 une
+relative prosp=E9rit=E9 institutionnelle, =E0 une crise institutionnelle qui
+surgit alors que, lib=E9r=E9es de leurs anciens paradigmes, mais fortes de
+leurs nouvelles aproches, elles peuvent =E0 nouveau prendre en charge le
+sens du monde. En effet, seules les sciences sociales et humaines
+peuvent aujourd?hui appr=E9hender la complexit=E9, essentiellement
+culturelle, du monde humain, et produire une synth=E8se qui tienne compte
+des apports des autres disciplines.
+
+
+
+Edito de Bernadette Madeuf, pr=E9sidente de Paris Ouest
+
+Quelles SHS aujourd'hui ?
+Depuis la cr=E9ation des universit=E9s, en conformit=E9 avec la loi Edgar
+Faure, qui a =E9t=E9 une des r=E9ponses aux =E9v=E9nements de mai 68, le pa=
+ysage
+des Sciences humaines et sociales a beaucoup =E9volu=E9, tant d'un point de
+vue scientifique que d'un point de vue disciplinaire et institutionnel.
+En parall=E8le, la perception qu'en ont le public, les =E9tudiants, les
+politiques, les entreprises a  =E9galement chang=E9. Et pourtant...
+
+En 2010, plusieurs d=E9cennies apr=E8s la fin des Trente Glorieuses et
+l'abandon de la prospective =E0 la fran=E7aise au sein du Commissariat du
+Plan, les politiques s'appr=EAtent =E0 investir des sommes importantes dans
+des projets scientifiques =AB de prestige =BB, tout en mettant en ?uvre, =
+=E0
+marche forc=E9e, une multitude de dispositifs de contr=F4le, d'=E9valuation
+et de contractualisation de la recherche publique.
+
+Dans les projets mis en avant, les Sciences humaines et sociales
+apparaissent comme les parents pauvres de l'universit=E9, alors que les
+probl=E9matiques sur lesquelles elles r=E9fl=E9chissent sont devenues
+incontournables. La politique, la d=E9mocratie, la mondialisation,
+l'=E9thique, le d=E9veloppement durable, le travail, les maux de la
+soci=E9t=E9, l'interculturalit=E9, le r=F4le d'internet... toutes ces
+questions, et bien d'autres, sont au c?ur de la recherche en sciences
+humaines et sociales, et int=E9ressent  d=E9sormais une part croissante des
+acteurs de la soci=E9t=E9, qu'ils soient cadres d'entreprises, ing=E9nieurs,
+responsables politiques ou simples citoyens.
+
+Plus g=E9n=E9ralement, alors que les services sont devenus le premier
+secteur d'activit=E9 et la premi=E8re source de richesse d'Europe
+occidentale, les universit=E9s de Sciences humaines et sociales sont
+encore pr=E9sent=E9es comme des =AB usines =E0 ch=F4meurs =BB, et le mod=E8=
+le
+universitaire oppos=E9 =E0 celui des =E9coles, petites ou grandes, supos=E9=
+es
+plus rentables ou efficaces.
+
+Au vu de l'importance historique de =AB Nanterre =BB, fer de lance des
+mouvements de modernisation de l'universit=E9 fran=E7aise, nous avons
+souhait=E9 y accueillir des sp=E9cialistes des diff=E9rentes Sciences
+humaines et sociales, venus de France et de l'=E9tranger. Ce colloque
+aura comme objectif d'analyser ce qui constitue les =AB SHS=BB
+d'aujourd'hui et de questionner leur place et leur devenir dans le
+monde.
+
+
+
+C?est de tout cela dont les meilleurs sp=E9cialistes d=E9battront =E0
+Nanterre, lieu embl=E9matique des SHS en France, les 16 et 17 d=E9cembre
+2010. Le programme et l?inscription sont accessibles =E0
+www.u-paris10.fr/colloqueSHS<http://www.u-paris10.fr/colloqueSHS>
+
+Comit=E9 scientifique :
+
+Herv=E9 Inglebert, IUF, Professeur d?histoire
+Martine de Gaudemar, IUF, Professeure de philosophie
+Anne Lacheret, IUF, Professeure de linguistique
+Bernard Lacroix, IUF, Professeur de sciences politiques
+S=E9gol=E8ne Le Men, IUF, Professeure d?histoire de l?art
+Bernard Laks, IUF, Professeur de linguistique, Vice-pr=E9sident charg=E9 de
+la Recherche
+Pierre Rouillard, Directeur de la Maison Ren=E9-Ginouv=E8s d?Arch=E9ologie =
+et
+d?Ethnologie, Vice-pr=E9sident d=E9l=E9gu=E9 =E0 la Recherche
+Yan Brailowsky, Ma=EEtre de Conf=E9rences en histoire et litt=E9rature
+anglaises, Vice-pr=E9sident charg=E9 de la communication
+
+Coordination :
+Service de la communication
+Service d?Administration de la Recherche
+
+Programme complet :
+
+
+Jeudi 16 d=E9cembre 2010
+Lieu : amphith=E9=E2tre Henri Lefebvre (B2)
+
+9h : Introduction : L'invention de Nanterre
+Bernadette Madeuf, Universit=E9 Paris Ouest Nanterre La D=E9fense
+
+9h15 : Pr=E9sentation du colloque
+Bernard Laks, Universit=E9 Paris Ouest Nanterre La D=E9fense
+Conf=E9rences : Engagements et paradigmes
+Th=E8me 1 : Engagements et d=E9sengagements
+Pr=E9sidence : Todd Porterfield, Universit=E9 de Montr=E9al
+
+9h30 : Que devient la Th=E9orie ? Sciences humaines, politique, philosophie
+(1970-2010) : r=E9flexions et propositions
+Etienne Balibar, Universit=E9 Paris Ouest Nanterre La D=E9fense
+
+10h : Les Sciences humaines et sociales et la d=E9mocratie (1970-2010)
+Didier Eribon, Universit=E9 d'Amiens
+
+10h30 : d=E9bat
+
+11h : pause
+Th=E8me 2 : Le devenir des paradigmes
+Pr=E9sidence : Pierre Rouillard, Maison Ren=E9-Ginouv=E8s
+de l'Arch=E9ologie et de l'Ethnologie
+11h15 : Structure et sujet (1970-2010)
+Jean-Claude Milner, Universit=E9 Paris-VII
+
+11h45 : Economie versus sociologie : du moment marxiste au dialogue des
+disciplines (1970-2010)
+Fran=E7ois Vatin, Universit=E9 Paris Ouest Nanterre La D=E9fense
+
+12h15 : d=E9bat
+
+12h45 - 14h30 : d=E9jeuner
+Apr=E8s-midi (14h30 - 18h) :
+Sessions : Disciplines et indisciplines
+
+Session 1 : Le croisement des disciplines
+Pr=E9sidence : Catherine Larrere, Universit=E9 Paris-I
+14h30 : L'histoire et les Sciences humaines et sociales : de
+l'imp=E9rialisme =E0 l'interdisciplinarit=E9
+Ludovic Tourn=E8s, Universit=E9 Paris Ouest Nanterre La D=E9fense
+
+15h : M=E9decines du corps et de l'esprit
+Anne Fagot-Largeault, Coll=E8ge de France
+
+15h30 : Retour sur la question du style : histoire de l'art et anthropologie
+Roland Recht, Coll=E8ge de France
+
+16h : d=E9bat
+
+16h15 : pause
+
+16h30 : Philosophie et anthropologie
+Patrice Maniglier, University of Essex
+
+17h : G=E9ographie, art et psychanalyse
+Anne Volvey, Universit=E9 d'Artois
+
+17h30 : L'exemple des sciences cognitives
+J=E9r=F4me Sackur, ENS Ulm
+
+18h : d=E9bat
+
+19h : Remise des prix de th=E8se, voir programme ci-dessous
+
+Session 2 : Transformations et remises en cause des disciplines
+Pr=E9sidence : Annette Becker, Universit=E9 Paris Ouest
+
+14h30 : La linguistique et les sciences du langage (1970-2010)
+Pierre Encrev=E9, EHESS
+
+15h : Les th=E9ories dominantes de l'=E9conomie =E0 partir des ann=E9es 197=
+0 :
+vers une science physique et une science de l'ing=E9nieur
+Bruno Th=E9ret, CNRS
+
+15h30 : Histoire de la th=E9orie du droit (1970-2010)
+Michel Troper, Universit=E9 Paris Ouest Nanterre La D=E9fense
+
+16h : d=E9bat
+
+16h15 : pause
+
+16h30 : Les philosophies =E0 l'=E8re des paradigmes : divisions, tournants,=
+ et retours
+Sandra Laugier, Universit=E9 Paris-I
+
+17h : Les th=E9ories de l'esth=E9tique (1970-2010)
+Jacqueline Lichstenstein, Universit=E9 Paris-IV
+
+17h30 : De l'anthropologie clinique ou de la sagesse de l'indiscipline
+Pierre-Yves Balut, Universit=E9 Paris-IV
+
+18h : d=E9bat
+
+19h : Remise des prix de th=E8se, voir programme ci-dessous
+
+
+Session 3 : Les faces =E0 faces transatlantiques 1970-2010
+Pr=E9sidence :
+
+14h30 : Du f=E9minisme aux genders (1970-2010)
+Carol Gilligan, New York University
+
+15h : La French Theory (1970-2010)
+Paola Marrati, John Hopkins University
+
+15h30 : Le Cognitive Turn (1970-2010)
+John A. Goldsmith, Chicago University
+
+16h : d=E9bat
+
+16h15 : pause
+
+16h30 : Les Cultural Studies (1970-2010)
+Lynn Hunt, University of California Los Angeles
+
+17h : Une nouvelle donne en histoire de l'art (1970-2010)
+Yve-Alain Bois, Princeton, IAS
+
+17h30 : Les Postcolonial Studies (1980-2010)
+Jacques Pouchepadass, CNRS
+
+18h : d=E9bat
+
+19h : Remise des prix de th=E8se, voir programme ci-dessous
+
+
+Vendredi 17 d=E9cembre 2010
+
+
+Conf=E9rences : Des Sciences humaines et sociales en crises ?
+Lieu : amphith=E9=E2tre Henri Lefebvre (B2)
+
+Th=E8me 1 : Les Sciences humaines et sociales en crise dans le monde actuel=
+ ?
+Pr=E9sidence : Fran=E7ois Weil, EHESS
+
+9h : Pour une ontologie des faits sociaux
+Pierre Livet, Universit=E9 Aix-Marseille
+
+9h30 : Les Sciences humaines et sociales, le livre et Internet
+Bruno Racine, BNF
+
+10h : L'insertion professionnelle des =E9tudiants en Sciences humaines et s=
+ociales
+Vincent Merle, CNAM
+
+10h30 : d=E9bat
+
+11h : pause
+
+Th=E8me 2 : Une crise du sens des Sciences humaines et
+sociales face au monde actuel ?
+Pr=E9sidence : Anne Lacheret, Universit=E9 Paris Ouest
+
+11h15 : Les sciences politiques au coeur du maelstr=F6m
+Bernard Lacroix, Universit=E9 Paris Ouest Nanterre La D=E9fense
+
+11h45 : Diversit=E9 culturelle et mondialisation : uniformisation ou
+production de la diff=E9rence ?Jean-Loup Amselle, EHESS
+
+12h15 : d=E9bat
+
+12h45 - 14h30 : d=E9jeuner
+
+Apr=E8s-midi (14h30 - 18h) :
+Sessions : Sorties de crise
+
+Session 1 : Le curseur culture/nature aujourd'hui
+Pr=E9sidence : Bernard Laks, Universit=E9 Paris Ouest
+
+14h30 :
+
+15h : G=E9ographie physique, g=E9ographie humaine, =E9cologie
+Herv=E9 Regnauld, Universit=E9 Rennes-II
+
+15h30 : Nature et culture en anthropologie
+Sophie Blanchy, CNRS
+
+16h : d=E9bat
+
+16h15 : pause
+
+16h30 : La place du langage dans les sp=E9cificit=E9s de l'esp=E8ce humaine
+Bernard Victorri, CNRS
+
+17h : Le naturalisme dans les Sciences humaines et sociales
+Daniel Andler, Universit=E9 Paris-IV
+
+17h30 : d=E9bat
+
+18h15 : Conf=E9rence et cocktail de cl=F4ture, voir programme ci-dessous
+
+
+Session 2 : Perspectives acad=E9miques d'aujourd'hui
+Pr=E9sidence : Patrice Bourdelais, INSHS
+
+14h30 : Les Sciences humaines et sociales en France : un paysage en
+recomposition
+Marie-Claude Maurel, EHESS
+
+15h : Le catalyseur am=E9ricain : th=E9orie critiques =E0 venir et
+circulation des concepts Fran=E7ois Cusset, Universit=E9 Paris Ouest
+Nanterre La D=E9fense
+
+15h30 : Les Geisteswissenschaften en Allemagne
+Ingrid Gilcher, Universit=E4t Bielefeld
+
+16h : d=E9bat
+
+16h15 : pause
+
+16h30 : L'Union europ=E9enne et les Sciences humaines et sociales
+Jean-Michel Roddaz, Universit=E9 Bordeaux-III
+
+17h : Histoire et histoires : par-del=E0 les nations, comparaisons et front=
+i=E8res
+Christophe Charle, Universit=E9 Paris-I
+
+17h30 : d=E9bat
+
+18h15 : Conf=E9rence et cocktail de cl=F4ture, voir ci-dessous
+Session 3 : Approches transdisciplinaires
+Pr=E9sidence : Martine de Gaudemar, Universit=E9 Paris Ouest
+
+14h30 : Crise du texte, triomphe de l'art/de l'image et du geste ?
+S=E9gol=E8ne Le Men, Universit=E9 Paris Ouest Nanterre La D=E9fense
+
+15h : L'apport de l'histoire des sciences de l'Homme =E0 la compr=E9hension=
+ des
+Sciences humaines et sociales
+Claude Blanckaert, EHESS
+
+15h30 : Quantification et sciences sociales : la grande bifurcation
+Alain Desrosi=E8res, EHESS
+
+16h : d=E9bat
+
+16h15 : pause
+
+16h30 : A c=F4t=E9 du genre
+Genevi=E8ve Fraisse, CNRS
+
+17h : Quel type d'unit=E9 pour les sciences humaines et sociales ?
+Herv=E9 Inglebert, Universit=E9 Paris Ouest Nanterre La D=E9fense
+
+17h30 : d=E9bat
+
+18h15 : Conf=E9rence et cocktail de cl=F4ture, voir ci-dessous
+
+
+
+C=E9r=E9monie de remise des prix de th=E8se
+Jeudi 16 d=E9cembre, 19h
+Amphith=E9=E2tre Henri Lefebvre (B2)
+
+Prix Ren=E9 R=E9mond
+Marie-Jos=E9phine Coquin, Le d=E9mos en Gr=E8ce de l'=E9poque myc=E9nienne =
+=E0 la
+fin de l'=E9poque archa=EFque.
+
+Prix Germaine Tillion
+Didier Guignard, L'abus de pouvoir dans l'Alg=E9rie coloniale
+(1880-1914).Visibilit=E9 et singularit=E9.
+
+Prix Paul Ricoeur
+Dimitrios Tsarapatsanis, Les fondements =E9thiques des discours
+juridiques sur le statut de la vie humaine ant=E9natale.
+
+Les ouvrages tir=E9s de ces th=E8ses sont publi=E9s par les Presses
+universitaires de Paris Ouest.
+Conf=E9rence et cocktail de cl=F4ture
+Vendredi 17 d=E9cembre, 18h15
+Amphith=E9=E2tre Henri Lefebvre (B2)
+
+Tzvetan Todorov
+Les sciences humaines et sociales : un regard r=E9trospectif
+La conf=E9rence sera suivie d'un cocktail
+
+
+
+
+
+----------------------------------------------------------------
+Ce message a ete envoye par IMP, grace a l'Universite Paris 10 Nanterre
+
+
+

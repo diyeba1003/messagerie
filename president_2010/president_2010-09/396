@@ -1,0 +1,573 @@
+Return-Path: <isabelle.nicolaus@lunam.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 32D0D22823
+	for <president@listes.univ-angers.fr>; Fri, 24 Sep 2010 09:01:38 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 264D01145A7; Fri, 24 Sep 2010 09:01:38 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp1.univ-nantes.fr [193.52.82.18])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 1D2221145A3
+	for <president@univ-angers.fr>; Fri, 24 Sep 2010 09:01:38 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 12AB5806FB0
+	for <president@univ-angers.fr>; Fri, 24 Sep 2010 09:01:38 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp1.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id hkeTjaJ8VsW9 for <president@univ-angers.fr>;
+	Fri, 24 Sep 2010 09:01:37 +0200 (CEST)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id ED9F9806F94
+	for <president@univ-angers.fr>; Fri, 24 Sep 2010 09:01:37 +0200 (CEST)
+Received: from mx1.univ-nantes.fr (MX1.univ-nantes.fr [193.52.101.135])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id E09AF677
+	for <daniel.martina@lunam.fr>; Fri, 24 Sep 2010 09:01:37 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mx1.univ-nantes.fr (Postfix) with ESMTP id D7A8C12E9965;
+	Fri, 24 Sep 2010 09:01:37 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from mx1.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id 1nMbsW5EAUca; Fri, 24 Sep 2010 09:01:37 +0200 (CEST)
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+Received: from smtp-tls.univ-nantes.fr (smtp-tls1.univ-nantes.fr [193.52.101.145])
+	by mx1.univ-nantes.fr (Postfix) with ESMTP id B4AFB130FCB2;
+	Fri, 24 Sep 2010 09:01:37 +0200 (CEST)
+Received: from localhost (debian [127.0.0.1])
+	by smtp-tls.univ-nantes.fr (Postfix) with ESMTP id AAA4B95432;
+	Fri, 24 Sep 2010 09:01:37 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from smtp-tls.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp-tls1.univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id gKEAfI5SELsQ; Fri, 24 Sep 2010 09:01:37 +0200 (CEST)
+Received: from PCPRES03 (unknown [172.20.38.110])
+	(using TLSv1 with cipher RC4-MD5 (128/128 bits))
+	(No client certificate requested)
+	by smtp-tls.univ-nantes.fr (Postfix) with ESMTPSA id 8461A95423;
+	Fri, 24 Sep 2010 09:01:37 +0200 (CEST)
+From: "Isabelle NICOLAUS" <isabelle.nicolaus@lunam.fr>
+To: <daniel.martina@lunam.fr>,
+	<francis.yguel@lunam.fr>
+Cc: <evelyne.puglia@univ-angers.fr>
+Date: Fri, 24 Sep 2010 09:01:40 +0200
+Message-ID: <002401cb5bb6$56dcd680$04968380$@nicolaus@lunam.fr>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0025_01CB5BC7.1A65A680"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: ActbM2jkvzDIQ4C8S8GfhomLCcK42wAgoKtg
+Content-Language: fr
+Subject: [president] TR: Demande de RdV avec Monsieur Martina
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0025_01CB5BC7.1A65A680
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_0026_01CB5BC7.1A65A680"
+
+
+------=_NextPart_001_0026_01CB5BC7.1A65A680
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Bonjour,=20
+
+=20
+
+Il s=92agirait d=92une demande d=92adh=E9sion de cet =E9tablissement.=20
+
+=20
+
+Bien cordialement
+
+Isabelle
+
+=20
+
+=20
+
+De : Thibaut, Thierry [mailto:tthibaut@cesi.fr]=20
+Envoy=E9 : jeudi 23 septembre 2010 17:24
+=C0 : direction@lunam.fr
+Objet : Demande de RdV avec Monsieur Martina
+
+=20
+
+Bonjour Madame,
+
+=20
+
+Pour faire suite =E0 notre conversation, je vous confirme ma demande de
+rendez-vous aupr=E8s de Monsieur MARTINA pour Monsieur St=E9phane DEGRES,
+Directeur R=E9gional du CESI,=20
+
+et moi-m=EAme, Directeur du centre de St Nazaire de l=92Ecole d=92Ing=E9nie=
+urs du
+CESI.
+
+=20
+
+En vous remerciant par avance,
+
+=20
+
+Cordialement.
+
+=20
+
+
+
+
+=20
+
+Thierry THIBAUT
+Direction de l'Etablissement de St Nazaire
+
+CESI Saint-Nazaire
+
+Boulevard de l=92Universit=E9 - Gavy Oc=E9anis =96 BP 152 - 44603 Saint-Naz=
+aire
+
+t=E9l. 33 (0)2 40 00 17 08 =96 fax. 33 (0)2 40 00 17 09 -  Port. 33 (0)6 64=
+ 68
+12 60=20=20=20
+
+ <http://www.ei.cesi.fr/> http://www.ei.cesi.fr=20
+
+=20
+
+=20
+
+
+ <http://www.cesi.fr/pdf/0901StNazTaxeFiaLight.pdf> En versant votre taxe
+d=92apprentissage au CFA du CESI, vous contribuez =E0 construire l=92avenir=
+ de nos
+jeunes (cliquer pour en savoir plus).
+
+=20
+
+=20
+
+=20
+
+
+------=_NextPart_001_0026_01CB5BC7.1A65A680
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"sans serif";}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoAutoSig, li.MsoAutoSig, div.MsoAutoSig
+	{mso-style-priority:99;
+	mso-style-link:"Signature =E9lectronique Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"Texte de bulles Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.SignaturelectroniqueCar
+	{mso-style-name:"Signature =E9lectronique Car";
+	mso-style-priority:99;
+	mso-style-link:"Signature =E9lectronique";
+	font-family:"Calibri","sans-serif";}
+span.EmailStyle19
+	{mso-style-type:personal;
+	font-family:"Arial","sans-serif";
+	color:windowtext;}
+span.EmailStyle21
+	{mso-style-type:personal-reply;
+	font-family:"Arial","sans-serif";
+	color:windowtext;
+	font-weight:normal;
+	font-style:normal;}
+span.TextedebullesCar
+	{mso-style-name:"Texte de bulles Car";
+	mso-style-priority:99;
+	mso-style-link:"Texte de bulles";
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DFR link=3Dblue vlink=3Dpurple>
+
+<div class=3DWordSection1>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Arial","s=
+ans-serif"'>Bonjour,
+<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Arial","s=
+ans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Arial","s=
+ans-serif"'>Il
+s&#8217;agirait d&#8217;une demande d&#8217;adh=E9sion de cet =E9tablisseme=
+nt. <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Arial","s=
+ans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Arial","s=
+ans-serif"'>Bien
+cordialement<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Arial","s=
+ans-serif"'>Isabelle<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Arial","s=
+ans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-family:"Arial","sans-serif"'><o:p>=
+&nbsp;</o:p></span></p>
+
+<div>
+
+<div style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'>
+
+<p class=3DMsoNormal><b><span style=3D'font-size:10.0pt;font-family:"Tahoma=
+","sans-serif"'>De&nbsp;:</span></b><span
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> Thibaut, Thie=
+rry
+[mailto:tthibaut@cesi.fr] <br>
+<b>Envoy=E9&nbsp;:</b> jeudi 23 septembre 2010 17:24<br>
+<b>=C0&nbsp;:</b> direction@lunam.fr<br>
+<b>Objet&nbsp;:</b> Demande de RdV avec Monsieur Martina<o:p></o:p></span><=
+/p>
+
+</div>
+
+</div>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'>Bonjour
+Madame,<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'>Pour
+faire suite =E0 notre conversation, je vous confirme ma demande de rendez-v=
+ous
+aupr=E8s de Monsieur MARTINA pour Monsieur St=E9phane DEGRES, Directeur R=
+=E9gional du
+CESI, <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'>et
+moi-m=EAme, Directeur du centre de St Nazaire de l&#8217;Ecole d&#8217;Ing=
+=E9nieurs
+du CESI.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'>En
+vous remerciant par avance,<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'>Cordialement.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<table class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 al=
+ign=3Dleft
+ width=3D756 style=3D'width:20.0cm;border-collapse:collapse'>
+ <tr style=3D'height:98.85pt'>
+  <td width=3D116 valign=3Dtop style=3D'width:86.9pt;padding:0cm 5.4pt 0cm =
+5.4pt;
+  height:98.85pt'>
+  <p class=3DMsoNormal style=3D'mso-element:frame;mso-element-frame-hspace:=
+2.25pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element=
+-anchor-horizontal:
+  column;mso-height-rule:exactly'><span style=3D'color:navy'><img width=3D1=
+01
+  height=3D126 id=3D"_x0000_i1025" src=3D"cid:image001.jpg@01CB5B44.2C68A3B=
+0"></span><span
+  style=3D'font-family:"sans serif";color:navy'><o:p></o:p></span></p>
+  <p class=3DMsoNormal style=3D'mso-element:frame;mso-element-frame-hspace:=
+2.25pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element=
+-anchor-horizontal:
+  column;mso-height-rule:exactly'><span style=3D'font-size:10.0pt;font-fami=
+ly:
+  "sans serif";color:navy'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=3D640 valign=3Dtop style=3D'width:480.1pt;padding:0cm 5.4pt 0cm=
+ 5.4pt;
+  height:98.85pt'>
+  <p class=3DMsoNormal style=3D'margin-top:3.0pt;mso-element:frame;mso-elem=
+ent-frame-hspace:
+  2.25pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;
+  mso-element-anchor-horizontal:column;mso-height-rule:exactly'><b><span
+  style=3D'font-size:9.0pt;font-family:"Verdana","sans-serif";color:#0072B0=
+'>Thierry
+  THIBAUT</span></b><b><span style=3D'font-size:10.0pt;font-family:"Verdana=
+","sans-serif";
+  color:navy'><br>
+  </span></b><b><span style=3D'font-size:7.5pt;font-family:"Verdana","sans-=
+serif";
+  color:gray'>Direction de l'Etablissement de St Nazaire</span></b><span
+  style=3D'color:navy'><o:p></o:p></span></p>
+  <p class=3DMsoNormal style=3D'margin-top:9.0pt;mso-element:frame;mso-elem=
+ent-frame-hspace:
+  2.25pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;
+  mso-element-anchor-horizontal:column;mso-height-rule:exactly'><b><span
+  style=3D'font-size:9.0pt;font-family:"Verdana","sans-serif";color:#0072B0=
+'>CESI
+  Saint-Nazaire</span></b><span style=3D'font-family:"sans serif";color:nav=
+y'><o:p></o:p></span></p>
+  <p class=3DMsoNormal style=3D'mso-element:frame;mso-element-frame-hspace:=
+2.25pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element=
+-anchor-horizontal:
+  column;mso-height-rule:exactly'><strong><span style=3D'font-size:7.5pt;
+  font-family:"Verdana","sans-serif";color:#0072B0'>Boulevard de
+  l&#8217;Universit=E9&nbsp;- Gavy Oc=E9anis &#8211; BP 152 - 44603</span><=
+/strong><strong><span
+  style=3D'font-family:"Verdana","sans-serif";color:#0072B0'> </span></stro=
+ng><strong><span
+  style=3D'font-size:7.5pt;font-family:"Verdana","sans-serif";color:#0072B0=
+'>Saint-Nazaire</span></strong><span
+  style=3D'color:navy'><o:p></o:p></span></p>
+  <p class=3DMsoNormal style=3D'mso-element:frame;mso-element-frame-hspace:=
+2.25pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element=
+-anchor-horizontal:
+  column;mso-height-rule:exactly'><strong><span style=3D'font-size:7.5pt;
+  font-family:"Verdana","sans-serif";color:#0072B0'>t=E9l. 33 (0)2 40 00 17=
+ 08
+  &#8211; fax. 33 (0)2 40 00 17 09 -&nbsp; Port. 33 (0)6 64 68 12
+  60&nbsp;&nbsp;&nbsp;<o:p></o:p></span></strong></p>
+  <p class=3DMsoNormal style=3D'mso-element:frame;mso-element-frame-hspace:=
+2.25pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element=
+-anchor-horizontal:
+  column;mso-height-rule:exactly'><strong><span style=3D'font-size:7.5pt;
+  font-family:"Verdana","sans-serif";color:#0072B0'><a
+  href=3D"http://www.ei.cesi.fr/"><span style=3D'font-weight:normal'>http:/=
+/www.ei.cesi.fr</span></a></span></strong><b><u><span
+  style=3D'font-size:7.5pt;font-family:"Verdana","sans-serif";color:#0072B0=
+'> </span></u></b><u><span
+  style=3D'color:navy'><o:p></o:p></span></u></p>
+  <p class=3DMsoNormal style=3D'mso-element:frame;mso-element-frame-hspace:=
+2.25pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element=
+-anchor-horizontal:
+  column;mso-height-rule:exactly'><b><u><span style=3D'font-size:7.5pt;
+  font-family:"Verdana","sans-serif";color:#0072B0'><o:p><span
+   style=3D'text-decoration:none'>&nbsp;</span></o:p></span></u></b></p>
+  <p class=3DMsoNormal style=3D'mso-element:frame;mso-element-frame-hspace:=
+2.25pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element=
+-anchor-horizontal:
+  column;mso-height-rule:exactly'><u><span style=3D'font-family:"sans serif=
+";
+  color:black'><o:p><span style=3D'text-decoration:none'>&nbsp;</span></o:p=
+></span></u></p>
+  </td>
+ </tr>
+ <tr style=3D'height:98.85pt'>
+  <td width=3D756 colspan=3D2 valign=3Dtop style=3D'width:20.0cm;padding:0c=
+m 5.4pt 0cm 5.4pt;
+  height:98.85pt'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+  mso-element:frame;mso-element-frame-hspace:2.25pt;mso-element-wrap:around;
+  mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:colum=
+n;
+  mso-height-rule:exactly'><span style=3D'font-size:10.0pt;font-family:"Ver=
+dana","sans-serif";
+  color:blue'><a href=3D"http://www.cesi.fr/pdf/0901StNazTaxeFiaLight.pdf"
+  title=3D"http://www.cesi.fr/pdf/0901StNazTaxeFiaLight.pdf"><span
+  style=3D'color:purple'>En versant votre taxe d&#8217;apprentissage au CFA=
+ du
+  CESI, vous contribuez =E0 construire l&#8217;avenir de nos jeunes (clique=
+r pour
+  en savoir plus).</span></a></span><span style=3D'font-size:10.0pt;font-fa=
+mily:
+  "sans serif";color:blue'><o:p></o:p></span></p>
+  <p class=3DMsoNormal style=3D'margin-top:3.0pt;mso-element:frame;mso-elem=
+ent-frame-hspace:
+  2.25pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;
+  mso-element-anchor-horizontal:column;mso-height-rule:exactly'><b><span
+  style=3D'font-size:9.0pt;font-family:"Verdana","sans-serif";color:#0072B0=
+'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+</table>
+
+<p class=3DMsoAutoSig><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_001_0026_01CB5BC7.1A65A680--
+
+------=_NextPart_000_0025_01CB5BC7.1A65A680
+Content-Type: image/jpeg;
+	name="image001.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.jpg@01CB5B44.2C68A3B0>
+Content-Location: image001.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0N
+Dh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/
+2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7
+Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAB9AGoDASIAAhEBAxEB/8QA
+HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUF
+BAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkK
+FhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1
+dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEB
+AQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAEC
+AxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRom
+JygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU
+1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2aivADrWq
+7j/xMrv/AL/N/jR/bWq/9BK7/wC/zf416f8AZ0v5jyv7Sj/Ke/0V4B/bWq/9
+BK7/AO/zf40f21qv/QTu/wDv83+NH9nS/mD+0o/ynv8ARXgH9tar/wBBK7/7
+/N/jR/bWq/8AQSu/+/zf40f2dL+YP7Sj/Ke/0V4B/bWq/wDQSu/+/wA3+NH9
+tar/ANBK7/7/ADf40f2dL+YP7Sj/ACnv9FeAf21qv/QSu/8Av83+NH9tar/0
+Erv/AL/N/jR/Z0v5g/tKP8p7/RXgH9tar/0Erv8A7/N/jR/bWq/9BK7/AO/z
+f40f2dL+YP7Sj/Ke/wBFeAf21qv/AEE7v/v83+NSDWNUx/yE7v8A7/NR/Z0v
+5g/tKP8AKZzfeNFdPo+h28OgXPiPUozLDEdsEGcCRumT7Vd8N6g80jDWNLtP
+7LcHdI8QTy/90969CVa17K9jz40L25na5x1ukclxEkr7I2cBm9BnrXReMdI0
+TSja/wBkXXnGRf3i793402VfCia75cK3VzZyOAMHbsye3citH4iaTYaR/Z0N
+hbpChRskdW57nvUOpepFaq5apWpTejscXSUtda2lW/hnw1Bqd1bpc6he/wCp
+SQZSJcZyR3NbTmo2XVmFOm53fRHJdOvFFdr4X1DSNWgu7TxElquF3RSbAjAd
+wCKqWGh2Vnol34hvEM8CSFLOFjgSHPBb2qPbWbUlr+Zp9Xuk4vT8rHKUtdr4
+av2mZk1vTLQaY4JMrxBNn+761J4e8PaDrHiW6Nkz3FlbpvSOTjcx6D6VLrqN
++ZbFLDOVuV7nDf1pQPnAbKjPOe1dRdXmuabqjNPocPlRScRfZcpj2OKg1K70
+O6137dPbytBcqrPBEdpiboRVqo30+4h0kuv3k3irRdC0zTrOXS73zp5QN67t
+2Rj73tXODoK7Hx7pOm6VpmmLptusSPk7urMOOprjh0FTQlzU0739R4mPLUta
+3oeneFGXV/AcljbGM3UOVCuMgN1BxXnWqHVWvGg1ETGZDgowOB9B0pun6pe6
+Rd/aLG4aF++Dw3sRWvc+Pddukw724YdJFhG4fQ1EaU6c242aZrKtCpTSk2mj
+NfSp7KWyM/yzTupEP8SrkYJ9M11/xURg+mnacCMjOO9cba61fWly9zHKGmc5
+Mki7jmrl14u1m+iMV1cLMh7OgOKcqc3UjLsTCpTVOUNdf0Ij4c1SLR01lrf/
+AEQkHdnnGeuPSu68W2J8ReDbLUNOXzTAoconJxjkfhXCv4m1WTRF0dpx9kXj
+G3nHpn0pNI8S6toYK2N0VjJyY2G5c/SlOnVk1LS6enoOnVpQThrZrX1M6K3l
+nlEMULvIxwFC85r1XQ4Hv/Az6ZEIft1plNj4YI45Ga4mTxJr+rRTm3jiQRoW
+mkt4QhC+5rJ07V7/AEm5+0WNy8Uh+9g8N9fWirTnVjbRNBSqQoyvq0/kLqTa
+nJeNDqAmMyHBRgeD7DpW5oml6npyyXFlcGHVlj81LUclo++R6+1Q3HjnXr0C
+MtB5h4DxwDf+BrM0/WL/AEnWP7RVma6XIbzepz1zVuNSUbWSIUqcZ812/wBD
+poPifqsTbL2yglAOGG0qas/EGKwuNN0vUoLYQXNyc7QuGK4HUVzEvie8nuft
+M9rZSz5zva3Gc1E3iPU5L5r2WcSTEAAuuQoHYDtWaoWkpRVrGrxKcHCTvfyO
+v+JEUi6PpBKHCrgnHQ4FcCOgrXuPGOt3URiublZU/uugIrJPzHcep5rShCVO
+HLIyxFSFSfNEib7xoob7xoroOUKKKkgtp7p9lvC8r4zhFyaQ0r6IjorpLnwb
+JZlRdahDGWKDbjLfMPT2rIl0m8VpTFbzSwxsR5qocEDvURqQlszSVGcd0dfo
+2g6ZH4bgku7l4jqUbGSQSbduOgx3rPu9H0bT7Kys3tri4u75A63athEy2OlZ
+1hqXiG20poLUTGzIOCY9wX1wT0qyl9qkPhEA3c+ySTy4ovKyAvru7c1zcs1K
+/N1OtSg425dl2Ogj8OaTb6kBZwzQ3Gl3cKvK5ys2SPyqOPQdNvLzVtS1Jd4+
+3GEKX2BR6+5rAn1HxHdfZLW/muIIfNULI0eOR0J9cVJJrniSK9vJYJ5LhIzt
+lkEOVOOhIx1qfZ1P5tfX9S/aU/5dPT9DG1e1gstWuLe1l82FHIR/UVTq1NBf
+3VwZpIZHlnBlzt+8O5+lIdNvxGJDZz7DjDbDjnpXYmkkmzglFttpFWph0FFx
+aXFo4S5geFiMgOuM0DoKq5FmnZkTfeNFDfeNFMQV1Pg65VLPU7aK+jsbyZF8
+meQ4AAPIzXLUnWonDnjY0pz9nLmO41W/tX+IWmXP2uOSKJYxJMD8uQOTWj/w
+kEUN3psMOoRrbvNP9oXPBBzjNebUYHpWDw0Wkm9lY6Fi5Jtpbu56tZ3Ud5aN
+LZ3o+yRWUiPaBCMtk/N6VVvdYsjp6zW89q9pJFGnlPIcqQRnCdj71wi69qia
+f/Z6XbLbFduxQBx6Z61nYFRHC63bNJYzSyR6auv29zqWoR3V/FJBHcwNb7iM
+AAjJFTDWrFoHeyubYGGaUzJJKVEme+B96vL44Xmbai5q6umLs+d/n9ugqvqa
+ezM5Zjy7o7u2vNPulstUXULaFILCSBoCcMHPYD0qtceIpV8R6XFZ6hCbVLZd
+6SNiPd7+9cFNbSQH51yP7wqLin9VSerBY1tKyOq8cPaSTWjw3fnTlW82MSmR
+Y+eMGubHQVDjFTDoK2hDkiomFSfPNysRN940UN940VoZBRRRQAlLRRQAVdg0
+8sA0x47AVQk/1bfSorTUp7XC53p/dNNW6jdKc4vkep0SIqLtRQB7U6q1rfwX
+a/I2H7qetWa1PMlGUXaW4hAIwRke9U59PVstCdp9D0rRgt5bh9sSFvfsK2bT
+SIosPN+8f07CueviKdJe9v2OzCYWvWf7vbv0OHkjeJykilWHY08dBWj4nAGs
+sB08tazh0FTCXPFS7nVUhyTcexE33jRQ33jRWhmFFFFABRRRQA2T/Vt9Kzq0
+ZP8AVt9KzqDrw+zFBKnKnBHcV03heR9Sumt7kllRcg965iul8D/8hSX/AK51
+jXlKFKTi9TrhRp1ZpTVzt44khQJGoVR2FOoor51tt3Z6ySSsjivE/wDyGX/3
+FrOHQVo+J/8AkMv/ALi1nDoK+hofwo+h83iP40vU9J/4VTZf9BCb8hR/wqmy
+/wCghN+QrvqK8X63W/mPc+p0P5Tgf+FU2X/QQm/IUf8ACqbL/oITfkK76ij6
+3W/mD6nQ/lOB/wCFU2X/AEEJvyFH/CqbL/oITfkK76ij63W/mD6nQ/lOAPwp
+siMHUJvyFZuq/CHbbNJpd8WmHPlyjAb8e1eo0U1i6ye41haS2R81ajpl7pN0
+1tf2zwSjsw4P0rb8D/8AIUl/6517Zqui6frVsbfULZJkPQkcr9D2rgLHwfba
+J4y+xW9zI0U8ZYbhyo9PeuuWLVWlKLVnYiNBwqJrYvIjSMERSzHoAK17fwzP
+NATNL5LMPlAGSK3rPTraxTESDd3Y9TVqvLuddjhJ/hhb3Mplm1Od3bqSBTf+
+FV2f/QQm/IV3tFdCxVZacxzvCUXq4n//2Q==
+
+------=_NextPart_000_0025_01CB5BC7.1A65A680--
+

@@ -1,0 +1,459 @@
+Return-Path: <sfg.jmlecourt@orange.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id E82CE2285F
+	for <president@listes.univ-angers.fr>; Tue,  5 Oct 2010 09:38:41 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id D8705114229; Tue,  5 Oct 2010 09:38:41 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp21.orange.fr (smtp21.orange.fr [80.12.242.47])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id B788B11421D
+	for <president@univ-angers.fr>; Tue,  5 Oct 2010 09:38:41 +0200 (CEST)
+Received: from me-wanadoo.net (localhost [127.0.0.1])
+	by mwinf2109.orange.fr (SMTP Server) with ESMTP id 7DB791C00163;
+	Tue,  5 Oct 2010 09:38:41 +0200 (CEST)
+Received: from me-wanadoo.net (localhost [127.0.0.1])
+	by mwinf2109.orange.fr (SMTP Server) with ESMTP id 6F0FC1C000C8;
+	Tue,  5 Oct 2010 09:38:41 +0200 (CEST)
+Received: from LPTALL002 (241-253.252-81.static-ip.oleane.fr [81.252.253.241])
+	by mwinf2109.orange.fr (SMTP Server) with ESMTP id 52B5B1C0015F;
+	Tue,  5 Oct 2010 09:38:33 +0200 (CEST)
+X-ME-UUID: 20101005073833338.52B5B1C0015F@mwinf2109.orange.fr
+X-ME-User-Auth: sfg.jmlecourt
+From: "SFG JM Lecourt" <sfg.jmlecourt@orange.fr>
+To: =?iso-8859-1?Q?'Contact_Plante_&_Cit=E9'?= <contact@plante-et-cite.fr>,
+	<cecile.abalain@angerstechnopole.com>,
+	<jeanfrancois.arthuisbrault@cnfpt.fr>,
+	<barraud@falienor.com>,
+	<cnvvf@wanadoo.fr>,
+	<laure.beaudet@agrocampus-ouest.fr>,
+	<veronique.beaujouan@agrocampus-ouest.fr>,
+	<thibaut.beaute@cergypontoise.fr>,
+	<jac.boutaud@free.fr>,
+	<cathy.caldumbide@agrocampus-ouest.fr>,
+	<tresorier@attf.asso.fr>,
+	<eric.collin@cemagref.fr>,
+	<francois.colson@agrocampus-ouest.fr>,
+	<philippe.croze@ville-montpellier.fr>,
+	<bernard.dandalet@saint-etienne.fr>,
+	<herve.daniel@agrocampus-ouest.fr>,
+	<eric.davy@groupe-merceron.com>,
+	<sabine.diwo-allain@angerstechnopole.com>,
+	<jean.duchesne@agrocampus-ouest.fr>,
+	<jp.ducos@caue49.com>,
+	<bfleury@ville-orleans.fr>,
+	<y-gabory@paysdesmauges.fr>,
+	<julien.greffier@gnis.fr>,
+	<contact@iftech.fr>,
+	<bruno.jaloux@agrocampus-ouest.fr>,
+	<veronique.kapusta@angers.inra.fr>,
+	<environnement@agglo-saumur.fr>,
+	<josiane.lecorff@agrocampus-ouest.fr>,
+	<d.lebrun@bhr-vegetal.com>,
+	<jeanmichel.marchandeau@cnfpt.fr>,
+	<xavier.marie@solpaysage.fr>,
+	<bmartin@ville-rennes.fr>,
+	<president@univ-angers.fr>,
+	<fanny.maujean@ville.angers.fr>,
+	<philippe.morel@angers.inra.fr>,
+	<philippe.nonckelynck@orange.fr>,
+	<walid.oueslati@agrocampus-ouest.fr>,
+	<michelpena@penapaysages.com>,
+	<romaric.perrocheau@mairie-nantes.fr>,
+	"'Pineau Patrick'" <pineau@pepinieres-minier.fr>,
+	<pinel@andre-briant.fr>,
+	<c.chollet@unep-fr.org>,
+	<lmriviere@rezo.net>,
+	<christophe.subileau@uapl.fr>,
+	<regis.triollet@educagri.fr>,
+	<l.vandevelde@bhr-vegetal.com>,
+	<v.vansteene@unep-fr.org>,
+	<frederic.moreau@ville.angers.fr>,
+	<cjaneau@edelweiss-sa.fr>,
+	<jardinjade@wanadoo.fr>,
+	<sdurot@biotope.fr>,
+	<cjoveneaux@enm-lille.fr>,
+	"'Camille JOUGLET'" <camille.jouglet@plante-et-cite.fr>,
+	=?iso-8859-1?Q?'Olivier_DAMAS/Plante_&_Cit=E9'?= <olivier.damas@plante-et-cite.fr>,
+	"'Sophie Lemaire'" <sophie.lemaire@plante-et-cite.fr>,
+	"'Damien Provendier'" <damien.provendier@plante-et-cite.fr>,
+	"'Ludovic PROVOST'" <ludovic.provost@plante-et-cite.fr>,
+	"'Aurore Micand'" <aurore.micand@plante-et-cite.fr>,
+	=?iso-8859-1?Q?'H=E9l=E8ne_Veillon'?= <helene.veillon@plante-et-cite.fr>,
+	"'Remi Duflot'" <remi.duflot@plante-et-cite.fr>,
+	"'Pauline Laille'" <pauline.laille@plante-et-cite.fr>,
+	=?iso-8859-1?Q?'Gu=E9rin_Maxime'?= <maxime.guerin@plante-et-cite.fr>,
+	"'Virginie Anquetil'" <virginie.anquetil@plante-et-cite.fr>,
+	"'Sylvie Pigot'" <sylvie.pigot@ecce-terra.fr>
+References: <4CA09492.7000504@plante-et-cite.fr>
+In-Reply-To: <4CA09492.7000504@plante-et-cite.fr>
+Date: Tue, 5 Oct 2010 09:37:18 +0200
+Message-ID: <007301cb6460$53c37eb0$fb4a7c10$@jmlecourt@orange.fr>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0074_01CB6471.174C4EB0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: ActeQ3IV5ti5TmDVRqGuB4dW8LfgeACmbtpg
+Content-Language: fr
+Subject: [president] =?ISO-8859-1?Q?RE:_Comit=E9_de_pilotage_technique?=
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0074_01CB6471.174C4EB0
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Bonsoir,
+
+=20
+
+Je confirme ma participation,
+
+=20
+
+Bonne soir=E9e
+
+=20
+
+Jean-Marc Lecourt
+
+SFG
+
+M. 06 15 51 70 19
+
+@  sfg.jmlecourt@orange.fr
+
+=20
+
+=20
+
+De : Contact Plante & Cit=E9 [mailto:contact@plante-et-cite.fr]=20
+Envoy=E9 : lundi 27 septembre 2010 14:57
+=C0 : cecile.abalain@angerstechnopole.com;
+jeanfrancois.arthuisbrault@cnfpt.fr; barraud@falienor.com; cnvvf@wanadoo.fr;
+laure.beaudet@agrocampus-ouest.fr; veronique.beaujouan@agrocampus-ouest.fr;
+thibaut.beaute@cergypontoise.fr; jac.boutaud@free.fr;
+cathy.caldumbide@agrocampus-ouest.fr; tresorier@attf.asso.fr;
+eric.collin@cemagref.fr; francois.colson@agrocampus-ouest.fr;
+philippe.croze@ville-montpellier.fr; bernard.dandalet@saint-etienne.fr;
+herve.daniel@agrocampus-ouest.fr; eric.davy@groupe-merceron.com;
+sabine.diwo-allain@angerstechnopole.com; jean.duchesne@agrocampus-ouest.fr;
+jp.ducos@caue49.com; bfleury@ville-orleans.fr; y-gabory@paysdesmauges.fr;
+julien.greffier@gnis.fr; contact@iftech.fr;
+bruno.jaloux@agrocampus-ouest.fr; veronique.kapusta@angers.inra.fr;
+environnement@agglo-saumur.fr; josiane.lecorff@agrocampus-ouest.fr;
+d.lebrun@bhr-vegetal.com; SFG JM Lecourt; jeanmichel.marchandeau@cnfpt.fr;
+xavier.marie@solpaysage.fr; bmartin@ville-rennes.fr;
+president@univ-angers.fr; fanny.maujean@ville.angers.fr;
+philippe.morel@angers.inra.fr; philippe.nonckelynck@orange.fr;
+walid.oueslati@agrocampus-ouest.fr; michelpena@penapaysages.com;
+romaric.perrocheau@mairie-nantes.fr; Pineau Patrick; pinel@andre-briant.fr;
+c.chollet@unep-fr.org; lmriviere@rezo.net; christophe.subileau@uapl.fr;
+regis.triollet@educagri.fr; l.vandevelde@bhr-vegetal.com;
+v.vansteene@unep-fr.org; frederic.moreau@ville.angers.fr;
+cjaneau@edelweiss-sa.fr; jardinjade@wanadoo.fr; sdurot@biotope.fr;
+cjoveneaux@enm-lille.fr; Camille JOUGLET; Olivier DAMAS/Plante & Cit=E9;
+Sophie Lemaire; Damien Provendier; Ludovic PROVOST; Aurore Micand; H=E9l=E8=
+ne
+Veillon; Remi Duflot; Pauline Laille; Gu=E9rin Maxime; Virginie Anquetil;
+Sylvie Pigot
+Objet : Comit=E9 de pilotage technique
+
+=20
+
+Bonjour,
+Le prochain comit=E9 de pilotage technique de Plante & Cit=E9 aura lieu le
+vendredi 29 octobre 2010 de 10h =E0 16h30. L'ordre du jour est le suivant :=
+=20
+Matin :=20
+- Accueil et informations g=E9n=E9rales
+- Pr=E9sentation des projets r=E9alis=E9s 2010 : 1 focus par th=E8me
+Apr=E8s-midi :=20
+- Information sur l'enqu=EAte sur les attentes des entreprises du paysage
+- Programmation 2011 des journ=E9es techniques
+- Travail en ateliers sur les propositions de projets =E9mergeant
+
+Vous recevrez dans les prochaines semaines les documents n=E9cessaires =E0 =
+la
+pr=E9paration de ce comit=E9 de pilotage technique.
+
+Je vous remercie par avance de nous indiquer par retour de mail votre
+participation =E0 cette journ=E9e et au repas.
+Bien cordialement,
+
+
+
+--=20
+=20
+=20
+Caroline Gutleben
+Charg=E9e de mission
+=20
+=20
+Plante & Cit=E9
+3 rue Fleming
+49 066 ANGERS cedex 1
+=20
+T=E9l : 02.41.72.11.48
+Fax: 02.41.72.25.67
+Site web: www.plante-et-cite.fr
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+
+------=_NextPart_000_0074_01CB6471.174C4EB0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-=
+1">
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+
+<head>
+
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:#003300;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+pre
+	{mso-style-priority:99;
+	mso-style-link:"Pr=E9format=E9 HTML Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	color:#003300;}
+span.PrformatHTMLCar
+	{mso-style-name:"Pr=E9format=E9 HTML Car";
+	mso-style-priority:99;
+	mso-style-link:"Pr=E9format=E9 HTML";
+	font-family:Consolas;
+	color:#003300;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=3Dwhite lang=3DFR link=3Dblue vlink=3Dpurple>
+
+<div class=3DWordSection1>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Bonsoir,<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Je confirme ma participation,<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Bonne soir=E9e<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+
+<div>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Jean-Marc Lecourt<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>SFG<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>M. 06 15 51 70 19<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>@=A0 sfg.jmlecourt@orange.fr<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+
+<div>
+
+<div style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'>
+
+<p class=3DMsoNormal><b><span style=3D'font-size:10.0pt;font-family:"Tahoma=
+","sans-serif";
+color:windowtext'>De&nbsp;:</span></b><span style=3D'font-size:10.0pt;font-=
+family:
+"Tahoma","sans-serif";color:windowtext'> Contact Plante &amp; Cit=E9
+[mailto:contact@plante-et-cite.fr] <br>
+<b>Envoy=E9&nbsp;:</b> lundi 27 septembre 2010 14:57<br>
+<b>=C0&nbsp;:</b> cecile.abalain@angerstechnopole.com;
+jeanfrancois.arthuisbrault@cnfpt.fr; barraud@falienor.com; cnvvf@wanadoo.fr;
+laure.beaudet@agrocampus-ouest.fr; veronique.beaujouan@agrocampus-ouest.fr;
+thibaut.beaute@cergypontoise.fr; jac.boutaud@free.fr; cathy.caldumbide@agro=
+campus-ouest.fr;
+tresorier@attf.asso.fr; eric.collin@cemagref.fr;
+francois.colson@agrocampus-ouest.fr; philippe.croze@ville-montpellier.fr;
+bernard.dandalet@saint-etienne.fr; herve.daniel@agrocampus-ouest.fr;
+eric.davy@groupe-merceron.com; sabine.diwo-allain@angerstechnopole.com;
+jean.duchesne@agrocampus-ouest.fr; jp.ducos@caue49.com;
+bfleury@ville-orleans.fr; y-gabory@paysdesmauges.fr; julien.greffier@gnis.f=
+r;
+contact@iftech.fr; bruno.jaloux@agrocampus-ouest.fr;
+veronique.kapusta@angers.inra.fr; environnement@agglo-saumur.fr;
+josiane.lecorff@agrocampus-ouest.fr; d.lebrun@bhr-vegetal.com; SFG JM Lecou=
+rt;
+jeanmichel.marchandeau@cnfpt.fr; xavier.marie@solpaysage.fr;
+bmartin@ville-rennes.fr; president@univ-angers.fr;
+fanny.maujean@ville.angers.fr; philippe.morel@angers.inra.fr;
+philippe.nonckelynck@orange.fr; walid.oueslati@agrocampus-ouest.fr;
+michelpena@penapaysages.com; romaric.perrocheau@mairie-nantes.fr; Pineau
+Patrick; pinel@andre-briant.fr; c.chollet@unep-fr.org; lmriviere@rezo.net;
+christophe.subileau@uapl.fr; regis.triollet@educagri.fr;
+l.vandevelde@bhr-vegetal.com; v.vansteene@unep-fr.org;
+frederic.moreau@ville.angers.fr; cjaneau@edelweiss-sa.fr;
+jardinjade@wanadoo.fr; sdurot@biotope.fr; cjoveneaux@enm-lille.fr; Camille
+JOUGLET; Olivier DAMAS/Plante &amp; Cit=E9; Sophie Lemaire; Damien Provendi=
+er;
+Ludovic PROVOST; Aurore Micand; H=E9l=E8ne Veillon; Remi Duflot; Pauline La=
+ille;
+Gu=E9rin Maxime; Virginie Anquetil; Sylvie Pigot<br>
+<b>Objet&nbsp;:</b> Comit=E9 de pilotage technique<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-family:"Calibri","sans-serif"'>Bon=
+jour,<br>
+Le prochain comit=E9 de pilotage technique de Plante &amp; Cit=E9 aura lieu=
+ le
+vendredi 29 octobre 2010 de 10h =E0 16h30. L'ordre du jour est le suivant :=
+ <br>
+Matin : <br>
+- Accueil et informations g=E9n=E9rales<br>
+- Pr=E9sentation des projets r=E9alis=E9s 2010 : 1 focus par th=E8me<br>
+Apr=E8s-midi : <br>
+- Information sur l'enqu=EAte sur les attentes des entreprises du paysage<b=
+r>
+- Programmation 2011 des journ=E9es techniques<br>
+- Travail en ateliers sur les propositions de projets =E9mergeant<br>
+<br>
+Vous recevrez dans les prochaines semaines les documents n=E9cessaires =E0 =
+la
+pr=E9paration de ce comit=E9 de pilotage technique.<br>
+<br>
+Je vous remercie par avance de nous indiquer par retour de mail votre
+participation =E0 cette journ=E9e et au repas.<br>
+Bien cordialement,<br>
+<br>
+</span><o:p></o:p></p>
+
+<pre><span style=3D'font-family:"Calibri","sans-serif"'>-- <o:p></o:p></spa=
+n></pre><pre><span
+style=3D'font-family:"Calibri","sans-serif"'><o:p>&nbsp;</o:p></span></pre>=
+<pre><span
+style=3D'font-family:"Calibri","sans-serif"'><o:p>&nbsp;</o:p></span></pre>=
+<pre><span
+style=3D'font-family:"Calibri","sans-serif"'>Caroline Gutleben<o:p></o:p></=
+span></pre><pre><span
+style=3D'font-family:"Calibri","sans-serif"'>Charg=E9e de mission<o:p></o:p=
+></span></pre><pre><span
+style=3D'font-family:"Calibri","sans-serif"'><o:p>&nbsp;</o:p></span></pre>=
+<pre><span
+style=3D'font-family:"Calibri","sans-serif"'><o:p>&nbsp;</o:p></span></pre>=
+<pre><span
+style=3D'font-family:"Calibri","sans-serif"'>Plante &amp; Cit=E9<o:p></o:p>=
+</span></pre><pre><span
+style=3D'font-family:"Calibri","sans-serif"'>3 rue Fleming<o:p></o:p></span=
+></pre><pre><span
+style=3D'font-family:"Calibri","sans-serif"'>49 066 ANGERS cedex 1<o:p></o:=
+p></span></pre><pre><span
+style=3D'font-family:"Calibri","sans-serif"'><o:p>&nbsp;</o:p></span></pre>=
+<pre><span
+style=3D'font-family:"Calibri","sans-serif"'>T=E9l : 02.41.72.11.48<o:p></o=
+:p></span></pre><pre><span
+style=3D'font-family:"Calibri","sans-serif"'>Fax: 02.41.72.25.67<o:p></o:p>=
+</span></pre><pre><span
+style=3D'font-family:"Calibri","sans-serif"'>Site web: <a
+href=3D"http://www.plante-et-cite.fr">www.plante-et-cite.fr</a></span><o:p>=
+</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o=
+:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pr=
+e><pre> <o:p></o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p>=
+</pre></div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_0074_01CB6471.174C4EB0--
+
+
+

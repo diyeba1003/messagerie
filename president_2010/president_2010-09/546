@@ -1,0 +1,130 @@
+Return-Path: <anne.elisabeth.liebmann@gmail.com>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 326B622898
+	for <president@listes.univ-angers.fr>; Thu, 30 Sep 2010 22:20:54 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 2452911437C; Thu, 30 Sep 2010 22:20:54 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from mail-qy0-f169.google.com (mail-qy0-f169.google.com [209.85.216.169])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id E291D1142EF
+	for <president@univ-angers.fr>; Thu, 30 Sep 2010 22:20:53 +0200 (CEST)
+Received: by qyk7 with SMTP id 7so2384142qyk.0
+        for <president@univ-angers.fr>; Thu, 30 Sep 2010 13:20:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=domainkey-signature:mime-version:received:received:date:message-id
+         :subject:from:to:content-type;
+        bh=gf7nZyocQxnVefoSUnB1A412IonacfL/Vny/vjbII68=;
+        b=rvRB/hbSfqXWzmvXjKqVKTgSvoodNNZniRuIsQE1rFHg+ThLtvqDvrqXu/iYoeG0p1
+         wN1uvJ/d33MwsYFtA49odODbGhEGVNm27gB7TU30DyQoB0S+O0kX4v7s2bfo0xcWEmm9
+         1H5EVvsMT+/Slc5by+vkYVoxRZV2Hz0LwkYQ4=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        b=ilkY4gkX8mn1LXnsC70cNhJUnIZkZ7k84UNXjIJG84UJVZoBcWNacEMsa4s4u2dU7Z
+         ZluGoyLrxUvzBvtqPSyP05aQfEgI4+S6M+pFde0HEr39NmsXauMTWXgu4c7FnLWJh/ex
+         DFUWGpcG04avJ17YnjjWdnDnrLXBSpwawkedg=
+MIME-Version: 1.0
+Received: by 10.224.60.136 with SMTP id p8mr2878478qah.386.1285878053187; Thu,
+ 30 Sep 2010 13:20:53 -0700 (PDT)
+Received: by 10.229.87.142 with HTTP; Thu, 30 Sep 2010 13:20:53 -0700 (PDT)
+Date: Thu, 30 Sep 2010 22:20:53 +0200
+Message-ID: <AANLkTi=2E5QEj4XjR9F7HVireYF1jL9WA4FYXAay22Y9@mail.gmail.com>
+From: anne elisabeth liebmann <anne.elisabeth.liebmann@gmail.com>
+To: president@univ-angers.fr
+Content-Type: multipart/alternative; boundary=0015175cdfb295b2a204917fd0de
+Subject: [president] associations doctorants-colloque emploi
+
+
+--0015175cdfb295b2a204917fd0de
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+A l'attention du Pr=E9sident Daniel Martina
+
+Bonjour !
+
+Nous sommes une Association de Doctorants de l'Universit=E9 Paris Ouest
+Nanterre, "Doctopolis".
+Nous organisons une journ=E9e de d=E9bat sur le probl=E8me de l'emploi pour=
+ les
+Doctorants afin de briser le mur de verre entre l'Entreprise et
+l'Universit=E9.
+
+Le th=E8me de la journ=E9e porte sur les "R=E9seaux Sociaux". Vous trouvere=
+z sur
+ce site le programme. La journ=E9e est nationale.
+
+
+http://assodoctopolis.wordpress.com/2010/09/05/reseau-social-et-recrutement/
+
+Vous =EAtes bien s=FBr invit=E9 ainsi que vos coll=E8gues.`
+
+Merci d'=EAtre le relais en interne de notre journ=E9e aupr=E8s des Doctora=
+nts
+quelle que soit la discipline.
+
+Vous pouvez me joindre sur le portable 06 61 53 12 57
+
+A bient=F4t,
+
+Tr=E8s cordialement,
+
+Anne Elisabeth
+
+--0015175cdfb295b2a204917fd0de
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+A l&#39;attention du Pr=E9sident Daniel Martina<br><br>Bonjour !<br><br>Nou=
+s sommes une Association de Doctorants de l&#39;Universit=E9 Paris Ouest<br>
+Nanterre, &quot;Doctopolis&quot;.<br>
+Nous organisons une journ=E9e de d=E9bat sur le probl=E8me de l&#39;emploi =
+pour les<br>
+Doctorants afin de briser le mur de verre entre l&#39;Entreprise et<br>
+l&#39;Universit=E9.<br>
+<br>
+Le th=E8me de la journ=E9e porte sur les &quot;R=E9seaux Sociaux&quot;. Vou=
+s trouverez sur<br>
+ce site le programme. La journ=E9e est nationale.<br>
+<br>
+<br>
+<a href=3D"http://assodoctopolis.wordpress.com/2010/09/05/reseau-social-et-=
+recrutement/" target=3D"_blank">http://assodoctopolis.wordpress.com/2010/09=
+/05/reseau-social-et-recrutement/</a><br>
+<br>
+Vous =EAtes bien s=FBr invit=E9 ainsi que vos coll=E8gues.`<br><br>
+Merci d&#39;=EAtre le relais en interne de notre journ=E9e aupr=E8s des Doc=
+torants<br>
+quelle que soit la discipline.<br>
+<br>
+Vous pouvez me joindre sur le portable 06 61 53 12 57<br>
+<br>
+A bient=F4t,<br>
+<br>
+Tr=E8s cordialement,<br><font color=3D"#888888"><font color=3D"#888888"><fo=
+nt color=3D"#888888"><font color=3D"#888888"><font color=3D"#888888"><font =
+color=3D"#888888"><font color=3D"#888888"><font color=3D"#888888"><font col=
+or=3D"#888888"><font color=3D"#888888"><font color=3D"#888888"><font color=
+=3D"#888888"><font color=3D"#888888"><font color=3D"#888888"><br>
+
+
+
+
+
+Anne Elisabeth
+</font>
+</font>
+</font>
+</font>
+</font>
+</font></font>
+</font>
+</font>
+</font>
+</font>
+</font>
+</font>
+</font>
+
+--0015175cdfb295b2a204917fd0de--

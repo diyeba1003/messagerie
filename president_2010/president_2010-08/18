@@ -1,0 +1,51 @@
+Return-Path: <Nada.Abdallah@lri.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 651082287F
+	for <president@listes.univ-angers.fr>; Mon,  9 Aug 2010 22:21:14 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 56B1F1142EB; Mon,  9 Aug 2010 22:21:14 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from ext.lri.fr (ext.lri.fr [129.175.15.4])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 26E1E1140C2;
+	Mon,  9 Aug 2010 22:21:12 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by ext.lri.fr (Postfix) with ESMTP id C351DA4922;
+	Mon,  9 Aug 2010 22:21:29 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at lri.fr
+Received: from ext.lri.fr ([127.0.0.1])
+	by localhost (ext.lri.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id XSyQPBbnzMuU; Mon,  9 Aug 2010 22:21:29 +0200 (CEST)
+Received: from www2.lri.fr (www2 [129.175.15.2])
+	by ext.lri.fr (Postfix) with ESMTP id 00864A4914;
+	Mon,  9 Aug 2010 22:21:28 +0200 (CEST)
+Received: from 129.175.15.11 (proxying for 82.128.16.248)
+        (SquirrelMail authenticated user nada)
+        by www2.lri.fr with HTTP;
+        Mon, 9 Aug 2010 22:21:25 +0200
+Message-ID: <bd63fe36ec02245cdb5a6773bc4cee3b.squirrel@www2.lri.fr>
+Date: Mon, 9 Aug 2010 22:21:25 +0200
+From: Nada.Abdallah@lri.fr
+User-Agent: SquirrelMail/1.4.18
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+To: undisclosed-recipients:;
+Subject: [president] =?ISO-8859-1?Q?vous_avez_d=E9pass=E9_votre_quota_de_?=
+ =?ISO-8859-1?Q?courriel_?=
+
+vous avez dépassé votre quota de courriel
+
+Ceci est pour vous informer que vous avez dépassé votre quota de courriel
+limite de 325MB et vous avez besoin pour augmenter votre limite de quota
+de courriel parce que dans moins de 48 heures de votre e-mail sera
+désactiver. Augmentation votre limite de quota de courriel et de continuer
+à utiliser votre compte webmail. Pour augmenter votre limite de quota de
+courriel à 1.7 Go, cliquez sur le lien ci-dessous:
+
+http://www.123contactform.com/contact-form-nosa5-83997.html
+
+Nous vous remercions de votre compréhension. Copyright © 2010 Centre
+Webmail Helpdest Support
+

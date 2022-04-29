@@ -1,0 +1,256 @@
+Return-Path: <marc.rolland@education.gouv.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id E3CB52281F
+	for <president@listes.univ-angers.fr>; Thu,  1 Jul 2010 16:23:59 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id D806B11429E; Thu,  1 Jul 2010 16:23:59 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from mx2de.in.adc.education.fr (mx2de.in.adc.education.fr [193.48.4.22])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id C489D114298
+	for <president@univ-angers.fr>; Thu,  1 Jul 2010 16:23:59 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mx2de.in.adc.education.fr (Postfix) with ESMTP id 1744A310068;
+	Thu,  1 Jul 2010 16:23:59 +0200 (CEST)
+Received: from mx2de.in.adc.education.fr ([127.0.0.1])
+ by localhost (mx2de [127.0.0.1]) (amavisd-new, port 10024) with LMTP
+ id 20068-01-43; Thu,  1 Jul 2010 16:23:58 +0200 (CEST)
+Received: from lotusmail3du.in.adc.education.fr (lotusmail3du.srv.in.adc.education.fr [10.244.7.62])
+	by mx2de.in.adc.education.fr (Postfix) with ESMTP id 5F20F31003B;
+	Thu,  1 Jul 2010 16:23:58 +0200 (CEST)
+MIME-Version: 1.0
+X-KeepSent: B7BECDDC:39930928-C1257753:004ED50E;
+ type=4; name=$KeepSent
+X-Mailer: Lotus Notes Release 8.5 December 05, 2008
+To: marc.rolland@education.gouv.fr <'marc.rolland@education.gouv.fr'>,
+	<presidence@up.univ-mrs.fr>,
+	<yvon.berland@univmed.fr>,
+	<president@univ-cezanne.fr>,
+	<president@univ-avignon.fr>,
+	<president@u-picardie.fr>,
+	<alain.pietrus@univ-ag.fr>,
+	<claude.conde@univ-fcomte.fr>,
+	<a.boudou@presidence.u-bordeaux1.fr>,
+	<president@u-bordeaux2.fr>,
+	<presidence@u-bordeaux3.fr>,
+	<president@u-bordeaux4.fr>,
+	<jean-louis.gout@univ-pau.fr>,
+	<presidence@unicaen.fr>,
+	<Chrystel.MOSER@u-clermont1.fr>,
+	<Nadine.LAVIGNOTTE@univ-bpclermont.fr>,
+	<communication@upf.pf>,
+	<president@univ-nc.nc>,
+	<presidence@univ-corse.fr>,
+	<presidente@u-bourgogne.fr>,
+	<presidence@univ-savoie.fr>,
+	<presidence@ujf-grenoble.fr>,
+	<presidence@upmf-grenoble.fr>,
+	<presidence@u-grenoble3.fr>,
+	<president@univ-artois.fr>,
+	<presidence@univ-lille1.fr>,
+	<secretariat.presidence@univ-lille2.fr>,
+	<presidence@univ-lille3.fr>,
+	<president@univ-littoral.fr>,
+	<president@univ-valenciennes.fr>,
+	<presidence@unilim.fr>,
+	<presidence@univ-lyon1.fr>,
+	<presidence@univ-lyon2.fr>,
+	<presid@univ-lyon3.fr>,
+	<president@univ-st-etienne.fr>,
+	<presidence@univ-montp1.fr>,
+	<presidence@univ-montp2.fr>,
+	<presidence@univ-montp3.fr>,
+	<president@univ-perp.fr>,
+	<president@univ-metz.fr>,
+	<president@uhp-nancy.fr>,
+	<president@univ-nancy2.fr>,
+	<president@univ-angers.fr>,
+	<president@univ-lemans.fr>,
+	<presidence@unice.fr>,
+	<philippe.tchamitchian@univ-tln.fr>,
+	<Youssoufi.Toure@bourges.univ-orleans.fr>,
+	<president@univ-tours.fr>,
+	<president@univ-poitiers.fr>,
+	<richard.vistelle@univ-reims.fr>,
+	<president@univ-brest.fr>,
+	<president@univ-ubs.fr>,
+	<presiden@univ-rennes.fr>,
+	<marc.gontard@uhb.fr>,
+	<president@univ-reunion.fr>,
+	<presidence@univ-lehavre.fr>,
+	<presidence@univ-rouen.fr>,
+	<presidence@uha.fr>,
+	<president@unistra.fr>,
+	<cabinet.president@univ-tlse1.fr>,
+	<presidence@univ-tlse2.fr>,
+	<secpres@adm.ups-tlse.fr>,
+	<cabpresi@univ-paris1.fr>,
+	<presidence@u-paris2.fr>,
+	<presidence@univ-paris3.fr>,
+	<president@paris-sorbonne.fr>,
+	<presidence@univ-paris5.fr>,
+	<presidence@upmc.fr>,
+	<secretariat.president@univ-paris-diderot.fr>,
+	<presidence@univ-paris8.fr>,
+	<president@dauphine.fr>,
+	<president@u-paris10.fr>,
+	<guy.couarraze@u-psud.fr>,
+	<presidence@univ-paris12.fr>,
+	<pres-p13@univ-paris13.fr>,
+	<francoise.moulin-civil@u-cergy.fr>,
+	<richard.messina@univ-evry.fr>,
+	<presidente@admin.uvsq.fr>,
+	<presidence@univ-mlv.fr>
+Message-ID: <OFB7BECDDC.39930928-ONC1257753.004ED50E-C1257753.004EF5A5@education.gouv.fr>
+From: marc.rolland@education.gouv.fr
+Date: Thu, 1 Jul 2010 16:24:50 +0200
+X-MIMETrack: Serialize by Router on LotusMail3du/SRV/Education/FR(Release 8.5FP1 HF313|October
+ 06, 2009) at 01/07/2010 16:24:51,
+	Serialize complete at 01/07/2010 16:24:51
+Content-Type: multipart/alternative; boundary="=_alternative 004EB314C1257753_="
+X-Virus-Scanned: amavisd-new at education.gouv.fr
+Subject: [president] =?UTF-8?Q?Tr_:__recherche_de_candidats_pour_le_poste?=
+ =?UTF-8?Q?_de_Conseiller_scientifique_et_technologique,_de_l=E2=80=99amba?=
+ =?UTF-8?Q?ssade_de_France_=C3=A0_OTTAWA_?=
+
+Message en plusieurs parties au format MIME
+--=_alternative 004EB314C1257753_=
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+TW9uc2lldXIgbGUgUHLDqXNpZGVudCBkZSBsYSBDUFUsDQpNb25zaWV1ciBs
+ZSBQcsOpc2lkZW50IGRlIGxhIENvbW1pc3Npb24gZGUgbGEgQ29yaWUsDQpN
+b25zaWV1ciBsZSBEw6lsw6lndcOpIHBlcm1hbmVudCBwb3VyIGxhIENQVSDD
+oCBCcnV4ZWxsZXMsDQpNZXNkYW1lcyBsZXMgUHLDqXNpZGVudGVzIGV0IE1l
+c3NpZXVycyBsZXMgUHLDqXNpZGVudHMgZOKAmXVuaXZlcnNpdMOpLCANCiAN
+CkxlIE1pbmlzdMOocmUgZGVzIGFmZmFpcmVzIMOpdHJhbmfDqHJlcyBldCBl
+dXJvcMOpZW5uZXMgKE1BRUUpIHZpZW50IGRlIG5vdXMgDQpmYWlyZSBzYXZv
+aXIgcXVlIGxlIHBvc3RlIGRlIENvbnNlaWxsZXIgc2NpZW50aWZpcXVlIGV0
+IHRlY2hub2xvZ2lxdWUsIA0KQ2hlZiBkdSBTZXJ2aWNlIHNjaWVudGlmaXF1
+ZSBkZSBs4oCZYW1iYXNzYWRlIMOgIE9UVEFXQSBzZXJhIMOgIHBvdXJ2b2ly
+IGxlIDEgDQplciAgc2VwdGVtYnJlIDIwMTAuIA0KIA0KTOKAmWltcG9ydGFu
+Y2UgZGUgY2UgcG9zdGUgcG91ciBsYSBjb29ww6lyYXRpb24gZHUgbWluaXN0
+w6hyZSBkZSANCmzigJllbnNlaWduZW1lbnQgc3Vww6lyaWV1ciBldCBkZSBs
+YSByZWNoZXJjaGUgbm91cyBjb25kdWl0IMOgIHJlY2hlcmNoZXIgDQphY3Rp
+dmVtZW50IGRlcyBjYW5kaWRhdHMgcXVpLCBkYW5zIHVuIGNhbGVuZHJpZXIg
+dHLDqHMgY29udHJhaW50LCANCnBvdXJyYWllbnQgZXhlcmNlciBjZXMgZm9u
+Y3Rpb25zLiANCiANCkxlIE1FU1Igc291aGFpdGUgcG91dm9pciBmb3Vybmly
+IGF1IE1BRUUsIGF2YW50IGxhIGZpbiBkZSBsYSBzZWNvbmRlIA0Kc2VtYWlu
+ZSBkZSBqdWlsbGV0LCBldCBhcHLDqHMgdmFsaWRhdGlvbiBkdSBjYWJpbmV0
+IGRlIGxhIE1pbmlzdHJlLCBkZXV4IG91IA0KdHJvaXMgY2FuZGlkYXR1cmVz
+IGRlIHF1YWxpdMOpLiANCiANCkPigJllc3QgcG91cnF1b2kgbm91cyBzb3Vo
+YWl0ZXJpb25zIHF1ZSBjZXR0ZSBpbmZvcm1hdGlvbiBzb2l0IHBvcnTDqWUg
+DQpyYXBpZGVtZW50IMOgIGxhIGNvbm5haXNzYW5jZSBkZXMgdW5pdmVyc2l0
+YWlyZXMgZXQgZGVzIGNoZXJjaGV1cnMuDQogTGllbiBkaXJlY3QgZGUgbGEg
+ZGVzY3JpcHRpb24gZGUgcG9zdGUgOiANCmh0dHBzOi8vcGFzdGVsLmRpcGxv
+bWF0aWUuZ291di5mci90cmFuc3BhcmVuY2UvaW50ZXJuZXQvbGlzdGVlbXBs
+b2ljdWx0dXJlbC5hc3AgDQoNCm91IA0KaHR0cHM6Ly9wYXN0ZWwuZGlwbG9t
+YXRpZS5nb3V2LmZyL1Bvc3RJdC9Qb3N0SXRJbXByaW1lckZpY2hlLmFzcD9U
+VF9QT1NURV9UUkFWQUlMPTAwMTMyNSZJRF9QUk9DRVNTX09CVF9GSUNIRV9Q
+T1NURT1NQUVfUDAwMDYmSURfUFJPQ0VTU19PQlRfRklDSEVfUE9TVEVfU09V
+UkNFPU1BRV9QMDAwNSANCikuIA0KIA0KQWZpbiBkZSByw6lkdWlyZSAgbGVz
+IGTDqWxhaXMgZGUgdHJhbnNtaXNzaW9uIGV0IGTigJlleGFtZW4gZGVzIA0K
+Y2FuZGlkYXR1cmVzLGxlcyBjYW5kaWRhdHMgdHJhbnNtZXR0cm9udCBkaXJl
+Y3RlbWVudCBwYXIgdm9pZSDDqWxlY3Ryb25pcXVlIA0KdW4gQ1YgZXQgdW5l
+IGxldHRyZSBkZSBtb3RpdmF0aW9uIMOgIGxhIGRpcmVjdHJpY2UgZXQgYXUg
+ZGlyZWN0ZXVyIGFkam9pbnQgDQpkZSBsYSBEUkVJQyAoIHNvbmlhLmR1Ym91
+cmctbGF2cm9mZkBlZHVjYXRpb24uZ291di5mciAgOyANCm1hcmMucm9sbGFu
+ZEBlZHVjYXRpb24uZ291di5mciApLiBMZXMgY2FuZGlkYXR1cmVzIHNlcm9u
+dCB0cmFpdMOpZXMgZW4gDQpsaWFpc29uIGF2ZWMgbGEgREdFU0lQLCBsYSBE
+R1JJIGV0IGxlIGNhYmluZXQgZGUgbGEgTWluaXN0cmUuIA0KIA0KQmllbiBj
+b3JkaWFsZW1lbnQuIA0KDQpNYXJjIFJvbGxhbmQNCkFkam9pbnQgw6AgbGEg
+ZGlyZWN0cmljZSBkZXMgcmVsYXRpb25zIGV1cm9ww6llbm5lcyBldCBpbnRl
+cm5hdGlvbmFsZXMgZXQgZGUgDQpsYSBjb29ww6lyYXRpb24NClNlY3LDqXRh
+cmlhdCBnw6luw6lyYWwNCk1pbmlzdMOocmUgZGUgbCfDqWR1Y2F0aW9uIG5h
+dGlvbmFsZSAvIE1pbmlzdMOocmUgZGUgbCdlbnNlaWduZW1lbnQgc3Vww6ly
+aWV1ciANCmV0IGRlIGxhIHJlY2hlcmNoZQ0K
+
+--=_alternative 004EB314C1257753_=
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+DQo8YnI+PGZvbnQgc2l6ZT0yIGZhY2U9IkFyaWFsIj5Nb25zaWV1ciBsZSBQ
+csOpc2lkZW50IGRlIGxhIENQVSw8L2ZvbnQ+DQo8YnI+PGZvbnQgc2l6ZT0y
+IGZhY2U9IkFyaWFsIj5Nb25zaWV1ciBsZSBQcsOpc2lkZW50IGRlIGxhIENv
+bW1pc3Npb24gZGUNCmxhIENvcmllLDwvZm9udD4NCjxicj48Zm9udCBzaXpl
+PTIgZmFjZT0iQXJpYWwiPk1vbnNpZXVyIGxlIETDqWzDqWd1w6kgcGVybWFu
+ZW50IHBvdXIgbGEgQ1BVDQrDoCBCcnV4ZWxsZXMsPC9mb250Pg0KPGJyPjxm
+b250IHNpemU9MiBmYWNlPSJBcmlhbCI+TWVzZGFtZXMgbGVzIFByw6lzaWRl
+bnRlcyBldCBNZXNzaWV1cnMgbGVzDQpQcsOpc2lkZW50cyBk4oCZdW5pdmVy
+c2l0w6ksIDwvZm9udD4NCjxicj48Zm9udCBzaXplPTIgZmFjZT0iQXJpYWwi
+PiZuYnNwOzwvZm9udD4NCjxicj48Zm9udCBzaXplPTIgZmFjZT0iQXJpYWwi
+PkxlIE1pbmlzdMOocmUgZGVzIGFmZmFpcmVzIMOpdHJhbmfDqHJlcyBldCBl
+dXJvcMOpZW5uZXMNCihNQUVFKSB2aWVudCBkZSBub3VzIGZhaXJlIHNhdm9p
+ciBxdWUgbGUgcG9zdGUgZGUgPGI+Q29uc2VpbGxlciBzY2llbnRpZmlxdWUN
+CmV0IHRlY2hub2xvZ2lxdWUsIENoZWYgZHUgU2VydmljZSBzY2llbnRpZmlx
+dWUgZGUgbOKAmWFtYmFzc2FkZSDDoCBPVFRBV0E8L2I+DQpzZXJhIMOgIHBv
+dXJ2b2lyIGxlIDx1PjEgPHN1cD5lciA8L3N1cD4mbmJzcDtzZXB0ZW1icmUg
+MjAxMDwvdT4uICZuYnNwOw0KPC9mb250Pg0KPGJyPjxmb250IHNpemU9MiBm
+YWNlPSJBcmlhbCI+Jm5ic3A7PC9mb250Pg0KPGJyPjxmb250IHNpemU9MiBm
+YWNlPSJBcmlhbCI+TOKAmWltcG9ydGFuY2UgZGUgY2UgcG9zdGUgcG91ciBs
+YSBjb29ww6lyYXRpb24NCmR1IG1pbmlzdMOocmUgZGUgbOKAmWVuc2VpZ25l
+bWVudCBzdXDDqXJpZXVyIGV0IGRlIGxhIHJlY2hlcmNoZSBub3VzIGNvbmR1
+aXQNCsOgIHJlY2hlcmNoZXIgYWN0aXZlbWVudCBkZXMgY2FuZGlkYXRzIHF1
+aSwgZGFucyB1biBjYWxlbmRyaWVyIHRyw6hzIGNvbnRyYWludCwNCnBvdXJy
+YWllbnQgZXhlcmNlciBjZXMgZm9uY3Rpb25zLiA8L2ZvbnQ+DQo8YnI+PGZv
+bnQgc2l6ZT0yIGZhY2U9IkFyaWFsIj4mbmJzcDs8L2ZvbnQ+DQo8YnI+PGZv
+bnQgc2l6ZT0yIGZhY2U9IkFyaWFsIj5MZSBNRVNSIHNvdWhhaXRlIHBvdXZv
+aXIgZm91cm5pciBhdSBNQUVFLA0KYXZhbnQgbGEgZmluIGRlIGxhIHNlY29u
+ZGUgc2VtYWluZSBkZSBqdWlsbGV0LCBldCBhcHLDqHMgdmFsaWRhdGlvbiBk
+dSBjYWJpbmV0DQpkZSBsYSBNaW5pc3RyZSwgZGV1eCBvdSB0cm9pcyBjYW5k
+aWRhdHVyZXMgZGUgcXVhbGl0w6kuIDwvZm9udD4NCjxicj48Zm9udCBzaXpl
+PTIgZmFjZT0iQXJpYWwiPiZuYnNwOzwvZm9udD4NCjxicj48Zm9udCBzaXpl
+PTIgZmFjZT0iQXJpYWwiPkPigJllc3QgcG91cnF1b2kgbm91cyBzb3VoYWl0
+ZXJpb25zIHF1ZSBjZXR0ZQ0KaW5mb3JtYXRpb24gc29pdCBwb3J0w6llIHJh
+cGlkZW1lbnQgw6AgbGEgY29ubmFpc3NhbmNlIGRlcyB1bml2ZXJzaXRhaXJl
+cw0KZXQgZGVzIGNoZXJjaGV1cnMuPC9mb250Pg0KPGJyPjxmb250IHNpemU9
+MiBmYWNlPSJBcmlhbCI+Jm5ic3A7TGllbiBkaXJlY3QgZGUgbGEgZGVzY3Jp
+cHRpb24gZGUgcG9zdGUNCjogPC9mb250PjxhIGhyZWY9aHR0cHM6Ly9wYXN0
+ZWwuZGlwbG9tYXRpZS5nb3V2LmZyL3RyYW5zcGFyZW5jZS9pbnRlcm5ldC9s
+aXN0ZWVtcGxvaWN1bHR1cmVsLmFzcCB0YXJnZXQ9Ymxhbms+PGZvbnQgc2l6
+ZT0yIGNvbG9yPSM4MDAwODAgZmFjZT0iVmVyZGFuYSI+PHU+aHR0cHM6Ly9w
+YXN0ZWwuZGlwbG9tYXRpZS5nb3V2LmZyL3RyYW5zcGFyZW5jZS9pbnRlcm5l
+dC9saXN0ZWVtcGxvaWN1bHR1cmVsLmFzcA0KPC91PjwvZm9udD48L2E+DQo8
+YnI+PGZvbnQgc2l6ZT0yIGZhY2U9IlZlcmRhbmEiPjxiPm91IDwvYj48L2Zv
+bnQ+DQo8YnI+PGEgaHJlZj0iaHR0cHM6Ly9wYXN0ZWwuZGlwbG9tYXRpZS5n
+b3V2LmZyL1Bvc3RJdC9Qb3N0SXRJbXByaW1lckZpY2hlLmFzcD9UVF9QT1NU
+RV9UUkFWQUlMPTAwMTMyNSZhbXA7SURfUFJPQ0VTU19PQlRfRklDSEVfUE9T
+VEU9TUFFX1AwMDA2JmFtcDtJRF9QUk9DRVNTX09CVF9GSUNIRV9QT1NURV9T
+T1VSQ0U9TUFFX1AwMDA1IiB0YXJnZXQ9Ymxhbms+PGZvbnQgc2l6ZT0yIGNv
+bG9yPSM4MDAwODAgZmFjZT0iVmVyZGFuYSI+PHU+aHR0cHM6Ly9wYXN0ZWwu
+ZGlwbG9tYXRpZS5nb3V2LmZyL1Bvc3RJdC9Qb3N0SXRJbXByaW1lckZpY2hl
+LmFzcD9UVF9QT1NURV9UUkFWQUlMPTAwMTMyNSZhbXA7SURfUFJPQ0VTU19P
+QlRfRklDSEVfUE9TVEU9TUFFX1AwMDA2JmFtcDtJRF9QUk9DRVNTX09CVF9G
+SUNIRV9QT1NURV9TT1VSQ0U9TUFFX1AwMDA1DQo8L3U+PC9mb250PjwvYT48
+Zm9udCBzaXplPTIgZmFjZT0iVmVyZGFuYSI+KTwvZm9udD48Zm9udCBzaXpl
+PTIgZmFjZT0iQXJpYWwiPi4NCjwvZm9udD4NCjxicj48Zm9udCBzaXplPTIg
+ZmFjZT0iQXJpYWwiPiZuYnNwOzwvZm9udD4NCjxicj48Zm9udCBzaXplPTIg
+ZmFjZT0iQXJpYWwiPkFmaW4gZGUgcsOpZHVpcmUgJm5ic3A7bGVzIGTDqWxh
+aXMgZGUgdHJhbnNtaXNzaW9uDQpldCBk4oCZZXhhbWVuIGRlcyBjYW5kaWRh
+dHVyZXMsbGVzIGNhbmRpZGF0cyB0cmFuc21ldHRyb250IGRpcmVjdGVtZW50
+IHBhcg0Kdm9pZSDDqWxlY3Ryb25pcXVlIHVuIENWIGV0IHVuZSBsZXR0cmUg
+ZGUgbW90aXZhdGlvbiDDoCBsYSBkaXJlY3RyaWNlIGV0DQphdSBkaXJlY3Rl
+dXIgYWRqb2ludCBkZSBsYSBEUkVJQyAoIDwvZm9udD48YSBocmVmPSJtYWls
+dG86c29uaWEuZHVib3VyZy1sYXZyb2ZmQGVkdWNhdGlvbi5nb3V2LmZyIiB0
+YXJnZXQ9Ymxhbms+PGZvbnQgc2l6ZT0yIGNvbG9yPWJsdWUgZmFjZT0iQXJp
+YWwiPjx1PnNvbmlhLmR1Ym91cmctbGF2cm9mZkBlZHVjYXRpb24uZ291di5m
+cg0KPC91PjwvZm9udD48L2E+PGZvbnQgc2l6ZT0yIGZhY2U9IkFyaWFsIj4m
+bmJzcDs7IDwvZm9udD48YSBocmVmPW1haWx0bzptYXJjLnJvbGxhbmRAZWR1
+Y2F0aW9uLmdvdXYuZnIgdGFyZ2V0PWJsYW5rPjxmb250IHNpemU9MiBjb2xv
+cj1ibHVlIGZhY2U9IkFyaWFsIj48dT5tYXJjLnJvbGxhbmRAZWR1Y2F0aW9u
+LmdvdXYuZnINCjwvdT48L2ZvbnQ+PC9hPjxmb250IHNpemU9MiBmYWNlPSJB
+cmlhbCI+KS4gTGVzIGNhbmRpZGF0dXJlcyBzZXJvbnQgdHJhaXTDqWVzDQpl
+biBsaWFpc29uIGF2ZWMgbGEgREdFU0lQLCBsYSBER1JJIGV0IGxlIGNhYmlu
+ZXQgZGUgbGEgTWluaXN0cmUuIDwvZm9udD4NCjxicj48Zm9udCBzaXplPTIg
+ZmFjZT0iQXJpYWwiPiZuYnNwOzwvZm9udD4NCjxicj48Zm9udCBzaXplPTIg
+ZmFjZT0iQXJpYWwiPkJpZW4gY29yZGlhbGVtZW50LiA8L2ZvbnQ+DQo8YnI+
+DQo8YnI+PGZvbnQgc2l6ZT0yIGZhY2U9IkFyaWFsIj5NYXJjIFJvbGxhbmQ8
+L2ZvbnQ+DQo8YnI+PGZvbnQgc2l6ZT0yIGZhY2U9IkFyaWFsIj5BZGpvaW50
+IMOgIGxhIGRpcmVjdHJpY2UgZGVzIHJlbGF0aW9ucyBldXJvcMOpZW5uZXMN
+CmV0IGludGVybmF0aW9uYWxlcyBldCBkZSBsYSBjb29ww6lyYXRpb248L2Zv
+bnQ+DQo8YnI+PGZvbnQgc2l6ZT0yIGZhY2U9IkFyaWFsIj5TZWNyw6l0YXJp
+YXQgZ8OpbsOpcmFsPC9mb250Pg0KPGJyPjxmb250IHNpemU9MiBmYWNlPSJB
+cmlhbCI+TWluaXN0w6hyZSBkZSBsJ8OpZHVjYXRpb24gbmF0aW9uYWxlIC8g
+TWluaXN0w6hyZQ0KZGUgbCdlbnNlaWduZW1lbnQgc3Vww6lyaWV1ciBldCBk
+ZSBsYSByZWNoZXJjaGU8L2ZvbnQ+DQo=
+
+--=_alternative 004EB314C1257753_=--

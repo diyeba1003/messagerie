@@ -1,0 +1,647 @@
+Return-Path: <Jean-Yves.Buzare@univ-lemans.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 4F2E82285E
+	for <president@listes.univ-angers.fr>; Mon, 25 Oct 2010 14:48:03 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 4062A114155; Mon, 25 Oct 2010 14:48:03 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp1.univ-nantes.fr [193.52.82.18])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 3699C114141
+	for <president@univ-angers.fr>; Mon, 25 Oct 2010 14:48:03 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 2B0398160F6
+	for <president@univ-angers.fr>; Mon, 25 Oct 2010 14:48:03 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp1.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id QDqyfo+-u+49 for <president@univ-angers.fr>;
+	Mon, 25 Oct 2010 14:48:03 +0200 (CEST)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 0E31F815D31
+	for <president@univ-angers.fr>; Mon, 25 Oct 2010 14:48:03 +0200 (CEST)
+Received: from mx1.d101.univ-nantes.fr (MX1.univ-nantes.fr [193.52.101.135])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id F2D3928A;
+	Mon, 25 Oct 2010 14:48:02 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mx1.d101.univ-nantes.fr (Postfix) with ESMTP id E2A331384D56;
+	Mon, 25 Oct 2010 14:48:02 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from mx1.d101.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id a03xO1Kc4G8a; Mon, 25 Oct 2010 14:48:01 +0200 (CEST)
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+Received: from jaguar2.univ-lemans.fr (jaguar2.univ-lemans.fr [195.221.244.110])
+	by mx1.d101.univ-nantes.fr (Postfix) with ESMTP id F0EE412F13A2;
+	Mon, 25 Oct 2010 14:48:00 +0200 (CEST)
+Received: from murech173.univ-lemans.fr (murech173.univ-lemans.fr [172.17.1.173])
+	by jaguar2.univ-lemans.fr (Postfix) with ESMTP id 0CA22F4C72;
+	Mon, 25 Oct 2010 14:47:59 +0200 (CEST)
+Cc: Jean-Yves BUZARE <Jean-Yves.Buzare@univ-lemans.fr>,
+ =?ISO-8859-1?Q?'St=E9phane_Cassereau'?= <Stephane.Cassereau@mines-nantes.fr>,
+ "'Patrick Chedmail'" <Patrick.Chedmail@ec-nantes.fr>,
+ "'Yves GUILLOTIN'" <president@univ-lemans.fr>,
+ "'Jean-Yves BUZARE'" <vpcs@univ-lemans.fr>,
+ "'Jacques GIRARDEAU'" <vpcs@univ-nantes.fr>,
+  <daniel.martina@lunam.fr>,
+  <president@univ-nantes.fr>,
+  <alain.bernard@irccyn.ec-nantes.fr>,
+  <francis.yguel@lunam.fr>,
+ "'Sophie MARPAUD'" <sophie.marpaud@lunam.fr>,
+ "'Emilie HAMON'" <emilie.hamon2@lunam.fr>,
+ "'Isabelle NICOLAUS'" <isabelle.nicolaus@lunam.fr>
+Message-Id: <5CE3A57F-EA13-4A56-B86A-38839A3834E5@univ-lemans.fr>
+From: Jean-Yves BUZARE <Jean-Yves.Buzare@univ-lemans.fr>
+To: Isabelle PENOT <isabelle.penot@lunam.fr>
+In-Reply-To: <006201cb743c$19c4aa90$4d4dffb0$@penot@lunam.fr>
+Content-Type: multipart/alternative; boundary=Apple-Mail-3-466035136
+Mime-Version: 1.0 (Apple Message framework v936)
+Date: Mon, 25 Oct 2010 14:48:00 +0200
+References: <003701cb71de$49afaf80$dd0f0e80$@penot@lunam.fr> <4CC2BC82.9040702@emn.fr> <4CC2D9C3.409@univ-nantes.fr> <00eb01cb72f2$ecc95260$c65bf720$@yguel@univ-nantes.fr> <4CC3C466.30803@univ-nantes.fr> <006201cb743c$19c4aa90$4d4dffb0$@penot@lunam.fr>
+X-Mailer: Apple Mail (2.936)
+Subject: [president] =?ISO-8859-1?Q?Re:_R=E9union_SATT_/_Grandes_Ecoles?=
+
+
+--Apple-Mail-3-466035136
+Content-Type: text/plain;
+	charset=WINDOWS-1252;
+	format=flowed;
+	delsp=yes
+Content-Transfer-Encoding: quoted-printable
+
+Bonjour,
+
+Je vous confirme ma participation =E0 cette r=E9union en visio-conf=E9rence=
+=20=20
+=E0 partir du Mans.
+
+A demain,
+Cordialement,
+JYB
+
+
+Jean-Yves BUZARE
+Vice Pr=E9sident du Conseil Scientifique de l'Universit=E9 du Maine
+Avenue Olivier Messiaen
+72085 LE MANS Cedex
+
+tel : 02 43 83 30 29
+portable : 06 75 72 97 07
+fax : 02 43 83 30 77
+vpcs@univ-lemans.fr
+
+Le 25 oct. 10 =E0 13:59, Isabelle PENOT a =E9crit :
+
+> Bonjour,
+> Apr=E8s avoir compil=E9 vos disponibilit=E9s, nous vous proposons le=20=
+=20
+> cr=E9neau suivant :
+>  mardi 26/10, de 8h30 =E0 10h00,
+> soit =E0 L=92UNAM, soit =E0 distance : vous pourrez nous pr=E9ciser par=
+=20=20
+> retour de mail le mode que vous aurez choisi.
+> Je vous fais passer d=92ici l=E0 un document de travail en l=92=E9tat act=
+uel=20=20
+> du projet.
+>
+> Cordialement,
+> Isabelle PENOT
+>
+> A L=92UNAM :
+> Salle de r=E9union du 6=E8me =E9tage
+> Visio conf=E9rence :
+> Adresse IP du pont : 195.83.33.147 puis appuyer sur la touche APPELER
+> Appuyer sur la touche =AB s=E9lectionner la cam=E9ra ou source vid=E9o du=
+=20=20
+> site distant =BB
+> Choisir le salon =AB PRES_UNAM =BB =E0 l=92aide des fl=E8ches de guidage=
+=20=20
+> (bouton fl=E8che droite pour entrer dans le salon, il n=92est pas besoin=
+=20=20
+> de code d=92acc=E8s)
+> Conf=E9rence t=E9l=E9phonique :
+> Composer le : 0821 61 12 34
+> Composer ensuite le code de la conf=E9rence : 00 6007 0008
+> Il est n=E9cessaire d=92activer la fr=E9quence vocale de votre t=E9l=E9ph=
+one.
+>
+>
+> De : LECOINTE Yves [mailto:president@univ-nantes.fr]
+> Envoy=E9 : dimanche 24 octobre 2010 07:30
+> =C0 : Francis Yguel
+> Cc : 'St=E9phane Cassereau'; 'Patrick Chedmail'; 'Yves GUILLOTIN';=20=20
+> 'Jean-Yves BUZARE'; 'Jacques GIRARDEAU'; 'Isabelle PENOT'; alain.bernard@=
+irccyn.ec-nantes.fr=20
+> ; daniel.martina@lunam.fr
+> Objet : Re: R=E9union SATT / Grandes Ecoles
+>
+> Le 23/10/2010 22:43, Francis Yguel a =E9crit :
+> Je vous propose d=E8s =E0 pr=E9sent de bloquer le cr=E9neau : 8h00 =9610h=
+00 =96=20=20
+> le mardi 26/10 avec en fonction de vos possibilit=E9s :
+> Pr=E9sence au PRES ou  visio ou t=E9l=E9phone
+>
+> Francis YGUEL
+> Directeur G=E9n=E9ral
+>
+>
+>  <image001.jpg>
+>
+> L'Universit=E9 Nantes Angers Le Mans (L'UNAM)
+> P=F4le de recherche et d'enseignement sup=E9rieur
+> Immeuble MANNY
+> 19 bis rue La Nou=EB Bras de Fer
+> 44 200 NANTES, France
+> t=E9l. (accueil) : 02 28 08 14 00
+> Mme Nicolaus, attach=E9e de direction : 02 28 08 14 28
+> fax : 02 28 08 14 01
+>
+> m=E9l : direction@lunam.fr
+> site : www.lunam.fr
+> Ce message =E9lectronique et toutes les pi=E8ces jointes sont=20=20
+> confidentiels et destin=E9s =E0 l'utilisateur habituel de l'adresse e-=20
+> mail =E0 laquelle ils ont =E9t=E9 adress=E9s. Personne d'autre n'est=20=
+=20
+> autoris=E9 =E0 lire ce message, le dupliquer, le modifier ou le=20=20
+> communiquer =E0 un tiers quelconque. Si vous avez re=E7u ce message par=
+=20=20
+> erreur, merci de le signaler =E0 son =E9metteur. L'UNAM d=E9cline toute=
+=20=20
+> responsabilit=E9 au titre de ce message, s'il a =E9t=E9 alt=E9r=E9, d=E9f=
+orm=E9,=20=20
+> falsifi=E9, =E9dit=E9 ou encore envoy=E9 sans autorisation.
+> This message and any attachments are confidential and intended=20=20
+> solely for the addressees. No one else than the addresses may copy=20=20
+> or forward all of any of it in any form. If you receive this e-mail=20=20
+> in error, we should be obliged if you would notify this to the=20=20
+> sender. L'UNAM will not be liable for the message if altered,=20=20
+> changed, falsified, edited or sent without any authorization.
+>
+> De : LECOINTE Yves [mailto:president@univ-nantes.fr]
+> Envoy=E9 : samedi 23 octobre 2010 14:49
+> =C0 : St=E9phane Cassereau
+> Cc : Isabelle PENOT; 'Patrick Chedmail'; alain.bernard@irccyn.ec-nantes.f=
+r=20
+> ; daniel.martina@lunam.fr; Yves GUILLOTIN; Jacques GIRARDEAU; Jean-=20
+> Yves BUZARE; francis.yguel@lunam.fr
+> Objet : Re: R=E9union SATT / Grandes Ecoles
+>
+> Le 23/10/2010 12:44, St=E9phane Cassereau a =E9crit :
+> Je n'ai pas de contrainte le 26. Je ne suis pas disponible le 27
+>
+> Lors de cette r=E9union, je souhaite pouvoir aussi =E9changer sur=20=20
+> l'implication =E9ventuelle des autres =E9coles de la CGE. Nous en avons=
+=20=20
+> discut=E9 la semaine derni=E8re au CA de la CGE Pays de la Loire et=20=20
+> plusieurs =E9coles sont =E0 priori int=E9ress=E9es parmi les autres membr=
+es=20=20
+> fondateurs et associ=E9s du PRES. Il faudra donc me fournir des=20=20
+> =E9l=E9ments que je pourrai ensuite diffuser =E0 mes coll=E8gues
+>
+> Merci
+>
+> Sc
+>
+>
+>
+> Le 22/10/2010 13:43, Isabelle PENOT a =E9crit :
+> Bonjour,
+> Afin de vous pr=E9senter l=92=E9tat d=92avancement du projet de SATT Oues=
+t=20=20
+> Valorisation et de vous permettre de prendre une position sur votre=20=20
+> participation, nous  vous proposons une r=E9union de travail  la=20=20
+> semaine prochaine.
+> Voici  ci-dessous nos disponibilit=E9s =E0 Francis Yguel et moi-m=EAme :
+> -mardi 26/10 : journ=E9e (sauf 11h/12h)
+> - mercredi 27/10 : =E0 partir de 14h
+> Vous pourrez nous pr=E9ciser les horaires qui vous conviennent, cet=20=20
+> =E9change pouvant avoir lieu PRES,  par t=E9l=E9phone ou par visio.
+>
+> Cordialement,
+>
+> Isabelle PENOT
+> Valorisation de la recherche
+> T=E9l. +33.(0)2.28.08.14.30
+> Mob. 06.78.28.23.12
+> Fax +33.(0)2.28.08.14.01
+> isabelle.penot@lunam.fr
+> L=92Universit=E9 Nantes Angers Le Mans - L=92UNAM
+> P=F4le de recherche et d'enseignement sup=E9rieur
+> www.lunam.fr
+> Immeuble MANNY
+> 19 bis rue La Nou=EB Bras de Fer
+> 44200 NANTES, France
+> <image002.jpg>
+>
+>
+> 26 au matin pour moi
+>
+>
+> YL
+>
+>
+>
+> --=20
+> Afin d'assurer le bon traitement de vos courriels,il convient=20=20
+> d'utiliser =E0 bon escient l'une ou l'autre de mes deux adresses:
+> Adresse fonctionnelle: president@univ-nantes.fr
+> Adresse personnelle: yves.lecointe@univ-nantes.fr
+> 8h45 pour moi
+>
+>
+> YL
+>
+>
+> --=20
+> Afin d'assurer le bon traitement de vos courriels,il convient=20=20
+> d'utiliser =E0 bon escient l'une ou l'autre de mes deux adresses:
+> Adresse fonctionnelle: president@univ-nantes.fr
+> Adresse personnelle: yves.lecointe@univ-nantes.fr
+
+
+--Apple-Mail-3-466035136
+Content-Type: text/html;
+	charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+
+<html><body style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; -webk=
+it-line-break: after-white-space; "><div>Bonjour,</div><div><br></div>Je vo=
+us confirme ma participation&nbsp;=E0 cette r=E9union&nbsp;en visio-conf=E9=
+rence =E0 partir du Mans.<div><br></div><div>A demain,</div><div>Cordialeme=
+nt,</div><div>JYB<br><div><br class=3D"webkit-block-placeholder"></div><div=
+><br class=3D"webkit-block-placeholder"></div><div> <span class=3D"Apple-st=
+yle-span" style=3D"border-collapse: separate; color: rgb(0, 0, 0); font-fam=
+ily: Helvetica; font-size: 12px; font-style: normal; font-variant: normal; =
+font-weight: normal; letter-spacing: normal; line-height: normal; orphans: =
+2; text-align: auto; text-indent: 0px; text-transform: none; white-space: n=
+ormal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px=
+; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect:=
+ none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0; "><div=
+ style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-bre=
+ak: after-white-space; "><div><div>Jean-Yves BUZARE</div><div>Vice Pr=E9sid=
+ent du Conseil Scientifique de l'Universit=E9 du Maine</div><div>Avenue Oli=
+vier Messiaen</div><div>72085 LE MANS Cedex</div><div><br></div><div>tel : =
+02 43 83 30 29</div><div>portable : 06 75 72 97 07</div><div>fax : 02 43 83=
+ 30 77</div><div><a href=3D"mailto:vpcs@univ-lemans.fr">vpcs@univ-lemans.fr=
+</a></div></div></div></span> </div><br><div><div>Le 25 oct. 10 =E0 13:59, =
+Isabelle PENOT a =E9crit :</div><br class=3D"Apple-interchange-newline"><bl=
+ockquote type=3D"cite"><span class=3D"Apple-style-span" style=3D"border-col=
+lapse: separate; color: rgb(0, 0, 0); font-family: Helvetica; font-style: n=
+ormal; font-variant: normal; font-weight: normal; letter-spacing: normal; l=
+ine-height: normal; orphans: 2; text-align: auto; text-indent: 0px; text-tr=
+ansform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-b=
+order-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webki=
+t-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit=
+-text-stroke-width: 0px; font-size: medium; "><div bgcolor=3D"white" lang=
+=3D"FR" link=3D"blue" vlink=3D"purple"><div class=3D"WordSection1" style=3D=
+"page: WordSection1; "><div style=3D"margin-top: 0cm; margin-right: 0cm; ma=
+rgin-bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-family: Cali=
+bri, sans-serif; color: black; "><span style=3D"color: rgb(31, 73, 125); ">=
+Bonjour,<o:p></o:p></span></div><div style=3D"margin-top: 0cm; margin-right=
+: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-fam=
+ily: Calibri, sans-serif; color: black; "><span style=3D"color: rgb(31, 73,=
+ 125); ">Apr=E8s avoir compil=E9 vos disponibilit=E9s, nous vous proposons =
+le cr=E9neau suivant&nbsp;:<o:p></o:p></span></div><div style=3D"margin-top=
+: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm; font-s=
+ize: 11pt; font-family: Calibri, sans-serif; color: black; "><span style=3D=
+"color: rgb(31, 73, 125); ">&nbsp;mardi 26/10, de 8h30 =E0 10h00,<o:p></o:p=
+></span></div><div style=3D"margin-top: 0cm; margin-right: 0cm; margin-bott=
+om: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-family: Calibri, sans=
+-serif; color: black; "><span style=3D"color: rgb(31, 73, 125); ">soit =E0 =
+L=92UNAM, soit =E0 distance&nbsp;: vous pourrez nous pr=E9ciser par retour =
+de mail le mode que vous aurez choisi.<o:p></o:p></span></div><div style=3D=
+"margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: =
+0cm; font-size: 11pt; font-family: Calibri, sans-serif; color: black; "><sp=
+an style=3D"color: rgb(31, 73, 125); ">Je vous fais passer d=92ici l=E0 un =
+document de travail en l=92=E9tat actuel du projet.<o:p></o:p></span></div>=
+<div style=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; =
+margin-left: 0cm; font-size: 11pt; font-family: Calibri, sans-serif; color:=
+ black; "><span style=3D"color: rgb(31, 73, 125); ">&nbsp;<o:p></o:p></span=
+></div><div style=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0=
+001pt; margin-left: 0cm; font-size: 11pt; font-family: Calibri, sans-serif;=
+ color: black; "><span style=3D"color: rgb(31, 73, 125); ">Cordialement,<o:=
+p></o:p></span></div><div style=3D"margin-top: 0cm; margin-right: 0cm; marg=
+in-bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-family: Calibr=
+i, sans-serif; color: black; "><span style=3D"color: rgb(31, 73, 125); ">Is=
+abelle PENOT<o:p></o:p></span></div><div style=3D"margin-top: 0cm; margin-r=
+ight: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font=
+-family: Calibri, sans-serif; color: black; "><span style=3D"color: rgb(31,=
+ 73, 125); "><o:p>&nbsp;</o:p></span></div><div style=3D"margin-top: 0cm; m=
+argin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm; font-size: 11p=
+t; font-family: Calibri, sans-serif; color: black; "><u><span style=3D"colo=
+r: rgb(31, 73, 125); ">A L=92UNAM&nbsp;:<o:p></o:p></span></u></div><div st=
+yle=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin-=
+left: 0cm; font-size: 11pt; font-family: Calibri, sans-serif; color: black;=
+ "><span style=3D"color: rgb(31, 73, 125); ">Salle de r=E9union du 6<sup>=
+=E8me</sup><span class=3D"Apple-converted-space">&nbsp;</span>=E9tage<o:p><=
+/o:p></span></div><div style=3D"margin-top: 0cm; margin-right: 0cm; margin-=
+bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-family: Calibri, =
+sans-serif; color: black; "><u><span style=3D"color: rgb(31, 73, 125); ">Vi=
+sio conf=E9rence&nbsp;:<o:p></o:p></span></u></div><div style=3D"margin-top=
+: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm; font-s=
+ize: 11pt; font-family: Calibri, sans-serif; color: black; ">Adresse IP du =
+pont&nbsp;: 195.83.33.147 puis appuyer sur la touche APPELER<o:p></o:p></di=
+v><div style=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt=
+; margin-left: 0cm; font-size: 11pt; font-family: Calibri, sans-serif; colo=
+r: black; ">Appuyer sur la touche =AB&nbsp;s=E9lectionner la cam=E9ra ou so=
+urce vid=E9o du site distant&nbsp;=BB<o:p></o:p></div><div style=3D"margin-=
+top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm; fon=
+t-size: 11pt; font-family: Calibri, sans-serif; color: black; ">Choisir le =
+salon =AB&nbsp;PRES_UNAM&nbsp;=BB =E0 l=92aide des fl=E8ches de guidage (bo=
+uton fl=E8che droite pour entrer dans le salon, il n=92est pas besoin de co=
+de d=92acc=E8s)<o:p></o:p></div><div style=3D"margin-top: 0cm; margin-right=
+: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-fam=
+ily: Calibri, sans-serif; color: black; "><u>Conf=E9rence t=E9l=E9phonique&=
+nbsp;:<o:p></o:p></u></div><div style=3D"margin-top: 0cm; margin-right: 0cm=
+; margin-bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-family: =
+Calibri, sans-serif; color: black; ">Composer le&nbsp;:<span class=3D"Apple=
+-converted-space">&nbsp;</span><span style=3D"color: windowtext; ">0821 61 =
+12 34<o:p></o:p></span></div><div style=3D"margin-top: 0cm; margin-right: 0=
+cm; margin-bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-family=
+: Calibri, sans-serif; color: black; "><span style=3D"color: windowtext; ">=
+Composer ensuite le code de la conf=E9rence&nbsp;: 00&nbsp;6007 0008</span>=
+<o:p></o:p></div><div style=3D"margin-top: 0cm; margin-right: 0cm; margin-b=
+ottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-family: Calibri, s=
+ans-serif; color: black; ">Il est n=E9cessaire d=92activer la fr=E9quence v=
+ocale de votre t=E9l=E9phone.<o:p></o:p></div><div style=3D"margin-top: 0cm=
+; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm; font-size: =
+11pt; font-family: Calibri, sans-serif; color: black; "><span style=3D"colo=
+r: rgb(31, 73, 125); "><o:p>&nbsp;</o:p></span></div><div style=3D"margin-t=
+op: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm; font=
+-size: 11pt; font-family: Calibri, sans-serif; color: black; "><span style=
+=3D"color: rgb(31, 73, 125); "><o:p>&nbsp;</o:p></span></div><div><div styl=
+e=3D"border-right-style: none; border-bottom-style: none; border-left-style=
+: none; border-width: initial; border-color: initial; border-top-style: sol=
+id; border-top-color: rgb(181, 196, 223); border-top-width: 1pt; padding-to=
+p: 3pt; padding-right: 0cm; padding-bottom: 0cm; padding-left: 0cm; "><div =
+style=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margi=
+n-left: 0cm; font-size: 11pt; font-family: Calibri, sans-serif; color: blac=
+k; "><b><span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif; co=
+lor: windowtext; ">De&nbsp;:</span></b><span style=3D"font-size: 10pt; font=
+-family: Tahoma, sans-serif; color: windowtext; "><span class=3D"Apple-conv=
+erted-space">&nbsp;</span>LECOINTE Yves [<a href=3D"mailto:president@univ-n=
+antes.fr" style=3D"color: blue; text-decoration: underline; ">mailto:presid=
+ent@univ-nantes.fr</a>]<span class=3D"Apple-converted-space">&nbsp;</span><=
+br><b>Envoy=E9&nbsp;:</b><span class=3D"Apple-converted-space">&nbsp;</span=
+>dimanche 24 octobre 2010 07:30<br><b>=C0&nbsp;:</b><span class=3D"Apple-co=
+nverted-space">&nbsp;</span>Francis Yguel<br><b>Cc&nbsp;:</b><span class=3D=
+"Apple-converted-space">&nbsp;</span>'St=E9phane Cassereau'; 'Patrick Chedm=
+ail'; 'Yves GUILLOTIN'; 'Jean-Yves BUZARE'; 'Jacques GIRARDEAU'; 'Isabelle =
+PENOT';<span class=3D"Apple-converted-space">&nbsp;</span><a href=3D"mailto=
+:alain.bernard@irccyn.ec-nantes.fr" style=3D"color: blue; text-decoration: =
+underline; ">alain.bernard@irccyn.ec-nantes.fr</a>;<span class=3D"Apple-con=
+verted-space">&nbsp;</span><a href=3D"mailto:daniel.martina@lunam.fr" style=
+=3D"color: blue; text-decoration: underline; ">daniel.martina@lunam.fr</a><=
+br><b>Objet&nbsp;:</b><span class=3D"Apple-converted-space">&nbsp;</span>Re=
+: R=E9union SATT / Grandes Ecoles<o:p></o:p></span></div></div></div><div s=
+tyle=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin=
+-left: 0cm; font-size: 11pt; font-family: Calibri, sans-serif; color: black=
+; "><o:p>&nbsp;</o:p></div><div style=3D"margin-top: 0cm; margin-right: 0cm=
+; margin-bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-family: =
+Calibri, sans-serif; color: black; ">Le 23/10/2010 22:43, Francis Yguel a =
+=E9crit&nbsp;:<o:p></o:p></div><div style=3D"margin-top: 0cm; margin-right:=
+ 0cm; margin-bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-fami=
+ly: Calibri, sans-serif; color: black; "><span style=3D"font-family: Arial,=
+ sans-serif; ">Je vous propose d=E8s =E0 pr=E9sent de bloquer le cr=E9neau&=
+nbsp;: 8h00 =9610h00 =96 le mardi 26/10 avec en fonction de vos possibilit=
+=E9s&nbsp;:</span><o:p></o:p></div><div style=3D"margin-top: 0cm; margin-ri=
+ght: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-=
+family: Calibri, sans-serif; color: black; "><span style=3D"font-family: Ar=
+ial, sans-serif; ">Pr=E9sence au PRES ou &nbsp;visio ou t=E9l=E9phone</span=
+><o:p></o:p></div><div style=3D"margin-top: 0cm; margin-right: 0cm; margin-=
+bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-family: Calibri, =
+sans-serif; color: black; "><span style=3D"font-family: Arial, sans-serif; =
+">&nbsp;</span><o:p></o:p></div><div><div style=3D"margin-top: 0cm; margin-=
+right: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; fon=
+t-family: Calibri, sans-serif; color: black; "><b><span style=3D"font-size:=
+ 10pt; font-family: Arial, sans-serif; color: rgb(31, 73, 125); ">Francis Y=
+GUEL</span></b><o:p></o:p></div><div style=3D"margin-top: 0cm; margin-right=
+: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-fam=
+ily: Calibri, sans-serif; color: black; "><span style=3D"font-size: 10pt; f=
+ont-family: Arial, sans-serif; color: rgb(31, 73, 125); ">Directeur G=E9n=
+=E9ral</span><o:p></o:p></div><div style=3D"margin-top: 0cm; margin-right: =
+0cm; margin-bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-famil=
+y: Calibri, sans-serif; color: black; "><span style=3D"color: rgb(31, 73, 1=
+25); ">&nbsp;</span><o:p></o:p></div><div style=3D"margin-top: 0cm; margin-=
+right: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; fon=
+t-family: Calibri, sans-serif; color: black; "><span style=3D"color: blue; =
+">&nbsp;</span><o:p></o:p></div><div style=3D"margin-top: 0cm; margin-right=
+: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-fam=
+ily: Calibri, sans-serif; color: black; "><span style=3D"color: blue; ">&nb=
+sp;<span>&lt;image001.jpg&gt;</span></span><o:p></o:p></div><div style=3D"m=
+argin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 0c=
+m; font-size: 11pt; font-family: Calibri, sans-serif; color: black; "><span=
+ style=3D"color: rgb(31, 73, 125); ">&nbsp;</span><o:p></o:p></div><div sty=
+le=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin-l=
+eft: 0cm; font-size: 11pt; font-family: Calibri, sans-serif; color: black; =
+"><b><span style=3D"font-size: 10pt; font-family: Arial, sans-serif; color:=
+ rgb(31, 73, 125); ">L'Universit=E9 Nantes Angers Le Mans (L'UNAM)</span></=
+b><o:p></o:p></div><div style=3D"margin-top: 0cm; margin-right: 0cm; margin=
+-bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-family: Calibri,=
+ sans-serif; color: black; "><span style=3D"font-size: 10pt; font-family: A=
+rial, sans-serif; color: rgb(31, 73, 125); ">P=F4le de recherche et d'ensei=
+gnement sup=E9rieur</span><o:p></o:p></div><div style=3D"margin-top: 0cm; m=
+argin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm; font-size: 11p=
+t; font-family: Calibri, sans-serif; color: black; "><span style=3D"color: =
+rgb(31, 73, 125); ">Immeuble MANNY</span><o:p></o:p></div><div style=3D"mar=
+gin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm;=
+ font-size: 11pt; font-family: Calibri, sans-serif; color: black; "><span s=
+tyle=3D"color: rgb(31, 73, 125); ">19 bis rue La Nou=EB Bras de Fer</span><=
+o:p></o:p></div><div style=3D"margin-top: 0cm; margin-right: 0cm; margin-bo=
+ttom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-family: Calibri, sa=
+ns-serif; color: black; "><span style=3D"color: rgb(31, 73, 125); ">44&nbsp=
+;200 NANTES, France</span><o:p></o:p></div><div style=3D"margin-top: 0cm; m=
+argin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm; font-size: 11p=
+t; font-family: Calibri, sans-serif; color: black; "><span style=3D"color: =
+rgb(31, 73, 125); ">t=E9l. (accueil) : 02 28 08 14 00</span><o:p></o:p></di=
+v><div style=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt=
+; margin-left: 0cm; font-size: 11pt; font-family: Calibri, sans-serif; colo=
+r: black; "><span style=3D"color: rgb(31, 73, 125); ">Mme Nicolaus, attach=
+=E9e de direction : 02 28 08 14 28</span><o:p></o:p></div><div style=3D"mar=
+gin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm;=
+ font-size: 11pt; font-family: Calibri, sans-serif; color: black; "><span s=
+tyle=3D"color: rgb(31, 73, 125); ">fax : 02 28 08 14 01</span><o:p></o:p></=
+div><div style=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001=
+pt; margin-left: 0cm; font-size: 11pt; font-family: Calibri, sans-serif; co=
+lor: black; "><span style=3D"color: rgb(31, 73, 125); ">&nbsp;</span><o:p><=
+/o:p></div><div style=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom:=
+ 0.0001pt; margin-left: 0cm; font-size: 11pt; font-family: Calibri, sans-se=
+rif; color: black; "><span style=3D"font-size: 10pt; font-family: Arial, sa=
+ns-serif; color: rgb(31, 73, 125); ">m=E9l :<span class=3D"Apple-converted-=
+space">&nbsp;</span></span><span style=3D"color: rgb(31, 73, 125); "><a hre=
+f=3D"mailto:direction@lunam.fr" style=3D"color: blue; text-decoration: unde=
+rline; ">direction@lunam.fr</a></span><o:p></o:p></div><div style=3D"margin=
+-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm; fo=
+nt-size: 11pt; font-family: Calibri, sans-serif; color: black; "><b><span s=
+tyle=3D"color: rgb(31, 73, 125); ">site<span class=3D"Apple-converted-space=
+">&nbsp;</span></span></b><span style=3D"color: rgb(31, 73, 125); ">:<span =
+class=3D"Apple-converted-space">&nbsp;</span><a href=3D"http://www.lunam.fr=
+" style=3D"color: blue; text-decoration: underline; ">www.lunam.fr</a></spa=
+n><o:p></o:p></div><div style=3D"margin-top: 0cm; margin-right: 0cm; margin=
+-bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-family: Calibri,=
+ sans-serif; color: black; "><span style=3D"font-size: 8pt; font-family: Ar=
+ial, sans-serif; color: rgb(31, 73, 125); ">Ce message =E9lectronique et to=
+utes les pi=E8ces jointes sont confidentiels et destin=E9s =E0 l'utilisateu=
+r habituel de l'adresse e-mail =E0 laquelle ils ont =E9t=E9 adress=E9s. Per=
+sonne d'autre n'est autoris=E9 =E0 lire ce message, le dupliquer, le modifi=
+er ou le communiquer =E0 un tiers quelconque. Si vous avez re=E7u ce messag=
+e par erreur, merci de le signaler =E0 son =E9metteur. L'UNAM d=E9cline tou=
+te responsabilit=E9 au titre de ce message, s'il a =E9t=E9 alt=E9r=E9, d=E9=
+form=E9, falsifi=E9, =E9dit=E9 ou encore envoy=E9 sans autorisation.</span>=
+<o:p></o:p></div><div style=3D"margin-top: 0cm; margin-right: 0cm; margin-b=
+ottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-family: Calibri, s=
+ans-serif; color: black; "><span lang=3D"EN-US" style=3D"font-size: 8pt; fo=
+nt-family: Arial, sans-serif; color: rgb(31, 73, 125); ">This message and a=
+ny attachments are confidential and intended solely for the addressees. No =
+one else than the addresses may copy or forward all of any of it in any for=
+m. If you receive this e-mail in error, we should be obliged if you would n=
+otify this to the sender. L'UNAM will not be liable for the message if alte=
+red, changed, falsified, edited or sent without any authorization.</span><o=
+:p></o:p></div></div><div style=3D"margin-top: 0cm; margin-right: 0cm; marg=
+in-bottom: 0.0001pt; margin-left: 0cm; font-size: 11pt; font-family: Calibr=
+i, sans-serif; color: black; "><span lang=3D"EN-US" style=3D"font-family: A=
+rial, sans-serif; ">&nbsp;</span><o:p></o:p></div><div><div style=3D"border=
+-right-style: none; border-bottom-style: none; border-left-style: none; bor=
+der-width: initial; border-color: initial; border-top-style: solid; border-=
+top-color: windowtext; border-top-width: 1pt; padding-top: 3pt; padding-rig=
+ht: 0cm; padding-bottom: 0cm; padding-left: 0cm; "><div style=3D"margin-top=
+: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 35.4pt; fon=
+t-size: 11pt; font-family: Calibri, sans-serif; color: black; "><b><span st=
+yle=3D"font-size: 10pt; font-family: Tahoma, sans-serif; color: windowtext;=
+ ">De&nbsp;:</span></b><span style=3D"font-size: 10pt; font-family: Tahoma,=
+ sans-serif; color: windowtext; "><span class=3D"Apple-converted-space">&nb=
+sp;</span>LECOINTE Yves [<a href=3D"mailto:president@univ-nantes.fr" style=
+=3D"color: blue; text-decoration: underline; ">mailto:president@univ-nantes=
+.fr</a>]<span class=3D"Apple-converted-space">&nbsp;</span><br><b>Envoy=E9&=
+nbsp;:</b><span class=3D"Apple-converted-space">&nbsp;</span>samedi 23 octo=
+bre 2010 14:49<br><b>=C0&nbsp;:</b><span class=3D"Apple-converted-space">&n=
+bsp;</span>St=E9phane Cassereau<br><b>Cc&nbsp;:</b><span class=3D"Apple-con=
+verted-space">&nbsp;</span>Isabelle PENOT; 'Patrick Chedmail';<span class=
+=3D"Apple-converted-space">&nbsp;</span><a href=3D"mailto:alain.bernard@irc=
+cyn.ec-nantes.fr" style=3D"color: blue; text-decoration: underline; ">alain=
+.bernard@irccyn.ec-nantes.fr</a>;<span class=3D"Apple-converted-space">&nbs=
+p;</span><a href=3D"mailto:daniel.martina@lunam.fr" style=3D"color: blue; t=
+ext-decoration: underline; ">daniel.martina@lunam.fr</a>; Yves GUILLOTIN; J=
+acques GIRARDEAU; Jean-Yves BUZARE;<span class=3D"Apple-converted-space">&n=
+bsp;</span><a href=3D"mailto:francis.yguel@lunam.fr" style=3D"color: blue; =
+text-decoration: underline; ">francis.yguel@lunam.fr</a><br><b>Objet&nbsp;:=
+</b><span class=3D"Apple-converted-space">&nbsp;</span>Re: R=E9union SATT /=
+ Grandes Ecoles</span><o:p></o:p></div></div></div><div style=3D"margin-top=
+: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 35.4pt; fon=
+t-size: 11pt; font-family: Calibri, sans-serif; color: black; ">&nbsp;<o:p>=
+</o:p></div><div style=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom=
+: 0.0001pt; margin-left: 35.4pt; font-size: 11pt; font-family: Calibri, san=
+s-serif; color: black; ">Le 23/10/2010 12:44, St=E9phane Cassereau a =E9cri=
+t&nbsp;:<o:p></o:p></div><div style=3D"margin-top: 0cm; margin-right: 0cm; =
+margin-bottom: 0.0001pt; margin-left: 35.4pt; font-size: 11pt; font-family:=
+ Calibri, sans-serif; color: black; ">Je n'ai pas de contrainte le 26. Je n=
+e suis pas disponible le 27<br><br>Lors de cette r=E9union, je souhaite pou=
+voir aussi =E9changer sur l'implication =E9ventuelle des autres =E9coles de=
+ la CGE. Nous en avons discut=E9 la semaine derni=E8re au CA de la CGE Pays=
+ de la Loire et plusieurs =E9coles sont =E0 priori int=E9ress=E9es parmi le=
+s autres membres fondateurs et associ=E9s du PRES. Il faudra donc me fourni=
+r des =E9l=E9ments que je pourrai ensuite diffuser =E0 mes coll=E8gues<br><=
+br>Merci<br><br>Sc<br><br><br><br>Le 22/10/2010 13:43, Isabelle PENOT a =E9=
+crit&nbsp;:<o:p></o:p></div><div style=3D"margin-top: 0cm; margin-right: 0c=
+m; margin-bottom: 0.0001pt; margin-left: 35.4pt; font-size: 11pt; font-fami=
+ly: Calibri, sans-serif; color: black; ">Bonjour,<o:p></o:p></div><div styl=
+e=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin-le=
+ft: 35.4pt; font-size: 11pt; font-family: Calibri, sans-serif; color: black=
+; ">Afin de vous pr=E9senter l=92=E9tat d=92avancement du projet de SATT Ou=
+est Valorisation et de vous permettre de prendre une position sur votre par=
+ticipation, nous &nbsp;vous proposons une r=E9union de travail &nbsp;la sem=
+aine prochaine.<o:p></o:p></div><div style=3D"margin-top: 0cm; margin-right=
+: 0cm; margin-bottom: 0.0001pt; margin-left: 35.4pt; font-size: 11pt; font-=
+family: Calibri, sans-serif; color: black; ">Voici &nbsp;ci-dessous nos dis=
+ponibilit=E9s =E0 Francis Yguel et moi-m=EAme&nbsp;:<o:p></o:p></div><div s=
+tyle=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin=
+-left: 35.4pt; font-size: 11pt; font-family: Calibri, sans-serif; color: bl=
+ack; ">-mardi 26/10&nbsp;: journ=E9e (sauf 11h/12h)&nbsp;<o:p></o:p></div><=
+div style=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; m=
+argin-left: 35.4pt; font-size: 11pt; font-family: Calibri, sans-serif; colo=
+r: black; ">- mercredi 27/10&nbsp;: =E0 partir de 14h<o:p></o:p></div><div =
+style=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margi=
+n-left: 35.4pt; font-size: 11pt; font-family: Calibri, sans-serif; color: b=
+lack; ">Vous pourrez nous pr=E9ciser les horaires qui vous conviennent, cet=
+ =E9change pouvant avoir lieu PRES,&nbsp; par t=E9l=E9phone ou par visio.<o=
+:p></o:p></div><div style=3D"margin-top: 0cm; margin-right: 0cm; margin-bot=
+tom: 0.0001pt; margin-left: 35.4pt; font-size: 11pt; font-family: Calibri, =
+sans-serif; color: black; ">&nbsp;<o:p></o:p></div><div style=3D"margin-top=
+: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 35.4pt; fon=
+t-size: 11pt; font-family: Calibri, sans-serif; color: black; ">Cordialemen=
+t,<o:p></o:p></div><div style=3D"margin-top: 0cm; margin-right: 0cm; margin=
+-bottom: 0.0001pt; margin-left: 35.4pt; font-size: 11pt; font-family: Calib=
+ri, sans-serif; color: black; ">&nbsp;<o:p></o:p></div><div style=3D"margin=
+-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 35.4pt;=
+ font-size: 11pt; font-family: Calibri, sans-serif; color: black; "><b><spa=
+n style=3D"font-size: 10pt; font-family: Arial, sans-serif; ">Isabelle PENO=
+T<br>Valorisation de la recherche</span></b><b><span style=3D"font-size: 12=
+pt; "><br></span></b><span style=3D"font-size: 12pt; ">T=E9l. +33.(0)2.28.0=
+8.14.30<br>Mob. 06.78.28.23.12<br>Fax +33.(0)2.28.08.14.01<br><a href=3D"is=
+abelle.penot@lunam.fr" style=3D"color: blue; text-decoration: underline; ">=
+isabelle.penot@lunam.fr</a><br></span><b><span style=3D"font-size: 10pt; fo=
+nt-family: Arial, sans-serif; ">L=92Universit=E9 Nantes Angers Le Mans - L=
+=92UNAM<br></span></b><span style=3D"font-size: 10pt; font-family: Arial, s=
+ans-serif; ">P=F4le de recherche et d'enseignement sup=E9rieur<span class=
+=3D"Apple-converted-space">&nbsp;</span><br><a href=3D"www.lunam.fr" style=
+=3D"color: blue; text-decoration: underline; ">www.lunam.fr</a></span><o:p>=
+</o:p></div><div style=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom=
+: 0.0001pt; margin-left: 35.4pt; font-size: 11pt; font-family: Calibri, san=
+s-serif; color: black; "><span style=3D"font-size: 12pt; color: rgb(31, 73,=
+ 125); ">Immeuble MANNY<br>19 bis rue La Nou=EB Bras de Fer<br>44200 NANTES=
+, France</span><o:p></o:p></div><div style=3D"margin-top: 0cm; margin-right=
+: 0cm; margin-bottom: 0.0001pt; margin-left: 35.4pt; font-size: 11pt; font-=
+family: Calibri, sans-serif; color: black; "><span style=3D"font-size: 12pt=
+; font-family: 'Times New Roman , serif', serif; "><span>&lt;image002.jpg&g=
+t;</span>&nbsp;</span><o:p></o:p></div><div style=3D"margin-top: 0cm; margi=
+n-right: 0cm; margin-bottom: 0.0001pt; margin-left: 35.4pt; font-size: 11pt=
+; font-family: Calibri, sans-serif; color: black; ">&nbsp;<o:p></o:p></div>=
+<div style=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; =
+margin-left: 35.4pt; font-size: 11pt; font-family: Calibri, sans-serif; col=
+or: black; "><span style=3D"font-size: 12pt; font-family: 'Times New Roman =
+, serif ;'; ">&nbsp;</span><o:p></o:p></div><div style=3D"margin-top: 0cm; =
+margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 35.4pt; font-size:=
+ 11pt; font-family: Calibri, sans-serif; color: black; "><span style=3D"fon=
+t-size: 12pt; font-family: 'Times New Roman , serif ;'; ">26 au matin pour =
+moi<br><br><br>YL<br><br><br><br></span><o:p></o:p></div><pre style=3D"marg=
+in-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 35.4p=
+t; font-size: 10pt; font-family: 'Courier New'; color: black; ">-- <o:p></o=
+:p></pre><pre style=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom: 0=
+.0001pt; margin-left: 35.4pt; font-size: 10pt; font-family: 'Courier New'; =
+color: black; ">Afin d'assurer le bon traitement de vos courriels,il convie=
+nt d'utiliser =E0 bon escient l'une ou l'autre de mes deux adresses:<o:p></=
+o:p></pre><pre style=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom: =
+0.0001pt; margin-left: 35.4pt; font-size: 10pt; font-family: 'Courier New';=
+ color: black; ">Adresse fonctionnelle: <a href=3D"mailto:president@univ-na=
+ntes.fr" style=3D"color: blue; text-decoration: underline; ">president@univ=
+-nantes.fr</a><o:p></o:p></pre><pre style=3D"margin-top: 0cm; margin-right:=
+ 0cm; margin-bottom: 0.0001pt; margin-left: 35.4pt; font-size: 10pt; font-f=
+amily: 'Courier New'; color: black; ">Adresse personnelle: <a href=3D"mailt=
+o:yves.lecointe@univ-nantes.fr" style=3D"color: blue; text-decoration: unde=
+rline; ">yves.lecointe@univ-nantes.fr</a> <o:p></o:p></pre><div style=3D"ma=
+rgin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm=
+; font-size: 11pt; font-family: Calibri, sans-serif; color: black; "><span =
+style=3D"font-size: 12pt; font-family: 'Times New Roman', serif; ">8h45 pou=
+r moi<br><br><br>YL<br><br><br><o:p></o:p></span></div><pre style=3D"margin=
+-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 0cm; fo=
+nt-size: 10pt; font-family: 'Courier New'; color: black; ">-- <o:p></o:p></=
+pre><pre style=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001=
+pt; margin-left: 0cm; font-size: 10pt; font-family: 'Courier New'; color: b=
+lack; ">Afin d'assurer le bon traitement de vos courriels,il convient d'uti=
+liser =E0 bon escient l'une ou l'autre de mes deux adresses:<o:p></o:p></pr=
+e><pre style=3D"margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt=
+; margin-left: 0cm; font-size: 10pt; font-family: 'Courier New'; color: bla=
+ck; ">Adresse fonctionnelle: <a href=3D"mailto:president@univ-nantes.fr" st=
+yle=3D"color: blue; text-decoration: underline; ">president@univ-nantes.fr<=
+/a><o:p></o:p></pre><pre style=3D"margin-top: 0cm; margin-right: 0cm; margi=
+n-bottom: 0.0001pt; margin-left: 0cm; font-size: 10pt; font-family: 'Courie=
+r New'; color: black; ">Adresse personnelle: <a href=3D"mailto:yves.lecoint=
+e@univ-nantes.fr" style=3D"color: blue; text-decoration: underline; ">yves.=
+lecointe@univ-nantes.fr</a> <o:p></o:p></pre></div></div></span></blockquot=
+e></div><br></div></body></html>=
+
+--Apple-Mail-3-466035136--

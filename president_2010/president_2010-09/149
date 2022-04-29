@@ -1,0 +1,262 @@
+Return-Path: <nelly.ducerisier@ruoa.org>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 4D15022852
+	for <president@listes.univ-angers.fr>; Fri, 10 Sep 2010 16:52:14 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 446801142F1; Fri, 10 Sep 2010 16:52:14 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp2.univ-nantes.fr [193.52.82.19])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 384B61142E6;
+	Fri, 10 Sep 2010 16:52:14 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 16F961C157D0;
+	Fri, 10 Sep 2010 16:52:14 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp2.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id eTwKIhy2mzNo; Fri, 10 Sep 2010 16:52:13 +0200 (CEST)
+Received: from RUOA1 (unknown [172.20.26.135])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id E29401C0D167;
+	Fri, 10 Sep 2010 16:52:13 +0200 (CEST)
+From: "Nelly DUCERISIER" <nelly.ducerisier@ruoa.org>
+To: =?iso-8859-1?Q?'ANGERS_Pr=E9sident_Daniel_MARTINA'?= <president@univ-angers.fr>,
+	=?iso-8859-1?Q?'LA_ROCHELLE_Pr=E9sident_G=E9rard_BLANCHARD'?= <president.larochelle@univ-lr.fr>,
+	=?iso-8859-1?Q?'LE_MANS_Pr=E9sident_Yves_GUILLOTIN'?= <president@univ-lemans.fr>,
+	=?iso-8859-1?Q?'LIMOGES_Pr=E9sident_Jacques_FONTANILLE'?= <presidence@unilim.fr>,
+	=?iso-8859-1?Q?'NANTES_Pr=E9sident_Yves_LECOINTE'?= <president@univ-nantes.fr>,
+	=?iso-8859-1?Q?'POITIERS_Pr=E9sident_Jean-Pierre_GESSON'?= <president@univ-poitiers.fr>,
+	=?iso-8859-1?Q?'RENNES_1_Pr=E9sident_Guy_CATHELINEAU'?= <president@univ-rennes1.fr>,
+	=?iso-8859-1?Q?'RENNES_2_Pr=E9sident_Marc_GONTARD'?= <presidence@univ-rennes2.fr>,
+	=?iso-8859-1?Q?'UBO_Pr=E9sident_Pascal_OLIVARD'?= <president@univ-brest.fr>,
+	"'UBS President Olivier SIRE'" <president@univ-ubs.fr>
+Cc: "'Alice GARCIA'" <Alice.Garcia@ruoa.org>,
+	=?iso-8859-1?Q?'ANGERS=5FPr=E9sidence__Evelyne_PUGLIA'?= <evelyne.puglia@univ-angers.fr>,
+	=?iso-8859-1?Q?'LA_ROCHELLE=5FPr=E9sidence_Laurence_BAUDRY'?= <laurence.baudry@univ-lr.fr>,
+	=?iso-8859-1?Q?'LE_MANS=5FPr=E9sidence_Martine_LELOUP'?= <sec-president@univ-lemans.fr>,
+	=?iso-8859-1?Q?'LIMOGES=5FPr=E9sidence_Jo=EBlle_LEAUTE'?= <joelle.leaute@unilim.fr>,
+	=?iso-8859-1?Q?'NANTES=5FPr=E9sidence_C=E9cile_LAVOUTE'?= <cabinet@univ-nantes.fr>,
+	=?iso-8859-1?Q?'POITIERS_Pr=E9sidence_Patricia_GALLARD'?= <patricia.gallard@univ-poitiers.fr>,
+	=?iso-8859-1?Q?'POITIERS=5FPr=E9sidence_Virginie_BLANC'?= <virginie.blanc@univ-poitiers.fr>,
+	=?iso-8859-1?Q?'POITIERS=5FPr=E9sidence=5FLucille_DUBOIS'?= <lucille.dubois@univ-poitiers.fr>,
+	=?iso-8859-1?Q?'RENNES_1=5FPr=E9sidence_Elisabeth_DIOURIS'?= <elisabeth.diouris@univ-rennes1.fr>,
+	=?iso-8859-1?Q?'RENNES_2=5FPr=E9sidence_Martine_AUTRET'?= <martine.autret@univ-rennes2.fr>,
+	=?iso-8859-1?Q?'UBO=5FPr=E9sidence_Jeannine_CROGUENNEC'?= <jeannine.croguennec@univ-brest.fr>,
+	=?iso-8859-1?Q?'UBO=5FPr=E9sidence_Marie-Laure_DENIEL'?= <Marie-Laure.Deniel@univ-brest.fr>,
+	=?iso-8859-1?Q?'UBS=5FPr=E9sidence_Minasoa_HERLEM'?= <minasoa.herlem@univ-ubs.fr>
+Date: Fri, 10 Sep 2010 16:51:17 +0200
+Message-ID: <001401cb50f7$9faa8d90$deffa8b0$@ducerisier@ruoa.org>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0015_01CB5108.63335D90"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: ActQ958gHQFnPulDQbON+dqjlP1FFg==
+Content-Language: fr
+Subject: [president] RUOA_AG-CA 2011
+
+Il s'agit d'un message à parties multiples au format MIME.
+
+------=_NextPart_000_0015_01CB5108.63335D90
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Messieurs les Pr=E9sidents,
+
+=20
+
+Nous vous informons que l=92Assembl=E9e G=E9n=E9rale du RUOA se tiendra
+
+mardi 15 f=E9vrier 2011
+
+de 14h00 =E0 17h30
+
+au si=E8ge du RUOA
+
+=20
+
+Par ailleurs, nous vous remercions de bloquer =E9galement la date du=20
+
+mardi 07 juin 2011
+
+=20
+
+lors de laquelle la matin=E9e sera d=E9di=E9e =E0 la pr=E9sentation des r=
+=E9sultats de
+l=92=E9tude =AB Identification et encouragement de la mobilit=E9 =E9tudiant=
+e Licence
+vers Master =E0 l=92=E9chelle du RUOA =BB et l=92apr=E8s-midi, aura lieu le=
+ Conseil
+d=92Administration du RUOA =E0 Nantes.
+
+=20
+
+Tr=E8s cordialement,
+
+=20
+
+L=92Equipe du RUOA.
+
+=20
+
+-------------------------------------------------------------
+Nelly DUCERISIER
+Assistante
+R=E9seau des Universit=E9s de l'Ouest Atlantique
+13, rue Alain Barbe-Torte  44200 Nantes
+Tel. 02.51.72.78.01 - Fax 02.51.72.78.61
+ <http://www.ruoa.org/> http://www.ruoa.org=20
+
+=20
+
+
+------=_NextPart_000_0015_01CB5108.63335D90
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Sylfaen;
+	panose-1:1 10 5 2 5 3 6 3 3 3;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Verdana","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DFR link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal>Messieurs les Pr=E9sidents,<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Nous vous informons que <b><span style=3D'font-size:12=
+.0pt'>l&#8217;Assembl=E9e
+G=E9n=E9rale du RUOA</span></b> se tiendra<o:p></o:p></p>
+
+<p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><b><span
+style=3D'font-size:12.0pt;color:#1F497D'>mardi 15 f=E9vrier 2011</span></b>=
+<span
+style=3D'color:#1F497D'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span
+style=3D'color:#1F497D'>de </span><b><span style=3D'font-size:12.0pt;color:=
+#1F497D'>14h00
+=E0 17h30</span></b><span style=3D'font-size:12.0pt;color:#1F497D'><o:p></o=
+:p></span></p>
+
+<p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span
+style=3D'color:#1F497D'>au</span><b><span style=3D'font-size:12.0pt;color:#=
+1F497D'>
+si=E8ge du RUOA</span><span style=3D'color:#1F497D'><o:p></o:p></span></b><=
+/p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Par ailleurs, nous vous remercions de bloquer =E9galem=
+ent la
+date du <o:p></o:p></p>
+
+<p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><b><span
+style=3D'font-size:12.0pt;color:#1F497D'>mardi 07 juin 2011<o:p></o:p></spa=
+n></b></p>
+
+<p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal>lors de laquelle la <b>matin=E9e sera d=E9di=E9e =E0 l=
+a pr=E9sentation
+des r=E9sultats de l&#8217;=E9tude =AB&nbsp;Identification et encouragement=
+ de la
+mobilit=E9 =E9tudiante Licence vers Master =E0 l&#8217;=E9chelle du RUOA&nb=
+sp;=BB</b> et <b>l&#8217;apr=E8s-midi,
+aura lieu le Conseil d&#8217;Administration du RUOA =E0 Nantes.<o:p></o:p><=
+/b></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Tr=E8s cordialement,<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>L&#8217;Equipe du RUOA.<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;margin-bottom:12.0pt'=
+><span
+style=3D'font-size:12.0pt;font-family:"Sylfaen","serif";color:navy'>-------=
+------------------------------------------------------<br>
+</span><span style=3D'color:navy'>Nelly DUCERISIER<br>
+Assistante<br>
+</span><b><span style=3D'color:navy'>R=E9seau des Universit=E9s de l'Ouest =
+Atlantique</span></b><span
+style=3D'color:navy'><br>
+13, rue Alain Barbe-Torte&nbsp; 44200 Nantes<br>
+Tel. 02.51.72.78.01 - Fax 02.51.72.78.61<br>
+<a href=3D"http://www.ruoa.org/"><span style=3D'color:blue'>http://www.ruoa=
+.org</span></a></span><span
+style=3D'color:blue'>&nbsp;</span><span style=3D'color:navy'><o:p></o:p></s=
+pan></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_0015_01CB5108.63335D90--
+
+

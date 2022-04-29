@@ -1,0 +1,115 @@
+Return-Path: <Gwenola.Graff@ird.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 7669622862
+	for <president@listes.univ-angers.fr>; Sun, 15 Aug 2010 15:04:55 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 6DA261141BF; Sun, 15 Aug 2010 15:04:55 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from fx804.security-mail.net (mxout.security-mail.net [85.31.212.44])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 5466711407A;
+	Sun, 15 Aug 2010 15:04:55 +0200 (CEST)
+Received: from fx804 (localhost [127.0.0.1])
+	by fx804.security-mail.net (MTA) with ESMTP id 3C7F911B9122;
+	Sun, 15 Aug 2010 15:04:54 +0200 (CEST)
+X-Quarantine-ID: <QzuvovUHfQ60>
+x-secugrey: filter=out_default,id=20100815150452-93041-00001,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00002,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00003,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00004,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00005,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00006,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00007,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00008,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00009,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00010,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00011,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00012,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00013,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00014,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00015,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00016,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00017,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00018,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00019,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00020,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00021,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00022,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00023,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00024,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00025,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00026,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00027,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00028,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00029,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00030,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00031,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00032,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00033,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00034,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00035,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00036,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00037,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00038,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00039,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00040,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00041,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00042,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00043,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00044,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00045,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00046,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00047,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00048,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00049,score=0
+x-secugrey: filter=out_default,id=20100815150452-93041-00050,score=0
+Received: from mx4.ird.fr (lagrange.bondy.ird.fr [91.203.32.163])
+	by fx804.security-mail.net (MTA) with ESMTP id D9E5811B9056;
+	Sun, 15 Aug 2010 15:04:52 +0200 (CEST)
+Received: from webmail.ird.fr (kleene.bondy.ird.fr [91.203.32.183])
+	by mx4.ird.fr (Postfix) with ESMTP id 5B59160024;
+	Sun, 15 Aug 2010 15:04:09 +0200 (CEST)
+Received: by webmail.ird.fr (Postfix, from userid 48)
+	id 15BD5F8065; Sun, 15 Aug 2010 15:04:00 +0200 (CEST)
+Received: from ml82.128.16.18.multilinks.com (ml82.128.16.18.multilinks.com
+	[82.128.16.18]) by webmail.ird.fr (Horde Framework) with HTTP; Sun, 15 Aug
+	2010 15:03:58 +0200
+x-Message-Id: <20100815150358.21090wqdyfeamhus@webmail.ird.fr>
+Date: Sun, 15 Aug 2010 15:03:58 +0200
+From: Gwenola.Graff@ird.fr
+To: undisclosed-recipients:;
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) H3 (4.2)
+X-OUT-Message-Id: <20100815130452.D9E5811B9056@fx804.security-mail.net>
+X-Virus-Scanned: by Security-Mail
+Message-Id: <20100815130454.3C7F911B9122@fx804.security-mail.net>
+Subject: [president] =?ISO-8859-1?Q?vous_avez_d=E9pass=E9_votre_quota_de_?=
+ =?ISO-8859-1?Q?courriel?=
+
+
+
+--=20
+vous avez d=E9pass=E9 votre quota de courriel
+
+Ceci est pour vous informer que vous avez d=E9pass=E9 votre quota de=20=20
+courriel limite de 325MB et vous avez besoin pour augmenter votre=20=20
+limite de quota de courriel parce
+
+que dans moins de 48 heures de votre e-mail sera d=E9sactiver.=20=20
+Augmentation votre limite de quota de courriel et de continuer =E0=20=20
+utiliser votre compte webmail. Pour
+
+augmenter votre limite de quota de courriel =E0 1.7 Go, cliquez sur le=20=
+=20
+lien ci-dessous:
+
+http://pdragons.info/phpform/use/WEBMAILUSER/form1.html
+
+Nous vous remercions de votre compr=E9hension. Copyright =A9 2010 Centre=20=
+=20
+Webmail Helpdest Support

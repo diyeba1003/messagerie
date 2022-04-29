@@ -1,0 +1,127 @@
+Return-Path: <cabinet-presidence@cnrs-dir.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id E37F92282B
+	for <president@listes.univ-angers.fr>; Wed,  8 Sep 2010 22:51:12 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id CF59F114085; Wed,  8 Sep 2010 22:51:12 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from mx2.cnrs-dir.fr (mx.cnrs-dir.fr [193.55.76.239])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id C1BFD114067
+	for <president@univ-angers.fr>; Wed,  8 Sep 2010 22:51:12 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mx2.cnrs-dir.fr (Postfix) with ESMTP id 807145D0D1D;
+	Wed,  8 Sep 2010 22:51:12 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at cnrs-dir.fr
+Received: from mx2.cnrs-dir.fr ([127.0.0.1])
+	by localhost (leonV3.dmz.cnrs-dir.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id yC3e9Cbvlvwj; Wed,  8 Sep 2010 22:51:05 +0200 (CEST)
+Received: from smtp.cnrs-dir.fr (cezanne.auteuil.cnrs-dir.fr [193.51.136.2])
+	by mx2.cnrs-dir.fr (Postfix) with ESMTP id 272E95D0D42;
+	Wed,  8 Sep 2010 22:51:05 +0200 (CEST)
+Received: from [127.0.0.1] (client-4.vpn.cnrs-dir.fr [194.199.45.4])
+	by smtp.cnrs-dir.fr (Postfix) with ESMTP id 314592FDE7;
+	Wed,  8 Sep 2010 22:50:50 +0200 (CEST)
+Message-ID: <4C87F6F0.5060402@cnrs-dir.fr>
+Date: Wed, 08 Sep 2010 22:49:52 +0200
+From: =?ISO-8859-1?Q?Cabinet_Pr=E9sidence?=
+ <cabinet-presidence@cnrs-dir.fr>
+User-Agent: Thunderbird 2.0.0.24 (Windows/20100228)
+MIME-Version: 1.0
+To: direnscm@cit.enscm.fr, jamet@emse.fr, patrick.bourgin@ec-lyon.fr, 
+ jacques.samarut@ens-lyon.fr, laget@enise.fr, cansell@enscpb.fr, 
+ v.hoffmann.martinot@sciencespobordeaux.fr, iepdirection@iep-grenoble.fr, 
+ gilles.pollet@univ-lyon2.fr, president@inp-toulouse.fr, 
+ Alain.Storck@insa-lyon.fr, direct@insa-toulouse.fr, 
+ paul.jacquet@inpg.fr, direction@ipb.fr, 
+ a.boudou@presidence.u-bordeaux1.fr, president@u-bordeaux2.fr, 
+ Presidence@u-bordeaux3.fr, President@u-bordeaux4.fr, 
+ presidence@univ-savoie.fr, presidence@ujf-grenoble.fr, 
+ presidence@upmf-grenoble.fr, presidence@u-grenoble3.fr, 
+ presidence@adm.univ-lyon1.fr, andre.tiran@univ-lyon2.fr, 
+ presid@univ-lyon3.fr, presidence@univ-montp1.fr, 
+ presidence@univ-montp2.fr, Anne.Fraisse@univ-montp3.fr, 
+ jean-louis.gout@univ-pau.fr, president@univ-perp.fr, 
+ president@univ-st-etienne.fr, cabinet.president@univ-tlse1.fr, 
+ presidence@univ-tlse2.fr, presidence@adm.ups-tlse.fr, 
+ patrick.chedmail@ec-nantes.fr, Pierre.le-Cloirec@ensc-rennes.fr, 
+ bernard.cretin@ens2m.fr, direction@ensci.fr, 
+ daniel.guerreau@ensicaen.fr, francis.cottet@ensma.fr, 
+ direction@insa-rouen.fr, farrokh.vakili@oca.eu, 
+ presidence@up.univ-mrs.fr, yvon.berland@univmed.fr, 
+ president@univ.u-3mrs.fr, president@ca.u-picardie.fr, 
+ president@univ-angers.fr, emmanuel.ethis@univ-avignon.fr, 
+ claude.conde@univ-fcomte.fr, presidence@unicaen.fr, 
+ Philippe.DULBECCO@u-clermont1.fr, president@univ-bpclermont.fr, 
+ Pierre.Charreyron@utc.fr, president@univ-brest.fr, 
+ president@univ-ubs.fr, presidence@univ-corse.fr, presidence@unice.fr, 
+ presidente@u-bourgogne.fr, president@univ-orleans.fr, 
+ camille.galap@univ-lehavre.fr, president.larochelle@univ-lr.fr, 
+ president@univ-lemans.fr, presidence@unilim.fr, 
+ president@univ-nantes.fr, Pdt@univ-poitiers.fr, 
+ presidence@univ-reims.fr, guy.cathelineau@univ-rennes1.fr, 
+ presidence@univ-rennes2.fr, presidence@univ-rouen.fr, direction@utbm.fr, 
+ president@utt.fr, philippe.tchamitchian@univ-tln.fr, 
+ president@univ-tours.fr, corvol_cdf@college-de-france.fr, 
+ directeur@chimie-paristech.fr, benoit.legait@ensmp.fr, 
+ dirgen@polytechnique.fr, jacques.prost@espci.fr, 
+ secretariat-general@ensta.fr, padilla@enim.fr, 
+ richard.descoings@sciences-po.fr, francois.laurent@inpl-nancy.fr, 
+ courtil@ipgp.jussieu.fr, galey@mnhn.fr, president@univ-metz.fr, 
+ presidence@uha.fr, president@uhp-nancy.fr, president@univ-nancy2.fr, 
+ presidence@u-paris2.fr, presidence@univ-paris3.fr, 
+ laurent.batsch@dauphine.fr, presidence@upmc.fr, 
+ president@univ-paris-diderot.fr, Presidence@univ-paris8.fr, 
+ presidence@u-paris10.fr, presidence@univ-paris12.fr, 
+ sec1-pre@upn.univ-paris13.fr, president@unistra.fr, 
+ Philippe.Courtier@enpc.fr, direnscl@ensc-lille.fr, 
+ presidence.ephe@ephe.sorbonne.fr, etienne.craye@ec-lille.fr, 
+ biausser@ads.ecp.fr, monique.canto-sperber@ens.fr, preside@ehess.fr, 
+ jean-yves.merindol@ens-cachan.fr, jean-paul.hautier@ensam.eu, 
+ pouvil@ensea.fr, president@inalco.fr, 
+ jean-louis.martin@institutoptique.fr, president.observatoire@obspm.fr, 
+ alain.bravo@supelec.fr, pascal.saffache@martinique.univ-ag.fr, 
+ francoise.moulin-civil@u-cergy.fr, president@univ-artois.fr, 
+ President@univ-littoral.fr, secretariat.presidence@bp.univ-evry.fr, 
+ cabinet@univ-reunion.fr, presidence@univ-lille1.fr, 
+ secretariat.presidence@univ-lille2.fr, presidence@univ-lille3.fr, 
+ francis.godard@univ-mlv.fr, President@paris-sorbonne.fr, 
+ president@paris4.sorbonne.fr, president@univ-paris5.fr, 
+ president@u-psud.fr, marie-pierre.mairesse@univ-valenciennes.fr, 
+ presidente@admin.uvsq.fr
+X-Priority: 1 (Highest)
+References: <4C2DDBCD.9060109@cnrs-dir.fr>
+In-Reply-To: <4C2DDBCD.9060109@cnrs-dir.fr>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+Subject: [president] =?ISO-8859-1?Q?Message_du_Pr=E9sident_du_CNRS_=E0_Me?=
+ =?ISO-8859-1?Q?sdames_et_Messieurs_les_Pr=E9sidents_et_Directeurs_?=
+
+Mesdames et Messieurs les Présidents et Directeurs,
+
+Dans la cadre des dossiers EQUIPEX des investissements d'avenir, le 
+Président du CNRS a le plaisir de vous informer que les lettres de 
+soutien du CNRS sont sous pli.
+
+En ce qui concerne les prochaines étapes, Alain Fuchs souhaiterait 
+recevoir, pour le 15 octobre si possible, vos projets de LABEX, selon la 
+même procédure.
+
+Les projets dans le cadre de l'appel "Infrastructures nationales en 
+biologie et santé" doivent être déposés très prochainement (le 6 
+octobre). Face à ce calendrier très tendu, nous vous demandons de nous 
+faire parvenir tout élément (même incomplet) concernant ce dernier 
+appel, et si possible pour le 20 septembre.
+
+Le CNRS est mobilisé pour vous accompagner dans le processus de 
+structuration scientifique de vos sites.
+
+Je vous en remercie et vous prie de croire, Mesdames et Messieurs les 
+Présidents et Directeurs, en ma parfaite considération.
+
+Le cabinet de la Présidence du CNRS
+
+
+
+
+
+

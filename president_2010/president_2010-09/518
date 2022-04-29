@@ -1,0 +1,236 @@
+Return-Path: <Stephane.Cassereau@mines-nantes.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id A5C3A228C6
+	for <president@listes.univ-angers.fr>; Thu, 30 Sep 2010 07:36:11 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 97BC51144E1; Thu, 30 Sep 2010 07:36:11 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp2.univ-nantes.fr [193.52.82.19])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 911001144DF
+	for <president@univ-angers.fr>; Thu, 30 Sep 2010 07:36:11 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 23F5B1C0BC71
+	for <president@univ-angers.fr>; Thu, 30 Sep 2010 07:36:10 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp2.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id 9m+1X6yyyXw7 for <president@univ-angers.fr>;
+	Thu, 30 Sep 2010 07:36:10 +0200 (CEST)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id C462F1C05E4A
+	for <president@univ-angers.fr>; Thu, 30 Sep 2010 07:36:09 +0200 (CEST)
+Received: from mx1.univ-nantes.fr (MX1.univ-nantes.fr [193.52.101.135])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id C0D926A6
+	for <Daniel.Martina@univ-nantes.fr>; Thu, 30 Sep 2010 07:36:09 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mx1.univ-nantes.fr (Postfix) with ESMTP id B24C71308EF2;
+	Thu, 30 Sep 2010 07:36:09 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+X-Spam-Flag: NO
+X-Spam-Score: 0
+X-Spam-Level: 
+X-Spam-Status: No, score=x tagged_above=-1000 required=5 WHITELISTED tests=[]
+Received: from mx1.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id D9LDO9LLAB0D; Thu, 30 Sep 2010 07:36:09 +0200 (CEST)
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+Received: from ron.mines-nantes.fr (sicnat4.emn.fr [193.54.76.195])
+	by mx1.univ-nantes.fr (Postfix) with ESMTP id 86C2512E9965;
+	Thu, 30 Sep 2010 07:36:09 +0200 (CEST)
+Received: from gev.emn.fr (campus.mines-nantes.fr [193.54.76.50])
+          by ron.mines-nantes.fr (8.14.4/jtpda-5.3.1) with ESMTP id o8U5bRNu006230
+          ; Thu, 30 Sep 2010 07:37:27 +0200
+Received: from [127.0.0.1] (dhcp164.rech38.emn.fr [192.168.38.164])
+	(authenticated bits=0)
+	by gev.emn.fr (8.14.4/8.14.3) with ESMTP id o8U5a6xj031966
+	(version=TLSv1/SSLv3 cipher=AES256-SHA bits=256 verify=NO);
+	Thu, 30 Sep 2010 07:36:07 +0200
+Message-ID: <4CA42260.3070703@emn.fr>
+Date: Thu, 30 Sep 2010 07:38:40 +0200
+From: =?windows-1252?Q?St=E9phane_Cassereau?= <Stephane.Cassereau@mines-nantes.fr>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; fr; rv:1.9.2.9) Gecko/20100915 Thunderbird/3.1.4
+MIME-Version: 1.0
+To: Francis Yguel <francis.yguel@univ-nantes.fr>
+CC: =?windows-1252?Q?=27VPCS_Universit=E9_de_Nantes=27?=
+ <vpcs@univ-nantes.fr>,
+        =?windows-1252?Q?=27St=E9phane_Cassereau=27?=
+ <Stephane.Cassereau@mines-nantes.fr>,
+        "'Daniel MARTINA'" <Daniel.Martina@univ-nantes.fr>,
+        "'Yves LECOINTE'" <Yves.Lecointe@univ-nantes.fr>,
+        "'DMS Conseil'" <dms-conseil@orange.fr>,
+        "'Alexandrine CORTEZ'" <alexandrine.cortez@lunam.fr>
+References: <e552fecf744f097ca66e06be37254c50.squirrel@webmail.univ-nantes.fr> <4CA37E86.8030504@emn.fr> <001501cb6003$e9704ad0$bc50e070$@yguel@univ-nantes.fr> <4CA396F8.1090303@univ-nantes.fr> <004001cb601f$920847e0$b618d7a0$@yguel@univ-nantes.fr>
+In-Reply-To: <004001cb601f$920847e0$b618d7a0$@yguel@univ-nantes.fr>
+Content-Type: text/plain; charset=windows-1252; format=flowed
+Content-Transfer-Encoding: 8bit
+Subject: [president] =?WINDOWS-1252?Q?Re:_R=E9vision_n=B03?=
+
+  Quelques réactions rapides :
+- je suis un peu perdu sur la partie diagnostic.... Comme on va réagir à 
+la présentation Strater et que nous ne souhaitons pas entrer dans le 
+détail, je suggère qu'on le fasse oralement sans diapo
+- sur l'Idex, je mettrais les 3 thèmes (STIC, matériaux, agro) en 
+couleur différente des 2 autres. Par ailleurs, il faut que la SATT 
+apparaisse en plus grand. Il faut probablement améliorer la visibilité 
+de l'ensemble...
+- pour B Com, il faut effectivement le laisser. Un des enjeux est bien 
+de lui donner une dimension interrégionale
+- le contenu de la diapo "gouvernance" correspond plus à l'aspect 
+"méthode de travail"
+
+Voilà en 1ere lecture
+
+Sc
+
+
+Le 29/09/2010 23:45, Francis Yguel a écrit :
+> Tout n'est pas finalisé : cette version n°3 tient compte d'une partie des
+> remarques de Jacques et introduit les slides de M. Dorat + 2 slides sur le
+> PRES
+> 	- la première partie - diagnostic est-elle nécessaire ?
+> 	- la gouvernance n'est qu'une ébauche reprenant notre CA
+>
+>
+>
+> Francis YGUEL
+> Directeur Général
+>   
+>
+>   
+>
+> L'Université Nantes Angers Le Mans (L'UNAM)
+> Pôle de recherche et d'enseignement supérieur
+> Immeuble MANNY
+> 19 bis rue La Nouë Bras de Fer
+> 44 200 NANTES, France
+> tél. (accueil) : 02 28 08 14 00
+> Mme Nicolaus, attachée de direction : 02 28 08 14 28
+> fax : 02 28 08 14 01
+>   
+> mél : direction@lunam.fr
+> site : www.lunam.fr
+> Ce message électronique et toutes les pièces jointes sont confidentiels et
+> destinés à l'utilisateur habituel de l'adresse e-mail à laquelle ils ont été
+> adressés. Personne d'autre n'est autorisé à lire ce message, le dupliquer,
+> le modifier ou le communiquer à un tiers quelconque. Si vous avez reçu ce
+> message par erreur, merci de le signaler à son émetteur. L'UNAM décline
+> toute responsabilité au titre de ce message, s'il a été altéré, déformé,
+> falsifié, édité ou encore envoyé sans autorisation.
+> This message and any attachments are confidential and intended solely for
+> the addressees. No one else than the addresses may copy or forward all of
+> any of it in any form. If you receive this e-mail in error, we should be
+> obliged if you would notify this to the sender. L'UNAM will not be liable
+> for the message if altered, changed, falsified, edited or sent without any
+> authorization.
+>
+>
+> -----Message d'origine-----
+> De : VPCS Université de Nantes [mailto:vpcs@univ-nantes.fr]
+> Envoyé : mercredi 29 septembre 2010 21:44
+> À : Francis Yguel
+> Cc : 'Stéphane Cassereau'; 'Daniel MARTINA'; 'Yves LECOINTE'
+> Objet : Re: premier jet
+>
+>    Le 29/09/2010 20:27, Francis Yguel a écrit :
+>> Vos réactions, reste les deux dernières slides
+>>
+>> Francis YGUEL
+>> Directeur Général
+>>
+>>
+>>
+>>
+>> L'Université Nantes Angers Le Mans (L'UNAM)
+>> Pôle de recherche et d'enseignement supérieur
+>> Immeuble MANNY
+>> 19 bis rue La Nouë Bras de Fer
+>> 44 200 NANTES, France
+>> tél. (accueil) : 02 28 08 14 00
+>> Mme Nicolaus, attachée de direction : 02 28 08 14 28
+>> fax : 02 28 08 14 01
+>>
+>> mél : direction@lunam.fr
+>> site : www.lunam.fr
+>> Ce message électronique et toutes les pièces jointes sont confidentiels et
+>> destinés à l'utilisateur habituel de l'adresse e-mail à laquelle ils ont
+> été
+>> adressés. Personne d'autre n'est autorisé à lire ce message, le dupliquer,
+>> le modifier ou le communiquer à un tiers quelconque. Si vous avez reçu ce
+>> message par erreur, merci de le signaler à son émetteur. L'UNAM décline
+>> toute responsabilité au titre de ce message, s'il a été altéré, déformé,
+>> falsifié, édité ou encore envoyé sans autorisation.
+>> This message and any attachments are confidential and intended solely for
+>> the addressees. No one else than the addresses may copy or forward all of
+>> any of it in any form. If you receive this e-mail in error, we should be
+>> obliged if you would notify this to the sender. L'UNAM will not be liable
+>> for the message if altered, changed, falsified, edited or sent without any
+>> authorization.
+>>
+>>
+>> -----Message d'origine-----
+>> De : Stéphane Cassereau [mailto:Stephane.Cassereau@mines-nantes.fr]
+>> Envoyé : mercredi 29 septembre 2010 20:00
+>> À : Daniel MARTINA; Yves LECOINTE
+>> Cc : VPCS; Francis YGUEL
+>> Objet : Re:
+>>
+>>     Compte tenu du déroulement il me parait nécessaire de faire un
+>> développement, au moins de quelques minutes, sur chacun des projets
+>> structurants :
+>> - IRT Jules Vernes
+>> - IHU
+>> et de dire un mot de notre contribution à
+>> - IRT B Com
+>> - IEED énergie marines
+>> - SATT
+>>
+>> Il faut qu'on se répartisse ces points.
+>>
+>> Pour ce qui me concerne, je peux dire un mot sur l'IRT B Com
+>>
+>> Sc
+>>
+>> Le 29/09/2010 19:27, VPCS a écrit :
+>>> Bonsoir
+>>> Voila le CR de la réunion Starter Bretagne
+>>> Très beau powerpoint présenté par Guy Cathelineau
+>>> Ont aussi cause : le responsable de l'IEED, de l'IRT et de la SATT
+>>> jg
+>>>
+>>>
+>>>
+>>> Bien cordialement
+>>> Jacques GIRARDEAU
+>>> Vice-président de l'Université de Nantes
+>>> En charge du  du Conseil scientifique et du développement de la
+> recherche,
+>>> de sa valorisation et de la formation doctorale
+> Bonsoir
+> Des remarques de détail
+> Diapo 1 : pas vraiment claire; Matériaux avec un X
+> Diapo 2 : Matériaux avec un X, Heynimat est régional (IMN-Bia Inra)
+> Diapo 5 : nous ne sommes pas dans l'IRT B-com; GRID 500 est GRID 5000
+> National porté par Inria, réalité virtuelle est interrégional Rennes - Laval
+> Diapo 6 : nantais plutôt que régional avec des partenaires interégionaux
+> (Rennes), les 2 cohortes sont certes Nationales mais "portées"
+> scientifiquement  par Nantes
+> Diapo 7 : IEED est certes National mais porté par Brest
+> Remarque générale ; sur ce powerpoint : on ne voit pas le lieu nodal, je
+> trouve que cela rétrécit notre projet quand on dit national et qu'on
+> omet de dire qui le porte
+> Diapo 8 : Math : appeller le labex Nantes-Rennes est de la provocation
+> quand on sait que Rennes c'est 60% et Nantes 30% et porquoi parler de
+> Rennes - Nantes quand on ne parle pas du  portage scientifique des
+> projets; pas la peine de mettre les cohortes dans cette diapo
+> puisqu'elles sont dans l'axe santé
+> Remarque  : c'est vraiment court, on pourrait reprende un schéma de
+> cohérence de M. Dorat : campus d'innovation technologique....
+> il n'y a pas de diapo montrant les forces des PdL, montrant ce qu'est le
+> Pres....
+> jg
+>
+>
+

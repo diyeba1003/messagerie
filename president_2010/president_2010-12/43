@@ -1,0 +1,139 @@
+Return-Path: <f.boddaert@dev-assos.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 37A7A22865
+	for <president@listes.univ-angers.fr>; Fri,  3 Dec 2010 16:21:10 +0100 (CET)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 2DDEA114195; Fri,  3 Dec 2010 16:21:10 +0100 (CET)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp2.univ-nantes.fr [193.52.82.19])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 26632114179
+	for <president@univ-angers.fr>; Fri,  3 Dec 2010 16:21:10 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id ECCB01C0C885
+	for <president@univ-angers.fr>; Fri,  3 Dec 2010 16:21:09 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp2.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id Z9-09miHpcDL for <president@univ-angers.fr>;
+	Fri,  3 Dec 2010 16:21:09 +0100 (CET)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id D1DD81C0C86B
+	for <president@univ-angers.fr>; Fri,  3 Dec 2010 16:21:09 +0100 (CET)
+Received: from mx1.d101.univ-nantes.fr (MX1.univ-nantes.fr [193.52.101.135])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id D70BF9CE
+	for <daniel.martina@lunam.fr>; Fri,  3 Dec 2010 16:21:09 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by mx1.d101.univ-nantes.fr (Postfix) with ESMTP id D068113E5BDB
+	for <daniel.martina@lunam.fr>; Fri,  3 Dec 2010 16:21:09 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from mx1.d101.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id gri7D7FxNApr for <daniel.martina@lunam.fr>;
+	Fri,  3 Dec 2010 16:21:09 +0100 (CET)
+X-Greylist: from auto-whitelisted by SQLgrey-1.6.7
+Received: from moutng.kundenserver.de (moutng.kundenserver.de [212.227.126.187])
+	by mx1.d101.univ-nantes.fr (Postfix) with ESMTP id 0064213E5BFD
+	for <daniel.martina@lunam.fr>; Fri,  3 Dec 2010 16:21:08 +0100 (CET)
+Received: from [192.168.1.15] (AMontsouris-151-1-10-224.w82-123.abo.wanadoo.fr [82.123.135.224])
+	by mrelayeu.kundenserver.de (node=mreu1) with ESMTP (Nemesis)
+	id 0MLkF5-1POoQT3uoV-000Kwq; Fri, 03 Dec 2010 16:21:08 +0100
+Message-ID: <4CF90ADF.1020305@dev-assos.fr>
+Date: Fri, 03 Dec 2010 16:21:03 +0100
+From: Boddaert Florine <f.boddaert@dev-assos.fr>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; fr; rv:1.9.2.12) Gecko/20101027 Thunderbird/3.1.6
+MIME-Version: 1.0
+To: daniel.martina@lunam.fr
+Content-Type: multipart/alternative;
+ boundary="------------030909020800080204070607"
+X-Provags-ID: V02:K0:/wwTzEfm5iWb/gkqkOUXpUIYGcf/e8MZ+FBlOm4BgMy
+ 7Ou6hm5sJ99csjP3H1icmPIc5p47dF8zWEPba9s+SWHZxa7wK6
+ cTnGXcPte/FApErg8fuRwiHYQWdRSr3OSki7FQVo1P3cT82I/J
+ kE/ZnLVCpz+gbyLyVJmav7pZQuB5WZhIR7wijUDNxyrvb9/dRs
+ Zy1nchHknIPAnOZholpjeTSh7klTX3ez63iZ1GT+DA=
+Subject: [president] =?ISO-8859-1?Q?Veille_enseignement_sup=E9rieur?=
+
+This is a multi-part message in MIME format.
+--------------030909020800080204070607
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Monsieur le Président,
+
+Ci-dessous une information issue de notre veille enseignement supérieur.
+Bien à vous.
+Florine Boddaert
+
+
+L'assureur Axa annonce que le Fonds Axa pour la Recherche, créé en 2008 
+dans le cadre des activités de mécénat scientifique du groupe, vient 
+d'attribuer un soutien de 517 000 euros sur trois ans au National 
+University of Singapore (NUS), université leader dans la recherche 
+d'excellence, pour mener un projet de recherche sur la « Biologie de la 
+prise de décision face au risque ».
+
+« /Ce financement constitue le premier soutien du Fonds Axa pour la 
+Recherche à une université asiatique/ », précise Axa dans un communiqué 
+<http://www.axa.com/fr/actualites/2010/5C72lj4FF5c4cNwB2Isv.aspx><http://www.axa.com/fr/actualites/2010/5C72lj4FF5c4cNwB2Isv.aspx>.
+
+-- 
+Florine BODDAERT
+Consultante en mécénat et partenariat
+Dev'Assos, cabinet conseil en fundraising
+22 rue de Chateaudun, 75009 Paris
+T. + 33 (0)1 49 95 95 56
+
+
+--------------030909020800080204070607
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+  </head>
+  <body bgcolor="#ffffff" text="#000000">
+    <p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height:
+      normal;"><span style="font-size: 10pt; font-family:
+        &quot;Arial&quot;,&quot;sans-serif&quot;;">Monsieur le
+        Pr&eacute;sident, <br>
+        <br>
+      </span><span style="font-size: 10pt; font-family:
+        &quot;Arial&quot;,&quot;sans-serif&quot;;">Ci-dessous une
+        information issue de notre veille enseignement sup&eacute;rieur. <br>
+        Bien &agrave; vous.<br>
+        Florine Boddaert<br>
+      </span></p>
+    <p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height:
+      normal;"><br>
+      <span style="font-size: 10pt; font-family:
+        &quot;Arial&quot;,&quot;sans-serif&quot;;"></span><span
+        style="font-size: 10pt; font-family:
+        &quot;Arial&quot;,&quot;sans-serif&quot;;"></span></p>
+    <p class="MsoNormal" style="line-height: normal;"><span
+        style="font-size: 10pt; font-family:
+        &quot;Arial&quot;,&quot;sans-serif&quot;;">L'assureur Axa
+        annonce que le Fonds Axa pour la Recherche, cr&eacute;&eacute; en 2008 dans le
+        cadre des activit&eacute;s de m&eacute;c&eacute;nat scientifique du groupe, vient
+        d'attribuer un soutien de 517 000 euros sur trois ans au
+        National University of Singapore (NUS), universit&eacute; leader dans
+        la recherche d'excellence, pour mener un projet de recherche sur
+        la &laquo; Biologie de la prise de d&eacute;cision face au risque &raquo;. <br>
+        <br>
+        &laquo; <i>Ce financement constitue le premier soutien du Fonds Axa
+          pour la Recherche &agrave; une universit&eacute; asiatique</i> &raquo;, pr&eacute;cise
+        Axa dans un <a
+          href="http://www.axa.com/fr/actualites/2010/5C72lj4FF5c4cNwB2Isv.aspx">communiqu&eacute;</a><a
+href="http://www.axa.com/fr/actualites/2010/5C72lj4FF5c4cNwB2Isv.aspx"><span
+            style="color: windowtext; text-decoration: none;"></span></a>.</span></p>
+    <pre class="moz-signature" cols="72">-- 
+Florine BODDAERT
+Consultante en m&eacute;c&eacute;nat et partenariat
+Dev'Assos, cabinet conseil en fundraising
+22 rue de Chateaudun, 75009 Paris
+T. + 33 (0)1 49 95 95 56</pre>
+  </body>
+</html>
+
+--------------030909020800080204070607--

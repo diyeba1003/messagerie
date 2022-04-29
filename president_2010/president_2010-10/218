@@ -1,0 +1,132 @@
+Return-Path: <Christine.Bouthet@univ-nantes.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id DAC662285A
+	for <president@listes.univ-angers.fr>; Fri, 15 Oct 2010 11:24:48 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id C79281143DB; Fri, 15 Oct 2010 11:24:48 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp1.univ-nantes.fr [193.52.82.18])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id A67AA1143D9
+	for <president@univ-angers.fr>; Fri, 15 Oct 2010 11:24:48 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 994AE815DD0
+	for <president@univ-angers.fr>; Fri, 15 Oct 2010 11:24:48 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp1.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id 1diTk2fdDEuM for <president@univ-angers.fr>;
+	Fri, 15 Oct 2010 11:24:48 +0200 (CEST)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 7A65F815A81
+	for <president@univ-angers.fr>; Fri, 15 Oct 2010 11:24:48 +0200 (CEST)
+Received: from mx1.d101.univ-nantes.fr (MX1.univ-nantes.fr [193.52.101.135])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id 637A51C0
+	for <Daniel.Martina@univ-nantes.fr>; Fri, 15 Oct 2010 11:24:48 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mx1.d101.univ-nantes.fr (Postfix) with ESMTP id 4C5911360E72;
+	Fri, 15 Oct 2010 11:24:48 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from mx1.d101.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id gT+z8rnupxfk; Fri, 15 Oct 2010 11:24:48 +0200 (CEST)
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+Received: from smtp1.univ-nantes.fr (Smtp1.univ-nantes.prive [172.20.12.55])
+	by mx1.d101.univ-nantes.fr (Postfix) with ESMTP id 10B2F12F13A2;
+	Fri, 15 Oct 2010 11:24:48 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 01017815B8B;
+	Fri, 15 Oct 2010 11:24:48 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp1.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id IEWWOi5oSsB9; Fri, 15 Oct 2010 11:24:47 +0200 (CEST)
+Received: from [172.21.145.61] (pc-bouthet-c.iut-nantes.univ-nantes.prive [172.21.145.61])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id D0FD1815A81;
+	Fri, 15 Oct 2010 11:24:47 +0200 (CEST)
+Message-ID: <4CB81DE2.8040108@univ-nantes.fr>
+Date: Fri, 15 Oct 2010 11:24:50 +0200
+From: Christine Bouthet <Christine.Bouthet@univ-nantes.fr>
+User-Agent: Thunderbird 2.0.0.9 (Windows/20071031)
+MIME-Version: 1.0
+To: Jacques GIRARDEAU <Jacques.Girardeau@univ-nantes.fr>, 
+ Francis YGUEL <Francis.Yguel@univ-nantes.fr>,
+ Daniel MARTINA <Daniel.Martina@univ-nantes.fr>, 
+ yves.guillotin@univ-lemans.fr, elisabeth.dussauze@cea.fr, 
+ Jean-Charles CADIOU <Jean-Charles.Cadiou@univ-nantes.fr>,
+ Julien ROCA <Julien.Roca@univ-nantes.fr>, 
+ Jack LEGRAND <Jack.Legrand@univ-nantes.fr>,
+ dir.dred@univ-nantes.fr
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+Subject: [president] INAUGURATION PLATEFORME UGV COMPOSITES ET NTC
+
+Mesdames, Messieurs,
+
+
+Par la présente, nous vous informons que l'AIP PRIMECA des Pays de la
+Loire inaugurera les plateformes UGV Composite et NTC, sise à l'IUT de
+Nantes, site de la Fleuriaye à Carquefou, le
+
+   * Jeudi 25 novembre à partir de 16h30
+
+en présence de Monsieur Ayméric SEASSAU, de la commission du
+développement et des activités économiques, de l'enseignement supérieur,
+de la recherche et de l'innovation de la Région des Pays de la Loire et
+membre du conseil d'administration de l'IUT de Nantes.
+
+Ces plateformes, représentant un investissement de plus d'un million
+d'euros. Elles sont composées d'une part, autour des matériaux
+composites, d'un centre d'usinage à grande vitesse et d'un robot
+d'usinage pour le parachèvement et d'autre part, autour des techniques
+de contrôle dimensionnel, d'un système de mesure laser sans contact et
+d'un dispositif de mesure 3D.
+
+Elles sont utilisées pour des activités de recherche de l'IUT de Nantes
+et pour le transfert de technologie vers les entreprises régionales,
+assuré avec le Centre de Ressources Technologiques et de Transfert
+Industriel de l'IUT et Synervia, la structure de transfert de
+technologie en Pays de la Loire, le tout en lien avec la cellule de
+valorisation de l'université de Nantes, le TechnoCampus et le pôle de
+compétitivité EMC2. Ces moyens seront notamment exploités pour les
+projets de recherche Défi Composites avec Airbus, Ecowingbox avec Daher,
+Romobsys avec Gébé2 Productique.
+
+
+Nous vous remercions de votre attention.
+Une invitation vous sera adressée courant du mois de novembre
+
+Bien cordialement
+
+Pierre CASTAGNA
+Directeur de l'AIP PRIMECA
+
+
+-- 
+~*~*~*~*~*~*~*~*~*~*~*~*~
+
+BOUTHET Christine
+
+Secrétariat :
+- AIP-PRIMECA Pays de La Loire
+- CAIRRAT La Fleuriaye
+- CRTTI
+
+IUT de Nantes - Site la Fleuriaye
+2 avenue du Professeur J. Rouxel
+BP 539 - 44475 CARQUEFOU Cedex
+
+Tél : 02.28.09.20.80
+Fax : 02.28.09.20.81
+
+http://www.aipprimeca.univ-nantes.fr
+http://www.iut-nantes.univ-nantes.fr
+
+~*~*~*~*~*~*~*~*~*~*~*~*~
+
+

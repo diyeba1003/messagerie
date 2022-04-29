@@ -1,0 +1,150 @@
+Return-Path: <rkonan1@yahoo.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 1B81522851
+	for <president@listes.univ-angers.fr>; Mon, 15 Nov 2010 00:40:29 +0100 (CET)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 0359711409B; Mon, 15 Nov 2010 00:40:29 +0100 (CET)
+Delivered-To: president@univ-angers.fr
+Received: from nm15.bullet.mail.ukl.yahoo.com (nm15.bullet.mail.ukl.yahoo.com [217.146.183.189])
+	by smtp.univ-angers.fr (Postfix) with SMTP id D1552114098
+	for <president@univ-angers.fr>; Mon, 15 Nov 2010 00:40:28 +0100 (CET)
+Received: from [217.146.183.209] by nm15.bullet.mail.ukl.yahoo.com with NNFMP; 14 Nov 2010 23:40:28 -0000
+Received: from [217.146.183.178] by tm2.bullet.mail.ukl.yahoo.com with NNFMP; 14 Nov 2010 23:40:28 -0000
+Received: from [127.0.0.1] by omp1019.mail.ukl.yahoo.com with NNFMP; 14 Nov 2010 23:40:28 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 616497.71806.bm@omp1019.mail.ukl.yahoo.com
+Received: (qmail 39338 invoked by uid 60001); 14 Nov 2010 23:40:28 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.fr; s=s1024; t=1289778028; bh=G4A4qN2EzrPIJn1jwMslj1DUlvi93zmZrgsWTcCPo+s=; h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:MIME-Version:Content-Type; b=4yfUfW2o04W8/yrXuRt88hZbfleTJXENa/ha2jD6r85a0nhsxBnCMORJFGwRKQ+dF6Kqjdy7/jLbQ9tEf6S7hIYksZbMuUZrde9JrK6ZokI3ZAT6RiC3uKZT09ykPNbLtifMtV9ZC2+FY5XLxyJKdCWfouw5721Ei0/Pd6Ujrt0=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.fr;
+  h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:MIME-Version:Content-Type;
+  b=wZGNAqkeMpepS/FRjy0UW7dp9QcgN8HcQzCCs/i9fmOfmjeb6JCrG+KFfnUbeUJR9MqIcVD58uWs32RuWPA//uTlH6UkmXLpL/pCQbPeZDdw5H0CA2CoXSZ4T7V9uKno6hslHGY8rgUqWpe0pjoDMxE7+DBf5RlRA/C52gTDXDo=;
+Message-ID: <463877.39301.qm@web26102.mail.ukl.yahoo.com>
+X-YMail-OSG: p_0sM8AVM1nD0QoaTpOTYVSWwkhVE467kYkiCGbKwgxfwRm
+ q6zYbvA40kgzYg48sASySfOmH5zc5S3DaYcQNqLqEnD8bl2IYLlJ7NQbMfhg
+ U3TCRhxCebNJCKkVubgM9YVGmokgqOkhqL2fkzWllIH1Ibk.cN6LwbS4q0uh
+ Y0Hc2WPDJWwwp2U_xKImWpzyttlmSj_f6Y2IzEQG9fG4rw._.486kVsjf45v
+ Ts2cR_E8xt8yqjM0W9DrVR_aFQd76jP2ku3jR6mlZ5.xHA5ea1dmDNwdxovd
+ ro5q6Ye4MXKqOhpNap9Kvwvziz1GFMPq01dP.5swDnH4RpHODD469krvg5O1
+ dhmT3S7dw5k9ugAgJUW81feC0OhHFiHgh01ZZHPaQcAckXC8xlnO4GfHpwXJ
+ OFwAXdb7DsY4pO5NfwMFLCrNbeeFyX6dYrman8BdYWxm_Cxcfj_gaJNew.Es
+ F29yR8Eo45Ur9Kxw0SSPHDgJ1baT4a1ZDEEwCA2zrp_wOyaEMTPGqAHPgHhU
+ LjwqyvnjZ8Hwc8JSLy9Sn2L7cF62HLjc2cMTBsI54YoRtnGwP2vnshRj4rcX
+ p7aJ9JBoMQIRvmP.f1yR.u1kvsbouYwgeIc06NEhjsERRtKv2yUOQaeQ8GI5
+ y6dGzG1P9T5Xw_uchnMFyutKYaUIW3rCRpMJWseCJrVPI4ngBKbXNP0uLFn_
+ L_zRtSexlywA-
+Received: from [41.206.79.169] by web26102.mail.ukl.yahoo.com via HTTP; Sun, 14 Nov 2010 23:40:27 GMT
+X-Mailer: YahooMailClassic/11.4.9 YahooMailWebService/0.8.107.285259
+Date: Sun, 14 Nov 2010 23:40:27 +0000 (GMT)
+From: NGOUA HELENA <rkonan1@yahoo.fr>
+To: undisclosed recipients: ;
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="0-1291029688-1289778027=:39301"
+Subject: [president] Bonjour ,
+
+
+--0-1291029688-1289778027=:39301
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Bonjour ,=20
+=A0
+=A0Je vous prie de bien vouloir excuser cette intrusion qui peut para=EEtre
+surprenante =E0 premi=E8re vue d'autant qu'il n'existe aucune relation entr=
+e nous.
+Je voudrais avec votre accord vous pr=E9senter ma situation et vous
+proposer une affaire qui pourrait vous int=E9resser.
+=A0
+=A0
+Je me nomme Mlle NGOUA HELENA , j'ai 24 ans et la seule h=E9ritier de mon P=
+=E8re Honorable NGOUA PATRICK qui =E9tait le=A0 n=E9gociant de Caf=E9/Cacao=
+ bas=E9 =E0 Abidjan la Capitale Economique de la C=F4te d'Ivoire, empoisonn=
+=E9 r=E9cemment par ses
+associ=E9s. Apr=E8s la mort de ma m=E8re , mon p=E8re m'as pris
+Sp=E9cialement avec lui. Le 03 D=E9cembre 2007 est survenu le d=E9c=E8s de =
+mon p=E8re=20
+Dans une clinique priv=E9e (PISAM) =E0 Abidjan. Avant sa mort, secr=E8temen=
+t, il m'a dit qu'il a d=E9pos=E9 une colis qui contiens=A0 une somme d'un m=
+ontant de (3.500.0000 euros) dans une soci=E9t=E9 de s=E9curit=E9 de la pla=
+ce.
+=A0
+En outre, il m'a dit que c'est par rapport =E0 cette richesse qu'il a =E9t=
+=E9 empoisonn=E9 ( selon le m=E9dicine ,ce une poison qui tue lentement ) p=
+ar ses associ=E9s. Il me recommande aussi de chercher un associ=E9 =E9trang=
+er qui pourrait Honn=EAtement m'aider =E0 d=E9bloquer mon colis et transf=
+=E9rer sur son compte.
+=A0
+Je aura besoin de votre soutien pour la suit;
+=A0
+1- Changement de b=E9n=E9ficiaire ;
+2- Servir de gardien ;
+3- Fournir un compte pour le transfert de fonds ( apr=E8s la r=E9ception du=
+ colis chez vous);
+4- M'aider =E0=A0 vous=A0 rejoindre dans votre pays ;
+5- Investir dans un domaine profitable.
+D'ailleurs, je vous donnerai 15% et 5% serviront aux d=E9penses =E9ventuell=
+es qui seront effectu=E9es. Je vous serai reconnaissante de pouvoir b=E9n=
+=E9ficier de vos conseils utiles .
+=A0
+NB:Je vous recommande de traiter cette affaire avec subtilit=E9s et confide=
+ntialit=E9 vu la d=E9gradation de la situation sociopolitique dans laquelle=
+ nous vivons pr=E9sentement ici en Cote D'ivoire.
+=A0
+Dans l'attente d'une r=E9ponse favorable .
+=A0
+Mlle Ngoua.
+=A0
+=A0
+=A0
+=A0
+=A0
+=A0
+
+
+
+=20=20=20=20=20=20=
+
+--0-1291029688-1289778027=:39301
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" ><tr><td valign=3D"=
+top" style=3D"font: inherit;">Bonjour , <BR>&nbsp;<BR>&nbsp;Je vous prie de=
+ bien vouloir excuser cette intrusion qui peut para=EEtre<BR>surprenante =
+=E0 premi=E8re vue d'autant qu'il n'existe aucune relation entre nous.<BR>J=
+e voudrais avec votre accord vous pr=E9senter ma situation et vous<BR>propo=
+ser une affaire qui pourrait vous int=E9resser.<BR>&nbsp;<BR>&nbsp;<BR>Je m=
+e nomme Mlle NGOUA HELENA , j'ai 24 ans et la seule h=E9ritier de mon P=E8r=
+e Honorable NGOUA PATRICK qui =E9tait le&nbsp; n=E9gociant de Caf=E9/Cacao =
+bas=E9 =E0 Abidjan la Capitale Economique de la C=F4te d'Ivoire, empoisonn=
+=E9 r=E9cemment par ses<BR>associ=E9s. Apr=E8s la mort de ma m=E8re , mon p=
+=E8re m'as pris<BR>Sp=E9cialement avec lui. Le 03 D=E9cembre 2007 est surve=
+nu le d=E9c=E8s de mon p=E8re <BR>Dans une clinique priv=E9e (PISAM) =E0 Ab=
+idjan. Avant sa mort, secr=E8tement, il m'a dit qu'il a d=E9pos=E9 une coli=
+s qui contiens&nbsp; une somme d'un
+ montant de (3.500.0000 euros) dans une soci=E9t=E9 de s=E9curit=E9 de la p=
+lace.<BR>&nbsp;<BR>En outre, il m'a dit que c'est par rapport =E0 cette ric=
+hesse qu'il a =E9t=E9 empoisonn=E9 ( selon le m=E9dicine ,ce une poison qui=
+ tue lentement ) par ses associ=E9s. Il me recommande aussi de chercher un =
+associ=E9 =E9tranger qui pourrait Honn=EAtement m'aider =E0 d=E9bloquer mon=
+ colis et transf=E9rer sur son compte.<BR>&nbsp;<BR>Je aura besoin de votre=
+ soutien pour la suit;<BR>&nbsp;<BR>1- Changement de b=E9n=E9ficiaire ;<BR>=
+2- Servir de gardien ;<BR>3- Fournir un compte pour le transfert de fonds (=
+ apr=E8s la r=E9ception du colis chez vous);<BR>4- M'aider =E0&nbsp; vous&n=
+bsp; rejoindre dans votre pays ;<BR>5- Investir dans un domaine profitable.=
+<BR>D'ailleurs, je vous donnerai 15% et 5% serviront aux d=E9penses =E9vent=
+uelles qui seront effectu=E9es. Je vous serai reconnaissante de pouvoir b=
+=E9n=E9ficier de vos conseils utiles .<BR>&nbsp;<BR>NB:Je vous recommande d=
+e traiter cette
+ affaire avec subtilit=E9s et confidentialit=E9 vu la d=E9gradation de la s=
+ituation sociopolitique dans laquelle nous vivons pr=E9sentement ici en Cot=
+e D'ivoire.<BR>&nbsp;<BR>Dans l'attente d'une r=E9ponse favorable .<BR>&nbs=
+p;<BR>Mlle Ngoua.<BR>&nbsp;<BR>&nbsp;<BR>&nbsp;<BR>&nbsp;<BR>&nbsp;<BR>&nbs=
+p;<BR></td></tr></table><br>
+
+
+
+
+=20=20=20=20=20=20=
+
+--0-1291029688-1289778027=:39301--

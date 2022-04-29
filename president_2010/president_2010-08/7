@@ -1,0 +1,444 @@
+Return-Path: <root@blemish.unimedia.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 9027B2289E
+	for <president@listes.univ-angers.fr>; Tue,  3 Aug 2010 11:00:35 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 843921142AB; Tue,  3 Aug 2010 11:00:35 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from blemish.unimedia.fr (blemish.unimedia.fr [85.14.171.243])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 5F44B1142A9
+	for <president@univ-angers.fr>; Tue,  3 Aug 2010 11:00:35 +0200 (CEST)
+Received: from blemish.unimedia.fr (localhost.localdomain [127.0.0.1])
+	by blemish.unimedia.fr (8.14.3/8.14.3) with ESMTP id o7390Zsi025041
+	for <president@univ-angers.fr>; Tue, 3 Aug 2010 11:00:35 +0200
+Received: (from root@localhost)
+	by blemish.unimedia.fr (8.14.3/8.14.3/Submit) id o7390YEV025040;
+	Tue, 3 Aug 2010 11:00:34 +0200
+Date: Tue, 3 Aug 2010 11:00:34 +0200
+Message-Id: <201008030900.o7390YEV025040@blemish.unimedia.fr>
+To: president@univ-angers.fr
+MIME-Version: 1.0
+Reply-To: webmaster@angerstechnopole.com
+From: webmaster@angerstechnopole.com
+Content-Transfer-Encoding: 8bit
+Content-Type: multipart/alternative;
+	boundary="=_232c90a8673c8cdfe91567aa2b7f2ba7"
+Subject: [president] =?ISO-8859-1?Q?L'actualit=E9_et_vos_prochains_RDV_te?=
+ =?ISO-8859-1?Q?chnopolitains?=
+
+
+--=_232c90a8673c8cdfe91567aa2b7f2ba7
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: 7bit
+
+Bonjour,
+					
+Pour lire la newsletter, allez à la adresse :
+
+http://www.angerstechnopole.com/showNewsletter.php?id=af4899165539bba6215f38826760ee85
+--=_232c90a8673c8cdfe91567aa2b7f2ba7
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+    <head>
+        <title>La Newsletter d'Angers Technopole</title>
+        <style type=3D"text/css">
+			@import url(http://www.angerstechnopole.com/style/cadre.css);
+			@import url(http://www.angerstechnopole.com/style/main.css);
+			@import url(http://www.angerstechnopole.com/style/accueil.css);
+		</style><style type=3D"text/css">
+			body {
+				font-family: Arial;
+				font-size: 11px;
+				position: relative;
+			}
+
+			h1 {
+				font-size: 16px;
+				text-align: center;
+			}
+
+			div#main {
+				width: 100%;
+				margin: 0px;
+				margin-left: auto;
+				margin-right: auto;
+				/* background-color: #DEE2E3;
+				  border-top: 5px solid black; */
+				border-bottom: 5px solid black;
+				border-left: 1px solid black;
+				border-right: 1px solid black;
+				position: relative;
+			}
+
+			div#poles {
+				position: absolute;
+				top: 20px;
+				left: 300px;
+			}
+
+
+
+			div#vousEtes {
+				width: 426px;
+				margin-left: 30px;
+			}
+
+			div#vousEtes a {
+				margin-left: 12px;
+			}
+
+			div#actualites {
+				width: 425px;
+				margin-left: 30px;
+			}
+
+			div#affiches {
+				width: 425px;
+				margin-left: 30px;
+			}
+
+			div#agendas {
+				width: 425px;
+				margin-left: 30px;
+			}
+
+			p.desinscrire {
+				font-family: Arial;
+				font-size: 11px;
+				text-align: center;
+			}
+
+			p.cnil {
+				font-family: Arial;
+				font-size: 10px;
+				padding: 5px;
+			}
+
+			div#menuNewsletter {
+				text-align: center;
+			}
+
+			div#menuNewsletter span {
+				margin-left: 5px;
+			}
+
+			div#menuNewsletter span a {
+				padding-left: 3px;
+				padding-right: 3px;
+			}
+
+			div.bloc {
+				border: 1px solid #B9BABD;
+			}
+			h3.blocTitre {
+				background-color: #B9BABD;
+				color: #499A1E;
+				margin-top: 0px;
+				font-family: arial;
+				font-size: 18px;
+				font-weight: bold;
+				text-indent: 3px;
+				background-image: url(http://www.angerstechnopole.com/images/fenetre/fl=
+eche_blanche.gif);
+				background-repeat: no-repeat;
+				background-position: 2px center;
+			}
+
+			div#header {
+				background-color: #D9DDE0;
+				width:100%;
+				text-align:center;
+			}
+
+			p {
+				margin-top: 1px;
+				margin-top: 1px;
+			}
+
+			div.actualite {
+				padding-top: 2px;
+				padding-bottom: 2px;
+			}
+
+			div.actualite h3 {
+				margin-bottom: 2px;
+				color:#000000;
+			}
+
+			div.actualite div{
+				color:#474848;
+				font-family:Arial,Helvetica,sans-serif;
+				font-size:12px;
+				margin:0;
+				padding:0;
+			}
+
+			div.savoirPlus a {
+				font-size: 11px;
+				text-decoration: none;
+			}
+
+			a {color: #499A1E; text-decoration: none; }
+			a:link {color: #499A1E; text-decoration: none; }
+			a:visited {color: #499A1E; text-decoration: none; }
+			a:hover {color: #499A1E; text-decoration: none;}
+			a:active {color: #499A1E; text-decoration: none;}
+
+			/*
+			a.lienTitre:link {color: #FFFFFF; text-decoration: none; }
+			a.lienTitre:visited {color: #FFFFFF; text-decoration: none; }
+			a.lienTitre:hover {color: #FFFFFF; text-decoration: none;}
+			a.lienTitre:active {color: #FFFFFF; text-decoration: none;}
+			*/
+
+			div.savoirPlus {
+				margin-bottom: 10px;
+			}
+
+			div.savoirPlus a {
+				color: #499A1E;
+			}
+			div.savoirPlus a:hover {
+				color: #499A1E;
+			}
+
+		</style>
+    </head>
+    <body>
+        <div id=3D"main">
+        <div id=3D"header"><img id=3D"imageEntete" alt=3D"image entete" wid=
+th=3D"487" height=3D"81" src=3D"http://www.angerstechnopole.com/images/news=
+letter/entete.jpg" /></div>
+        <div id=3D"menuNewsletter"><span>[<a href=3D"http://www.angerstechn=
+opole.com/competence.php?target=3Dvegetal">P&ocirc;le v&eacute;g&eacute;tal=
+</a>]</span> <span>[<a href=3D"http://www.angerstechnopole.com/competence.p=
+hp?target=3Dsante_biotech">P&ocirc;le sant&eacute; et biotechnologie</a>]</=
+span> <span>[<a href=3D"http://www.angerstechnopole.com/competence.php?targ=
+et=3Dtechnologie_comm">P&ocirc;le &eacute;lectronique et TIC</a>]</span> <s=
+pan>[<a href=3D"http://www.angerstechnopole.com/competence.php?target=3Denf=
+ant">P&ocirc;le enfant</a>]</span></div>
+        <h1>- La Newsletter d'Angers Technopole -</h1>
+        Pour &ecirc;tre s&ucirc;r de recevoir tous nos emails, nous vous co=
+nseillons d'ajouter <a href=3D"mailto:webmaster@angerstechnopole.com">webma=
+ster@angerstechnopole.com</a> &agrave; votre carnet d'adresses<br />
+        <br />
+        <table border=3D"0" cellspacing=3D"4" style=3D"width: 100%">
+            <tbody>
+                <tr>
+                    <td valign=3D"top" colspan=3D"2" style=3D"width: 100%">=
+<!-- debut affiche -->
+                    <div class=3D"bloc">
+                    <h3 class=3D"blocTitre"><span>&nbsp;&nbsp;&nbsp;&nbsp;<=
+a class=3D"lienTitre" href=3D"http://www.angerstechnopole.com/quotidien.php=
+?target=3Dactualite">A l'affiche</a></span></h3>
+                    <div class=3D"blocContents">
+                    <div class=3D"actualite">
+                    <h3 class=3D"actualiteTitreNormal">Programme des animat=
+ions d'Angers Technopole</h3>
+                    <div style=3D"text-align: justify"><strong>De nouveaux =
+rendez-vous d&egrave;s la rentr&eacute;e pour les Ateliers de l&rsquo;Innov=
+ation v&eacute;g&eacute;tale et pour la Matinale d&rsquo;Angers Technopole<=
+/strong>.<br />
+                    <br />
+                    &nbsp;&nbsp; - <em>21 et 23 septembre 2010</em>: <stron=
+g>Ateliers de l'innovation v&eacute;g&eacute;tale</strong><br />
+                    &nbsp;&nbsp; - <em>8 octobre 2010</em>&nbsp;:&nbsp;<str=
+ong>Matinale d'Angers Technopole</strong></div>
+                    <div style=3D"text-align: justify"><u>
+                    <div class=3D"savoirPlus"><a class=3D"actualiteTitreNor=
+mal" href=3D"http://www.angerstechnopole.com//quotidien.php?target=3Devenem=
+ent&amp;action=3Ddetail&amp;id=3D65">&nbsp;&nbsp;&nbsp;&nbsp;En savoir plus=
+...</a></div>
+                    </u></div>
+                    <div class=3D"actualite">
+                    <h3 class=3D"actualiteTitreNormal">10&egrave;me Appel &=
+agrave; Id&eacute;es Innovantes</h3>
+                    <div><strong>2010</strong> marque le lancement du <stro=
+ng>10<sup>e</sup> Appel &agrave; Id&eacute;es Innovantes d&rsquo;Angers Tec=
+hnopole. <br />
+                    <br />
+                    Vous d&eacute;couvrirez bient&ocirc;t les nouveaut&eacu=
+te;s 2010-11...</strong><br />
+                    Tentez votre chance, d&eacute;posez vos id&eacute;es in=
+novantes sur <a href=3D"http://www.idees-innovantes.com/"><strong>www.id&ea=
+cute;es-innovantes.com d&egrave;s le 1er septembre 2010&nbsp;!&nbsp;
+                    <div class=3D"savoirPlus">&nbsp;</div>
+                    <br />
+                    </strong></a><a class=3D"actualiteTitreNormal" href=3D"=
+http://www.angerstechnopole.com//quotidien.php?target=3Devenement&amp;actio=
+n=3Ddetail&amp;id=3D63">&nbsp;&nbsp;&nbsp;&nbsp;En savoir plus...</a></div>
+                    <div class=3D"actualite">&nbsp;</div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign=3D"top" style=3D"width: 50%"><!-- debut actu=
+alite -->
+                    <div class=3D"bloc" style=3D"width: 100%">
+                    <h3 class=3D"blocTitre"><span>&nbsp;&nbsp;&nbsp;&nbsp;<=
+a class=3D"lienTitre" href=3D"http://www.angerstechnopole.com/quotidien.php=
+?target=3Dactualite">Actualit&eacute;s</a></span></h3>
+                    <div class=3D"blocContents">
+                    <div class=3D"actualite">
+                    <h3 class=3D"actualiteTitreNormal">Nouveaux Technopolit=
+ains</h3>
+                    <div class=3D"actualite">
+                    <div class=3D"actualite">
+                    <div style=3D"text-align: justify">Angers Technopole a =
+le plaisir de compter dans son r&eacute;seau de nouvelles entreprises&nbsp;=
+:</div>
+                    <div style=3D"text-align: justify">&nbsp;</div>
+                    <div style=3D"text-align: justify"><strong>ACTYVEA</str=
+ong> , <strong>PAULSTRA et MEDIALIBS</strong> ... <br />
+                    <br />
+                    <div class=3D"savoirPlus"><a class=3D"actualiteTitreNor=
+mal" href=3D"http://www.angerstechnopole.com//quotidien.php?target=3Dactual=
+ite&amp;action=3Ddetail&amp;id=3D161">&nbsp;&nbsp;&nbsp;&nbsp;En savoir plu=
+s...</a></div>
+                    <br />
+                    &nbsp;</div>
+                    <div class=3D"actualite">
+                    <h3 class=3D"actualiteTitreNormal">ACV Plus, <br />
+                    une jeune entreprise sortit de l&rsquo;Incubateur d&rsq=
+uo;Angers Technopole</h3>
+                    <div style=3D"text-align: justify"><b>ACV Plus</b> est =
+un bureau d'&eacute;tudes, nouvellement cr&eacute;&eacute;, sp&eacute;ciali=
+s&eacute; dans les Analyses du Cycle de Vie (ACV) et d'&eacute;co-conceptio=
+n... <br />
+                    <br />
+                    <br />
+                    <div class=3D"savoirPlus"><a class=3D"actualiteTitreNor=
+mal" href=3D"http://www.angerstechnopole.com//quotidien.php?target=3Dactual=
+ite&amp;action=3Ddetail&amp;id=3D162">&nbsp;&nbsp;&nbsp;&nbsp;En savoir plu=
+s...</a></div>
+                    <br />
+                    &nbsp;</div>
+                    </div>
+                    </div>
+                    <!-- fin actualite --></div>
+                    </div>
+                    </div>
+                    </div>
+                    </td>
+                    <td valign=3D"top" style=3D"width: 50%"><!-- debut agen=
+das -->
+                    <div class=3D"bloc" style=3D"width: 100%">
+                    <h3 class=3D"blocTitre"><span>&nbsp;&nbsp;&nbsp;&nbsp;<=
+a class=3D"lienTitre" href=3D"http://www.angerstechnopole.com/quotidien.php=
+?target=3Dactualite">Agenda</a></span></h3>
+                    <div class=3D"blocContents">
+                    <div class=3D"actualite">
+                    <h3 class=3D"actualiteTitreNormal">Le 15.06.10 : <stron=
+g>Exposition : <br />
+                    Les P&ocirc;les de comp&eacute;titivit&eacute; en Pays =
+de la&nbsp;Loire</strong></h3>
+                    <div style=3D"text-align: justify">En collaboration ave=
+c Terre des Sciences, Angers Technopole vous invite &agrave; d&eacute;couvr=
+ir une nouvelle exposition dans ses locaux sur le th&egrave;me des &quot;P&=
+ocirc;les de comp&eacute;titivit&eacute; r&eacute;gionaux&quot;.<br />
+                    &nbsp;</div>
+                    <div style=3D"text-align: justify"><strong>
+                    <div class=3D"savoirPlus"><a class=3D"actualiteTitreNor=
+mal" href=3D"http://www.angerstechnopole.com//index.php?target=3Dreunion&am=
+p;id=3D370">&nbsp;&nbsp;&nbsp;&nbsp;En savoir plus...</a></div>
+                    <br />
+                    </strong></div>
+                    <div class=3D"actualite">
+                    <h3 class=3D"actualiteTitreVegetal">Le 21.09.10 : <span=
+><strong>Atelier&nbsp;de </strong></span><span><strong>l'innovation </stron=
+g></span><span><strong>v&eacute;g&eacute;tale&nbsp;:</strong></span>
+                    <p><span><strong>D&eacute;couverte du potentiel de la g=
+&eacute;nomique et de la prot&eacute;omique au service du v&eacute;g&eacute=
+;tal</strong></span></p>
+                    </h3>
+                    <div style=3D"text-align: justify">
+                    <p>Dans le cadre des ateliers de l&rsquo;innovation v&e=
+acute;g&eacute;tale, mis en &oelig;uvre par Angers Technopole pour VEGEPOLY=
+S, nous vous proposons une nouvelle rencontre en partenariat avec Biogenoue=
+st et la SEM r&eacute;gionale des Pays de la Loire.<br p=3D"" />
+                    &nbsp;</p>
+                    <div class=3D"savoirPlus"><a class=3D"actualiteTitreVeg=
+etal" href=3D"http://www.angerstechnopole.com//index.php?target=3Dreunion&a=
+mp;id=3D371">&nbsp;&nbsp;&nbsp;&nbsp;En savoir plus...</a></div>
+                    <br />
+                    &nbsp;</div>
+                    <div class=3D"actualite">
+                    <h3 class=3D"actualiteTitreVegetal">Le 23.09.10 : <stro=
+ng>Atelier de </strong><strong>l'Innovation </strong><strong>v&eacute;g&eac=
+ute;tale&nbsp;: </strong>
+                    <p><strong>Programme BIO&nbsp;de l'INRA</strong></p>
+                    </h3>
+                    <p>Dans le cadre des ateliers de l&rsquo;innovation v&e=
+acute;g&eacute;tale, mis en &oelig;uvre par Angers Technopole pour VEGEPOLY=
+S, nous vous proposons une nouvelle rencontre sur la th&eacute;matique des =
+<b>programmes BIO de l&rsquo;INRA</b> anim&eacute;s par Stephane Bellon.<br=
+ />
+                    &nbsp;</p>
+                    <div class=3D"savoirPlus"><a class=3D"actualiteTitreVeg=
+etal" href=3D"http://www.angerstechnopole.com//index.php?target=3Dreunion&a=
+mp;id=3D373">&nbsp;&nbsp;&nbsp;&nbsp;En savoir plus...</a></div>
+                    <br />
+                    &nbsp;</div>
+                    <div class=3D"actualite">
+                    <h3 class=3D"actualiteTitreNormal">Le 28.09.10 : <stron=
+g>Rencontre Capteur sans fil autonome en &eacute;nergie</strong></h3>
+                    <div style=3D"text-align: justify">Le Pacte PME vous in=
+vite le <b>mardi 28 septembre 2010 &agrave; Paris</b> pour la <b>pr&eacute;=
+sentation d&rsquo;un panel de PME ayant des solutions dans le domaine des c=
+apteurs sans fil autonomes en &eacute;nergie</b>.</div>
+                    <div>&nbsp;<b><u>
+                    <div class=3D"savoirPlus"><a class=3D"actualiteTitreNor=
+mal" href=3D"http://www.angerstechnopole.com//index.php?target=3Dreunion&am=
+p;id=3D374">&nbsp;&nbsp;&nbsp;&nbsp;En savoir plus...</a></div>
+                    <br />
+                    </u></b></div>
+                    <div class=3D"actualite">
+                    <h3 class=3D"actualiteTitreNormal">Le 08.10.10 : <stron=
+g><span class=3D"&quot;A3&quot;"><span>Matinale d'Angers </span></span></st=
+rong><strong><span class=3D"&quot;A3&quot;"><span>Technopole :</span></span=
+></strong>
+                    <p><strong><span class=3D"&quot;A3&quot;"><span>Innovat=
+ions et parcours </span></span></strong><strong><span class=3D"&quot;A3&quo=
+t;"><span>de cr&eacute;ateurs</span></span></strong></p>
+                    </h3>
+                    <div style=3D"text-align: justify">D&eacute;couvrez les=
+ nouvelles entreprises innovantes d&rsquo;Angers Technopole et assistez aux=
+ retours d'exp&eacute;riences de leurs cr&eacute;ateurs.</div>
+                    <div style=3D"text-align: justify">&nbsp;</div>
+                    <div style=3D"text-align: justify">&nbsp;</div>
+                    <div class=3D"savoirPlus"><a class=3D"actualiteTitreNor=
+mal" href=3D"http://www.angerstechnopole.com//index.php?target=3Dreunion&am=
+p;id=3D372">&nbsp;&nbsp;&nbsp;&nbsp;En savoir plus...</a></div>
+                    <br />
+                    &nbsp;</div>
+                    </div>
+                    </div>
+                    <!-- fin agendas --></div>
+                    </div>
+                    </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <br />
+        <p class=3D"cnil">Vous recevez cette lettre en tant qu'abonn&eacute=
+; d'Angers Technopole. Pour vous d&eacute;sinscrire : <a href=3D"http://www=
+.angerstechnopole.com/index.php?target=3Dnewsletter">http://www.angerstechn=
+opole.com/index.php?target=3Dnewsletter</a><br />
+        Conform&eacute;ment &agrave; la Loi &laquo; Informatique et Libert&=
+eacute;s &raquo;, vous disposez d'un droit d'acc&egrave;s, de rectification=
+ et de suppression des donn&eacute;es qui vous concernent. Pour l'exercer, =
+contacter <a href=3D"mailto:webmaster@angerstechnopole.com">webmaster@anger=
+stechnopole.com</a></p>
+        </div>
+    </body>
+</html>=
+
+--=_232c90a8673c8cdfe91567aa2b7f2ba7--
+

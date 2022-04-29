@@ -1,0 +1,739 @@
+Return-Path: <lalettre@u-pec.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 55C482281B
+	for <president@listes.univ-angers.fr>; Mon,  8 Nov 2010 14:29:53 +0100 (CET)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 478CE11408A; Mon,  8 Nov 2010 14:29:53 +0100 (CET)
+Delivered-To: president@univ-angers.fr
+Received: from gulliver.u-pec.fr (gulliver.univ-paris12.fr [193.48.143.11])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 2E4E211407A
+	for <president@univ-angers.fr>; Mon,  8 Nov 2010 14:29:53 +0100 (CET)
+Received: from gulliver.u-pec.fr (localhost [127.0.0.1])
+	by gulliver.u-pec.fr (Postfix) with ESMTP id EFC132C104
+	for <president@univ-angers.fr>; Mon,  8 Nov 2010 14:29:52 +0100 (CET)
+Received: from cyclone (cyclone.u-pec.fr [193.48.143.10])
+	by gulliver.u-pec.fr (Postfix) with ESMTP id EE1252C107
+	for <president@univ-angers.fr>; Mon,  8 Nov 2010 14:29:52 +0100 (CET)
+Message-ID: <1805324144.378941289222775453.JavaMail.tomcat55@cyclone>
+Date: Mon, 8 Nov 2010 14:26:15 +0100 (CET)
+From: "lalettre@u-pec.fr" <lalettre@u-pec.fr>
+To:   <president@univ-angers.fr>
+MIME-Version: 1.0
+Content-Type: text/html;charset=iso-8859-1; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Virus-Scanned: ClamAV using ClamSMTP
+Subject: [president] =?ISO-8859-1?Q?La_lettre_de_l'UPEC_n=B03?=
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns=3D"http://www.w3.org/1999/xht=
+ml" lang=3D"fr_FR" xml:lang=3D"fr_FR"><head>	<meta http-equiv=3D"content-ty=
+pe" content=3D"text/html; charset=3Diso-8859-1" />	<title>La lettre de l'UP=
+EC</title>	<style type=3D"text/css" media=3D"screen">		/* Affichage du cont=
+enu du style param=E9tr=E9 dans newsletter.style de l'application */				/* =
+http://meyerweb.com/eric/tools/css/reset/ *//* v1.0 | 20080212 */html, body=
+, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, =
+pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins=
+, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,=
+dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody,=
+ tfoot, thead, tr, th, td {  margin: 0;  padding: 0;  border: 0;  outline: =
+0;  font-size: 100%;  vertical-align: baseline;  background: transparent;}b=
+ody { line-height: 1.2;}input,select{padding: 0;}h1, h2, h3, h4, h5, h6, p,=
+ pre, code{font-size: 1em;margin: 0 0 1em;}h1, h2, h3, h4, h5, h6{font-weig=
+ht: 500;margin: 0 0 0.5em;}ol, ul { list-style: none;}blockquote, q { quote=
+s: none;}blockquote:before, blockquote:after,q:before, q:after { content: '=
+'; content: none;}/* remember to define focus styles! */:focus { outline: 0=
+;}/* remember to highlight inserts somehow! */ins { text-decoration: none;}=
+del { text-decoration: line-through;}/* tables still need 'cellspacing=3D"0=
+"' in the markup */table { border-collapse: collapse; border-spacing: 0;}la=
+bel{font-weight: 700;}/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3DInitialisation des styles par defaut=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+ */body{/* #cfc98e */background: #fff;color: #353535;font-family: arial, ve=
+rdana, helvetica, sans-serif;font-size: 62.5%;}a{/*color: #2869a9;*/color: =
+#c04500;text-decoration:none;}a:hover{text-decoration:underline;}/* etat "f=
+ocus" important pour accessibilite web */a:focus{background-color: #666;col=
+or: #fff;text-decoration: none !important;}a img,a:link img,a:visited img{b=
+order: none;vertical-align: middle;}h2{background:#4e5262;color: #fff;font-=
+size: 2.4em;line-height: 100%;margin: 0 0 0.5em;padding:0.5em 12px 3px 12px=
+;padding-bottom: 8px;}body.formation h2{margin: 0;}body.rubrique h2{padding=
+: 13px 12px 8px 12px;}h3{font-size: 1.1em;color:#644700;}h3.type1,dt.type1{=
+ width:300px;background:#fff;color:#644700;font-weight:700;font-size:1em;pa=
+dding:10px 10px 0 10px;text-transform:uppercase;margin:0 0 1em -10px;}h4{ma=
+rgin: 0;font-weight: 700;}/* =3D=3D=3D */.submit,.reset{}/* Messages d'erre=
+urs et autres */#msg-alerte,#msg-erreur,#msg-confirmation{float: none;font-=
+weight: 700;padding: 0.5em;text-align: center;width: auto;}#msg-alerte{back=
+ground-color: #ffb622;}#msg-erreur{background-color: #f11b03;color: #fff;}#=
+msg-confirmation{background-color: #b8f04c;}#msg-alerte a,#msg-erreur a,#ms=
+g-confirmation a{color: #fff;}/* =3D=3D=3D Accessibilite liens evitement =
+=3D=3D=3D */p#acces_direct{margin: 0 auto;width: 1000px;display: none;}p#ra=
+ccourcis{margin: 0;}/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3DGrands Blocs=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D */div#page{background: #ff=
+f;font-size: 1.1em;margin: 10px auto 0;width: 955px;}/* =3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3DStyles Commu=
+ns=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D */hr.separateur_sections_page{display: none;}/* =3D=3D=3D classes=
+ communes =3D=3D=3D */.hide{position: absolute;visibility: hidden;}.separat=
+eur{clear: both;display: block !important;float: none;height: 0;font-size: =
+0;margin: 0;padding: 0;width: 100%;}.erreur{color: #f00;font-style: normal;=
+font-weight: 700;}.retour{cursor: pointer;}/* champs de formulaires en lect=
+ure seule */form input.readonly{}.fiche_pdf{cursor: pointer;}.legende{backg=
+round-color: transparent;color: #666;font-size: 0.9em;margin: 0.5em 0 1em 0=
+;}div.photo img{}/* *******************=3DBloc =3DBandeau******************=
+** */div#bandeau{background: #4e5262;/* rouge about:Moz background: #7c0606=
+; */border-bottom: 10px solid #fff;height: 183px;position: relative;}h1{wid=
+th:955px;height:85px;}h1 img{display: block;}div#intitule_entite h3 a{color=
+: #fff;text-decoration:none;}div#bandeau a#retour_site_princ{position: abso=
+lute;}/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3DRec=
+herche =3DSimple=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D */form#recherche_simple{float:left;width:200px;padding:2px 0 0 12px;}fo=
+rm#recherche_simple label{color: #fff;display: block;margin:0 0 0;text-tran=
+sform: uppercase;font-size: 1.2em;font-weight: 500;/* width:80px;height:10p=
+x;background:transparent url(http://www.u-pec.fr/jsp/styles/defaut/img/rech=
+ercher.gif) no-repeat; */}form#recherche_simple input.champ-saisie{width: 1=
+13px;border:1px solid #2b2e30;background:#d7d7d7;}form#recherche_simple a{f=
+ont-size: 0.9em;color:#fff;text-decoration:none;}form#recherche_simple .sub=
+mit{background-color:#D8E7F1;border:medium none;font-family:arial;font-size=
+:1.1em;height:16px;vertical-align:baseline;width:46px;}form#recherche_simpl=
+e p#vers_recherche_avancee{margin: 0;}/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D   Choix langue=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D */ul#menu_langue{position: absolute;right: 1=
+.8em;}ul#menu_langue li{float: left;color: white;}ul#menu_langue li#langue_=
+milieu{border-left: 1px solid white;border-right: 1px solid white;}ul#menu_=
+langue li a{color: white;font-size: 1.4em;margin:  0 0.6em;}ul#menu_langue =
+li a.menu_langue_courante{font-weight: bold;color: #fc9d0b;}/* =3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3DConnexion=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D */div#connexion{right: 0;marg=
+in: 0 10px;position: absolute;top: -35px;text-align: right;width: 980px;dis=
+play:none;}div#connexion legend{display: none;}div#connexion label{margin: =
+0;}div#connexion input#login_intranet{margin-bottom: 0;}div#connexion ul{fo=
+nt-size: 0.9em;padding-top: 2px;}div#connexion p#mot_de_passe_oublie{font-s=
+ize: 0.9em;margin: -2px 32px 0 0;}/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3DBlock =3DMenu=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D *//*=
+ =3D=3D=3D Menu principal =3D=3D=3D */ul#menu-entites{padding-top:6px;font-=
+size: 1.2em;text-transform:uppercase;}ul#menu-entites li{float: left;height=
+:87px;margin: 0;position: relative;}ul#menu-entites em{font-style: normal;}=
+ul#menu-entites a{background-color: transparent;color: #fff;text-decoration=
+: none;display:block;height:67px;outline-style:none;padding-left: 15px;}ul#=
+menu-entites_0 li#menu_entites_0 a,ul#menu-entites_0 li#menu_entites_1 a,ul=
+#menu-entites_0 li#menu_entites_2 a{height: 87px;}ul#menu-entites li{positi=
+on: relative;}ul#menu-entites li#menu_entites_0{width:109px;border-right:1p=
+x solid #fff;}ul#menu-entites li#menu_entites_1{width:128px;border-right:1p=
+x solid #fff;border-left:1px solid #fff;}ul#menu-entites li#menu_entites_2{=
+width:147px;border-left:1px solid #fff;border-right:2px solid #fff;}ul#menu=
+-entites li#menu_entites_3{width:140px;border-right:2px solid #fff;}ul#menu=
+_facultes{display: none;background: #4e5262;left : 0;padding: 5px 0 0;posit=
+ion : absolute;top : 87px;width : 182px;z-index: 1000;}ul#menu_facultes li{=
+border-bottom: 1px dotted #fff;height:auto;padding: 0.2em 0.4em;font-size: =
+1em;text-transform:none;float: none;}ul#menu_facultes li a{height:auto;padd=
+ing-left : 0;} /* =3D=3D=3D Menu principal =3D=3D=3D */ul#menu_principal .e=
+lement_menu_cache p.complement_date_fil,div#pave_gauche div.complement_date=
+{color: #644700;margin: 0;}ul#menu_principal li {background-color: #4e5262;=
+border-bottom: 2px solid #fff;font-size: 1.1em;padding:6px 5px 3px 8px;}ul#=
+menu_principal ul,ul#menu_secondaire ul {color: #e6e6e6;display: block;left=
+: 0;line-height: normal;padding: 0 0 5px 0;}ul#menu_principal ul li,ul#menu=
+_secondaire ul li {background-color:transparent;border-bottom:0;padding:6px=
+ 5px 3px 3px;font-size: 0.9em;}ul#menu_principal ul ul li,ul#menu_secondair=
+e ul ul li {background-color:transparent;border-bottom:0;padding: 4px 0;}ul=
+#menu_principal em,ul#menu_secondaire em{font-weight:700;font-style: normal=
+;display:block;margin:1em 0 1em 3px;font-size:1.1em;}ul#menu_principal ul e=
+m,ul#menu_secondaire ul em {font-weight:700;display:block;margin:0 0 4px 0;=
+font-size:1em;}ul#menu_principal ul ul em,ul#menu_secondaire ul ul em {font=
+-weight:700;margin:0;}ul#menu_principal a{text-transform:uppercase;color:#f=
+ff;text-decoration:none;}ul#menu_principal a:focus{background-color: transp=
+arent;}ul#menu_principal ul a{text-transform:none;display: block;color: #ff=
+f;padding: 0;}ul#menu_principal ul ul a{font-size:.95em;padding-left:13px;d=
+isplay: inline;}ul#menu_principal ul em a{display:inline;}ul#menu_principal=
+ ul a:hover,ul#menu_principal ul em a{color:#fff;font-weight:700;}ul#menu_p=
+rincipal ul ul a:hover,ul#menu_principal ul ul em a{font-weight:700;backgro=
+und: transparent url(http://www.u-pec.fr/jsp/styles/defaut/img/fleche_menu_=
+niveau_3.png) no-repeat 0 5px;}/* =3D=3D=3D couleurs menu principal =3D=3D=
+=3D */ul#menu_principal li#menu_principal_0{ /* Etudiant */background-color=
+:#323339;}ul#menu_principal li#menu_principal_1{ /* Lyceen */background-col=
+or:#393b45;background-position: 671px 15px;background-repeat: no-repeat;}ul=
+#menu_principal li#menu_principal_2{ /* Entreprise */background-color:#6269=
+8a;background-position: 671px -11px;background-repeat: no-repeat;}ul#menu_p=
+rincipal li#menu_principal_3{ background-color:#5c7080; } /* Enseignant */u=
+l#menu_principal li#menu_principal_4{ background-color:#425360; } /* Adulte=
+ */ul#menu_principal li#menu_principal_5{ background-color:#155f6c; } /* Pe=
+rsonnel Admin */ul#menu_principal li#menu_principal_6{ background-color:#15=
+486c; } /* Etudiant etranger */ul#menu_principal li#menu_principal_7{ backg=
+round-color:#2e3a43; } /* Ancien Etudiant */ul#menu_principal li#menu_princ=
+ipal_8{ background-color:#2e3a43; } /* Ancien Etudiant */ul#menu_principal =
+li#menu_principal_9{ background-color:#2e3a43; } /* Ancien Etudiant *//* =
+=3D=3D=3D bloc Accroche =3D=3D=3D */div#accroche{font-size: 1.25em;line-hei=
+ght: 1.3;min-height: 88px;position: relative;}div#accroche div.visuel-rubri=
+que{background-repeat: no-repeat;float: left;height: 147px;width: 366px;}di=
+v#accroche p{margin: 0;padding-bottom: 10px;padding-right: 20px;padding-top=
+: 10px;}div#accroche .separateur{font-size: 1px;height: 1px;}/* =3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3DBloc =3DNavigation=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D */div#navigation{float: left;padding: 0 0 15px;=
+width: 224px;}div#navigation div.visuel-rubrique{background-position: 50% 5=
+0%;background-repeat: no-repeat;color: #fff;height: 80px;padding: 0 0 21px =
+0;}/* =3D=3D=3D menu secondaire =3D=3D=3D */h3#tete_rubrique a{color: #fff;=
+}ul#menu_secondaire{margin: 0;}/* =3D=3D=3D Menu secondaire =3D=3D=3D*/div#=
+navigation h3 {text-transform: uppercase;color: #fff;margin: 0;font-weight:=
+ bold;font-size: 1.3em;padding: 25px 15px 10px 15px;}ul#menu_secondaire {bo=
+rder-bottom: 20px solid;padding-bottom: 15px;}ul#menu_secondaire a {color: =
+#fff;}ul#menu_secondaire li {font-size: 1.1em;padding: 6px 5px 3px 15px;}ul=
+#menu_secondaire ul {padding-left: 8px;margin: 0;}ul#menu_secondaire em {fo=
+nt-weight: bold;font-style: normal;margin: 0 0 5px 0;}/* =3D=3D=3D services=
+ =3D=3D=3D */form#services{background: #ccc;-moz-border-radius: 10px;margin=
+: 0 0 1em;padding: 0.5em 0;}form#services label{font-size: 1em;}form#servic=
+es legend{display: none;}/*********************************acces reseaux se=
+ociaux*********************************/div#pictos_reseaux_sociaux_haut,div=
+#pictos_reseaux_sociaux_bas{clear: both;margin-bottom: 2em;}div#pictos_rese=
+aux_sociaux_bas{padding-top:1em;}div#pictos_reseaux_sociaux_haut a,div#pict=
+os_reseaux_sociaux_bas a{float: left;}div#pictos_reseaux_sociaux_haut ul li=
+,div#pictos_reseaux_sociaux_bas ul li{float: left;display: block;}div#picto=
+s_reseaux_sociaux_haut strong,div#pictos_reseaux_sociaux_bas strong{margin-=
+left: 22%}div#pictos_reseaux_sociaux_haut ul,div#pictos_reseaux_sociaux_bas=
+ ul {border:1px solid #fff;height:3em;margin-left:20%;width:270px;list-styl=
+e: none;}div#pictos_reseaux_sociaux_bas ul {width:38%;}div#pictos_reseaux_s=
+ociaux_haut ul li a,div#pictos_reseaux_sociaux_bas ul li a{margin-left: 1.4=
+em;padding-top:0.7em;}/*********************************=3DBloc =3DContenu*=
+********************************/ul#icon_utils,ul#icon_utils_bottom{list-st=
+yle : none;/*display: inline;*/position: relative;}ul#icon_utils {margin-le=
+ft: 10px;}ul#icon_utils a,ul#icon_utils_bottom li {float: left;margin-right=
+: 0.5em;padding: 1em 0;}ul#icon_utils a {padding: 1em 0;}ul#icon_utils_bott=
+om li {padding: 0.4em 0;}ul#icon_utils_bottom {display : block;position: re=
+lative;float: left;width: 100%;}ul#icon_utils_bottom a {display : block;flo=
+at: left;}ul#icon_utils_bottom{padding-left: 1.7em;}ul#icon_utils a.impress=
+ion_pdf img,ul#icon_utils_bottom a.impression_pdf img{margin-right: 0;}ul#i=
+con_utils_bottom a img{margin: 0 10px 0 7px;}ul#icon_utils_bottom{backgroun=
+d-color: #d2d0d0;}div#icon_utils_bottom{position: relative;width: 99.3%;cle=
+ar: both;}div#colonnes-deco{ overflow:hidden;background-image: url(http://w=
+ww.u-pec.fr/jsp/styles/defaut/img/contenu_deco.gif);background-repeat: repe=
+at-y;background-position: 224px 0;}div.colonne_contenu_sans_encadres_sans_n=
+av,div.colonne_contenu_avec_encadres_sans_nav{background-color: #e6e6e6;}di=
+v.colonne_contenu_sans_encadres_avec_nav,div.colonne_contenu_avec_encadres_=
+avec_nav{background-color: #fff;}div#contenu_deco{float: left;height: auto;=
+}div.contenu{float: left;/*min-height: 300px;*/padding: 0 0 1em 0;line-heig=
+ht: 17px;}div#contenu_avec_encadres_avec_nav{width: 498px;}div#contenu_avec=
+_encadres_sans_nav{/* padding-left: 224px;width: 498px; */width: 721px;}div=
+#contenu_sans_encadres_avec_nav{width: 725px;}div#contenu_sans_encadres_san=
+s_nav{/* padding-left: 224px;width: 725px; */width: 955px;}/* pour plan de =
+site et liste imbriquees dans toolbox */div.contenu ul,div.contenu ol{margi=
+n: auto;padding: 0;list-style: disc;margin-left: 22px;}div.contenu ol{list-=
+style: decimal;}ul.type1 li{list-style: none;}p#fil_ariane{min-height: 20px=
+;font-size: 0.9em;color: #fff;background: #4e5262;border-top:1px solid #c5c=
+2c2;line-height: 20px;padding-left: 236px;padding-right: 240px;margin: 0;}p=
+#fil_ariane a{color:#fff;text-decoration:none;}p#fil_ariane a:hover{text-de=
+coration:underline;}p#fil_ariane a em{ font-style:normal;}/*** Plan du site=
+  ***//*.plansite1 li{list-style-type: none;}.plansite2 li{list-style-type:=
+ disc;}*/.entete_type1{ padding: 10px;margin: 0 0 0.5em;}/*****************=
+********************************=3DContexte =3DRubrique********************=
+******************************/#photo{background-position: 50% 50%;backgrou=
+nd-repeat: no-repeat;color: #fff;height: 80px;padding: 0 0 21px;}#photo div=
+{padding-left: 30px;}a#se_connecter{display: block;margin-left: 15px;margin=
+-top: 60px;}div.element_deco{margin: 0 0 2em;}/* =3D=3D=3D Elements communs=
+ aux fiches =3D=3D=3D */body.actualite p#thematique,body.article p#thematiq=
+ue,body.annuaire p#type_personnel,body.document p#soustitre,body.defaultstr=
+ucture p#type_structure,body.lien p#thematique,body.petiteannonce p#type,bo=
+dy.offresstagesemplois p#type{ font-weight: 700; font-size: 1.3em; margin: =
+0 0 5px 0;}body.actualite p#date,body.article p#date{ font-size: 1.1em; mar=
+gin: 0;}body.article p#soustitre{font-size: 1.3em;margin: 0.5em 0;}body.act=
+ualite div.photo,body.article div.photo,body.document div.photo,body.lien d=
+iv.photo{float: left;margin: 0 10px 0 0;}body.annuaire div.photo,body.defau=
+ltstructure div.photo{float: right;margin: 0 0 0 10px;}ul#diplomes_obtenus{=
+margin: 0;}/*body.actualite div#reste a,body.article div#reste a */body.ann=
+uaireetudiants ul#diplomes_obtenus li a,body.petiteannonce p#envoi_ami a,ul=
+#diplomes_obtenus li a,ul#diplomes_obtenus li a{padding-left: 18px;}body.de=
+faultstructureksup div#reste dl.type_2 a{padding-left: 0;background: none;}=
+body.actualite div#reste ul li,body.article div#reste ul li{padding-left: 1=
+8px;list-style-type: none; }/* =3D=3D=3D =3DFiche =3DActualite =3D=3D=3D */=
+body.actualite p#typeEvenement,body.lien p#typeLien,body.petiteannonce p.th=
+eme{ font-size: 1.1em; margin: 5px 0 0 0;}body.actualite p#resume{ border-t=
+op: 1px solid; border-bottom: 1px solid; font-weight: 700; padding: 20px 10=
+px; margin: 0 -10px;}body.actualite div#description{ margin-bottom: 1.5em; =
+padding: 10px 10px 20px; border-bottom: 1px solid; margin: 0 -10px 20px -10=
+px;}/* =3D=3D=3D =3DFiche =3DArticle =3D=3D=3D */body.document p#thematique=
+,body.document p#typeDocument{ margin: 5px 0 0 0; }/* =3D=3D=3D =3DFiche =
+=3DDocument =3D=3D=3D */body.article p#chapeau,body.document p#resume{font-=
+weight: 700;padding: 0 0 1em;margin-top: 10px;}body.document div#descriptio=
+n,body.annuaire #fonction{margin: 0 0 1em;}/*=3D=3D=3D =3Dfiche =3Dlien =3D=
+=3D=3D*/body.lien div#resume{margin-top: 15px; }body.lien div#description{m=
+argin: 10px 0;}/*=3D=3D=3D Listes de definitions =3D=3D=3D*//* de type 1 */=
+dl.type_1{margin: 0 0 2em;position: relative;width: 100%;}dl.type_1 dt{font=
+-weight: 700;left: 0;margin: 0;padding-top: 0.5em;position: absolute;width:=
+ 150px;}dl.type_1 dd{margin-left: 190px;padding: 0.5em 2%;}/* de type 2 */d=
+l.type_2{margin: 0;padding-bottom: 0.5em;}dl.type_2 dt,dl.type_2 dd{  color=
+:#644700;font-size:1.1em;font-weight: 700;}dl.type_2 dt{padding-top: 0.4em;=
+width: 150px;}dl.type_2 dd{margin: -17px 0 0 160px;padding: 0 2%;}dl.type_2=
+ li{list-style-type: none; }/* =3D=3D=3D =3DCommentaires =3D=3D=3D */p#comm=
+enter, p#afficher_masquer_commentaires{float: right;font-size: 0.9em;}p#com=
+menter a,p#afficher_masquer_commentaires a{font-weight: 700;margin: 13px 0;=
+padding: 2px;}p#afficher_masquer_commentaires a{margin-right: 10px;}a#lien_=
+cache{display: none;}a#commentaires_afficher{display: block;}div#commentair=
+es_masquer{display: none;}div.commentaires_deco2{clear: both;}div.commentai=
+res_deco2 p{margin-bottom: 0;}div.commentaires_deco1 h3{text-transform: upp=
+ercase;}div.commentaires_deco1 ul{margin: 0;}ul#commentaires,ul#commentaire=
+s ul{padding: 0;}ul#commentaires li{list-style-type: none;padding: 0 0 0 10=
+px;}ul#commentaires a{}body.actualite ul#commentaires a,body.article ul#com=
+mentaires a{padding-left: 0;}li.niveau_1_premier{margin-top: 0;}li.niveau_1=
+ ul{}p.commentaires_titre{clear: both;font-weight: 700;margin: 0 0 0.3em;pa=
+dding: 0;}p.commentaires_date,p.commentaires_site{color: #999;font-size: 0.=
+9em;margin: 0;padding: 2px 0;}p.commentaires_site,p.commentaires_corps{}spa=
+n.commentaires_auteur{padding-left: 5px;}div.commentaires_corps{/* border-l=
+eft: 3px solid #999; */}p.repondre{text-align: right;}/* =3D=3D=3D =3DFiche=
+ =3DPageLibre =3D=3D=3D *//*  ligne et colonnage */div.ligne{clear: left;pa=
+dding: 1em 0 0 12px; }div.premiere_ligne{border: 0;padding-top: 0;}div.colo=
+nne{float: left;}div.colonne_deco{/*border-left: 1px dotted;margin-right: 1=
+0px;*/padding: 0 12px 0 0;}div#colonnes-deco{position: relative;}div#barret=
+te{position: absolute;background: #c04501;width: 6px;height: 50px;right: 0;=
+top: 21px;}div.colonne_contenu_sans_encadres p#fil_ariane{padding-right: 5p=
+x;}div.derniere_colonne div.colonne_deco{}div.premiere_colonne div.colonne_=
+deco{}/* styles de paragraphes */div.sansstyle,div.style1,div.style2,div.st=
+yle3{margin: 0 0 1em;line-height:1.6;clear: both;}/* =3D=3D=3D */div.style1=
+{ font-size:1em;color:#232323;}div.style1 h3{color: #3e4047;font: 700 1.3em=
+ "Century Gothic", futura, arial, helvetica, sans-serif;margin: 0;padding-t=
+op: 1.5em;}.style1_deco{ padding:1em 0;}/* =3D=3D=3D */div.style2{ font-siz=
+e:1em;color:#232323;}div.style2 h3{border-top: 5px solid #ffd908;border-bot=
+tom: 1px solid #393b45;color: #3e4047;font-size: 1.1em;font-weight: 700;pad=
+ding: 10px 0;margin: 0;}.style2_deco{ padding: 1em 0;border-bottom:1px soli=
+d #393b45;}/* =3D=3D=3D */div.style3 h3{padding:.7em;margin:0;font-size: 1.=
+3em;font-weight: 400;border-bottom:3px solid #e6e6e6;color:#3e4047;}div.sty=
+le3{ font-size:1em;color:#323232;background:#fff;}.style3_deco{ padding:1em=
+;border-bottom: 5px solid #ffd908;}/********************************=3DFich=
+e =3DRecherche_avancee********************************/.recherche h2{backgr=
+ound:#c04500;margin-bottom:0;}form#recherche_avancee{width: 505px;padding:0=
+ 12px;}#message-recherche{  background:#fff;font-size:1.6em;font-family:"Tr=
+ebuchet MS", sans-serif;color:#644700;line-height:1.4;margin-right:6px;padd=
+ing:20px 12px 0.6em 12px;}div.contenu ul#themes_recherche_avancee{margin: 2=
+em 3em;font-weight: 700;line-height: 180%;list-style: none;}div.contenu ul#=
+themes_recherche_avancee li{padding-left: 10px;list-style: none;background:=
+ no-repeat 0 50%;}form#recherche_avancee legend{display: none;}form#recherc=
+he_avancee p{/*border-bottom: 1px dotted;*/background: transparent url(http=
+://www.u-pec.fr/jsp/styles/defaut/img/tile2_1x4_h.gif) repeat-x 0 100%;clea=
+r: both;overflow: auto;padding: 0 0 1em;}form#recherche_avancee p img{verti=
+cal-align:top;}form#recherche_avancee label{color:#644700;float: left;font-=
+weight: 700;padding-left: 5px;padding-right: 5px;width: 110px;}form#recherc=
+he_avancee label.no_float{float: none;}form#recherche_avancee .ChampSaisie{=
+border:1px solid #c04500;font-size: 1em;font-family: tahoma, arial, helveti=
+ca, sans-serif;padding: 3px;width: 360px;}form#recherche_avancee select.Cha=
+mpSaisie{width: 367px;}form#recherche_avancee p.date .ChampSaisie{width: 60=
+px;}form#recherche_avancee p.parcourir .ChampSaisie{width: 223px;}form#rech=
+erche_avancee p.boutons,form#envoi_ami p.boutons{/*background-image: none;b=
+order: 0;*/padding:1em 0 5px 70px;background:#fff;margin: -12px -208px 0 25=
+0px;}.contenu form#recherche_avancee .submit,.contenu form#recherche_avance=
+e .reset,form#envoi_ami p.boutons input.submit,form#envoi_ami p.boutons inp=
+ut.reset{cursor: pointer;border:0;color:#fff;font-size:1em;font-weight:700;=
+text-align:right;padding:4px 3px 2px 10px;}.contenu form#recherche_avancee =
+.reset,form#envoi_ami p.boutons input.reset{background:#a5a2a2 none repeat =
+scroll 0 0;}.contenu form#recherche_avancee .submit,form#envoi_ami p.bouton=
+s input.submit{background:#ad3e00 none repeat scroll 0 0;}/* Recherche avec=
+ encadres */div#contenu_avec_encadres form#recherche_avancee {width: 475px;=
+ }div#contenu_avec_encadres form#recherche_avancee .ChampSaisie {width: 320=
+px; }div#contenu_avec_encadres form#recherche_avancee p.date .ChampSaisie {=
+width:60px;}div#contenu_avec_encadres form#recherche_avancee select.ChampSa=
+isie {width: 330px; }div#contenu_avec_encadres form#recherche_avancee p.par=
+courir .ChampSaisie {width:187px;}div#contenu_avec_encadres form#recherche_=
+avancee p.boutons, form#envoi_ami p.boutons {margin-right: 0; }/* page r=E9=
+sultats de recherche  */p#precisions_resultats{font-size:1.6em;font-family:=
+"Trebuchet MS", sans-serif;color:#644700;line-height:1.4;margin-right:6px;p=
+adding:20px 12px 0.6em 12px;}p#recherche_avancee_precision{margin: 0 10px 1=
+em;font-weight: 700;}ul#liste_resultats{padding:0 12px 0 12px;list-style: n=
+one;margin:0;}ul#liste_resultats li{border-bottom: 1px solid #9c9c9c;margin=
+-bottom: 0.7em;padding-bottom: 0.7em;width: 505px;}p#recherche_avancee_modi=
+fication{padding:20px 0 8px 8px;background:#fff url(http://www.u-pec.fr/jsp=
+/styles/defaut/img/bordure_double.gif) repeat-x 0 100%;color:#c04500;font-w=
+eight:700;border-top:1px solid #9C9C9C;margin:-9px 6px 0 250px;}p#resultats=
+_recherche_navigation{padding:5px 0 10px 8px;background:#fff;margin:0 6px 0=
+ 250px;color:#c04500;font-weight:700;}p#resultats_recherche_navigation em{f=
+ont-style: normal;}a.precedent,a.suivant,a.premier,a.dernier{font-size: 0.9=
+em;margin: 0 0 10px 10px;padding: 2px;}/* =3D=3D=3D Listes d'affichage =3D=
+=3D=3D */div.contenu ul.liste-objets{margin: 0;padding: 0;}body ul.liste-ob=
+jets li.avec_vignette,body div#encadres ul.liste-objets li.avec_vignette{pa=
+dding-left: 0;background: none;}ul.liste-documents li,ul.liste-actualites l=
+i,ul.liste-articles li{border-bottom: 1px solid #9c9c9c;clear: left;list-st=
+yle-type: none;margin: 0 0 1em;padding: 0 0 .8em 0;}ul.liste-documents li a=
+,ul.liste-actualites a,ul.liste-articles a{padding-left: 0;}ul.liste-docume=
+nts li span,ul.liste-actualites li span,ul.liste-articles li span{display: =
+block;}ul.liste-documents em,ul.liste-actualites em,ul.liste-articles em{fo=
+nt-size: 1.1em;font-style: normal;font-weight: 500;margin: 0;padding: 0;}ul=
+.liste-documents a.telecharger-fichiers{display: block;}ul.liste-documents =
+span.soustitre-liste,ul.liste-actualites span.soustitre-liste,ul.liste-arti=
+cles span.soustitre-liste{font-size: 1em;font-weight: 700;color:#844f1d;}ul=
+.liste-documents span.date-liste,ul.liste-actualites span.date-liste,ul.lis=
+te-articles span.date-liste{color: #000;font-size:.95em;}ul.liste-documents=
+ p,ul.liste-actualites p,ul.liste-articles p{font-size: 1em;margin: 0;paddi=
+ng: 0;}div.contenu ul.liste-pardefaut,div.contenu ul.liste-annuaire{margin-=
+left: 1.5em;}ul.liste-pardefaut li{list-style-type: disc;}ul.fluxrss li{mar=
+gin: 0 0 1em;}ul.fluxrss li span.descriptionrss{display: block;}.img-liste{=
+clear: left;float: left;margin: 0 10px 0 0;}ul.liste-articles span.redac-li=
+ste{font-style: italic;}/* =3D=3D=3D r=E9dacteur - date modif - contact rub=
+rique =3D=3D=3D */p#redacteur,p#date_modification,p#contact_rubrique{margin=
+: 0 12px 0 0;text-align: right;clear: both;}/************************=3DBlo=
+c =3DEncadres*************************/div#encadres{float: left;font-size: =
+0.95em;line-height:1.5;padding: 0;position: relative;top: -20px;width: 233p=
+x;}div#encadres ol{list-style: decimal;margin-left: 1.5em;}div#encadres ul =
+li{padding-left: 10px;list-style-type: none;}/*4 types d'encadres: - Generi=
+que- De rubrique- De fiche- De recherche contextuelle*//* =3D=3D=3D encadre=
+s generiques =3D=3D=3D */div.encadre_generique,div.encadre_rubrique{backgro=
+und: #fff url(http://www.u-pec.fr/jsp/styles/defaut/img/bordure_encadre.gif=
+) no-repeat 0 100%;margin: 0;padding: 0;color:#2d2e33;width:228px;}div.enca=
+dre_generique h3,div.encadre_rubrique h3{font: normal 1.3em Arial, sans-ser=
+if;text-transform: uppercase;background: #c04500;color: #fff;padding: 31px =
+1em 1px 1em;  margin: 0;                       }.encadre_generique_contenu,=
+.encadre_rubrique_contenu{padding: 1.3em;}/* ------------------------------=
+------------------encadres de fiche, de navigation rubrique, automatique de=
+ fiche------------------------------------------------ */div.encadre_fiche,=
+div.encadre_auto_fiche,div.encadre_nav_auto,div.encadre_recherche{backgroun=
+d: #fff url(http://www.u-pec.fr/jsp/styles/defaut/img/bordure_encadre.gif) =
+no-repeat 0 100%;margin: 0;padding: 1.2em 1em;color:#2d2e33;width:206px;}di=
+v.encadre_fiche h3,div.encadre_auto_fiche h3,div.encadre_nav_auto h3,div.en=
+cadre_recherche h3{font: 700 1.2em Arial, sans-serif;text-transform:upperca=
+se;color:#26272e;}div.encadre_generique a,div.encadre_rubrique a,div.encadr=
+e_fiche a,div.encadre_auto_fiche a,div.encadre_nav_auto a,div.encadre_reche=
+rche a{color:#c04500;text-decoration:none;}div.encadre_generique a:hover,di=
+v.encadre_rubrique a:hover,div.encadre_fiche a:hover,div.encadre_auto_fiche=
+ a:hover,div.encadre_nav_auto a:hover,div.encadre_recherche a:hover{text-de=
+coration:underline;}div.encadre_auto_fiche ul#telecharger{margin: 0;padding=
+: 0;}/* =3D=3D=3D Type de fichier-joint =3D=3D=3D */ul#telecharger{margin: =
+0.5em 0 0 0;padding: 0;position: relative;}ul#telecharger li{/*background-c=
+olor: transparent;background-position: 0 0.3em;background-repeat: no-repeat=
+;background-image: url(http://www.u-pec.fr/jsp/styles/defaut/img/pictos/def=
+aut.png);padding: 5px 0 5px 20px;*/display: block;list-style-image: none;li=
+st-style-type: none;margin: 0;padding: 5px 0;position: relative;}/*ul#telec=
+harger li.pdf{background-image: url(http://www.u-pec.fr/jsp/styles/defaut/i=
+mg/pictos/pdf.png);}ul#telecharger li.doc{background-image: url(http://www.=
+u-pec.fr/jsp/styles/defaut/img/pictos/msword.png);}ul#telecharger li.xls{ba=
+ckground-image: url(http://www.u-pec.fr/jsp/styles/defaut/img/pictos/msexce=
+l.png);}ul#telecharger li.ppt{background-image: url(http://www.u-pec.fr/jsp=
+/styles/defaut/img/pictos/mspowerpoint.png);}ul#telecharger li.sxw{backgrou=
+nd-image: url(http://www.u-pec.fr/jsp/styles/defaut/img/pictos/ooo_texte.pn=
+g);}ul#telecharger li.sxc{background-image: url(http://www.u-pec.fr/jsp/sty=
+les/defaut/img/pictos/ooo_classeur.png);}ul#telecharger li.sxi{background-i=
+mage: url(http://www.u-pec.fr/jsp/styles/defaut/img/pictos/ooo_presentation=
+.png);}ul#telecharger li.image{background-image: url(http://www.u-pec.fr/js=
+p/styles/defaut/img/pictos/image.png);}ul#telecharger li.defaut{background-=
+image: url(http://www.u-pec.fr/jsp/styles/defaut/img/pictos/defaut.png);}di=
+v#encadres ul#telecharger li{background-position: 0 50%;}*/div#encadres ul#=
+telecharger li a{vertical-align: top;line-height: 20px;}div#encadres ul#tel=
+echarger li img{margin-left: 7px; }/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3Dencadres de recherche=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D */div.encadre_recherche label{display: block;ma=
+rgin: 0 0 0.3em;}div.encadre_recherche legend{display: none;}div.encadre_re=
+cherche input,div.encadre_recherche select{font-size: 1.2em;}div.encadre_re=
+cherche .champ-saisie{width: 170px;}div.encadre_recherche select{width: 170=
+px;}div.encadre_recherche p.parcourir input.champ-saisie{width: 130px;}div.=
+encadre_recherche p.checkbox label{display: inline;}div.encadre_recherche i=
+mg{vertical-align: bottom;}div.encadre_recherche p.parcourir input.valider,=
+div.encadre_recherche .submit,div.encadre_recherche .reset{cursor: pointer;=
+border:0;color:#fff;font-size:1em;font-weight:700;text-align:right;padding:=
+ 4px 3px 2px 10px;background:#ad3e00;}div.encadre_recherche .reset{backgrou=
+nd:#a5a2a2 none repeat scroll 0 0;}div.firstencadre{border-top: 20px solid =
+#fff;}/* Ecran de connexion - demande de mot de passe */body.recherche form=
+.gestion{padding-left: 10px;}body.recherche form.gestion #valider-formulair=
+e{float:none;padding-top:1em;}body.recherche form.en-colonne label{float:le=
+ft;font-weight:700;width:200px;}/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3DBloc =3DPied de Page=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D */div#pied_deco{clear:both;margin:20px auto =
+10px;width:955px;position:relative;}div#pied_deco #nav_deco{position:absolu=
+te;top:-32px;left:0;width:5px;height:11px;background:#4e5262;}div#pied_page=
+{background: url(http://www.u-pec.fr/jsp/styles/defaut/img/footer_bgd.gif) =
+repeat-y;clear: both;padding: 0;position: relative;margin: 0;min-height:130=
+px}div#pied_page a:hover{text-decoration: underline;}/* =3D=3D=3D Bloc 1 =
+=3D=3D=3D */#menu_outils_0{width:109px;float:left;border-right:3px solid #f=
+ff;padding-bottom:5px;}#menu_outils_1{width:112px;float:left;}#adresse{floa=
+t:left;padding:10px 10px 10px 15px;width:337px;}div#logos_universite{displa=
+y: block;float: right;height: 97px;width: 102px;}div#logos_universite img{d=
+isplay: block;}div#logos_universite img#logo_upec{margin-bottom: 20px;}#men=
+u_outils_2{border-right:3px solid #fff;float:left;width:140px;}div#pied_pag=
+e #menu_outils_2 ul{padding-top: 8px;}div#pied_page #menu_outils_2 ul.menu =
+li{margin-top: 0;margin-bottom: 0;line-height: 215%;}#menu_outils_3{width:2=
+26px;float:left;}div#pied_page .menu li{margin: 1em 10px 1em 12px;}div#pied=
+_page a{ color:#fff;font-size:1.1em;text-decoration:none;}div#pied_page a#h=
+aut_page{cursor: pointer;display:block;margin:0 0 34px 0;font-size:1em;font=
+-family: "Trebuchet MS", sans-serif;background: transparent url(http://www.=
+u-pec.fr/jsp/styles/defaut/img/haut_page.gif) no-repeat 90% 2px;padding-rig=
+ht:15px}/* =3DAdresse bas de page =3D=3D=3D*/#adresse p{ margin-top:27px; }=
+#adresse p, div#pied_page address{font-style:normal;font-size:1em;font-fami=
+ly: "Trebuchet MS", sans-serif;color:#2e3a43;}#menu_outils_3 form{ margin: =
+.5em 0 -.3em 12px;}#menu_outils_3 select{border:1px solid #000;color:#333;f=
+ont: normal normal 1em Arial, sans-serif;width:170px;}#menu_outils_3 form .=
+submit{vertical-align: middle;vertical-align: bottom;}/* =3D=3D=3D outils =
+=3D=3D=3D */ul#outils, #boutons_actions{display:none; }/*ul#outils li{borde=
+r-left: 1px solid;display: inline;padding: 0 0 0 1em;margin: 0 1em 0 0;}ul#=
+outils li:first-child{border-left: 0;padding: 0;}*//* =3D=3D=3D Formulaires=
+ R=E9dacteur =3D=3D=3D */form.formulaire_redacteur{background-color: #eee;m=
+argin: 0 0 1em;padding: 1em 0.5em;}form.formulaire_redacteur p{margin: 0 0 =
+1.5em;}form.formulaire_redacteur label{font-weight: 700;}form.formulaire_re=
+dacteur p.obligatoire label{color: red;}form.formulaire_redacteur p.obligat=
+oire input,form.formulaire_redacteur p.obligatoire textarea,form.formulaire=
+_redacteur p.obligatoire select{border: 1px solid OrangeRed;background-colo=
+r: Bisque;}form.formulaire_redacteur label.radio,form.formulaire_redacteur =
+label.checkbox{display: inline;margin-right: 1em;}form.formulaire_redacteur=
+ p.validation{text-align: right;}form.formulaire_redacteur span.historyBack=
+{font-weight: 700;cursor: pointer;}/* =3D=3D=3D disposition 1 =3D=3D=3D */f=
+orm.disposition1 label,form.disposition1 strong{display: block;margin: 0 0 =
+0.5em;}/* =3D=3D=3D disposition 2 =3D=3D=3D */form.disposition2 p{}form.dis=
+position2 label,form.disposition2 strong{display: block;float: left;width: =
+160px;}form.disposition2 label.radio,form.disposition2 label.checkbox{width=
+: auto;display: inline;float: none;}/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3DContexte =3DPopup=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D */body.popup{background: #fff;padding: 10px;font-size: 0=
+.7em;}body.popup h3{color: #000;}body.popup label{font-weight: 700;display:=
+ block;margin: 0 0 0.3em;}/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D ONGLETS tabnav POPUP=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D */ul#tabnav{color: #000;font-family: Arial, Helvetica, sans-se=
+rif;font-size: 8pt;font-weight: 500;list-style-type: none;height: 22px;bord=
+er-bottom: 1px solid #000;padding-left:0;margin:0;}* html ul#tabnav{padding=
+-bottom: 25px;}ul#tabnav li{float: left;height: 22px;margin: -1px 2px 0 0;b=
+order: 1px solid #000;padding:0;}ul#tabnav li.o_indispo{display:none;}ul#ta=
+bnav li.active{border-bottom: 1px solid #fff;background-color: #fff;font-we=
+ight:700;}ul#tabnav li.active a{color: #000;}#tabnav a{float: left;display:=
+ block;color: #000;text-decoration: none;padding:4px 4px 5px;}#tabnav a:hov=
+er{background: #fff;}/* envoie ami */form#envoi_ami{margin: 1em 10px;width:=
+ 505px;}form#envoi_ami p{display: block;clear: both;padding: 0 0 0.7em;}for=
+m#envoi_ami label{display: block;clear: right;float: left;width: 110px;}for=
+m#envoi_ami input{border: 1px solid;padding: 2px 0;clear: right;font-family=
+: tahoma, arial, helvetica, sans-serif;width: 350px;margin-bottom: 0.5em;}f=
+orm#envoi_ami textarea{border: 1px solid;width: 345px;}form#envoi_ami p.bou=
+tons{border: 0;}form#envoi_ami p.boutons input{width: auto;}form#envoi_ami =
+p#champs_obligatoires{border: 0;}body#newsletter div#page{width: 800px;}bod=
+y#newsletter h1{height: auto;width: auto;}body#newsletter h1 img{display: b=
+lock;}body#newsletter div#contenu{background: #e6e6e6;border-right: 5px sol=
+id #323339;}/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D DI=
+VERS=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D */#divsts{displa=
+y: none;}span.highlight{font-weight: 700;}	</style>	<!--[if lte IE 8]>	<sty=
+le type=3D"text/css" media=3D"screen">		body#newsletter div.style1,		body#n=
+ewsletter div.style2,		body#newsletter div.style3{		  height: 1%;		}	</styl=
+e><![endif]-->		</head><body id=3D"newsletter" onload=3D"window.focus();"><=
+div id=3D"page">		<!-- debut lien --><p>Si vous n'arrivez pas &agrave; lire=
+ correctement cet e-mail, cliquez <a href=3D"http://www.u-pec.fr/jsp/newsle=
+tter.jsp?FROMMAIL=3D1&ID_NEWSLETTER=3D3369_1289222771700&FORMAT_ENVOI=3D0&I=
+D_MODELE_MAIL=3D3369&EMAIL=3D">ici</a></p><!-- fin lien -->		<h1><img src=
+=3D"http://www.u-pec.fr/medias/photo/photo_1268239496017.jpg" alt=3D"http:/=
+/www.u-pec.fr/" title=3D"http://www.u-pec.fr/" /></h1>  <div id=3D"contenu"=
+>							<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">						<tr>							<td width=3D"10">&nbsp;</td>							<td align=3D"left" =
+valign=3D"top" width=3D"760">												<div class=3D"sansstyle">			<div s=
+tyle=3D"text-align: left;"><strong><br />La lettre de l&#39;UPEC n&deg;3</s=
+trong> - Novembre 2010</div><em> 			</em>	</div> <!-- fin .sansstyle -->			=
+					</td>		<td width=3D"10">&nbsp;</td>					</tr>				</table>				<table wi=
+dth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">						<tr>			=
+				<td width=3D"10">&nbsp;</td>							<td align=3D"left" valign=3D"top" wi=
+dth=3D"760">												<div class=3D"style3">	<h3>A la Une</h3>	<div class=
+=3D"style3_deco"><ul class=3D"liste-objets liste-actualites"><li class=3D"a=
+vec_vignette"><img class=3D"img-liste" src=3D"http://www.u-pec.fr/medias/ph=
+oto/v_meet-innov_1288867311717.jpg" width=3D"60" alt=3D"" /><em><a href=3D"=
+http://www.u-pec.fr/medias/actualites/meet-innov-2010-l-upec-se-valorise-au=
+-rendez-vous-des-professionnels-de-l-innovation--388382.kjsp?RH=3DWEB">MEET=
+ INNOV 2010, l=92UPEC se valorise au rendez-vous des professionnels de l=92=
+Innovation !</a>&nbsp;</em><p>Apr=E8s l=92avoir accueilli en 2009, l=92UPEC=
+ a particip=E9 activement le 14 octobre =E0 la convention d=92affaires Meet=
+ Innov organis=E9e par l=92Agence du D=E9veloppement du Val de Marne.  L=92=
+occasion pour l=92universit=E9 de pr=E9senter ses activit=E9s de valorisati=
+on, de recherche et de formation continue aux acteurs de l=92innovation. <a=
+ href=3D"http://www.u-pec.fr/medias/actualites/meet-innov-2010-l-upec-se-va=
+lorise-au-rendez-vous-des-professionnels-de-l-innovation--388382.kjsp?RH=3D=
+WEB">Lire la suite</a></p><div class=3D"separateur"></div></li><li class=3D=
+"avec_vignette"><img class=3D"img-liste" src=3D"http://www.u-pec.fr/medias/=
+photo/v_87770471_1288793823270.jpg" width=3D"60" alt=3D"" /><em><a href=3D"=
+http://www.u-pec.fr/pratiques/universite/presentation/une-equipe-de-l-upec-=
+decouvre-le-marqueur-du-cancer-388327.kjsp?RH=3DWEB">Une =E9quipe de l'UPEC=
+ d=E9couvre le marqueur du cancer</a>&nbsp;</em><p>Une mol=E9cule absente d=
+e la plupart des tissus normaux chez l=92homme a =E9t=E9 d=E9couverte dans =
+11 types de cancers par une =E9quipe de chercheurs de l=92UPEC. Cette d=E9c=
+ouverte pourrait permettre de d=E9tecter pr=E9cocement certains cancers. <a=
+ href=3D"http://www.u-pec.fr/pratiques/universite/presentation/une-equipe-d=
+e-l-upec-decouvre-le-marqueur-du-cancer-388327.kjsp?RH=3DWEB">Lire la suite=
+</a></p><div class=3D"separateur"></div></li><li class=3D"avec_vignette"><i=
+mg class=3D"img-liste" src=3D"http://www.u-pec.fr/medias/photo/v_visuel-4e-=
+forum-entreprises_1286443396919.jpg" width=3D"60" alt=3D"" /><em><a href=3D=
+"http://www.u-pec.fr/entreprises-et-partenaires/actualites/participez-au-4e=
+-forum-entreprises-de-la-faculte-des-sciences-et-technologie-387016.kjsp?RH=
+=3DWEB">Participez au 4e Forum Entreprises de la facult=E9 des sciences et =
+technologie</a>&nbsp;</em><span class=3D"date-liste">10 novembre 2010</span=
+> <!-- fin .date-liste --><p>Pour la 4e ann=E9e cons=E9cutive, l=92Universi=
+t=E9 Paris-Est Cr=E9teil organise =E0 la facult=E9 des sciences et technolo=
+gie, en partenariat avec le Conseil g=E9n=E9ral du Val-de-Marne et l'Agence=
+ de d=E9veloppement du Val-de-Marne, une journ=E9e de rencontre entre =E9tu=
+diants et entreprises. <a href=3D"http://www.u-pec.fr/entreprises-et-parten=
+aires/actualites/participez-au-4e-forum-entreprises-de-la-faculte-des-scien=
+ces-et-technologie-387016.kjsp?RH=3DWEB">Lire la suite</a></p><div class=3D=
+"separateur"></div></li></ul></div> <!-- fin .style3_deco --></div> <!-- fi=
+n .style3 -->							</td>		<td width=3D"10">&nbsp;</td>					</tr>				</tabl=
+e>				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+">						<tr>							<td width=3D"10">&nbsp;</td>							<td align=3D"left" va=
+lign=3D"top" width=3D"375">												<div class=3D"style3">	<h3>Formation=
+</h3>	<div class=3D"style3_deco"><ul class=3D"liste-objets liste-actualites=
+"><li class=3D"avec_vignette"><img class=3D"img-liste" src=3D"http://www.u-=
+pec.fr/medias/photo/v_logo-qualicert-200px_1286464411045.jpg" width=3D"60" =
+alt=3D"" /><em><a href=3D"http://www.u-pec.fr/pratiques/universite/presenta=
+tion/l-iae-gustave-eiffel-obtient-la-certification-qualicert-384233.kjsp?RH=
+=3DWEB">L'IAE Gustave Eiffel obtient la certification Qualicert</a>&nbsp;</=
+em><p>Un gage incontestable de la qualit=E9 de services offerte par l'IAE =
+=E0 ses =E9tudiants, partenaires et autorit=E9s de tutelle. <a href=3D"http=
+://www.u-pec.fr/pratiques/universite/presentation/l-iae-gustave-eiffel-obti=
+ent-la-certification-qualicert-384233.kjsp?RH=3DWEB">Lire la suite</a></p><=
+div class=3D"separateur"></div></li><li class=3D"avec_vignette"><img class=
+=3D"img-liste" src=3D"http://www.u-pec.fr/medias/photo/v_ak4-300px_12840405=
+13099.jpg" width=3D"60" alt=3D"" /><em><a href=3D"http://www.u-pec.fr/etudi=
+ant/actualites/apprentissage-handicap-et-reussite-l-experience-d-une-etudia=
+nte-de-l-iut-creteil-vitry-375839.kjsp?RH=3DWEB">Apprentissage, handicap et=
+ r=E9ussite : l'exp=E9rience d'une =E9tudiante de l'IUT Cr=E9teil-Vitry</a>=
+&nbsp;</em><p>Agn=E8s Komur=E7u =E9tudiante apprentie de l'IUT Cr=E9teil-Vi=
+try chez L'Or=E9al. <a href=3D"http://www.u-pec.fr/etudiant/actualites/appr=
+entissage-handicap-et-reussite-l-experience-d-une-etudiante-de-l-iut-cretei=
+l-vitry-375839.kjsp?RH=3DWEB">Lire la suite</a></p><div class=3D"separateur=
+"></div></li><li class=3D"avec_vignette"><img class=3D"img-liste" src=3D"ht=
+tp://www.u-pec.fr/medias/photo/v_affiche-geomarketing-bat-1278318991557-127=
+9874624628_1287749103311.jpg" width=3D"60" alt=3D"" /><em><a href=3D"http:/=
+/www.u-pec.fr/etudiant/actualites/ouverture-du-master-geomarketing-en-appre=
+ntissage-a-l-upec-386729.kjsp?RH=3DWEB">Ouverture du master G=E9omarketing =
+en apprentissage =E0 l=92UPEC</a>&nbsp;</em><p>=C0 quel angle de rue ouvrir=
+ une boutique S=E9phora, une agence bancaire, implanter un arr=EAt de bus ?=
+ Les g=E9omarketeurs sont l=E0 pour y r=E9pondre. <a href=3D"http://www.u-p=
+ec.fr/etudiant/actualites/ouverture-du-master-geomarketing-en-apprentissage=
+-a-l-upec-386729.kjsp?RH=3DWEB">Lire la suite</a></p><div class=3D"separate=
+ur"></div></li><li class=3D"avec_vignette"><img class=3D"img-liste" src=3D"=
+http://www.u-pec.fr/medias/photo/v_photo_1262704411687.jpg" width=3D"60" al=
+t=3D"" /><em><a href=3D"http://www.u-pec.fr/adulte-en-reprise-d-etudes/actu=
+alites/sante-et-societe-un-nouveau-parcours-economie-de-la-sante-au-departe=
+ment-d-economie-de-la-fseg-363803.kjsp?RH=3DWEB">Sant=E9 et soci=E9t=E9 : u=
+n nouveau parcours "Economie de la sant=E9" au d=E9partement d'=E9conomie d=
+e la FSEG</a>&nbsp;</em><span class=3D"date-liste">1 septembre 2010</span> =
+<!-- fin .date-liste --><p>Ce parcours, accessible en licence 3 et master 1=
+, permet d'acqu=E9rir des comp=E9tences en techniques quantitatives pour le=
+s appliquer au domaine de la sant=E9. <a href=3D"http://www.u-pec.fr/adulte=
+-en-reprise-d-etudes/actualites/sante-et-societe-un-nouveau-parcours-econom=
+ie-de-la-sante-au-departement-d-economie-de-la-fseg-363803.kjsp?RH=3DWEB">L=
+ire la suite</a></p><div class=3D"separateur"></div></li></ul></div> <!-- f=
+in .style3_deco --></div> <!-- fin .style3 -->																<div class=3D=
+"style3">	<h3>Culture - Sport</h3>	<div class=3D"style3_deco"><ul class=3D"=
+liste-objets liste-actualites"><li class=3D"avec_vignette"><img class=3D"im=
+g-liste" src=3D"http://www.u-pec.fr/medias/photo/v_amelie-debray_1288011459=
+305.jpg" width=3D"60" alt=3D"" /><em><a href=3D"http://www.u-pec.fr/pratiqu=
+es/universite/exposition-football-amateur-l-esprit-du-sport-regards-croises=
+-france-afrique-du-sud--387107.kjsp?RH=3DWEB">Exposition "Football amateur,=
+ l'esprit du sport. Regards crois=E9s France Afrique du Sud" </a>&nbsp;</em=
+><span class=3D"date-liste">9 novembre 2010 - 16 d=E9cembre 2010</span> <!-=
+- fin .date-liste --><p>Regards crois=E9s sur une pratique universelle : ph=
+otographier les footballeurs amateurs adultes, dans la pratique de leur pas=
+sion et l=92engouement qu=92elle suscite. <a href=3D"http://www.u-pec.fr/pr=
+atiques/universite/exposition-football-amateur-l-esprit-du-sport-regards-cr=
+oises-france-afrique-du-sud--387107.kjsp?RH=3DWEB">Lire la suite</a></p><di=
+v class=3D"separateur"></div></li><li class=3D"avec_vignette"><img class=3D=
+"img-liste" src=3D"http://www.u-pec.fr/medias/photo/v_vignette-02-200px_128=
+8347738769.jpg" width=3D"60" alt=3D"" /><em><a href=3D"http://www.u-pec.fr/=
+etudiant/actualites/exposition-les-usages-du-parvis-de-la-defense--387719.k=
+jsp?RH=3DWEB">Exposition "Les usages du parvis de La D=E9fense"</a>&nbsp;</=
+em><span class=3D"date-liste">22 octobre 2010 - 17 d=E9cembre 2010</span> <=
+!-- fin .date-liste --><p>Exposition r=E9alis=E9e par les =E9tudiants du pa=
+rcours Espace Public de l'IUP <a href=3D"http://www.u-pec.fr/etudiant/actua=
+lites/exposition-les-usages-du-parvis-de-la-defense--387719.kjsp?RH=3DWEB">=
+Lire la suite</a></p><div class=3D"separateur"></div></li></ul></div> <!-- =
+fin .style3_deco --></div> <!-- fin .style3 -->																<div class=
+=3D"style3">	<h3>PRES</h3>	<div class=3D"style3_deco"><ul class=3D"liste-ob=
+jets liste-actualites"><li class=3D"avec_vignette"><img class=3D"img-liste"=
+ src=3D"http://www.u-pec.fr/medias/photo/v_affiche-aydalot-200px_1284469587=
+448.jpg" width=3D"60" alt=3D"" /><em><a href=3D"http://www.u-pec.fr/enseign=
+ant-chercheur/actualites/le-prix-aydalot-2010-decerne-a-sandrine-gueymard-d=
+octorante-au-lab-urba-de-l-upec-376673.kjsp?RH=3DWEB">Le Prix Aydalot 2010 =
+d=E9cern=E9 =E0 Sandrine Gueymard doctorante au  Lab=92Urba  de l'UPEC</a>&=
+nbsp;</em><p>Le prix international de th=E8se en science r=E9gionale de lan=
+gue fran=E7aise, dit =AB Philippe Aydalot =BB r=E9compense chaque ann=E9e l=
+a meilleure th=E8se francophone en science r=E9gionale. <a href=3D"http://w=
+ww.u-pec.fr/enseignant-chercheur/actualites/le-prix-aydalot-2010-decerne-a-=
+sandrine-gueymard-doctorante-au-lab-urba-de-l-upec-376673.kjsp?RH=3DWEB">Li=
+re la suite</a></p><div class=3D"separateur"></div></li></ul></div> <!-- fi=
+n .style3_deco --></div> <!-- fin .style3 -->							</td>		<td width=3D"10"=
+>&nbsp;</td>				<td align=3D"left" valign=3D"top" width=3D"375">											=
+	<div class=3D"style3">	<h3>Colloques</h3>	<div class=3D"style3_deco"><ul c=
+lass=3D"liste-objets liste-actualites"><li class=3D"avec_vignette"><img cla=
+ss=3D"img-liste" src=3D"http://www.u-pec.fr/medias/photo/v_md001400-200px_1=
+288168598887.jpg" width=3D"60" alt=3D"" /><em><a href=3D"http://www.u-pec.f=
+r/pratiques/universite/presentation/3eme-journee-actualites-de-la-recherche=
+-en-reeducation-neurologique-l-enfant--387486.kjsp?RH=3DWEB">3=E8me journ=
+=E9e "Actualit=E9s de la Recherche en r=E9=E9ducation neurologique : l'enfa=
+nt"</a>&nbsp;</em><span class=3D"date-liste">26 novembre 2010</span> <!-- f=
+in .date-liste --><p>Journ=E9e d'=E9tude =E0 destination des professionnels=
+ de la r=E9=E9ducation et de la r=E9adaptation, organis=E9e par l'Institut =
+de Formation en Ergoth=E9rapie (IFE). <a href=3D"http://www.u-pec.fr/pratiq=
+ues/universite/presentation/3eme-journee-actualites-de-la-recherche-en-reed=
+ucation-neurologique-l-enfant--387486.kjsp?RH=3DWEB">Lire la suite</a></p><=
+div class=3D"separateur"></div></li><li class=3D"avec_vignette"><img class=
+=3D"img-liste" src=3D"http://www.u-pec.fr/medias/photo/v_bio200x200_1288710=
+577787.jpg" width=3D"60" alt=3D"" /><em><a href=3D"http://www.u-pec.fr/prat=
+iques/universite/presentation/5e-edition-du-colloque-ingenierie-ecologique-=
+et-biodiversite--388107.kjsp?RH=3DWEB">5e =E9dition du colloque "Ing=E9nier=
+ie =E9cologique et Biodiversit=E9"</a>&nbsp;</em><span class=3D"date-liste"=
+>9 d=E9cembre 2010 - 10 d=E9cembre 2010</span> <!-- fin .date-liste --><p>O=
+rganis=E9 par le Groupe d=92Application de l=92Ing=E9nierie des Ecosyst=E8m=
+es (Gai=E9-EECA). <a href=3D"http://www.u-pec.fr/pratiques/universite/prese=
+ntation/5e-edition-du-colloque-ingenierie-ecologique-et-biodiversite--38810=
+7.kjsp?RH=3DWEB">Lire la suite</a></p><div class=3D"separateur"></div></li>=
+<li class=3D"avec_vignette"><img class=3D"img-liste" src=3D"http://www.u-pe=
+c.fr/medias/photo/v_affiche-discours-sur-le-mineur-final-7_1286966340153.jp=
+g" width=3D"60" alt=3D"" /><em><a href=3D"http://www.u-pec.fr/pratiques/uni=
+versite/presentation/colloque-international-discours-sur-le-mineur--370560.=
+kjsp?RH=3DWEB">Colloque international "Discours sur le mineur"</a>&nbsp;</e=
+m><span class=3D"date-liste">4 novembre 2010 - 6 novembre 2010</span> <!-- =
+fin .date-liste --><p>Organis=E9 par l'Institut des Mondes Anglophone, Germ=
+anique et Roman (IMAGER), ce colloque propose une r=E9flexion sur la relati=
+vit=E9 du concept de mineur, sa fragilit=E9 =E9pist=E9mologique mais aussi =
+sa n=E9cessit=E9. <a href=3D"http://www.u-pec.fr/pratiques/universite/prese=
+ntation/colloque-international-discours-sur-le-mineur--370560.kjsp?RH=3DWEB=
+">Lire la suite</a></p><div class=3D"separateur"></div></li></ul><br /></di=
+v> <!-- fin .style3_deco --></div> <!-- fin .style3 -->																<div=
+ class=3D"style3">	<h3>Derni&egrave;res publications</h3>	<div class=3D"sty=
+le3_deco"><ul class=3D"liste-objets liste-actualites"><li class=3D"avec_vig=
+nette"><img class=3D"img-liste" src=3D"http://www.u-pec.fr/medias/photo/v_l=
+e-figaro-litteraire-couverture_1288696456143.jpg" width=3D"60" alt=3D"" /><=
+em><a href=3D"http://www.u-pec.fr/enseignant-chercheur/actualites/le-figaro=
+-litteraire-vie-d-un-hebdomadaire-politique-et-culturel-1946-1971--387833.k=
+jsp?RH=3DWEB">Le Figaro litt=E9raire. Vie d=92un hebdomadaire politique et =
+culturel (1946-1971)</a>&nbsp;</em><span class=3D"date-liste">28 octobre 20=
+10</span> <!-- fin .date-liste --><p>Un livre de Claire Blandin, ma=EEtre d=
+e conf=E9rences en histoire contemporaine =E0 la Facult=E9 des lettres, lan=
+gues et sciences humaines =E0 l=92UPEC et membre du CRHEC (Centre de recher=
+che en histoire europ=E9enne compar=E9e) <a href=3D"http://www.u-pec.fr/ens=
+eignant-chercheur/actualites/le-figaro-litteraire-vie-d-un-hebdomadaire-pol=
+itique-et-culturel-1946-1971--387833.kjsp?RH=3DWEB">Lire la suite</a></p><d=
+iv class=3D"separateur"></div></li><li class=3D"avec_vignette"><img class=
+=3D"img-liste" src=3D"http://www.u-pec.fr/medias/photo/v_geographie-couv_12=
+86786601366.jpg" width=3D"60" alt=3D"" /><em><a href=3D"http://www.u-pec.fr=
+/pratiques/universite/presentation/la-geographie-dans-le-monde-anglophone-e=
+space-et-identite-384758.kjsp?RH=3DWEB">La g=E9ographie dans le monde anglo=
+phone : espace et identit=E9</a>&nbsp;</em><span class=3D"date-liste">5 oct=
+obre 2010</span> <!-- fin .date-liste --><p>Sous la direction deux membres =
+du laboratoire IMAGER : Marie-Fran=E7oise Alamichel, professeure de langue,=
+ litt=E9rature et civilisation du Moyen Age anglais et Olivier Brossard, Ma=
+=EEtre de conf=E9rences en litt=E9rature am=E9ricaine. <a href=3D"http://ww=
+w.u-pec.fr/pratiques/universite/presentation/la-geographie-dans-le-monde-an=
+glophone-espace-et-identite-384758.kjsp?RH=3DWEB">Lire la suite</a></p><div=
+ class=3D"separateur"></div></li><li class=3D"avec_vignette"><img class=3D"=
+img-liste" src=3D"http://www.u-pec.fr/medias/photo/v_couverture-f-dupeyron-=
+lafay_1285765149055.jpg" width=3D"60" alt=3D"" /><em><a href=3D"http://www.=
+u-pec.fr/enseignant-chercheur/actualites/l-autobiographie-de-thomas-de-quin=
+cey-383317.kjsp?RH=3DWEB">L'autobiographie de Thomas de Quincey</a>&nbsp;</=
+em><span class=3D"date-liste">27 septembre 2010</span> <!-- fin .date-liste=
+ --><p>Un livre de Fran=E7oise Dupeyron-Lafay, professeur de litt=E9rature =
+britannique =E0 la Facult=E9 des lettres, langues et sciences humaines de l=
+'Universit=E9 Paris-Est Cr=E9teil. <a href=3D"http://www.u-pec.fr/enseignan=
+t-chercheur/actualites/l-autobiographie-de-thomas-de-quincey-383317.kjsp?RH=
+=3DWEB">Lire la suite</a></p><div class=3D"separateur"></div></li><li class=
+=3D"avec_vignette"><img class=3D"img-liste" src=3D"http://www.u-pec.fr/medi=
+as/photo/v_la-ballade-de-lila-k-188x300_1285238143838.gif" width=3D"60" alt=
+=3D"" /><em><a href=3D"http://www.u-pec.fr/pratiques/universite/presentatio=
+n/la-ballade-de-lila-k-382210.kjsp?RH=3DWEB">La ballade de Lila K</a>&nbsp;=
+</em><span class=3D"date-liste">23 septembre 2010</span> <!-- fin .date-lis=
+te --><p>Apr=E8s le succ=E8s d'"Une pi=E8ce mont=E9e", Blandine Le Callet, =
+ma=EEtre de conf=E9rences =E0 l'UFR de lettres, langues et sciences humaine=
+s de latin =E0 l'UPEC, revient  avec un roman d'un tout autre genre. <a hre=
+f=3D"http://www.u-pec.fr/pratiques/universite/presentation/la-ballade-de-li=
+la-k-382210.kjsp?RH=3DWEB">Lire la suite</a></p><div class=3D"separateur"><=
+/div></li></ul></div> <!-- fin .style3_deco --></div> <!-- fin .style3 -->	=
+						</td>		<td width=3D"10">&nbsp;</td>					</tr>				</table>				<table w=
+idth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">						<tr>		=
+					<td width=3D"10">&nbsp;</td>							<td align=3D"left" valign=3D"top" w=
+idth=3D"760">												<div class=3D"sansstyle">			<div style=3D"text-ali=
+gn: center;"><a  href=3D"http://www.u-pec.fr/la-lettre-de-l-upec-formulaire=
+-d-abonnement-348784.kjsp?RH=3DWEB">s&#39;abonner</a> / <a href=3D"http://w=
+ww.u-pec.fr/la-lettre-de-l-upec-formulaire-de-desabonnement-348789.kjsp?RH=
+=3DWEB" >se d&eacute;sabonner</a></div>	</div> <!-- fin .sansstyle -->					=
+			</td>		<td width=3D"10">&nbsp;</td>		</tr>	</table>     </div> <!-- #con=
+tenu -->		<img src=3D"http://www.u-pec.fr/medias/photo/foot-nwsltr-partn4a_=
+1288019549952.jpg" alt=3D"" />					</div> <!-- #page --></body></html>

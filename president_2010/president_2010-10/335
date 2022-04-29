@@ -1,0 +1,131 @@
+Return-Path: <Alain.Bernard@irccyn.ec-nantes.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 2DA1222827
+	for <president@listes.univ-angers.fr>; Fri, 22 Oct 2010 15:35:13 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 202FC114392; Fri, 22 Oct 2010 15:35:13 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp2.univ-nantes.fr [193.52.82.19])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 01A0D114371
+	for <president@univ-angers.fr>; Fri, 22 Oct 2010 15:35:12 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id A69691C0C347
+	for <president@univ-angers.fr>; Fri, 22 Oct 2010 15:35:12 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp2.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id k1QtwBSSbRpx for <president@univ-angers.fr>;
+	Fri, 22 Oct 2010 15:35:12 +0200 (CEST)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 7BE7D1C046EA
+	for <president@univ-angers.fr>; Fri, 22 Oct 2010 15:35:12 +0200 (CEST)
+Received: from mx3.univ-nantes.fr (MX3.univ-nantes.fr [193.52.101.137])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id 808CE279
+	for <daniel.martina@lunam.fr>; Fri, 22 Oct 2010 15:35:12 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mx3.univ-nantes.fr (Postfix) with ESMTP id 74CA9E3D0BA;
+	Fri, 22 Oct 2010 15:35:12 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from mx3.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id J9PAh-y9sqdA; Fri, 22 Oct 2010 15:35:11 +0200 (CEST)
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+Received: from m-smtp.irccyn.ec-nantes.fr (m-smtp.irccyn.ec-nantes.fr [130.66.64.22])
+	by mx3.univ-nantes.fr (Postfix) with ESMTP id C0C0FE3D0A0;
+	Fri, 22 Oct 2010 15:35:11 +0200 (CEST)
+Received: from m-smtp.irccyn.ec-nantes.fr (localhost [127.0.0.1])
+	by m-smtp.irccyn.ec-nantes.fr (Postfix) with ESMTP id 93C161C0F1;
+	Fri, 22 Oct 2010 15:35:11 +0200 (CEST)
+Received: from d-smtp.irccyn.ec-nantes.fr (unknown [130.66.72.32])
+	by m-smtp.irccyn.ec-nantes.fr (Postfix) with ESMTP id 863461C0EF;
+	Fri, 22 Oct 2010 15:35:11 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by d-smtp.irccyn.ec-nantes.fr (Postfix) with ESMTP id 67C9F8403D;
+	Fri, 22 Oct 2010 15:35:11 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at irccyn.ec-nantes.fr
+Received: from d-smtp.irccyn.ec-nantes.fr ([127.0.0.1])
+	by localhost (d-smtp.irccyn.ec-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id jOSLMDo4N5sy; Fri, 22 Oct 2010 15:35:11 +0200 (CEST)
+Received: from localhost (m-webmail.irccyn.ec-nantes.fr [130.66.64.25])
+	by d-smtp.irccyn.ec-nantes.fr (Postfix) with ESMTP id 2787484037;
+	Fri, 22 Oct 2010 15:35:11 +0200 (CEST)
+Received: from 90.94.104.120 ([90.94.104.120]) by
+	webmail.irccyn.ec-nantes.fr (Horde MIME library) with HTTP; Fri, 22 Oct
+	2010 15:35:11 +0200
+Message-ID: <20101022153511.3lfz9j7c00840gk4@webmail.irccyn.ec-nantes.fr>
+Date: Fri, 22 Oct 2010 15:35:11 +0200
+From: Alain.Bernard@irccyn.ec-nantes.fr
+To: Isabelle PENOT <isabelle.penot@lunam.fr>
+Cc: stephane.cassereau@emn.fr, 'Patrick Chedmail'
+	<Patrick.Chedmail@ec-nantes.fr>, alain.bernard@irccyn.ec-nantes.fr,
+	daniel.martina@lunam.fr, president@univ-nantes.fr, Yves GUILLOTIN
+	<president@univ-lemans.fr>, Jacques GIRARDEAU <vpcs@univ-nantes.fr>,
+	Jean-Yves BUZARE <vpcs@univ-lemans.fr>, francis.yguel@lunam.fr
+References: <003701cb71de$49afaf80$dd0f0e80$@penot@lunam.fr>
+In-Reply-To: <003701cb71de$49afaf80$dd0f0e80$@penot@lunam.fr>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) H3 (4.1.4)
+Subject: [president] =?ISO-8859-1?Q?Re:_R=E9union_SATT_/_Grandes_Ecoles?=
+
+Bonjour,
+je suis d=E9sol=E9, je serai en congr=E8s =E0 l'=E9tranger de mardi 26 =E0 =
+jeudi=20=20
+28 inclus.
+Amicalement,
+Alain
+
+Quoting Isabelle PENOT <isabelle.penot@lunam.fr>:
+
+> Bonjour,
+>
+> Afin de vous pr=E9senter l=92=E9tat d=92avancement du projet de SATT Ouest
+> Valorisation et de vous permettre de prendre une position sur votre
+> participation, nous  vous proposons une r=E9union de travail  la semaine
+> prochaine.
+>
+> Voici  ci-dessous nos disponibilit=E9s =E0 Francis Yguel et moi-m=EAme :
+>
+> -mardi 26/10 : journ=E9e (sauf 11h/12h)
+>
+> - mercredi 27/10 : =E0 partir de 14h
+>
+> Vous pourrez nous pr=E9ciser les horaires qui vous conviennent, cet =E9ch=
+ange
+> pouvant avoir lieu PRES,  par t=E9l=E9phone ou par visio.
+>
+>
+>
+> Cordialement,
+>
+>
+>
+> Isabelle PENOT
+> Valorisation de la recherche
+> T=E9l. +33.(0)2.28.08.14.30
+> Mob. 06.78.28.23.12
+> Fax +33.(0)2.28.08.14.01
+> isabelle.penot@lunam.fr
+> L=92Universit=E9 Nantes Angers Le Mans - L=92UNAM
+> P=F4le de recherche et d'enseignement sup=E9rieur
+> www.lunam.fr
+>
+> Immeuble MANNY
+> 19 bis rue La Nou=EB Bras de Fer
+> 44200 NANTES, France
+>
+> lunam
+>
+>
+>
+>
+
+
+

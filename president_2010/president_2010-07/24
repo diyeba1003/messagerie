@@ -1,0 +1,132 @@
+Return-Path: <jocelyne.caboche@snv.jussieu.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id D6F0822827
+	for <president@listes.univ-angers.fr>; Fri,  2 Jul 2010 15:56:53 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id CA7AA114067; Fri,  2 Jul 2010 15:56:53 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from shiva.jussieu.fr (shiva.jussieu.fr [134.157.0.129])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 97E6F114061
+	for <president@univ-angers.fr>; Fri,  2 Jul 2010 15:56:53 +0200 (CEST)
+Received: from mailhost.snv.jussieu.fr (leina.snv.jussieu.fr [134.157.190.10])
+          by shiva.jussieu.fr (8.14.4/jtpda-5.4) with ESMTP id o62DuQ6r058588
+          ; Fri, 2 Jul 2010 15:56:27 +0200 (CEST)
+X-Ids:166
+Received: from [192.168.1.102] (kerozen.snv.jussieu.fr [134.157.184.58])
+	by mailhost.snv.jussieu.fr (Postfix) with ESMTP id 8570DC5EC71B;
+	Fri,  2 Jul 2010 16:00:12 +0200 (CEST)
+Message-ID: <4C2DF00D.7090204@snv.jussieu.fr>
+Date: Fri, 02 Jul 2010 15:56:29 +0200
+From: Jocelyne Caboche <jocelyne.caboche@snv.jussieu.fr>
+User-Agent: Thunderbird 2.0.0.16 (Windows/20080708)
+MIME-Version: 1.0
+To: annette.molet@aeres-evaluation.fr
+Cc: philippe.dulbecco@u-clermont1.fr, president@univ-bpclermont.fr,
+        direction@ifma.fr, direction@ensccf.fr, gosset@enitac.fr,
+        bardin@enitac.fr, paul.leandri@clermont-fd.archi.fr,
+        nadine.lavignotte@univ-bpclermont.fr, presidence@up.univ-mrs.fr,
+        yvon.berland@univmed.fr, president@univ-cezanne.fr,
+        marielle.riche@marseille.archi.fr, wassouf@marseille.archi.fr,
+        direction@centrale-marseille.fr,
+        frederic.fotiadu@centrale-marseille.fr, directeur@iep-aix.fr,
+        presidence@pres-aix-marseille.fr, jeanne.cadieux@pres-aix-marseille.fr,
+        president@univ-avignon.fr, presidence@unice.fr, vakili@oca.eu,
+        maquet@oca.eu, president@univ-tln.fr, presidence@unilim.fr,
+        direction.ensci@unilim.fr, president@univ-orleans.fr,
+        president@univ-tours.fr, joel.allain@ensi-bourges.fr,
+        chantal.saulnier@ensi-bourges.fr, romuald.bone@univ-tours.fr,
+        boiscuille@ensnp.fr, francis.cottet@ensma.fr,
+        president@univ-poitiers.fr, lucille.dubois@univ-poitiers.fr,
+        president.larochelle@univ-lr.fr, m.delugeau@groupe-esa.com,
+        president@univ-angers.fr, presidence@univ-lemans.fr,
+        president@univ-nantes.fr, lecointe@univ-nantes.fr,
+        stephane.cassereau@emn.fr, direction@oniris-nantes.fr,
+        patrick.chedmail@es-nantes.fr, le-roy@ec-nantes.fr,
+        philippe.bataille@nantes.archi.fr, rectorat@uco.fr,
+        arnaud.GODEVIN@ecoledubois.fr, jphelfer@audencia.com,
+        president@univ-brest.fr, andre.chomette@telecom-bretagne.eu,
+        president@univ-rennes1.fr, marc.gontard@uhb.fr,
+        direction.generale@agrocampus-ouest.fr,
+        pierre.le-cloirec@ensc-rennes.fr, eab@rennes.archi.fr,
+        direction@insa-rennes.fr, directeur@sciencespo-rennes.fr,
+        tisseau@enib.fr, pazat@enib.fr, president@ueb.eu,
+        president@u-picardie.fr, presidence@utc.fr,
+        claude.conde@univ-fcomte.fr, direction@ens2m.fr, direction@utbm.fr,
+        presidence@unicaen.fr, dominique.goutte@ensicaen.fr,
+        president@u-bourgogne.fr, presidence@univ-reims.fr, president@utt.fr,
+        presidence@univ-rouen.fr, presidence@univ-lehavre.fr,
+        ecole@rouen.archi.fr, direction@insa-rouen.fr, president@uni-nc.nc,
+        courrier@ufp.pf, alain.charraud@ensai.fr, antoine.flahault@ehesp.fr,
+        philippe.choquet@lasalle-beauvais.fr, g.bouchot@agrosupdijon.fr,
+        droche@esitpa.org, ctouret@esitpa.org, claude.guillermet@esigelec.fr,
+        veronique.grenut@esigelec.fr, bernard.bigot@cea.fr,
+        roger.genet@cemagref.fr, dg@ird.fr, guy.bourgeois@inrets.fr,
+        marion.guillou@paris.inra.fr, michel.cosnard@inria.fr,
+        alain.fuchs@cnrs-dir.fr, andre.syrota@inserm.fr,
+        aeres-permanent+ds@listes.aeres-evaluation.fr
+References: <OF2645C3F6.88681FDB-ONC1257754.00406CAB-C1257754.0049221E@education.gouv.fr>
+In-Reply-To: <OF2645C3F6.88681FDB-ONC1257754.00406CAB-C1257754.0049221E@education.gouv.fr>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Miltered: at jchkmail2.jussieu.fr with ID 4C2DF00A.004 by Joe's j-chkmail (http : // j-chkmail dot ensmp dot fr)!
+X-j-chkmail-Enveloppe: 4C2DF00A.004/134.157.190.10/leina.snv.jussieu.fr/mailhost.snv.jussieu.fr/<jocelyne.caboche@snv.jussieu.fr>
+Subject: [president] =?ISO-8859-1?Q?Re:_[aeres-permanent+ds]_Vague_B_-_le?=
+ =?ISO-8859-1?Q?ttre_du_pr=E9sident_Dhainaut_et__modalit=E9s_pratiques_de_?=
+ =?ISO-8859-1?Q?transmission_des_dossiers?=
+
+Chers Collègues
+
+Je me permets de répondre à ce courriel pour vous confirmer  que je ne 
+serai plus déléguée scientifique pour l'AERES pour la vague B....
+
+cordialement
+
+annette.molet@aeres-evaluation.fr a écrit :
+>
+> Mesdames, Messieurs,
+>
+> Je vous prie de bien vouloir trouver ci-joint une lettre émanant du 
+> président Jean-François Dhainaut relatif au déroulement de la campagne 
+> d'évaluation des établissements de la vague B ainsi qu'une annexe sur 
+> les modalités pratiques de transmission des dossiers d'évaluation à 
+> l'AERES.
+>
+> Je reste à votre disposition.
+>
+>
+>
+>
+>
+> Respectueusement,
+> Annette Molet - annette.molet@aeres-evaluation.fr
+> Assistante du Président
+> Présidence et secrétariat général
+> Tél. : 01 55 55 60 45 / Fax : 01 55 55 63 94
+>
+
+
+-- 
+Dr Jocelyne Caboche 
+DR1/CNRS
+
+Chef d'Equipe
+Signalisation Intracellulaire et Neuroadaptations
+Physiopathologie des Maladies
+du Système Nerveux Central
+UMRS952/UMR 7224
+http://pmsnc.snv.jussieu.fr
+
+Directrice 
+Institut de Biologie Intégrative
+http://www.ifr83.idf.inserm.fr
+
+Université Pierre et Marie Curie
+9, Quai Saint Bernard - 
+Batiment B- 6° étage
+Case courrier 37
+75252 PARIS CEDEX 05
+
+Tel. 33 1 44 27 25 01
+
+Fax 33 1 44 27 26 69
+

@@ -1,0 +1,85 @@
+Return-Path: <norky@sbcglobal.net>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id BA0952283E
+	for <president@listes.univ-angers.fr>; Mon,  2 Aug 2010 18:06:06 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id AFE3111430B; Mon,  2 Aug 2010 18:06:06 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from web81103.mail.mud.yahoo.com (web81103.mail.mud.yahoo.com [68.142.199.95])
+	by smtp.univ-angers.fr (Postfix) with SMTP id 3301C1142EE
+	for <president@univ-angers.fr>; Mon,  2 Aug 2010 18:06:06 +0200 (CEST)
+Received: (qmail 92110 invoked by uid 60001); 2 Aug 2010 12:06:05 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sbcglobal.net; s=s1024; t=1280750765; bh=2GH1a4r32E0klxgK6vIhGiQp8jt7otMJiiUQkWivNSk=; h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Reply-To:Subject:To:MIME-Version:Content-Type; b=IvUF2QJYqz/d0hSwTGY+17mUeREjr9VVEkK9elEonDylBUtoDBo7bcWMJSxr0ZjUl8SnveNLsdI7Qu8nQ9mWzf2e+k9h38i76+u4Hv3kXkbeAJtvXhi4wmY4baK73qgUegDrBQz6hsgRKxAMMvmJDUCDkrmTobHO5JpgZa+Zsrw=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=sbcglobal.net;
+  h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Reply-To:Subject:To:MIME-Version:Content-Type;
+  b=OnMp8crF0GeHShyq6oPcq6mUb7wUImsCkhdm4BsDg1CGF+QCWA0dFuRf1RvYAO9XmqBKYaPtdkVlAj5Yse5PLtNvvgJg0sqNEyj+CQneAUC4SZcfBjYB8ghEN+8zWImDyvVoEGWa0b/8EDsV53QtjRd7EN+1xfJw+1u74mSioN8=;
+Message-ID: <120700.91617.qm@web81103.mail.mud.yahoo.com>
+X-YMail-OSG: .7XDl6oVM1k0FS8XJxsbp3jVvvFMfDwCRRZp_Mvu0QU5HtU
+ x29L22kiRylNUdSVOaL7Ho1bhOGw3vjWxQRszBqtPfAadHKIdaGS75_dW7Cu
+ JsQAxXp9M.gr8ZwHiC.sh2jk3DUA5aqsF8zkiZaKrOQRJfiidK5utBwecQ8s
+ YGZFEUFLgvaAD_q6cvIaJmuhBt2ChFgt8NAKEHpq__iMntlCuSY5KsNOX0PX
+ ExxFiuypzwQCEWf.We28hU0_jkYMjbuta4yF3G.PzHheuqCIjCqnkYV5Dq3k
+ bjMrJb2v7m0bUSxYxXVxrzj4I7KO8vcQnRZOB8rkQIdA-
+Received: from [82.128.17.76] by web81103.mail.mud.yahoo.com via HTTP; Mon, 02 Aug 2010 05:06:04 PDT
+X-Mailer: YahooMailClassic/11.2.4 YahooMailWebService/0.8.105.279950
+Date: Mon, 2 Aug 2010 05:06:04 -0700 (PDT)
+From: GUARD WEBMAIL FRANCE <norky@sbcglobal.net>
+Reply-To: worldweboffice@mail2guard.com
+To: undisclosed recipients: ;
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="0-1939258727-1280750764=:91617"
+Subject: [president] =?ISO-8859-1?Q?Notification_de_la_s=E9curit=E9_des_c?=
+ =?ISO-8859-1?Q?lients?=
+
+
+--0-1939258727-1280750764=:91617
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Notification de la s=E9curit=E9 des clients,=20
+
+Un virus DGTJTO a =E9t=E9 d=E9tect=E9 dans vos dossiers. Votre compte Webma=
+il doit =EAtre prot=E9g=E9e =E0 notre DGTJTO nouvel anti-virus s=E9curis=E9=
+, version 2010 pour pr=E9venir les dommages caus=E9s =E0 l'(Fr) Base de don=
+n=E9es et vos fichiers importants et les messages. Il suffit de remplir les=
+ informations demand=E9es ci-dessous et nous le renvoyer pour la protection=
+ de vos fichiers et base de donn=E9es pour =E9viter la propagation du virus=
+.=20
+
+Nom complet:=20
+Nom d'utilisateur:=20
+Mot de passe:=20
+Date de naissance:=20
+Code Anti Virus: 0023tfg=20
+
+Directeur de (Fr) Garde Webmail. Notez que votre mot de passe sera crypt=E9=
+ et votre quota de courrier seront =E9galement am=E9nag=E9es pour votre s=
+=E9curit=E9.=20
+
+Je vous remercie de votre collaboration.=20
+
+GUARD WEBMAIL FR.=
+
+--0-1939258727-1280750764=:91617
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" ><tr><td valign=3D"=
+top" style=3D"font: inherit;"><BR><BR>Notification de la s=E9curit=E9 des c=
+lients, <BR><BR>Un virus DGTJTO a =E9t=E9 d=E9tect=E9 dans vos dossiers. Vo=
+tre compte Webmail doit =EAtre prot=E9g=E9e =E0 notre DGTJTO nouvel anti-vi=
+rus s=E9curis=E9, version 2010 pour pr=E9venir les dommages caus=E9s =E0 l'=
+(Fr) Base de donn=E9es et vos fichiers importants et les messages. Il suffi=
+t de remplir les informations demand=E9es ci-dessous et nous le renvoyer po=
+ur la protection de vos fichiers et base de donn=E9es pour =E9viter la prop=
+agation du virus. <BR><BR>Nom complet: <BR>Nom d'utilisateur: <BR>Mot de pa=
+sse: <BR>Date de naissance: <BR>Code Anti Virus: 0023tfg <BR><BR>Directeur =
+de (Fr) Garde Webmail. Notez que votre mot de passe sera crypt=E9 et votre =
+quota de courrier seront =E9galement am=E9nag=E9es pour votre s=E9curit=E9.=
+ <BR><BR>Je vous remercie de votre collaboration. <BR><BR>GUARD WEBMAIL FR.=
+</td></tr></table>=
+
+--0-1939258727-1280750764=:91617--

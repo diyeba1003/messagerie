@@ -1,0 +1,193 @@
+Return-Path: <Francoise.Le-Jeune@univ-nantes.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 606BC22827
+	for <president@listes.univ-angers.fr>; Wed,  8 Sep 2010 17:21:52 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 4C9A41143D7; Wed,  8 Sep 2010 17:21:52 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp1.univ-nantes.fr [193.52.82.18])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 42A751143D3
+	for <president@univ-angers.fr>; Wed,  8 Sep 2010 17:21:52 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 2D9F883CE72
+	for <president@univ-angers.fr>; Wed,  8 Sep 2010 17:21:52 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp1.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id ImqcIEQIl2iR for <president@univ-angers.fr>;
+	Wed,  8 Sep 2010 17:21:52 +0200 (CEST)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 0FD62811B13
+	for <president@univ-angers.fr>; Wed,  8 Sep 2010 17:21:52 +0200 (CEST)
+Received: from mx1.univ-nantes.fr (MX1.univ-nantes.fr [193.52.101.135])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id ED3AF478
+	for <daniel.martina@lunam.fr>; Wed,  8 Sep 2010 17:21:51 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mx1.univ-nantes.fr (Postfix) with ESMTP id DE2F212E9975;
+	Wed,  8 Sep 2010 17:21:51 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from mx1.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id 0Z2rkKLilx9j; Wed,  8 Sep 2010 17:21:51 +0200 (CEST)
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+X-Greylist: whitelisted by SQLgrey-1.6.7
+Received: from smtp1.univ-nantes.fr (Smtp1.univ-nantes.prive [172.20.12.55])
+	by mx1.univ-nantes.fr (Postfix) with ESMTP id B1FB912E995F;
+	Wed,  8 Sep 2010 17:21:51 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id A55A783CE74;
+	Wed,  8 Sep 2010 17:21:51 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp1.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id 7-ehxi39TQLa; Wed,  8 Sep 2010 17:21:51 +0200 (CEST)
+Received: from webmail.univ-nantes.fr (webmail-1.U10.univ-nantes.prive [172.20.10.107])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 6BDFB811B13;
+	Wed,  8 Sep 2010 17:21:51 +0200 (CEST)
+Received: from 109.211.109.25
+        (SquirrelMail authenticated user lejeune-f-1)
+        by webmail.univ-nantes.fr with HTTP;
+        Wed, 8 Sep 2010 17:21:51 +0200 (CEST)
+Message-ID: <dadeca954750c255fbe29ca50c856914.squirrel@webmail.univ-nantes.fr>
+In-Reply-To: <4C87A8A3.7070502@univ-lemans.fr>
+References: <004301cb4f62$dd848530$988d8f90$@cortez@lunam.fr>
+    <4C87A8A3.7070502@univ-lemans.fr>
+Date: Wed, 8 Sep 2010 17:21:51 +0200 (CEST)
+From: =?iso-8859-1?Q?Fran=E7oise_LE_JEUNE?= <Francoise.Le-Jeune@univ-nantes.fr>
+To: "Philippe Daniel" <Philippe.Daniel@univ-lemans.fr>
+Cc: "Alexandrine CORTEZ" <alexandrine.cortez@lunam.fr>,
+ john.webb@univ-angers.fr,
+ fouad.bennis@ec-nantes.fr,
+ dschmitt@audencia.com,
+ s.brochier@groupe-esa.com,
+ robert.martin@uco.fr,
+ emmanuel.thouard@ifremer.fr,
+ daniel.martina@lunam.fr,
+ francis.yguel@lunam.fr,
+ direction@lunam.fr,
+ "Yves Guillotin" <president@univ-lemans.fr>
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+Subject: [president] =?ISO-8859-1?Q?Re:_L'UNAM-__Invitation_au_=0A_____Co?=
+ =?ISO-8859-1?Q?mit=E9_de_Pilotage_sur_l'International?=
+
+Bonsoir,
+Sébastien Youinou est le directeur des relations internationales de
+l'université de Nantes et il n'est pas du tout correspondant pour le PRES.
+Cordialement,
+F. LE JEUNE
+
+> Monsieur le Président du PRES,
+> Mr le Directeur Général du PRES,
+>
+> Je me permettrai si cela est possible de demander à ce qu'un point
+> supplémentaire soit rajouté à l'ordre du jour.
+> En effet sortant de l'AG du GIP CampusFRance auquel notre PRES adherera
+> probablement , il apparait qu'un fond de 112000EUR a été réservé par
+> Campus France pour des créations de support de com des PRES a
+> destination de l'international. L'appel d'offre offert à tous les PRES
+> sera en effet clos le 30/09 et peut être sera t'il dommage de ne pas se
+> positionner.
+> Enfin le correspondant actuel du PRES UNAM semble etre Mr S. Youinou
+> responsable administratif du service RI de l'Université de Nantes; Or je
+> n'ai jamais eu connaissance d'un débat ou d'une décision politique sur
+> la désignation d'une personne. Serai-il possible d'aborder ce point?
+>
+> Bien à vous
+>
+> Philippe DANIEL
+>
+>
+>
+> Alexandrine CORTEZ a écrit :
+>>
+>> Monsieur le Vice-recteur, Madame et Messieurs les Vice-présidents,
+>> Mesdames, Messieurs,
+>>
+>>
+>>
+>> J'ai le plaisir de vous inviter au premier Comité de Pilotage sur
+>> l'International  qui se réunira le
+>>
+>>
+>>
+>> *Mercredi 22 septembre de 15h à 17h dans les locaux de L'UNAM.*
+>>
+>>
+>>
+>> Le comité est composé comme suit :
+>>
+>> -          Mme Françoise Le Jeune (Université de Nantes)
+>>
+>> -          M. Philippe Daniel (Université du Maine)
+>>
+>> -          M. John Webb (Université d'Angers)
+>>
+>> -          M. Fouad Bennis (Ecole Centrale)
+>>
+>> -          Mme Desanka SCHMITT (Audencia)
+>>
+>> -          M. Stéphane Brochier (ESA)
+>>
+>> -          M. Robert Martin de Montaigu (UCO)
+>>
+>> -          M. Emmanuel Thouard (IFREMER)
+>>
+>> -          M. Francis Yguel (L'UNAM)
+>>
+>>
+>>
+>> * *
+>>
+>> L'ordre du jour proposé est le suivant :
+>>
+>> 1.       Discussion sur les orientations à court et moyen termes du
+>> positionnement du PRES en matière de politique internationale.
+>>
+>> 2.       Définition de la fiche de poste du responsable (niveau IGR) à
+>> recruter pour le service international du PRES.
+>>
+>>
+>>
+>>
+>>
+>> Comptant sur votre présence et avec mes meilleures salutations,
+>>
+>>
+>>
+>> Pour Francis Yguel
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>> *Alexandrine Cortez
+>> /Chargée d'études
+>> /*Tél. +33.(0)2.28.08.14.20
+>> Fax +33.(0)2.28..08.14.01
+>>
+>> *L'Université Nantes Angers Le Mans (L'UNAM)
+>> *Pôle de recherche et d'enseignement supérieur
+>>
+>> Immeuble MANNY
+>> 19 bis rue La Nouë Bras de Fer
+>> 44200 NANTES, France
+>>
+>> lunam
+>>
+>>
+>>
+>>
+>>
+>
+>
+
+

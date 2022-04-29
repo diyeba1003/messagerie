@@ -1,0 +1,113 @@
+Return-Path: <espace.sifac@amue.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 46CCA2286E
+	for <president@listes.univ-angers.fr>; Thu, 29 Jul 2010 14:36:23 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 358991143AF; Thu, 29 Jul 2010 14:36:23 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from mx.amue.fr (mx.amue.fr [195.83.191.14])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 00C431143AB;
+	Thu, 29 Jul 2010 14:36:22 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mx.amue.fr (8.14.3/8.14.3) with ESMTP id o6TCaBhw032480;
+	Thu, 29 Jul 2010 14:36:22 +0200 (CEST)
+	(envelope-from espace.sifac@amue.fr)
+Received: from mx.amue.fr ([127.0.0.1])
+	by localhost (mx.amue.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id aeeBY9sP-yRi; Thu, 29 Jul 2010 14:36:21 +0200 (CEST)
+Received: from smtp.amue.fr (smtp.amue.fr [195.83.191.28])
+	by mx.amue.fr (8.14.3/8.14.3) with ESMTP id o6TCaE4k032495;
+	Thu, 29 Jul 2010 14:36:14 +0200 (CEST)
+	(envelope-from espace.sifac@amue.fr)
+Received: from localhost (localhost [127.0.0.1])
+	by node1.amue.fr (8.12.9/8.12.9tx) with ESMTP id o6TCaEmA557717;
+	Thu, 29 Jul 2010 14:36:14 +0200 (CEST)
+Received: from espace-sifac.amue.fr (node2.amue.fr [195.83.191.25])
+	by smtp.amue.fr (8.12.9/8.12.9rx) with ESMTP id o6TCZgS7557615;
+	Thu, 29 Jul 2010 14:35:42 +0200 (CEST)
+Received: from pc-job.montpellier.wan.amue.fr ([195.83.191.193]) 
+	by espace-sifac.amue.fr with HTTPS (PHPMailer);
+	Thu, 29 Jul 2010 14:35:42 +0200
+Date: Thu, 29 Jul 2010 14:35:42 +0200
+To: undisclosed-recipients:;
+From: Espace Sifac <espace.sifac@amue.fr>
+Message-ID: <1967e354647e464f482936436ada085d@espace-sifac.amue.fr>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71]
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_1967e354647e464f482936436ada085d"
+Subject: [president] Nouveau fichier
+
+
+--b1_1967e354647e464f482936436ada085d
+Content-Type: text/plain; charset = "iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+
+Espace Sifac <https://espace-sifac.amue.fr/>
+
+Un nouveau fichier a été déposé
+
+Répertoire: Documentation SIFAC Technique en un seul fichier ZIP à télécharger
+Fichier: Doc_Deploiement_Sifac_20091119.zip
+Chemin: /
+Date: 29 Juillet 2010 14:35
+
+Portal powered by OVIDENTIA - http://www.ovidentia.org
+Ovidentia is a registered trademark of Cantico - http://www.cantico.fr
+
+
+--b1_1967e354647e464f482936436ada085d
+Content-Type: text/html; charset = "iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Espace Sifac</TITLE>
+
+<META name="Generator" content="Ovidentia">
+<META name="Author" content="CANTICO">
+<META name="Keywords" content="ovidentia,portal,generator,groupware,companies,communities,content management,workflow,file sharing,mail,calendar,forum,gpl,free,gnu,wysiwyg,editor,shareable diaries,cantico,add-on,skin,php,mysql">
+<META name="Description" content="Portal Generator">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="-1">
+
+</HEAD>
+<body bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#0000FF" alink="#0000FF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<BR><BR>
+<table width="50%" border="0" align="center" cellpadding="2" cellspacing="0">
+<tr>
+<td align="center" valign="middle" bgcolor="#003399"><font color="#FFFFFF" size="2" face="Arial, Helvetica, sans-serif"> 
+<a href="https://espace-sifac.amue.fr/" target="_blank" style="color:white;FONT-WEIGHT: bold ">Espace Sifac </a><br>
+Portail documentaire Sifac</font></td>
+</tr>
+<tr>
+<td align="center" valign="middle" style="border:solid 2pt;border-color:#003399">
+
+<font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><br>
+
+      <strong>Un nouveau fichier a été déposé<br>
+        Répertoire&nbsp;:&nbsp;Documentation SIFAC Technique en un seul fichier ZIP à télécharger<br>
+      Fichier&nbsp;:&nbsp;Doc_Deploiement_Sifac_20091119.zip</strong><br>
+      Chemin&nbsp;:&nbsp;/<br>
+      Date&nbsp;:&nbsp;29 Juillet 2010 14:35<br><br>
+      </font>
+
+</td>
+</tr>
+<tr>
+<td align="center" valign="middle" style="border-right:dashed 1pt;border-left:dashed 1pt;border-bottom:dashed 1pt;border-color:#003399"><font size="1" face="Arial, Helvetica, sans-serif">Powered by <a href="http://www.ovidentia.org" target="_blank">Ovidentia&#8482;</a><br>
+Ovidentia&#8482; is a registered trademark of <a href="http://www.cantico.fr" target="_blank">Cantico</a></font></td>
+</tr>
+</table>
+</BODY>
+</HTML>
+
+
+
+--b1_1967e354647e464f482936436ada085d--
+
+

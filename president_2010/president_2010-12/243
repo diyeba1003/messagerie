@@ -1,0 +1,47 @@
+Return-Path: <cassio@corumba.ms.gov.br>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id BB5412281D
+	for <president@listes.univ-angers.fr>; Fri, 17 Dec 2010 16:08:44 +0100 (CET)
+Received: by smtp.univ-angers.fr (Postfix)
+	id A4B62114068; Fri, 17 Dec 2010 16:08:44 +0100 (CET)
+Delivered-To: president@univ-angers.fr
+X-Greylist: delayed 1115 seconds by postgrey-1.32 at smtp.univ-angers.fr; Fri, 17 Dec 2010 16:08:44 CET
+Received: from ns2.corumba.ms.gov.br (ns2.corumba.ms.gov.br [187.4.64.51])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 5706711405D
+	for <president@univ-angers.fr>; Fri, 17 Dec 2010 16:08:44 +0100 (CET)
+Received: from intranet.corumba.ms.gov.br (localhost [127.0.0.1])
+	by ns2.corumba.ms.gov.br (Postfix) with ESMTP id 645A71218E5;
+	Fri, 17 Dec 2010 11:43:38 -0300 (AMST)
+Received: from 83.229.4.231 (proxying for 192.168.12.29)
+        (SquirrelMail authenticated user cassio)
+        by intranet.corumba.ms.gov.br with HTTP;
+        Fri, 17 Dec 2010 11:43:38 -0300 (AMST)
+Message-ID: <48699.83.229.4.231.1292597018.squirrel@intranet.corumba.ms.gov.br>
+Date: Fri, 17 Dec 2010 11:43:38 -0300 (AMST)
+From: cassio@corumba.ms.gov.br
+User-Agent: SquirrelMail/1.4.10
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+To: undisclosed-recipients:;
+Subject: [president] Alerte au Virus
+
+
+
+
+Un virus DGTFX a été détecté dans vos dossiers. Votre compte de messagerie
+doit être mis à niveau vers notre nouveau sécurisé DGTFX anti-virus
+version 2010 pour prévenir les dommages à notre journal webmail et vos
+fichiers importants. Cliquez sur le lien ci-dessous pour sécuriser votre
+compte e-mail et pour éviter la propagation du virus.
+
+http://iurlz.com/esecure
+
+Notez que votre mot de passe sera crypté avec des clés RSA de 1024 bits
+pour votre sécurité mot de passe
+
+Je vous remercie de votre collaboration.
+Webmail équipe technique.
+

@@ -1,0 +1,165 @@
+Return-Path: <leheiss@enpc.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 193BB2281B
+	for <president@listes.univ-angers.fr>; Mon, 11 Oct 2010 10:06:44 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 0BA9711432B; Mon, 11 Oct 2010 10:06:44 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from fresnel.enpc.fr (mail.enpc.fr [195.221.193.16])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id F0B3E114314
+	for <president@univ-angers.fr>; Mon, 11 Oct 2010 10:06:43 +0200 (CEST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by fresnel.enpc.fr (Postfix) with ESMTP id 7F52737001F;
+	Mon, 11 Oct 2010 10:06:43 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at enpc.fr
+Received: from fresnel.enpc.fr ([127.0.0.1])
+	by localhost (mail.enpc.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id dvSO1EG4hrYb; Mon, 11 Oct 2010 10:06:43 +0200 (CEST)
+Received: from ve-webmail.enpc.fr (conferences.enpc.fr [194.57.247.17])
+	by fresnel.enpc.fr (Postfix) with ESMTP id 145555019E;
+	Mon, 11 Oct 2010 10:06:43 +0200 (CEST)
+Received: by ve-webmail.enpc.fr (Postfix, from userid 33)
+	id BF2F3834163; Mon, 11 Oct 2010 10:06:42 +0200 (CEST)
+Received: from 110.4.94-79.rev.gaoland.net (110.4.94-79.rev.gaoland.net
+	[79.94.4.110]) by webmail.enpc.fr (Horde Framework) with HTTP; Mon, 11 Oct
+	2010 10:06:42 +0200
+Message-ID: <20101011100642.98372wuyztk0xqps@webmail.enpc.fr>
+Date: Mon, 11 Oct 2010 10:06:42 +0200
+From: "=?iso-8859-1?b?U3TpcGhhbmll?= LEHEIS GUILLOT" <leheiss@enpc.fr>
+Reply-to: stephanie.leheis@enpc.fr
+To: presidence@univ-corse.fr, presidence@univ-savoie.fr,
+	presidence@univ-montp1.fr, president@dauphine.fr, president@univ-perp.fr,
+	presidence@adm-ulp.u-strasbg.fr, president@univ-paris-diderot.fr,
+	yvon.berland@univmed.fr, cecile.berho@enc.sorbonne.fr,
+	direction@insa-rouen.fr, president@univ-st-etienne.fr,
+	a.boudou@presidence.u-bordeaux1.fr, patrick.bourgin@ec-lyon.fr,
+	boyer@univ-nc.nc, presidence@uha.fr, presidence@u-bordeaux3.fr,
+	presidence@univ-paris8.fr, president.larochelle@univ-lr.fr,
+	direction@ipb.fr, president@inp-toulouse.fr, presidence@univ-provence.fr,
+	presidence@utc.fr, cabpresi@univ-paris1.fr, claude.conde@univ-fcomte.fr,
+	president@u-psud.fr, corvol_cdf@college-de-france.fr,
+	courtil@ipgp.jussieu.fr, richard.descoing@sciences-po.fr,
+	philippe.dulbecco@u-clermont1.fr, presidence@univ-lille3.fr,
+	president@univ-littoral.fr, president.observatoire@obspm.fr,
+	emmanuel.ethis@univ-avignon.fr, directeur.general@ens-lyon.fr,
+	president@u-picardie.fr, presidence@univ-tlse2.fr, president@uhp-nancy.fr,
+	presidence@unilim.fr, administrateur.general@cnam.fr,
+	chefcab@adm.ups-tlse.fr, secretariat.presidence@univ-montp3.fr,
+	presid@univ-lyon3.fr, presidence@univ-lehavre.fr, galey@mnhn.fr,
+	president@univ-poitiers.fr, marc.gontard@uhb.fr, presidence@univ-lemans.fr,
+	Jean-louis.gout@univ-pau.fr, jean-paul.hautier@ensam.fr,
+	presidence@univ-montp2.fr, presidence@grenoble-inp.fr,
+	president@univ-metz.fr, president@univ-paris5.fr, president@u-bordeaux4.fr,
+	etienne.landais@suapgro.inra.fr, president@inpl-nancy.fr,
+	president@univ-bpclermont.fr, president@univ-nancy2.fr,
+	president@univ-nantes.fr, president@inalco.fr, president@univ-paris3.fr,
+	president@utt.fr, presidence@u-paris10.fr, president@univ-valenciennes.fr,
+	presidence@unimes.fr, presidence@unice.fr, didier.marquis@insa-toulouse.fr,
+	president@univ-angers.fr, direction@vetagro-sup.fr,
+	jean-yves.merindol@ens-cachan.fr, secretariat.cabinet@univ-evry.fr,
+	president@paris4.sorbonne.fr, president@univ-artois.fr,
+	francoise.moulin-civil@u-cergy.fr, president@univ-brest.fr,
+	presidence@ujf-grenoble.fr, president@univ-tln.fr,
+	presidence@univ-rouen.fr, presidente@ufp.pf, president@univ-cezanne.fr,
+	presidence@upmc.fr, cabinet@univ-reunion.fr, presidence@univ-lille1.fr,
+	saffache@martinique.univ-ag.fr, pres-p13@upn.univ-paris13.fr,
+	christian.sergheraert@univ-lille2.fr, president@univ-ubs.fr,
+	cabinet.president@univ-tlse1.fr, presidence@upmf-grenoble.fr,
+	andre.tiran@univ-lyon2.fr, president@univ-orleans.fr,
+	presidence@unicaen.fr, president@u-bordeaux2.fr, president@univ-tours.fr,
+	presidence@univ-reims.fr, presidence@u-paris2.fr,
+	jean-claude.waquet@ephe.sorbonne.fr, preside@ehess.fr,
+	president@u-bourgogne.fr, president@univ-paris12.fr, directrice@ens.fr,
+	lise.dumasy@u-grenoble3.fr, presidente@admin.uvsq.fr,
+	secretariat.presidence@univ-montp3.fr, presidence@univ-montp2.fr,
+	president@univ-bpclermont.fr, president@univ-paris3.fr,
+	presidence@u-paris10.fr, president@univ-valenciennes.fr,
+	francoise.moulin-civil@u-cergy.fr, presidente@ufp.pf,
+	presidence@unicaen.fr, president@dauphine.fr,
+	president@univ-paris-diderot.fr, corvol_cdf@college-defrance.fr,
+	cecile.berho@enc.sorbonne.fr, presidence@univ-paris8.fr,
+	cabpresi@univ-paris1.fr, president.observatoire@obspm.fr,
+	courtil@ipgp.jussieu.fr, president@u-psud.fr,
+	richard.descoing@sciences-po.fr, administrateur.general@cnam.fr,
+	jean-yves.merindol@ens-cachan.fr, secretariat.cabinet@univ-evry.fr,
+	president@paris4.sorbonne.fr, pres-p13@upn.univ-paris13.fr,
+	presidence@u-paris2.fr, jean-claude.waquet@ephe.sorbonne.fr,
+	preside@ehess.fr
+Cc: pierre.bernard@developpement-durable.gouv.fr,
+	elisabeth.campagnac@enpc.fr
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) H3 (4.2)
+Subject: [president] =?ISO-8859-1?Q?Invitation_S=E9minaire_Universit=E9s_?=
+ =?ISO-8859-1?Q?&_Territoires?=
+
+Bonjour,
+
+Le PUCA (Plan urbanisme, construction architecture), l'universit=E9=20=20
+Paris-Est, le LATTS et le CSO vous convient au s=E9minaire de recherche :
+
+Universit=E9s et territoires
+La 2=E8me s=E9ance aura lieu lundi 8 Novembre de 9h30 =E0 17h, sur :
+Les structures de coop=E9ration =E0 appui territorial (PRES, RTEA,=20=20
+Canc=E9rop=F4les...).
+
+
+Au minist=E8re de l?=C9cologie, de l?=C9nergie du D=E9veloppement durable e=
+t=20=20
+de la Mer, arche de la D=E9fense, La D=E9fense (92) / Salle 1 niveau 3.
+
+Avec:
+
+Pierre Veltz (EP Paris-Saclay): "Universit=E9s, entreprises et=20=20
+territoires: =E9l=E9ments d'analyse g=E9n=E9rale et illustration sur le=20=
+=20
+Plateau de Saclay"
+
+Jean-Michel Jolion (PRES Universit=E9 de Lyon): "La structuration d'un=20=
+=20
+site universitaire en lien avec son territoire: le cas de=20=20
+Lyon-StEtienne"
+
+
+Dima Youn=E8s (CSO/CNRS) & Audrey V=E9zian (CSO/CNRS): "Restructurer les=20=
+=20
+coop=E9rations science/industrie par le territoire ? L'exemple de la=20=20
+politique des Cancerop=F4les et des p=F4les de comp=E9titivit=E9"
+
+
+LE PROGRAMME DETAILLE ET INFOS SUR LE SITE:=20=20
+http://sites.google.com/site/universitesterritoires/
+
+Inscriptions et informations :
+St=E9phanie Leheis
+stephanie.leheis@enpc.fr
+LATTS - Ecole des Ponts ParisTech
+
+Organisateurs :
+J=E9r=F4me Aust, Centre de sociologie des organisations ? Sciences Po / CNRS
+Elisabeth Campagnac, Laboratoire Techniques Territoires et Soci=E9t=E9s ?=
+=20=20
+Ecole des Ponts ParisTech ? Universit=E9 Paris-Est Marne-la-Vall=E9e
+Avec le concours d?Andr=E9 Bruston, conseiller, ancien secr=E9taire=20=20
+permanent du Plan Urbain.
+
+
+--=20
+St=E9phanie LEHEIS
+Doctorante LATTS
+
+Ecole des Ponts ParisTech
+Cit=E9 Descartes
+6-8 rue Blaise Pascal
+Champs-sur-Marne
+77455 Marne La Vall=E9e
+Tel: 01.64.15.35.88
+Portable: 06.78.67.91.32
+
+
+

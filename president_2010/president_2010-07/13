@@ -1,0 +1,265 @@
+Return-Path: <olidudu2000@yahoo.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id DAE792288F
+	for <president@listes.univ-angers.fr>; Fri,  2 Jul 2010 08:56:54 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id C68A4114298; Fri,  2 Jul 2010 08:56:54 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from n24.bullet.mail.ukl.yahoo.com (n24.bullet.mail.ukl.yahoo.com [87.248.110.141])
+	by smtp.univ-angers.fr (Postfix) with SMTP id 83B1A114282
+	for <president@univ-angers.fr>; Fri,  2 Jul 2010 08:56:54 +0200 (CEST)
+Received: from [217.146.182.180] by n24.bullet.mail.ukl.yahoo.com with NNFMP; 02 Jul 2010 06:56:38 -0000
+Received: from [87.248.110.136] by t6.bullet.ukl.yahoo.com with NNFMP; 02 Jul 2010 06:56:54 -0000
+Received: from [127.0.0.1] by omp225.mail.ukl.yahoo.com with NNFMP; 02 Jul 2010 06:56:54 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 245442.23526.bm@omp225.mail.ukl.yahoo.com
+Received: (qmail 26888 invoked by uid 60001); 2 Jul 2010 06:56:54 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.fr; s=s1024; t=1278053813; bh=/EHiMPoVDJsK3Gxr8HkwKrBrQLek9A/kk6dYB+i7jfo=; h=Message-ID:X-YMail-OSG:Received:X-Mailer:References:Date:From:Reply-To:Subject:To:Cc:In-Reply-To:MIME-Version:Content-Type; b=YuNu0W8i/nVvoJFRbbdX/WPdesgE7NWba6KbKmUy14pkV7+OBp9/bdBY++/8kMAKCGprNpRLdCE1F/4ivYTKEV+s69Pz5z14/mFNeWVhokxUl3jknd+OX+nSBR2VcEUKils+gpWKfAsyVQQSUWyUu5qwtq1bnopqvEGsE6zSuzA=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.fr;
+  h=Message-ID:X-YMail-OSG:Received:X-Mailer:References:Date:From:Reply-To:Subject:To:Cc:In-Reply-To:MIME-Version:Content-Type;
+  b=tzeuKP+11QP0+LTLEos0TKRe2ZmjXPtFKzqsT9/T9JC0oh7QeXieefBd2H2GmObTB2xFHkfBtczX2YZIZZh0+nz1HSM7IRfXC7+si1cpQbVwmpKuAh0emPmzsuu/ZzLgB6f5USnc9JxQaNjD7VKut7AlRrbIrd7VJcpgMa/GcK0=;
+Message-ID: <943671.23454.qm@web24713.mail.ird.yahoo.com>
+X-YMail-OSG: sXrCeOcVM1ndbYHI3D5uOtzVzFbp2uXodkbIKStr8nh_iqS
+ D.EDtQADVpngXu87Psu9fUBO17eR.ieMzpPsOQ8tpxCQ6BaVoYmQN3Tikjfz
+ 0fNLJgM1t1l8gFY8FM3wa0TL.fn1BGoIZahV.WIlDaNSOnvqY89F_T_9ugNz
+ a9xCOW2oxR.NthRqpOPNFcs9Kj4s3qQgtLgkhdNlfE4iXGhv0obajFs9uGWg
+ dqIyujcKNa3YQn7y_LSpD6mpnXlZzYYsCXXGKn4ScGPgeiHbOHcezXoG2wex
+ 611cTLWNGELIl79Pga9eHL3eMzBffJjAqvfkgN3WRHUJGQMKM0g--
+Received: from [92.90.17.5] by web24713.mail.ird.yahoo.com via HTTP; Fri, 02 Jul 2010 06:56:53 GMT
+X-Mailer: YahooMailRC/397.8 YahooMailWebService/0.8.104.274457
+References: <4C2C6D0B.4090108@univ-angers.fr> <4C2C8186.1000702@univ-angers.fr> <69F46703-7792-4643-9FBA-C58F37560333@univ-angers.fr>
+Date: Fri, 2 Jul 2010 06:56:53 +0000 (GMT)
+From: Duval Olivier <olidudu2000@yahoo.fr>
+Reply-To: Duval Olivier <olivier.duval@univ-angers.fr>
+To: Pascal Richomme <pascal.richomme@univ-angers.fr>,
+  =?iso-8859-1?Q?Jean-Paul_Saint_Andr=E9?= <jean-paul.saint-andre@univ-angers.fr>
+Cc: henri-marc.papavoine@univ-angers.fr,
+  Duval Olivier <olivier.duval@univ-angers.fr>,
+  jean-pierre.benoit@univ-angers.fr,
+  Olivier Derouet <olivier.derouet@univ-angers.fr>,
+  =?iso-8859-1?Q?Moguedet_G=E9rard?= <gerard.moguedet@univ-angers.fr>,
+  Ferrier Jean-Louis <jean-louis.ferrier@univ-angers.fr>,
+  Evelyne DIERS <evelyne.diers@univ-angers.fr>, president@univ-angers.fr,
+  Mme RAUCHER <Catherine.Raucher@univ-angers.fr>
+In-Reply-To: <69F46703-7792-4643-9FBA-C58F37560333@univ-angers.fr>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="0-2090369213-1278053813=:23454"
+Subject: [president] =?ISO-8859-1?Q?Re_:_B=E2timent_IBT?=
+
+
+--0-2090369213-1278053813=:23454
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Bonjour,
+
+Il me semble tr=E8s important de r=E9aliser cette d=E9marche rapidement qui=
+ permettra d'=E9claircir la situation pour tous.
+Bien cordialement
+
+OD
+
+ __________________________________________________________
+Olivier DUVAL, pr
+SONAS UPRES EA921
+Directeur de l'UFR des Sciences Pharmaceutiques et Ing=E9nierie de la Sant=
+=E9
+16 bd Daviers,
+49100 ANGERS, France.
+
+
+tel: 33 (0)241226601
+fax: 33 (0)241226634
+__________________________________________________________
+
+
+
+
+________________________________
+De : Pascal Richomme <pascal.richomme@univ-angers.fr>
+=C0 : Jean-Paul Saint Andr=E9 <jean-paul.saint-andre@univ-angers.fr>
+Cc : henri-marc.papavoine@univ-angers.fr; Duval Olivier <olivier.duval@univ=
+-angers.fr>; jean-pierre.benoit@univ-angers.fr; Olivier Derouet <olivier.de=
+rouet@univ-angers.fr>; Moguedet G=E9rard <gerard.moguedet@univ-angers.fr>; =
+Ferrier Jean-Louis <jean-louis.ferrier@univ-angers.fr>; Evelyne DIERS <evel=
+yne.diers@univ-angers.fr>; president@univ-angers.fr; Mme RAUCHER <Catherine=
+.Raucher@univ-angers.fr>
+Envoy=E9 le : Jeu 1 juillet 2010, 16h 37min 27s
+Objet : Re: B=E2timent IBT
+
+... C'est egalement mon probleme : malgre differentes interrogations/requet=
+es presentees a plusieurs niveaux et/ou interlocuteurs (cf. dernier
+courrier correspondant ci-joint) je ne dispose d'aucune information officie=
+lle sur le sujet, ignorant meme si une demande a ete deposee aupres
+du SADAR en ce sens.=20
+
+Cordialement,
+
+Pascal Richomme
+
+
+
+Le 1 juil. 2010 =E0 13:52, Jean-Paul Saint Andr=E9 a =E9crit :
+
+Je suis d'autant plus int=E9ress=E9 par ce point qu'en tant que gestionnair=
+e par d=E9l=E9gation du b=E2timent IBT, je ne dispose d'aucune information =
+=E0 ce sujet (cf. courrier adress=E9 au pr=E9sident la semaine derni=E8re)
+>JPSA
+>Henri - Marc Papavoine a =E9crit :
+>
+>Messieurs les Doyens,
+>>
+>Messieurs les Directeurs,
+>>
+>
+>>
+>M. le Pr=E9sident souhaite faire le point sur le (s) projet (s) d'utilisat=
+ion du b=E2timent IBT qui va =EAtre lib=E9r=E9 par l'unit=E9 U 646. Je vous=
+ remercie de bien vouloir m'adresser les informations dont vous disposez de=
+ mani=E8re =E0 ce que je puisse lui pr=E9senter une synth=E8se de la questi=
+on.
+>>
+>
+>>
+>Cordialement,
+>>
+>--=20
+>>
+>
+>>
+>
+>>
+>  *Henri - Marc PAPAVOINE
+>>
+>   Directeur g=E9n=E9ral des services*
+>>
+>  henri-marc.papavoine@univ-angers.fr <mailto:henri-marc.papavoine@univ-an=
+gers.fr>
+>>
+>  T=E9l. : 02 41 96 23 05
+>>
+>  Fax : 02 41 96 23 00
+>>
+>
+>>
+>
+>
+
+************************************
+Pr Pascal RICHOMME
+IFR 149 QUASAV
+SONAS-UFR Sciences Pharmaceutiques
+16, Bd Daviers F-49100 Angers
+Tel : 33 (0) 241226667
+Fax : 33 (0) 241226634
+
+
+=20=20=20=20=20=20=
+
+--0-2090369213-1278053813=:23454
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D"text/css"><!-- DIV {margin:0px;} --></style></he=
+ad><body><div style=3D"font-family:arial,helvetica,sans-serif;font-size:10p=
+t">Bonjour,<br><br>Il me semble tr=E8s important de r=E9aliser cette d=E9ma=
+rche rapidement qui permettra d'=E9claircir la situation pour tous.<br>Bien=
+ cordialement<br><br>OD<br><div>&nbsp;</div>_______________________________=
+___________________________<br>Olivier DUVAL, pr<br>SONAS UPRES EA921<br>Di=
+recteur de l'UFR des Sciences Pharmaceutiques et Ing=E9nierie de la Sant=E9=
+<br>16 bd Daviers,<br>49100 ANGERS, France.<br><br><div>tel: 33 (0)24122660=
+1<br>fax: 33 (0)241226634<br>______________________________________________=
+____________<div><br></div><div style=3D"font-family: arial,helvetica,sans-=
+serif; font-size: 10pt;"><br><div style=3D"font-family: times new roman,new=
+ york,times,serif; font-size: 12pt;"><font face=3D"Tahoma" size=3D"2"><hr s=
+ize=3D"1"><b><span style=3D"font-weight: bold;">De :</span></b> Pascal Rich=
+omme
+ &lt;pascal.richomme@univ-angers.fr&gt;<br><b><span style=3D"font-weight: b=
+old;">=C0 :</span></b> Jean-Paul Saint Andr=E9 &lt;jean-paul.saint-andre@un=
+iv-angers.fr&gt;<br><b><span style=3D"font-weight: bold;">Cc :</span></b> h=
+enri-marc.papavoine@univ-angers.fr; Duval Olivier &lt;olivier.duval@univ-an=
+gers.fr&gt;; jean-pierre.benoit@univ-angers.fr; Olivier Derouet &lt;olivier=
+.derouet@univ-angers.fr&gt;; Moguedet G=E9rard &lt;gerard.moguedet@univ-ang=
+ers.fr&gt;; Ferrier Jean-Louis &lt;jean-louis.ferrier@univ-angers.fr&gt;; E=
+velyne DIERS &lt;evelyne.diers@univ-angers.fr&gt;; president@univ-angers.fr=
+; Mme RAUCHER &lt;Catherine.Raucher@univ-angers.fr&gt;<br><b><span style=3D=
+"font-weight: bold;">Envoy=E9 le :</span></b> Jeu 1 juillet 2010, 16h 37min=
+ 27s<br><b><span style=3D"font-weight: bold;">Objet&nbsp;:</span></b> Re: B=
+=E2timent IBT<br></font><br>... C'est egalement mon probleme : malgre diffe=
+rentes interrogations/requetes presentees a plusieurs niveaux et/ou
+ interlocuteurs (cf. dernier<div>courrier correspondant ci-joint) je ne dis=
+pose d'aucune information officielle sur le sujet, ignorant meme si une dem=
+ande a ete deposee aupres</div><div>du SADAR en ce sens.&nbsp;</div><div><b=
+r></div><div>Cordialement,</div><div><br></div><div>Pascal Richomme</div><d=
+iv><br></div><div></div><div><br><div><div>Le 1 juil. 2010 =E0 13:52, Jean-=
+Paul Saint Andr=E9 a =E9crit :</div><br class=3D"Apple-interchange-newline"=
+><blockquote type=3D"cite"><div>Je suis d'autant plus int=E9ress=E9 par ce =
+point qu'en tant que gestionnaire par d=E9l=E9gation du b=E2timent IBT, je =
+ne dispose d'aucune information =E0 ce sujet (cf. courrier adress=E9 au pr=
+=E9sident la semaine derni=E8re)<br>JPSA<br>Henri - Marc Papavoine a =E9cri=
+t :<br><blockquote type=3D"cite">Messieurs les Doyens,<br></blockquote><blo=
+ckquote type=3D"cite">Messieurs les Directeurs,<br></blockquote><blockquote=
+ type=3D"cite"><br></blockquote><blockquote type=3D"cite">M. le Pr=E9sident=
+ souhaite faire le
+ point sur le (s) projet (s) d'utilisation du b=E2timent IBT qui va =EAtre =
+lib=E9r=E9 par l'unit=E9 U 646. Je vous remercie de bien vouloir m'adresser=
+ les informations dont vous disposez de mani=E8re =E0 ce que je puisse lui =
+pr=E9senter une synth=E8se de la question.<br></blockquote><blockquote type=
+=3D"cite"><br></blockquote><blockquote type=3D"cite">Cordialement,<br></blo=
+ckquote><blockquote type=3D"cite">-- <br></blockquote><blockquote type=3D"c=
+ite"><br></blockquote><blockquote type=3D"cite"><br></blockquote><blockquot=
+e type=3D"cite"> &nbsp;&nbsp;*Henri - Marc PAPAVOINE<br></blockquote><block=
+quote type=3D"cite"> &nbsp;&nbsp;&nbsp;Directeur g=E9n=E9ral des services*<=
+br></blockquote><blockquote type=3D"cite"> &nbsp;&nbsp;<a rel=3D"nofollow" =
+ymailto=3D"mailto:henri-marc.papavoine@univ-angers.fr" target=3D"_blank" hr=
+ef=3D"mailto:henri-marc.papavoine@univ-angers.fr">henri-marc.papavoine@univ=
+-angers.fr</a> &lt;<a rel=3D"nofollow" ymailto=3D"mailto:henri-marc.papavoi=
+ne@univ-angers.fr"
+ target=3D"_blank" href=3D"mailto:henri-marc.papavoine@univ-angers.fr">mail=
+to:henri-marc.papavoine@univ-angers.fr</a>&gt;<br></blockquote><blockquote =
+type=3D"cite"> &nbsp;&nbsp;T=E9l. : 02 41 96 23 05<br></blockquote><blockqu=
+ote type=3D"cite"> &nbsp;&nbsp;Fax : 02 41 96 23 00<br></blockquote><blockq=
+uote type=3D"cite"><br></blockquote><br><br></div></blockquote></div><br><d=
+iv>
+<span class=3D"Apple-style-span" style=3D"font-size: 16px;"><div style=3D"w=
+ord-wrap: break-word;"><span class=3D"Apple-style-span" style=3D"border-col=
+lapse: separate; color: rgb(0, 0, 0); font-family: 'Comic Sans MS'; font-si=
+ze: 16px; font-style: normal; font-variant: normal; font-weight: normal; le=
+tter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; te=
+xt-transform: none; white-space: normal; widows: 2; word-spacing: 0px;"><sp=
+an class=3D"Apple-style-span" style=3D"border-collapse: separate; color: rg=
+b(0, 0, 0); font-family: 'Comic Sans MS'; font-size: 14px; font-style: norm=
+al; font-variant: normal; font-weight: normal; letter-spacing: normal; line=
+-height: normal; text-indent: 0px; text-transform: none; orphans: 2; white-=
+space: normal; widows: 2; word-spacing: 0px;"><span class=3D"Apple-style-sp=
+an" style=3D"border-collapse: separate; color: rgb(0, 0, 0); font-family: '=
+Comic Sans MS'; font-size: 14px; font-style: normal; font-variant: normal;
+ font-weight: normal; letter-spacing: normal; line-height: normal; text-ind=
+ent: 0px; text-transform: none; orphans: 2; white-space: normal; widows: 2;=
+ word-spacing: 0px;"><span class=3D"Apple-style-span" style=3D"border-colla=
+pse: separate; color: rgb(0, 0, 0); font-family: 'Comic Sans MS'; font-size=
+: 14px; font-style: normal; font-variant: normal; font-weight: normal; lett=
+er-spacing: normal; line-height: normal; text-indent: 0px; text-transform: =
+none; orphans: 2; white-space: normal; widows: 2; word-spacing: 0px;"><div>=
+************************************</div><div>Pr Pascal RICHOMME</div><div=
+>IFR 149 QUASAV</div><div><a rel=3D"nofollow" target=3D"_blank" href=3D"htt=
+p://www.univ-angers.fr/labo/sonas"><span class=3D"Apple-style-span" style=
+=3D"color: rgb(0, 0, 238);"><span class=3D"Apple-style-span" style=3D"color=
+: rgb(0, 0, 238);">SONAS</span></span></a>-UFR Sciences Pharmaceutiques</di=
+v><div>16, Bd Daviers F-49100 Angers</div><div>Tel : 33 (0) 241226667</div>=
+<div>Fax : 33
+ (0) 241226634</div><div><br></div><div><br class=3D"khtml-block-placeholde=
+r"></div><br class=3D"Apple-interchange-newline"></span></span></span></spa=
+n><br class=3D"Apple-interchange-newline"></div></span>
+</div>
+<br></div></div></div></div>
+</div><br>
+
+
+
+
+      </body></html>=
+
+--0-2090369213-1278053813=:23454--
+

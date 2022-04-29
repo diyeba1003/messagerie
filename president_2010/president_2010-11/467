@@ -1,0 +1,230 @@
+Return-Path: <mireille.lemaguet@education.gouv.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 24F9F2281B
+	for <president@listes.univ-angers.fr>; Fri, 26 Nov 2010 16:10:40 +0100 (CET)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 1A8DB1140BE; Fri, 26 Nov 2010 16:10:40 +0100 (CET)
+Delivered-To: president@univ-angers.fr
+Received: from mx2du.in.adc.education.fr (mx2du.in.adc.education.fr [193.50.162.133])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id ED2F71140AE;
+	Fri, 26 Nov 2010 16:10:39 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by mx2du.in.adc.education.fr (Postfix) with ESMTP id 20CB4310066;
+	Fri, 26 Nov 2010 16:10:39 +0100 (CET)
+Received: from mx2du.in.adc.education.fr ([127.0.0.1])
+ by localhost (mx2du [127.0.0.1]) (amavisd-new, port 10024) with LMTP
+ id 04985-01-79; Fri, 26 Nov 2010 16:10:38 +0100 (CET)
+Received: from lotusmail1.in.adc.education.fr (lotusmail1.srv.in.adc.education.fr [10.244.7.11])
+	by mx2du.in.adc.education.fr (Postfix) with ESMTP id 5E9B5310005;
+	Fri, 26 Nov 2010 16:10:38 +0100 (CET)
+To: MIREILLE LE MAGUET <mireille.lemaguet@education.gouv.fr>
+Cc: presidence@up.univ-mrs.fr,
+	yvon.Berland@univmed.fr,
+	president@univ-cezanne.fr,
+	president@u-picardie.fr,
+	presidence@utc.fr,
+	claude.conde@univ-fcomte.fr,
+	pascal.fournier@utbm.fr,
+	presidence@unicaen.fr,
+	philippe.dulbecco@u-clermont1.fr,
+	president@univ-bpclermont.fr,
+	president@univ-nc.nc,
+	presidente@upf.pf,
+	president@u-bourgogne.fr,
+	presidence@unilim.fr,
+	president@univ-angers.fr,
+	president@univ-lemans.fr,
+	president@univ-nantes.fr,
+	presidence@unice.fr,
+	president@univ-tln.fr,
+	president@univ-orleans.fr,
+	president@univ-tours.fr,
+	president.larochelle@univ-lr.fr,
+	president@univ-poitiers.fr,
+	presidence@univ-reims.fr,
+	president@utt.fr,
+	president@univ-brest.fr,
+	president@univ-ubs.fr,
+	guy.cathelineau@univ-rennes1.fr,
+	marc.gontard@uhb.fr,
+	presidence@univ-lehavre.fr,
+	presidence@univ-rouen.fr,
+	vp-cevu@univ-provence.fr,
+	daniel.dufresne@univmed.fr,
+	laure.maille@univmed.fr,
+	d.viriot-barrial@univ-cezanne.fr,
+	martine.bustany@univ-cezanne.fr,
+	gerard.brule@u-picardie.fr,
+	franck.dibitonto@u-picardie.fr,
+	oussama.barakat@univ-fcomte.fr,
+	celine.maillot@univ-fcomte.fr,
+	marguerite.cuenot@univ-fcomte.fr,
+	oumaya.baala@utbm.fr,
+	service.etudes@utbm.fr,
+	direction.pedagogie@utbm.fr,
+	vicepresident@unicaen.fr,
+	deve-direction@unicaen.fr,
+	J-Marc.LAVEST@u-clermont1.fr,
+	francois.Stgermain@u-clermont1.fr,
+	Bettina.ABOAB@univ-bpclermont.fr,
+	michel.poipy@univ-bpclermont.fr,
+	vicepresident@univ-nc.nc,
+	jean-marie.goursaud@upf.pf,
+	vpcevu@univ-corse.fr,
+	thierry.grison@u-bourgogne.fr,
+	agnes.bene-colnet@u-bourgogne.fr,
+	alain.celerier@unilim.fr,
+	virginie.lefebvre@unilim.fr,
+	eric.delabaere@univ-angers.fr,
+	brigitte.brault@univ-angers.fr,
+	vpcevu@univ-lemans.fr,
+	Sylvie.Trocherie@univ-lemans.fr,
+	vincent.lang@univ-nantes.fr,
+	florence.housset@univ-nantes.fr,
+	eliane.kotler@unice.fr,
+	christine.starck@unice.fr,
+	lucas@univ-tln.fr,
+	sevin@univ-tln.fr,
+	vpcevu@univ-orleans.fr,
+	delphine.regnier@univ-orleans.fr,
+	nadine.imbault@univ-tours.fr,
+	alain.leliboux@univ-tours.fr,
+	vp-cevu@univ-lr.fr,
+	caroline.delacroix@univ-lr.fr,
+	contact_sfsve@univ-lr.fr,
+	francoise.lambert@univ-poitiers.fr,
+	nicolas.marinini@univ-poitiers.fr,
+	guillaume.gelle@univ-reims.fr,
+	carole.morelle@univ-reims.fr,
+	herve.lacresse@utt.fr,
+	carole.morelle@utt.fr,
+	stephanie.rycx@utt.fr,
+	thierry.michot@univ-brest.fr,
+	Service.Scolarite@univ-brest.fr,
+	vp-cevu@univ-ubs.fr,
+	jean-marc.llado@univ-ubs.fr,
+	nathalie.payelle@univ-rennes1.fr,
+	michel.prat@univ-rennes1.fr,
+	alain.abelhauser@uhb.fr,
+	mireille.hamon@univ-rennes2.fr,
+	eliane.talbot@univ-lehavre.fr,
+	jean-marc.delville@univ-lehavre.fr,
+	philippe.bance@univ-rouen.fr,
+	elise.doucin@univ-rouen.fr,
+	direction@centrale-marseille.fr,
+	marielle.riche@marseille.archi.fr,
+	bernard.cretin@ens2m.fr,
+	sophie.commereuc@univ-bpclermont.fr,
+	pleandri@clermont-fd.arch.fr,
+	Direction@ifma.fr,
+	direction@vetagro-sup.fr,
+	g.bouchot@agrosupdijon.fr,
+	Patrick.Chedmail@ec-nantes.fr,
+	Stephane.cassereau@emn.fr,
+	philippe.bataille@nantes.archi.fr,
+	pierre.sai@oniris.fr,
+	colin@obs-nice.fr,
+	romuald.bone@univ-tours.fr,
+	joel.allain@ensi-bourges.fr,
+	direction.generale@agrocampus-ouest.fr,
+	brigitte.amprine@ehesp.fr,
+	jacques.tisseau@enib.fr,
+	Directeur@insa-rennes.fr,
+	paul.friedel@telecom-bretagne.eu,
+	direction@insa-rouen.fr
+MIME-Version: 1.0
+X-KeepSent: 22906580:AB379EA5-C12577E7:0051A187;
+ type=4; name=$KeepSent
+X-Mailer: Lotus Notes Release 7.0.2 September 26, 2006
+Message-ID: <OF22906580.AB379EA5-ONC12577E7.0051A187-C12577E7.005363AE@education.gouv.fr>
+From: MIREILLE LE MAGUET <mireille.lemaguet@education.gouv.fr>
+Date: Fri, 26 Nov 2010 16:11:43 +0100
+X-MIMETrack: Serialize by Router on LotusMail1/SRV/Education/FR(Release 8.5FP1 HF362|October
+ 22, 2009) at 26/11/2010 16:11:43,
+	Serialize complete at 26/11/2010 16:11:43
+Content-Type: multipart/alternative; boundary="=_alternative 005363A9C12577E7_="
+X-Virus-Scanned: amavisd-new at education.gouv.fr
+Subject: [president] =?ISO-8859-1?Q?fermeture_d'Habili_cr=E9ations_2012?=
+
+Message en plusieurs parties au format MIME
+--=_alternative 005363A9C12577E7_=
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Bonjour,
+Nous allons fermer Habili =E0 17h.=20
+Si vous rencontrez des probl=E8mes techniques qui vous emp=EAchent de termi=
+ner=20
+avant, merci de me le dire.
+
+Je vous rappelle qu'il ne s'agit pour le moment que des dossiers de=20
+cr=E9ations de formations nouvelles (mentions nouvelles de licences ou=20
+masters, nouvelles licences professionnelles), non =E9valu=E9es par l'AERES=
+,=20
+et qui feront l'objet d'un avis d'opportunit=E9 de la Commission nationale=
+=20
+des certifications professionnelles (CNCP).
+Nous vous rouvrirons tr=E8s prochainement Habili pour que vous puissiez y=
+=20
+d=E9poser vos dossiers de renouvellement ou de restructuration.
+
+Bien cordialement.
+Mireille Le Maguet
+___________________________________________________________________________=
+____________
+Mireille Le Maguet
+Adjointe =E0 la chef du d=E9partement Habilitations Accr=E9ditations
+01 55 55 84 04
+
+Direction g=E9n=E9rale pour l'enseignement sup=E9rieur et l'insertion=20
+professionnelle - DGESIP
+P=F4le de contractualisation et de financement des =E9tablissements de=20
+formation et de recherche
+Sous-direction de l'analyse de la performance et du dialogue contractuel
+D=E9partement Habilitations Accr=E9ditations
+1 rue Descartes 75005 Paris
+
+--=_alternative 005363A9C12577E7_=
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+<br><font size=3D2 face=3D"sans-serif">Bonjour,</font>
+<br><font size=3D2 face=3D"sans-serif">Nous allons fermer Habili =E0 17h. <=
+/font>
+<br><font size=3D2 face=3D"sans-serif">Si vous rencontrez des probl=E8mes t=
+echniques
+qui vous emp=EAchent de terminer avant, merci de me le dire.</font>
+<br>
+<br><font size=3D2 face=3D"sans-serif">Je vous rappelle qu'il ne s'agit pour
+le moment que des dossiers de cr=E9ations de formations nouvelles (mentions
+nouvelles de licences ou masters, nouvelles licences professionnelles),
+non =E9valu=E9es par l'AERES, et qui feront l'objet d'un avis d'opportunit=
+=E9
+de la Commission nationale des certifications professionnelles (CNCP).</fon=
+t>
+<br><font size=3D2 face=3D"sans-serif">Nous vous rouvrirons tr=E8s prochain=
+ement
+Habili pour que vous puissiez y d=E9poser vos dossiers de renouvellement
+ou de restructuration.</font>
+<br>
+<br><font size=3D2 face=3D"sans-serif">Bien cordialement.</font>
+<br><font size=3D2 face=3D"sans-serif">Mireille Le Maguet</font>
+<br><font size=3D2 face=3D"sans-serif">____________________________________=
+___________________________________________________<br>
+Mireille Le Maguet<br>
+Adjointe =E0 la chef du d=E9partement Habilitations Accr=E9ditations<br>
+01 55 55 84 04<br>
+<br>
+Direction g=E9n=E9rale pour l'enseignement sup=E9rieur et l'insertion profe=
+ssionnelle
+- DGESIP<br>
+P=F4le de contractualisation et de financement des =E9tablissements de form=
+ation
+et de recherche<br>
+Sous-direction de l'analyse de la performance et du dialogue contractuel<br>
+D=E9partement Habilitations Accr=E9ditations<br>
+1 rue Descartes 75005 Paris<br>
+</font>=
+
+--=_alternative 005363A9C12577E7_=--

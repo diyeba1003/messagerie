@@ -1,0 +1,416 @@
+Return-Path: <414.67446096.313334323731.b@dii.acc0.com>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id AEB3A2281B
+	for <president@listes.univ-angers.fr>; Tue, 21 Sep 2010 16:41:45 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 8FF7E114410; Tue, 21 Sep 2010 16:41:45 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+X-Greylist: delayed 601 seconds by postgrey-1.32 at smtp.univ-angers.fr; Tue, 21 Sep 2010 16:41:45 CEST
+Received: from tnf-mta03-179-154.dii.pgs01.com (tnf-mta03-179-154.dii.pgs01.com [137.236.179.154])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 2141A114403
+	for <president@univ-angers.fr>; Tue, 21 Sep 2010 16:41:44 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dii; d=development-institute.com;
+ h=Message-ID:Date:From:Reply-To:To:Subject:Mime-Version:Content-Type; i=info@development-institute.com;
+ bh=OV/0Hxt5Z4/qSNA0wFGHy4/Fb5Y=;
+ b=LayumCA8Cc8sdWg2eTNoZAhOS9+eFPz9TcCKf1jXjLQdHajh+QqcdARRUX5O+a03ClX4nl/xTvzD
+   UaOg09SPghnmDQeaw8LTuqCyaob5B5BrUQjKiA1STircdu2p83iNaZd4Xup/754AYY+wUZQ4AV1X
+   dKcSgtBByrQa2SNcF8U=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dii; d=development-institute.com;
+ b=JgVzd6gheciWZH/nHm/6nmjLeLnD4uZ5pCe5o8e2qw/PwRLctkitqcmGkay11tFaUwHINo7NwDt0
+   FfTfCbZI0dS5FLJ7FoKm7XmSUSnW2+xnqFX6InKvtLIYLAGDB+JUhbx8syxekypVeqfsY0+9Aoij
+   mAtGH3dZY0P4WlDF4yw=;
+Received: from tnf-agent03.pgs01.com (137.236.173.4) by tnf-mta03-179-154.dii.pgs01.com (PowerMTA(TM) v3.5r13) id hj322i0i77cd for <president@univ-angers.fr>; Tue, 21 Sep 2010 10:31:31 -0400 (envelope-from <414.67446096.313334323731.b@dii.acc0.com>)
+Message-ID: <26327148.1285079490984.JavaMail.root@tnf-agent03.pgs01.com>
+Date: Tue, 21 Sep 2010 10:31:30 -0400 (EDT)
+From: Isabelle Pourprix <info@development-institute.com>
+Reply-To: pb@development-institute.com
+To: president@univ-angers.fr
+Mime-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8118057_1640896.1285079490983"
+X-Mailer-Version: 6.4.0 build 2437
+X-Mailer: Accucast
+X-Accutrak: 414.67446096.313334323731
+Subject: [president] =?ISO-8859-15?Q?Forum_PPP_2010_-_Avez-vous_confirm?=
+ =?ISO-8859-15?Q?=E9_votre_pr=E9sence_=3F?=
+
+
+------=_Part_8118057_1640896.1285079490983
+Content-Type: text/plain;charset=ISO-8859-15
+Content-Transfer-Encoding: quoted-printable
+
+9=E8me Edition Annuelle Forum PPP 2010=20
+Les 6, 7 et 8 octobre 2010, Pavillon d'Armenonville, Paris=20
+
+En partenariat avec : BPCE, GB2A, IBM
+
+Sous le Haut Patronage de la MAPPP
+
+Avec le concours de : LA LETTRE DES PPP, L'AGEFI, FORUM PPP=20=20=20=20=20=
+=20
+
+Madame, Monsieur,=20=20
+=20
+Fort de son exp=E9rience et de la r=E9ussite des pr=E9c=E9dentes =E9ditions=
+, Dii organise pour la 9=E8me ann=E9e cons=E9cutive le Forum PPP les 6, 7 e=
+t 8=A0octobre prochains =E0 Paris.=20=20
+
+Devant le succ=E8s rencontr=E9 par l =E9dition 2010, nous vous informons qu=
+ il ne reste plus que quelques places disponibles=A0!=20=20
+
+N attendez plus et confirmez votre participation d=E8s =E0 pr=E9sent=A0!=20=
+=20
+
+Durant ces 3 journ=E9es, vous pourrez tirer parti de la restitution des mon=
+tages gagnants de 2009-2010 pour lister les conditions de la performance d =
+un montage PPP et :=20=20
+
+- identifier les comp=E9tences cl=E9s =E0 mettre en place en interne et che=
+z vos partenaires=20
+- s=E9curiser les =E9tapes juridique, technique, financi=E8re, comptable et=
+ fiscale=20
+- faire le point sur les r=E8gles de cr=E9ation et d organisation d un cons=
+ortium=20=20
+
+Participez =E0 la journ=E9e sp=E9ciale du vendredi 8 octobre pour faire le =
+point sur les infrastructures de transport en PPP au travers de l?expos=E9 =
+de cas pratiques des industriels et institutionnels r=E9f=E9rents.
+=20=20
+Collectivit=E9s Locales ou Territoriales, Minist=E8res ou Administration Ce=
+ntrale, b=E9n=E9ficiez de notre tarif unique de : 195 Euros HT par jour=A0!
+=20
+Me r=E9jouissant de vous accueillir, je vous prie d agr=E9er, Madame, Monsi=
+eur, l expression de mes sinc=E8res salutations.=20=20
+
+Isabelle Pourprix=20
+Responsable du Forum
+
+164 Boulevard Haussmann - 75008 Paris Tel : 01 43 12 85 55 - Fax : 01 40 06=
+ 95 26 - info@development-institute.com
+
+
+------=_Part_8118057_1640896.1285079490983
+Content-Type: text/html;charset=ISO-8859-15
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<title>DII</title>
+<meta content=3D"EditLive! for Java 4.0.4.96" name=3D"generator">
+<meta content=3D"text/html; charset=3DISO-8859-15" http-equiv=3D"Content-Ty=
+pe">
+<style type=3D"text/css">
+a:visited {
+  color: purple;
+  text-decoration: underline;
+}
+p {
+  margin-left: 0cm;
+  font-family: "Times New Roman";
+  margin-right: 0cm;
+  font-size: 12.0pt;
+}
+p.msonormal {
+  margin-top: 0cm;
+  margin-left: 0cm;
+  margin-bottom: .0001pt;
+  font-family: "Times New Roman";
+  margin-right: 0cm;
+  font-size: 12.0pt;
+}
+a:link {
+  color: blue;
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<span style=3D" font-family: Arial;"><br>
+</span>=20
+
+<table cellpadding=3D"0" align=3D"center" width=3D"680" border=3D"0" cellsp=
+acing=3D"0">
+<tr>
+<td align=3D"center" width=3D"100%"><span style=3D" font-family: Arial; fon=
+t-size: xx-small;"> <a href=3D"http://dii.acc0.com/cts/click?q=3D414%3B6744=
+6096%3BzoPcc72s48dGMoC6qnaAHg%3D%3D">Si vous ne visualisez pas correctement=
+ cet e-mail</a> <br>
+  <a href=3D"http://dii.acc0.com/cts/click?q=3D414%3B67446096%3BzoPcc72s48e=
+x2yg00as%2FXQ%3D%3D">Si vous poss=E9dez un terminal mobile et que vous souh=
+aitez visualiser cet e-mail au format Texte</a> <br>
+</span></td>
+</tr>
+</table>
+
+<br>
+<br>
+<table cellpadding=3D"0" align=3D"center" width=3D"680" height=3D"896" bord=
+er=3D"0" cellspacing=3D"0">
+<tr>
+<td width=3D"34%"><a href=3D"http://www.development-institute.com/NET/xslt.=
+aspx"><img src=3D"https://filestore.xmr3.com/83562/11008918/LOGO/Dii.gif" b=
+order=3D"0"></a></td>
+<td width=3D"15%">&nbsp;</td>
+<td width=3D"51%">
+<p align=3D"center" class=3D"msonormal"><a href=3D"http://www.forumppp.com/=
+" title=3D"http://www.development-institute.com/article/9678/9eme_Edition_A=
+nnuelle_Forum_PPP_2010"><img src=3D"https://filestore.xmr3.com/83562/110089=
+18/POLE CONFERENCE/2010/1010/PPP1010/PPP1010.jpg" align=3D"right" border=3D=
+"0" title=3D"http://www.development-institute.com/article/9678/9eme_Edition=
+_Annuelle_Forum_PPP_2010"></a></p>
+</td>
+</tr>
+
+<tr>
+<td width=3D"100%" colspan=3D"3">
+<p class=3D"msonormal"><br>
+<span style=3D" color: #A50021; font-family: Arial; font-size: medium;"><b>=
+9</b></span><b><span style=3D" color: #A50021; font-family: Arial; font-siz=
+e: x-small;"><sup>=E8me</sup></span> <span style=3D" color: #A50021; font-f=
+amily: Arial; font-size: medium;">Edition Annuelle</span></b><br>
+<span style=3D" color: #336699; font-family: Arial; font-size: x-large;"><b=
+>Forum PPP 2010</b></span><br>
+<i><span style=3D" color: #336699; font-family: Arial; font-size: small;">L=
+es 6, 7 et 8 octobre 2010, Pavillon d'Armenonville, Paris</span></i><br>
+<br>
+</p>
+
+<table cellpadding=3D"0" align=3D"center" width=3D"500" border=3D"0" cellsp=
+acing=3D"0">
+<tr>
+<td align=3D"center" width=3D"100%"><span style=3D" font-family: Arial; fon=
+t-size: medium;"><b><a href=3D"http://www.forum-ppp.fr/NET/inscription.asp?=
+demande=3Dpreinscription" style=3D" color: #014e73;">R=E9servez votre place=
+ d=E8s aujourd'hui</a></b></span></td>
+</tr>
+</table>
+
+<br>
+<i><br>
+</i></td>
+</tr>
+
+<tr>
+<td width=3D"100%" height=3D"671" colspan=3D"3">
+<table cellpadding=3D"2" width=3D"100%" height=3D"609" border=3D"0" cellspa=
+cing=3D"2">
+<tr>
+<td align=3D"center" width=3D"25%" height=3D"413"><br>
+<br>
+<span style=3D" font-size: x-small; font-family: Arial;">En partenariat ave=
+c :<br>
+<br align=3D"center">
+<a href=3D"http://www.bpce.fr/" title=3D"http://www.bpce.fr/"><img src=3D"h=
+ttps://filestore.xmr3.com/83562/11008918/PPP/LogoBPCE.jpg" border=3D"0" tit=
+le=3D"http://www.bpce.fr/"></a><br>
+<br>
+<a href=3D"http://www.gb2a.fr/" title=3D"http://www.gb2a.fr/"><img src=3D"h=
+ttps://filestore.xmr3.com/83562/11008918/PPP/LogoGB2A.jpg" border=3D"0" tit=
+le=3D"http://www.gb2a.fr/"></a><br>
+<br>
+<a href=3D"http://www.ibm.com/fr/fr/" title=3D"http://www.ibm.com/fr/fr/"><=
+img src=3D"https://filestore.xmr3.com/83562/11008918/PPP/Logo_IBM2.JPG" bor=
+der=3D"0" title=3D"http://www.ibm.com/fr/fr/"></a><br>
+</span><br>
+<span style=3D" font-family: Arial; font-size: x-small;"><br>
+Sous le Haut Patronage de :<br>
+<br>
+<a href=3D"http://www.secteurpublic.fr/public/structure.tpl?id=3D3171" titl=
+e=3D"http://www.secteurpublic.fr/public/structure.tpl?id=3D3171"><img src=
+=3D"https://filestore.xmr3.com/83562/11008918/PPP/MAPPP.gif" border=3D"0" t=
+itle=3D"http://www.secteurpublic.fr/public/structure.tpl?id=3D3171"></a><br>
+<br>
+</span><br>
+<span style=3D" font-family: Arial; font-size: x-small;">Avec le concours d=
+e :<br>
+<br>
+<a href=3D"http://www.forum-ppp.fr/NET/document/documents/lettre_des_ppp/in=
+dex.htm" title=3D"http://www.forum-ppp.fr/NET/document/documents/lettre_des=
+_ppp/index.htm"><img src=3D"https://filestore.xmr3.com/83562/11008918/PPP/l=
+ettrePPP.jpg" border=3D"0" title=3D"http://www.forum-ppp.fr/NET/document/do=
+cuments/lettre_des_ppp/index.htm"></a><br>
+<br>
+</span><br>
+<span style=3D" font-family: Arial; font-size: x-small;"><a href=3D"http://=
+www.agefi.fr/default.aspx?AspxAutoDetectCookieSupport=3D1" title=3D"http://=
+www.agefi.fr/default.aspx?AspxAutoDetectCookieSupport=3D1"><img src=3D"http=
+s://filestore.xmr3.com/83562/11008918/PPP/agefi.jpg" border=3D"0" title=3D"=
+http://www.agefi.fr/default.aspx?AspxAutoDetectCookieSupport=3D1"></a></spa=
+n><span style=3D" font-family: Arial; font-size: x-small;"><br>
+</span><br>
+<span style=3D" font-family: Arial; font-size: x-small;"><br>
+<a href=3D"http://www.forumppp.com/" title=3D"http://www.forumppp.com/"><im=
+g src=3D"https://filestore.xmr3.com/83562/11008918/PPP/forum PPP.jpg" borde=
+r=3D"0" title=3D"http://www.forumppp.com/"></a><br>
+</span><br>
+<br>
+<br>
+</td>
+<td width=3D"75%" height=3D"413"><span style=3D" font-family: Arial; font-s=
+ize: x-small;">M</span><span style=3D" font-family: Arial; font-size: x-sma=
+ll;">adame, Monsieur,</span>=20
+
+<p class=3D"msonormal"><span style=3D" font-family: Arial; font-size: x-sma=
+ll;"><br>
+Fort de son exp=E9rience et de la r=E9ussite des pr=E9c=E9dentes =E9ditions=
+, <b>Dii</b> organise pour la <b>9</b></span><b><span style=3D" font-family=
+: Arial; font-size: xx-small;"><sup>=E8me</sup></span> <span style=3D" font=
+-family: Arial; font-size: x-small;">ann=E9e cons=E9cutive le</span> <span =
+style=3D" color: #014E73; font-family: Arial; font-size: x-small;"><a href=
+=3D"http://www.forumppp.com/" title=3D"http://www.development-institute.com=
+/article/9678/9eme_Edition_Annuelle_Forum_PPP_2010" style=3D" color: #014e7=
+3;">Forum PPP</a></span> <span style=3D" font-family: Arial; font-size: x-s=
+mall;">les 6, 7 et 8&nbsp;octobre prochains =E0 Paris.</span></b><br>
+<br>
+<span style=3D" font-family: Arial; font-size: x-small;">Devant le succ=E8s=
+ rencontr=E9 par l&rsquo;=E9dition 2010, nous vous informons qu&rsquo;il ne=
+ reste plus que quelques places disponibles&nbsp;!<br>
+<br>
+<b>N&rsquo;attendez plus et confirmez votre participation d=E8s =E0 pr=E9se=
+nt&nbsp;!<br>
+</b><br>
+</span><span style=3D" color: #272627; font-family: Arial; font-size: x-sma=
+ll;">Durant ces 3 journ=E9es, vous pourrez tirer parti de la <b>restitution=
+ des montages gagnants</b> de 2009-2010 pour lister les <b>conditions de la=
+ performance</b> d&rsquo;un montage PPP</span> <span style=3D" color: #2726=
+27; font-family: Arial; font-size: x-small;">et :</span><span style=3D" fon=
+t-family: Arial; font-size: x-small;"><br>
+<br>
+</span><span style=3D" color: #272627; font-family: Arial; font-size: x-sma=
+ll;"><b>&gt;</b></span> <span style=3D" color: #272627; font-family: Arial;=
+ font-size: x-small;">identifier les <b>comp=E9tences cl=E9s</b> =E0 mettre=
+ en place en interne et chez vos partenaires</span><span style=3D" font-fam=
+ily: Arial; font-size: x-small;"><br>
+</span><span style=3D" color: #272627; font-family: Arial; font-size: x-sma=
+ll;"><b>&gt;</b></span> <span style=3D" color: #272627; font-family: Arial;=
+ font-size: x-small;"><b>s=E9curise</b></span><b><span style=3D" color: #27=
+2627; font-family: Arial; font-size: x-small;">r les =E9tapes</span></b> <s=
+pan style=3D" color: #272627; font-family: Arial; font-size: x-small;">juri=
+dique, technique, financi=E8re, comptable et fiscale</span><span style=3D" =
+font-family: Arial; font-size: x-small;"><br>
+</span><span style=3D" color: #272627; font-family: Arial; font-size: x-sma=
+ll;"><b>&gt;</b></span> <span style=3D" color: #272627; font-family: Arial;=
+ font-size: x-small;">faire le point sur les <b>r=E8gles de cr=E9ation et d=
+&rsquo;organisation d&rsquo;un consortium</b></span><span style=3D" font-fa=
+mily: Arial; font-size: x-small;"><br>
+<br>
+</span><span style=3D" color: #272627; font-family: Arial; font-size: x-sma=
+ll;">Participez =E0 la journ=E9e sp=E9ciale du vendredi 8 octobre pour fair=
+e le point sur les <b>infrastructures de transport en PPP</b></span> <span =
+style=3D" color: #272627; font-family: Arial; font-size: x-small;">au trave=
+rs de l&rsquo;expos=E9 de cas pratiques des industriels et institutionnels =
+r=E9f=E9rents.</span><br>
+<br>
+</p>
+
+<table cellpadding=3D"2" align=3D"center" bgcolor=3D"#c0c0c0" width=3D"420"=
+ border=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" width=3D"100%">
+<p class=3D"msonormal"><span style=3D" font-family: Arial; font-size: 11.0p=
+t;">Collectivit=E9s Locales ou Territoriales, Minist=E8res ou Administratio=
+n Centrale, b=E9n=E9ficiez de notre <b>tarif unique de : 195 =A4 HT par jou=
+r&nbsp;!</b></span></p>
+</td>
+</tr>
+</table>
+
+<span style=3D" font-family: Arial; font-size: x-small;"><br>
+</span><span style=3D" color: #0000ff; font-family: Arial; font-size: x-sma=
+ll;"><b>&gt;</b></span> <span style=3D" font-family: Arial; font-size: x-sm=
+all;"><b><a href=3D"http://217.69.19.243/eudo/specif/EUDO_02101/formulaire_=
+recevoir_informations.asp?nev=3D9678&civ=3DM.&pn=3DDaniel&nom=3DMartina&tel=
+=3D33 2 41962363&fax=3D&email=3Dpresident@univ-angers.fr&rs=3DUNIV. D ANGER=
+S&fonction=3DPresident&ADR1=3D&ADR2=3D40 RUE DE RENNES&ADR3=3DBP 73532&CP=
+=3D49035&ville=3DANGERS CEDEX 01&TEL2=3D33 2 41962363&FAX2=3D&idpays=3DFR&f=
+rommail=3D1" style=3D" color: #014e73;">D=E9couvrez le programme</a></b></s=
+pan> <span style=3D" font-family: Arial; font-size: x-small;">de ces 3 jour=
+s<br>
+</span><span style=3D" color: #0000ff; font-family: Arial; font-size: x-sma=
+ll;"><b>&gt;</b></span> <span style=3D" font-family: Arial; font-size: x-sm=
+all;"><b><a color=3D"#014e73" href=3D"http://www.forum-ppp.fr/NET/inscripti=
+on.asp?demande=3Dpreinscription" style=3D" color: #014e73;">Inscrivez</a></=
+b></span><b><span style=3D" font-family: Arial; font-size: x-small;"><a col=
+or=3D"#014e73" href=3D"http://www.forum-ppp.fr/NET/inscription.asp?demande=
+=3Dpreinscription" style=3D" color: #014e73;">-vous</a></span></b><span sty=
+le=3D" font-family: Arial; font-size: x-small;"><a color=3D"#014e73" href=
+=3D"http://www.forum-ppp.fr/NET/inscription.asp?demande=3Dpreinscription"><=
+br>
+</a></span><span style=3D" color: #0000ff; font-family: Arial; font-size: x=
+-small;"><b>&gt;</b></span> <span style=3D" font-family: Arial; font-size: =
+x-small;"><b><a href=3D"http://dii.acc0.com/cts/click?q=3D414%3B67446096%3B=
+D3dctXbMm0HGkfZgWusA%2Fw%3D%3D" style=3D" color: #014e73;">Transf=E9rer =E0=
+ un collaborateur</a></b></span><b><span style=3D" font-family: Arial; font=
+-size: x-small;"><br>
+</span></b>=20
+
+<p class=3D"msonormal"><span style=3D" font-family: Arial; font-size: x-sma=
+ll;"><br>
+Me r=E9jouissant de vous accueillir, je vous prie d'agr=E9er, Madame, Monsi=
+eur, l'expression de mes sinc=E8res salutations.<br>
+</span><span style=3D" font-family: Arial; font-size: x-small;"><br>
+Isabelle Pourprix<br>
+Responsable du Forum</span><br>
+<span style=3D" font-family: Arial; font-size: xx-small;"><br>
+</span></p>
+
+<p class=3D"msonormal"><span style=3D" font-family: Arial; font-size: xx-sm=
+all;">164 Boulevard Haussmann - 75008 Paris<br>
+Tel : 01 43 12 85 55 - Fax : 01 40 06 95 26 -</span> <span style=3D" color:=
+ #014E73; font-family: Arial; font-size: xx-small;"><a href=3D"mailto:info@=
+development-institute.com%20" title=3D"mailto:info@development-institute.co=
+m">info@development-institute.com</a></span></p>
+</td>
+</tr>
+</table>
+
+<p class=3D"msonormal"><span style=3D" font-family: Arial; font-size: x-sma=
+ll;"><br>
+</span><span font-family:=3D"" style=3D" color: #014e73; font-family: Arial=
+; font-size: x-small;"><b>Dii</b></span> <span font-family:=3D"" font-size:=
+=3D"" style=3D" color: #014e73; font-family: Arial; font-size: x-small;">vo=
+us propose de recevoir</span> <span style=3D" color: #014e73; font-family: =
+Arial; text-decoration: underline; font-size: x-small;"><b>gratuitement</b>=
+</span> <span font-size:=3D"" style=3D" color: #014e73; font-family: Arial;=
+ font-size: x-small;">tous les trimestres la <b><a href=3D"http://www.forum=
+-ppp.fr/NET/document/documents/lettre_des_ppp/index.htm" style=3D" color: #=
+014e73;">Lettre des PPP</a></b>, qui vous permettra de ma=EEtriser toute l'=
+actualit=E9 des PPP. Pour vous <b><a href=3D"https://filestore.xmr3.com/835=
+62/11008918/PPP/Abonnement%20Lettre%20des%20PPP.pdf" style=3D" color: 99003=
+3;">abonner</a></b> merci de nous</span> <span font-size:=3D"" style=3D" co=
+lor: #014e73; font-family: Arial; text-decoration: underline; font-size: x-=
+small;">retourner par fax au 01 40 06 95 26</span> <span font-size:=3D"" st=
+yle=3D" color: #014e73; font-family: Arial; font-size: x-small;">le <b><a h=
+ref=3D"https://filestore.xmr3.com/83562/11008918/PPP/Abonnement%20Lettre%20=
+des%20PPP.pdf" style=3D" color: 990033;">bulletin</a>.</b></span><span styl=
+e=3D" color: #014e73; font-family: Arial; font-size: x-small;"><br>
+</span><br>
+</p>
+</td>
+</tr>
+
+<tr>
+<td width=3D"100%" height=3D"-92" colspan=3D"3">
+<hr>
+<p><span style=3D" color: #000000; font-family: Arial; font-size: xx-small;=
+">Les informations vous concernant sont susceptibles de faire l'objet d'un =
+traitement automatis=E9.</span> <span style=3D" font-family: Arial; font-si=
+ze: xx-small;">Elles sont strictement destin=E9es =E0 Dii. Conform=E9ment =
+=E0 la loi informatique et libert=E9s du 06/01/1978 (art. 27), vous dispose=
+z d'un droit d'acc=E8s, de rectification ou de suppression aux donn=E9es pe=
+rsonnelles vous concernant. pour exercer ce droit : <a href=3D"http://dii.a=
+cc0.com/cts/click?q=3D414%3B67446096%3BYVYX53D8MYqOXIwKnuWuyQZ96qiP92u%2B&f=
+bl=3D8">cliquez ici</a></span></p>
+</td>
+</tr>
+</table>
+
+<br>
+<br>
+<p align=3D"left">&nbsp;</p>
+<img src=3D"http://dii.acc0.com/cts/click?q=3D414%3B67446096%3BprXwub2RFscG=
+feqoj%2Fdrvg%3D%3D"></body>
+</html>=
+
+------=_Part_8118057_1640896.1285079490983--
+

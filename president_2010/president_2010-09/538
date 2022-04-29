@@ -1,0 +1,234 @@
+Return-Path: <jardinjade@wanadoo.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id C7E7722823
+	for <president@listes.univ-angers.fr>; Thu, 30 Sep 2010 14:23:40 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id BF0DF1143FC; Thu, 30 Sep 2010 14:23:40 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp27.orange.fr (smtp27.orange.fr [80.12.242.96])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 9B2551143F3
+	for <president@univ-angers.fr>; Thu, 30 Sep 2010 14:23:40 +0200 (CEST)
+Received: from me-wanadoo.net (localhost [127.0.0.1])
+	by mwinf2718.orange.fr (SMTP Server) with ESMTP id 759DD1C0056B;
+	Thu, 30 Sep 2010 14:23:40 +0200 (CEST)
+Received: from me-wanadoo.net (localhost [127.0.0.1])
+	by mwinf2718.orange.fr (SMTP Server) with ESMTP id 6713E1C00097;
+	Thu, 30 Sep 2010 14:23:40 +0200 (CEST)
+Received: from ordi (AVelizy-154-1-72-157.w83-204.abo.wanadoo.fr [83.204.250.157])
+	by mwinf2718.orange.fr (SMTP Server) with ESMTP id 4C5A01C000D7;
+	Thu, 30 Sep 2010 14:23:36 +0200 (CEST)
+X-ME-UUID: 20100930122336312.4C5A01C000D7@mwinf2718.orange.fr
+From: =?UTF-8?Q?St=C3=A9_JADE_-_Philippe_PEIGER?= <jardinjade@wanadoo.fr>
+To: "'REGIS TRIOLLET'" <regis.triollet@educagri.fr>,
+	<contact@plante-et-cite.fr>
+Cc: <cecile.abalain@angerstechnopole.com>,
+	<jeanfrancois.arthuisbrault@cnfpt.fr>,
+	<barraud@falienor.com>,
+	<cnvvf@wanadoo.fr>,
+	<laure.beaudet@agrocampus-ouest.fr>,
+	<veronique.beaujouan@agrocampus-ouest.fr>,
+	<thibaut.beaute@cergypontoise.fr>,
+	<jac.boutaud@free.fr>,
+	<cathy.caldumbide@agrocampus-ouest.fr>,
+	<tresorier@attf.asso.fr>,
+	<eric.collin@cemagref.fr>,
+	<francois.colson@agrocampus-ouest.fr>,
+	<philippe.croze@ville-montpellier.fr>,
+	<bernard.dandalet@saint-etienne.fr>,
+	<herve.daniel@agrocampus-ouest.fr>,
+	<eric.davy@groupe-merceron.com>,
+	<sabine.diwo-allain@angerstechnopole.com>,
+	<jean.duchesne@agrocampus-ouest.fr>,
+	<jp.ducos@caue49.com>,
+	<bfleury@ville-orleans.fr>,
+	<y-gabory@paysdesmauges.fr>,
+	<julien.greffier@gnis.fr>,
+	<contact@iftech.fr>,
+	<bruno.jaloux@agrocampus-ouest.fr>,
+	<veronique.kapusta@angers.inra.fr>,
+	<environnement@agglo-saumur.fr>,
+	<josiane.lecorff@agrocampus-ouest.fr>,
+	<d.lebrun@bhr-vegetal.com>,
+	<sfg.jmlecourt@orange.fr>,
+	<jeanmichel.marchandeau@cnfpt.fr>,
+	<xavier.marie@solpaysage.fr>,
+	<bmartin@ville-rennes.fr>,
+	<president@univ-angers.fr>,
+	<fanny.maujean@ville.angers.fr>,
+	<philippe.morel@angers.inra.fr>,
+	<philippe.nonckelynck@orange.fr>,
+	<walid.oueslati@agrocampus-ouest.fr>,
+	<michelpena@penapaysages.com>,
+	<romaric.perrocheau@mairie-nantes.fr>,
+	<pineau@pepinieres-minier.fr>,
+	<pinel@andre-briant.fr>,
+	<c.chollet@unep-fr.org>,
+	<lmriviere@rezo.net>,
+	<christophe.subileau@uapl.fr>,
+	<l.vandevelde@bhr-vegetal.com>,
+	<v.vansteene@unep-fr.org>,
+	<frederic.moreau@ville.angers.fr>,
+	<cjaneau@edelweiss-sa.fr>,
+	<sdurot@biotope.fr>,
+	<cjoveneaux@enm-lille.fr>,
+	<camille.jouglet@plante-et-cite.fr>,
+	<olivier.damas@plante-et-cite.fr>,
+	<sophie.lemaire@plante-et-cite.fr>,
+	<damien.provendier@plante-et-cite.fr>,
+	<ludovic.provost@plante-et-cite.fr>,
+	<aurore.micand@plante-et-cite.fr>,
+	<helene.veillon@plante-et-cite.fr>,
+	<remi.duflot@plante-et-cite.fr>,
+	<pauline.laille@plante-et-cite.fr>,
+	<maxime.guerin@plante-et-cite.fr>,
+	<virginie.anquetil@plante-et-cite.fr>,
+	<sylvie.pigot@ecce-terra.fr>
+References: <4CA09492.7000504@plante-et-cite.fr> <fc.000f5d971414f4423b9aca006850ca6a.1414f706@educagri.fr>
+In-Reply-To: <fc.000f5d971414f4423b9aca006850ca6a.1414f706@educagri.fr>
+Date: Thu, 30 Sep 2010 14:23:39 +0200
+Message-ID: <00d401cb609a$5272dac0$f7589040$@fr>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Actgf2Afd/19xCNNSR+5TGhQFyhlVAAGsV3w
+Content-Language: fr
+Subject: [president] =?UTF-8?Q?RE:_Comit=C3=A9_de_pilotage_technique?=
+
+Bonjour =C3=A0 tous=20
+Je serai pr=C3=A9sent le 29 octobre=20
+Cordialement
+
+Philippe PEIGER
+
+
+=20
+rue des huguenots
+78 410 Aubergenville
+Tel : 01 30 90 17 27 Fax : 01 30 90 17 26=20
+jardinjade@wanadoo.fr=20
+www.jardinjade.com
+
+
+-----Message d'origine-----
+De : REGIS TRIOLLET [mailto:regis.triollet@educagri.fr]=20
+Envoy=C3=A9 : jeudi 30 septembre 2010 11:10
+=C3=80 : contact@plante-et-cite.fr
+Cc : cecile.abalain@angerstechnopole.com; jeanfrancois.arthuisbrault@cnfpt.=
+fr; barraud@falienor.com; cnvvf@wanadoo.fr; laure.beaudet@agrocampus-ouest.=
+fr; veronique.beaujouan@agrocampus-ouest.fr; thibaut.beaute@cergypontoise.f=
+r; jac.boutaud@free.fr; cathy.caldumbide@agrocampus-ouest.fr; tresorier@att=
+f.asso.fr; eric.collin@cemagref.fr; francois.colson@agrocampus-ouest.fr; ph=
+ilippe.croze@ville-montpellier.fr; bernard.dandalet@saint-etienne.fr; herve=
+.daniel@agrocampus-ouest.fr; eric.davy@groupe-merceron.com; sabine.diwo-all=
+ain@angerstechnopole.com; jean.duchesne@agrocampus-ouest.fr; jp.ducos@caue4=
+9.com; bfleury@ville-orleans.fr; y-gabory@paysdesmauges.fr; julien.greffier=
+@gnis.fr; contact@iftech.fr; bruno.jaloux@agrocampus-ouest.fr; veronique.ka=
+pusta@angers.inra.fr; environnement@agglo-saumur.fr; josiane.lecorff@agroca=
+mpus-ouest.fr; d.lebrun@bhr-vegetal.com; sfg.jmlecourt@orange.fr; jeanmiche=
+l.marchandeau@cnfpt.fr; xavier.marie@solpaysage.fr; bmartin@ville-rennes.fr=
+; president@univ-angers.fr; fanny.maujean@ville.angers.fr; philippe.morel@a=
+ngers.inra.fr; philippe.nonckelynck@orange.fr; walid.oueslati@agrocampus-ou=
+est.fr; michelpena@penapaysages.com; romaric.perrocheau@mairie-nantes.fr; p=
+ineau@pepinieres-minier.fr; pinel@andre-briant.fr; c.chollet@unep-fr.org; l=
+mriviere@rezo.net; christophe.subileau@uapl.fr; l.vandevelde@bhr-vegetal.co=
+m; v.vansteene@unep-fr.org; frederic.moreau@ville.angers.fr; cjaneau@edelwe=
+iss-sa.fr; jardinjade@wanadoo.fr; sdurot@biotope.fr; cjoveneaux@enm-lille.f=
+r; camille.jouglet@plante-et-cite.fr; olivier.damas@plante-et-cite.fr; soph=
+ie.lemaire@plante-et-cite.fr; damien.provendier@plante-et-cite.fr; ludovic.=
+provost@plante-et-cite.fr; aurore.micand@plante-et-cite.fr; helene.veillon@=
+plante-et-cite.fr; remi.duflot@plante-et-cite.fr; pauline.laille@plante-et-=
+cite.fr; maxime.guerin@plante-et-cite.fr; virginie.anquetil@plante-et-cite.=
+fr; sylvie.pigot@ecce-terra.fr
+Objet : Re: Comit=C3=A9 de pilotage technique
+
+
+Bonjour,
+
+Je serai pr=C3=A9sent au comit=C3=A9 de pilotage technique de Plante&Cit=C3=
+=A9 du
+vendredi 29 octobre 2010 =C3=A0 Angers, de 10h00 =C3=A0 16h30.
+Bien cordialement,
+
+Merci de n'imprimer ce courriel que si n=C3=A9cessaire
+TRIOLLET R=C3=A9gis
+Charg=C3=A9 de mission MAAP/DGER/BIPI
+Animateur National r=C3=A9seau Horticulture et Paysage
+http://www.chlorofil.fr/territoires/reseaux-et-partenaires/reseau-horticult=
+ure-et-paysage.html
+Mod=C3=A9rateur Conf reseau-HORTIPAYSAGE
+BUREAU : CFPPA Angers le fresne
+http://www.eap49.educagri.fr/
+TELEPHONE : 02 41 68 60 03
+Portable : 06 20 98 82 94
+
+
+Contact Plante & Cit=C3=A9 <contact@plante-et-cite.fr> =C3=A9crit:
+>  Bonjour,
+>Le prochain comit=C3=A9 de pilotage technique de Plante & Cit=C3=A9 aura l=
+ieu le
+>vendredi 29 octobre 2010 de 10h =C3=A0 16h30. L'ordre du jour est le suiva=
+nt
+>:=20
+>Matin :=20
+>- Accueil et informations g=C3=A9n=C3=A9rales
+>- Pr=C3=A9sentation des projets r=C3=A9alis=C3=A9s 2010 : 1 focus par th=
+=C3=A8me
+>Apr=C3=A8s-midi :=20
+>- Information sur l'enqu=C3=AAte sur les attentes des entreprises du paysa=
+ge
+>- Programmation 2011 des journ=C3=A9es techniques
+>- Travail en ateliers sur les propositions de projets =C3=A9mergeant
+>
+>Vous recevrez dans les prochaines semaines les documents n=C3=A9cessaires =
+=C3=A0
+>la pr=C3=A9paration de ce comit=C3=A9 de pilotage technique.
+>
+>Je vous remercie par avance de nous indiquer par retour de mail votre
+>participation =C3=A0 cette journ=C3=A9e et au repas.
+>Bien cordialement,
+>=20
+>--=20
+>
+>
+>Caroline Gutleben
+>Charg=C3=A9e de mission
+>
+>
+>Plante & Cit=C3=A9
+>3 rue Fleming
+>49 066 ANGERS cedex 1
+>
+>T=C3=A9l : 02.41.72.11.48
+>Fax: 02.41.72.25.67
+>Site web: [ http://www.plante-et-cite.fr ]www.plante-et-cite.fr
+>
+>
+>
+>
+
+
+
+Merci de n'imprimer ce courriel que si n=C3=A9cessaire
+TRIOLLET R=C3=A9gis
+Charg=C3=A9 de mission MAAP/DGER/BIPI
+Animateur National r=C3=A9seau Horticulture et Paysage
+http://www.chlorofil.fr/territoires/reseaux-et-partenaires/reseau-horticult=
+ure-et-paysage.html
+Mod=C3=A9rateur Conf reseau-HORTIPAYSAGE
+BUREAU : CFPPA Angers le fresne
+http://www.eap49.educagri.fr/
+TELEPHONE : 02 41 68 60 03
+Portable : 06 20 98 82 94
+
+
+---------------------------------------------------------------------------=
+------------
+Orange vous informe que cet  e-mail a ete controle par l'anti-virus mail.=
+=20
+Aucun virus connu a ce jour par nos services n'a ete detecte.
+
+
+
+

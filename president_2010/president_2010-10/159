@@ -1,0 +1,349 @@
+Return-Path: <prvs=8947f1fd9=COURCODO@cmanjou.creditmutuel.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id B92412283E
+	for <president@listes.univ-angers.fr>; Tue, 12 Oct 2010 14:36:43 +0200 (CEST)
+Received: by smtp.univ-angers.fr (Postfix)
+	id A2C0B114220; Tue, 12 Oct 2010 14:36:43 +0200 (CEST)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1-inyi.e-i.net (smtp3-outyi.e-i.net [145.226.65.39])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 59AE11140B7;
+	Tue, 12 Oct 2010 14:36:43 +0200 (CEST)
+X-IronPort-AV: E=Sophos;i="4.57,320,1283724000"; 
+   d="scan'208,217";a="59912511"
+Received: from unknown (HELO gki-hu02.cm-cic.fr) ([10.91.224.42])
+  by gii-mx03.e-i.net with ESMTP; 12 Oct 2010 14:36:41 +0200
+Received: from GKI-MA04.cm-cic.fr ([10.91.214.64]) by gki-hu02.cm-cic.fr
+ ([10.91.224.42]) with mapi; Tue, 12 Oct 2010 14:36:41 +0200
+From: COURCOUL Dominique <COURCODO@cmanjou.creditmutuel.fr>
+To: =?iso-8859-1?Q?Andr=E9_Rebel?= <andrerebel@orange.fr>, AMV
+	<angers.musees.vivants@wanadoo.fr>, Angers Habitat Patricia
+	<Patricia.DUVEAU@angers-habitat.fr>, Angers-Habitat com
+	<communication@angers-habitat.fr>,
+	=?iso-8859-1?Q?Anjou_soins_services_M=E9lanie?=
+	<m.coeuru@anjousoinsservices.fr>, =?iso-8859-1?Q?Basl=E9_Michel?=
+	<michel.basle@univ-angers.fr>, Bourgeois Bernard
+	<bernard.bourgeois315@orange.fr>, Bournazel Vincent.
+	<vbcoeur@club-internet.fr>, =?iso-8859-1?Q?Champaney_Andr=E9?=
+	<andre.champaney@wanadoo.fr>, Chappard Daniel
+	<daniel.chappard@univ-angers.fr>, Colson Daniel
+	<danielcolson.electromenager@wanadoo.fr>, Cotonea Assad
+	<cotonea@assad-afa.fr>, =?iso-8859-1?Q?Courcoul_Dominique_priv=E9?=
+	<dominique.courcoul@numericable.fr>, Coyard Christa <coyard@unimedia.fr>,
+	Croiset Christine <christine.croiset49@orange.fr>, Decarli Claude
+	<claudedecarli@orange.fr>, Dennys Museum <Vincent.dennys@ville.angers>, Dubin
+ Jacques <jadubin@chu-angers.fr>, Rebel Philippe <Tropi.garden@domaccess.com>,
+	Rebel Xavier <rebel.xavier@wanadoo.fr>, Rebel vincent
+	<vincent.rebel@mpsa.com>, =?iso-8859-1?Q?Richard_B=E9n=E9dicte?=
+	<benedicte.rebel@giffard.com>, Pomalaza Isabelle <pomalaza@ca.ibm.com>,
+	Pomalaza Isabelle Perso <Isabelle@pomalaza.com>,
+	=?iso-8859-1?Q?=22Richard_B=E9n=E9dicte_dom=2E=22?=
+	<benedicte.richard200@orange.fr>, Fabre michel <michelfabre@noos.fr>,
+	=?iso-8859-1?Q?=22Fac=2E_M=E9d_-_Secr=2E=22?=
+	<Patricia.lecoq@univ-angers.fr>, Fernbach Diane <denys.fernbach@orange.fr>,
+	Francke Jean-Paul conf Doyens <jean-paul.francke@univ-lille2.fr>,
+	=?iso-8859-1?Q?Fran=E7ois_Henri?= <shfrancois@laposte.net>, Girard Sylvie
+ perso <scotbie@yahoo.fr>, Girard Sylvie Prof. <toitetbois@domaccess.com>,
+	Gossi-Royer <amisdegossi@wanadoo.fr>, =?iso-8859-1?Q?Goutard_V=E9ronique?=
+	<veroniquegoutard@hotmail.fr>, =?iso-8859-1?Q?Gu=E9rin_Herv=E9?=
+	<herve.guerin@angers-habitat.fr>, Iogna-Prat Paul
+	<paul.iogna-prat@wanadoo.fr>, Jacqueline aux Augustines
+	<sr.jacqueline@augustines-angers.fr>, Jallet Ghislaine
+	<ophtalmologie@chu-angers.fr>, Jean Meillac
+	<jean.meillac@garagedebretagne.fr>, Jarriod Nicolle
+	<nicolle.jarriod@orange.fr>, Jean-Marie REBEL <jm.rebel@gmail.com>,
+	Jeanneteau Teisseire <jeanneteau.genevieve@sfr.fr>, Lafont Claire
+	<cjplafont@gmail.com>, Lutz immo <contact@cabinet-Lutz.fr>, "MACSF ass. vie"
+	<marketing@macsf.fr>, MAIF <angers@maif.fr>, Maillard Jacques
+	<bjmaillar@numericable.fr>, =?iso-8859-1?Q?Marchal_Fran=E7oise?=
+	<marchalchristophe31@yahoo.fr>, =?iso-8859-1?Q?Marie-Fran=E7oise_Moreau?=
+	<marie-francoise.moreau@univ-angers.fr>, Mercedes-Meillac
+	<jean.meillac@garagedebretagne.fr>, "monique.pierre3@wanadoo.fr"
+	<monique.pierre3@wanadoo.fr>, Morin Claire-Alix <dca.morin@free.fr>,
+	Nourisson Michel <michel.nourisson@wanadoo.fr>,
+	=?iso-8859-1?Q?ordre_m=E9decins_49?= <maine-et-loire@49.medecin.fr>, Panterne
+ Marie Paule <mariepaule.panterne@sfr.fr>, Paroisse saint Joseph
+	<stjoseph49@modulonet.fr>, Pomalaza Giuliano 2 <giuliano@pomalaza.com>,
+	Pomalaza Guillaume2 <guillaume@pomalaza.com>, Rebel Benjamin
+	<benji26@orange.fr>, Pierre Rebel Monique <monique.pierre3@wanadoo.fr>,
+	Pomalaza Isabelle <pomalaza@ca.ibm.com>, Pomalaza Isabelle Perso
+	<Isabelle@pomalaza.com>, Pomalaza Jorge <jorge@pomalaza.com>,
+	=?iso-8859-1?Q?Pr=E9sidence_Universit=E9?= <president@univ-angers.fr>, Raquet
+ St Martin <raquet.stmartin@orange.fr>, Rebel Alexandre
+	<alexandre.rebel@orange.fr>, Rebel Anne Marie <anne-marie.rebel@wanadoo.fr>,
+	=?iso-8859-1?Q?Rebel_B=E9atrice?= <brebel@wanadoo.fr>, Rebel Dominique
+	<rebel.dominique@orange.fr>, Rebel Jean Marie <jm.rebel@wanadoo.fr>, Rebel
+ Jean-claude <rebeljc@orange.fr>, Rebel Olivier <rebelolivier@aol.com>, Rebel
+ Yves <taxyves57@wanadoo.fr>, =?iso-8859-1?Q?R=E9seau_Sainte_Marie?=
+	<reseaustemarie@laposte.net>, =?iso-8859-1?Q?Retourn=E9_Fran=E7oise?=
+	<francoise.retourne@orange.fr>, Ribrault Annie SUIO
+	<annie.ribrault@univ-angers.fr>, Ropiteau Meursault <caves@ropiteau.fr>,
+	=?iso-8859-1?Q?Roussineau_Agn=E9s?= <agnes.roussineau@dbmail.com>, Saint
+ Martin maison de retraite <maison.retraite.stmartin@wanadoo.fr>,
+	=?iso-8859-1?Q?Saint-Andr=E9_Jean-Paul?=
+	<jean-paul.saint-andre@univ-angers.fr>, Saulnier Alain
+	<alain.saulnier@wanadoo.fr>, SAV pyramide <sav.pyramide@wanadoo.fr>, Savoy
+ Jean-Marc <jmarcsavoy@tele2.fr>, Serafimov Marie <0661471421@imode.fr>,
+	=?iso-8859-1?Q?Subrei_Mich=E8le_AMV?= <michelesubrei@wanadoo.fr>, Teisseire
+ Norbert <norbert.teisseire@sfr.fr>, Tuchais Edmond orange
+	<e.tuchais@orange.fr>, UCO Rectorat <rectorat@uco.fr>, Villalonga immobilier
+	<villalonga.immo@wanadoo.fr>, Vin - La Cune <jlmcune@wanadoo.fr>, Wilfart
+ Angela <angelwi@wanadoo.fr>
+Date: Tue, 12 Oct 2010 14:36:38 +0200
+Thread-Topic: Changement d'adresse
+Thread-Index: Actp9fJm6a4rjijPSE+UToNSXzOxkgAFCIkg
+Message-ID: <FCBA68522DBA464C9FE64AD99A7944D255B240EE38@GKI-MA04.cm-cic.fr>
+References: <4CB43464.4050102@orange.fr>
+In-Reply-To: <4CB43464.4050102@orange.fr>
+Accept-Language: fr-FR
+Content-Language: fr-FR
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: fr-FR
+Content-Type: multipart/alternative;
+	boundary="_000_FCBA68522DBA464C9FE64AD99A7944D255B240EE38GKIMA04cmcicf_"
+MIME-Version: 1.0
+Subject: [president] RE: Changement d'adresse
+
+
+--_000_FCBA68522DBA464C9FE64AD99A7944D255B240EE38GKIMA04cmcicf_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+De : Andr=E9 Rebel [mailto:andrerebel@orange.fr]
+Envoy=E9 : mardi 12 octobre 2010 12:12
+=C0 : AMV; Angers Habitat Patricia; Angers-Habitat com; Anjou soins service=
+s M=E9lanie; Basl=E9 Michel; Bourgeois Bernard; Bournazel Vincent.; Champan=
+ey Andr=E9; Chappard Daniel; Colson Daniel; Cotonea Assad; COURCOUL Dominiq=
+ue; Courcoul Dominique priv=E9; Coyard Christa; Croiset Christine; Decarli =
+Claude; Dennys Museum; Dubin Jacques; Rebel Philippe; Rebel Xavier; Rebel v=
+incent; Richard B=E9n=E9dicte; Pomalaza Isabelle; Pomalaza Isabelle Perso; =
+"Richard B=E9n=E9dicte dom."; Fabre michel; "Fac. M=E9d - Secr."; Fernbach =
+Diane; Francke Jean-Paul conf Doyens; Fran=E7ois Henri; Girard Sylvie perso=
+; Girard Sylvie Prof.; Gossi-Royer; Goutard V=E9ronique; Gu=E9rin Herv=E9; =
+Iogna-Prat Paul; Jacqueline aux Augustines; Jallet Ghislaine; Jean Meillac;=
+ Jarriod Nicolle; Jean-Marie REBEL; Jeanneteau Teisseire; Lafont Claire; Lu=
+tz immo; MACSF ass. vie; MAIF; Maillard Jacques; Marchal Fran=E7oise; Marie=
+-Fran=E7oise Moreau; Mercedes-Meillac; monique.pierre3@wanadoo.fr; Morin Cl=
+aire-Alix; Nourisson Michel; ordre m=E9decins 49; Panterne Marie Paule; Par=
+oisse saint Joseph; Pomalaza Giuliano 2; Pomalaza Guillaume2; Rebel Benjami=
+n; Pierre Rebel Monique; Pomalaza Isabelle; Pomalaza Isabelle Perso; Pomala=
+za Jorge; Pr=E9sidence Universit=E9; Raquet St Martin; Rebel Alexandre; Reb=
+el Anne Marie; Rebel B=E9atrice; Rebel Dominique; Rebel Jean Marie; Rebel J=
+ean-claude; Rebel Olivier; Rebel Yves; R=E9seau Sainte Marie; Retourn=E9 Fr=
+an=E7oise; Ribrault Annie SUIO; Ropiteau Meursault; Roussineau Agn=E9s; Sai=
+nt Martin maison de retraite; Saint-Andr=E9 Jean-Paul; Saulnier Alain; SAV =
+pyramide; Savoy Jean-Marc; Serafimov Marie; Subrei Mich=E8le AMV; Teisseire=
+ Norbert; Tuchais Edmond orange; UCO Rectorat; Villalonga immobilier; Vin -=
+ La Cune; Wilfart Angela
+Objet : Changement d'adresse
+
+Josette et Andr=E9 Rebel vous prient de noter leur nouvelle adresse =E0 com=
+pter du 15 octobre 2010 :
+16 rue Proust 49100 Angers T=E9l : 02 41 86 08 47 (sans changement) andrere=
+bel@orange.fr<mailto:andrerebel@orange.fr> (sans changement)
+***************************************************************************=
+********************
+Ce message et toutes les pi=E8ces jointes sont confidentiels et =E9tablis =
+=E0 l'intention exclusive=20
+de son ou ses destinataires. Si vous avez re=E7u ce message par erreur, mer=
+ci d'en avertir
+imm=E9diatement l'=E9metteur et de d=E9truire le message. Toute modificatio=
+n, =E9dition, utilisation ou
+diffusion non autoris=E9e est interdite. L'=E9metteur d=E9cline toute respo=
+nsabilit=E9 au titre de ce
+message s'il a =E9t=E9 modifi=E9, d=E9form=E9, falsifi=E9, infect=E9 par un=
+ virus ou encore =E9dit=E9 ou diffus=E9
+sans autorisation.
+
+
+This message and any attachments are confidential and intended for the name=
+d addressee(s) only.
+If you have received this message in error, please notify immediately the s=
+ender, then delete
+the message. Any unauthorized modification, edition, use or dissemination i=
+s prohibited.
+The sender does not be liable for this message if it has been modified, alt=
+ered, falsified,
+infected by a virus or even edited or disseminated without authorization.
+***************************************************************************=
+********************
+
+--_000_FCBA68522DBA464C9FE64AD99A7944D255B240EE38GKIMA04cmcicf_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-=
+1">
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+
+<head>
+
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=3Dwhite lang=3DFR link=3Dblue vlink=3Dpurple>
+
+<div class=3DWordSection1>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+
+<div>
+
+<div style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'>
+
+<p class=3DMsoNormal style=3D'margin-left:35.4pt'><b><span style=3D'font-si=
+ze:10.0pt;
+font-family:"Tahoma","sans-serif";color:windowtext'>De&nbsp;:</span></b><sp=
+an
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:windowtex=
+t'>
+Andr=E9 Rebel [mailto:andrerebel@orange.fr] <br>
+<b>Envoy=E9&nbsp;:</b> mardi 12 octobre 2010 12:12<br>
+<b>=C0&nbsp;:</b> AMV; Angers Habitat Patricia; Angers-Habitat com; Anjou s=
+oins
+services M=E9lanie; Basl=E9 Michel; Bourgeois Bernard; Bournazel Vincent.;
+Champaney Andr=E9; Chappard Daniel; Colson Daniel; Cotonea Assad; COURCOUL
+Dominique; Courcoul Dominique priv=E9; Coyard Christa; Croiset Christine; D=
+ecarli
+Claude; Dennys Museum; Dubin Jacques; Rebel Philippe; Rebel Xavier; Rebel
+vincent; Richard B=E9n=E9dicte; Pomalaza Isabelle; Pomalaza Isabelle Perso;
+&quot;Richard B=E9n=E9dicte dom.&quot;; Fabre michel; &quot;Fac. M=E9d - Se=
+cr.&quot;;
+Fernbach Diane; Francke Jean-Paul conf Doyens; Fran=E7ois Henri; Girard Syl=
+vie
+perso; Girard Sylvie Prof.; Gossi-Royer; Goutard V=E9ronique; Gu=E9rin Herv=
+=E9;
+Iogna-Prat Paul; Jacqueline aux Augustines; Jallet Ghislaine; Jean Meillac;
+Jarriod Nicolle; Jean-Marie REBEL; Jeanneteau Teisseire; Lafont Claire; Lutz
+immo; MACSF ass. vie; MAIF; Maillard Jacques; Marchal Fran=E7oise;
+Marie-Fran=E7oise Moreau; Mercedes-Meillac; monique.pierre3@wanadoo.fr; Mor=
+in
+Claire-Alix; Nourisson Michel; ordre m=E9decins 49; Panterne Marie Paule;
+Paroisse saint Joseph; Pomalaza Giuliano 2; Pomalaza Guillaume2; Rebel Benj=
+amin;
+Pierre Rebel Monique; Pomalaza Isabelle; Pomalaza Isabelle Perso; Pomalaza
+Jorge; Pr=E9sidence Universit=E9; Raquet St Martin; Rebel Alexandre; Rebel =
+Anne
+Marie; Rebel B=E9atrice; Rebel Dominique; Rebel Jean Marie; Rebel Jean-clau=
+de;
+Rebel Olivier; Rebel Yves; R=E9seau Sainte Marie; Retourn=E9 Fran=E7oise; R=
+ibrault
+Annie SUIO; Ropiteau Meursault; Roussineau Agn=E9s; Saint Martin maison de
+retraite; Saint-Andr=E9 Jean-Paul; Saulnier Alain; SAV pyramide; Savoy Jean=
+-Marc;
+Serafimov Marie; Subrei Mich=E8le AMV; Teisseire Norbert; Tuchais Edmond or=
+ange;
+UCO Rectorat; Villalonga immobilier; Vin - La Cune; Wilfart Angela<br>
+<b>Objet&nbsp;:</b> Changement d'adresse<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+<p class=3DMsoNormal style=3D'margin-left:35.4pt'><o:p>&nbsp;</o:p></p>
+
+<div>
+
+<p class=3DMsoNormal style=3D'margin-left:35.4pt'>Josette et Andr=E9 Rebel =
+vous
+prient de noter leur nouvelle adresse =E0 compter du 15 octobre 2010 :<br>
+<b><i>16 rue Proust 49100 Angers</i></b> T=E9l : 02 41 86 08 47 (sans chang=
+ement)
+<a href=3D"mailto:andrerebel@orange.fr">andrerebel@orange.fr</a> (sans
+changement)<o:p></o:p></p>
+
+</div>
+
+</div>
+
+<font face=3D"monospace">**************************************************=
+*********************************************<br>
+Ce message et toutes les pi=E8ces jointes sont confidentiels et =E9tablis =
+=E0 l'intention exclusive <br>
+de son ou ses destinataires. Si vous avez re=E7u ce message par erreur, mer=
+ci d'en avertir<br>
+imm=E9diatement l'=E9metteur et de d=E9truire le message. Toute modificatio=
+n, =E9dition, utilisation ou<br>
+diffusion non autoris=E9e est interdite. L'=E9metteur d=E9cline toute respo=
+nsabilit=E9 au titre de ce<br>
+message s'il a =E9t=E9 modifi=E9, d=E9form=E9, falsifi=E9, infect=E9 par un=
+ virus ou encore =E9dit=E9 ou diffus=E9<br>
+sans autorisation.<br>
+<br>
+<br>
+This message and any attachments are confidential and intended for the name=
+d addressee(s) only.<br>
+If you have received this message in error, please notify immediately the s=
+ender, then delete<br>
+the message. Any unauthorized modification, edition, use or dissemination i=
+s prohibited.<br>
+The sender does not be liable for this message if it has been modified, alt=
+ered, falsified,<br>
+infected by a virus or even edited or disseminated without authorization.<b=
+r>
+***************************************************************************=
+********************</font></body>
+
+</html>
+
+--_000_FCBA68522DBA464C9FE64AD99A7944D255B240EE38GKIMA04cmcicf_--
+

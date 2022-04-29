@@ -1,0 +1,271 @@
+Return-Path: <gwenaelle.verscheure@education.gouv.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 0B85A2282B
+	for <president@listes.univ-angers.fr>; Wed, 22 Dec 2010 11:51:13 +0100 (CET)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 016E411423C; Wed, 22 Dec 2010 11:51:13 +0100 (CET)
+Delivered-To: president@univ-angers.fr
+Received: from mx2du.in.adc.education.fr (mx2du.in.adc.education.fr [193.50.162.133])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id E40C1114229;
+	Wed, 22 Dec 2010 11:51:12 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by mx2du.in.adc.education.fr (Postfix) with ESMTP id C12C73100B3;
+	Wed, 22 Dec 2010 11:51:11 +0100 (CET)
+Received: from mx2du.in.adc.education.fr ([127.0.0.1])
+ by localhost (mx2du [127.0.0.1]) (amavisd-new, port 10024) with LMTP
+ id 23317-01-12; Wed, 22 Dec 2010 11:51:11 +0100 (CET)
+Received: from mail24.daf.sgvdi.in.adc.education.fr (mail24.sgvdi.in.adc.education.fr [10.17.24.250])
+	by mx2du.in.adc.education.fr (Postfix) with ESMTP id D65E23100B2;
+	Wed, 22 Dec 2010 11:51:10 +0100 (CET)
+X-KeepSent: 30943601:356115B3-C1257801:0039CFCE;
+ type=4; name=$KeepSent
+To: presidence@univ-provence.fr,
+	Fathie.Boubertekh@univ-provence.fr,
+	yvon.berland@univmed.fr,
+	sg@univmed.fr,
+	president@univ-cezanne.fr,
+	therese.chetail@univ-cezanne.fr,
+	secretariat.sg@univ-cezanne.fr,
+	president@univ-avignon.fr,
+	lucay.sautron@univ-avignon.fr,
+	presidence@utc.fr,
+	solange.bonneaud@utc.fr,
+	claude.conde@univ-fcomte.fr,
+	louis.berion@univ-fcomte.fr,
+	direction@utbm.fr,
+	dgs@utbm.fr,
+	a.boudou@presidence.u-bordeaux1.fr,
+	sgal@presidence.u-bordeaux1.fr,
+	president@u-bordeaux2.fr,
+	corinne.duffau@u-bordeaux2.fr,
+	Jean-louis.gout@univ-pau.fr,
+	jean-louis.fourcaud@univ-pau.fr,
+	philippe.dulbecco@u-clermont1.fr,
+	martine.henault@u-clermont1.fr,
+	Nadine.LAVIGNOTTE@univ-bpclermont.fr,
+	Herve.COMBAZ@univ-bpclermont.fr,
+	secretaire.general@univ-bpclermont.fr,
+	pres-p13@univ-paris13.fr,
+	sec-sg@upn.univ-paris13.fr,
+	remy.gicquel@univ-paris13.fr,
+	president@u-bourgogne.fr,
+	jean.narvaez@u-bourgogne.fr,
+	presidence@grenoble-inp.fr,
+	secretaire-general@grenoble-inp.fr,
+	xavier.fauveau@inpg.fr,
+	presidence@ujf-grenoble.fr,
+	dgs@ujf-grenoble.fr,
+	president@univ-valenciennes.fr,
+	secretaire.general@univ-valenciennes.fr,
+	pierre.chabasse@univ-valenciennes.fr,
+	president@univ-littoral.fr,
+	catherine.sion@univ-littoral.fr,
+	secretaire.general@univ-littoral.fr,
+	secretariat.presidence@univ-lille2.fr,
+	guy.baillieul@univ-lille2.fr,
+	presidence@unilim.fr,
+	vincent.jolys@unilim.fr,
+	president@univ-st-etienne.fr,
+	evelyne.sarmejeanne@univ-st-etienne.fr,
+	presidence@univ-lyon1.fr,
+	gilles.gay@adm.univ-lyon1.fr,
+	secretaire.general@adm.univ-lyon1.fr,
+	presid@univ-lyon3.fr,
+	marie-louise.michel@univ-lyon3.fr,
+	ssg1@univ-lyon3.fr,
+	presidence@univ-montp1.fr,
+	pascal.beauregard@univ-montp1.fr,
+	presidence@univ-montp2.fr,
+	philippe.paillet@univ-montp2.fr,
+	sg@univ-montp2.fr,
+	president@inpl-nancy.fr,
+	jean-yves.riviere@inpl-nancy.fr,
+	president@univ-metz.fr,
+	helene.tixier@univ-metz.fr,
+	president@uhp-nancy.fr,
+	luc.ziegler@uhp-nancy.fr,
+	Secretaire.General@presidence.uhp-nancy.fr,
+	president@univ-angers.fr,
+	henri-marc.papavoine@univ-angers.fr,
+	president@univ-nantes.fr,
+	Philippe.Diaz@univ-nantes.fr,
+	presidence@unice.fr,
+	Alain.MIAOULIS@unice.fr,
+	president@univ-tours.fr,
+	pierre.gabette@univ-tours.fr,
+	presidence@u-paris2.fr,
+	secretariat.general@u-paris2.fr,
+	president@parisdescartes.fr,
+	francois.paquis@parisdescartes.fr,
+	presidence@upmc.fr,
+	claude.ronceray@upmc.fr,
+	president@univ-paris-diderot.fr,
+	denis.guillaumin@univ-paris-diderot.fr,
+	secretariat.sg@univ-paris-diderot.fr,
+	president.larochelle@univ-lr.fr,
+	sgu@univ-lr.fr,
+	president@univ-poitiers.fr,
+	sg@univ-poitiers.fr,
+	president@utt.fr,
+	odile.marcouyoux@utt.fr,
+	president@univ-brest.fr,
+	dgs@univ-brest.fr,
+	stephane.charpentier@univ-brest.fr,
+	president@univ-ubs.fr,
+	christian.bily@univ-ubs.fr,
+	president@univ-rennes1.fr,
+	martine.ruaud@univ-rennes1.fr,
+	presidence@uhb.fr,
+	amine.amar@uhb.fr,
+	presidence@uha.fr,
+	alexis.rinckenbach@uha.fr,
+	president@unistra.fr,
+	jean.deroche@unistra.fr,
+	president@inp-toulouse.fr,
+	gilles.boucher@inp-toulouse.fr,
+	cabinet.president@univ-tlse1.fr,
+	cecile.chicoye@univ-tlse1.fr,
+	secpres@adm.ups-tlse.fr,
+	secgen@adm.ups-tlse.fr,
+	francoise.moulin-civil@u-cergy.fr,
+	bernard.pascal@u-cergy.fr,
+	sylvie.faucheux@uvsq.fr,
+	nicolas.mignan@uvsq.fr,
+	president@u-psud.fr,
+	direction.dgs@u-psud.fr,
+	presidence@univ-corse.fr,
+	palmaro@univ-corse.fr,
+	presidence@univ-mlv.fr,
+	sophie.julien@univ-mlv.fr,
+	sgp12@u-pec.fr,
+	presidence@upec.fr,
+	directeur.general@ens-lyon.fr,
+	president@ens-lyon.fr,
+	yves.quinteau@ens-lyon.fr,
+	monique.canto-sperber@ens.fr,
+	coralie.waluga@ens.fr,
+	presidence@unicaen.fr,
+	secretariat.general@unicaen.fr,
+	secretariat.cabinet@univ-evry.fr,
+	gerard.gasquet@univ-evry.fr,
+	presidence@u-bordeaux3.fr,
+	thomas.rambaud@u-bordeaux3.fr,
+	president@u-bordeaux4.fr,
+	marlene.barbotin@u-bordeaux4.fr,
+	presidence@univ-reims.fr,
+	isabelle.terrail@univ-reims.fr,
+	presidence@upmf-grenoble.fr,
+	franck.lenoir@upmf-grenoble.fr,
+	presidence@univ-savoie.fr,
+	gilles.stoll@univ-savoie.fr,
+	cabpresi@univ-paris1.fr,
+	secretg@univ-paris1.fr,
+	presidence@univ-paris3.fr,
+	secretaire.general@univ-paris3.fr,
+	president@paris-sorbonne.fr,
+	sylvie.nguyen@paris-sorbonne.fr,
+	president@dauphine.fr,
+	secretariat.general@dauphine.fr,
+	presidence@univ-tlse2.fr,
+	secretariat.general@univ-tlse2.fr,
+	presidence@unimes.fr,
+	philippe.swieton@unimes.fr,
+	president@univ-orleans.fr,
+	dgs@univ-orleans.fr,
+	christian.morzewski@univ-artois.fr,
+	laurence.deloffre@univ-artois.fr,
+	presidence@univ-lehavre.fr,
+	jean.clarisse@univ-lehavre.fr,
+	presidence@univ-rouen.fr,
+	secretariat.general@univ-rouen.fr,
+	presidence@univ-lille1.fr,
+	patrice.serniclay@univ-lille1.fr,
+	president@univ-nancy2.fr,
+	secretaire.general@univ-nancy2.fr,
+	presidence@univ-lemans.fr,
+	nicole.malassigne@univ-lemans.fr,
+	president@u-picardie.fr,
+	laurent.anne@u-picardie.fr,
+	boyer@univ-nc.nc,
+	oboyer@univ-nc.nc,
+	direction@ec-nantes.fr,
+	secretariat.general@ec-nantes.fr,
+	direction@insa-rouen.fr,
+	marie-france.detalminil@insa-rouen.fr,
+	directeur@chimie-paristech.fr,
+	secretariat-general@chimie-paristech.fr,
+	directeur@enit.fr,
+	bernard.souflet@enit.fr,
+	joel.allain@ensi-bourges.fr,
+	chantal.saulnier@ensi-bourges.fr,
+	direction.enscm@enscm.fr,
+	simon.goumarre@enscm.fr,
+	direction@ecp.fr,
+	secretariat.general@ecp.fr,
+	jean-yves.merindol@ens-cachan.fr,
+	secretariat.general@ens-cachan.fr
+Cc: Chantal CHAMBELLAN-LE-LEVIER <chantal.chambellan-le-levier@education.gouv.fr>,
+	Anne-Pascale GUYOMART <anne-pascale.guyomart@education.gouv.fr>,
+	Frederic GUIN <frederic.guin@education.gouv.fr>
+X-Mailer: Lotus Notes Release 8.5.1 September 28, 2009
+Message-ID: <OF30943601.356115B3-ONC1257801.0039CFCE-C1257801.003B9DAE@daf.sgvdi.in.adc.education.fr>
+From: Gwenaelle VERSCHEURE <gwenaelle.verscheure@education.gouv.fr>
+Date: Wed, 22 Dec 2010 11:51:09 +0100
+X-MIMETrack: Serialize by Router on MAIL24/DGF/MEN(Release 8.5.1FP4|July 25, 2010) at 22/12/2010
+ 11:51:11
+MIME-Version: 1.0
+Content-type: text/plain; charset=ISO-8859-15
+Content-transfer-encoding: quoted-printable
+X-Virus-Scanned: amavisd-new at education.gouv.fr
+Subject: [president] =?ISO-8859-15?Q?Tr_:_25-01-2011_:_journ=E9e_d'=E9tud?=
+ =?ISO-8859-15?Q?es_universit=E9s_RCE?=
+
+
+Message =E0 l'attention de Mesdames, Messieurs les pr=E9sidents, directeurs=
+ et
+directeurs g=E9n=E9raux des services des =E9tablissements pass=E9s aux RCE
+
+
+
+
+
+La direction des affaires financi=E8res du minist=E8re de l'enseignement
+sup=E9rieur et de la recherche et la direction g=E9n=E9rale des finances
+publiques du minist=E8re du budget, des comptes publics , de la fonction
+publique et de la r=E9forme de l'Etat organisent conjointement le mardi 25
+janvier 2011 une journ=E9e d'=E9tudes sur la qualit=E9 comptable =E0 destin=
+ation
+des universit=E9s pass=E9es aux responsabilit=E9s et comp=E9tences =E9largi=
+es.
+
+Je vous remercie de bien vouloir r=E9server d=E8s =E0 pr=E9sent cette date =
+dans
+votre agenda afin de pouvoir assister =E0 cette manifestation, ou pr=E9voir=
+ de
+vous y faire repr=E9senter. Le programme pr=E9cis et le lieu de cette journ=
+=E9e
+d'=E9tudes vous seront communiqu=E9s ult=E9rieurement.
+
+Merci de bien vouloir confirmer votre pr=E9sence ou celle de votre
+repr=E9sentant par retour de mail sur la bo=EEte aux lettres fonctionnelle =
+du
+bureau CE-2B :
+
+                  bureau.ce2b-epn@dgfip.finances.gouv.fr
+
+
+Les agents comptable de vos =E9tablissements ont =E9t=E9 inform=E9s par la
+direction g=E9n=E9rale des finances publiques
+
+
+Tr=E8s Cordialement
+
+Gwena=EBlle VERSCHEURE
+Chef du Bureau du Budget de l'enseignement sup=E9rieur
+Direction des Affaires Financi=E8res
+Minist=E8re de l'Education Nationale, de l'Enseignement Sup=E9rieur et de la
+recherche
+1, rue Descartes
+75231 Paris Cedex 05
+T=E9l : 01.55.55.66.77
+

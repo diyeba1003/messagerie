@@ -1,0 +1,157 @@
+Return-Path: <elisabeth.lagente@univ-rennes1.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 1E00322868
+	for <president@listes.univ-angers.fr>; Fri, 10 Dec 2010 01:09:44 +0100 (CET)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 07CFB11410F; Fri, 10 Dec 2010 01:09:44 +0100 (CET)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp1.univ-nantes.fr [193.52.82.18])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id DBCBD1140F4
+	for <president@univ-angers.fr>; Fri, 10 Dec 2010 01:09:43 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 9FF1A815FE7
+	for <president@univ-angers.fr>; Fri, 10 Dec 2010 01:09:43 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp1.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id yrb9nZGMkQn5 for <president@univ-angers.fr>;
+	Fri, 10 Dec 2010 01:09:43 +0100 (CET)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 812C3815EA3
+	for <president@univ-angers.fr>; Fri, 10 Dec 2010 01:09:43 +0100 (CET)
+Received: from mx1.d101.univ-nantes.fr (MX1.univ-nantes.fr [193.52.101.135])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id 6DD0CD79
+	for <daniel.martina@lunam.fr>; Fri, 10 Dec 2010 01:09:43 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by mx1.d101.univ-nantes.fr (Postfix) with ESMTP id 5DA7B1384BFB;
+	Fri, 10 Dec 2010 01:09:43 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from mx1.d101.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id 6kUuVhwOjPU5; Fri, 10 Dec 2010 01:09:43 +0100 (CET)
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+Received: from mailrelais2.univ-rennes1.fr (mailrelais2.univ-rennes1.fr [129.20.128.64])
+	by mx1.d101.univ-nantes.fr (Postfix) with ESMTP id 3BC7B1384BCD;
+	Fri, 10 Dec 2010 01:09:43 +0100 (CET)
+Received: from localhost (mailscan.univ-rennes1.fr [129.20.128.58])
+	by mailrelais2.univ-rennes1.fr (Postfix) with ESMTP id 1387B2AE;
+	Fri, 10 Dec 2010 01:09:43 +0100 (MET)
+X-Virus-Scanned: amavisd-new at univ-rennes1.fr
+Received: from mailrelais2.univ-rennes1.fr ([129.20.128.64])
+	by localhost (mailscan.univ-rennes1.fr [129.20.128.58]) (amavisd-new, port 10036)
+	with ESMTP id h2uxyPOpJYJH; Fri, 10 Dec 2010 01:09:42 +0100 (MET)
+X-AUTHENTICATED_LDAP:  authentification_ldap_reussie
+X-AUTHENTICATED_LDAP:  authentification_ldap_reussie
+X-AUTHENTICATED_LDAP:  authentification_ldap_reussie
+X-AUTHENTICATED_LDAP:  authentification_ldap_reussie
+X-AUTHENTICATED_LDAP:  authentification_ldap_reussie
+X-AUTHENTICATED_LDAP:  authentification_ldap_reussie
+Received: from [192.168.1.89] (unknown [93.182.195.30])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by mailrelais2.univ-rennes1.fr (Postfix) with ESMTP id 0D68F2A7;
+	Fri, 10 Dec 2010 01:09:37 +0100 (MET)
+Message-ID: <4D016FC2.3070307@univ-rennes1.fr>
+Date: Fri, 10 Dec 2010 01:09:38 +0100
+From: Elisabeth Lagente <elisabeth.lagente@univ-rennes1.fr>
+User-Agent: Thunderbird 2.0.0.21 (Windows/20090302)
+MIME-Version: 1.0
+To: Francis Yguel <francis.yguel@univ-nantes.fr>
+CC: president@ueb.eu, daniel.martina@lunam.fr, 
+ 'Isabelle PENOT' <isabelle.penot@lunam.fr>,
+ president@univ-nantes.fr, 'Yves Guillotin' <President@univ-lemans.fr>
+References: <!&!AAAAAAAAAAAYAAAAAAAAAKYRWfv+1nVHnIessOdfUdtigQAAEAAAAMljIwhoqXdHn1FusQoh4ZYBAAAAAA==@univ-nantes.fr>
+In-Reply-To: <!&!AAAAAAAAAAAYAAAAAAAAAKYRWfv+1nVHnIessOdfUdtigQAAEAAAAMljIwhoqXdHn1FusQoh4ZYBAAAAAA==@univ-nantes.fr>
+Content-Type: text/plain; charset=windows-1252; format=flowed
+Content-Transfer-Encoding: 8bit
+Subject: [president] =?WINDOWS-1252?Q?Re:_Visio-conf=E9rence_SATT_-_suite?=
+ =?WINDOWS-1252?Q?__r=E9union_avec_la_CGI?=
+
+Bonsoir,
+
+c'est noté de mon côté
+
+A demain
+Elisabeth
+
+
+Francis Yguel a écrit :
+>
+> Bonsoir,
+>
+>  
+>
+> Je confirme la proposition faite ce soir par Daniel Martina de tenir 
+> une visio-conférence sur la SATT à l’issue de votre réunion de demain 
+> avec le CGI et de notre CA, soit à partir de 18h30.
+>
+>  
+>
+> Merci de nous confirmer votre accord.
+>
+>  
+>
+> Bien cordialement
+>
+>  
+>
+>  
+>
+> *Francis YGUEL*
+>
+> Directeur Général
+>
+>  
+>
+>  
+>
+>  lunam
+>
+>  
+>
+> *L'Université Nantes Angers Le Mans (L'UNAM)***
+>
+> Pôle de recherche et d'enseignement supérieur
+>
+> Immeuble MANNY
+>
+> 19 bis rue La Nouë Bras de Fer
+>
+> 44 200 NANTES, France
+>
+> tél. (accueil) : 02 28 08 14 00
+>
+> Mme Nicolaus, attachée de direction : 02 28 08 14 28
+>
+> fax : 02 28 08 14 01
+>
+>  
+>
+> mél : direction@lunam.fr
+>
+> *site *: www.lunam.fr
+>
+> Ce message électronique et toutes les pièces jointes sont 
+> confidentiels et destinés à l'utilisateur habituel de l'adresse e-mail 
+> à laquelle ils ont été adressés. Personne d'autre n'est autorisé à 
+> lire ce message, le dupliquer, le modifier ou le communiquer à un 
+> tiers quelconque. Si vous avez reçu ce message par erreur, merci de le 
+> signaler à son émetteur. L'UNAM décline toute responsabilité au titre 
+> de ce message, s'il a été altéré, déformé, falsifié, édité ou encore 
+> envoyé sans autorisation.
+>
+> This message and any attachments are confidential and intended solely 
+> for the addressees. No one else than the addresses may copy or forward 
+> all of any of it in any form. If you receive this e-mail in error, we 
+> should be obliged if you would notify this to the sender. L'UNAM will 
+> not be liable for the message if altered, changed, falsified, edited 
+> or sent without any authorization.
+>
+>  
+>
+
+
+-- 
+Elisabeth Lagente 
+

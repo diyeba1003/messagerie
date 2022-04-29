@@ -1,0 +1,442 @@
+Return-Path: <secretariat@lunam.fr>
+Received: from smtp.univ-angers.fr (smtp.univ-angers.fr [193.49.144.2])
+	by vsympa.univ-angers.fr (Postfix) with ESMTP id 92E122283E
+	for <president@listes.univ-angers.fr>; Tue, 23 Nov 2010 17:17:19 +0100 (CET)
+Received: by smtp.univ-angers.fr (Postfix)
+	id 86004114100; Tue, 23 Nov 2010 17:17:19 +0100 (CET)
+Delivered-To: president@univ-angers.fr
+Received: from smtp1.univ-nantes.fr (smtp2.univ-nantes.fr [193.52.82.19])
+	by smtp.univ-angers.fr (Postfix) with ESMTP id 7C1ED1140F4
+	for <president@univ-angers.fr>; Tue, 23 Nov 2010 17:17:19 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 528581C0C9EB
+	for <president@univ-angers.fr>; Tue, 23 Nov 2010 17:17:19 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at smtp2
+Received: from smtp1.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp2.u12.univ-nantes.prive [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id olpjvMWJWGiG for <president@univ-angers.fr>;
+	Tue, 23 Nov 2010 17:17:19 +0100 (CET)
+Received: from gromel2.univ-nantes.prive (Lagavulin.cri.univ-nantes.prive [172.20.12.15])
+	by smtp1.univ-nantes.fr (Postfix) with ESMTP id 18DAE1C0C2E8
+	for <president@univ-angers.fr>; Tue, 23 Nov 2010 17:17:19 +0100 (CET)
+Received: from mx1.d101.univ-nantes.fr (MX1.univ-nantes.fr [193.52.101.135])
+	by gromel2.univ-nantes.prive (Postfix) with ESMTP id 23F956BA
+	for <daniel.martina@lunam.fr>; Tue, 23 Nov 2010 17:17:19 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by mx1.d101.univ-nantes.fr (Postfix) with ESMTP id 19A9013EF1EC;
+	Tue, 23 Nov 2010 17:17:19 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from mx1.d101.univ-nantes.fr ([127.0.0.1])
+	by localhost (univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id JycAnA+23dS1; Tue, 23 Nov 2010 17:17:19 +0100 (CET)
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+X-Greylist: domain auto-whitelisted by SQLgrey-1.6.7
+Received: from smtp-tls.univ-nantes.fr (smtp-tls2.univ-nantes.fr [193.52.101.146])
+	by mx1.d101.univ-nantes.fr (Postfix) with ESMTP id E31D413DA0C6;
+	Tue, 23 Nov 2010 17:17:18 +0100 (CET)
+Received: from localhost (debian [127.0.0.1])
+	by smtp-tls.univ-nantes.fr (Postfix) with ESMTP id E80294006F6;
+	Tue, 23 Nov 2010 17:20:12 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at univ-nantes.fr
+Received: from smtp-tls.univ-nantes.fr ([127.0.0.1])
+	by localhost (smtp-tls2.d101.univ-nantes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id 79wo0G+TLedr; Tue, 23 Nov 2010 17:20:12 +0100 (CET)
+Received: from PCPRES09 (unknown [172.20.38.105])
+	(using TLSv1 with cipher RC4-MD5 (128/128 bits))
+	(No client certificate requested)
+	by smtp-tls.univ-nantes.fr (Postfix) with ESMTPSA id C240040063D;
+	Tue, 23 Nov 2010 17:20:12 +0100 (CET)
+From: "Secretariat UNAM" <secretariat@lunam.fr>
+To: <francis.yguel@lunam.fr>,
+	<daniel.martina@lunam.fr>
+Cc: <evelyne.puglia@univ-angers.fr>,
+	"'Isabelle NICOLAUS'" <isabelle.nicolaus@lunam.fr>
+Date: Tue, 23 Nov 2010 17:14:40 +0100
+Message-ID: <!&!AAAAAAAAAAAYAAAAAAAAALJ8faH8YUJJl8YR6GhFxJTCgAAAEAAAADLL//wQKGxGitLjVXp8lNQBAAAAAA==@lunam.fr>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_006B_01CB8B31.EA415680"
+X-Mailer: Microsoft Office Outlook 12.0
+thread-index: AcuLIFO4y61IaocmSRCdzJc8rbrejgACRbpw
+Content-Language: fr
+Subject: [president] =?ISO-8859-1?Q?TR:_Inauguration_salles_t=E9l=E9pr=E9?=
+ =?ISO-8859-1?Q?sence_de_l'UEB?=
+
+Il s'agit d'un message à parties multiples au format MIME.
+
+------=_NextPart_000_006B_01CB8B31.EA415680
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_006C_01CB8B31.EA415680"
+
+
+------=_NextPart_001_006C_01CB8B31.EA415680
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Pour information.
+
+=20
+
+Sophie
+
+=20
+
+De : Fran=E7ois Berthet [mailto:francois.berthet@ueb.eu]=20
+Envoy=E9 : mardi 23 novembre 2010 16:09
+=C0 : Fran=E7ois BERTHET
+Objet : Inauguration salles t=E9l=E9pr=E9sence de l'UEB
+
+=20
+
+Inauguration salles t=E9l=E9pr=E9sence de l'UEB
+
+M. le Pr=E9fet de R=E9gion et M. le Pr=E9sident de Conseil r=E9gional de Br=
+etagne
+souhaitant =EAtre pr=E9sents conjointement =E0 cette manifestation, et deva=
+nt une
+impossibilit=E9 de convergence d'agenda, nous sommes amen=E9s =E0 reporter =
+cette
+inauguration, initialement pr=E9vue le 3 d=E9cembre, =E0 une date ult=E9rie=
+ure.
+Nous vous prions de bien vouloir nous excuser pour ce changement.
+Tr=E8s cordialement,=20
+
+--=20
+
+
+ <http://www.ueb.eu>  <http://www.ueb.eu/> Universit=E9 europ=E9enne de Bre=
+tagne
+<http://www.ueb.eu>=20
+
+Fran=E7ois Berthet - Responsable de la communication
+ <mailto:francois.berthet@ueb.eu> francois.berthet@ueb.eu
+Tel. + 33 (0)2 23 23 79 69 - Fax. + 33 (0)2 23 44 84 55=20
+Universit=E9 europ=E9enne de Bretagne
+5 boulevard La=EBnnec 35000 Rennes=20
+ <http://www.ueb.eu> www.ueb.eu=20
+
+=20
+
+
+------=_NextPart_001_006C_01CB8B31.EA415680
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-=
+1">
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+
+<head>
+
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1027" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=3Dwhite lang=3DFR link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Pour information.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'>Sophie<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif";
+color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+
+<div>
+
+<div style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'>
+
+<p class=3DMsoNormal><b><span style=3D'font-size:10.0pt;font-family:"Tahoma=
+","sans-serif";
+color:windowtext'>De&nbsp;:</span></b><span style=3D'font-size:10.0pt;font-=
+family:
+"Tahoma","sans-serif";color:windowtext'> Fran=E7ois Berthet
+[mailto:francois.berthet@ueb.eu] <br>
+<b>Envoy=E9&nbsp;:</b> mardi 23 novembre 2010 16:09<br>
+<b>=C0&nbsp;:</b> Fran=E7ois BERTHET<br>
+<b>Objet&nbsp;:</b> Inauguration salles t=E9l=E9pr=E9sence de l'UEB<o:p></o=
+:p></span></p>
+
+</div>
+
+</div>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal><b>Inauguration salles t=E9l=E9pr=E9sence de l'UEB<br>
+<br>
+</b>M. le Pr=E9fet de R=E9gion et M. le Pr=E9sident de Conseil r=E9gional d=
+e Bretagne
+souhaitant =EAtre pr=E9sents conjointement =E0 cette manifestation, et deva=
+nt une
+impossibilit=E9 de convergence d'agenda, nous sommes amen=E9s =E0 reporter =
+cette
+inauguration, initialement pr=E9vue le 3 d=E9cembre, =E0 une date ult=E9rie=
+ure.<br>
+Nous vous prions de bien vouloir nous excuser pour ce changement.<br>
+Tr=E8s cordialement, <o:p></o:p></p>
+
+<div>
+
+<p class=3DMsoNormal>-- <o:p></o:p></p>
+
+<table class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 wi=
+dth=3D"100%"
+ style=3D'width:100.0%'>
+ <tr>
+  <td width=3D30 style=3D'width:22.5pt;padding:9.0pt 9.0pt 9.0pt 9.0pt'>
+  <p class=3DMsoNormal><a href=3D"http://www.ueb.eu"></a><!--[if gte vml 1]=
+><v:shapetype=20
+   id=3D"_x0000_t75" coordsize=3D"21600,21600" o:spt=3D"75" o:preferrelativ=
+e=3D"t"=20
+   path=3D"m@4@5l@4@11@9@11@9@5xe" filled=3D"f" stroked=3D"f">
+   <v:stroke joinstyle=3D"miter" />
+   <v:formulas>
+    <v:f eqn=3D"if lineDrawn pixelLineWidth 0" />
+    <v:f eqn=3D"sum @0 1 0" />
+    <v:f eqn=3D"sum 0 0 @1" />
+    <v:f eqn=3D"prod @2 1 2" />
+    <v:f eqn=3D"prod @3 21600 pixelWidth" />
+    <v:f eqn=3D"prod @3 21600 pixelHeight" />
+    <v:f eqn=3D"sum @0 0 1" />
+    <v:f eqn=3D"prod @6 1 2" />
+    <v:f eqn=3D"prod @7 21600 pixelWidth" />
+    <v:f eqn=3D"sum @8 21600 0" />
+    <v:f eqn=3D"prod @7 21600 pixelHeight" />
+    <v:f eqn=3D"sum @10 21600 0" />
+   </v:formulas>
+   <v:path o:extrusionok=3D"f" gradientshapeok=3D"t" o:connecttype=3D"rect"=
+ />
+   <o:lock v:ext=3D"edit" aspectratio=3D"t" />
+  </v:shapetype><v:shape id=3D"_x0000_s1026" type=3D"#_x0000_t75" alt=3D"Un=
+iversit=E9 europ=E9enne de Bretagne"=20
+   href=3D"http://www.ueb.eu/" style=3D'position:absolute;margin-left:0;
+   margin-top:0;width:67.5pt;height:82.5pt;z-index:251658240;
+   mso-wrap-distance-left:0;mso-wrap-distance-top:0;mso-wrap-distance-right=
+:0;
+   mso-wrap-distance-bottom:0;mso-position-horizontal:left;
+   mso-position-horizontal-relative:text;mso-position-vertical-relative:lin=
+e'=20
+   o:allowoverlap=3D"f" o:button=3D"t">
+   <v:imagedata src=3D"cid:part1.03050502.05000708@ueb.eu" o:title=3D"part1=
+.03050502.05000708@ueb" />
+   <w:wrap type=3D"square"/>
+  </v:shape><![endif]--><![if !vml]><a href=3D"http://www.ueb.eu/"><img bor=
+der=3D0
+  width=3D90 height=3D110 src=3D"cid:part1.03050502.05000708@ueb.eu" align=
+=3Dleft
+  alt=3D"Universit=E9 europ=E9enne de Bretagne" v:shapes=3D"_x0000_s1026"><=
+/a><![endif]><a
+  href=3D"http://www.ueb.eu"></a><o:p></o:p></p>
+  </td>
+  <td style=3D'padding:9.0pt 9.0pt 9.0pt 9.0pt'>
+  <p class=3DMsoNormal><b><span style=3D'font-size:10.0pt;font-family:"Aria=
+l","sans-serif"'>Fran=E7ois
+  Berthet</span></b><span style=3D'font-size:10.0pt;font-family:"Arial","sa=
+ns-serif"'>
+  - Responsable de la communication</span><br>
+  <a href=3D"mailto:francois.berthet@ueb.eu"><span style=3D'font-size:10.0p=
+t;
+  font-family:"Arial","sans-serif";color:black'>francois.berthet@ueb.eu</sp=
+an></a><br>
+  <span style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Tel. + =
+33
+  (0)2 23 23 79 69 - Fax. + 33 (0)2 23 44 84 55</span> <br>
+  <span style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Univers=
+it=E9
+  europ=E9enne de Bretagne</span><br>
+  <span style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>5 boule=
+vard
+  La=EBnnec</span> <span style=3D'font-size:10.0pt;font-family:"Arial","san=
+s-serif"'>35000
+  Rennes <br>
+  <a href=3D"http://www.ueb.eu"><b>www.ueb.eu</b></a></span> <o:p></o:p></p>
+  </td>
+ </tr>
+</table>
+
+<p class=3DMsoNormal><span style=3D'color:windowtext'><o:p>&nbsp;</o:p></sp=
+an></p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_001_006C_01CB8B31.EA415680--
+
+------=_NextPart_000_006B_01CB8B31.EA415680
+Content-Type: image/gif;
+	name="ATT00102.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <part1.03050502.05000708@ueb.eu>
+
+R0lGODlhWgBuAPf9AP39/fz8/BsYHPv7+728vbCvsC4rL/r6+llXWuPj4yIf
+I/v6+5aVlsPCw/f39/T09CckKPX19fj4+PDw8Pb29vPz8x8cIO7u7vn5+d3c
+3TAuMVpYWs/Oz+fm5+rq6ldVWGhmaWlnauTk5F5cX+jn6CAdIVNQU1xaXezs
+7ODf4G5sblNRVB4cH/Ly8tzc3PHw8eno6VVTVlRSVfLx8mJgY+np6o+Nj9TT
+1JWUlXVzdeDg4eLi4sbFxsXExczLzJmXmcfHyExKTcC/wObm5l1bXuXl5dXU
+1dPS05+en5ybnVZUV+vr65STld7d3mBeYWtpa7y7vGVjZr29vu3t7WFfYtbV
+1hwZHVxZXOHh4cHAwaemp7i3uJuanMjIyNnZ2VJPUpqYmjQxNXx6fG9tcH58
+foB/gYyLjcvKy4OBhCclKHd2eM7NzpqZm0pHSjUyNre2t0tJTH9+gIiGiJ2c
+nrq5uh0aHra1t0NBRHJwc83MzdHR0Tc0OIGAgqalpq6tr0I/Qo2LjdfX2Kin
+qISChaGfoTYzN3Z1d4aEht/e32dlaConKx4bH4WDhVBOUXRydLSztHFvcpOS
+lLu6u3h3eZeVl9ra2u/v77W0ti0qLpiWmFhWWW5tb0lGSaOho62sriwpLdfW
+11tZW8bGxyMgJLSztdLS0sLBwo6MjqCfoCQhJcrJykVDRiEeIp6dnqupqzAt
+MLm4uTk3Ok1LTigmKdvb28nIySsoLHt5fG1rbUhFSUE+QU9NUDMwNImIinBu
+cURCRXNxdKSjpT06PmRiZDg1OamoqUZER2VjZTIwM2ZkZ0A9QXp4e8TDxJGP
+kZKRkykmKn17fYqJizo4Oz88QKqpqn99f19dYC8sMHZ0djw6PVFOUr++wKyr
+rUdESNDQ0c/P0DEvMtjY2bOys2xqbIuKjDs5PGpoa769v6KgorGwsaOipGNh
+Y5COkDk2OZGQkqWkpiUiJkpIS6+ur4eFh0JAQ3l3ek5MT4KBgyYjJ4iHibKx
+squqrBoXG////wAAAAAAACH5BAEAAP0ALAAAAABaAG4AAAj/APsJHEiwoMGD
+CAmKsAPIHCcNtmy1U+KIEg8MCTNq3Mix40AAeebkCMWJmKJF/FLyU2Ag2651
+g/xg8Uizps1+4eTAeaUyTAxIjNz9oHSqWgg4s1JaiOUEyZKbUKMKJEDFgAB+
+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
+l0CaGREQADs=
+
+------=_NextPart_000_006B_01CB8B31.EA415680--
+

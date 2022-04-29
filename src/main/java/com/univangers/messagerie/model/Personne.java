@@ -5,6 +5,7 @@
 package com.univangers.messagerie.model;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.Basic;
 import javax.persistence.CascadeType;
@@ -55,7 +56,7 @@ public class Personne implements Serializable {
     @OneToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE}, mappedBy = "personne", fetch = FetchType.LAZY)
     @Getter
     @Setter
-    private List<PersonneFonction> personneFonctionList;
+    private List<PersonneFonction> personneFonctionList =new ArrayList<>();
 
     @JoinColumn(name = "idPERSONNE", referencedColumnName = "idADRESSE", nullable = false, insertable = false, updatable = false)
     @OneToOne(optional = false, fetch = FetchType.LAZY)

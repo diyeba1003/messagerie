@@ -106,16 +106,15 @@ public class MessageController {
                 personneFonctionDto.setFonctionDto(fonctionDto);
                 personneFonctionDto.setPersonneDto(personneDto);
                 personneDto.getPersonneFonctionDtoList().add(personneFonctionDto);
-            } 
-            expediteurDto.setPersonneDto(personneDto);
-        }
-        else {
-                // LISTE => A faire !!!
-               ListeDto listDto =new ListeDto();
-               listDto.setId(mailObject.getFrom().getMail());
-               expediteurDto.setListeDto(listDto);
-               
             }
+            expediteurDto.setPersonneDto(personneDto);
+        } else {
+            // LISTE => A faire !!!
+            ListeDto listDto = new ListeDto();
+            listDto.setId(mailObject.getFrom().getMail());
+            expediteurDto.setListeDto(listDto);
+
+        }
 
         mDto.setExpediteurDto(expediteurDto);
 
@@ -130,40 +129,39 @@ public class MessageController {
                 personneDto.setPrenom(info.getFirstName());
                 adresseDto.setPersonneDto(personneDto);
 
-            }else {
+            } else {
                 //LISTE => A faire !!!
-                
-                   ListeDto listDto = new ListeDto();
-                   listDto.setId(info.getMail());
-                   adresseDto.setListeDto(listDto);
-                    
-                 }
-            
+
+                ListeDto listDto = new ListeDto();
+                listDto.setId(info.getMail());
+                adresseDto.setListeDto(listDto);
+
+            }
+
             destinatairesDto.add(adresseDto);
-        }     
+        }
         mDto.setDestinataireDtoList(destinatairesDto);
-        
-       List<InfoPersonne> listPers= mailObject.getCc();
-       List<AdresseDto> adrDtoList= new ArrayList<>();
-       for(InfoPersonne infP : listPers){
-           AdresseDto adrDto= new AdresseDto(infP.getMail());
-           if(infP.getFirstName() != null || infP.getLastName() !=null){
-               PersonneDto persDto= new PersonneDto();
-               persDto.setId(infP.getMail());
-               persDto.setNom(infP.getLastName());
-               persDto.setPrenom(infP.getFirstName());
-               adrDto.setPersonneDto(persDto);
-           }
-           //fait par moi 
-           else{
-               ListeDto listeDto= new ListeDto();
-               listeDto.setId(infP.getMail());
-               adrDto.setListeDto(listeDto);
-           }
+
+        List<InfoPersonne> listPers = mailObject.getCc();
+        List<AdresseDto> adrDtoList = new ArrayList<>();
+        for (InfoPersonne infP : listPers) {
+            AdresseDto adrDto = new AdresseDto(infP.getMail());
+            if (infP.getFirstName() != null || infP.getLastName() != null) {
+                PersonneDto persDto = new PersonneDto();
+                persDto.setId(infP.getMail());
+                persDto.setNom(infP.getLastName());
+                persDto.setPrenom(infP.getFirstName());
+                adrDto.setPersonneDto(persDto);
+            } //fait par moi 
+            else {
+                ListeDto listeDto = new ListeDto();
+                listeDto.setId(infP.getMail());
+                adrDto.setListeDto(listeDto);
+            }
             adrDtoList.add(adrDto);
-       }       
+        }
         mDto.setDestinataireCopieDtoList(adrDtoList);
-       
+
         if (mailObject.getFileList() != null) {
             List<AttachFile> fileList = mailObject.getFileList();
             List<FichierDto> fichierDtoList = new ArrayList<>();
@@ -182,6 +180,13 @@ public class MessageController {
         Map<String, String> result = new HashMap<>();
         result.put("result", "success");
         return result;
+    }
+
+    @PostMapping("/test-insert-all/{nomRep}")
+    public List<String> testInsertAll(@PathVariable String nomRep) {
+        List<String> insertAllList = messageService.insertAll(nomRep);
+        return insertAllList;
+
     }
 
     @GetMapping("/get-message")

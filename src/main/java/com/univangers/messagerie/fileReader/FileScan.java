@@ -15,7 +15,11 @@ import java.util.List;
  * @author etud
  */
 public class FileScan {
-    
+    /**
+     * 
+     * @param dir correspond au répertoire principal
+     * @return la liste des fichiers contenue dans le répertoire
+     */
    public static List<File> listAllFileFromDir(String dir) {
         File folder = new File(dir);
         return fileSearch(folder);

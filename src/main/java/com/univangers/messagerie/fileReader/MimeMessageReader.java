@@ -225,6 +225,9 @@ public class MimeMessageReader {
                 }
                 AttachFile attachFile = new AttachFile();
                 String ext = FilenameUtils.getExtension(f.getName());
+                if(ext.length()>8){
+                    ext="UKNW";
+                }
                 attachFile.setFilename(f.getName());
                 attachFile.setFilepath(f.getAbsolutePath());
                 attachFile.setFiletype(ext);

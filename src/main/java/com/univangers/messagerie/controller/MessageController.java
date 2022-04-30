@@ -73,7 +73,7 @@ public class MessageController {
     @GetMapping("/test-file-read/{nomFichier}")
     public MailObject afficheMessage(@PathVariable String nomFichier) throws FileNotFoundException, MessagingException, IOException {
 
-        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir + File.separator + nomFichier);
+        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir +"/president_2010-10"+ File.separator + nomFichier);
 
         return mailObject;
     }
@@ -81,7 +81,7 @@ public class MessageController {
     @PostMapping("/test-insert/{nomFichier}")
     public Map testInsert(@PathVariable String nomFichier) throws MessagingException, IOException {
 
-        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir + File.separator + nomFichier);
+        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir+"/president_2010-06" + File.separator + nomFichier);
 
         MessageDto mDto = new MessageDto();
 
@@ -130,12 +130,9 @@ public class MessageController {
                 adresseDto.setPersonneDto(personneDto);
 
             } else {
-                //LISTE => A faire !!!
-
                 ListeDto listDto = new ListeDto();
                 listDto.setId(info.getMail());
                 adresseDto.setListeDto(listDto);
-
             }
 
             destinatairesDto.add(adresseDto);
@@ -152,7 +149,7 @@ public class MessageController {
                 persDto.setNom(infP.getLastName());
                 persDto.setPrenom(infP.getFirstName());
                 adrDto.setPersonneDto(persDto);
-            } //fait par moi 
+            } 
             else {
                 ListeDto listeDto = new ListeDto();
                 listeDto.setId(infP.getMail());
@@ -182,9 +179,9 @@ public class MessageController {
         return result;
     }
 
-    @PostMapping("/test-insert-all/{nomRep}")
-    public List<String> testInsertAll(@PathVariable String nomRep) {
-        List<String> insertAllList = messageService.insertAll(nomRep);
+    @PostMapping("/insert-all")
+    public List<String> testInsertAll() {
+        List<String> insertAllList = messageService.insertAll(messageFilesDir);
         return insertAllList;
 
     }

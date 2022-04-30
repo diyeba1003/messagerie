@@ -9,7 +9,6 @@ import com.univangers.messagerie.dao.FonctionDaoInterface;
 import com.univangers.messagerie.dao.MessageDaoInterface;
 import com.univangers.messagerie.dto.AdresseDto;
 import com.univangers.messagerie.dto.FichierDto;
-import com.univangers.messagerie.dto.FonctionDto;
 import com.univangers.messagerie.dto.ListeDto;
 import com.univangers.messagerie.dto.MessageDto;
 import com.univangers.messagerie.dto.PersonneDto;
@@ -166,7 +165,7 @@ public class MessageService implements MessageServiceInterface {
         if (messageDto.getDestinataireDtoList() != null) {
             List<Adresse> destList = new ArrayList<>();
             for (AdresseDto destDto : messageDto.getDestinataireDtoList()) {
-                if (destDto.getId().equals(adrSender.getIdADRESSE())) {
+                if (destDto.getId().equalsIgnoreCase(adrSender.getIdADRESSE())) {
                     destList.add(adrSender);
                 } else {
                     Adresse adr = adresseDao.findAdresseById(destDto.getId());
@@ -200,7 +199,7 @@ public class MessageService implements MessageServiceInterface {
         if (messageDto.getDestinataireCopieDtoList() != null) {
             List<Adresse> destCCList = new ArrayList<>();
             for (AdresseDto destCc : messageDto.getDestinataireCopieDtoList()) {
-                if (destCc.getId().equals(adrSender.getIdADRESSE())) {
+                if (destCc.getId().equalsIgnoreCase(adrSender.getIdADRESSE())) {
                     destCCList.add(adrSender);
                 } else {
                     Adresse adr = adresseDao.findAdresseById(destCc.getId());
@@ -343,7 +342,7 @@ public class MessageService implements MessageServiceInterface {
         List<File> fichiers = FileScan.listAllFileFromDir(dir);
         for (File file : fichiers) {
             String fileName = file.getAbsolutePath();
-            System.out.println("Fichier "+fileName);
+            System.out.println("Fichier " + fileName);
             MailObject mailObject = MimeMessageReader.readMessageFile(fileName);
 
             Message message = new Message();
@@ -351,9 +350,7 @@ public class MessageService implements MessageServiceInterface {
             message.setSubject(mailObject.getSubject());
             message.setSentdate(mailObject.getSentDate());
             message.setBody(mailObject.getContent());
-
-            Adresse expediteur = null;
-            expediteur = adresseDao.findAdresseById(mailObject.getFrom().getMail());
+            Adresse expediteur = adresseDao.findAdresseById(mailObject.getFrom().getMail());
             if (expediteur == null) {
                 expediteur = new Adresse();
                 expediteur.setIdADRESSE(mailObject.getFrom().getMail());
@@ -392,69 +389,75 @@ public class MessageService implements MessageServiceInterface {
                     expediteur.setListe(list);
 
                 }
-
-                message.setSender(expediteur);
             }
+            message.setSender(expediteur);
 
+            // Ajout destinataires TO
             List<InfoPersonne> destinataires = mailObject.getTo();
             List<Adresse> destinatairesList = new ArrayList<>();
             for (InfoPersonne info : destinataires) {
-                Adresse adresse = adresseDao.findAdresseById(info.getMail());
-                if (adresse == null) {
-                    adresse = new Adresse();
-                    adresse.setIdADRESSE(info.getMail());
-                    if (info.getLastName() != null || info.getFirstName() != null) {
-                        Personne personne = new Personne();
-                        personne.setIdPERSONNE(info.getMail());
-                        personne.setNom(info.getLastName());
-                        personne.setPrenom(info.getFirstName());
-                        personne.setAdresse(adresse);
-                        adresse.setPersonne(personne);
+                if (info.getMail().equalsIgnoreCase(expediteur.getIdADRESSE())) {
+                    destinatairesList.add(expediteur);
+                } else {
 
-                    } else {
-                        //LISTE => A faire !!!
+                    Adresse adresse = adresseDao.findAdresseById(info.getMail());
+                    if (adresse == null) {
+                        adresse = new Adresse();
+                        adresse.setIdADRESSE(info.getMail());
+                        if (info.getLastName() != null || info.getFirstName() != null) {
+                            Personne personne = new Personne();
+                            personne.setIdPERSONNE(info.getMail());
+                            personne.setNom(info.getLastName());
+                            personne.setPrenom(info.getFirstName());
+                            personne.setAdresse(adresse);
+                            adresse.setPersonne(personne);
 
-                        Liste list = new Liste();
-                        list.setIdLISTE(info.getMail());
-                        list.setAdresse(adresse);
-                        adresse.setListe(list);
-
+                        } else {
+                            Liste list = new Liste();
+                            list.setIdLISTE(info.getMail());
+                            list.setAdresse(adresse);
+                            adresse.setListe(list);
+                        }
                     }
-
                     destinatairesList.add(adresse);
                 }
             }
             message.setDestinataires(destinatairesList);
 
+            // Ajout destinataires CC
             List<InfoPersonne> listPers = mailObject.getCc();
             List<Adresse> adrList = new ArrayList<>();
-            for (InfoPersonne infP : listPers) {
-                Adresse adr = adresseDao.findAdresseById(infP.getMail());
-                if (adr == null) {
-                    adr = new Adresse();
-                    adr.setIdADRESSE(infP.getMail());
-                    if (infP.getFirstName() != null || infP.getLastName() != null) {
-                        Personne pers = new Personne();
-                        pers.setIdPERSONNE(infP.getMail());
-                        pers.setNom(infP.getLastName());
-                        pers.setPrenom(infP.getFirstName());
-                        pers.setAdresse(adr);
-                        adr.setPersonne(pers);
-                    } //fait par moi 
-                    else {
-                        Liste liste = new Liste();
-                        liste.setIdLISTE(infP.getMail());
-                        liste.setAdresse(adr);
-                        adr.setListe(liste);
+            for (InfoPersonne info : listPers) {
+                if (info.getMail().equalsIgnoreCase(expediteur.getIdADRESSE())) {
+                    destinatairesList.add(expediteur);
+                } else {
+                    Adresse adr = adresseDao.findAdresseById(info.getMail());
+                    if (adr == null) {
+                        adr = new Adresse();
+                        adr.setIdADRESSE(info.getMail());
+                        if (info.getFirstName() != null || info.getLastName() != null) {
+                            Personne pers = new Personne();
+                            pers.setIdPERSONNE(info.getMail());
+                            pers.setNom(info.getLastName());
+                            pers.setPrenom(info.getFirstName());
+                            pers.setAdresse(adr);
+                            adr.setPersonne(pers);
+                        } //fait par moi 
+                        else {
+                            Liste liste = new Liste();
+                            liste.setIdLISTE(info.getMail());
+                            liste.setAdresse(adr);
+                            adr.setListe(liste);
+                        }
                     }
                     adrList.add(adr);
                 }
             }
             message.setDestinatairesCopie(adrList);
 
+            List<Fichier> fichierList = new ArrayList<>();
             if (mailObject.getFileList() != null) {
                 List<AttachFile> fileList = mailObject.getFileList();
-                List<Fichier> fichierList = new ArrayList<>();
                 for (AttachFile af : fileList) {
                     Fichier fichier = new Fichier();
                     fichier.setFilename(af.getFilename());
@@ -462,11 +465,9 @@ public class MessageService implements MessageServiceInterface {
                     fichier.setFiletype(af.getFiletype());
                     fichier.setMessageID(message);
                     fichierList.add(fichier);
-
                 }
-                message.setFichierList(fichierList);
             }
-
+            message.setFichierList(fichierList);
             messageDao.insertMessage(message);
             insertedFileList.add(fileName);
 

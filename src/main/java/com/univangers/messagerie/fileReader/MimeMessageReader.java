@@ -131,7 +131,6 @@ public class MimeMessageReader {
         if (fileList != null) {
             mailObject.setFileList(fileList);
         }
-
         return mailObject;
     }
 
@@ -196,8 +195,12 @@ public class MimeMessageReader {
     private static List<AttachFile> extractAttachements(Message message) throws IOException, MessagingException {
 
         List<AttachFile> fileList = new ArrayList<>();
-        //List<File> attachments = new ArrayList<>();
-
+        
+        File attachsDir = new File(ATTACHS_FILE_DIR);
+        if (!attachsDir.exists()) {
+            attachsDir.mkdirs();
+        }
+        
         if (message.isMimeType("multipart/*")) {
             Multipart multipart = (Multipart) message.getContent();
 
@@ -208,18 +211,18 @@ public class MimeMessageReader {
                     continue; // dealing with attachments only
                 }
                 InputStream is = bodyPart.getInputStream();
-                System.out.println(">> " + MimeMessageReader.ATTACHS_FILE_DIR);
                 String fileName = bodyPart.getFileName();
                 System.setProperty("mail.mime.decodetext.strict", "false");
                 fileName = MimeUtility.decodeText(fileName);
-                File f = new File(MimeMessageReader.ATTACHS_FILE_DIR + File.separator + fileName);
+
+                File f = new File(ATTACHS_FILE_DIR + File.separator + fileName);
+
                 FileOutputStream fos = new FileOutputStream(f);
                 byte[] buf = new byte[4096];
                 int bytesRead;
                 while ((bytesRead = is.read(buf)) != -1) {
                     fos.write(buf, 0, bytesRead);
                 }
-                // attachments.add(f);
                 AttachFile attachFile = new AttachFile();
                 String ext = FilenameUtils.getExtension(f.getName());
                 attachFile.setFilename(f.getName());

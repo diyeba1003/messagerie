@@ -9,10 +9,16 @@ import com.univangers.messagerie.dao.FonctionDaoInterface;
 import com.univangers.messagerie.dao.MessageDaoInterface;
 import com.univangers.messagerie.dto.AdresseDto;
 import com.univangers.messagerie.dto.FichierDto;
+import com.univangers.messagerie.dto.FonctionDto;
 import com.univangers.messagerie.dto.ListeDto;
 import com.univangers.messagerie.dto.MessageDto;
 import com.univangers.messagerie.dto.PersonneDto;
 import com.univangers.messagerie.dto.PersonneFonctionDto;
+import com.univangers.messagerie.fileReader.AttachFile;
+import com.univangers.messagerie.fileReader.FileScan;
+import com.univangers.messagerie.fileReader.InfoPersonne;
+import com.univangers.messagerie.fileReader.MailObject;
+import com.univangers.messagerie.fileReader.MimeMessageReader;
 import com.univangers.messagerie.model.Adresse;
 import com.univangers.messagerie.model.Fichier;
 import com.univangers.messagerie.model.Fonction;
@@ -20,8 +26,13 @@ import com.univangers.messagerie.model.Liste;
 import com.univangers.messagerie.model.Message;
 import com.univangers.messagerie.model.Personne;
 import com.univangers.messagerie.model.PersonneFonction;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.mail.MessagingException;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -47,6 +58,17 @@ public class MessageService implements MessageServiceInterface {
     public void insertMessageDto(MessageDto messageDto) {
         Message message = convertToEntity(messageDto);
         messageDao.insertMessage(message);
+    }
+
+    @Override
+    public List<String> insertAll(String rep) {
+        List<String> insertedFileList = new ArrayList<>();
+        try {
+            insertedFileList = this.insertAllFiles(rep);
+        } catch (MessagingException | IOException ex) {
+            Logger.getLogger(MessageService.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return insertedFileList;
     }
 
     @Override
@@ -308,6 +330,148 @@ public class MessageService implements MessageServiceInterface {
         }
 
         return messageDto;
+    }
+
+    /**
+     *
+     * @param dir
+     * @throws MessagingException
+     * @throws IOException
+     */
+    private List<String> insertAllFiles(String dir) throws MessagingException, IOException {
+        List<String> insertedFileList = new ArrayList<>();
+        List<File> fichiers = FileScan.listAllFileFromDir(dir);
+        for (File file : fichiers) {
+            String fileName = file.getAbsolutePath();
+            System.out.println("Fichier "+fileName);
+            MailObject mailObject = MimeMessageReader.readMessageFile(fileName);
+
+            Message message = new Message();
+
+            message.setSubject(mailObject.getSubject());
+            message.setSentdate(mailObject.getSentDate());
+            message.setBody(mailObject.getContent());
+
+            Adresse expediteur = null;
+            expediteur = adresseDao.findAdresseById(mailObject.getFrom().getMail());
+            if (expediteur == null) {
+                expediteur = new Adresse();
+                expediteur.setIdADRESSE(mailObject.getFrom().getMail());
+
+                if (mailObject.getFrom().getLastName() != null || mailObject.getFrom().getFirstName() != null) {
+                    Personne personne = new Personne();
+                    personne.setIdPERSONNE(mailObject.getFrom().getMail());
+                    personne.setNom(mailObject.getFrom().getLastName());
+                    personne.setPrenom(mailObject.getFrom().getFirstName());
+                    personne.setAdresse(expediteur);
+
+                    if (mailObject.getFonction() != null) {
+                        List< PersonneFonction> pfList = new ArrayList<>();
+                        Fonction fonction = fonctionDao.findFonctionByTitle(mailObject.getFonction());
+                        if (fonction == null) {
+                            fonction = new Fonction();
+                            fonction.setTitle(mailObject.getFonction());
+                        }
+
+                        PersonneFonction personneFonction = new PersonneFonction();
+
+                        personneFonction.setFonction(fonction);
+                        personneFonction.setPersonne(personne);
+
+                        pfList.add(personneFonction);
+
+                        personne.setPersonneFonctionList(pfList);
+
+                    }
+                    expediteur.setPersonne(personne);
+                } else {
+                    // LISTE => A faire !!!
+                    Liste list = new Liste();
+                    list.setIdLISTE(mailObject.getFrom().getMail());
+                    list.setAdresse(expediteur);
+                    expediteur.setListe(list);
+
+                }
+
+                message.setSender(expediteur);
+            }
+
+            List<InfoPersonne> destinataires = mailObject.getTo();
+            List<Adresse> destinatairesList = new ArrayList<>();
+            for (InfoPersonne info : destinataires) {
+                Adresse adresse = adresseDao.findAdresseById(info.getMail());
+                if (adresse == null) {
+                    adresse = new Adresse();
+                    adresse.setIdADRESSE(info.getMail());
+                    if (info.getLastName() != null || info.getFirstName() != null) {
+                        Personne personne = new Personne();
+                        personne.setIdPERSONNE(info.getMail());
+                        personne.setNom(info.getLastName());
+                        personne.setPrenom(info.getFirstName());
+                        personne.setAdresse(adresse);
+                        adresse.setPersonne(personne);
+
+                    } else {
+                        //LISTE => A faire !!!
+
+                        Liste list = new Liste();
+                        list.setIdLISTE(info.getMail());
+                        list.setAdresse(adresse);
+                        adresse.setListe(list);
+
+                    }
+
+                    destinatairesList.add(adresse);
+                }
+            }
+            message.setDestinataires(destinatairesList);
+
+            List<InfoPersonne> listPers = mailObject.getCc();
+            List<Adresse> adrList = new ArrayList<>();
+            for (InfoPersonne infP : listPers) {
+                Adresse adr = adresseDao.findAdresseById(infP.getMail());
+                if (adr == null) {
+                    adr = new Adresse();
+                    adr.setIdADRESSE(infP.getMail());
+                    if (infP.getFirstName() != null || infP.getLastName() != null) {
+                        Personne pers = new Personne();
+                        pers.setIdPERSONNE(infP.getMail());
+                        pers.setNom(infP.getLastName());
+                        pers.setPrenom(infP.getFirstName());
+                        pers.setAdresse(adr);
+                        adr.setPersonne(pers);
+                    } //fait par moi 
+                    else {
+                        Liste liste = new Liste();
+                        liste.setIdLISTE(infP.getMail());
+                        liste.setAdresse(adr);
+                        adr.setListe(liste);
+                    }
+                    adrList.add(adr);
+                }
+            }
+            message.setDestinatairesCopie(adrList);
+
+            if (mailObject.getFileList() != null) {
+                List<AttachFile> fileList = mailObject.getFileList();
+                List<Fichier> fichierList = new ArrayList<>();
+                for (AttachFile af : fileList) {
+                    Fichier fichier = new Fichier();
+                    fichier.setFilename(af.getFilename());
+                    fichier.setFilepath(af.getFilepath());
+                    fichier.setFiletype(af.getFiletype());
+                    fichier.setMessageID(message);
+                    fichierList.add(fichier);
+
+                }
+                message.setFichierList(fichierList);
+            }
+
+            messageDao.insertMessage(message);
+            insertedFileList.add(fileName);
+
+        }
+        return insertedFileList;
     }
 
 }

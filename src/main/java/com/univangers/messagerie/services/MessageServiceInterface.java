@@ -14,6 +14,8 @@ import java.util.List;
 public interface MessageServiceInterface {
 
     public void insertMessageDto(MessageDto messageDto);
+    
+    public List<String> insertAll(String rep);
 
     public MessageDto findMessageDtoById(Integer id);
 

@@ -13,39 +13,45 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 <body>
 
   <header th:replace="./layouts/header :: header"> </header>
-  <div class="container-fluid mt-3">
+  <div class="container-fluid mt-3 ">
     <div class="row">
-      
+
       <div th:replace="./webHtml/content-layout :: content-menu">
 
       </div>
-      <div class="col-9 ">
-        <div th:if="${selectedMessage} != null"> 
-        </div>
-        <div > 
-          <label>Date d'envoie: <span th:text="${selectedMessage?.date}" ></span></label>
-        </div>
-        <div> 
-           <label> expediteur: <span th:text="${selectedMessage?.expediteurDto?.id}" ></span></label>
-        </div>
-         
-        <div > 
-           <label> destinataire:  </label>
-           <span th:each="destinataire:${selectedMessage.destinataireDtoList}" th:text="${destinataire.id}"></span>
-           
-         </div>
+      <div class="col-9" id="contentDetail">
+        <div th:if="${selectedMessage} != null">
+
+          <div>
+            <label><span class="badge bg-secondary"> Date d'envoie:</span> <span th:text="${selectedMessage?.date}"></span></label>
+          </div>
+          <div>
+            <label><span class="badge bg-secondary"> Expediteur:</span> <span  th:text="${selectedMessage?.expediteurDto?.id}"></span></label>
+          </div>
+
+          <div>
+            <label> <span class="badge bg-secondary">Destinataire:</span> </label>
+            <div class="d-inline" th:each="destinataire:${selectedMessage.destinataireDtoList}" >
+              <span th:text="${destinataire.id}">&nbsp;&nbsp;</span>
+            </div>
+
+          </div>
           <div class="row mt-4">
-           <label> Message:</label> <span th:text="${selectedMessage?.body}" ></span>
+            <label> Message:</label> <span th:text="${selectedMessage?.body}"></span>
           </div>
         </div>
+        <div th:unless="${selectedMessage} != null">
+          <span class="text-warning mt-5 ms-3">Aucun message selectionné !</span>
+       </div>
       </div>
     </div>
   </div>
+  </div>
   <footer th:replace="./layouts/main-layout :: footer"> </footer>
 
-  
+
   <script th:inline="javascript">
-      
+
   </script>
 </body>
 

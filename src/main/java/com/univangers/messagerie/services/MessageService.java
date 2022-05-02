@@ -9,6 +9,7 @@ import com.univangers.messagerie.dao.FonctionDaoInterface;
 import com.univangers.messagerie.dao.MessageDaoInterface;
 import com.univangers.messagerie.dto.AdresseDto;
 import com.univangers.messagerie.dto.FichierDto;
+import com.univangers.messagerie.dto.FonctionDto;
 import com.univangers.messagerie.dto.ListeDto;
 import com.univangers.messagerie.dto.MessageDto;
 import com.univangers.messagerie.dto.PersonneDto;
@@ -132,13 +133,13 @@ public class MessageService implements MessageServiceInterface {
                     personne.setPrenom(expediteurDto.getPersonneDto().getPrenom());
                     personne.setAdresse(adrSender);
 
-                    if (expediteurDto.getPersonneDto().getPersonneFonctionDtoList() != null) {
+                    if (expediteurDto.getPersonneDto().getFonctionDtoList() != null) {
                         List< PersonneFonction> pfList = new ArrayList<>();
-                        for (PersonneFonctionDto pfDto : expediteurDto.getPersonneDto().getPersonneFonctionDtoList()) {
-                            Fonction fonction = fonctionDao.findFonctionByTitle(pfDto.getFonctionDto().getTitle());
+                        for (FonctionDto fDto : expediteurDto.getPersonneDto().getFonctionDtoList()) {
+                            Fonction fonction = fonctionDao.findFonctionByTitle(fDto.getTitle());
                             if (fonction == null) {
                                 fonction = new Fonction();
-                                fonction.setTitle(pfDto.getFonctionDto().getTitle());
+                                fonction.setTitle(fDto.getTitle());
                             }
                             PersonneFonction pf = new PersonneFonction();
                             pf.setPersonne(personne);
@@ -268,9 +269,19 @@ public class MessageService implements MessageServiceInterface {
                 PersonneDto persDto = new PersonneDto();
                 persDto.setId(adr.getPersonne().getIdPERSONNE());
                 persDto.setNom(adr.getPersonne().getNom());
+                persDto.setPrenom(adr.getPersonne().getPrenom());
+                if (adr.getPersonne().getPersonneFonctionList() != null) {
+                    List<FonctionDto> fonctDtoList = new ArrayList<>();
+                    for (PersonneFonction pf : adr.getPersonne().getPersonneFonctionList()) {
+                        FonctionDto fDto = new FonctionDto();
+                        fDto.setId(pf.getFonction().getIdFONCTION());
+                        fDto.setTitle(pf.getFonction().getTitle());
+                        fonctDtoList.add(fDto);
+                    }
+                    persDto.setFonctionDtoList(fonctDtoList);
+                }
                 adrDto.setPersonneDto(persDto);
-            } //fait par moi
-            else {
+            } else if (adr.getListe() != null) {
                 ListeDto listeDto = new ListeDto();
                 listeDto.setId(adr.getListe().getIdLISTE());
                 listeDto.setLibelle(adr.getListe().getLibelle());
@@ -278,6 +289,8 @@ public class MessageService implements MessageServiceInterface {
             }
             messageDto.setExpediteurDto(adrDto);
         }
+
+        //Convertion destinataire liste
         if (message.getDestinataires() != null) {
             List<AdresseDto> destDtoList = new ArrayList<>();
             for (Adresse dest : message.getDestinataires()) {
@@ -290,8 +303,7 @@ public class MessageService implements MessageServiceInterface {
                     persDto.setPrenom(dest.getPersonne().getPrenom());
                     adrDto.setPersonneDto(persDto);
 
-                } //fait par moi
-                else {
+                } else if (dest.getListe() != null) {
                     ListeDto listeDto = new ListeDto();
                     listeDto.setId(dest.getListe().getIdLISTE());
                     listeDto.setLibelle(dest.getListe().getLibelle());
@@ -303,6 +315,7 @@ public class MessageService implements MessageServiceInterface {
             messageDto.setDestinataireDtoList(destDtoList);
         }
 
+        //Conversion destinataire Copie
         if (message.getDestinatairesCopie() != null) {
             List<AdresseDto> destDtoList = new ArrayList<>();
             for (Adresse dest : message.getDestinatairesCopie()) {
@@ -315,8 +328,7 @@ public class MessageService implements MessageServiceInterface {
                     persDto.setPrenom(dest.getPersonne().getPrenom());
                     adrDto.setPersonneDto(persDto);
 
-                } //fait par moi
-                else {
+                } else if (dest.getListe() != null) {
                     ListeDto listeDto = new ListeDto();
                     listeDto.setId(dest.getListe().getIdLISTE());
                     listeDto.setLibelle(dest.getListe().getLibelle());
@@ -326,6 +338,20 @@ public class MessageService implements MessageServiceInterface {
                 destDtoList.add(adrDto);
             }
             messageDto.setDestinataireDtoList(destDtoList);
+        }
+
+        //Conversion fichier
+        if (message.getFichierList() != null) {
+            List<FichierDto> fichierDtoList = new ArrayList<>();
+            for (Fichier fichier : message.getFichierList()) {
+                FichierDto fichDto = new FichierDto();
+                fichDto.setId(fichier.getIdFICHIER());
+                fichDto.setFilename(fichier.getFilename());
+                fichDto.setFiletype(fichier.getFiletype());
+                fichDto.setFilepath(fichier.getFilepath());
+                fichierDtoList.add(fichDto);
+            }
+            messageDto.setFichierDtoList(fichierDtoList);
         }
 
         return messageDto;

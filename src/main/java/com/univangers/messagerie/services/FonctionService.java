@@ -24,7 +24,7 @@ public class FonctionService implements FonctionServiceInterface {
 
     private Fonction convertToEntity(FonctionDto fonctionDto) {
         Fonction fonction = new Fonction();
-        fonction.setIdFONCTION(fonctionDto.getIdFonction());
+        fonction.setIdFONCTION(fonctionDto.getId());
         fonction.setTitle(fonctionDto.getTitle());
         return fonction;
     }
@@ -44,7 +44,7 @@ public class FonctionService implements FonctionServiceInterface {
     private FonctionDto convertToDto(Fonction fonction) {
 
         FonctionDto fonctionDto = new FonctionDto();
-        fonctionDto.setIdFonction(fonction.getIdFONCTION());
+        fonctionDto.setId(fonction.getIdFONCTION());
         fonctionDto.setTitle(fonction.getTitle());
         return fonctionDto;
     }

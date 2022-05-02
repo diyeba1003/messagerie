@@ -45,7 +45,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * @author etud
  */
-@RestController
+@Controller
 @RequestMapping("/messagerie/messages")
 @Transactional
 public class MessageController {
@@ -102,10 +102,7 @@ public class MessageController {
             if (mailObject.getFonction() != null) {
                 FonctionDto fonctionDto = new FonctionDto();
                 fonctionDto.setTitle(mailObject.getFonction());
-                PersonneFonctionDto personneFonctionDto = new PersonneFonctionDto();
-                personneFonctionDto.setFonctionDto(fonctionDto);
-                personneFonctionDto.setPersonneDto(personneDto);
-                personneDto.getPersonneFonctionDtoList().add(personneFonctionDto);
+                personneDto.getFonctionDtoList().add(fonctionDto);
             }
             expediteurDto.setPersonneDto(personneDto);
         } else {

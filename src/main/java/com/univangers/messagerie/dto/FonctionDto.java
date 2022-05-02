@@ -15,7 +15,7 @@ public class FonctionDto {
 
     @Getter
     @Setter
-    private Integer idFonction;
+    private Integer id;
 
     @Getter
     @Setter
@@ -24,8 +24,8 @@ public class FonctionDto {
     public FonctionDto() {
     }
 
-    public FonctionDto(Integer idFonction, String title) {
-        this.idFonction = idFonction;
+    public FonctionDto(Integer id, String title) {
+        this.id = id;
         this.title = title;
     }
 }

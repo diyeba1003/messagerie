@@ -3,53 +3,65 @@
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
 -->
-<html
-  xmlns="http://www.w3.org/1999/xhtml"
-  xmlns:th="http://www.thymeleaf.org"
-  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
->
-  <head th:replace="./layouts/main-layout :: head"> </head>
-  <body>
-    <header th:replace="./layouts/header :: header"></header>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
 
-    <div class="container">
-      <div class="row mt-2">
-        <div class="col m-2 border border-1 border-top-info border-left-info rounded">
-          <div class="row">
-            <div class="col-3">
-              <i class="m-3 fa-solid fa-envelope fa-8x text-info"></i>
-            </div>
-            <div class="col-9 p-3">
-              <h4>nombre de mails</h4>
-              <span class="display-2" th:text="${counter.nombreMessages}"></span>
-            </div>
+<head th:replace="./layouts/main-layout :: head"> </head>
+
+<body>
+  <header th:replace="./layouts/header :: header"></header>
+
+  <div class="container">
+    <div class="row mt-2">
+      <div class="col m-2 border border-1 border-left-info rounded">
+        <div class="row">
+          <div class="col-3">
+            <i class="m-3 fa-solid fa-envelope fa-6x text-secondary"></i>
           </div>
-        </div>
-        <div class="col m-2 border border-1 border-left-info rounded">
-          <div class="row" >
-            <div class="col-3 ">
-              <i class=" m-3 fa-solid fa-user fa-8x text-warning"></i>
-            </div>
-            
-            <div class="col-9 p-3">
-              <h4>nombre d'utilisateurs</h4>
-              <span class=" display-2" th:text="${counter.nombreAdresses}"></span>
-            </div>
+          <div class="col-9 pt-3 pb-3 ">
+            <h4 class="ms-3">Nombre de mails</h4>
+            <span class="ms-3 display-2" th:text="${counter.nombreMessages}"></span>
           </div>
-          
         </div>
       </div>
-      <div class="row mt-4">
-        <div class="col m-2 border border-1 border-left-info rounded">
-          <h4>nombre de personnes</h4>
-          <span class=" display-2" th:text="${counter.nombrePersonnes}" ></span>
-        </div>
-        <div class="col m-2 border border-1 border-left-info rounded">
-          <h4>Liste de diffusions</h4>
-          <span class=" display-2" th:text="${counter.nombreListes}"></span>
+      <div class="col m-2 border border-1 border-left-info rounded">
+        <div class="row">
+          <div class="col-3 ">
+            <i class=" m-3 fa-solid fa-user fa-6x text-secondary"></i>
+          </div>
+          <div class="col-9 pt-3 pb-3 ">
+            <h4 class="ms-3">Nombre d'utilisateurs</h4>
+            <span class="ms-3 display-2" th:text="${counter.nombreAdresses}"></span>
+          </div>
         </div>
       </div>
     </div>
-    <footer th:replace="./layouts/main-layout :: footer"></footer>
-  </body>
+    <div class="row mt-2">
+      <div class="col m-2 border border-1 border-left-info rounded">
+        <div class="row">
+          <div class="col-3">
+            <i class="m-3 fa-solid fa-person fa-6x text-secondary"></i>
+          </div>
+          <div class="col-9 pt-3 pb-3 ">
+            <h4 class="ms-3">Nombre de personnes</h4>
+            <span class="ms-3 display-2" th:text="${counter.nombrePersonnes}"></span>
+          </div>
+        </div>
+      </div>
+      <div class="col m-2 border border-1 border-left-info rounded">
+        <div class="row">
+          <div class="col-3 ">
+            <i class=" m-3 fa-solid fa-person fa-6x text-secondary"></i>
+          </div>
+          <div class="col-9 pt-3 pb-3 ">
+            <h4 class="ms-3">Liste de diffusions</h4>
+            <span class="ms-3 display-2" th:text="${counter.nombreListes}"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer th:replace="./layouts/main-layout :: footer"></footer>
+</body>
+
 </html>

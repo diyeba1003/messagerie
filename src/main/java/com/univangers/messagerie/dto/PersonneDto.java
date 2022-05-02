@@ -26,7 +26,7 @@ public class PersonneDto {
     
     @Getter
     @Setter
-    private List<PersonneFonctionDto> personneFonctionDtoList = new ArrayList<>();
+    private List<FonctionDto> fonctionDtoList = new ArrayList<>();
 
     public PersonneDto() {
     }

@@ -46,7 +46,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * @author etud
  */
-@RestController
+@Controller
 @RequestMapping("/messagerie/messages")
 @Transactional
 public class MessageController {
@@ -198,7 +198,7 @@ public class MessageController {
 
     }
 
-    @GetMapping("/listeMessage")
+    @GetMapping("/liste-message")
     public String listemessage(Model model, @RequestParam("id") Integer id) {
         List<MessageDto> messageDtoList = messageService.findAllMessageDto();
         model.addAttribute("messages", messageDtoList);
@@ -206,27 +206,11 @@ public class MessageController {
             MessageDto messageDto = messageService.findMessageDtoById(id);
             model.addAttribute("selectedMessage", messageDto);
         }
-        return "./webHtml/listeMessage";
-    }
-
-    @GetMapping("/listeMessageId")
-    public String listemessageid(Model model, @Param("id") Integer id) {
-
-        //model.addAttribute("test", "Mon test");
-        return "listeMessageId";
-    }
-
-    @GetMapping(value = "/view-message-content")
-    public String getEventCount(ModelMap map, @RequestParam("id") Integer id) {
-
-        MessageDto messageDto = messageService.findMessageDtoById(id);
-        map.addAttribute("selectedMessage", messageDto);
-
-        return "./webHtml/listeMessage:: #contentDetail";
+        return "./webHtml/liste-message";
     }
 
     @GetMapping("/home")
-    public String accueil(Model model) {
+    public String home(Model model) {
 
         DataCounter counter = new DataCounter();
         Integer countMessages = messageService.countMessageDto();

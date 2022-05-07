@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+
+    <head th:replace="./layouts/main-layout :: head"> </head>
+
+    <body>
+        <header th:replace="./layouts/header :: header"></header>
+        <div class="container-fluid">
+            <p th:text="${personneDto.nom}"> </p>
+            <p th:text="${personneDto.prenom}"> </p>
+            <div th:if="${personneDto.fonctionDtoList.size()>0}"> 
+                <div th:each="fonctionDto:${personneDto.fonctionDtoList}"></div>
+
+                <span th:text="${fonctionDto.title}"> </span>
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -48,7 +48,7 @@ public class PersonneController {
     public String update(@PathVariable(value = "id") String id, Model model) {
         PersonneDto personneDto = personneService.findPersonneDtoById(id);
         model.addAttribute("personneDto", personneDto);
-        return "/webHtml/modifier";
+        return "/webHtml/edit-user";
     }
 
     @PostMapping("/update/{id}")
@@ -58,4 +58,11 @@ public class PersonneController {
         personneService.updatePersonneDto(personneDto);
         return "redirect:/messagerie/personne/user-infos";
     }
+    
+    @GetMapping("/info")
+    public String info(Model model, @RequestParam("id") String id){
+           PersonneDto personneDto=personneService.findPersonneDtoById(id);
+           model.addAttribute("personneDto", personneDto);
+           return "/webHtml/detail-user";
+    } 
 }

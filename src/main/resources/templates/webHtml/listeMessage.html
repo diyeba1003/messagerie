@@ -20,19 +20,19 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 
       </div>
       <div class="col-9" id="contentDetail">
-        <div th:if="${selectedMessage} != null">
+        <div  th:if="${selectedMessage} != null">
 
           <div>
             <label><span class="badge bg-secondary"> Date d'envoie:</span> <span th:text="${selectedMessage?.date}"></span></label>
           </div>
           <div>
-            <label><span class="badge bg-secondary"> Expediteur:</span> <span  th:text="${selectedMessage?.expediteurDto?.id}"></span></label>
+            <label><span class="badge bg-secondary"> Expediteur:</span> <a  class="text-decoration-none" > <span  th:text="${selectedMessage?.expediteurDto?.id}"></span></a></label>
           </div>
 
           <div>
             <label> <span class="badge bg-secondary">Destinataire:</span> </label>
             <div class="d-inline" th:each="destinataire:${selectedMessage.destinataireDtoList}" >
-              <span th:text="${destinataire.id}">&nbsp;&nbsp;</span>
+              <a  class="text-decoration-none" > <span th:text="${destinataire.id}">&nbsp;&nbsp;</span></a>
             </div>
 
           </div>
@@ -51,7 +51,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 
 
   <script th:inline="javascript">
-
+  function updateEventCount() {
+    $.get("view-message-content").done(function(fragment) { // get from controller
+        $("#contentDetail").replaceWith(fragment); // update snippet of page
+    });
+}
   </script>
 </body>
 

@@ -4,8 +4,8 @@
            
             
             <li class="border-top pt-1 pb-1" th:each= "message: ${messages}">
-                <a  class="text-decoration-none" th:href="@{/messagerie/messages/listeMessage(id=${message.id})}">
-                    <span th:text="${message.object}"></span>
+                <a  class="text-decoration-none" th:href="@{/messagerie/messages/view-message-content(id=${message.id})}">
+                    <span id="event" th:text="${message.object}"></span>
                 </a>
             </li>
             

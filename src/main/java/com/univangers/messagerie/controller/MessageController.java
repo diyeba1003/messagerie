@@ -35,6 +35,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -45,7 +46,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * @author etud
  */
-@Controller
+@RestController
 @RequestMapping("/messagerie/messages")
 @Transactional
 public class MessageController {
@@ -73,7 +74,7 @@ public class MessageController {
     @GetMapping("/test-file-read/{nomFichier}")
     public MailObject afficheMessage(@PathVariable String nomFichier) throws FileNotFoundException, MessagingException, IOException {
 
-        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir +"/president_2010-10"+ File.separator + nomFichier);
+        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir + "/president_2010-10" + File.separator + nomFichier);
 
         return mailObject;
     }
@@ -81,7 +82,7 @@ public class MessageController {
     @PostMapping("/test-insert/{nomFichier}")
     public Map testInsert(@PathVariable String nomFichier) throws MessagingException, IOException {
 
-        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir+"/president_2010-06" + File.separator + nomFichier);
+        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir + "/president_2010-06" + File.separator + nomFichier);
 
         MessageDto mDto = new MessageDto();
 
@@ -146,8 +147,7 @@ public class MessageController {
                 persDto.setNom(infP.getLastName());
                 persDto.setPrenom(infP.getFirstName());
                 adrDto.setPersonneDto(persDto);
-            } 
-            else {
+            } else {
                 ListeDto listeDto = new ListeDto();
                 listeDto.setId(infP.getMail());
                 adrDto.setListeDto(listeDto);
@@ -214,6 +214,15 @@ public class MessageController {
 
         //model.addAttribute("test", "Mon test");
         return "listeMessageId";
+    }
+
+    @GetMapping(value = "/view-message-content")
+    public String getEventCount(ModelMap map, @RequestParam("id") Integer id) {
+
+        MessageDto messageDto = messageService.findMessageDtoById(id);
+        map.addAttribute("selectedMessage", messageDto);
+
+        return "./webHtml/listeMessage:: #contentDetail";
     }
 
     @GetMapping("/home")

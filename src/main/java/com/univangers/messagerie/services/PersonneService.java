@@ -5,8 +5,14 @@
 package com.univangers.messagerie.services;
 
 import com.univangers.messagerie.dao.PersonneDaoInterface;
+import com.univangers.messagerie.dto.FonctionDto;
 import com.univangers.messagerie.dto.PersonneDto;
+import com.univangers.messagerie.dto.PersonneFonctionDto;
+import com.univangers.messagerie.model.Fonction;
 import com.univangers.messagerie.model.Personne;
+import com.univangers.messagerie.model.PersonneFonction;
+import java.util.ArrayList;
+import java.util.List;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -44,7 +50,7 @@ public class PersonneService implements PersonneServiceInterface {
          */
         personneP.setNom(personneDto.getNom());
         personneP.setPrenom(personneDto.getPrenom());
-
+               
         return personneP;
     }
 

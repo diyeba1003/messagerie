@@ -229,6 +229,36 @@ public class MessageService implements MessageServiceInterface {
             }
             message.setDestinatairesCopie(destCCList);
         }
+        if (messageDto.getTransfertDtoList() != null) {
+            List<Adresse> transfertList = new ArrayList<>();
+            for (AdresseDto transfert : messageDto.getTransfertDtoList()) {
+                if (transfert.getId().equalsIgnoreCase(adrSender.getIdADRESSE())) {
+                    transfertList.add(adrSender);
+                } else {
+                    Adresse adr = adresseDao.findAdresseById(transfert.getId());
+                    if (adr == null) {
+                        adr = new Adresse();
+                        adr.setIdADRESSE(transfert.getId());
+                        if (transfert.getPersonneDto() != null) {
+                            Personne personne = new Personne();
+                            personne.setIdPERSONNE(transfert.getPersonneDto().getId());
+                            personne.setPrenom(transfert.getPersonneDto().getPrenom());
+                            personne.setNom(transfert.getPersonneDto().getNom());
+                            personne.setAdresse(adr);
+                            adr.setPersonne(personne);
+                        } else {
+                            Liste liste = new Liste();
+                            liste.setIdLISTE(transfert.getListeDto().getId());
+                            liste.setLibelle(transfert.getListeDto().getLibelle());
+                            liste.setAdresse(adr);
+                            adr.setListe(liste);
+                        }
+                    }
+                     transfertList.add(adr);
+                }
+            }
+              message.setAdresseTransfertList(transfertList);
+        }
 
         if (messageDto.getFichierDtoList() != null) {
             List<Fichier> fichierList = new ArrayList<>();

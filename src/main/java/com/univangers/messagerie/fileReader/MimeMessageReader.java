@@ -55,8 +55,12 @@ public class MimeMessageReader {
         MimeMessage message = new MimeMessage(mailSession, inputStream);
 
         MailObject mailObject = new MailObject();
-
+        
         InternetAddress senderAddress = (InternetAddress) message.getFrom()[0];
+        
+        if(senderAddress==null || message.getSentDate()==null){
+            return null;
+        }
         InfoPersonne infoSender = new InfoPersonne(senderAddress.getAddress());
         if (senderAddress.getPersonal() != null) {
             String[] info = senderAddress.getPersonal().split(" ");
@@ -72,11 +76,7 @@ public class MimeMessageReader {
         mailObject.setReceivedDate(message.getReceivedDate());
         mailObject.setSubject(message.getSubject());
         mailObject.setContent(getTextFromMessage(message));
-        if(getMailTransfert(message.getSubject())==true)
-        {
-            System.out.println("<<message transférer<<");
-            System.out.println(">> "+message.getSubject());
-        }
+        
         //FONCTION
         String fonction = getFonctionFromString(message.getSubject());
         mailObject.setFonction(fonction);
@@ -87,7 +87,6 @@ public class MimeMessageReader {
             for (InternetAddress adr : toList) {
                 InfoPersonne infoDestTo = new InfoPersonne(adr.getAddress());
                 if (adr.getPersonal() != null) {
-                    System.out.println("info: " + adr.getPersonal());
                     String[] info = adr.getPersonal().split(" ");
                     if (info.length == 2) {
                         infoDestTo.setLastName(info[0]);

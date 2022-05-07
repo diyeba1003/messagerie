@@ -46,7 +46,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * @author etud
  */
-@RestController
+@Controller
 @RequestMapping("/messagerie/messages")
 @Transactional
 public class MessageController {
@@ -83,7 +83,12 @@ public class MessageController {
     public Map testInsert(@PathVariable String nomFichier) throws MessagingException, IOException {
 
         MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir + "/president_2010-06" + File.separator + nomFichier);
-
+        
+        Map<String, String> result = new HashMap<>();
+        
+        if(mailObject==null){
+            result.put("result", "fichier endommagé");
+        }
         MessageDto mDto = new MessageDto();
 
         mDto.setObject(mailObject.getSubject());
@@ -171,7 +176,6 @@ public class MessageController {
 
         messageService.insertMessageDto(mDto);
 
-        Map<String, String> result = new HashMap<>();
         result.put("result", "success");
         return result;
     }

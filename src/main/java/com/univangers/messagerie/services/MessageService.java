@@ -400,6 +400,10 @@ public class MessageService implements MessageServiceInterface {
             String fileName = file.getAbsolutePath();
             System.out.println("Fichier " + fileName);
             MailObject mailObject = MimeMessageReader.readMessageFile(fileName);
+            
+            if(mailObject == null){
+                continue; //Cas de fichiers endommagés
+            }
 
             Message message = new Message();
 

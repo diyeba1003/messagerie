@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+
+<head th:replace="./layouts/main-layout :: head"> </head>
+
+<body>
+  <header th:replace="./layouts/header :: header"></header>
+  
+    <div class="container-fluid">
+        <h1>Formulaire de modification</h1>
+  <form class="needs-validation" th:action="@{/messagerie/personne/update/{id}(id=*{id})}" method="post" th:object="${personneDto}">
+      <div class="form-row">
+                     <div class="col-md-4 mb-3">
+          <label for="name"> </label>  
+          <span  th:text="*{id}"></span>
+              
+      </div>
+   
+     <div class="col-md-4 mb-3">
+          <label for="nom"></label>
+          <input class="form-control form-control-lg" type="text" th:field="*{nom}" >
+          
+      </div>
+     <div class="col-md-4 mb-3">
+          <label for="prenom"> </label> 
+          <input class="form-control form-control-sm mb-3" type="text" th:field="*{prenom}">
+      </div>
+          <div class="col-md-4 mb-3">
+              <label></label>
+          </div>
+      <div>
+         <input class="btn btn-primary" type="submit" value="Update" />
+      </div>
+    </div>
+  </form>
+   
+</div>
+    </body>
+</html>

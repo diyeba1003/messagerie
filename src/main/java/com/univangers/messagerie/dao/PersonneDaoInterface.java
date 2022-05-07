@@ -5,6 +5,7 @@
 package com.univangers.messagerie.dao;
 
 import com.univangers.messagerie.model.Personne;
+import java.util.List;
 
 /**
  *
@@ -14,5 +15,7 @@ public interface PersonneDaoInterface {
     
     public void insertPersonne(Personne personne);
     public Personne findPersonneById(String idpers);
+    public List<Personne> findAllPersonne();
     public Integer countPersonne();
+    public void updatePersonne(Personne personne);
 }

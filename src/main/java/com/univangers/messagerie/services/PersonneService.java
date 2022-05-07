@@ -5,8 +5,12 @@
 package com.univangers.messagerie.services;
 
 import com.univangers.messagerie.dao.PersonneDaoInterface;
+import com.univangers.messagerie.dto.FonctionDto;
 import com.univangers.messagerie.dto.PersonneDto;
 import com.univangers.messagerie.model.Personne;
+import com.univangers.messagerie.model.PersonneFonction;
+import java.util.ArrayList;
+import java.util.List;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -35,17 +39,12 @@ public class PersonneService implements PersonneServiceInterface {
     }
 
     private Personne convertToEntity(PersonneDto personneDto) {
-        Personne personneP = new Personne();
+        Personne personne = new Personne();
+        personne.setIdPERSONNE(personneDto.getId());
+        personne.setNom(personneDto.getNom());
+        personne.setPrenom(personneDto.getPrenom());
 
-        /*
-        Adresse adr= new Adresse();
-        adr.setIdAdresse(personneDto.getIdAdresse());
-        personneP.setAdresse(adr);
-         */
-        personneP.setNom(personneDto.getNom());
-        personneP.setPrenom(personneDto.getPrenom());
-
-        return personneP;
+        return personne;
     }
 
     private PersonneDto convertToDto(Personne personne) {
@@ -53,6 +52,16 @@ public class PersonneService implements PersonneServiceInterface {
         personneDto.setId(personne.getIdPERSONNE());
         personneDto.setNom(personne.getNom());
         personneDto.setPrenom(personne.getPrenom());
+        if(personne.getPersonneFonctionList()!=null){
+            List<FonctionDto> fonctionDtoList= new ArrayList<>();
+            for(PersonneFonction pf : personne.getPersonneFonctionList()){
+                FonctionDto fonctDto= new FonctionDto();
+                fonctDto.setId(pf.getFonction().getIdFONCTION());
+                fonctDto.setTitle(pf.getFonction().getTitle());
+                fonctionDtoList.add(fonctDto);
+            }
+            personneDto.setFonctionDtoList(fonctionDtoList);
+        }
         return personneDto;
     }
 
@@ -61,5 +70,29 @@ public class PersonneService implements PersonneServiceInterface {
         Integer count = personneDao.countPersonne();
         return count;
     }
+
+    @Override
+    public List<PersonneDto> findAllPersonneDto() {
+        List<Personne> personneList = new ArrayList<>();
+        List<PersonneDto> personneDtoList = new ArrayList<>();
+        personneList = personneDao.findAllPersonne();
+        if (!personneList.isEmpty()) {
+            for (Personne p : personneList) {
+                personneDtoList.add(convertToDto(p));
+            }
+        }
+        return personneDtoList;
+    }
+
+    public void updatePersonneDto(PersonneDto personneDto) {
+     Personne personne=convertToEntity(personneDto);
+      personneDao.updatePersonne(personne);
+    }
+
+    @Override
+    public void deletePersonneDto(PersonneDto personneDto) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+    
 
 }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+
+<head th:replace="./layouts/main-layout :: head"> </head>
+
+<body>
+  <header th:replace="./layouts/header :: header"></header>
+  <div class="container-fluid">
+      <table  class="table table-striped table-bordered">
+          <thead  class="table-secondary">
+              <tr>
+                  <th>ADRESSE</th>
+                  <th> NOM</th>
+                  <th>PRENOM</th>
+                   <th>FONCTION</th>
+                  <th>ACTION</th>
+                  
+              </tr>
+          </thead>
+          <tbody>
+              <tr th:each="user:${listePersonne}">
+                  <td th:text="${user.id}"></td>
+                  <td th:text="${user.nom}"></td>
+                  <td th:text="${user.prenom}"> </td>
+                  <td th:if="${user.fonctionDtoList.size()}>0" th:text="${user.fonctionDtoList[0]?.title}">
+                      <td th:unless="${user.fonctionDtoList.size()}>0"></td>
+                  </td>
+                  <td><a th:href="@{/messagerie/personne/modifier/{id}(id=${user.id})}" class="btn btn-secondary"> <i class='fas fa-pen-alt'></i></a>
+                      <a class="btn btn-danger" th:href="@{/messagerie/personne/delete/{id}(id=${user.id})}"><i class='far fa-trash-alt' style='font-size:20px;'></i></a>
+                  </td>
+              </tr>
+         
+          </tbody>
+          
+      </table>
+      
+  </div>
+</body>
+</html>

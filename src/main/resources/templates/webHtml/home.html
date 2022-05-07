@@ -31,7 +31,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
           </div>
           <div class="col-9 pt-3 pb-3 ">
             <h4 class="ms-3">Nombre d'utilisateurs</h4>
-            <span class="ms-3 display-2" th:text="${counter.nombreAdresses}"></span>
+            <a  th:href="@{/info}">
+               <span class="ms-3 display-2" th:text="${counter.nombreAdresses}"></span>
+            </a>
           </div>
         </div>
       </div>
@@ -44,7 +46,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
           </div>
           <div class="col-9 pt-3 pb-3 ">
             <h4 class="ms-3">Nombre de personnes</h4>
+            <a th:href="@{/messagerie/personne/user-infos}"
             <span class="ms-3 display-2" th:text="${counter.nombrePersonnes}"></span>
+            </a>
           </div>
         </div>
       </div>
@@ -55,7 +59,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
           </div>
           <div class="col-9 pt-3 pb-3 ">
             <h4 class="ms-3">Liste de diffusions</h4>
+            <a th:href="@{/liste-info}"
             <span class="ms-3 display-2" th:text="${counter.nombreListes}"></span>
+            </a>    
           </div>
         </div>
       </div>

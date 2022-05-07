@@ -36,5 +36,12 @@ public class PersonneDto {
         this.nom = nom;
         this.prenom = prenom;
     }
+
+    @Override
+    public String toString() {
+        return "PersonneDto{" + "id=" + id + ", nom=" + nom + ", prenom=" + prenom + '}';
+    }
+    
+    
 }
 

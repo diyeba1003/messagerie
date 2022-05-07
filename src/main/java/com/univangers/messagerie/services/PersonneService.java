@@ -46,7 +46,7 @@ public class PersonneService implements PersonneServiceInterface {
 
         return personne;
     }
-
+    
     private PersonneDto convertToDto(Personne personne) {
         PersonneDto personneDto = new PersonneDto();
         personneDto.setId(personne.getIdPERSONNE());

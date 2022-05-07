@@ -1,11 +1,11 @@
 <div th:fragment="header">
     <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">PENDA MAIL APP</a>
+        
 
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-            <a class="nav-link active" th:href="@{/messagerie/messages/home}">Home</a>
+            <a class="nav-link active" th:href="@{/messagerie/messages/home}">Accueil</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" th:href="@{/messagerie/messages/listeMessage(id=0)}">Messages</a>
@@ -15,10 +15,10 @@
             <input
             class="form-control me-2"
             type="search"
-            placeholder="Search"
+            placeholder="Recherche"
             aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <button class="btn btn-outline-success" type="submit">Recherche</button>
         </form>
     </div>
     </nav>

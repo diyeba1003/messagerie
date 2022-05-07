@@ -48,6 +48,8 @@ public class MimeMessageReader {
 
     public static MailObject readMessageFile(String filePath) throws FileNotFoundException, MessagingException, IOException {
         Properties props = new Properties();
+        props.setProperty("mail.mime.address.strict", "false");
+        props.setProperty("mail.mime.decodetext.strict", "false");
         Session mailSession = Session.getDefaultInstance(props, null);
         InputStream inputStream = new FileInputStream(filePath);
         MimeMessage message = new MimeMessage(mailSession, inputStream);
@@ -70,7 +72,11 @@ public class MimeMessageReader {
         mailObject.setReceivedDate(message.getReceivedDate());
         mailObject.setSubject(message.getSubject());
         mailObject.setContent(getTextFromMessage(message));
-
+        if(getMailTransfert(message.getSubject())==true)
+        {
+            System.out.println("<<message transférer<<");
+            System.out.println(">> "+message.getSubject());
+        }
         //FONCTION
         String fonction = getFonctionFromString(message.getSubject());
         mailObject.setFonction(fonction);
@@ -184,6 +190,16 @@ public class MimeMessageReader {
         }
         return fonction;
     }
+    
+    private static Boolean getMailTransfert(String subject) throws MessagingException{
+        Boolean resultat=false;
+        Matcher fwd=Pattern.compile("fwd:").matcher(subject);
+        Matcher tr=Pattern.compile("TR:").matcher(subject);
+        if(fwd.find() || tr.find()){
+            return true;
+        }
+        return resultat;
+    }
 
     /**
      *
@@ -195,12 +211,12 @@ public class MimeMessageReader {
     private static List<AttachFile> extractAttachements(Message message) throws IOException, MessagingException {
 
         List<AttachFile> fileList = new ArrayList<>();
-        
+
         File attachsDir = new File(ATTACHS_FILE_DIR);
         if (!attachsDir.exists()) {
             attachsDir.mkdirs();
         }
-        
+
         if (message.isMimeType("multipart/*")) {
             Multipart multipart = (Multipart) message.getContent();
 
@@ -212,27 +228,29 @@ public class MimeMessageReader {
                 }
                 InputStream is = bodyPart.getInputStream();
                 String fileName = bodyPart.getFileName();
-                System.setProperty("mail.mime.decodetext.strict", "false");
-                fileName = MimeUtility.decodeText(fileName);
+                if (fileName != null) {
+                    fileName = MimeUtility.decodeText(fileName);
 
-                File f = new File(ATTACHS_FILE_DIR + File.separator + fileName);
+                    File f = new File(ATTACHS_FILE_DIR + File.separator + fileName);
 
-                FileOutputStream fos = new FileOutputStream(f);
-                byte[] buf = new byte[4096];
-                int bytesRead;
-                while ((bytesRead = is.read(buf)) != -1) {
-                    fos.write(buf, 0, bytesRead);
+                    FileOutputStream fos = new FileOutputStream(f);
+                    byte[] buf = new byte[4096];
+                    int bytesRead;
+                    while ((bytesRead = is.read(buf)) != -1) {
+                        fos.write(buf, 0, bytesRead);
+                    }
+                    AttachFile attachFile = new AttachFile();
+                    String ext = FilenameUtils.getExtension(f.getName());
+                    if (ext.length() > 8) {
+                        ext = "UKNW";
+                    }
+                    attachFile.setFilename(f.getName());
+                    attachFile.setFilepath(f.getAbsolutePath());
+                    attachFile.setFiletype(ext);
+                    fileList.add(attachFile);
+                    fos.close();
+
                 }
-                AttachFile attachFile = new AttachFile();
-                String ext = FilenameUtils.getExtension(f.getName());
-                if(ext.length()>8){
-                    ext="UKNW";
-                }
-                attachFile.setFilename(f.getName());
-                attachFile.setFilepath(f.getAbsolutePath());
-                attachFile.setFiletype(ext);
-                fileList.add(attachFile);
-                fos.close();
 
             }
         }

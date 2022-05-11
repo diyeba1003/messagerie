@@ -5,6 +5,7 @@
 package com.univangers.messagerie.services;
 
 import com.univangers.messagerie.dto.AdresseDto;
+import java.util.List;
 
 /**
  *
@@ -13,7 +14,12 @@ import com.univangers.messagerie.dto.AdresseDto;
 public interface AdresseServiceInterface {
     
     public void insertAdresseDto(AdresseDto adresseDto);
-    public AdresseDto findAdresseById(String id);
+    
+    public AdresseDto findAdresseDtoById(String id);
+    
     public Integer countAdresseDto();
+    
+    public List<AdresseDto> findAllAdresseDto();
+    
     
 }

@@ -13,7 +13,6 @@ import com.univangers.messagerie.dto.FonctionDto;
 import com.univangers.messagerie.dto.ListeDto;
 import com.univangers.messagerie.dto.MessageDto;
 import com.univangers.messagerie.dto.PersonneDto;
-import com.univangers.messagerie.dto.PersonneFonctionDto;
 import com.univangers.messagerie.fileReader.AttachFile;
 import com.univangers.messagerie.fileReader.FileScan;
 import com.univangers.messagerie.fileReader.InfoPersonne;
@@ -86,9 +85,8 @@ public class MessageService implements MessageServiceInterface {
 
     @Override
     public List<MessageDto> findAllMessageDto() {
-        List<Message> messageList = new ArrayList<>();
         List<MessageDto> messageDtoList = new ArrayList<>();
-        messageList = messageDao.findAllMessage();
+        List<Message> messageList = messageDao.findAllMessage();
         if (!messageList.isEmpty()) {
             for (Message m : messageList) {
                 messageDtoList.add(convertToDto(m));
@@ -105,6 +103,43 @@ public class MessageService implements MessageServiceInterface {
     @Override
     public void deleteMessageDto(Integer id) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public List<MessageDto> findMessageDtoBySender(String senderId) {
+        List<Message> messageList = messageDao.findMessageBySender(senderId);
+        List<MessageDto> messageDtoList = new ArrayList<>();
+        if (!messageList.isEmpty()) {
+            for (Message m : messageList) {
+                messageDtoList.add(convertToDto(m));
+            }
+        }
+        return messageDtoList;
+
+    }
+    
+     @Override
+    public List<MessageDto> findMessageDtoBySubject(String keyWord) {
+         List<Message> messageList = messageDao.findMessageBySubject(keyWord);
+        List<MessageDto> messageDtoList = new ArrayList<>();
+        if (!messageList.isEmpty()) {
+            for (Message m : messageList) {
+                messageDtoList.add(convertToDto(m));
+            }
+        }
+        return messageDtoList;
+    }
+    
+     @Override
+    public List<MessageDto> findMessageDtoByDestinataire(String keyWord) {
+        List<Message> messageList= messageDao.findMessageByDestinataire(keyWord);
+        List<MessageDto> messageDtoList= new ArrayList<>();
+        if(!messageList.isEmpty()){
+            for(Message m :messageList){
+                messageDtoList.add(convertToDto(m));
+            }
+        }
+        return messageDtoList;
     }
 
     /**
@@ -254,10 +289,10 @@ public class MessageService implements MessageServiceInterface {
                             adr.setListe(liste);
                         }
                     }
-                     transfertList.add(adr);
+                    transfertList.add(adr);
                 }
             }
-              message.setAdresseTransfertList(transfertList);
+            message.setAdresseTransfertList(transfertList);
         }
 
         if (messageDto.getFichierDtoList() != null) {
@@ -400,8 +435,8 @@ public class MessageService implements MessageServiceInterface {
             String fileName = file.getAbsolutePath();
             System.out.println("Fichier " + fileName);
             MailObject mailObject = MimeMessageReader.readMessageFile(fileName);
-            
-            if(mailObject == null){
+
+            if (mailObject == null) {
                 continue; //Cas de fichiers endommagés
             }
 

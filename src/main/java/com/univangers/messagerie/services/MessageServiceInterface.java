@@ -26,5 +26,10 @@ public interface MessageServiceInterface {
     public void updateMessageDto(MessageDto messageDto);
 
     public void deleteMessageDto(Integer id);
-
+    
+    public List<MessageDto> findMessageDtoBySender(String senderId);
+    
+    public List<MessageDto> findMessageDtoBySubject(String keyWord);
+    
+    public List<MessageDto> findMessageDtoByDestinataire(String keyWord);
 }

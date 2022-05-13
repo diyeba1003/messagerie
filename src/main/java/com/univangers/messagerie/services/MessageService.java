@@ -25,13 +25,17 @@ import com.univangers.messagerie.model.Liste;
 import com.univangers.messagerie.model.Message;
 import com.univangers.messagerie.model.Personne;
 import com.univangers.messagerie.model.PersonneFonction;
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
+import java.sql.Clob;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.mail.MessagingException;
+import javax.sql.rowset.serial.SerialClob;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -117,10 +121,10 @@ public class MessageService implements MessageServiceInterface {
         return messageDtoList;
 
     }
-    
-     @Override
+
+    @Override
     public List<MessageDto> findMessageDtoBySubject(String keyWord) {
-         List<Message> messageList = messageDao.findMessageBySubject(keyWord);
+        List<Message> messageList = messageDao.findMessageBySubject(keyWord);
         List<MessageDto> messageDtoList = new ArrayList<>();
         if (!messageList.isEmpty()) {
             for (Message m : messageList) {
@@ -129,13 +133,13 @@ public class MessageService implements MessageServiceInterface {
         }
         return messageDtoList;
     }
-    
-     @Override
+
+    @Override
     public List<MessageDto> findMessageDtoByDestinataire(String keyWord) {
-        List<Message> messageList= messageDao.findMessageByDestinataire(keyWord);
-        List<MessageDto> messageDtoList= new ArrayList<>();
-        if(!messageList.isEmpty()){
-            for(Message m :messageList){
+        List<Message> messageList = messageDao.findMessageByDestinataire(keyWord);
+        List<MessageDto> messageDtoList = new ArrayList<>();
+        if (!messageList.isEmpty()) {
+            for (Message m : messageList) {
                 messageDtoList.add(convertToDto(m));
             }
         }
@@ -153,7 +157,7 @@ public class MessageService implements MessageServiceInterface {
         message.setIdMESSAGE(messageDto.getId());
         message.setSentdate(messageDto.getDate());
         message.setSubject(messageDto.getObject());
-        message.setBody(messageDto.getBody());
+        message.setBody(getClobFromString(messageDto.getBody()));
         Adresse adrSender = null;
         if (messageDto.getExpediteurDto() != null) {
             AdresseDto expediteurDto = messageDto.getExpediteurDto();
@@ -324,7 +328,7 @@ public class MessageService implements MessageServiceInterface {
         messageDto.setId(message.getIdMESSAGE());
         messageDto.setDate(message.getSentdate());
         messageDto.setObject(message.getSubject());
-        messageDto.setBody(message.getBody());
+        messageDto.setBody(getClobString(message.getBody()));
         if (message.getSender() != null) {
             Adresse adr = message.getSender();
             AdresseDto adrDto = new AdresseDto();
@@ -444,7 +448,7 @@ public class MessageService implements MessageServiceInterface {
 
             message.setSubject(mailObject.getSubject());
             message.setSentdate(mailObject.getSentDate());
-            message.setBody(mailObject.getContent());
+            message.setBody(getClobFromString(mailObject.getContent()));
             Adresse expediteur = adresseDao.findAdresseById(mailObject.getFrom().getMail());
             if (expediteur == null) {
                 expediteur = new Adresse();
@@ -568,6 +572,31 @@ public class MessageService implements MessageServiceInterface {
 
         }
         return insertedFileList;
+    }
+
+    protected String getClobString(Clob clob) {
+        BufferedReader stringReader;
+        StringBuilder strBuilder = new StringBuilder();
+        try {
+            stringReader = new BufferedReader(clob.getCharacterStream());
+            String singleLine;
+            while ((singleLine = stringReader.readLine()) != null) {
+                strBuilder.append(singleLine);
+            }
+        } catch (IOException | SQLException ex) {
+            Logger.getLogger(MessageService.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return strBuilder.toString();
+    }
+    
+    protected Clob getClobFromString(String str){
+        Clob clob = null;
+        try {
+            clob = new SerialClob(str.toCharArray());
+        } catch (SQLException ex) {
+            Logger.getLogger(MessageService.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return clob;
     }
 
 }

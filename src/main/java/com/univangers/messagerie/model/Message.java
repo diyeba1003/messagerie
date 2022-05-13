@@ -5,6 +5,7 @@
 package com.univangers.messagerie.model;
 
 import java.io.Serializable;
+import java.sql.Clob;
 import java.util.Date;
 import java.util.List;
 import javax.persistence.Basic;
@@ -28,6 +29,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import lombok.Getter;
 import lombok.Setter;
+import org.hibernate.annotations.Type;
 
 /**
  *
@@ -61,13 +63,14 @@ public class Message implements Serializable {
     @Column(length = 200)
     @Getter
     @Setter
-    private String subject;
-
+    private String subject;  
+    
     @Lob
-    @Column(length = 16777215)
+    @Column(name = "body", length = 65535)
+    @Type(type="text")
     @Getter
     @Setter
-    private String body;
+    private Clob body;
 
     @JoinColumn(name = "sender", referencedColumnName = "idADRESSE", nullable = false)
     @Getter
@@ -105,7 +108,7 @@ public class Message implements Serializable {
     private List<Fichier> fichierList;
 
     @JoinTable(name = "MESSAGE_REPLY", joinColumns = {
-        @JoinColumn(name = "MESSAGE_ID_REPLY", referencedColumnName = "idMESSAGE", nullable = false)}, inverseJoinColumns = {
+        @JoinColumn(name = "MESSAGE_REPLY_ID", referencedColumnName = "idMESSAGE", nullable = false)}, inverseJoinColumns = {
         @JoinColumn(name = "MESSAGE_ID", referencedColumnName = "idMESSAGE", nullable = false)})
     @ManyToMany(fetch = FetchType.LAZY)
     @Getter

@@ -53,7 +53,7 @@ public class Personne implements Serializable {
     @Setter
     private String prenom;
 
-    @OneToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE}, mappedBy = "personne", fetch = FetchType.LAZY)
+    @OneToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE}, mappedBy = "personne", fetch = FetchType.LAZY)
     @Getter
     @Setter
     private List<PersonneFonction> personneFonctionList =new ArrayList<>();

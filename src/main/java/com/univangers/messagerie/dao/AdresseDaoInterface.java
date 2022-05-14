@@ -14,10 +14,12 @@ import java.util.List;
 public interface AdresseDaoInterface  {
     
     public void insertAdresse(Adresse adresse);
+    
     public Adresse findAdresseById(String idFonction);
+    
     public Integer countAdresse();
+    
     public List<Adresse> findAllAdresse();
-    public void updateListe(Adresse adresse);
-
-      public void updatePersonne(Adresse adresse);
+    
+      public void update(Adresse adresse);
 }

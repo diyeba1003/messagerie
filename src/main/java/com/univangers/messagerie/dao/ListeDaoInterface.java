@@ -18,5 +18,6 @@ public interface ListeDaoInterface {
     
     public void updateList(Liste liste);
     
+    public void deleteListe(Liste liste);
     
 }

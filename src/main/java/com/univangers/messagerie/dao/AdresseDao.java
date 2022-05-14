@@ -60,12 +60,10 @@ public class AdresseDao implements AdresseDaoInterface {
         }
         return count;
     }
-    
-    public void updateListe(Adresse adresse){
-        
-      em.merge(adresse);
-    }
-    public void updatePersonne(Adresse adresse){
+
+    @Override
+    public void update(Adresse adresse) {
         em.merge(adresse);
     }
+   
 }

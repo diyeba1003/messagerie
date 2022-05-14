@@ -42,4 +42,13 @@ public class ListeDao implements ListeDaoInterface {
         em.merge(liste);
     }
 
+    @Override
+    public void deleteListe(Liste liste) {
+        if(liste!= null){
+            em.remove(liste);
+            System.out.println(">> Success remove Liste !!!");
+            em.flush();
+        }
+    }
+
 }

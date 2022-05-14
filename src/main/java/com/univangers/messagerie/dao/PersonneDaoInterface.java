@@ -14,8 +14,14 @@ import java.util.List;
 public interface PersonneDaoInterface {
     
     public void insertPersonne(Personne personne);
-    public Personne findPersonneById(String idpers);
+    
+    public Personne findPersonneById(String idPersonne);
+    
     public List<Personne> findAllPersonne();
+    
     public Integer countPersonne();
+    
     public void updatePersonne(Personne personne);
+    
+    public void deletePersonne(Personne personne);
 }

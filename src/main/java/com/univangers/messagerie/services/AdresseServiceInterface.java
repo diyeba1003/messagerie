@@ -21,9 +21,9 @@ public interface AdresseServiceInterface {
     
     public List<AdresseDto> findAllAdresseDto();
     
-    public void changeListeDtoToPersonneDto(AdresseDto adresseDto);
+    public void changeListeDtoToPersonneDto(String listeId);
     
-     public void changePersonneDtoToListeDto(AdresseDto adresseDto);
+     public void changePersonneDtoToListeDto(String personneId);
     
      
 }

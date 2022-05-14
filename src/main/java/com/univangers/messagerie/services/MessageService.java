@@ -98,6 +98,19 @@ public class MessageService implements MessageServiceInterface {
     }
 
     @Override
+    public List<MessageDto> findAllMessageDtoBetweenDate() {
+        List<Message> messageList = new ArrayList<>();
+        List<MessageDto> messageDtoList = new ArrayList<>();
+        messageList = messageDao.findAllMessageBetweenDate();
+        if (!messageList.isEmpty()) {
+            for (Message m : messageList) {
+                messageDtoList.add(convertToDto(m));
+            }
+        }
+        return messageDtoList;
+    }
+
+    @Override
     public void updateMessageDto(MessageDto messageDto) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
@@ -254,10 +267,10 @@ public class MessageService implements MessageServiceInterface {
                             adr.setListe(liste);
                         }
                     }
-                     transfertList.add(adr);
+                    transfertList.add(adr);
                 }
             }
-              message.setAdresseTransfertList(transfertList);
+            message.setAdresseTransfertList(transfertList);
         }
 
         if (messageDto.getFichierDtoList() != null) {
@@ -400,8 +413,8 @@ public class MessageService implements MessageServiceInterface {
             String fileName = file.getAbsolutePath();
             System.out.println("Fichier " + fileName);
             MailObject mailObject = MimeMessageReader.readMessageFile(fileName);
-            
-            if(mailObject == null){
+
+            if (mailObject == null) {
                 continue; //Cas de fichiers endommagés
             }
 

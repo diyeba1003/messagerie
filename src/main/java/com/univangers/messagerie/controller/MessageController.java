@@ -65,7 +65,7 @@ public class MessageController {
 
     @Value("${message.files.directory}")
     private String messageFilesDir;
-
+    
     @GetMapping("/hello")
     public String helloWorld() {
         return "Hello world !!!";
@@ -78,7 +78,7 @@ public class MessageController {
 
         return mailObject;
     }
-
+    
     @PostMapping("/test-insert/{nomFichier}")
     public Map testInsert(@PathVariable String nomFichier) throws MessagingException, IOException {
 

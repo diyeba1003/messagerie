@@ -14,7 +14,7 @@ import java.util.List;
 public interface MessageServiceInterface {
 
     public void insertMessageDto(MessageDto messageDto);
-    
+
     public List<String> insertAll(String rep);
 
     public MessageDto findMessageDtoById(Integer id);
@@ -26,5 +26,7 @@ public interface MessageServiceInterface {
     public void updateMessageDto(MessageDto messageDto);
 
     public void deleteMessageDto(Integer id);
+
+    public List<MessageDto> findAllMessageDtoBetweenDate();
 
 }

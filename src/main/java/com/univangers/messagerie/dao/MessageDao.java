@@ -38,9 +38,7 @@ public class MessageDao implements MessageDaoInterface {
 
     @Override
     public List<Message> findAllMessage() {
-        List<Message> messageList = new ArrayList<>();
-
-        messageList = em.createQuery("SELECT m FROM Message m").getResultList();
+        List<Message> messageList  = em.createQuery("SELECT m FROM Message m").getResultList();
 
         return messageList;
     }
@@ -67,6 +65,13 @@ public class MessageDao implements MessageDaoInterface {
            count=(int) (long) object;
        }
        return count;
+    }
+
+    @Override
+    public List<Message> findAllMessageBetweenDate() {
+        List<Message> messageList=new ArrayList<>();
+        messageList = em.createQuery("SELECT m FROM Message m WHERE sentdate BETWEEN 2010-06-07 AND 2010-12-07").getResultList();
+        return messageList;
     }
 
 }

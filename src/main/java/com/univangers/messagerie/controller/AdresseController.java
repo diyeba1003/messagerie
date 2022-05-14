@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -49,5 +50,18 @@ public class AdresseController {
         
         return adresseDtoList;
     }
-
+    
+    @RequestMapping("/persToListe/{adr}")
+    public String changePersonneToListe(@PathVariable("adr") String adr){
+        System.out.println("adresse: "+adr);
+        adresseService.changePersonneDtoToListeDto(adr);
+        return "redirect:/messagerie/adresses/user-infos";
+    }
+    
+   @RequestMapping("/listeToPers/{adr}")
+    public String changeListeToPersonne(@PathVariable("adr") String adr){
+            System.out.println("adresse: "+adr);
+        adresseService.changeListeDtoToPersonneDto(adr);
+        return "redirect:/messagerie/adresses/user-infos";
+    }
 }

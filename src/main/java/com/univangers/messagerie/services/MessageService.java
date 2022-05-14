@@ -227,8 +227,7 @@ public class MessageService implements MessageServiceInterface {
                             personne.setPrenom(destDto.getPersonneDto().getPrenom());
                             personne.setAdresse(adr);
                             adr.setPersonne(personne);
-                        } //fait par moi
-                        else {
+                        } else {
                             Liste liste = new Liste();
                             liste.setIdLISTE(destDto.getListeDto().getId());
                             liste.setLibelle(destDto.getListeDto().getLibelle());

@@ -30,8 +30,8 @@ public class PersonneDao implements PersonneDaoInterface {
     }
 
     @Override
-    public Personne findPersonneById(String idpers) {
-        Personne personne = em.find(Personne.class, idpers);
+    public Personne findPersonneById(String idPersonne) {
+        Personne personne = em.find(Personne.class, idPersonne);
         return personne;
     }
 
@@ -57,11 +57,13 @@ public class PersonneDao implements PersonneDaoInterface {
     public void updatePersonne(Personne personne) {
         em.merge(personne);
     }
-    
-    public void deleteMessage(String idPers) {
-      Personne personneDelete = findPersonneById(idPers);
-        if (personneDelete != null) {
-            em.remove(personneDelete);
+
+    @Override
+    public void deletePersonne(Personne personne) {
+        if(personne!=null){
+            em.remove(personne);
+            System.out.println(">> Success remove Personne !!!");
+            em.flush();
         }
     }
 }

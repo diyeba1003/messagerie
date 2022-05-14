@@ -47,7 +47,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * @author etud
  */
-@RestController
+@Controller
 @RequestMapping("/messagerie/messages")
 @Transactional
 public class MessageController {

@@ -4,70 +4,117 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
 -->
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
-  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
 
-<head th:replace="./layouts/main-layout :: head"> </head>
+    <head th:replace="./layouts/main-layout :: head"> </head>
 
-<body>
-  <header th:replace="./layouts/header :: header"></header>
+    <body>
+        <header th:replace="./layouts/header :: header"></header>
 
-  <div class="container">
-    <div class="row mt-2">
-      <div class="col m-2 border border-1 border-left-info rounded">
-        <div class="row">
-          <div class="col-3">
-            <i class="m-3 fa-solid fa-envelope fa-6x text-secondary"></i>
-          </div>
-          <div class="col-9 pt-3 pb-3 ">
-            <h4 class="ms-3">Nombre de mails</h4>
-            <span class="ms-3 display-2" th:text="${counter.nombreMessages}"></span>
-          </div>
+        <div class="container">
+            <div class="row mt-2">
+                <div class="col m-2 border border-1 border-left-info rounded">
+                    <div class="row">
+                        <div class="col-3">
+                            <i class="m-3 fa-solid fa-envelope fa-6x text-secondary"></i>
+                        </div>
+                        <div class="col-9 pt-3 pb-3 ">
+                            <h4 class="ms-3">Nombre de mails</h4>
+                            <span class="ms-3 display-2" th:text="${counter.nombreMessages}"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m-2 border border-1 border-left-info rounded">
+                    <div class="row">
+                        <div class="col-3 ">
+                            <i class=" m-3 fa-solid fa-user fa-6x text-secondary"></i>
+                        </div>
+                        <div class="col-9 pt-3 pb-3 ">
+                            <h4 class="ms-3">Nombre d'adresses</h4>
+                            <a  th:href="@{/info}">
+                                <span class="ms-3 display-2" th:text="${counter.nombreAdresses}"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col m-2 border border-1 border-left-info rounded">
+                    <div class="row">
+                        <div class="col-3">
+                            <i class="m-3 fa-solid fa-person fa-6x text-secondary"></i>
+                        </div>
+                        <div class="col-9 pt-3 pb-3 ">
+                            <h4 class="ms-3">Nombre de personnes</h4>
+                            <a th:href="@{/messagerie/adresses/user-infos}"
+                               <span class="ms-3 display-2" th:text="${counter.nombrePersonnes}"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m-2 border border-1 border-left-info rounded">
+                    <div class="row">
+                        <div class="col-3 ">
+                            <i class=" m-3 fa-solid fa-person fa-6x text-secondary"></i>
+                        </div>
+                        <div class="col-9 pt-3 pb-3 ">
+                            <h4 class="ms-3">Liste de diffusions</h4>
+                            <a th:href="@{/liste-info}"
+                               <span class="ms-3 display-2" th:text="${counter.nombreListes}"></span>
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col m-2 border border-1 border-left-info rounded">
-        <div class="row">
-          <div class="col-3 ">
-            <i class=" m-3 fa-solid fa-user fa-6x text-secondary"></i>
-          </div>
-          <div class="col-9 pt-3 pb-3 ">
-            <h4 class="ms-3">Nombre d'utilisateurs</h4>
-            <a  th:href="@{/info}">
-               <span class="ms-3 display-2" th:text="${counter.nombreAdresses}"></span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row mt-2">
-      <div class="col m-2 border border-1 border-left-info rounded">
-        <div class="row">
-          <div class="col-3">
-            <i class="m-3 fa-solid fa-person fa-6x text-secondary"></i>
-          </div>
-          <div class="col-9 pt-3 pb-3 ">
-            <h4 class="ms-3">Nombre de personnes</h4>
-            <a th:href="@{/messagerie/adresses/user-infos}"
-            <span class="ms-3 display-2" th:text="${counter.nombrePersonnes}"></span>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col m-2 border border-1 border-left-info rounded">
-        <div class="row">
-          <div class="col-3 ">
-            <i class=" m-3 fa-solid fa-person fa-6x text-secondary"></i>
-          </div>
-          <div class="col-9 pt-3 pb-3 ">
-            <h4 class="ms-3">Liste de diffusions</h4>
-            <a th:href="@{/liste-info}"
-            <span class="ms-3 display-2" th:text="${counter.nombreListes}"></span>
-            </a>    
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <footer th:replace="./layouts/main-layout :: footer"></footer>
-</body>
+        <div class="row" style="margin-top: 60px">
 
+            <div class="chart-container" style="margin: 0 auto; height:120px; width:70%">
+                <canvas id="myChart" width="300" height="80"></canvas>
+            </div>
+        </div>
+        <footer th:replace="./layouts/main-layout :: footer"></footer>
+    </body>
+    <script th:inline="javascript">
+        var htmldata = [[${messagePerMonth}]];
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ["06-2010", "07-2010", "08-2010", "09-2010", "10-2010", "11-2010", "12-2010"],
+                datasets: [{
+                        data: [htmldata.count_06, htmldata.count_07, htmldata.count_08, htmldata.count_09, htmldata.count_10, htmldata.count_11, htmldata.count_12],
+                        backgroundColor: [
+                            'rgba(255, 224, 54,0.2)',
+                            'rgba(54, 162, 235,0.2)',
+                            'rgba(187, 11, 11,0.2)',
+                            'rgba(88, 41, 0,0.2)',
+                            'rgba(153, 102, 255,0.2)',
+                            'rgba(255, 159, 64,0.2)',
+                            'rgba(46,139,87,0.2)'
+                        ],
+                        borderColor: [
+                            'rgba(255, 224, 54, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(187, 11, 11, 1)',
+                            'rgba(88, 41, 0, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)',
+                            'rgba(46,139,87,1)'
+                        ],
+                        borderWidth: 1
+                    }]
+            },
+            options: {
+                plugins: {
+                    legend: {
+                        display: false,
+                        labels: {
+                            color: 'rgb(255, 99, 132)'
+                        }
+                    }
+                }
+            }
+        });
+    </script>
 </html>

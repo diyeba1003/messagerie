@@ -37,4 +37,9 @@ public class ListeDao implements ListeDaoInterface {
         return count;
     }
 
+    @Override
+    public void updateList(Liste liste) {
+        em.merge(liste);
+    }
+
 }

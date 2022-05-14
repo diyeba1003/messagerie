@@ -56,7 +56,19 @@ public class AdresseService implements AdresseServiceInterface {
         }
         return adresseDtoList;
     }
+    
+    @Override
+    public void changeListeDtoToPersonneDto(AdresseDto adresseDto) {
+        Adresse adresse=convertToEntity(adresseDto);
+        adresseDao.updateListe(adresse);
+    }
 
+    @Override
+    public void changePersonneDtoToListeDto(AdresseDto adresseDto) {
+        Adresse adresse= convertToEntity(adresseDto);
+        adresseDao.updatePersonne(adresse);
+    }
+    
     private Adresse convertToEntity(AdresseDto adresseDto) {
         Adresse adresse = new Adresse();
         adresse.setIdADRESSE(adresseDto.getId());

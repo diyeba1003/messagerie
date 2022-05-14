@@ -5,6 +5,7 @@
 package com.univangers.messagerie.services;
 
 import com.univangers.messagerie.dto.ListeDto;
+import com.univangers.messagerie.model.Liste;
 
 /**
  *
@@ -13,4 +14,6 @@ import com.univangers.messagerie.dto.ListeDto;
 public interface ListeServiceInterface {
     public ListeDto findListeDtoById(String idlist);
     public Integer countListe();
+    
+    public void updateListDto(ListeDto listeDto);
 }

@@ -47,4 +47,10 @@ public class ListeService implements ListeServiceInterface {
         Integer count = listeDao.countListe();
         return count;
     }
+
+    @Override
+    public void updateListDto(ListeDto listeDto) {
+        Liste liste=convertToEntity(listeDto);
+        listeDao.updateList(liste);
+    }
 }

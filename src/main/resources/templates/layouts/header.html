@@ -11,12 +11,15 @@
             <a class="nav-link" th:href="@{/messagerie/messages/liste-message(id=0)}">Messages</a>
             </li>
         </ul>
-        <form class="d-flex">
+        <form class="d-flex"  method="get" th:action="@{/messagerie/messages/liste-message}">
+            <input type="hidden" name="id" th:value="0" />
             <input
             class="form-control me-2"
             type="search"
             placeholder="Recherche"
             aria-label="Search"
+            name="keyword"
+            th:value="${keyWord}"
             />
             <button class="btn btn-outline-success" type="submit">Recherche</button>
         </form>

@@ -4,6 +4,7 @@
  */
 package com.univangers.messagerie.fileReader;
 
+import com.univangers.messagerie.util.Utils;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -55,10 +56,10 @@ public class MimeMessageReader {
         MimeMessage message = new MimeMessage(mailSession, inputStream);
 
         MailObject mailObject = new MailObject();
-        
+
         InternetAddress senderAddress = (InternetAddress) message.getFrom()[0];
-        
-        if(senderAddress==null || message.getSentDate()==null){
+
+        if (senderAddress == null || message.getSentDate() == null) {
             return null;
         }
         InfoPersonne infoSender = new InfoPersonne(senderAddress.getAddress());
@@ -76,7 +77,7 @@ public class MimeMessageReader {
         mailObject.setReceivedDate(message.getReceivedDate());
         mailObject.setSubject(message.getSubject());
         mailObject.setContent(getTextFromMessage(message));
-        
+
         //FONCTION
         String fonction = getFonctionFromString(message.getSubject());
         mailObject.setFonction(fonction);
@@ -85,19 +86,22 @@ public class MimeMessageReader {
         InternetAddress[] toList = (InternetAddress[]) message.getRecipients(Message.RecipientType.TO);
         if (toList != null) {
             for (InternetAddress adr : toList) {
-                InfoPersonne infoDestTo = new InfoPersonne(adr.getAddress());
-                if (adr.getPersonal() != null) {
-                    String[] info = adr.getPersonal().split(" ");
-                    if (info.length == 2) {
-                        infoDestTo.setLastName(info[0]);
-                        infoDestTo.setFirstName(info[1]);
-                    } else {
-                        infoDestTo.setLastName(adr.getPersonal());
-                    }
+                if (Utils.isValidInternetAddress(adr)) { //Vérifie la validité de l'adresse
+                    InfoPersonne infoDestTo = new InfoPersonne(adr.getAddress());
+                    // Dans certain fichier le nom de la personne est mal encodé ou trop long ==> Ignoré ces adresses
+                    if (adr.getPersonal() != null  && adr.getPersonal().length() < 40) {
+                        String[] info = adr.getPersonal().split(" ");
+                        if (info.length == 2) {
+                            infoDestTo.setLastName(info[0]);
+                            infoDestTo.setFirstName(info[1]);
+                        } else {
+                            infoDestTo.setLastName(adr.getPersonal());
+                        }
 
-                }
-                if (!mailObject.getTo().contains(infoDestTo)) {
-                    mailObject.getTo().add(infoDestTo);
+                    }
+                    if (!mailObject.getTo().contains(infoDestTo)) {
+                        mailObject.getTo().add(infoDestTo);
+                    }
                 }
             }
         }
@@ -189,12 +193,12 @@ public class MimeMessageReader {
         }
         return fonction;
     }
-    
-    private static Boolean getMailTransfert(String subject) throws MessagingException{
-        Boolean resultat=false;
-        Matcher fwd=Pattern.compile("fwd:").matcher(subject);
-        Matcher tr=Pattern.compile("TR:").matcher(subject);
-        if(fwd.find() || tr.find()){
+
+    private static Boolean getMailTransfert(String subject) throws MessagingException {
+        Boolean resultat = false;
+        Matcher fwd = Pattern.compile("fwd:").matcher(subject);
+        Matcher tr = Pattern.compile("TR:").matcher(subject);
+        if (fwd.find() || tr.find()) {
             return true;
         }
         return resultat;

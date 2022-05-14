@@ -5,8 +5,10 @@
 package com.univangers.messagerie.dao;
 
 import com.univangers.messagerie.model.Adresse;
+import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.EntityManager;
+import javax.persistence.NoResultException;
 import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
 import org.springframework.stereotype.Repository;
@@ -22,30 +24,40 @@ public class AdresseDao implements AdresseDaoInterface {
     @PersistenceContext
     private transient EntityManager em;
 
-    
     @Override
     public void insertAdresse(Adresse adresse) {
         em.persist(adresse); // Fait le INSERT
         em.flush();
     }
+
+    @Override
     public Adresse findAdresseById(String idAdresse) {
-         Adresse a = em.find(Adresse.class, idAdresse);
-        return a;
+        try {
+            return em.find(Adresse.class, idAdresse);
+        } catch (NoResultException e) {
+            return null;
+        }
     }
 
     @Override
     public List<Adresse> findAllAdresse() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }    
+        List<Adresse> adresseList;
+        try {
+            adresseList = em.createQuery("SELECT a FROM Adresse a").getResultList();
+        } catch (NoResultException e) {
+            adresseList = new ArrayList<>();
+        }
+        return adresseList;
+
+    }
 
     @Override
     public Integer countAdresse() {
-         Integer count=0;
-       Object object = em.createQuery("SELECT COUNT(a) FROM Adresse a ").getSingleResult();
-       if(object!=null)
-       {
-           count=(int) (long) object;
-       }
-       return count;
+        Integer count = 0;
+        Object object = em.createQuery("SELECT COUNT(a) FROM Adresse a ").getSingleResult();
+        if (object != null) {
+            count = (int) (long) object;
+        }
+        return count;
     }
 }

@@ -8,6 +8,7 @@ import com.univangers.messagerie.model.Message;
 import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.EntityManager;
+import javax.persistence.NoResultException;
 import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
 import org.springframework.stereotype.Repository;
@@ -58,14 +59,51 @@ public class MessageDao implements MessageDaoInterface {
 
     @Override
     public Integer countMessage() {
-        Integer count=0;
-       Object object = em.createQuery("SELECT COUNT(m)  FROM Message m ").getSingleResult();
-       if(object!=null)
-       {
-           count=(int) (long) object;
-       }
-       return count;
+        Integer count = 0;
+        Object object = em.createQuery("SELECT COUNT(m)  FROM Message m ").getSingleResult();
+        if (object != null) {
+            count = (int) (long) object;
+        }
+        return count;
     }
+
+    @Override
+    public List<Message> findMessageBySender(String idAdresse) {
+        List<Message> messageList;
+        try {
+            messageList = em.createQuery("SELECT m FROM Message m WHERE m.sender.idADRESSE=:idAdresse")
+                    .setParameter("idAdresse", idAdresse).getResultList();
+        } catch (NoResultException nre) {
+            messageList = new ArrayList<>();
+        }
+        return messageList;
+    }
+
+    @Override
+    public List<Message> findMessageBySubject(String keyWord) {
+        List<Message> messageList;
+        try{
+            messageList=em.createQuery("SELECT m FROM Message m WHERE LOWER(m.subject) LIKE LOWER(CONCAT( '%',:keyWord,'%'))")
+                    .setParameter("keyWord", keyWord).getResultList();
+        }catch (NoResultException nre) {
+            messageList = new ArrayList<>();
+        }
+        return messageList;
+    }
+
+    @Override
+    public List<Message> findMessageByDestinataire(String keyWord) {
+            List<Message> messageList;
+            try{
+                messageList=em.createQuery("SELECT m FROM Message m WHERE m.destinataires=:keyWord").setParameter("keyWord", keyWord).getResultList();
+            }catch(NoResultException nre){
+                messageList=new ArrayList<>();
+                
+            }
+            return messageList;
+    }
+      
+    
 
     @Override
     public List<Message> findAllMessageBetweenDate() {

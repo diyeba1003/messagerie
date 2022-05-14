@@ -11,7 +11,6 @@ import com.univangers.messagerie.dto.FonctionDto;
 import com.univangers.messagerie.dto.ListeDto;
 import com.univangers.messagerie.dto.MessageDto;
 import com.univangers.messagerie.dto.PersonneDto;
-import com.univangers.messagerie.dto.PersonneFonctionDto;
 import com.univangers.messagerie.fileReader.AttachFile;
 import com.univangers.messagerie.fileReader.InfoPersonne;
 import com.univangers.messagerie.fileReader.MailObject;
@@ -23,21 +22,22 @@ import javax.mail.MessagingException;
 import org.springframework.web.bind.annotation.PathVariable;
 import com.univangers.messagerie.services.MessageServiceInterface;
 import com.univangers.messagerie.services.PersonneServiceInterface;
+import com.univangers.messagerie.util.Utils;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.repository.query.Param;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -74,7 +74,7 @@ public class MessageController {
     @GetMapping("/test-file-read/{nomFichier}")
     public MailObject afficheMessage(@PathVariable String nomFichier) throws FileNotFoundException, MessagingException, IOException {
 
-        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir + "/president_2010-10" + File.separator + nomFichier);
+        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir + "/president_2010-12" + File.separator + nomFichier);
 
         return mailObject;
     }
@@ -82,11 +82,11 @@ public class MessageController {
     @PostMapping("/test-insert/{nomFichier}")
     public Map testInsert(@PathVariable String nomFichier) throws MessagingException, IOException {
 
-        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir + "/president_2010-06" + File.separator + nomFichier);
-        
+        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir + "/president_2010-12" + File.separator + nomFichier);
+
         Map<String, String> result = new HashMap<>();
-        
-        if(mailObject==null){
+
+        if (mailObject == null) {
             result.put("result", "fichier endommagé");
         }
         MessageDto mDto = new MessageDto();
@@ -202,14 +202,25 @@ public class MessageController {
 
     }
 
-    @GetMapping("/liste-message")
-    public String listemessage(Model model, @RequestParam("id") Integer id) {
-        List<MessageDto> messageDtoList = messageService.findAllMessageDto();
+    @RequestMapping("/liste-message")
+    public String listemessage(Model model, @RequestParam("id") Integer id, @RequestParam(value = "keyword", required = false) String keyWord) {
+        List<MessageDto> messageDtoList;
+        if (keyWord != null) {
+            if (Utils.isValideEmail(keyWord)) {
+                messageDtoList = messageService.findMessageDtoBySender(keyWord);
+            } else {
+                messageDtoList = messageService.findMessageDtoBySubject(keyWord);
+            }
+        } else {
+            messageDtoList = messageService.findAllMessageDto();
+        }
+
         model.addAttribute("messages", messageDtoList);
         if (id != 0) {
             MessageDto messageDto = messageService.findMessageDtoById(id);
             model.addAttribute("selectedMessage", messageDto);
         }
+
         return "./webHtml/liste-message";
     }
 

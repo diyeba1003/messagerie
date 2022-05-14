@@ -12,19 +12,25 @@ import java.util.List;
  * @author etud
  */
 public interface MessageDaoInterface {
-
+    
     public void insertMessage(Message message);
-
+    
     public Message findMessageById(Integer idMessage);
-
+    
     public List<Message> findAllMessage();
-
+    
+    public List<Message> findMessageBySender(String idAdresse);
+    
     public Integer countMessage();
-
+    
     public void updateMessage(Message message);
-
+    
     public void deleteMessage(Integer idMessage);
-
-    public List<Message> findAllMessageBetweenDate();
-
+    
+     public List<Message> findMessageBySubject(String keyWord);
+     
+     public List<Message> findMessageByDestinataire(String keyWord);
+     
+     public List<Message> findAllMessageBetweenDate();
+    
 }

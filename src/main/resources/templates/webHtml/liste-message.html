@@ -24,13 +24,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                             <label><span class="badge bg-secondary"> Date d'envoie:</span> <span th:text="${selectedMessage?.date}"></span></label>
                         </div>
                         <div>
-                            <label><span class="badge bg-secondary"> Expediteur:</span> <a  class="text-decoration-none" th:href="@{/messagerie/personne/info(id=${selectedMessage?.expediteurDto?.id})}"> <span  th:text="${selectedMessage?.expediteurDto?.id}"></span></a></label>
+                            <label><span class="badge bg-secondary"> Expediteur:</span> <a  class="text-decoration-none" th:href="@{/messagerie/adresses/detail-user(id=${selectedMessage?.expediteurDto?.id})}"> <span  th:text="${selectedMessage?.expediteurDto?.id}"></span></a></label>
                         </div>
 
                         <div>
                             <label> <span class="badge bg-secondary">Destinataire:</span> </label>
                             <div class="d-inline" th:each="destinataire:${selectedMessage.destinataireDtoList}" >
-                                <a  class="text-decoration-none" > <span th:text="${destinataire.id}">&nbsp;&nbsp;</span></a>
+                                <a  class="text-decoration-none" th:href="@{/messagerie/adresses/detail-user(id=${destinataire.id})}" > <span th:text="${destinataire.id}">&nbsp;&nbsp;</span></a>
                             </div>
                         </div>
                         </div>

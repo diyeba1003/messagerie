@@ -4,6 +4,9 @@
  */
 package com.univangers.messagerie.util;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
 import org.apache.commons.validator.routines.EmailValidator;
@@ -32,6 +35,17 @@ public class Utils {
             result = false;
         }
         return result;
+    }
+
+    public static Date stringToDate(String dateInString) {
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+        Date date = null;
+        try {
+            date = formatter.parse(dateInString);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return date;
     }
 
 }

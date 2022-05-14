@@ -5,6 +5,7 @@
 package com.univangers.messagerie.dao;
 
 import com.univangers.messagerie.model.Message;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -31,6 +32,6 @@ public interface MessageDaoInterface {
      
      public List<Message> findMessageByDestinataire(String keyWord);
      
-     public List<Message> findAllMessageBetweenDate();
+     public Integer countMessagesBetweenDates(Date startDate, Date endDate);
     
 }

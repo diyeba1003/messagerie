@@ -5,6 +5,7 @@
 package com.univangers.messagerie.services;
 
 import com.univangers.messagerie.dto.MessageDto;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -27,7 +28,7 @@ public interface MessageServiceInterface {
 
     public void deleteMessageDto(Integer id);
 
-    public List<MessageDto> findAllMessageDtoBetweenDate();
+    public Integer countMessagesDtoBetweenDates(Date startDate, Date endDate);
     
     public List<MessageDto> findMessageDtoBySender(String senderId);
     

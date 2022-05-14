@@ -70,7 +70,7 @@ public class Message implements Serializable {
     @Type(type="text")
     @Getter
     @Setter
-    private Clob body;
+    private String body;
 
     @JoinColumn(name = "sender", referencedColumnName = "idADRESSE", nullable = false)
     @Getter

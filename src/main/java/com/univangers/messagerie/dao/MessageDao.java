@@ -6,6 +6,7 @@ package com.univangers.messagerie.dao;
 
 import com.univangers.messagerie.model.Message;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.NoResultException;
@@ -39,9 +40,7 @@ public class MessageDao implements MessageDaoInterface {
 
     @Override
     public List<Message> findAllMessage() {
-        List<Message> messageList = new ArrayList<>();
-
-        messageList = em.createQuery("SELECT m FROM Message m").getResultList();
+        List<Message> messageList = em.createQuery("SELECT m FROM Message m").getResultList();
 
         return messageList;
     }
@@ -84,10 +83,10 @@ public class MessageDao implements MessageDaoInterface {
     @Override
     public List<Message> findMessageBySubject(String keyWord) {
         List<Message> messageList;
-        try{
-            messageList=em.createQuery("SELECT m FROM Message m WHERE LOWER(m.subject) LIKE LOWER(CONCAT( '%',:keyWord,'%'))")
+        try {
+            messageList = em.createQuery("SELECT m FROM Message m WHERE LOWER(m.subject) LIKE LOWER(CONCAT( '%',:keyWord,'%'))")
                     .setParameter("keyWord", keyWord).getResultList();
-        }catch (NoResultException nre) {
+        } catch (NoResultException nre) {
             messageList = new ArrayList<>();
         }
         return messageList;
@@ -95,16 +94,32 @@ public class MessageDao implements MessageDaoInterface {
 
     @Override
     public List<Message> findMessageByDestinataire(String keyWord) {
-            List<Message> messageList;
-            try{
-                messageList=em.createQuery("SELECT m FROM Message m WHERE m.destinataires=:keyWord").setParameter("keyWord", keyWord).getResultList();
-            }catch(NoResultException nre){
-                messageList=new ArrayList<>();
-                
-            }
-            return messageList;
+        List<Message> messageList;
+        try {
+            messageList = em.createQuery("SELECT m FROM Message m WHERE m.destinataires=:keyWord").setParameter("keyWord", keyWord).getResultList();
+        } catch (NoResultException nre) {
+            messageList = new ArrayList<>();
+
+        }
+        return messageList;
     }
-      
-    
+
+    @Override
+    public Integer countMessagesBetweenDates(Date startDate, Date endDate) {
+        Integer count = 0;
+
+        try {
+            Object object = em.createQuery("SELECT COUNT(m) FROM Message m WHERE m.sentdate BETWEEN :starDate  AND :endDate")
+                    .setParameter("starDate", startDate)
+                    .setParameter("endDate", endDate).getSingleResult();
+            if (object != null) {
+                count = (int) (long) object;
+            }
+        } catch (NoResultException nre) {
+            count = 0;
+
+        }
+        return count;
+    }
 
 }

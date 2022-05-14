@@ -52,7 +52,7 @@ public class InfoPersonne {
             return false;
         }
         final InfoPersonne other = (InfoPersonne) obj;
-        return Objects.equals(this.mail, other.mail);
+        return this.mail.equalsIgnoreCase(other.mail);
     }
     
     

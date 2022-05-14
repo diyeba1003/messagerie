@@ -31,6 +31,7 @@ import java.io.IOException;
 import java.sql.Clob;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -100,6 +101,13 @@ public class MessageService implements MessageServiceInterface {
     }
 
     @Override
+    public Integer countMessagesDtoBetweenDates(Date startDate, Date endDate) {
+        Integer count = messageDao.countMessagesBetweenDates(startDate, endDate);
+        
+        return count;
+    }
+
+    @Override
     public void updateMessageDto(MessageDto messageDto) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
@@ -157,7 +165,7 @@ public class MessageService implements MessageServiceInterface {
         message.setIdMESSAGE(messageDto.getId());
         message.setSentdate(messageDto.getDate());
         message.setSubject(messageDto.getObject());
-        message.setBody(getClobFromString(messageDto.getBody()));
+        message.setBody(messageDto.getBody());
         Adresse adrSender = null;
         if (messageDto.getExpediteurDto() != null) {
             AdresseDto expediteurDto = messageDto.getExpediteurDto();
@@ -328,7 +336,7 @@ public class MessageService implements MessageServiceInterface {
         messageDto.setId(message.getIdMESSAGE());
         messageDto.setDate(message.getSentdate());
         messageDto.setObject(message.getSubject());
-        messageDto.setBody(getClobString(message.getBody()));
+        messageDto.setBody(message.getBody());
         if (message.getSender() != null) {
             Adresse adr = message.getSender();
             AdresseDto adrDto = new AdresseDto();
@@ -448,7 +456,7 @@ public class MessageService implements MessageServiceInterface {
 
             message.setSubject(mailObject.getSubject());
             message.setSentdate(mailObject.getSentDate());
-            message.setBody(getClobFromString(mailObject.getContent()));
+            message.setBody(mailObject.getContent());
             Adresse expediteur = adresseDao.findAdresseById(mailObject.getFrom().getMail());
             if (expediteur == null) {
                 expediteur = new Adresse();

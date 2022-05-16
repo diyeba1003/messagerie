@@ -122,4 +122,18 @@ public class MessageDao implements MessageDaoInterface {
         return count;
     }
 
+    @Override
+    public List<Message> findMessagesBetweenDates(Date startDate, Date endDate) {
+        List<Message> messageList;
+        try {
+            messageList = em.createQuery("SELECT m FROM Message m WHERE m.sentdate BETWEEN :starDate  AND :endDate")
+                    .setParameter("starDate", startDate)
+                    .setParameter("endDate", endDate).getResultList();
+        } catch (NoResultException nre) {
+            messageList = new ArrayList<>();
+
+        }
+        return messageList;
+    }
+
 }

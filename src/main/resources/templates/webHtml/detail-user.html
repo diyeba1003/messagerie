@@ -14,18 +14,18 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
             <div th:if="${adresseDto.personneDto !=null}">
             <span th:text="${adresseDto.personneDto.nom}"> </span>
             <span th:text="${adresseDto.personneDto.prenom}"> </span>
-            <div th:if="${adresseDto.personneDto.fonctionDtoList.size()>0}"> 
-                <div th:each="fonctionDto:${adresseDto.personneDto.fonctionDtoList}"></div>
+                    <div th:if="${adresseDto.personneDto.fonctionDtoList.size()>0}"> 
+                        <div th:each="fonctionDto:${adresseDto.personneDto.fonctionDtoList}"></div>
 
                 <span th:text="${fonctionDto?.title}"> </span>
-            </div>
-          
-            </div>
+                    </div>
+
+                </div>
             <div th:unless="${adresseDto.personneDto !=null}">
                 <span class="text-info">Liste de diffusion</span>
-                
+
             </div>
-        </div>
+            </div>
 
     </body>
 </html>

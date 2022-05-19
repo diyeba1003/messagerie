@@ -39,6 +39,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  *
@@ -72,7 +73,7 @@ public class MessageController {
     @GetMapping("/test-file-read/{nomFichier}")
     public MailObject afficheMessage(@PathVariable String nomFichier) throws FileNotFoundException, MessagingException, IOException {
 
-        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir + "/president_2010-11" + File.separator + nomFichier);
+        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir + "/president_2010-10" + File.separator + nomFichier);
 
         return mailObject;
     }
@@ -123,7 +124,7 @@ public class MessageController {
         List<AdresseDto> destinatairesDto = new ArrayList<>();
         for (InfoPersonne info : destinataires) {
             AdresseDto adresseDto = new AdresseDto(info.getMail());
-        
+
             if (info.getLastName() != null || info.getFirstName() != null) {
                 PersonneDto personneDto = new PersonneDto();
                 personneDto.setId(info.getMail());
@@ -219,15 +220,22 @@ public class MessageController {
     }
 
     @RequestMapping("/liste-message")
-    public String listemessage(Model model, @RequestParam("id") Integer id, @RequestParam(value = "keyword", required = false) String keyWord) {
-        List<MessageDto> messageDtoList;
-        if (keyWord != null) {
-            if (Utils.isValideEmail(keyWord)) {
+    public String listemessage(Model model,
+            @RequestParam("id") Integer id,
+            @RequestParam(value = "keyword", required = false) String keyWord,
+            @RequestParam(value = "filterType", required = false) String filterType) {
+        
+        List<MessageDto> messageDtoList = new ArrayList<>();
+        
+        if (keyWord != null && filterType!=null) {
+            if ("sender".equals(filterType)) {
                 messageDtoList = messageService.findMessageDtoBySender(keyWord);
-            } else {
+            } else if ("subject".equals(filterType)) {
                 messageDtoList = messageService.findMessageDtoBySubject(keyWord);
+            }else if("destinataire".equals(filterType)){
+                messageDtoList=messageService.findMessageDtoByDestinataire(keyWord);
             }
-        } else {
+        } else { 
             messageDtoList = messageService.findAllMessageDto();
         }
 
@@ -238,6 +246,10 @@ public class MessageController {
         }
 
         return "./webHtml/liste-message";
+    }
+     @GetMapping("/modal1")
+    public String modal1() {
+        return "./webHtml/detail-user";
     }
 
     @GetMapping("/home")
@@ -251,8 +263,7 @@ public class MessageController {
         final Date end_10 = Utils.stringToDate("2010-10-31 23:59:59");
         final Date end_11 = Utils.stringToDate("2010-11-30 23:59:59");
         final Date end_12 = Utils.stringToDate("2010-12-31 23:59:59");
-        
-        
+
         DataCounter counter = new DataCounter();
         Integer countMessages = messageService.countMessageDto();
         Integer countAdresses = adresseService.countAdresseDto();
@@ -262,8 +273,7 @@ public class MessageController {
         counter.setNombreAdresses(countAdresses);
         counter.setNombrePersonnes(countPersonnes);
         counter.setNombreListes(countlistes);
-        
-        
+
         Integer count_06 = messageService.countMessagesDtoBetweenDates(start_06, end_06);
         Integer count_07 = messageService.countMessagesDtoBetweenDates(end_06, end_07);
         Integer count_08 = messageService.countMessagesDtoBetweenDates(end_07, end_08);
@@ -271,7 +281,7 @@ public class MessageController {
         Integer count_10 = messageService.countMessagesDtoBetweenDates(end_09, end_10);
         Integer count_11 = messageService.countMessagesDtoBetweenDates(end_10, end_11);
         Integer count_12 = messageService.countMessagesDtoBetweenDates(end_11, end_12);
-        
+
         Map<String, Integer> messagePerMonth = new HashMap<>();
         messagePerMonth.put("count_06", count_06);
         messagePerMonth.put("count_07", count_07);
@@ -280,13 +290,13 @@ public class MessageController {
         messagePerMonth.put("count_10", count_10);
         messagePerMonth.put("count_11", count_11);
         messagePerMonth.put("count_12", count_12);
-        
+
         model.addAttribute("messagePerMonth", messagePerMonth);
         model.addAttribute("counter", counter);
 
         return "./webHtml/home";
     }
-    
+
     @GetMapping("/stats")
     public Map homeApi(Model model) {
 
@@ -298,8 +308,7 @@ public class MessageController {
         final Date end_10 = Utils.stringToDate("2010-10-31 23:59:59");
         final Date end_11 = Utils.stringToDate("2010-11-30 23:59:59");
         final Date end_12 = Utils.stringToDate("2010-12-31 23:59:59");
-        
-        
+
         DataCounter counter = new DataCounter();
         Integer countMessages = messageService.countMessageDto();
         Integer countAdresses = adresseService.countAdresseDto();
@@ -309,8 +318,7 @@ public class MessageController {
         counter.setNombreAdresses(countAdresses);
         counter.setNombrePersonnes(countPersonnes);
         counter.setNombreListes(countlistes);
-        
-        
+
         Integer count_06 = messageService.countMessagesDtoBetweenDates(start_06, end_06);
         Integer count_07 = messageService.countMessagesDtoBetweenDates(end_06, end_07);
         Integer count_08 = messageService.countMessagesDtoBetweenDates(end_07, end_08);
@@ -318,7 +326,7 @@ public class MessageController {
         Integer count_10 = messageService.countMessagesDtoBetweenDates(end_09, end_10);
         Integer count_11 = messageService.countMessagesDtoBetweenDates(end_10, end_11);
         Integer count_12 = messageService.countMessagesDtoBetweenDates(end_11, end_12);
-        
+
         Map<String, Integer> messagePerMonth = new HashMap<>();
         messagePerMonth.put("count_06", count_06);
         messagePerMonth.put("count_07", count_07);
@@ -327,13 +335,13 @@ public class MessageController {
         messagePerMonth.put("count_10", count_10);
         messagePerMonth.put("count_11", count_11);
         messagePerMonth.put("count_12", count_12);
-        
+
         model.addAttribute("messagePerMonth", messagePerMonth);
         model.addAttribute("counter", counter);
         Map<String, Object> result = new HashMap<>();
         result.put("counter", counter);
         result.put("messagePerMonth", messagePerMonth);
-        
+
         return result;
     }
 

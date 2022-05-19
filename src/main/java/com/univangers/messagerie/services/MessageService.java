@@ -103,7 +103,7 @@ public class MessageService implements MessageServiceInterface {
     @Override
     public Integer countMessagesDtoBetweenDates(Date startDate, Date endDate) {
         Integer count = messageDao.countMessagesBetweenDates(startDate, endDate);
-        
+
         return count;
     }
 
@@ -152,6 +152,12 @@ public class MessageService implements MessageServiceInterface {
             }
         }
         return messageDtoList;
+    }
+
+    @Override
+    public Integer countMessageDtoById(Integer idMessage) {
+        Integer count = messageDao.countMessageById(idMessage);
+        return count;
     }
 
     /**
@@ -317,6 +323,24 @@ public class MessageService implements MessageServiceInterface {
                 fichierList.add(fich);
             }
             message.setFichierList(fichierList);
+        }
+
+        for (Adresse adr : message.getDestinataires()) {
+            if (!adrSender.getAdresseContactList().contains(adr)) {
+                adrSender.getAdresseContactList().add(adr);
+            }
+            if (!adr.getAdresseContactList().contains(adrSender)) {
+                adr.getAdresseContactList().add(adrSender);
+            }
+        }
+
+        for (Adresse adr : message.getDestinatairesCopie()) {
+            if (!adrSender.getAdresseContactList().contains(adr)) {
+                adrSender.getAdresseContactList().add(adr);
+            }
+            if (!adr.getAdresseContactList().contains(adrSender)) {
+                adr.getAdresseContactList().add(adrSender);
+            }
         }
 
         return message;
@@ -574,6 +598,25 @@ public class MessageService implements MessageServiceInterface {
                 }
             }
             message.setFichierList(fichierList);
+
+            for (Adresse adr : message.getDestinataires()) {
+                if (!expediteur.getAdresseContactList().contains(adr)) {
+                    expediteur.getAdresseContactList().add(adr);
+                }
+                if (!adr.getAdresseContactList().contains(expediteur)) {
+                    adr.getAdresseContactList().add(expediteur);
+                }
+            }
+            /*
+            for (Adresse adr : message.getDestinatairesCopie()) {
+                if (!expediteur.getAdresseContactList().contains(adr)) {
+                    expediteur.getAdresseContactList().add(adr);
+                }
+                if (!adr.getAdresseContactList().contains(expediteur)) {
+                    adr.getAdresseContactList().add(expediteur);
+                }
+            }
+            */
             messageDao.insertMessage(message);
             insertedFileList.add(fileName);
 
@@ -595,8 +638,8 @@ public class MessageService implements MessageServiceInterface {
         }
         return strBuilder.toString();
     }
-    
-    protected Clob getClobFromString(String str){
+
+    protected Clob getClobFromString(String str) {
         Clob clob = null;
         try {
             clob = new SerialClob(str.toCharArray());

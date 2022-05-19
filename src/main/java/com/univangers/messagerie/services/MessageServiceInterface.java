@@ -35,4 +35,6 @@ public interface MessageServiceInterface {
     public List<MessageDto> findMessageDtoBySubject(String keyWord);
     
     public List<MessageDto> findMessageDtoByDestinataire(String keyWord);
+    
+    public Integer countMessageDtoById(Integer idMessage);
 }

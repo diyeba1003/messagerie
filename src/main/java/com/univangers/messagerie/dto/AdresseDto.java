@@ -4,6 +4,7 @@
  */
 package com.univangers.messagerie.dto;
 
+import java.util.List;
 import java.util.Objects;
 import lombok.Getter;
 import lombok.Setter;
@@ -25,7 +26,19 @@ public class AdresseDto {
     @Getter
     @Setter
     private ListeDto listeDto;
-
+    
+    @Getter
+    @Setter
+    private Integer nbMessageSent;
+    
+    @Getter
+    @Setter
+    private Integer nbMessageReceived;
+    
+    @Getter
+    @Setter
+    private List<AdresseDto> adresseContactDtoList;
+    
     public AdresseDto() {
     }
 

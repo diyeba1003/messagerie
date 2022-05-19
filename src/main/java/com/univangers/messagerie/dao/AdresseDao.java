@@ -65,5 +65,5 @@ public class AdresseDao implements AdresseDaoInterface {
     public void update(Adresse adresse) {
         em.merge(adresse);
     }
-   
+
 }

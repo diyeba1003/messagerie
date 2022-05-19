@@ -17,6 +17,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                         <th>ADRESSE</th>
                         <th> NOM</th>
                         <th>PRENOM</th>
+                         <th>NOMBRE DE MAIL ENVOYÉ</th>
+                          <th>NOMBRE DE MAIL REÇU</th>
                         <th>FONCTION</th>
                         <th>TYPE</th>
                         <th></th>
@@ -28,23 +30,18 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                             <td th:text="${user.personneDto.id}"></td>
                             <td th:text="${user.personneDto.nom}"></td>
                             <td th:text="${user.personneDto.prenom}"> </td>
+                                <td th:text="${user.nbMessageSent}"></td>
+                                    <td th:text="${user.nbMessageReceived}"></td>
                             <td th:if="${user.personneDto.fonctionDtoList.size()}>0" th:text="${user.personneDto.fonctionDtoList[0]?.title}"></td>
                             <td th:unless="${user.personneDto.fonctionDtoList.size()}>0"></td>
+                        
                             <td>Personne</td>
                             <td><a th:href="@{/messagerie/personne/modifier/{id}(id=${user.id})}" class="btn btn-warning"> <i class='fas fa-pen'></i></a>
                                 <a class="btn btn-info" th:href="@{/messagerie/adresses/persToListe/{adr}(adr=${user.id})}"><i class='fas fa-sync' style='font-size:20px;'></i></a>
+                                
                             </td>
                         </span>
-                        <span th:unless="${user.personneDto } != null ">
-                            <td th:text="${user.listeDto.id}"></td>
-                            <td></td>
-                            <td> </td>
-                            <td></td>
-                            <td>Liste</td>
-                            <td><a th:href="@{/messagerie/personne/modifier/{id}(id=${user.id})}" class="btn btn-warning" style="visibility: hidden;"> <i class='fas fa-pen'></i></a>
-                                <a class="btn btn-info" th:href="@{/messagerie/adresses/listeToPers/{adr}(adr=${user.id})}"><i class='fas fa-sync' style='font-size:20px;'></i></a>
-                            </td>
-                        </span>
+                       
                     </tr>
 
                 </tbody>

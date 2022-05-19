@@ -5,6 +5,7 @@
 package com.univangers.messagerie.model;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.Basic;
 import javax.persistence.CascadeType;
@@ -12,6 +13,8 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
@@ -69,6 +72,15 @@ public class Adresse implements Serializable {
     @Getter
     @Setter
     private Personne personne;
+    
+     @JoinTable(name = "ADRESSE_CONTACT", joinColumns = {
+        @JoinColumn(name = "ADRESSE_ID", referencedColumnName = "idADRESSE", nullable = false)}, inverseJoinColumns = {
+        @JoinColumn(name = "ADRESSE_CONTACT_ID", referencedColumnName = "idADRESSE", nullable = false)})
+    @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE},fetch = FetchType.LAZY)
+    @Getter
+    @Setter
+    private List<Adresse> adresseContactList = new ArrayList<>();
+
 
     public Adresse() {
     }
@@ -91,7 +103,7 @@ public class Adresse implements Serializable {
             return false;
         }
         Adresse other = (Adresse) object;
-        if ((this.idADRESSE == null && other.idADRESSE != null) || (this.idADRESSE != null && !this.idADRESSE.equals(other.idADRESSE))) {
+        if ((this.idADRESSE == null && other.idADRESSE != null) || (this.idADRESSE != null && !this.idADRESSE.equalsIgnoreCase(other.idADRESSE))) {
             return false;
         }
         return true;

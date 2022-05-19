@@ -1,28 +1,33 @@
 <div th:fragment="header">
     <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd">
-    <div class="container-fluid">
-        
+        <div class="container-fluid">
 
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-            <a class="nav-link active" th:href="@{/messagerie/messages/home}">Accueil</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" th:href="@{/messagerie/messages/liste-message(id=0)}">Messages</a>
-            </li>
-        </ul>
-        <form class="d-flex"  method="get" th:action="@{/messagerie/messages/liste-message}">
-            <input type="hidden" name="id" th:value="0" />
-            <input
-            class="form-control me-2"
-            type="search"
-            placeholder="Recherche"
-            aria-label="Search"
-            name="keyword"
-            th:value="${keyWord}"
-            />
-            <button class="btn btn-outline-success" type="submit">Recherche</button>
-        </form>
-    </div>
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" th:href="@{/messagerie/messages/home}">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/messagerie/messages/liste-message(id=0)}">Messages</a>
+                </li>
+            </ul>
+            <form class="d-flex"  method="get" th:action="@{/messagerie/messages/liste-message}">
+                <select class="me-2" name="filterType" th:value="${filterType}">
+                    <option value="subject"> Par sujet</option>
+                    <option value="sender"> Par expediteur</option>
+                    <option value="destinataire">Par destinataire</option>
+                </select>
+                <input type="hidden" name="id" th:value="0" />
+                <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Recherche"
+                    aria-label="Search"
+                    name="keyword"
+                    th:value="${keyWord}"
+                    />
+                <button class="btn btn-outline-success" type="submit">Recherche</button>
+            </form>
+        </div>
     </nav>
 </div>

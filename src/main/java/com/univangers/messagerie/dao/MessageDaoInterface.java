@@ -33,5 +33,9 @@ public interface MessageDaoInterface {
      public List<Message> findMessageByDestinataire(String keyWord);
      
      public Integer countMessagesBetweenDates(Date startDate, Date endDate);
+     
+     public Integer countMessageById(Integer idMessage);
+     
+    
     
 }

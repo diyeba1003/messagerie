@@ -5,7 +5,9 @@
 package com.univangers.messagerie.controller;
 
 import com.univangers.messagerie.dto.AdresseDto;
+import com.univangers.messagerie.dto.DataCounter;
 import com.univangers.messagerie.services.AdresseServiceInterface;
+import com.univangers.messagerie.services.MessageServiceInterface;
 import java.util.List;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +30,7 @@ public class AdresseController {
 
     @Autowired
     private AdresseServiceInterface adresseService;
-
+    
     @GetMapping("/detail-user")
     public String info(Model model, @RequestParam("id") String id) {
         AdresseDto adresseDto = adresseService.findAdresseDtoById(id);
@@ -42,7 +44,18 @@ public class AdresseController {
         model.addAttribute("adresseDtoList", adresseDtoList);
         return "/webHtml/user-infos";
     }
-
+     @GetMapping("/nbAdresse")
+    public String findAll(Model model) {
+        List<AdresseDto> adresseDtoList = adresseService.findAllAdresseDto();
+        model.addAttribute("adresseDtoList", adresseDtoList);
+        return "/webHtml/nbAdresse";
+    }
+    @GetMapping("/liste-info")
+    public String findAllListe(Model model) {
+        List<AdresseDto> adresseDtoList = adresseService.findAllAdresseDto();
+        model.addAttribute("adresseDtoList", adresseDtoList);
+        return "/webHtml/liste-info";
+    }
     
     @GetMapping("/all")
     public List<AdresseDto> findAll() {

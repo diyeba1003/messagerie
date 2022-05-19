@@ -10,20 +10,25 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 
     <body>
         <header th:replace="./layouts/header :: header"></header>
-        <div class="container-fluid">
-            <div th:if="${adresseDto.personneDto !=null}">
-            <span th:text="${adresseDto.personneDto.nom}"> </span>
-            <span th:text="${adresseDto.personneDto.prenom}"> </span>
+        <div class="container">
+            <div class="row alert text-warning">
+                <h3>
+                    <span>Liste de contacts</span>
+                    <span th:if="${adresseDto.personneDto !=null}" th:text="${adresseDto.personneDto.nom}+' ('+ ${adresseDto.id}+')'"></span>
+                </h3>
+            </div>
+            <ol th:if="${adresseDto.personneDto !=null}">
+                <li th:each="contact:${adresseDto.adresseContactDtoList}">
+                    <span th:text="${contact?.id}"></span>
+                </li>
+            </ol>
             <div th:if="${adresseDto.personneDto.fonctionDtoList.size()>0}"> 
                 <div th:each="fonctionDto:${adresseDto.personneDto.fonctionDtoList}"></div>
 
                 <span th:text="${fonctionDto?.title}"> </span>
             </div>
-          
-            </div>
             <div th:unless="${adresseDto.personneDto !=null}">
                 <span class="text-info">Liste de diffusion</span>
-                
             </div>
         </div>
 

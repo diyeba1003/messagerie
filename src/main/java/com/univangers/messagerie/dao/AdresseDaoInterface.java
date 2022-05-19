@@ -21,5 +21,5 @@ public interface AdresseDaoInterface  {
     
     public List<Adresse> findAllAdresse();
     
-      public void update(Adresse adresse);
+    public void update(Adresse adresse);    
 }

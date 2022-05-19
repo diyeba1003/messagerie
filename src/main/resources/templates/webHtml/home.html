@@ -76,7 +76,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <footer th:replace="./layouts/main-layout :: footer"></footer>
     </body>
     <script th:inline="javascript">
-        var htmldata = [[${messagePerMonth}]];
+        var htmldata = [[${
+                    messagePerMonth
+                }
+            ]];
         const ctx = document.getElementById('myChart').getContext('2d');
         const myChart = new Chart(ctx, {
             type: 'bar',
@@ -106,6 +109,21 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     }]
             },
             options: {
+                onClick: function (click) {
+                    //console.log('I clicked')
+                    var activepoints = myChart.getElementsAtEventForMode(click, 'nearest', {
+                        intersect: true
+                    }, true);
+                    //console.log(activepoints);
+                    if (activepoints.length) {
+                        const firstPoint = activepoints[0];
+                        var index = firstPoint ['index'];
+                        var slabel = myChart.data.datasets[firstPoint.datasetIndex].label;
+                        var value = myChart.data.datasets[firstPoint.datasetIndex].data[firstPoint.index];
+                        console.log(index, slabel, value);
+                        window.location = '/messagerie/messages/liste-message-par-periode?index='+index;
+                    }
+                },
                 plugins: {
                     legend: {
                         display: false,

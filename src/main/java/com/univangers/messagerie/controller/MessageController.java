@@ -244,12 +244,64 @@ public class MessageController {
             MessageDto messageDto = messageService.findMessageDtoById(id);
             model.addAttribute("selectedMessage", messageDto);
         }
+        else{
+            MessageDto messageDto=messageDtoList.get(0);
+            model.addAttribute("selectedMessage", messageDto);
+        }
 
         return "./webHtml/liste-message";
     }
      @GetMapping("/modal1")
     public String modal1() {
         return "./webHtml/detail-user";
+    }
+
+    @RequestMapping("/liste-message-par-periode")
+    public String listemessageparperiode(Model model, @RequestParam("index") String index, @RequestParam(value = "id", required = false) Integer id) {
+        Date startDate = Utils.stringToDate("2010-06-01 00:00:00");
+        Date endDate = Utils.stringToDate("2010-06-30 23:59:59");
+        switch (index) {
+            case "0":
+                break;
+            case "1":
+                startDate = Utils.stringToDate("2010-06-30 23:59:59");
+                endDate = Utils.stringToDate("2010-07-31 23:59:59");
+                break;
+            case "2":
+                startDate = Utils.stringToDate("2010-07-31 23:59:59");
+                endDate = Utils.stringToDate("2010-08-31 23:59:59");
+                break;
+            case "3":
+                startDate = Utils.stringToDate("2010-08-31 23:59:59");
+                endDate = Utils.stringToDate("2010-09-30 23:59:59");
+                break;
+            case "4":
+                startDate = Utils.stringToDate("2010-09-30 23:59:59");
+                endDate = Utils.stringToDate("2010-10-31 23:59:59");
+                break;
+            case "5":
+                startDate = Utils.stringToDate("2010-10-31 23:59:59");
+                endDate = Utils.stringToDate("2010-11-30 23:59:59");
+                break;
+            case "6":
+                startDate = Utils.stringToDate("2010-11-30 23:59:59");
+                endDate = Utils.stringToDate("2010-12-31 23:59:59");
+                break;
+
+        }
+        List<MessageDto> messageDtoList = messageService.findMessagesDtoBetweenDates(startDate, endDate);
+        model.addAttribute("messages", messageDtoList);
+        model.addAttribute("PerMonth", true);
+        model.addAttribute("index", index);
+        if (id != null) {
+            MessageDto messageDto = messageService.findMessageDtoById(id);
+            model.addAttribute("selectedMessage", messageDto);
+        }
+        else{
+            MessageDto messageDto=messageDtoList.get(0);
+            model.addAttribute("selectedMessage", messageDto);
+        }
+        return "./webHtml/liste-message-par-periode";
     }
 
     @GetMapping("/home")

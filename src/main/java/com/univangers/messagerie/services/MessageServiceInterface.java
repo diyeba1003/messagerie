@@ -29,12 +29,15 @@ public interface MessageServiceInterface {
     public void deleteMessageDto(Integer id);
 
     public Integer countMessagesDtoBetweenDates(Date startDate, Date endDate);
-    
+
     public List<MessageDto> findMessageDtoBySender(String senderId);
-    
+
     public List<MessageDto> findMessageDtoBySubject(String keyWord);
-    
+
     public List<MessageDto> findMessageDtoByDestinataire(String keyWord);
-    
+
     public Integer countMessageDtoById(Integer idMessage);
+
+    public List<MessageDto> findMessagesDtoBetweenDates(Date startDate, Date endDate);
+
 }

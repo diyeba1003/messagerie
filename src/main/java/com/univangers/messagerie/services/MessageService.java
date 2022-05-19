@@ -106,6 +106,17 @@ public class MessageService implements MessageServiceInterface {
 
         return count;
     }
+     @Override
+    public List<MessageDto> findMessagesDtoBetweenDates(Date startDate, Date endDate) {
+        List<MessageDto> messageDtoList = new ArrayList<>();
+        List<Message> messageList = messageDao.findMessagesBetweenDates(startDate,endDate);
+        if (!messageList.isEmpty()) {
+            for (Message m : messageList) {
+                messageDtoList.add(convertToDto(m));
+            }
+        }
+        return messageDtoList;
+    }
 
     @Override
     public void updateMessageDto(MessageDto messageDto) {
@@ -648,5 +659,7 @@ public class MessageService implements MessageServiceInterface {
         }
         return clob;
     }
+
+   
 
 }

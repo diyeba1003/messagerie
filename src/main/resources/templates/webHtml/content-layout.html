@@ -1,6 +1,16 @@
 
     <div th:fragment="content-menu" class="col-3" id="contentMenu">
-        <ul class="list-unstyled">
+        <ul th:if="${PerMonth==true}" class="list-unstyled">
+           
+            
+            <li class="border-top pt-1 pb-1" th:each= "message: ${messages}">
+                <a  class="text-decoration-none" th:href="@{/messagerie/messages/liste-message-par-periode(index=${index},id=${message.id})}">
+                    <span id="event" th:text="${message.object}"></span>
+                </a>
+            </li>
+            
+        </ul>
+        <ul th:unless="${PerMonth==true}" class="list-unstyled">
            
             
             <li class="border-top pt-1 pb-1" th:each= "message: ${messages}">

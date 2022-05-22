@@ -46,13 +46,19 @@ public class MimeMessageReader {
     public void setNameStatic(String attachsFilesDir) {
         MimeMessageReader.ATTACHS_FILE_DIR = attachsFilesDir;
     }
-
+    
     public static MailObject readMessageFile(String filePath) throws FileNotFoundException, MessagingException, IOException {
+        InputStream inputStream = new FileInputStream(filePath);
+        MailObject mailObject = readMessageInputStream(inputStream);
+        return mailObject;
+    }
+
+    public static MailObject readMessageInputStream(InputStream inputStream) throws FileNotFoundException, MessagingException, IOException {
         Properties props = new Properties();
         props.setProperty("mail.mime.address.strict", "false");
         props.setProperty("mail.mime.decodetext.strict", "false");
         Session mailSession = Session.getDefaultInstance(props, null);
-        InputStream inputStream = new FileInputStream(filePath);
+        //InputStream inputStream = new FileInputStream(filePath);
         MimeMessage message = new MimeMessage(mailSession, inputStream);
 
         MailObject mailObject = new MailObject();

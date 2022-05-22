@@ -10,12 +10,18 @@
                 <li class="nav-item">
                     <a class="nav-link" th:href="@{/messagerie/messages/liste-message(id=0)}">Messages</a>
                 </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal2">
+                        Upload
+                    </button>
+                     <th:block th:replace="./webHtml/upload-modal :: modal('exampleModal2')">modal</th:block>
+                </li>
             </ul>
             <form class="d-flex"  method="get" th:action="@{/messagerie/messages/liste-message}">
                 <select class="me-2" name="filterType" th:value="${filterType}">
                     <option value="subject"> Par sujet</option>
                     <option value="sender"> Par expediteur</option>
-                    
+
                 </select>
                 <input type="hidden" name="id" th:value="0" />
                 <input

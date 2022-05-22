@@ -12,6 +12,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <header th:replace="./layouts/header :: header"></header>
 
         <div class="container">
+            <div th:if="${alert != null}" class="row alert alert-warning text-center mt-2">
+                <span th:text="${alert}"></span>
+            </div>
             <div class="row mt-2">
                 <div class="col m-2 border border-1 border-left-info rounded">
                     <div class="row">
@@ -137,4 +140,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
             }
         });
     </script>
+    <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+        <script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+        <script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+        <script>
+
+            $('#exampleModal2').on('show.bs.modal', function () {
+                
+            });
+        </script>
+
 </html>

@@ -14,15 +14,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 
         <header th:replace="./layouts/header :: header"> </header>
         <div class="container-fluid mt-3 ">
-            <div class="row align-items-end">
-                <div class="col-1  offset-11" >
-                    <button type="button" class="btn btn-outline-secondary btn-lg" data-toggle="modal" data-target="#exampleModal2">
-                        Upload
-                    </button>
-                </div>
-
-                <th:block th:replace="./webHtml/upload-modal :: modal('exampleModal2')">modal</th:block>
-            </div>
             <div class="row">
 
                 <div th:replace="./webHtml/content-layout :: content-menu"></div>
@@ -51,6 +42,18 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                                         <a  class="text-decoration-none" th:href="@{/messagerie/adresses/detail-user(id=${destinataire.id})}" > <span th:text="${destinataire.id}">&nbsp;&nbsp;</span></a>
                                     </div>
                                 </div>
+
+                                <div class="row mt-3" th:if="${selectedMessage.fichierDtoList?.size()}>0">
+                                    <span th:each="fichier:${selectedMessage.fichierDtoList}">
+                                        <a th:href="@{/messagerie/messages/download(filePath=${fichier?.filepath})}">
+                                            <span th:if="${fichier?.filetype=='ppt'}"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i></span>
+                                            <span th:if="${fichier?.filetype=='pdf'}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></span>
+                                            <span th:if="${fichier?.filetype=='doc'}"><i class="fa fa-file-word-o" aria-hidden="true"></i></span>
+                                            <span th:if="${fichier?.filetype=='jpg'}"><i class="fa fa-file-image-o" aria-hidden="true"></i></span>
+                                            <span th:text="${fichier?.filename}"></span>
+                                        </a>
+                                    </span>    
+                                </div>
                             </div>
                         </div>
                         <hr/>
@@ -67,15 +70,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         </div>
         <footer th:replace="./layouts/main-layout :: footer"> </footer>
 
-        <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
-        <script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
-        <script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
-        <script>
 
-            $('#exampleModal2').on('show.bs.modal', function () {
-                
-            });
-        </script>
 
     </body>
 

@@ -31,13 +31,13 @@ public class AdresseService implements AdresseServiceInterface {
 
     @Autowired
     private AdresseDaoInterface adresseDao;
-    
+
     @Autowired
     private ListeDaoInterface listeDao;
-    
+
     @Autowired
     private PersonneDaoInterface personneDao;
-    
+
     @Override
     public void insertAdresseDto(AdresseDto adresseDto) {
         Adresse adresse = convertToEntity(adresseDto);
@@ -95,7 +95,7 @@ public class AdresseService implements AdresseServiceInterface {
                 personne = adresse.getPersonne();
                 Liste liste = new Liste();
                 liste.setIdLISTE(personneId);
-                liste.setLibelle(personne.getNom()+" "+personne.getPrenom());
+                liste.setLibelle(personne.getNom() + " " + personne.getPrenom());
                 personne.setAdresse(null);
                 liste.setAdresse(adresse);
                 adresse.setListe(liste);
@@ -140,7 +140,47 @@ public class AdresseService implements AdresseServiceInterface {
             listeDto.setLibelle(adresse.getListe().getLibelle());
             adresseDto.setListeDto(listeDto);
         }
+        if (adresse.getMessageList() != null) {
+            adresseDto.setNbMessageSent(adresse.getMessageList().size());
+            adresseDto.setNbMessageReceived(adresse.getMessageList().size());
+        }
+        if (adresse.getDestinataireMessageList() != null) {
+            adresseDto.setNbMessageReceived(adresse.getDestinataireMessageList().size());
+
+        }
+        if (adresse.getDestinatairesCopieMessageList() != null) {
+            if (adresse.getDestinataireMessageList() != null) {
+                adresseDto.setNbMessageReceived(adresse.getDestinatairesCopieMessageList().size() + adresse.getDestinataireMessageList().size());
+            } else {
+                adresseDto.setNbMessageReceived(adresse.getDestinatairesCopieMessageList().size());
+            }
+        }
+
+        if (adresse.getAdresseContactList() != null) {
+            List<AdresseDto> contactDtoList = new ArrayList<>();
+
+            for (Adresse contact : adresse.getAdresseContactList()) {
+                AdresseDto aDto = new AdresseDto(contact.getIdADRESSE());
+                contactDtoList.add(aDto);
+            }
+            adresseDto.setAdresseContactDtoList(contactDtoList);
+        }
 
         return adresseDto;
+    }
+
+    @Override
+    public Boolean adresseDtoHasContact(String idAdresse, String idContact) {
+        return adresseDao.adresseHasContact(idAdresse, idContact);
+    }
+
+    @Override
+    public List<AdresseDto> getAdresseDtoContactList(String idAdresse) {
+        List<Adresse> adresseList = adresseDao.findAdresseById(idAdresse).getAdresseContactList();
+        List<AdresseDto> adresseDtoList = new ArrayList<>();
+        for (Adresse adresse : adresseList) {
+            adresseDtoList.add(convertToDto(adresse));
+        }
+        return adresseDtoList;
     }
 }

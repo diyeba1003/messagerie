@@ -34,6 +34,9 @@ public interface MessageDaoInterface {
 
     public Integer countMessagesBetweenDates(Date startDate, Date endDate);
 
+    public Integer countMessageById(Integer idMessage);
+
     public List<Message> findMessagesBetweenDates(Date startDate, Date endDate);
 
+  
 }

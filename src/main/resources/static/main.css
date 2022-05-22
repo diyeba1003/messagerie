@@ -8,7 +8,6 @@ h4{
 
 a {
     text-decoration: none !important;
-    
 }
 
 .border-top-info{
@@ -36,4 +35,14 @@ a {
     left: 324px;
     bottom: 80px;
     overflow:auto ;
+}
+
+.selected-item {
+    background-color: dodgerblue;
+    border-radius: 4px;
+}
+
+.selected-item a {
+    color: white !important;
+    font-weight: bolder;
 }

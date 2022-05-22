@@ -29,23 +29,31 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 <div class="col-9" id="contentDetail">
                     <div  th:if="${selectedMessage} != null">
                         <div class="row">
-                            <div>
-                                <label><span class="display-4" th:text="${selectedMessage?.object}"></span></label>
+                            <div class="col-12">
+                                <h5>
+                                    <span th:text="${selectedMessage.object}"></span>
+                                </h5>
                             </div>
-                            <div>
-                                <label><span class="badge bg-secondary"> Date d'envoie:</span> <span th:text="${selectedMessage?.date}"></span></label>
+                            <div class="col-1">
+                                <span><i class="fa-solid fa-user fa-4x"></i></span>
                             </div>
-                            <div>
-                                <label><span class="badge bg-secondary"> Expediteur:</span> <a  class="text-decoration-none" th:href="@{/messagerie/adresses/detail-user(id=${selectedMessage?.expediteurDto?.id})}"> <span  th:text="${selectedMessage?.expediteurDto?.id}"></span></a></label>
-                            </div>
+                            <div class="col-11">
+                                <div>
+                                    <label><span class="text-secondary "> Date:</span> <span class="text-secondary " th:text="${selectedMessage?.date}"></span></label>
+                                </div>
+                                <div>
+                                    <label><span class="text-secondary ">De:</span> <a  class="text-decoration-none" th:href="@{/messagerie/adresses/detail-user(id=${selectedMessage?.expediteurDto?.id})}"> <span  th:text="${selectedMessage?.expediteurDto?.id}"></span></a></label>
+                                </div>
 
-                            <div>
-                                <label> <span class="badge bg-secondary">Destinataire:</span> </label>
-                                <div class="d-inline" th:each="destinataire:${selectedMessage.destinataireDtoList}" >
-                                    <a  class="text-decoration-none" th:href="@{/messagerie/adresses/detail-user(id=${destinataire.id})}" > <span th:text="${destinataire.id}">&nbsp;&nbsp;</span></a>
+                                <div>
+                                    <label> <span class="text-secondary ">A:</span> </label>
+                                    <div class="d-inline" th:each="destinataire:${selectedMessage.destinataireDtoList}" >
+                                        <a  class="text-decoration-none" th:href="@{/messagerie/adresses/detail-user(id=${destinataire.id})}" > <span th:text="${destinataire.id}">&nbsp;&nbsp;</span></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <hr/>
                         <div class="row mt-3">
                             <span th:text="${selectedMessage?.body}"></span>
                         </div>
@@ -65,7 +73,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <script>
 
             $('#exampleModal2').on('show.bs.modal', function () {
-               
+                
             });
         </script>
 

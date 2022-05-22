@@ -36,5 +36,8 @@ public interface MessageServiceInterface {
 
     public List<MessageDto> findMessageDtoByDestinataire(String keyWord);
 
+    public Integer countMessageDtoById(Integer idMessage);
+
     public List<MessageDto> findMessagesDtoBetweenDates(Date startDate, Date endDate);
+
 }

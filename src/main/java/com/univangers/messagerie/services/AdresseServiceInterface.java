@@ -12,18 +12,20 @@ import java.util.List;
  * @author etud
  */
 public interface AdresseServiceInterface {
-    
+
     public void insertAdresseDto(AdresseDto adresseDto);
-    
+
     public AdresseDto findAdresseDtoById(String id);
-    
+
     public Integer countAdresseDto();
-    
+
     public List<AdresseDto> findAllAdresseDto();
-    
+
     public void changeListeDtoToPersonneDto(String listeId);
+
+    public void changePersonneDtoToListeDto(String personneId);
+
+    public Boolean adresseDtoHasContact(String idAdresse, String idContact);
     
-     public void changePersonneDtoToListeDto(String personneId);
-    
-     
+    public List<AdresseDto> getAdresseDtoContactList(String idAdresse);
 }

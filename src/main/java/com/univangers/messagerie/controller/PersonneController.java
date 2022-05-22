@@ -39,7 +39,7 @@ public class PersonneController {
     public String update(@PathVariable(value = "id") String id, PersonneDto personneDto) {
         personneDto.setId(id);
         personneService.updatePersonneDto(personneDto);
-        return "redirect:/messagerie/personne/user-infos";
+        return "redirect:/messagerie/adresses/user-infos";
     }
     
 }

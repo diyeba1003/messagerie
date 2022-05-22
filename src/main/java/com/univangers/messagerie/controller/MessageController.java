@@ -79,7 +79,7 @@ public class MessageController {
     @GetMapping("/test-file-read/{nomFichier}")
     public MailObject afficheMessage(@PathVariable String nomFichier) throws FileNotFoundException, MessagingException, IOException {
 
-        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir + "/president_2010-11" + File.separator + nomFichier);
+        MailObject mailObject = MimeMessageReader.readMessageFile(messageFilesDir + "/president_2010-10" + File.separator + nomFichier);
 
         return mailObject;
     }
@@ -226,15 +226,20 @@ public class MessageController {
     }
 
     @RequestMapping("/liste-message")
-    public String listemessage(Model model, @RequestParam("id") Integer id, @RequestParam(value = "keyword", required = false) String keyWord) {
-        List<MessageDto> messageDtoList;
-        if (keyWord != null) {
-            if (Utils.isValideEmail(keyWord)) {
+    public String listemessage(Model model,
+            @RequestParam("id") Integer id,
+            @RequestParam(value = "keyword", required = false) String keyWord,
+            @RequestParam(value = "filterType", required = false) String filterType) {
+        
+        List<MessageDto> messageDtoList = new ArrayList<>();
+        
+        if (keyWord != null && filterType!=null) {
+            if ("sender".equals(filterType)) {
                 messageDtoList = messageService.findMessageDtoBySender(keyWord);
-            } else {
+            } else if ("subject".equals(filterType)) {
                 messageDtoList = messageService.findMessageDtoBySubject(keyWord);
             }
-        } else {
+        } else { 
             messageDtoList = messageService.findAllMessageDto();
         }
 
@@ -242,13 +247,16 @@ public class MessageController {
         if (id != 0) {
             MessageDto messageDto = messageService.findMessageDtoById(id);
             model.addAttribute("selectedMessage", messageDto);
-        }
-        else{
+        } else if(!messageDtoList.isEmpty()) {
             MessageDto messageDto=messageDtoList.get(0);
             model.addAttribute("selectedMessage", messageDto);
         }
 
         return "./webHtml/liste-message";
+    }
+     @GetMapping("/modal1")
+    public String modal1() {
+        return "./webHtml/detail-user";
     }
 
     @RequestMapping("/liste-message-par-periode")

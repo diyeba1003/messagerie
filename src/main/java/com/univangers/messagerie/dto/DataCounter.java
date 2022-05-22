@@ -28,5 +28,5 @@ public class DataCounter {
     @Getter
     @Setter
     private Integer nombreListes;
-
+    
 }

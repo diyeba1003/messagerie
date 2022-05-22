@@ -13,8 +13,8 @@
         <ul th:unless="${PerMonth==true}" class="list-unstyled">
            
             
-            <li class="border-top pt-1 pb-1" th:each= "message: ${messages}">
-                <a  class="text-decoration-none" th:href="@{/messagerie/messages/liste-message(id=${message.id})}">
+            <li class="border-top pt-1 pb-1" th:each= "message: ${messages}" th:classappend="${message.id == selectedMessage?.id ? 'selected-item' : ''}">
+                <a  class="ms-2" th:href="@{/messagerie/messages/liste-message(id=${message.id})}">
                     <span id="event" th:text="${message.object}"></span>
                 </a>
             </li>

@@ -21,7 +21,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     </button>
                 </div>
 
-                <th:block th:replace="webHtml/_modals :: modal('exampleModal2')">modal</th:block>
+                <th:block th:replace="./webHtml/upload-modal :: modal('exampleModal2')">modal</th:block>
             </div>
             <div class="row">
 
@@ -65,10 +65,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <script>
 
             $('#exampleModal2').on('show.bs.modal', function () {
-                $.get("/modals/modal2?name=" + name, function (data) {
-                    $('#exampleModal2').find('.modal-body').html(data);
-                })
-            })
+               
+            });
         </script>
 
     </body>

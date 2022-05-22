@@ -106,10 +106,11 @@ public class MessageService implements MessageServiceInterface {
 
         return count;
     }
-     @Override
+
+    @Override
     public List<MessageDto> findMessagesDtoBetweenDates(Date startDate, Date endDate) {
         List<MessageDto> messageDtoList = new ArrayList<>();
-        List<Message> messageList = messageDao.findMessagesBetweenDates(startDate,endDate);
+        List<Message> messageList = messageDao.findMessagesBetweenDates(startDate, endDate);
         if (!messageList.isEmpty()) {
             for (Message m : messageList) {
                 messageDtoList.add(convertToDto(m));
@@ -337,20 +338,26 @@ public class MessageService implements MessageServiceInterface {
         }
 
         for (Adresse adr : message.getDestinataires()) {
-            if (!adrSender.getAdresseContactList().contains(adr)) {
-                adrSender.getAdresseContactList().add(adr);
-            }
-            if (!adr.getAdresseContactList().contains(adrSender)) {
-                adr.getAdresseContactList().add(adrSender);
+            Boolean contactExist = adresseDao.adresseHasContact(adrSender.getIdADRESSE(), adr.getIdADRESSE());
+            if (!contactExist) {
+                if (!adrSender.getAdresseContactList().contains(adr)) {
+                    adrSender.getAdresseContactList().add(adr);
+                }
+                if (!adr.getAdresseContactList().contains(adrSender)) {
+                    adr.getAdresseContactList().add(adrSender);
+                }
             }
         }
 
         for (Adresse adr : message.getDestinatairesCopie()) {
-            if (!adrSender.getAdresseContactList().contains(adr)) {
-                adrSender.getAdresseContactList().add(adr);
-            }
-            if (!adr.getAdresseContactList().contains(adrSender)) {
-                adr.getAdresseContactList().add(adrSender);
+            Boolean contactExist = adresseDao.adresseHasContact(adrSender.getIdADRESSE(), adr.getIdADRESSE());
+            if (!contactExist) {
+                if (!adrSender.getAdresseContactList().contains(adr)) {
+                    adrSender.getAdresseContactList().add(adr);
+                }
+                if (!adr.getAdresseContactList().contains(adrSender)) {
+                    adr.getAdresseContactList().add(adrSender);
+                }
             }
         }
 
@@ -523,7 +530,6 @@ public class MessageService implements MessageServiceInterface {
                     }
                     expediteur.setPersonne(personne);
                 } else {
-                    // LISTE => A faire !!!
                     Liste list = new Liste();
                     list.setIdLISTE(mailObject.getFrom().getMail());
                     list.setAdresse(expediteur);
@@ -540,7 +546,6 @@ public class MessageService implements MessageServiceInterface {
                 if (info.getMail().equalsIgnoreCase(expediteur.getIdADRESSE())) {
                     destinatairesList.add(expediteur);
                 } else {
-
                     Adresse adresse = adresseDao.findAdresseById(info.getMail());
                     if (adresse == null) {
                         adresse = new Adresse();
@@ -611,55 +616,34 @@ public class MessageService implements MessageServiceInterface {
             message.setFichierList(fichierList);
 
             for (Adresse adr : message.getDestinataires()) {
-                if (!expediteur.getAdresseContactList().contains(adr)) {
-                    expediteur.getAdresseContactList().add(adr);
-                }
-                if (!adr.getAdresseContactList().contains(expediteur)) {
-                    adr.getAdresseContactList().add(expediteur);
+                Boolean contactExist = adresseDao.adresseHasContact(expediteur.getIdADRESSE(), adr.getIdADRESSE());
+                if (!contactExist) {
+                    if (!expediteur.getAdresseContactList().contains(adr)) {
+                        expediteur.getAdresseContactList().add(adr);
+                    }
+                    if (!adr.getAdresseContactList().contains(expediteur)) {
+                        adr.getAdresseContactList().add(expediteur);
+                    }
                 }
             }
-            /*
+
             for (Adresse adr : message.getDestinatairesCopie()) {
-                if (!expediteur.getAdresseContactList().contains(adr)) {
-                    expediteur.getAdresseContactList().add(adr);
-                }
-                if (!adr.getAdresseContactList().contains(expediteur)) {
-                    adr.getAdresseContactList().add(expediteur);
+                Boolean contactExist = adresseDao.adresseHasContact(expediteur.getIdADRESSE(), adr.getIdADRESSE());
+                if (!contactExist) {
+                    if (!expediteur.getAdresseContactList().contains(adr)) {
+                        expediteur.getAdresseContactList().add(adr);
+                    }
+                    if (!adr.getAdresseContactList().contains(expediteur)) {
+                        adr.getAdresseContactList().add(expediteur);
+                    }
                 }
             }
-            */
+
             messageDao.insertMessage(message);
             insertedFileList.add(fileName);
 
         }
         return insertedFileList;
     }
-
-    protected String getClobString(Clob clob) {
-        BufferedReader stringReader;
-        StringBuilder strBuilder = new StringBuilder();
-        try {
-            stringReader = new BufferedReader(clob.getCharacterStream());
-            String singleLine;
-            while ((singleLine = stringReader.readLine()) != null) {
-                strBuilder.append(singleLine);
-            }
-        } catch (IOException | SQLException ex) {
-            Logger.getLogger(MessageService.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        return strBuilder.toString();
-    }
-
-    protected Clob getClobFromString(String str) {
-        Clob clob = null;
-        try {
-            clob = new SerialClob(str.toCharArray());
-        } catch (SQLException ex) {
-            Logger.getLogger(MessageService.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        return clob;
-    }
-
-   
 
 }

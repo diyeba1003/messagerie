@@ -5,10 +5,10 @@
 package com.univangers.messagerie.controller;
 
 import com.univangers.messagerie.dto.AdresseDto;
-import com.univangers.messagerie.dto.DataCounter;
 import com.univangers.messagerie.services.AdresseServiceInterface;
-import com.univangers.messagerie.services.MessageServiceInterface;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -48,7 +48,7 @@ public class AdresseController {
     public String findAll(Model model) {
         List<AdresseDto> adresseDtoList = adresseService.findAllAdresseDto();
         model.addAttribute("adresseDtoList", adresseDtoList);
-        return "/webHtml/nbAdresse";
+        return "/webHtml/nombre-adresse";
     }
     @GetMapping("/liste-info")
     public String findAllListe(Model model) {
@@ -76,5 +76,23 @@ public class AdresseController {
             System.out.println("adresse: "+adr);
         adresseService.changeListeDtoToPersonneDto(adr);
         return "redirect:/messagerie/adresses/user-infos";
+    }
+    
+    @GetMapping("/contacts/{id}")
+    public List<AdresseDto> findContactList(@PathVariable("id") String id) {
+        List<AdresseDto> adresseDtoList = adresseService.getAdresseDtoContactList(id);
+        
+        return adresseDtoList;
+    }
+    
+    @GetMapping("/adr-has-contact")
+    public Map adrHasContactList(@RequestParam("idAdresse") String idAdresse, @RequestParam("idContact") String idContact) {
+        Boolean adrHasContact = adresseService.adresseDtoHasContact(idAdresse, idContact);
+        
+        Map<String, Boolean> result = new HashMap<>();
+        
+        result.put("adrHasContact", adrHasContact);
+        
+        return result;
     }
 }

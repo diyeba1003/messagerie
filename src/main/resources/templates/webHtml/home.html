@@ -20,7 +20,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                         </div>
                         <div class="col-9 pt-3 pb-3 ">
                             <h4 class="ms-3">Nombre de mails</h4>
+                            <a th:href="@{/messagerie/messages/liste-message(id=0)}">
                             <span class="ms-3 display-2" th:text="${counter.nombreMessages}"></span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -42,7 +44,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 <div class="col m-2 border border-1 border-left-info rounded">
                     <div class="row">
                         <div class="col-3">
-                            <i class="m-3 fa-solid fa-person fa-6x text-secondary"></i>
+                            <i class="m-3 fas fa-users fa-6x text-secondary"></i>
                         </div>
                         <div class="col-9 pt-3 pb-3 ">
                             <h4 class="ms-3">Nombre de personnes</h4>
@@ -55,7 +57,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 <div class="col m-2 border border-1 border-left-info rounded">
                     <div class="row">
                         <div class="col-3 ">
-                            <i class=" m-3 fa-solid fa-person fa-6x text-secondary"></i>
+                            <i class=" m-3 far fa-address-card fa-6x text-secondary"></i>
                         </div>
                         <div class="col-9 pt-3 pb-3 ">
                             <h4 class="ms-3">Liste de diffusions</h4>

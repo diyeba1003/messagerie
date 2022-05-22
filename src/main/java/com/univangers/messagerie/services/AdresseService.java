@@ -168,4 +168,19 @@ public class AdresseService implements AdresseServiceInterface {
 
         return adresseDto;
     }
+
+    @Override
+    public Boolean adresseDtoHasContact(String idAdresse, String idContact) {
+        return adresseDao.adresseHasContact(idAdresse, idContact);
+    }
+
+    @Override
+    public List<AdresseDto> getAdresseDtoContactList(String idAdresse) {
+        List<Adresse> adresseList = adresseDao.findAdresseById(idAdresse).getAdresseContactList();
+        List<AdresseDto> adresseDtoList = new ArrayList<>();
+        for (Adresse adresse : adresseList) {
+            adresseDtoList.add(convertToDto(adresse));
+        }
+        return adresseDtoList;
+    }
 }

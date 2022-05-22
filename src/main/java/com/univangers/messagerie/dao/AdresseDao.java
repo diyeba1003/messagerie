@@ -66,4 +66,17 @@ public class AdresseDao implements AdresseDaoInterface {
         em.merge(adresse);
     }
 
+    @Override
+    public Boolean adresseHasContact(String idADRESSE, String idContact) {
+        Adresse adresse = em.find(Adresse.class, idADRESSE);
+        if(adresse != null){
+            for(Adresse contact: adresse.getAdresseContactList()){
+                if(contact.getIdADRESSE().equalsIgnoreCase(idContact)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

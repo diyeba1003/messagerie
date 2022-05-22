@@ -232,8 +232,6 @@ public class MessageController {
                 messageDtoList = messageService.findMessageDtoBySender(keyWord);
             } else if ("subject".equals(filterType)) {
                 messageDtoList = messageService.findMessageDtoBySubject(keyWord);
-            }else if("destinataire".equals(filterType)){
-                messageDtoList=messageService.findMessageDtoByDestinataire(keyWord);
             }
         } else { 
             messageDtoList = messageService.findAllMessageDto();
@@ -243,8 +241,7 @@ public class MessageController {
         if (id != 0) {
             MessageDto messageDto = messageService.findMessageDtoById(id);
             model.addAttribute("selectedMessage", messageDto);
-        }
-        else{
+        } else if(!messageDtoList.isEmpty()) {
             MessageDto messageDto=messageDtoList.get(0);
             model.addAttribute("selectedMessage", messageDto);
         }

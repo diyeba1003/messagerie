@@ -11,7 +11,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 <body>
   <header th:replace="./layouts/header :: header"></header>
   
-    <div class="container-fluid">
+    <div class="container">
         <h1>Formulaire de modification</h1>
   <form class="needs-validation" th:action="@{/messagerie/personne/update/{id}(id=*{id})}" method="post" th:object="${personneDto}">
       <div class="form-row">
@@ -22,19 +22,23 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
       </div>
    
      <div class="col-md-4 mb-3">
-          <label for="nom"></label>
+          <label for="nom">Nom:</label>
           <input class="form-control form-control-lg" type="text" th:field="*{nom}" >
           
       </div>
      <div class="col-md-4 mb-3">
-          <label for="prenom"> </label> 
-          <input class="form-control form-control-sm mb-3" type="text" th:field="*{prenom}">
+          <label for="prenom"> Prenom:</label> 
+          <input class="form-control form-control-lg" type="text" th:field="*{prenom}">
       </div>
-          <div class="col-md-4 mb-3">
-              <label></label>
+         <div class="col-md-4 mb-3">
+              <label for="fonctionDtoList">Fonction</label>
+               <input class="form-control form-control-lg" th:if="*{fonctionDtoList.size()}>0" th:field="*{fonctionDtoList[0]?.title}">
+                            <span th:unless="*{fonctionDtoList.size()}>0"></span>
+        
           </div>
+        
       <div>
-         <input class="btn btn-primary" type="submit" value="Update" />
+         <input class="btn btn-primary" type="submit" value="Mettre à jour" />
       </div>
     </div>
   </form>

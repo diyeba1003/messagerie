@@ -27,7 +27,7 @@ public class MessageDao implements MessageDaoInterface {
 
     @Override
     public void insertMessage(Message message) {
-        em.persist(message); // Fait le INSERT
+        em.persist(message);
         em.flush();
     }
 

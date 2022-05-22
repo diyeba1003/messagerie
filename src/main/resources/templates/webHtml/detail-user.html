@@ -10,44 +10,29 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 
     <body>
         <header th:replace="./layouts/header :: header"></header>
-<<<<<<< HEAD
+
         <div class="container">
             <div class="row alert text-warning">
                 <h3>
-                    <span>Liste de contacts</span>
+                    <span>Liste de contacts de </span>
                     <span th:if="${adresseDto.personneDto !=null}" th:text="${adresseDto.personneDto.nom}+' ('+ ${adresseDto.id}+')'"></span>
+                    <span th:if="${adresseDto.listeDto !=null}" th:text="${adresseDto.id}+ '(liste de diffusion)'"></span>
                 </h3>
             </div>
             <ol th:if="${adresseDto.personneDto !=null}">
                 <li th:each="contact:${adresseDto.adresseContactDtoList}">
-                    <span th:text="${contact?.id}"></span>
+                    <a  class="text-decoration-none" th:href="@{/messagerie/adresses/detail-user(id=${contact?.id})}"> <span th:text="${contact?.id}"></span></a>
                 </li>
             </ol>
-            <div th:if="${adresseDto.personneDto.fonctionDtoList.size()>0}"> 
-                <div th:each="fonctionDto:${adresseDto.personneDto.fonctionDtoList}"></div>
+            
+            <div th:if="${adresseDto.listeDto !=null}">
+                <ol th:if="${adresseDto.personneDto !=null}">
+                <li th:each="contact:${adresseDto.adresseContactDtoList}">
+                    <a  class="text-decoration-none" th:href="@{/messagerie/adresses/detail-user(id=${contact?.id})}"> <span th:text="${contact?.id}"></span></a>
+                </li>
+            </ol>
 
-                <span th:text="${fonctionDto?.title}"> </span>
+            </div>   
             </div>
-            <div th:unless="${adresseDto.personneDto !=null}">
-                <span class="text-info">Liste de diffusion</span>
-=======
-        <div class="container-fluid">
-            <div th:if="${adresseDto.personneDto !=null}">
-            <span th:text="${adresseDto.personneDto.nom}"> </span>
-            <span th:text="${adresseDto.personneDto.prenom}"> </span>
-                    <div th:if="${adresseDto.personneDto.fonctionDtoList.size()>0}"> 
-                        <div th:each="fonctionDto:${adresseDto.personneDto.fonctionDtoList}"></div>
-
-                <span th:text="${fonctionDto?.title}"> </span>
-                    </div>
-
-                </div>
-            <div th:unless="${adresseDto.personneDto !=null}">
-                <span class="text-info">Liste de diffusion</span>
-
-            </div>
->>>>>>> 85b1889342689db5f0019e1e1c2b284ded8b1c10
-            </div>
-
     </body>
 </html>

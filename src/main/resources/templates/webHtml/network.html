@@ -1,0 +1,54 @@
+<<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+
+    <head th:replace="./layouts/main-layout :: head"> </head>
+
+    <body>
+        <header th:replace="./layouts/header :: header"></header>
+
+        <div id="graphe">
+            
+        </div>
+        
+        <script th:unline="javascript">
+            
+          /*  let nodes= new vis.DataSet([]);
+            let edges= new vis.DataSet([]);
+            
+            let container= document.getElementById('graphe');
+            let data={
+                nodes: nodes,
+                edges: edges
+            };
+            let options={};
+            let network= new vis.Network(container, data, options);
+            
+            nodes.add(
+                    [
+                {
+                    id: 1,
+                    label: 'N1'
+                },
+                {
+                   id: 2 ,
+                   label: "N2"
+               }
+                    ]);
+            edges.add([
+                {
+                    from: 1,
+                    to: 2,
+                    label: "E1"
+                }
+            ]);   
+     * */
+             
+                </script>
+        
+    </body>
+</html>

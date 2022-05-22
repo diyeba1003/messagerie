@@ -62,7 +62,7 @@ public class MimeMessageReader {
         if (senderAddress == null || message.getSentDate() == null) {
             return null;
         }
-        InfoPersonne infoSender = new InfoPersonne(senderAddress.getAddress());
+        InfoPersonne infoSender = new InfoPersonne(senderAddress.getAddress().toLowerCase());
         if (senderAddress.getPersonal() != null) {
             String[] info = senderAddress.getPersonal().split(" ");
             if (info.length == 2) {
@@ -87,7 +87,7 @@ public class MimeMessageReader {
         if (toList != null) {
             for (InternetAddress adr : toList) {
                 if (Utils.isValidInternetAddress(adr)) { //Vérifie la validité de l'adresse
-                    InfoPersonne infoDestTo = new InfoPersonne(adr.getAddress());
+                    InfoPersonne infoDestTo = new InfoPersonne(adr.getAddress().toLowerCase());
                     // Dans certain fichier le nom de la personne est mal encodé ou trop long ==> Ignoré ces adresses
                     if (adr.getPersonal() != null  && adr.getPersonal().length() < 40) {
                         String[] info = adr.getPersonal().split(" ");
@@ -110,7 +110,7 @@ public class MimeMessageReader {
         InternetAddress[] ccList = (InternetAddress[]) message.getRecipients(Message.RecipientType.CC);
         if (ccList != null) {
             for (InternetAddress adr : ccList) {
-                InfoPersonne infoDestCc = new InfoPersonne(adr.getAddress());
+                InfoPersonne infoDestCc = new InfoPersonne(adr.getAddress().toLowerCase());
                 if (adr.getPersonal() != null) {
                     String[] info = adr.getPersonal().split(" ");
                     if (info.length == 2) {

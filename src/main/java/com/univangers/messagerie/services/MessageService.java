@@ -25,6 +25,7 @@ import com.univangers.messagerie.model.Liste;
 import com.univangers.messagerie.model.Message;
 import com.univangers.messagerie.model.Personne;
 import com.univangers.messagerie.model.PersonneFonction;
+import com.univangers.messagerie.util.Utils;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
@@ -32,7 +33,9 @@ import java.sql.Clob;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.mail.MessagingException;
@@ -644,6 +647,20 @@ public class MessageService implements MessageServiceInterface {
 
         }
         return insertedFileList;
+    }
+
+    @Override
+    public Map getStatPerMonth(Date startDate, Date endDate) {
+        List<MessageDto> messageDtoList = this.findMessagesDtoBetweenDates(startDate, endDate);
+        Map<String, Integer> statPerMonth=new HashMap<>();
+        for(int i = 1; i < 32; i++){
+            statPerMonth.put(""+i, 0);
+        }
+        for(MessageDto messageDto: messageDtoList){
+           String key= Utils.getDayNumberFromDate(messageDto.getDate());
+           statPerMonth.put(key, statPerMonth.get(key)+1);
+        }
+        return statPerMonth;
     }
 
 }

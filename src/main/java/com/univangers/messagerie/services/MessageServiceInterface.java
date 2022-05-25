@@ -7,6 +7,7 @@ package com.univangers.messagerie.services;
 import com.univangers.messagerie.dto.MessageDto;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 /**
  *
@@ -39,5 +40,7 @@ public interface MessageServiceInterface {
     public Integer countMessageDtoById(Integer idMessage);
 
     public List<MessageDto> findMessagesDtoBetweenDates(Date startDate, Date endDate);
+
+    public Map getStatPerMonth(Date startDate, Date endDate);
 
 }

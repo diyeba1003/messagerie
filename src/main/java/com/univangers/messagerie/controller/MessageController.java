@@ -5,6 +5,7 @@
 package com.univangers.messagerie.controller;
 
 import com.univangers.messagerie.dto.AdresseDto;
+import com.univangers.messagerie.dto.ContactDto;
 import com.univangers.messagerie.dto.DataCounter;
 import com.univangers.messagerie.dto.FichierDto;
 import com.univangers.messagerie.dto.FonctionDto;
@@ -229,9 +230,11 @@ public class MessageController {
         
         if (keyWord != null && filterType!=null) {
             if ("sender".equals(filterType)) {
-                messageDtoList = messageService.findMessageDtoBySender(keyWord);
+                messageDtoList = messageService.findMessageDtoBySender(keyWord,true);
             } else if ("subject".equals(filterType)) {
                 messageDtoList = messageService.findMessageDtoBySubject(keyWord);
+            }else if("destinataire".equals(filterType)){
+                //messageDtoList=messageService.findMessageDtoByDestinataire(keyWord, Boolean.TRUE);
             }
         } else { 
             messageDtoList = messageService.findAllMessageDto();
@@ -392,6 +395,31 @@ public class MessageController {
         result.put("messagePerMonth", messagePerMonth);
 
         return result;
+    }
+    @GetMapping("/contact-data")
+    public String getContactsData(@RequestParam("contactId") String contactId , Model model){
+        ContactDto contactDto= new ContactDto();
+        List<AdresseDto> contactsFrom=messageService.getContactsFrom(contactId);
+        List<AdresseDto> contactsTo=messageService.getContactsTo(contactId);
+        List<AdresseDto> contactsCc=messageService.getContactsCc(contactId);
+        
+        contactDto.setIdContact(contactId);
+        contactDto.setContactsFrom(contactsFrom);
+        contactDto.setContactsTo(contactsTo);
+        contactDto.setContactsCc(contactsCc);
+  
+        model.addAttribute("contactId", contactId);
+        model.addAttribute("contactsFrom", contactsFrom);
+        model.addAttribute("contactsTo", contactsTo);
+        model.addAttribute("contactsCc", contactsCc);
+        return "webHtml/network";
+       //return contactDto;
+    }
+    
+    @GetMapping("/contact-object-data")
+    public List<MessageDto> getContactsObjectData(@RequestParam("contactId") String contactId){
+       List<MessageDto> messageDtoList= messageService.findMessageDtoByDestinataire(contactId, Boolean.FALSE);
+        return messageDtoList;
     }
 
 }

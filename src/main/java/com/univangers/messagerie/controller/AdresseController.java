@@ -95,4 +95,8 @@ public class AdresseController {
         
         return result;
     }
+    @GetMapping("/network")
+    public String network(){
+        return "webHtml/network";
+    }
 }

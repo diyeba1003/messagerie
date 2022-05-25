@@ -4,6 +4,7 @@
  */
 package com.univangers.messagerie.services;
 
+import com.univangers.messagerie.dto.AdresseDto;
 import com.univangers.messagerie.dto.MessageDto;
 import java.util.Date;
 import java.util.List;
@@ -30,14 +31,23 @@ public interface MessageServiceInterface {
 
     public Integer countMessagesDtoBetweenDates(Date startDate, Date endDate);
 
-    public List<MessageDto> findMessageDtoBySender(String senderId);
+    public List<MessageDto> findMessageDtoBySender(String senderId, Boolean isSearch);
 
     public List<MessageDto> findMessageDtoBySubject(String keyWord);
 
-    public List<MessageDto> findMessageDtoByDestinataire(String keyWord);
+    public List<MessageDto> findMessageDtoByDestinataire(String keyWord, Boolean isSearch);
+
+    public List<MessageDto> findMessageDtoByDestinataireCc(String keyWord, Boolean isSearch);
 
     public Integer countMessageDtoById(Integer idMessage);
 
     public List<MessageDto> findMessagesDtoBetweenDates(Date startDate, Date endDate);
+    
+    public List<AdresseDto> getContactsFrom(String idContact);
+    
+    public List<AdresseDto> getContactsTo(String idContact);
+    
+    public List<AdresseDto> getContactsCc(String idContact);
+    
 
 }

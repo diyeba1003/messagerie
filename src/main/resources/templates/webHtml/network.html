@@ -1,54 +1,106 @@
-<<!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
--->
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
       xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
 
     <head th:replace="./layouts/main-layout :: head"> </head>
-
     <body>
         <header th:replace="./layouts/header :: header"></header>
-
-        <div id="graphe">
-            
+        <div class="container-fluid">
+            <div class="row mt-4 border border-warning p-4" id="mynetwork" style="width: 100%; height: 1000px;"></div>
         </div>
-        
-        <script th:unline="javascript">
+
+        <script th:inline="javascript">
+            //<![CDATA[
+            var contactId = [[${contactId}]];
+            var contactsFrom = [[${contactsFrom}]];
+            var contactsTo=[[${contactsTo}]];
+            var contactsCc=[[${contactsCc}]];
             
-          /*  let nodes= new vis.DataSet([]);
-            let edges= new vis.DataSet([]);
+            const contactFromData = Object.values(contactsFrom);
+            const contactToData=Object.values(contactsTo);
+            const contactCcData=Object.values(contactsCc);
             
-            let container= document.getElementById('graphe');
-            let data={
+            var nodes = new vis.DataSet([]);
+            var edges = new vis.DataSet([]);
+
+            const TO_ID = "TO";
+            const TO = "Messages envoyé à";
+            const FROM_ID = "FROM";
+            const FROM = "Messages reçus de";
+            const FROM_CC_ID = "FROM_CC";
+            const FROM_CC = "Messages reçus en copie de";
+
+            nodes.add({id: contactId, label: contactId,color:{border:"aqua",background:"aqua"}});
+            nodes.add({id: TO_ID, label: TO, shape: "box", size: 60 , color:{border:"pink", background:"pink"}});
+            nodes.add({id: FROM_ID, label: FROM, shape: "box",color:{border:"yellow",background:"yellow"}});
+            nodes.add({id: FROM_CC_ID, label: FROM_CC, shape: "box"});
+
+            // Set Edges
+            edges.add({from: contactId, to: TO_ID});
+            edges.add({from: contactId, to: FROM_ID});
+            edges.add({from: contactId, to: FROM_CC_ID});
+            
+            //alert(contactFromData.length);
+
+            
+             for (let i = 0; i < contactFromData.length; i++) {
+                console.log(">> ["+i +"] "+contactFromData[i].id);
+                nodes.add({id:  FROM_ID+"_"+contactFromData[i].id, label: contactFromData[i].id });
+                edges.add({from: FROM_ID, to: FROM_ID+"_"+contactFromData[i].id});
+             }
+            
+            console.log(">> "+JSON.stringify(contactToData));
+            
+            for(let j=0;j< contactToData.length;j++){
+                console.log(">> ["+j +"] "+contactToData[j].id);
+                if(contactToData[j].id !== contactId){
+                    nodes.add({id: TO_ID+"_"+contactToData[j].id, label:contactToData[j].id, color:"pink"});
+                    edges.add({from:TO_ID, to:TO_ID+"_"+contactToData[j].id});
+                }
+            }
+             
+              for(let k=0;k< contactCcData.length;k++){
+                console.log(">> ["+k +"] "+contactCcData[k].id);
+                if(contactCcData[k].id !== contactId){
+                    nodes.add({id: FROM_CC_ID+"_"+contactCcData[k].id, label:contactCcData[k].id});
+                    edges.add({from:FROM_CC_ID, to:FROM_CC_ID+"_"+contactCcData[k].id});
+                }
+            }
+     
+              
+            // create a network
+            var container = document.getElementById("mynetwork");
+            var data = {
                 nodes: nodes,
                 edges: edges
             };
-            let options={};
-            let network= new vis.Network(container, data, options);
-            
-            nodes.add(
-                    [
-                {
-                    id: 1,
-                    label: 'N1'
+            var options = {
+                nodes: {
+                    shape: "ellipse",
+                    widthConstraint:200
                 },
-                {
-                   id: 2 ,
-                   label: "N2"
-               }
-                    ]);
-            edges.add([
-                {
-                    from: 1,
-                    to: 2,
-                    label: "E1"
+                edges: {
+                    arrows: "to"
+                },
+                layout: {
+                    hierarchical : {
+                        enabled: true,
+                        direction : 'UD',
+                        sortMethod : 'directed',
+                        nodeSpacing:300,
+                        levelSeparation:200,
+                        parentCentralization:true
+                    }
+                },
+                interaction:{
+                    dragNodes:true
+                },
+                physics:{
+                    enabled:true
                 }
-            ]);   
-     * */
-             
-                </script>
-        
+            };
+            var network = new vis.Network(container, data, options);
+            //]]>
+        </script>
     </body>
 </html>

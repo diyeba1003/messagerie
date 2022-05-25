@@ -20,7 +20,7 @@ public interface MessageDaoInterface {
 
     public List<Message> findAllMessage();
 
-    public List<Message> findMessageBySender(String idAdresse);
+    public List<Message> findMessageBySender(String idAdresse, Boolean isSearch);
 
     public Integer countMessage();
 
@@ -30,7 +30,9 @@ public interface MessageDaoInterface {
 
     public List<Message> findMessageBySubject(String keyWord);
 
-    public List<Message> findMessageByDestinataire(String keyWord);
+    public List<Message> findMessageByDestinataire(String keyWord, Boolean isSearch);
+    
+   public List<Message> findMessageByDestinataireCc(String keyword, Boolean isSearch);
 
     public Integer countMessagesBetweenDates(Date startDate, Date endDate);
 

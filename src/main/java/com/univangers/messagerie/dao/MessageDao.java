@@ -69,10 +69,16 @@ public class MessageDao implements MessageDaoInterface {
     }
 
     @Override
-    public List<Message> findMessageBySender(String idAdresse) {
+    public List<Message> findMessageBySender(String idAdresse, Boolean isSearch) {
         List<Message> messageList;
+        String queryStr;
         try {
-            messageList = em.createQuery("SELECT m FROM Message m WHERE LOWER(m.sender.idADRESSE) LIKE LOWER(CONCAT('%',:idAdresse,'%'))")
+            if(isSearch){
+                queryStr = "SELECT m FROM Message m WHERE LOWER(m.sender.idADRESSE) LIKE LOWER(CONCAT('%',:idAdresse,'%'))";
+            } else{
+                queryStr = "SELECT m FROM Message m WHERE m.sender.idADRESSE = :idAdresse";
+            }
+            messageList = em.createQuery(queryStr)
                     .setParameter("idAdresse", idAdresse).getResultList();
         } catch (NoResultException nre) {
             messageList = new ArrayList<>();
@@ -93,17 +99,40 @@ public class MessageDao implements MessageDaoInterface {
     }
 
     @Override
-    public List<Message> findMessageByDestinataire(String keyWord) {
+    public List<Message> findMessageByDestinataire(String keyWord, Boolean isSearch) {
         List<Message> messageList;
+        String queryStr;
         try {
-            messageList = em.createQuery("SELECT m FROM Message m WHERE m.destinataires=:keyWord").setParameter("keyWord", keyWord).getResultList();
+            if(isSearch){
+                queryStr = "SELECT m FROM Message m WHERE LOWER(m.sender) LIKE LOWER(CONCAT( '%',:keyWord,'%')) AND m.sender IN m.destinataires";
+            } else{
+                queryStr = "SELECT m.* FROM MESSAGE m, DESTINATAIRE d WHERE m.idMESSAGE = d.MESSAGE_ID AND d.ADRESSE_ID = :keyWord";
+            }
+            messageList = em.createNativeQuery(queryStr, Message.class).setParameter("keyWord", keyWord).getResultList();
         } catch (NoResultException nre) {
             messageList = new ArrayList<>();
 
         }
         return messageList;
     }
+    
+     @Override
+    public List<Message> findMessageByDestinataireCc(String keyWord, Boolean isSearch) {
+        List<Message> messageList;
+        String queryStr;
+        try {
+            if(isSearch){
+                queryStr = "SELECT m FROM Message m WHERE LOWER(m.sender) LIKE LOWER(CONCAT( '%',:keyWord,'%')) AND m.sender IN m.destinataires";
+            } else{
+                queryStr = "SELECT m.* FROM MESSAGE m, DESTINATAIRE_COPIE dc WHERE m.idMESSAGE = dc.MESSAGE_ID AND dc.ADRESSE_ID = :keyWord";
+           }
+            messageList = em.createNativeQuery(queryStr, Message.class).setParameter("keyWord", keyWord).getResultList();
+        } catch (NoResultException nre) {
+            messageList = new ArrayList<>();
 
+        }
+        return messageList;
+    }
     @Override
     public Integer countMessagesBetweenDates(Date startDate, Date endDate) {
         Integer count = 0;

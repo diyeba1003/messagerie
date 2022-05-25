@@ -25,18 +25,14 @@ import com.univangers.messagerie.model.Liste;
 import com.univangers.messagerie.model.Message;
 import com.univangers.messagerie.model.Personne;
 import com.univangers.messagerie.model.PersonneFonction;
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
-import java.sql.Clob;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.mail.MessagingException;
-import javax.sql.rowset.serial.SerialClob;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -130,8 +126,8 @@ public class MessageService implements MessageServiceInterface {
     }
 
     @Override
-    public List<MessageDto> findMessageDtoBySender(String senderId) {
-        List<Message> messageList = messageDao.findMessageBySender(senderId);
+    public List<MessageDto> findMessageDtoBySender(String senderId, Boolean isSearch) {
+        List<Message> messageList = messageDao.findMessageBySender(senderId, isSearch);
         List<MessageDto> messageDtoList = new ArrayList<>();
         if (!messageList.isEmpty()) {
             for (Message m : messageList) {
@@ -155,8 +151,8 @@ public class MessageService implements MessageServiceInterface {
     }
 
     @Override
-    public List<MessageDto> findMessageDtoByDestinataire(String keyWord) {
-        List<Message> messageList = messageDao.findMessageByDestinataire(keyWord);
+    public List<MessageDto> findMessageDtoByDestinataire(String keyWord, Boolean isSearch) {
+        List<Message> messageList = messageDao.findMessageByDestinataire(keyWord, isSearch);
         List<MessageDto> messageDtoList = new ArrayList<>();
         if (!messageList.isEmpty()) {
             for (Message m : messageList) {
@@ -165,11 +161,70 @@ public class MessageService implements MessageServiceInterface {
         }
         return messageDtoList;
     }
-
+    
+     @Override
+    public List<MessageDto> findMessageDtoByDestinataireCc(String keyWord, Boolean isSearch) {
+        List<Message> messageList = messageDao.findMessageByDestinataireCc(keyWord, isSearch);
+        List<MessageDto> messageDtoList = new ArrayList<>();
+        if (!messageList.isEmpty()) {
+            for (Message m : messageList) {
+                messageDtoList.add(convertToDto(m));
+            }
+        }
+        return messageDtoList;
+    }
+    
     @Override
     public Integer countMessageDtoById(Integer idMessage) {
         Integer count = messageDao.countMessageById(idMessage);
         return count;
+    }
+
+    @Override
+    public List<AdresseDto> getContactsFrom(String idContact) {
+        List<Message> listMessageFrom = messageDao.findMessageBySender(idContact, Boolean.FALSE);
+        List<AdresseDto> contactsFrom = new ArrayList<>();
+        for(Message message: listMessageFrom){
+            for(Adresse adr: message.getDestinataires()){
+                AdresseDto adresseDto = convertToDto(adr);
+                if(!contactsFrom.contains(adresseDto) && !idContact.equalsIgnoreCase(adresseDto.getId())){
+                    contactsFrom.add(adresseDto);
+                }
+            }
+        }
+
+        return contactsFrom;
+    }
+
+    @Override
+    public List<AdresseDto> getContactsTo(String idContact) {
+        List<Message> listMessageTo = messageDao.findMessageByDestinataire(idContact, Boolean.FALSE);
+        List<AdresseDto> contactsTo = new ArrayList<>();
+        for(Message message: listMessageTo){
+            for(Adresse adrTo: message.getDestinataires()){
+                AdresseDto adresseDto=convertToDto(adrTo);
+                if(!contactsTo.contains(adresseDto) && !idContact.equalsIgnoreCase(adresseDto.getId())){
+                    contactsTo.add(adresseDto);
+                }
+            }
+        }
+        
+        return contactsTo;
+    }
+
+    @Override
+    public List<AdresseDto> getContactsCc(String idContact) {
+      List<Message> listMessageCc = messageDao.findMessageByDestinataireCc(idContact, Boolean.FALSE);
+        List<AdresseDto> contactsCc = new ArrayList<>();
+        for(Message message: listMessageCc){
+            for(Adresse adrCc: message.getDestinataires()){
+                 AdresseDto adresseDto=convertToDto(adrCc);
+                if(!contactsCc.contains(adresseDto) && !idContact.equalsIgnoreCase(adresseDto.getId())){
+                    contactsCc.add(adresseDto);
+                }
+            }
+        }
+        return contactsCc;
     }
 
     /**
@@ -645,5 +700,11 @@ public class MessageService implements MessageServiceInterface {
         }
         return insertedFileList;
     }
-
+    
+    public AdresseDto convertToDto(Adresse adresse){
+        AdresseDto adresseDto = new AdresseDto();
+        adresseDto.setId(adresse.getIdADRESSE());
+        return adresseDto;
+    }
+   
 }

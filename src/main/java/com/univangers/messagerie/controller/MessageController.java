@@ -334,6 +334,9 @@ public class MessageController {
         final Date end_12 = Utils.stringToDate("2010-12-31 23:59:59");
         
         Map<String, Integer>  statsPerMonth= new HashMap<>();   
+        String address="\"matylayes\"ouare'@gmail.com'";
+        System.out.println("adresse valide: "+Utils.getClearString(address));
+        
         
         DataCounter counter = new DataCounter();
         Integer countMessages = messageService.countMessageDto();

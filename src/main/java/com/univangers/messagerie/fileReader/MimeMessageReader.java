@@ -46,7 +46,7 @@ public class MimeMessageReader {
     public void setNameStatic(String attachsFilesDir) {
         MimeMessageReader.ATTACHS_FILE_DIR = attachsFilesDir;
     }
-    
+
     public static MailObject readMessageFile(String filePath) throws FileNotFoundException, MessagingException, IOException {
         InputStream inputStream = new FileInputStream(filePath);
         MailObject mailObject = readMessageInputStream(inputStream);
@@ -68,7 +68,7 @@ public class MimeMessageReader {
         if (senderAddress == null || message.getSentDate() == null) {
             return null;
         }
-        InfoPersonne infoSender = new InfoPersonne(senderAddress.getAddress().toLowerCase());
+        InfoPersonne infoSender = new InfoPersonne(Utils.getClearString(senderAddress.getAddress().toLowerCase()));
         if (senderAddress.getPersonal() != null) {
             String[] info = senderAddress.getPersonal().split(" ");
             if (info.length == 2) {
@@ -93,9 +93,9 @@ public class MimeMessageReader {
         if (toList != null) {
             for (InternetAddress adr : toList) {
                 if (Utils.isValidInternetAddress(adr)) { //Vérifie la validité de l'adresse
-                    InfoPersonne infoDestTo = new InfoPersonne(adr.getAddress().toLowerCase());
+                    InfoPersonne infoDestTo = new InfoPersonne(Utils.getClearString(adr.getAddress().toLowerCase()));
                     // Dans certain fichier le nom de la personne est mal encodé ou trop long ==> Ignoré ces adresses
-                    if (adr.getPersonal() != null  && adr.getPersonal().length() < 40) {
+                    if (adr.getPersonal() != null && adr.getPersonal().length() < 40) {
                         String[] info = adr.getPersonal().split(" ");
                         if (info.length == 2) {
                             infoDestTo.setLastName(info[0]);
@@ -116,7 +116,7 @@ public class MimeMessageReader {
         InternetAddress[] ccList = (InternetAddress[]) message.getRecipients(Message.RecipientType.CC);
         if (ccList != null) {
             for (InternetAddress adr : ccList) {
-                InfoPersonne infoDestCc = new InfoPersonne(adr.getAddress().toLowerCase());
+                InfoPersonne infoDestCc = new InfoPersonne(Utils.getClearString(adr.getAddress().toLowerCase()));
                 if (adr.getPersonal() != null) {
                     String[] info = adr.getPersonal().split(" ");
                     if (info.length == 2) {
@@ -161,8 +161,7 @@ public class MimeMessageReader {
         return result;
     }
 
-    private static String getTextFromMimeMultipart(
-            MimeMultipart mimeMultipart) throws MessagingException, IOException {
+    private static String getTextFromMimeMultipart(MimeMultipart mimeMultipart) throws MessagingException, IOException {
         String result = "";
         int count = mimeMultipart.getCount();
         for (int i = 0; i < count; i++) {

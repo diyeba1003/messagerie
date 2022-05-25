@@ -6,6 +6,7 @@ package com.univangers.messagerie.dao;
 
 import com.univangers.messagerie.model.Liste;
 import javax.persistence.EntityManager;
+import javax.persistence.NoResultException;
 import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
 import org.springframework.stereotype.Repository;
@@ -30,9 +31,13 @@ public class ListeDao implements ListeDaoInterface {
     @Override
     public Integer countListe() {
         Integer count = 0;
-        Object object = em.createQuery("SELECT COUNT(l) FROM Liste l").getSingleResult();
-        if (object != null) {
-            count = (int) (long) object;
+        try {
+            Object object = em.createQuery("SELECT COUNT(l) FROM Liste l").getSingleResult();
+            if (object != null) {
+                count = (int) (long) object;
+            }
+        } catch (NoResultException e) {
+            count = 0;
         }
         return count;
     }
@@ -44,7 +49,7 @@ public class ListeDao implements ListeDaoInterface {
 
     @Override
     public void deleteListe(Liste liste) {
-        if(liste!= null){
+        if (liste != null) {
             em.remove(liste);
             System.out.println(">> Success remove Liste !!!");
             em.flush();

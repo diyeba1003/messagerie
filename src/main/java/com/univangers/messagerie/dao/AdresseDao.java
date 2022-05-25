@@ -54,9 +54,13 @@ public class AdresseDao implements AdresseDaoInterface {
     @Override
     public Integer countAdresse() {
         Integer count = 0;
-        Object object = em.createQuery("SELECT COUNT(a) FROM Adresse a ").getSingleResult();
-        if (object != null) {
-            count = (int) (long) object;
+        try {
+            Object object = em.createQuery("SELECT COUNT(a) FROM Adresse a ").getSingleResult();
+            if (object != null) {
+                count = (int) (long) object;
+            }
+        } catch (NoResultException e) {
+            count = 0;
         }
         return count;
     }
@@ -69,9 +73,9 @@ public class AdresseDao implements AdresseDaoInterface {
     @Override
     public Boolean adresseHasContact(String idADRESSE, String idContact) {
         Adresse adresse = em.find(Adresse.class, idADRESSE);
-        if(adresse != null){
-            for(Adresse contact: adresse.getAdresseContactList()){
-                if(contact.getIdADRESSE().equalsIgnoreCase(idContact)){
+        if (adresse != null) {
+            for (Adresse contact : adresse.getAdresseContactList()) {
+                if (contact.getIdADRESSE().equalsIgnoreCase(idContact)) {
                     return true;
                 }
             }

@@ -55,5 +55,8 @@ public class Utils {
         return String.valueOf(localDate.getDayOfMonth());
 
     }
-
+  public static String getClearString(String str){
+       String clearStr = str.replace("'", "").replace("\"", "");
+       return clearStr;
+  }
 }

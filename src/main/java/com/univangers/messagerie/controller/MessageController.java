@@ -77,11 +77,6 @@ public class MessageController {
     @Value("${message.files.directory}")
     private String messageFilesDir;
 
-    @GetMapping("/hello")
-    public String helloWorld() {
-        return "Hello world !!!";
-    }
-
     @GetMapping("/test-file-read/{nomFichier}")
     public MailObject afficheMessage(@PathVariable String nomFichier) throws FileNotFoundException, MessagingException, IOException {
 
@@ -335,12 +330,7 @@ public class MessageController {
         final Date end_10 = Utils.stringToDate("2010-10-31 23:59:59");
         final Date end_11 = Utils.stringToDate("2010-11-30 23:59:59");
         final Date end_12 = Utils.stringToDate("2010-12-31 23:59:59");
-        
-        Map<String, Integer>  statsPerMonth= new HashMap<>();   
-        String address="\"matylayes\"ouare'@gmail.com'";
-        System.out.println("adresse valide: "+Utils.getClearString(address));
-        
-        
+               
         DataCounter counter = new DataCounter();
         Integer countMessages = messageService.countMessageDto();
         Integer countAdresses = adresseService.countAdresseDto();
@@ -385,7 +375,7 @@ public class MessageController {
                     break;
 
             }
-            statsPerMonth = messageService.getStatPerMonth(startDate, endDate);
+            Map<String, Integer>  statsPerMonth = messageService.getStatPerMonth(startDate, endDate);
             model.addAttribute("statsPerMonth", statsPerMonth);
         } else{
             Integer count_06 = messageService.countMessagesDtoBetweenDates(start_06, end_06);
@@ -460,7 +450,7 @@ public class MessageController {
 
         return result;
     }
-    @GetMapping("/contact-data")
+    @GetMapping("/contact-data-old")
     public String getContactsData(@RequestParam("contactId") String contactId , Model model){
         ContactDto contactDto= new ContactDto();
         List<AdresseDto> contactsFrom=messageService.getContactsFrom(contactId);
@@ -587,10 +577,8 @@ public class MessageController {
                     }
                     mDto.setFichierDtoList(fichierDtoList);
                 }
-
                 messageService.insertMessageDto(mDto);
-                // Path path = Paths.get("/home/etud/NetBeansProjects/messagerie/" + fileName);
-                //Files.copy(file.getInputStream(), path, StandardCopyOption.REPLACE_EXISTING);
+                
             } catch (IOException | MessagingException ex) {
                 if (ex instanceof FileSizeLimitExceededException) {
                     attributes.addFlashAttribute("alert", "File size exceeds limit!");
@@ -615,27 +603,14 @@ public class MessageController {
         File file = new File(filePath);
 
         if (file.exists()) {
-
             //get the mimetype
             String mimeType = URLConnection.guessContentTypeFromName(file.getName());
             if (mimeType == null) {
-                //unknown mimetype so set the mimetype to application/octet-stream
                 mimeType = "application/octet-stream";
             }
 
             response.setContentType(mimeType);
 
-            /**
-             * In a regular HTTP response, the Content-Disposition response
-             * header is a header indicating if the content is expected to be
-             * displayed inline in the browser, that is, as a Web page or as
-             * part of a Web page, or as an attachment, that is downloaded and
-             * saved locally.
-             *
-             */
-            /**
-             * Here we have mentioned it to show inline
-             */
             response.setHeader("Content-Disposition", String.format("inline; filename=\"" + file.getName() + "\""));
 
             //Here we have mentioned it to show as attachment

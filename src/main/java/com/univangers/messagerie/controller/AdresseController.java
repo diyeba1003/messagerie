@@ -5,7 +5,9 @@
 package com.univangers.messagerie.controller;
 
 import com.univangers.messagerie.dto.AdresseDto;
+import com.univangers.messagerie.dto.ContactDto;
 import com.univangers.messagerie.services.AdresseServiceInterface;
+import com.univangers.messagerie.services.MessageServiceInterface;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -30,73 +32,76 @@ public class AdresseController {
 
     @Autowired
     private AdresseServiceInterface adresseService;
-    
+
+    @Autowired
+    private MessageServiceInterface messageService;
+
     @GetMapping("/detail-user")
-    public String info(Model model, @RequestParam("id") String id) {
+    public String info(Model model,
+            @RequestParam("id") String id,
+            @RequestParam(value = "viewType", required = false) String viewType
+    ) {
+        String selectedViewType = "liste_view";
         AdresseDto adresseDto = adresseService.findAdresseDtoById(id);
         model.addAttribute("adresseDto", adresseDto);
+        if (viewType != null) {
+            selectedViewType = viewType;
+        }
+
+        if ("network_view".equals(selectedViewType)) {
+            ContactDto contactDto = new ContactDto();
+            List<AdresseDto> contactsFrom = messageService.getContactsFrom(id);
+            List<AdresseDto> contactsTo = messageService.getContactsTo(id);
+            List<AdresseDto> contactsCc = messageService.getContactsCc(id);
+
+            contactDto.setIdContact(id);
+            contactDto.setContactsFrom(contactsFrom);
+            contactDto.setContactsTo(contactsTo);
+            contactDto.setContactsCc(contactsCc);
+
+            model.addAttribute("contactId", id);
+            model.addAttribute("contactsFrom", contactsFrom);
+            model.addAttribute("contactsTo", contactsTo);
+            model.addAttribute("contactsCc", contactsCc);
+        }
+        model.addAttribute("selectedViewType", selectedViewType);
+
         return "/webHtml/detail-user";
     }
-    
+
     @GetMapping("/user-infos")
     public String findAllPersonne(Model model) {
         List<AdresseDto> adresseDtoList = adresseService.findAllAdresseDto();
         model.addAttribute("adresseDtoList", adresseDtoList);
         return "/webHtml/user-infos";
     }
-     @GetMapping("/nbAdresse")
+
+    @GetMapping("/nbAdresse")
     public String findAll(Model model) {
         List<AdresseDto> adresseDtoList = adresseService.findAllAdresseDto();
         model.addAttribute("adresseDtoList", adresseDtoList);
         return "/webHtml/nombre-adresse";
     }
+
     @GetMapping("/liste-info")
     public String findAllListe(Model model) {
         List<AdresseDto> adresseDtoList = adresseService.findAllAdresseDto();
         model.addAttribute("adresseDtoList", adresseDtoList);
         return "/webHtml/liste-info";
     }
-    
-    @GetMapping("/all")
-    public List<AdresseDto> findAll() {
-        List<AdresseDto> adresseDtoList = adresseService.findAllAdresseDto();
-        
-        return adresseDtoList;
-    }
-    
+
     @RequestMapping("/persToListe/{adr}")
-    public String changePersonneToListe(@PathVariable("adr") String adr){
-        System.out.println("adresse: "+adr);
+    public String changePersonneToListe(@PathVariable("adr") String adr) {
+        System.out.println("adresse: " + adr);
         adresseService.changePersonneDtoToListeDto(adr);
         return "redirect:/messagerie/adresses/user-infos";
     }
-    
-   @RequestMapping("/listeToPers/{adr}")
-    public String changeListeToPersonne(@PathVariable("adr") String adr){
-            System.out.println("adresse: "+adr);
+
+    @RequestMapping("/listeToPers/{adr}")
+    public String changeListeToPersonne(@PathVariable("adr") String adr) {
+        System.out.println("adresse: " + adr);
         adresseService.changeListeDtoToPersonneDto(adr);
         return "redirect:/messagerie/adresses/user-infos";
     }
-    
-    @GetMapping("/contacts/{id}")
-    public List<AdresseDto> findContactList(@PathVariable("id") String id) {
-        List<AdresseDto> adresseDtoList = adresseService.getAdresseDtoContactList(id);
-        
-        return adresseDtoList;
-    }
-    
-    @GetMapping("/adr-has-contact")
-    public Map adrHasContactList(@RequestParam("idAdresse") String idAdresse, @RequestParam("idContact") String idContact) {
-        Boolean adrHasContact = adresseService.adresseDtoHasContact(idAdresse, idContact);
-        
-        Map<String, Boolean> result = new HashMap<>();
-        
-        result.put("adrHasContact", adrHasContact);
-        
-        return result;
-    }
-    @GetMapping("/network")
-    public String network(){
-        return "webHtml/network";
-    }
+
 }

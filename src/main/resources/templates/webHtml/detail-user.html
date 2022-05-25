@@ -11,28 +11,157 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     <body>
         <header th:replace="./layouts/header :: header"></header>
 
-        <div class="container">
-            <div class="row alert text-warning">
-                <h3>
-                    <span>Liste de contacts de </span>
-                    <span th:if="${adresseDto.personneDto !=null}" th:text="${adresseDto.personneDto.nom}+' ('+ ${adresseDto.id}+')'"></span>
-                    <span th:if="${adresseDto.listeDto !=null}" th:text="${adresseDto.id}+ '(liste de diffusion)'"></span>
-                </h3>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-1">
+                    <span>&nbsp;&nbsp;</span>
+                </div>
+                <div class="col-9" th:if="${selectedViewType == 'liste_view'}">
+                    <div class="row alert text-warning">
+                        <h3>
+                            <span>Liste de contacts de </span>
+                            <span th:if="${adresseDto.personneDto !=null}" th:text="${adresseDto.personneDto.nom}+' ('+ ${adresseDto.id}+')'"></span>
+                            <span th:if="${adresseDto.listeDto !=null}" th:text="${adresseDto.id}+ '(liste de diffusion)'"></span>
+                        </h3>
+                    </div>
+                    <div>
+                        <ol th:if="${adresseDto.adresseContactDtoList !=null}">
+                            <li th:each="contact:${adresseDto.adresseContactDtoList}">
+                                <a  class="text-decoration-none" th:href="@{/messagerie/adresses/detail-user(id=${contact?.id})}"> <span th:text="${contact?.id}"></span></a>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-9 mt-2" th:if="${selectedViewType == 'network_view'}">
+                    <div class="border border-info p-4" id="mynetwork" style="width: 100%; height: 1000px;"></div>
+                    
+                </div>
+                <div class="col-2 mt-4">
+                    <form class="d-flex"  method="get" th:action="@{/messagerie/adresses/detail-user}">
+                        <input type="hidden" name="id" th:value="${adresseDto.id}" />
+                        <table>
+                            <tr>
+                                <td>
+                                    <label ><strong>Choisir la vue: </strong></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select class="form-select form-select-md" aria-label=".form-select-lg example" name="viewType" th:value="${viewType}">
+                                        <option value="liste_view"> Liste simple</option>
+                                        <option value="network_view"> Graphe réseaux</option>
+                                    </select> 
+                                </td>
+                                <td>
+                                    <button class="btn btn-warning d-inline" type="submit">Go!</button>
+                                </td>
+                            </tr> 
+                        </table>
+                    </form> 
+                </div>
             </div>
-            <ol th:if="${adresseDto.personneDto !=null}">
-                <li th:each="contact:${adresseDto.adresseContactDtoList}">
-                    <a  class="text-decoration-none" th:href="@{/messagerie/adresses/detail-user(id=${contact?.id})}"> <span th:text="${contact?.id}"></span></a>
-                </li>
-            </ol>
+        </div> 
+        
+         <script th:inline="javascript">
+            //<![CDATA[
+            var contactId = [[${contactId}]];
+            var contactsFrom = [[${contactsFrom}]];
+            var contactsTo=[[${contactsTo}]];
+            var contactsCc=[[${contactsCc}]];
             
-            <div th:if="${adresseDto.listeDto !=null}">
-                <ol th:if="${adresseDto.personneDto !=null}">
-                <li th:each="contact:${adresseDto.adresseContactDtoList}">
-                    <a  class="text-decoration-none" th:href="@{/messagerie/adresses/detail-user(id=${contact?.id})}"> <span th:text="${contact?.id}"></span></a>
-                </li>
-            </ol>
+            const contactFromData = Object.values(contactsFrom);
+            const contactToData=Object.values(contactsTo);
+            const contactCcData=Object.values(contactsCc);
+            
+            var nodes = new vis.DataSet([]);
+            var edges = new vis.DataSet([]);
 
-            </div>   
-            </div>
+            const TO_ID = "TO";
+            const TO = "Messages envoyé à";
+            const FROM_ID = "FROM";
+            const FROM = "Messages reçus de";
+            const FROM_CC_ID = "FROM_CC";
+            const FROM_CC = "Messages reçus en copie de";
+
+            nodes.add({id: contactId, label: contactId,color:{border:"aqua",background:"aqua"}});
+            nodes.add({id: TO_ID, label: TO, shape: "box", size: 60 , color:{border:"pink", background:"#7F8489"}});
+            nodes.add({id: FROM_ID, label: FROM, shape: "box",color:{border:"green",background:"green"}});
+            nodes.add({id: FROM_CC_ID, label: FROM_CC, shape: "box"});
+
+            // Set Edges
+            edges.add({from: contactId, to: TO_ID});
+            edges.add({from: contactId, to: FROM_ID});
+            edges.add({from: contactId, to: FROM_CC_ID});
+            
+            //alert(contactFromData.length);
+
+            
+             for (let i = 0; i < contactFromData.length; i++) {
+                nodes.add({id:  FROM_ID+"_"+contactFromData[i].id, label: contactFromData[i].id });
+                edges.add({from: FROM_ID, to: FROM_ID+"_"+contactFromData[i].id});
+                if(i > 30){
+                    break;
+                }
+             }
+                        
+            for(let j=0;j< contactToData.length;j++){
+                if(contactToData[j].id !== contactId){
+                    nodes.add({id: TO_ID+"_"+contactToData[j].id, label:contactToData[j].id, color:"#FF2A00"});
+                    edges.add({from:TO_ID, to:TO_ID+"_"+contactToData[j].id});
+                }
+                if(j > 30){
+                    break;
+                }
+            }
+             
+              for(let i = 0; i < contactCcData.length; i++){
+                if(contactCcData[i].id !== contactId){
+                    nodes.add({id: FROM_CC_ID+"_"+contactCcData[i].id, label:contactCcData[i].id});
+                    edges.add({from:FROM_CC_ID, to:FROM_CC_ID+"_"+contactCcData[i].id});
+                }
+                if(i > 30){
+                    break;
+                }
+            }
+     
+              
+            // create a network
+            var container = document.getElementById("mynetwork");
+            var data = {
+                nodes: nodes,
+                edges: edges
+            };
+            var options = {
+                autoResize: true,
+                height: '100%',
+                width: '100%',
+                nodes: {
+                    shape: "ellipse",
+                    widthConstraint:200
+                },
+                edges: {
+                    arrows: "to"
+                },
+                layout: {
+                    hierarchical : {
+                        enabled: false,
+                        nodeSpacing:300,
+                        levelSeparation:200,
+                        parentCentralization:true
+                    }
+                },
+                interaction:{
+                    dragNodes:true,
+                    navigationButtons: true,
+                    keyboard: true
+                },
+                physics:{
+                    enabled:true
+                }
+               
+            };
+            var network = new vis.Network(container, data, options);
+            //]]>
+        </script>
     </body>
 </html>

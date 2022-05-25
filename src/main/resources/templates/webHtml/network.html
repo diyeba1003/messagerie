@@ -31,8 +31,8 @@
             const FROM_CC = "Messages reçus en copie de";
 
             nodes.add({id: contactId, label: contactId,color:{border:"aqua",background:"aqua"}});
-            nodes.add({id: TO_ID, label: TO, shape: "box", size: 60 , color:{border:"pink", background:"pink"}});
-            nodes.add({id: FROM_ID, label: FROM, shape: "box",color:{border:"yellow",background:"yellow"}});
+            nodes.add({id: TO_ID, label: TO, shape: "box", size: 60 , color:{border:"pink", background:"#7F8489"}});
+            nodes.add({id: FROM_ID, label: FROM, shape: "box",color:{border:"green",background:"green"}});
             nodes.add({id: FROM_CC_ID, label: FROM_CC, shape: "box"});
 
             // Set Edges
@@ -44,7 +44,6 @@
 
             
              for (let i = 0; i < contactFromData.length; i++) {
-                console.log(">> ["+i +"] "+contactFromData[i].id);
                 nodes.add({id:  FROM_ID+"_"+contactFromData[i].id, label: contactFromData[i].id });
                 edges.add({from: FROM_ID, to: FROM_ID+"_"+contactFromData[i].id});
              }
@@ -54,7 +53,7 @@
             for(let j=0;j< contactToData.length;j++){
                 console.log(">> ["+j +"] "+contactToData[j].id);
                 if(contactToData[j].id !== contactId){
-                    nodes.add({id: TO_ID+"_"+contactToData[j].id, label:contactToData[j].id, color:"pink"});
+                    nodes.add({id: TO_ID+"_"+contactToData[j].id, label:contactToData[j].id, color:"#FF2A00"});
                     edges.add({from:TO_ID, to:TO_ID+"_"+contactToData[j].id});
                 }
             }
@@ -75,6 +74,9 @@
                 edges: edges
             };
             var options = {
+                autoResize: true,
+                height: '100%',
+                width: '100%',
                 nodes: {
                     shape: "ellipse",
                     widthConstraint:200
@@ -84,20 +86,21 @@
                 },
                 layout: {
                     hierarchical : {
-                        enabled: true,
-                        direction : 'UD',
-                        sortMethod : 'directed',
+                        enabled: false,
                         nodeSpacing:300,
                         levelSeparation:200,
                         parentCentralization:true
                     }
                 },
                 interaction:{
-                    dragNodes:true
+                    dragNodes:true,
+                    navigationButtons: true,
+                    keyboard: true
                 },
                 physics:{
                     enabled:true
                 }
+               
             };
             var network = new vis.Network(container, data, options);
             //]]>

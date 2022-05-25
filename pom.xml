@@ -15,8 +15,9 @@
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
-        <bootstrap.version>5.0.1</bootstrap.version>
+        <bootstrap.version>4.0.0-2</bootstrap.version>
         <webjars-locator.version>0.41</webjars-locator.version>
+         <commonmark.version>0.13.1</commonmark.version>
     </properties>
     <dependencies>
         

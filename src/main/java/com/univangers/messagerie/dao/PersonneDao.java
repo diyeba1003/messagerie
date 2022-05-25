@@ -8,6 +8,7 @@ import com.univangers.messagerie.model.Personne;
 import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.EntityManager;
+import javax.persistence.NoResultException;
 import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
 import org.springframework.stereotype.Repository;
@@ -38,21 +39,30 @@ public class PersonneDao implements PersonneDaoInterface {
     @Override
     public Integer countPersonne() {
         Integer count = 0;
-        Object object = em.createQuery("SELECT COUNT(p) FROM Personne p").getSingleResult();
-        if (object != null) {
-            count = (int) (long) object;
+        try {
+            Object object = em.createQuery("SELECT COUNT(p) FROM Personne p").getSingleResult();
+            if (object != null) {
+                count = (int) (long) object;
+            }
+        } catch (NoResultException e) {
+            count = 0;
         }
         return count;
     }
 
     @Override
     public List<Personne> findAllPersonne() {
-        List<Personne> personneList = new ArrayList<>();
+        List<Personne> personneList;
+        try {
+            personneList = em.createQuery("SELECT p FROM Personne p").getResultList();
+        } catch (NoResultException e) {
+            personneList = new ArrayList<>();
 
-       personneList = em.createQuery("SELECT p FROM Personne p").getResultList();
-       return personneList;
+        }
+        return personneList;
 
     }
+
     @Override
     public void updatePersonne(Personne personne) {
         em.merge(personne);
@@ -60,7 +70,7 @@ public class PersonneDao implements PersonneDaoInterface {
 
     @Override
     public void deletePersonne(Personne personne) {
-        if(personne!=null){
+        if (personne != null) {
             em.remove(personne);
             System.out.println(">> Success remove Personne !!!");
             em.flush();

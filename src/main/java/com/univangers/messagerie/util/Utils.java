@@ -6,6 +6,8 @@ package com.univangers.messagerie.util;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.Date;
 import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
@@ -48,4 +50,13 @@ public class Utils {
         return date;
     }
 
+    public static String getDayNumberFromDate(Date date) {
+        LocalDate localDate = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+        return String.valueOf(localDate.getDayOfMonth());
+
+    }
+  public static String getClearString(String str){
+       String clearStr = str.replace("'", "").replace("\"", "");
+       return clearStr;
+  }
 }

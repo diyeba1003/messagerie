@@ -33,15 +33,19 @@ public class MessageDao implements MessageDaoInterface {
 
     @Override
     public Message findMessageById(Integer idMessage) {
-
         Message m = em.find(Message.class, idMessage);
         return m;
     }
 
     @Override
     public List<Message> findAllMessage() {
-        List<Message> messageList = em.createQuery("SELECT m FROM Message m").getResultList();
+        List<Message> messageList;
+        try {
+            messageList = em.createQuery("SELECT m FROM Message m").getResultList();
 
+        } catch (NoResultException nre) {
+            messageList = new ArrayList<>();
+        }
         return messageList;
     }
 
@@ -61,9 +65,15 @@ public class MessageDao implements MessageDaoInterface {
     @Override
     public Integer countMessage() {
         Integer count = 0;
-        Object object = em.createQuery("SELECT COUNT(m)  FROM Message m ").getSingleResult();
-        if (object != null) {
-            count = (int) (long) object;
+
+        try {
+            Object object = em.createQuery("SELECT COUNT(m)  FROM Message m ").getSingleResult();
+            if (object != null) {
+                count = (int) (long) object;
+            }
+        } catch (NoResultException nre) {
+            count = 0;
+
         }
         return count;
     }
@@ -166,7 +176,7 @@ public class MessageDao implements MessageDaoInterface {
         }
         return count;
     }
-    
+
     @Override
     public List<Message> findMessagesBetweenDates(Date startDate, Date endDate) {
         List<Message> messageList;

@@ -8,6 +8,7 @@ import com.univangers.messagerie.dto.AdresseDto;
 import com.univangers.messagerie.dto.MessageDto;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 /**
  *
@@ -49,5 +50,7 @@ public interface MessageServiceInterface {
     
     public List<AdresseDto> getContactsCc(String idContact);
     
+
+    public Map getStatPerMonth(Date startDate, Date endDate);
 
 }

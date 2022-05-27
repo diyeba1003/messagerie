@@ -78,6 +78,13 @@ public class MessageDao implements MessageDaoInterface {
         return count;
     }
 
+    /**
+     * Recupère la liste des messages envoyé pour l'adresse spécifiée en paramètre
+     * 
+     * @param idAdresse
+     * @param isSearch
+     * @return 
+     */
     @Override
     public List<Message> findMessageBySender(String idAdresse, Boolean isSearch) {
         List<Message> messageList;

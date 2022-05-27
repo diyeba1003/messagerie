@@ -47,13 +47,13 @@ import org.springframework.stereotype.Service;
 @Service
 @Transactional
 public class MessageService implements MessageServiceInterface {
-
+               
     @Autowired
     private MessageDaoInterface messageDao;
-
+    
     @Autowired
     private AdresseDaoInterface adresseDao;
-
+            
     @Autowired
     private FonctionDaoInterface fonctionDao;
 
@@ -194,6 +194,12 @@ public class MessageService implements MessageServiceInterface {
                     contactsFrom.add(adresseDto);
                 }
             }
+            for (Adresse adr : message.getDestinatairesCopie()) {
+                AdresseDto adresseDto = convertToDto(adr);
+                if (!contactsFrom.contains(adresseDto) && !idContact.equalsIgnoreCase(adresseDto.getId())) {
+                    contactsFrom.add(adresseDto);
+                }
+            }
         }
 
         return contactsFrom;
@@ -204,11 +210,9 @@ public class MessageService implements MessageServiceInterface {
         List<Message> listMessageTo = messageDao.findMessageByDestinataire(idContact, Boolean.FALSE);
         List<AdresseDto> contactsTo = new ArrayList<>();
         for (Message message : listMessageTo) {
-            for (Adresse adrTo : message.getDestinataires()) {
-                AdresseDto adresseDto = convertToDto(adrTo);
-                if (!contactsTo.contains(adresseDto) && !idContact.equalsIgnoreCase(adresseDto.getId())) {
-                    contactsTo.add(adresseDto);
-                }
+            AdresseDto adresseDto = convertToDto(message.getSender());
+            if (!contactsTo.contains(adresseDto) && !idContact.equalsIgnoreCase(adresseDto.getId())){
+                contactsTo.add(adresseDto);
             }
         }
 
@@ -220,11 +224,9 @@ public class MessageService implements MessageServiceInterface {
         List<Message> listMessageCc = messageDao.findMessageByDestinataireCc(idContact, Boolean.FALSE);
         List<AdresseDto> contactsCc = new ArrayList<>();
         for (Message message : listMessageCc) {
-            for (Adresse adrCc : message.getDestinataires()) {
-                AdresseDto adresseDto = convertToDto(adrCc);
-                if (!contactsCc.contains(adresseDto) && !idContact.equalsIgnoreCase(adresseDto.getId())) {
-                    contactsCc.add(adresseDto);
-                }
+            AdresseDto adresseDto = convertToDto(message.getSender());
+            if (!contactsCc.contains(adresseDto) && !idContact.equalsIgnoreCase(adresseDto.getId())){
+                contactsCc.add(adresseDto);
             }
         }
         return contactsCc;

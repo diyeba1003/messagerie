@@ -34,7 +34,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 </div>
                 <div class="col-9 mt-2" th:if="${selectedViewType == 'network_view'}">
                     <div class="border border-info p-4" id="mynetwork" style="width: 100%; height: 1000px;"></div>
-                    
+
                 </div>
                 <div class="col-2 mt-4">
                     <form class="d-flex"  method="get" th:action="@{/messagerie/adresses/detail-user}">
@@ -61,18 +61,22 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 </div>
             </div>
         </div> 
-        
-         <script th:inline="javascript">
+
+        <script th:inline="javascript">
             //<![CDATA[
-            var contactId = [[${contactId}]];
-            var contactsFrom = [[${contactsFrom}]];
-            var contactsTo=[[${contactsTo}]];
-            var contactsCc=[[${contactsCc}]];
-            
+            var contactId = [[${contactId}
+            ]];
+                    var contactsFrom = [[${contactsFrom}
+                    ]];
+                    var contactsTo = [[${contactsTo}
+                    ]];
+                    var contactsCc = [[${contactsCc}
+                    ]];
+
             const contactFromData = Object.values(contactsFrom);
-            const contactToData=Object.values(contactsTo);
-            const contactCcData=Object.values(contactsCc);
-            
+            const contactToData = Object.values(contactsTo);
+            const contactCcData = Object.values(contactsCc);
+
             var nodes = new vis.DataSet([]);
             var edges = new vis.DataSet([]);
 
@@ -83,48 +87,48 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
             const FROM_CC_ID = "FROM_CC";
             const FROM_CC = "Messages reçus en copie de";
 
-            nodes.add({id: contactId, label: contactId,color:{border:"aqua",background:"aqua"}});
-            nodes.add({id: TO_ID, label: TO, shape: "box", size: 60 , color:{border:"pink", background:"#7F8489"}});
-            nodes.add({id: FROM_ID, label: FROM, shape: "box",color:{border:"green",background:"green"}});
-            nodes.add({id: FROM_CC_ID, label: FROM_CC, shape: "box"});
+            nodes.add({id: contactId, label: contactId, color: {border: "aqua", background: "aqua"},font:{size:18}, widthConstraint: 300});
+            nodes.add({id: TO_ID, label: TO, shape: "box", size: 60, color: {border: "#757575", background: "#ECEFF1"}});
+            nodes.add({id: FROM_ID, label: FROM, shape: "box", color: {border: "#C51162", background: "#FF80AB"}});
+            nodes.add({id: FROM_CC_ID, label: FROM_CC, shape: "box", color: {border: "#F48FB1", background: "#FF6D00"}});
 
             // Set Edges
             edges.add({from: contactId, to: TO_ID});
             edges.add({from: contactId, to: FROM_ID});
             edges.add({from: contactId, to: FROM_CC_ID});
-            
+
             //alert(contactFromData.length);
 
-            
-             for (let i = 0; i < contactFromData.length; i++) {
-                nodes.add({id:  FROM_ID+"_"+contactFromData[i].id, label: contactFromData[i].id });
-                edges.add({from: FROM_ID, to: FROM_ID+"_"+contactFromData[i].id});
-                if(i > 30){
-                    break;
-                }
-             }
-                        
-            for(let j=0;j< contactToData.length;j++){
-                if(contactToData[j].id !== contactId){
-                    nodes.add({id: TO_ID+"_"+contactToData[j].id, label:contactToData[j].id, color:"#FF2A00"});
-                    edges.add({from:TO_ID, to:TO_ID+"_"+contactToData[j].id});
-                }
-                if(j > 30){
+
+            for (let i = 0; i < contactFromData.length; i++) {
+                nodes.add({id: FROM_ID + "_" + contactFromData[i].id, label: contactFromData[i].id, color: "#0091EA"});
+                edges.add({from: FROM_ID, to: FROM_ID + "_" + contactFromData[i].id});
+                if (i > 30) {
                     break;
                 }
             }
-             
-              for(let i = 0; i < contactCcData.length; i++){
-                if(contactCcData[i].id !== contactId){
-                    nodes.add({id: FROM_CC_ID+"_"+contactCcData[i].id, label:contactCcData[i].id});
-                    edges.add({from:FROM_CC_ID, to:FROM_CC_ID+"_"+contactCcData[i].id});
+
+            for (let j = 0; j < contactToData.length; j++) {
+                if (contactToData[j].id !== contactId) {
+                    nodes.add({id: TO_ID + "_" + contactToData[j].id, label: contactToData[j].id, color: "#FF2A00"});
+                    edges.add({from: TO_ID, to: TO_ID + "_" + contactToData[j].id});
                 }
-                if(i > 30){
+                if (j > 30) {
                     break;
                 }
             }
-     
-              
+
+            for (let i = 0; i < contactCcData.length; i++) {
+                if (contactCcData[i].id !== contactId) {
+                    nodes.add({id: FROM_CC_ID + "_" + contactCcData[i].id, label: contactCcData[i].id});
+                    edges.add({from: FROM_CC_ID, to: FROM_CC_ID + "_" + contactCcData[i].id});
+                }
+                if (i > 30) {
+                    break;
+                }
+            }
+
+
             // create a network
             var container = document.getElementById("mynetwork");
             var data = {
@@ -136,31 +140,47 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 height: '100%',
                 width: '100%',
                 nodes: {
+                    font: {size: 15},
                     shape: "ellipse",
-                    widthConstraint:200
+                    widthConstraint: 200
                 },
                 edges: {
                     arrows: "to"
                 },
                 layout: {
-                    hierarchical : {
+                    hierarchical: {
                         enabled: false,
-                        nodeSpacing:300,
-                        levelSeparation:200,
-                        parentCentralization:true
+                        nodeSpacing: 300,
+                        levelSeparation: 200,
+                        parentCentralization: true
                     }
                 },
-                interaction:{
-                    dragNodes:true,
+                interaction: {
+                    dragNodes: true,
                     navigationButtons: true,
                     keyboard: true
                 },
-                physics:{
-                    enabled:true
+                physics: {
+                    enabled: true
                 }
-               
+
             };
             var network = new vis.Network(container, data, options);
+
+
+            network.on("doubleClick", function (data) {
+                if (data.nodes.length > 0){
+                    var selectedNode = nodes.get(data.nodes[0]);
+                    console.log(">> Node data: ", selectedNode);
+                    var label = selectedNode.label;
+                    if(!(selectedNode.id === TO_ID 
+                            || selectedNode.id === FROM_ID 
+                            || selectedNode.id === FROM_CC_ID 
+                            || selectedNode.id === contactId)){
+                        window.location="/messagerie/adresses/detail-user?id="+label+"&viewType=network_view" ;
+                    }
+                }
+            });
             //]]>
         </script>
     </body>

@@ -4,7 +4,11 @@
            
             
             <li class="border-top pt-1 pb-1" th:each= "message: ${messages}">
-                <a  class="text-decoration-none" th:href="@{/messagerie/messages/liste-message-par-periode(index=${index},id=${message.id})}">
+                <a th:if="${index != null}"  class="text-decoration-none" th:href="@{/messagerie/messages/liste-message-par-periode(index=${index},id=${message.id})}">
+                    <span id="event" th:text="${message.object}"></span>
+                </a>
+                <a th:if="${dayNumber != null && selectedMonth != null}" class="text-decoration-none" 
+                   th:href="@{/messagerie/messages/liste-message-par-periode(id=${message.id}, selectedMonth=${selectedMonth}, dayNumber=${dayNumber})}">
                     <span id="event" th:text="${message.object}"></span>
                 </a>
             </li>

@@ -4,17 +4,18 @@
 
 
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+                <li class="nav-item p-1">
                     <a class="nav-link active" th:href="@{/messagerie/messages/home}">Accueil</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item p-1">
                     <a class="nav-link" th:href="@{/messagerie/messages/liste-message(id=0)}">Messages</a>
                 </li>
                 <li class="nav-item">
                     <button type="button" class="btn btn-outline-primary mt-2 btn-xs" data-toggle="modal" data-target="#exampleModal2">
+                        <i class="fas fa-upload"></i>
                         Upload
                     </button>
-                     <th:block th:replace="./webHtml/upload-modal :: modal('exampleModal2')">modal</th:block>
+                     <th:block th:replace="./layouts/upload-modal :: modal('exampleModal2')">modal</th:block>
                 </li>
             </ul>
             <form class="d-flex"  method="get" th:action="@{/messagerie/messages/liste-message}">
@@ -32,7 +33,7 @@
                     name="keyword"
                     th:value="${keyWord}"
                     />
-                <button class="btn btn-outline-success" type="submit">Recherche</button>
+                <button class="btn btn-outline-success" type="submit"> <i class="fas fa-search"></i></button>
             </form>
         </div>
     </nav>

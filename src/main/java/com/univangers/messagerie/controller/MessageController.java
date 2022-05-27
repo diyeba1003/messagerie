@@ -236,10 +236,10 @@ public class MessageController {
 
         if (keyWord != null && filterType != null) {
             if ("sender".equals(filterType)) {
-                messageDtoList = messageService.findMessageDtoBySender(keyWord,true);
+                messageDtoList = messageService.findMessageDtoBySender(keyWord, true);
             } else if ("subject".equals(filterType)) {
                 messageDtoList = messageService.findMessageDtoBySubject(keyWord);
-            }else if("destinataire".equals(filterType)){
+            } else if ("destinataire".equals(filterType)) {
                 //messageDtoList=messageService.findMessageDtoByDestinataire(keyWord, Boolean.TRUE);
             }
         } else {
@@ -250,9 +250,11 @@ public class MessageController {
         if (id != null && id != 0) {
             MessageDto messageDto = messageService.findMessageDtoById(id);
             model.addAttribute("selectedMessage", messageDto);
+            System.out.println("selectedMessage:\n" + messageDto.getBody());
         } else if (!messageDtoList.isEmpty()) {
             MessageDto messageDto = messageDtoList.get(0);
             model.addAttribute("selectedMessage", messageDto);
+            System.out.println("selectedMessage:\n" + messageDto.getBody());
         }
 
         return "./webHtml/liste-message";
@@ -265,54 +267,63 @@ public class MessageController {
 
     @RequestMapping("/liste-message-par-periode")
     public String listemessageparperiode(Model model,
-            @RequestParam(value = "index", required = false) String index,
+            @RequestParam(value = "selectedMonth", required = false) String selectedMonth,
+            @RequestParam(value = "dayNumber", required = false) Integer dayNumber,
+            @RequestParam(value = "index", required = false) Integer index,
             @RequestParam(value = "id", required = false) Integer id) {
 
         Date startDate = Utils.stringToDate("2010-06-01 00:00:00");
         Date endDate = Utils.stringToDate("2010-06-30 23:59:59");
-        if (index != null) {
+        if (selectedMonth != null && dayNumber != null) {
+            String startDateStr = selectedMonth + "-" + dayNumber + " 00:00:00";
+            String endDateStr = selectedMonth + "-" + dayNumber + " 23:59:59";
+            startDate = Utils.stringToDate(startDateStr);
+            endDate = Utils.stringToDate(endDateStr);
+            model.addAttribute("selectedMonth", selectedMonth);
+            model.addAttribute("dayNumber", dayNumber);
+        } else if (index != null) {
             switch (index) {
-                case "0":
+                case 0:
                     break;
-                case "1":
+                case 1:
                     startDate = Utils.stringToDate("2010-06-30 23:59:59");
                     endDate = Utils.stringToDate("2010-07-31 23:59:59");
                     break;
-                case "2":
+                case 2:
                     startDate = Utils.stringToDate("2010-07-31 23:59:59");
                     endDate = Utils.stringToDate("2010-08-31 23:59:59");
                     break;
-                case "3":
+                case 3:
                     startDate = Utils.stringToDate("2010-08-31 23:59:59");
                     endDate = Utils.stringToDate("2010-09-30 23:59:59");
                     break;
-                case "4":
+                case 4:
                     startDate = Utils.stringToDate("2010-09-30 23:59:59");
                     endDate = Utils.stringToDate("2010-10-31 23:59:59");
                     break;
-                case "5":
+                case 5:
                     startDate = Utils.stringToDate("2010-10-31 23:59:59");
                     endDate = Utils.stringToDate("2010-11-30 23:59:59");
                     break;
-                case "6":
+                case 6:
                     startDate = Utils.stringToDate("2010-11-30 23:59:59");
                     endDate = Utils.stringToDate("2010-12-31 23:59:59");
                     break;
-
             }
-            List<MessageDto> messageDtoList = messageService.findMessagesDtoBetweenDates(startDate, endDate);
-            model.addAttribute("messages", messageDtoList);
-            model.addAttribute("PerMonth", true);
             model.addAttribute("index", index);
-            if (id != null) {
-                MessageDto messageDto = messageService.findMessageDtoById(id);
-                model.addAttribute("selectedMessage", messageDto);
-            } else {
-                MessageDto messageDto = messageDtoList.get(0);
-                model.addAttribute("selectedMessage", messageDto);
-            }
         }
+        List<MessageDto> messageDtoList = messageService.findMessagesDtoBetweenDates(startDate, endDate);
+        model.addAttribute("messages", messageDtoList);
+        model.addAttribute("PerMonth", true);
         
+        if (id != null) {
+            MessageDto messageDto = messageService.findMessageDtoById(id);
+            model.addAttribute("selectedMessage", messageDto);
+        } else {
+            MessageDto messageDto = messageDtoList.get(0);
+            model.addAttribute("selectedMessage", messageDto);
+        }
+
         return "./webHtml/liste-message-par-periode";
 
     }
@@ -321,7 +332,7 @@ public class MessageController {
     public String home(Model model,
             @RequestParam(value = "periode", required = false) String periode,
             @RequestParam(value = "selectedPeriode", required = false) String selectedPeriode) {
-        
+
         final Date start_06 = Utils.stringToDate("2010-06-01 00:00:00");
         final Date end_06 = Utils.stringToDate("2010-06-30 23:59:59");
         final Date end_07 = Utils.stringToDate("2010-07-31 23:59:59");
@@ -330,7 +341,7 @@ public class MessageController {
         final Date end_10 = Utils.stringToDate("2010-10-31 23:59:59");
         final Date end_11 = Utils.stringToDate("2010-11-30 23:59:59");
         final Date end_12 = Utils.stringToDate("2010-12-31 23:59:59");
-               
+
         DataCounter counter = new DataCounter();
         Integer countMessages = messageService.countMessageDto();
         Integer countAdresses = adresseService.countAdresseDto();
@@ -341,43 +352,44 @@ public class MessageController {
         counter.setNombrePersonnes(countPersonnes);
         counter.setNombreListes(countlistes);
         model.addAttribute("counter", counter);
-        
-         if (periode != null && selectedPeriode != null) {
-             Date startDate = Utils.stringToDate("2010-06-01 00:00:00");
-        Date endDate = Utils.stringToDate("2010-06-30 23:59:59");
-      
+
+        if (periode != null && selectedPeriode != null) {
+            Date startDate = Utils.stringToDate("2010-06-01 00:00:00");
+            Date endDate = Utils.stringToDate("2010-06-30 23:59:59");
+
             switch (selectedPeriode) {
-                case "06_2010":
+                case "2010-06":
                     break;
-                case "07_2010":
+                case "2010-07":
                     startDate = Utils.stringToDate("2010-06-30 23:59:59");
                     endDate = Utils.stringToDate("2010-07-31 23:59:59");
                     break;
-                case "08_2010":
+                case "2010-08":
                     startDate = Utils.stringToDate("2010-07-31 23:59:59");
                     endDate = Utils.stringToDate("2010-08-31 23:59:59");
                     break;
-                case "09_2010":
+                case "2010-09":
                     startDate = Utils.stringToDate("2010-08-31 23:59:59");
                     endDate = Utils.stringToDate("2010-09-30 23:59:59");
                     break;
-                case "10_2010":
+                case "2010-10":
                     startDate = Utils.stringToDate("2010-09-30 23:59:59");
                     endDate = Utils.stringToDate("2010-10-31 23:59:59");
                     break;
-                case "11_2010":
+                case "2010-11":
                     startDate = Utils.stringToDate("2010-10-31 23:59:59");
                     endDate = Utils.stringToDate("2010-11-30 23:59:59");
                     break;
-                case "12_2010":
+                case "2010-12":
                     startDate = Utils.stringToDate("2010-11-30 23:59:59");
                     endDate = Utils.stringToDate("2010-12-31 23:59:59");
                     break;
 
             }
-            Map<String, Integer>  statsPerMonth = messageService.getStatPerMonth(startDate, endDate);
+            Map<String, Integer> statsPerMonth = messageService.getStatPerMonth(startDate, endDate);
             model.addAttribute("statsPerMonth", statsPerMonth);
-        } else{
+            model.addAttribute("selectedMonth", selectedPeriode);
+        } else {
             Integer count_06 = messageService.countMessagesDtoBetweenDates(start_06, end_06);
             Integer count_07 = messageService.countMessagesDtoBetweenDates(end_06, end_07);
             Integer count_08 = messageService.countMessagesDtoBetweenDates(end_07, end_08);
@@ -398,83 +410,9 @@ public class MessageController {
             model.addAttribute("messagePerMonth", messagePerMonth);
         }
 
-        
-
         return "./webHtml/home";
     }
 
-    @GetMapping("/stats")
-    public Map homeApi(Model model) {
-
-        final Date start_06 = Utils.stringToDate("2010-06-01 00:00:00");
-        final Date end_06 = Utils.stringToDate("2010-06-30 23:59:59");
-        final Date end_07 = Utils.stringToDate("2010-07-31 23:59:59");
-        final Date end_08 = Utils.stringToDate("2010-08-31 23:59:59");
-        final Date end_09 = Utils.stringToDate("2010-09-30 23:59:59");
-        final Date end_10 = Utils.stringToDate("2010-10-31 23:59:59");
-        final Date end_11 = Utils.stringToDate("2010-11-30 23:59:59");
-        final Date end_12 = Utils.stringToDate("2010-12-31 23:59:59");
-
-        DataCounter counter = new DataCounter();
-        Integer countMessages = messageService.countMessageDto();
-        Integer countAdresses = adresseService.countAdresseDto();
-        Integer countPersonnes = personneService.countPersonneDto();
-        Integer countlistes = listeService.countListe();
-        counter.setNombreMessages(countMessages);
-        counter.setNombreAdresses(countAdresses);
-        counter.setNombrePersonnes(countPersonnes);
-        counter.setNombreListes(countlistes);
-
-        Integer count_06 = messageService.countMessagesDtoBetweenDates(start_06, end_06);
-        Integer count_07 = messageService.countMessagesDtoBetweenDates(end_06, end_07);
-        Integer count_08 = messageService.countMessagesDtoBetweenDates(end_07, end_08);
-        Integer count_09 = messageService.countMessagesDtoBetweenDates(end_08, end_09);
-        Integer count_10 = messageService.countMessagesDtoBetweenDates(end_09, end_10);
-        Integer count_11 = messageService.countMessagesDtoBetweenDates(end_10, end_11);
-        Integer count_12 = messageService.countMessagesDtoBetweenDates(end_11, end_12);
-
-        Map<String, Integer> messagePerMonth = new HashMap<>();
-        messagePerMonth.put("count_06", count_06);
-        messagePerMonth.put("count_07", count_07);
-        messagePerMonth.put("count_08", count_08);
-        messagePerMonth.put("count_09", count_09);
-        messagePerMonth.put("count_10", count_10);
-        messagePerMonth.put("count_11", count_11);
-        messagePerMonth.put("count_12", count_12);
-
-        model.addAttribute("messagePerMonth", messagePerMonth);
-        model.addAttribute("counter", counter);
-        Map<String, Object> result = new HashMap<>();
-        result.put("counter", counter);
-        result.put("messagePerMonth", messagePerMonth);
-
-        return result;
-    }
-    @GetMapping("/contact-data-old")
-    public String getContactsData(@RequestParam("contactId") String contactId , Model model){
-        ContactDto contactDto= new ContactDto();
-        List<AdresseDto> contactsFrom=messageService.getContactsFrom(contactId);
-        List<AdresseDto> contactsTo=messageService.getContactsTo(contactId);
-        List<AdresseDto> contactsCc=messageService.getContactsCc(contactId);
-        
-        contactDto.setIdContact(contactId);
-        contactDto.setContactsFrom(contactsFrom);
-        contactDto.setContactsTo(contactsTo);
-        contactDto.setContactsCc(contactsCc);
-  
-        model.addAttribute("contactId", contactId);
-        model.addAttribute("contactsFrom", contactsFrom);
-        model.addAttribute("contactsTo", contactsTo);
-        model.addAttribute("contactsCc", contactsCc);
-        return "webHtml/network";
-       //return contactDto;
-    }
-    
-    @GetMapping("/contact-object-data")
-    public List<MessageDto> getContactsObjectData(@RequestParam("contactId") String contactId){
-       List<MessageDto> messageDtoList= messageService.findMessageDtoByDestinataire(contactId, Boolean.FALSE);
-        return messageDtoList;
-    }
 
     @PostMapping("/upload")
     public String uploadFile(@RequestParam("file") MultipartFile file, RedirectAttributes attributes) {
@@ -578,7 +516,7 @@ public class MessageController {
                     mDto.setFichierDtoList(fichierDtoList);
                 }
                 messageService.insertMessageDto(mDto);
-                
+
             } catch (IOException | MessagingException ex) {
                 if (ex instanceof FileSizeLimitExceededException) {
                     attributes.addFlashAttribute("alert", "File size exceeds limit!");

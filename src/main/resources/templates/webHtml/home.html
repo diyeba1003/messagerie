@@ -71,39 +71,45 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     </div>
                 </div>
             </div>
-                <div class="row mt-2  align-items-center" style="margin: 0 auto;display:inline-block; ">
-                    <a class="btn btn-outline-primary d-inline" role="button" th:onclick="onBtnMensuelClick()">Mensuel</a>
-                    <a class="btn btn-outline-warning d-inline" th:href="@{/messagerie/messages/home}" role="button">Annuel</a>
+            <div class="row mt-4  align-items-center d-inline">
+                <div class="col-12 text-center">
+                    <a class="btn msg-btn-default d-inline" role="button" th:onclick="onBtnMensuelClick()">Mensuel</a>
+                    <a class="btn msg-btn-info d-inline" th:href="@{/messagerie/messages/home}" role="button">Annuel</a>
                 </div>
-            <div class="row mt-4 d-none" id="selectMonth" >
-                <form class="d-flex"  method="get" th:action="@{/messagerie/messages/home}">
-                    <input type="hidden" name="periode" th:value="mensuel" />
-                    <table>
-                        <tr>
-                            <td>
-                                <label>Choisir le mois &nbsp;&nbsp;</label>
-                            </td>
-                            <td>
-                                <select class="form-select form-select-md" aria-label=".form-select-lg example" name="selectedPeriode" th:value="${selectedPeriode}">
-                                    <option value="06_2010"> 06-2010</option>
-                                    <option value="07_2010"> 07-2010</option>
-                                    <option value="08_2010"> 08-2010</option>
-                                    <option value="09_2010"> 09-2010</option>
-                                    <option value="10_2010"> 10-2010</option>
-                                    <option value="11_2010"> 11-2010</option>
-                                    <option value="12_2010"> 12-2010</option>
-                                </select> 
-                            </td>
-                            <td>
-                                <button class="btn btn-info d-inline" type="submit">Go!</button>
-                            </td>
-                        </tr> 
-                    </table>
-                </form>    
+            </div>
+            <div class="row align-items-center d-none" id="selectMonth" >
+                <div class="col-12">
+                    <form class="d-flex justify-content-center" method="get" th:action="@{/messagerie/messages/home}">
+                        <input type="hidden" name="periode" th:value="mensuel" />
+                        <table>
+                            <tr>
+                                <td>
+                                    <label>Choisir le mois &nbsp;&nbsp;</label>
+                                </td>
+                                <td>
+                                    <select class="form-select form-select-md" aria-label=".form-select-lg example" name="selectedPeriode" th:value="${selectedPeriode}">
+                                        <option value="2010-06"> 06-2010</option>
+                                        <option value="2010-07"> 07-2010</option>
+                                        <option value="2010-08"> 08-2010</option>
+                                        <option value="2010-09"> 09-2010</option>
+                                        <option value="2010-10"> 10-2010</option>
+                                        <option value="2010-11"> 11-2010</option>
+                                        <option value="2010-12"> 12-2010</option>
+                                    </select> 
+                                </td>
+                                <td>
+                                    <button class="btn btn-info d-inline" type="submit">Go!</button>
+                                </td>
+                            </tr> 
+                        </table>
+                    </form>
+                </div>
             </div>
 
-            <div style="margin-top: 60px">
-
+            <div class="row mt-2">
+                <div class="col-12 text-center text-info">
+                    <h3 >Statistique des messages</h3>
+                </div>
                 <div class="chart-container" style="margin: 0 auto; height:120px; width:100%">
                     <canvas id="myChart" width="300" height="80"></canvas>
                 </div>
@@ -118,103 +124,106 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 
         var htmldata;
         var statsPerMonth;
-        
+        var selectedMonth = [[${selectedMonth}]];
         if ([[${messagePerMonth}]]){
-            htmldata = [[${messagePerMonth}]];
+        htmldata = [[${messagePerMonth}]];
         }
 
         if ([[${statsPerMonth}]]){
-            statsPerMonth = [[${statsPerMonth}]];
+        statsPerMonth = [[${statsPerMonth}]];
         }
         const ctx = document.getElementById('myChart').getContext('2d');
         var yearData = {};
         if (htmldata){
-            yearData = {
-            labels: ["06-2010", "07-2010", "08-2010", "09-2010", "10-2010", "11-2010", "12-2010"],
-                    datasets: [{
-                    data: [htmldata.count_06, htmldata.count_07, htmldata.count_08, htmldata.count_09, htmldata.count_10, htmldata.count_11, htmldata.count_12],
-                            backgroundColor: [
-                                    'rgba(255, 224, 54,0.2)',
-                                    'rgba(54, 162, 235,0.2)',
-                                    'rgba(187, 11, 11,0.2)',
-                                    'rgba(88, 41, 0,0.2)',
-                                    'rgba(153, 102, 255,0.2)',
-                                    'rgba(255, 159, 64,0.2)',
-                                    'rgba(46,139,87,0.2)'
-                            ],
-                            borderColor: [
-                                    'rgba(255, 224, 54, 1)',
-                                    'rgba(54, 162, 235, 1)',
-                                    'rgba(187, 11, 11, 1)',
-                                    'rgba(88, 41, 0, 1)',
-                                    'rgba(153, 102, 255, 1)',
-                                    'rgba(255, 159, 64, 1)',
-                                    'rgba(46,139,87,1)'
-                            ],
-                            borderWidth: 1
-                    }]
-            };
+        yearData = {
+        labels: ["06-2010", "07-2010", "08-2010", "09-2010", "10-2010", "11-2010", "12-2010"],
+                datasets: [{
+                data: [htmldata.count_06, htmldata.count_07, htmldata.count_08, htmldata.count_09, htmldata.count_10, htmldata.count_11, htmldata.count_12],
+                        backgroundColor: [
+                                'rgba(255, 224, 54,0.2)',
+                                'rgba(54, 162, 235,0.2)',
+                                'rgba(187, 11, 11,0.2)',
+                                'rgba(88, 41, 0,0.2)',
+                                'rgba(153, 102, 255,0.2)',
+                                'rgba(255, 159, 64,0.2)',
+                                'rgba(46,139,87,0.2)'
+                        ],
+                        borderColor: [
+                                'rgba(255, 224, 54, 1)',
+                                'rgba(54, 162, 235, 1)',
+                                'rgba(187, 11, 11, 1)',
+                                'rgba(88, 41, 0, 1)',
+                                'rgba(153, 102, 255, 1)',
+                                'rgba(255, 159, 64, 1)',
+                                'rgba(46,139,87,1)'
+                        ],
+                        borderWidth: 1
+                }]
+        };
         } else if (statsPerMonth){
-            var labels = [];
-            var dataSets = [];
-            for (const [key, value] of Object.entries(statsPerMonth)){
-            labels.push(key);
-            dataSets.push(value);
-            }
-            yearData = {
-            labels: labels,
-                    datasets: [{
-                    data: dataSets,
-                            backgroundColor: [
-                                    'rgba(255, 224, 54,0.2)',
-                                    'rgba(54, 162, 235,0.2)',
-                                    'rgba(187, 11, 11,0.2)',
-                                    'rgba(88, 41, 0,0.2)',
-                                    'rgba(153, 102, 255,0.2)',
-                                    'rgba(255, 159, 64,0.2)',
-                                    'rgba(46,139,87,0.2)'
-                            ],
-                            borderColor: [
-                                    'rgba(255, 224, 54, 1)',
-                                    'rgba(54, 162, 235, 1)',
-                                    'rgba(187, 11, 11, 1)',
-                                    'rgba(88, 41, 0, 1)',
-                                    'rgba(153, 102, 255, 1)',
-                                    'rgba(255, 159, 64, 1)',
-                                    'rgba(46,139,87,1)'
-                            ],
-                            borderWidth: 1
-                    }]
-            };
+        var labels = [];
+        var dataSets = [];
+        for (const [key, value] of Object.entries(statsPerMonth)){
+        labels.push(key);
+        dataSets.push(value);
+        }
+        yearData = {
+        labels: labels,
+                datasets: [{
+                data: dataSets,
+                        backgroundColor: [
+                                'rgba(255, 224, 54,0.2)',
+                                'rgba(54, 162, 235,0.2)',
+                                'rgba(187, 11, 11,0.2)',
+                                'rgba(88, 41, 0,0.2)',
+                                'rgba(153, 102, 255,0.2)',
+                                'rgba(255, 159, 64,0.2)',
+                                'rgba(46,139,87,0.2)'
+                        ],
+                        borderColor: [
+                                'rgba(255, 224, 54, 1)',
+                                'rgba(54, 162, 235, 1)',
+                                'rgba(187, 11, 11, 1)',
+                                'rgba(88, 41, 0, 1)',
+                                'rgba(153, 102, 255, 1)',
+                                'rgba(255, 159, 64, 1)',
+                                'rgba(46,139,87,1)'
+                        ],
+                        borderWidth: 1
+                }]
+        };
         }
 
         const myChart = new Chart(ctx, {
-            type: 'bar',
-            data: yearData,
-            options: {
-            onClick: function (click) {
-                var activepoints = myChart.getElementsAtEventForMode(click, 'nearest', {
+        type: 'bar',
+                data: yearData,
+                options: {
+                onClick: function (event) {
+                var activepoints = myChart.getElementsAtEventForMode(event, 'nearest', {
                 intersect: true
                 }, true);
-                //console.log(activepoints);
                 if (activepoints.length) {
                 const firstPoint = activepoints[0];
                 var index = firstPoint ['index'];
                 var slabel = myChart.data.datasets[firstPoint.datasetIndex].label;
                 var value = myChart.data.datasets[firstPoint.datasetIndex].data[firstPoint.index];
-                console.log(index, slabel, value);
+                if (selectedMonth){
+                index += 1;
+                window.location = '/messagerie/messages/liste-message-par-periode?selectedMonth=' + selectedMonth + '&dayNumber=' + index;
+                } else {
                 window.location = '/messagerie/messages/liste-message-par-periode?index=' + index;
                 }
-            },
-            plugins: {
-            legend: {
-                display: false,
-                    labels: {
-                    color: 'rgb(255, 99, 132)'
                 }
-            }
-            }
-            }
+                },
+                        plugins: {
+                        legend: {
+                        display: false,
+                                labels: {
+                                color: 'rgb(255, 99, 132)'
+                                }
+                        }
+                        }
+                }
         });
         //]]>
     </script>

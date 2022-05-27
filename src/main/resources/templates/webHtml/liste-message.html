@@ -58,7 +58,34 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                         </div>
                         <hr/>
                         <div class="row mt-3">
-                            <span th:text="${selectedMessage?.body}"></span>
+                            <div id="mailContent">
+                                <script th:inline="javascript">
+                                    function textToHtml() {
+
+                                        var mailContent = document.getElementById("mailContent");
+                                                var body = [[${selectedMessage?.body}
+                                                ]];
+                                        mailContent.innerText = body;
+                                    }
+                                    function isHTML(str) {
+                                        var a = document.createElement('div');
+                                        var mailContent = document.getElementById("mailContent");
+                                        a.innerHTML = str;
+
+                                        for (var c = a.childNodes, i = c.length; i--; ) {
+                                            if (c[i].nodeType == 1) {
+                                                var htmlNode = document.createElement('div');
+                                                htmlNode.innerHTML = c[i];
+                                                mailContent.appendChild(htmlNode);
+                                            } else {
+                                                mailContent.appendChild(c[i]);
+                                            }
+                                        }
+                                    }
+                                    textToHtml();
+                                </script>
+                                <span th:text="${selectedMessage?.body}"></span>
+                            </div>
                         </div>
                     </div>
                     <div th:unless="${selectedMessage} != null">
@@ -69,8 +96,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         </div>
         </div>
         <footer th:replace="./layouts/main-layout :: footer"> </footer>
+        <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+        <script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+        <script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+        <script>
 
+            $('#exampleModal2').on('show.bs.modal', function () {
 
+            });
+        </script>
 
     </body>
 

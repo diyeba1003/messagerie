@@ -168,10 +168,11 @@ public class MimeMessageReader {
             BodyPart bodyPart = mimeMultipart.getBodyPart(i);
             if (bodyPart.isMimeType("text/plain")) {
                 result = result + "\n" + bodyPart.getContent();
-                break; // Sans le break le même texte apparît 3 fois ???
+                break; // Sans le break le même texte apparaît 3 fois ???
             } else if (bodyPart.isMimeType("text/html")) {
                 String html = (String) bodyPart.getContent();
-                result = result + "\n" + Jsoup.parse(html).text();
+                //result = result + "\n" + Jsoup.parse(html).text();
+                result = result + "\n" + html;
             } else if (bodyPart.getContent() instanceof MimeMultipart) {
                 result = result + getTextFromMimeMultipart((MimeMultipart) bodyPart.getContent());
             }

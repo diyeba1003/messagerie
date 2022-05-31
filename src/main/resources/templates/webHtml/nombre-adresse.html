@@ -15,8 +15,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 <thead  class="table-secondary">
                      <tr>
                         <th>ADRESSE</th>
-                        <th> NOM</th>
-                        <th>PRENOM</th>
+                        <th> INTITULÉ</th>
+                        <!--<th>PRENOM</th> -->
                          <th>NOMBRE DE MAIL ENVOYÉ</th>
                           <th>NOMBRE DE MAIL REÇU</th>
                         <th>FONCTION</th>
@@ -29,8 +29,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                         
                          <span th:if="${user.personneDto } != null ">
                              <td><a th:href="@{/messagerie/adresses/detail-user(id=${user.personneDto.id})}" th:text="${user.personneDto.id}"></a></td>
-                            <td th:text="${user.personneDto.nom}"></td>
-                            <td th:text="${user.personneDto.prenom}"> </td>
+                            <td th:text="${user.personneDto.nom} +' '+ ${user.personneDto.prenom}"></td>
+                           <!-- <td th:text="${user.personneDto.prenom}"> </td> -->
                                 <td th:text="${user.nbMessageSent}"></td>
                                     <td th:text="${user.nbMessageReceived}"></td>
                             <td th:if="${user.personneDto.fonctionDtoList.size()}>0" th:text="${user.personneDto.fonctionDtoList[0]?.title}"></td>
@@ -45,7 +45,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                         <span th:unless="${user.personneDto} !=null">
                                    <td><a th:href="@{/messagerie/adresses/detail-user(id=${user.listeDto.id})}" th:text="${user.listeDto.id}"></a></td>  
                             <td></td>
-                              <td></td>
+                             <!-- <td></td>-->
                               <td th:text="${user.nbMessageSent}"></td>
                                     <td th:text="${user.nbMessageReceived}"></td>
                                     

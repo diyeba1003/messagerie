@@ -39,10 +39,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                                 <div>
                                     <label> <span class="text-secondary ">A:</span> </label>
                                     <div class="d-inline" th:each="destinataire:${selectedMessage.destinataireDtoList}" >
-                                        <a  class="text-decoration-none" th:href="@{/messagerie/adresses/detail-user(id=${destinataire.id})}" > <span th:text="${destinataire.id}">&nbsp;&nbsp;</span></a>
+                                        <a  class="text-decoration-none" th:href="@{/messagerie/adresses/detail-user(id=${destinataire.id})}" > <span th:text="${destinataire.id} + '&nbsp;&nbsp;'"></span></a>
                                     </div>
                                 </div>
-
+                                <div th:if="${selectedMessage.destinataireCopieDtoList.size()>0}">
+                                    <label> <span class="text-secondary ">Cc:</span> </label>
+                                    <div class="d-inline" th:each="destinataireCc:${selectedMessage.destinataireCopieDtoList}" >
+                                        <a  class="text-decoration-none" th:href="@{/messagerie/adresses/detail-user(id=${destinataireCc.id})}" > <span th:text="${destinataireCc.id} + '&nbsp;&nbsp;'"></span></a>
+                                    </div>
+                                </div>
                                 <div class="row mt-3" th:if="${selectedMessage.fichierDtoList?.size()}>0">
                                     <span th:each="fichier:${selectedMessage.fichierDtoList}">
                                         <a th:href="@{/messagerie/messages/download(filePath=${fichier?.filepath})}">

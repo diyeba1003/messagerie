@@ -5,7 +5,6 @@
 package com.univangers.messagerie.dto;
 
 import java.util.List;
-import java.util.Objects;
 import lombok.Getter;
 import lombok.Setter;
 

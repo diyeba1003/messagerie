@@ -117,17 +117,7 @@ public class MessageService implements MessageServiceInterface {
         }
         return messageDtoList;
     }
-
-    @Override
-    public void updateMessageDto(MessageDto messageDto) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-    @Override
-    public void deleteMessageDto(Integer id) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
+    
     @Override
     public List<MessageDto> findMessageDtoBySender(String senderId, Boolean isSearch) {
         List<Message> messageList = messageDao.findMessageBySender(senderId, isSearch);
@@ -509,7 +499,7 @@ public class MessageService implements MessageServiceInterface {
 
         //Conversion destinataire Copie
         if (message.getDestinatairesCopie() != null) {
-            List<AdresseDto> destDtoList = new ArrayList<>();
+            List<AdresseDto> destinataireCcDtoList = new ArrayList<>();
             for (Adresse dest : message.getDestinatairesCopie()) {
                 AdresseDto adrDto = new AdresseDto();
                 adrDto.setId(dest.getIdADRESSE());
@@ -527,9 +517,9 @@ public class MessageService implements MessageServiceInterface {
                     adrDto.setListeDto(listeDto);
                 }
 
-                destDtoList.add(adrDto);
+                destinataireCcDtoList.add(adrDto);
             }
-            messageDto.setDestinataireDtoList(destDtoList);
+            messageDto.setDestinataireCopieDtoList(destinataireCcDtoList);
         }
 
         //Conversion fichier

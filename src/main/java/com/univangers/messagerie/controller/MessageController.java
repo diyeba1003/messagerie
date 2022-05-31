@@ -240,7 +240,9 @@ public class MessageController {
             } else if ("subject".equals(filterType)) {
                 messageDtoList = messageService.findMessageDtoBySubject(keyWord);
             } else if ("destinataire".equals(filterType)) {
-                //messageDtoList=messageService.findMessageDtoByDestinataire(keyWord, Boolean.TRUE);
+                messageDtoList=messageService.findMessageDtoByDestinataire(keyWord, Boolean.TRUE);
+            }else if("destinataireCc".equals(filterType)){
+                messageDtoList=messageService.findMessageDtoByDestinataireCc(keyWord, Boolean.TRUE);
             }
         } else {
             messageDtoList = messageService.findAllMessageDto();

@@ -12,7 +12,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
   <header th:replace="./layouts/header :: header"></header>
   
     <div class="container">
-        <h1>Formulaire de modification</h1>
+        <h1>Formulaire de mise à jour </h1>
   <form class="needs-validation" th:action="@{/messagerie/personne/update/{id}(id=*{id})}" method="post" th:object="${personneDto}">
       <div class="form-row">
                      <div class="col-md-4 mb-3">

@@ -121,7 +121,7 @@ public class MessageDao implements MessageDaoInterface {
         String queryStr;
         try {
             if(isSearch){
-                queryStr = "SELECT m FROM Message m WHERE LOWER(m.sender) LIKE LOWER(CONCAT( '%',:keyWord,'%')) AND m.sender IN m.destinataires";
+                queryStr = "SELECT m.* FROM MESSAGE m, DESTINATAIRE d WHERE m.idMESSAGE = d.MESSAGE_ID AND d.ADRESSE_ID LIKE LOWER(CONCAT( '%',:keyWord,'%'))";
             } else{
                 queryStr = "SELECT m.* FROM MESSAGE m, DESTINATAIRE d WHERE m.idMESSAGE = d.MESSAGE_ID AND d.ADRESSE_ID = :keyWord";
             }
@@ -139,7 +139,7 @@ public class MessageDao implements MessageDaoInterface {
         String queryStr;
         try {
             if(isSearch){
-                queryStr = "SELECT m FROM Message m WHERE LOWER(m.sender) LIKE LOWER(CONCAT( '%',:keyWord,'%')) AND m.sender IN m.destinataires";
+                queryStr = "SELECT m.* FROM MESSAGE m, DESTINATAIRE_COPIE dc WHERE m.idMESSAGE = dc.MESSAGE_ID AND dc.ADRESSE_ID LIKE LOWER(CONCAT( '%',:keyWord,'%'))";
             } else{
                 queryStr = "SELECT m.* FROM MESSAGE m, DESTINATAIRE_COPIE dc WHERE m.idMESSAGE = dc.MESSAGE_ID AND dc.ADRESSE_ID = :keyWord";
            }

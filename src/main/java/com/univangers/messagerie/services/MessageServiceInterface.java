@@ -26,10 +26,6 @@ public interface MessageServiceInterface {
 
     public Integer countMessageDto();
 
-    public void updateMessageDto(MessageDto messageDto);
-
-    public void deleteMessageDto(Integer id);
-
     public Integer countMessagesDtoBetweenDates(Date startDate, Date endDate);
 
     public List<MessageDto> findMessageDtoBySender(String senderId, Boolean isSearch);

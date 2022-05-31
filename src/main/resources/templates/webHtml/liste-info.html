@@ -26,7 +26,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     <tr th:each="user:${adresseDtoList}">
                         
                            <span th:if="${user.listeDto } != null ">
-                            <td th:text="${user.listeDto.id}"></td>
+                               <td><a th:href="@{/messagerie/adresses/detail-user(id=${user.listeDto.id})}" th:text="${user.listeDto.id}"></a></td>
                           
                             <td></td>
                             <td> </td>

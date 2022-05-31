@@ -29,7 +29,6 @@ import javax.mail.internet.MimeMultipart;
 import javax.mail.internet.MimeUtility;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.jsoup.Jsoup;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -133,14 +132,7 @@ public class MimeMessageReader {
             }
         }
 
-        //DESTINATAIRES BCC
-        /* Address[] bccList = message.getRecipients(Message.RecipientType.BCC);
-        if (bccList != null) {
-            for (Address adr : message.getRecipients(Message.RecipientType.BCC)) {
-                String mailAdr = getMailFromString(adr.toString());
-                mailObject.getBcc().add(mailAdr);
-            }
-        }*/
+       
         //FICHIER
         List<AttachFile> fileList = extractAttachements(message);
         if (fileList != null) {
@@ -149,6 +141,14 @@ public class MimeMessageReader {
         return mailObject;
     }
 
+    /**
+     * Recupération du corps du message
+     * 
+     * @param message
+     * @return
+     * @throws MessagingException
+     * @throws IOException 
+     */
     private static String getTextFromMessage(Message message) throws MessagingException, IOException {
         String result = "";
 
@@ -161,6 +161,13 @@ public class MimeMessageReader {
         return result;
     }
 
+    /**
+     *  Recupération du corps du message partir d'un objet MimeMultipart
+     * @param mimeMultipart
+     * @return
+     * @throws MessagingException
+     * @throws IOException 
+     */
     private static String getTextFromMimeMultipart(MimeMultipart mimeMultipart) throws MessagingException, IOException {
         String result = "";
         int count = mimeMultipart.getCount();
@@ -180,15 +187,6 @@ public class MimeMessageReader {
         return result;
     }
 
-    private static String getMailFromString(String str) {
-        Matcher m = Pattern.compile("[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+").matcher(str);
-        String mail = null;
-        if (m.find()) {
-            mail = m.group();
-        }
-        return mail;
-    }
-
     private static String getFonctionFromString(String str) {
         Matcher m = Pattern.compile("[\\[\\w*]+]").matcher(str);
         String fonction = null;
@@ -198,16 +196,6 @@ public class MimeMessageReader {
             fonction = fonction.replace("]", "");
         }
         return fonction;
-    }
-
-    private static Boolean getMailTransfert(String subject) throws MessagingException {
-        Boolean resultat = false;
-        Matcher fwd = Pattern.compile("fwd:").matcher(subject);
-        Matcher tr = Pattern.compile("TR:").matcher(subject);
-        if (fwd.find() || tr.find()) {
-            return true;
-        }
-        return resultat;
     }
 
     /**

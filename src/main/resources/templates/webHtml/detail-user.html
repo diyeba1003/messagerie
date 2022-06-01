@@ -25,11 +25,36 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                         </h3>
                     </div>
                     <div>
+                        <!--
                         <ol th:if="${adresseDto.adresseContactDtoList !=null}">
                             <li th:each="contact:${adresseDto.adresseContactDtoList}">
-                                <a  class="text-decoration-none" th:href="@{/messagerie/adresses/detail-user(id=${contact?.id})}"> <span th:text="${contact?.id}"></span></a>
+                                <a  class="text-decoration-none" th:href="@{/messagerie/adresses/detail-user(id=${contact?.id})}">
+                                    <span th:text="${contact?.id} + '('+ ${contact?.nbMessageExchanged} + ')'"></span>
+                                </a>
                             </li>
                         </ol>
+                        -->
+                        <table th:if="${adresseDto.adresseContactDtoList !=null}"  class="table table-striped table-bordered" style="max-width: 70% ">
+                            <thead  class="table-secondary">
+                                <tr>
+                                    <th>Adresse contact</th>
+                                    <th> Nombre de mails échangés</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr th:each="contact:${adresseDto.adresseContactDtoList}">
+                                    <td>
+                                        <a  class="text-decoration-none" th:href="@{/messagerie/adresses/detail-user(id=${contact?.id})}">
+                                            <span th:text="${contact?.id}"></span>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <span th:text="${contact?.nbMessageExchanged}"></span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
                     </div>
                 </div>
                 <div class="col-9 mt-2" th:if="${selectedViewType == 'network_view'}">

@@ -28,4 +28,10 @@ public interface AdresseServiceInterface {
     public Boolean adresseDtoHasContact(String idAdresse, String idContact);
     
     public List<AdresseDto> getAdresseDtoContactList(String idAdresse);
+    
+    public Integer countNbExchangeMessageByDestinataireWithSender(String senderAdress, String destAdress);
+    
+    public Integer countNbExchangeMessageByDestinataireCopieWithSender(String senderAdress, String dcAdress);
+    
+    public AdresseDto findAdresseDtoByIdAndContactInfo(String id);
 }

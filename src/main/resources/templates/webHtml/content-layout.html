@@ -3,7 +3,7 @@
         <ul th:if="${PerMonth==true}" class="list-unstyled">
            
             
-            <li class="border-top pt-1 pb-1" th:each= "message: ${messages}" th:classappend="${message.id == selectedMessage?.id ? 'selected-item' : ''}>
+            <li class="border-top pt-1 pb-1" th:each= "message: ${messages}" th:classappend="${message.id == selectedMessage?.id ? 'selected-item' : ''}">
                 <a th:if="${index != null}"  class="text-decoration-none" th:href="@{/messagerie/messages/liste-message-par-periode(index=${index},id=${message.id})}">
                     <span id="event" th:text="${message.object}"></span>
                 </a>

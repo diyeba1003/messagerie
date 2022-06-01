@@ -42,7 +42,7 @@ public class AdresseController {
             @RequestParam(value = "viewType", required = false) String viewType
     ) {
         String selectedViewType = "liste_view";
-        AdresseDto adresseDto = adresseService.findAdresseDtoById(id);
+        AdresseDto adresseDto = adresseService.findAdresseDtoByIdAndContactInfo(id);
         model.addAttribute("adresseDto", adresseDto);
         if (viewType != null) {
             selectedViewType = viewType;
@@ -64,6 +64,7 @@ public class AdresseController {
             model.addAttribute("contactsTo", contactsTo);
             model.addAttribute("contactsCc", contactsCc);
         }
+        model.addAttribute("adresseService", adresseService);
         model.addAttribute("selectedViewType", selectedViewType);
 
         return "/webHtml/detail-user";

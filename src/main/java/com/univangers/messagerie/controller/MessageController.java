@@ -5,7 +5,6 @@
 package com.univangers.messagerie.controller;
 
 import com.univangers.messagerie.dto.AdresseDto;
-import com.univangers.messagerie.dto.ContactDto;
 import com.univangers.messagerie.dto.DataCounter;
 import com.univangers.messagerie.dto.FichierDto;
 import com.univangers.messagerie.dto.FonctionDto;
@@ -252,11 +251,9 @@ public class MessageController {
         if (id != null && id != 0) {
             MessageDto messageDto = messageService.findMessageDtoById(id);
             model.addAttribute("selectedMessage", messageDto);
-            System.out.println("selectedMessage:\n" + messageDto.getBody());
         } else if (!messageDtoList.isEmpty()) {
             MessageDto messageDto = messageDtoList.get(0);
             model.addAttribute("selectedMessage", messageDto);
-            System.out.println("selectedMessage:\n" + messageDto.getBody());
         }
 
         return "./webHtml/liste-message";

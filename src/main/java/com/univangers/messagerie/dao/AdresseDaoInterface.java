@@ -24,4 +24,8 @@ public interface AdresseDaoInterface  {
     public void update(Adresse adresse);
         
     public Boolean adresseHasContact(String idADRESSE, String contact);
+    
+    public Integer countNbExchangeMessageByDestinataireWithSender(String senderAdress, String destAdress);
+    
+    public Integer countNbExchangeMessageByDestinataireCopieWithSender(String senderAdress, String dcAdress);
 }

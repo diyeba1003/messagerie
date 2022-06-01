@@ -142,11 +142,9 @@ public class AdresseService implements AdresseServiceInterface {
         }
         if (adresse.getMessageList() != null) {
             adresseDto.setNbMessageSent(adresse.getMessageList().size());
-            adresseDto.setNbMessageReceived(adresse.getMessageList().size());
         }
         if (adresse.getDestinataireMessageList() != null) {
             adresseDto.setNbMessageReceived(adresse.getDestinataireMessageList().size());
-
         }
         if (adresse.getDestinatairesCopieMessageList() != null) {
             if (adresse.getDestinataireMessageList() != null) {
@@ -158,7 +156,6 @@ public class AdresseService implements AdresseServiceInterface {
 
         if (adresse.getAdresseContactList() != null) {
             List<AdresseDto> contactDtoList = new ArrayList<>();
-
             for (Adresse contact : adresse.getAdresseContactList()) {
                 AdresseDto aDto = new AdresseDto(contact.getIdADRESSE());
                 contactDtoList.add(aDto);
@@ -182,5 +179,29 @@ public class AdresseService implements AdresseServiceInterface {
             adresseDtoList.add(convertToDto(adresse));
         }
         return adresseDtoList;
+    }
+
+    @Override
+    public Integer countNbExchangeMessageByDestinataireWithSender(String senderAdress, String destAdress) {
+        return adresseDao.countNbExchangeMessageByDestinataireWithSender(senderAdress, destAdress);
+    }
+
+    @Override
+    public Integer countNbExchangeMessageByDestinataireCopieWithSender(String senderAdress, String dcAdress) {
+        return adresseDao.countNbExchangeMessageByDestinataireCopieWithSender(senderAdress, dcAdress);
+    }
+
+    @Override
+    public AdresseDto findAdresseDtoByIdAndContactInfo(String id) {
+        Adresse adresse = adresseDao.findAdresseById(id);
+        AdresseDto adresseDto = convertToDto(adresse);
+        if(adresseDto.getAdresseContactDtoList() != null){
+            for(AdresseDto contactDto: adresseDto.getAdresseContactDtoList()){
+                Integer nbExcangedDest = adresseDao.countNbExchangeMessageByDestinataireWithSender(adresseDto.getId(), contactDto.getId());
+                Integer nbExcangedDestCopie = adresseDao.countNbExchangeMessageByDestinataireCopieWithSender(adresseDto.getId(), contactDto.getId());
+                contactDto.setNbMessageExchanged(nbExcangedDest+nbExcangedDestCopie);
+            }
+        }
+        return adresseDto;
     }
 }

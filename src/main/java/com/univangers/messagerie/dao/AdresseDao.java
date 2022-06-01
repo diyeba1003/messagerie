@@ -5,6 +5,7 @@
 package com.univangers.messagerie.dao;
 
 import com.univangers.messagerie.model.Adresse;
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.EntityManager;
@@ -81,6 +82,50 @@ public class AdresseDao implements AdresseDaoInterface {
             }
         }
         return false;
+    }
+
+    @Override
+    public Integer countNbExchangeMessageByDestinataireWithSender(String senderAdress, String destAdress) {
+        Integer count = 0;
+        String queryStr = "SELECT COUNT(M.idMESSAGE) FROM MESSAGE M, DESTINATAIRE D WHERE M.idMESSAGE = D.MESSAGE_ID " +
+                "AND ((M.sender = :senderAdress AND D.ADRESSE_ID = :destAdress)" +
+                "OR (M.sender = :destAdress AND D.ADRESSE_ID = :senderAdress))";
+        try {
+            Object object  = em.createNativeQuery(queryStr)
+                    .setParameter("senderAdress", senderAdress)
+                    .setParameter("destAdress", destAdress)
+                    .getSingleResult();
+            if (object != null) {
+                count = ((BigInteger) object).intValue();
+            }
+
+        } catch (NoResultException nre) {
+            count = 0;
+
+        }
+        return count;
+    }
+
+    @Override
+    public Integer countNbExchangeMessageByDestinataireCopieWithSender(String senderAdress, String dcAdress) {
+        Integer count = 0;
+        String queryStr = "SELECT COUNT(M.idMESSAGE) FROM MESSAGE M, DESTINATAIRE_COPIE DC WHERE M.idMESSAGE = DC.MESSAGE_ID " +
+                "AND ((M.sender = :senderAdress AND DC.ADRESSE_ID = :dcAdress)" +
+                "OR (M.sender = :dcAdress AND DC.ADRESSE_ID = :senderAdress))";
+        try {
+            Object object  = em.createNativeQuery(queryStr)
+                    .setParameter("senderAdress", senderAdress)
+                    .setParameter("dcAdress", dcAdress)
+                    .getSingleResult();
+            if (object != null) {
+                count = ((BigInteger) object).intValue();
+            }
+
+        } catch (NoResultException nre) {
+            count = 0;
+
+        }
+        return count;
     }
 
 }

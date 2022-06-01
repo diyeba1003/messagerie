@@ -37,6 +37,10 @@ public class AdresseDto {
     
     @Getter
     @Setter
+    private Integer nbMessageExchanged;
+    
+    @Getter
+    @Setter
     private List<AdresseDto> adresseContactDtoList;
     
     public AdresseDto() {
